@@ -1,6 +1,7 @@
 = ThoughtSpot Support
 :last_updated: 07/30/2021
 :linkattrs:
+:page-layout: default-cloud
 :experimental:
 
 At times, all of us need some extra help.

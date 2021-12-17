@@ -2,6 +2,7 @@
 :keywords: fixed issues
 :last_updated: 11/22/2021
 :experimental:
+:page-layout: default-cloud
 :linkattrs:
 
 These are the issues we fixed in recent ThoughtSpot releases.
