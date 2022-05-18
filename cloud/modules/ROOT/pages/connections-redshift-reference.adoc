@@ -9,7 +9,7 @@ The following fields are required, except where noted.
 
 Connection name:: Enter a name for your Redshift connection.
 Connection description:: Provide a short description of the connection.
-Host:: Enter the host name associated with the database.
+Host:: Enter the host name associated with the database. If you used an xref:connections-redshift-private-link.adoc[AWS PrivateLink between your Redshift data warehouse and the ThoughtSpot Cloud tenant], use the PrivateLink Endpoint DNS name provided by {support-url}, and append the database host name.
 Port:: Enter the port number associated with the database.
 User:: Enter the Redshift account username.
 Password:: Enter the Redshift account password.

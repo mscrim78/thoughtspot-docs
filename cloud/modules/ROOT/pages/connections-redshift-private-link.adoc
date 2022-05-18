@@ -75,4 +75,4 @@ Its status should be _Pending Acceptance_.
 [#embrace]
 === Configure Connections
 
-xref:connections-redshift.adoc[Configure Connections for Redshift], using the PrivateLink Endpoint DNS name from ThoughtSpot Support.
+xref:connections-redshift.adoc[Configure Connections for Redshift], using the PrivateLink Endpoint DNS name from ThoughtSpot Support as the hostname.
