@@ -55,4 +55,4 @@ You gathered this information from Snowflake in step 2 of <<request-configuratio
 [#embrace]
 === Configure Connections
 
-xref:connections-snowflake.adoc[Configure Connections for Snowflake], using the PrivateLink Snowflake account name from ThoughtSpot Support.
+xref:connections-snowflake.adoc[Configure Connections for Snowflake], using the PrivateLink Snowflake account name from ThoughtSpot Support for the *Account name* field. For example, `xyz99999.us-west-2.privatelink`.
