@@ -6,8 +6,8 @@
 
 *SearchIQ is in [.label.label-beta]#Beta#.*
 
-{% include note.html content="SearchIQ is turned off by default, you can have ThoughtSpot Support enable it for you.
-SearchIQ is only available in English." %}
+NOTE: SearchIQ is turned off by default, you can have ThoughtSpot Support enable it for you.
+SearchIQ is only available in English.
 
 SearchIQ collects data to improve its interpretation of natural language search.
 
@@ -90,6 +90,6 @@ Please note that this will impact the accuracy of natural language question inte
 
 == Related information
 
-* xref:about-searchiq.html[About SearchIQ]
-* xref:use-searchiq.html[Use SearchIQ]
-* xref:teach-searchiq.html[Teach SearchIQ your language]
+* xref:about-searchiq.adoc[About SearchIQ]
+* xref:use-searchiq.adoc[Use SearchIQ]
+* xref:teach-searchiq.adoc[Teach SearchIQ your language]
