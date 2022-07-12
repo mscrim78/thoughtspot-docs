@@ -8,6 +8,8 @@ When the Ansible playbook runs, it automatically installs them.
 
 ThoughtSpot works with the latest version of each package;
 see the minimum supported version.
+
+[#yum]
 ++++
 <details id="yum">
 <summary><strong>Yum RPM packages</strong></summary>
@@ -171,6 +173,10 @@ see the minimum supported version.
 <tr><td><code>zsh</code></td><td>5.0.2-34.el7_8.2</td></tr>
 </table>
 </details>
+++++
+
+[#pip2]
+++++
 <details id="pip2">
 <summary><strong>Python 2 packages</strong></summary>
 <table>
@@ -227,6 +233,10 @@ see the minimum supported version.
 <tr><td><code>kiwisolver</code></td><td>1.1.0</td></tr>
 </table>
 </details>
+++++
+
+[#pip3]
+++++
 <details id="pip3">
 <summary><strong>Python 3 packages</strong></summary>
 <table>
