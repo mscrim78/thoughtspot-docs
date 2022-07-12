@@ -2,10 +2,10 @@
 :linkattrs:
 :last_updated: 9/30/2020
 
-Install ThoughtSpot on Amazon Linux 2 offline clusters."
+Install ThoughtSpot on Amazon Linux 2 offline clusters.
 Before starting the install, complete the xref:al2-prerequisites.adoc[pre-installation steps].
 
-If you are using the xref:https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html[AWS SSM agent, window="_blank"] as an alternative to SSH, you must run the Ansible playbook and all commands on the __SSM console__. Ensure that your nodes have the right IAM roles for executing SSM scripts, and that they have access to your S3 bucket, if you are using S3.
+If you are using the link:https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html[AWS SSM agent, window="_blank"] as an alternative to SSH, you must run the Ansible playbook and all commands on the __SSM console__. Ensure that your nodes have the right IAM roles for executing SSM scripts, and that they have access to your S3 bucket, if you are using S3.
 
 In an offline cluster, the hosts cannot connect to the public repositories to download the required packages. Instead, you must download the packages from your organization’s mirror repository to each host. Otherwise, the steps for installing on offline clusters are practically the same as the steps for installing on online cluster.
 
