@@ -154,6 +154,7 @@ conditional_formatting:: Conditional formatting for the chart or table of an Ans
 
 custom_name::  Optional display name for a column.
 
+[#data_type]
 data_type:: The data type of the formula output. If the data type is `Numeric` or `Decimal`, the formula output's `column_type` defaults to `Measure`. If the data type is `Boolean`, `Text`, `Date`, `Datetime`, or `Time`, the formula output's `column_type` defaults to `Attribute`. The possible data types are `Boolean`, `Text`, `Date`, `Datetime`, `Time`, `Numeric`, and `Decimal`.+++</dlentry>++++++<dlentry id="description">+++description::::  The text that describes an object: a `worksheet`, a `worksheet_column`, `answer`, `pinboard`, and so on.
 
 destination::  Name of destination table or view of the join
