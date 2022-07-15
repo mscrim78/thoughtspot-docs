@@ -37,9 +37,11 @@ NOTE: Ask your hardware vendor for more details about what they supply and what 
 Depending on which version of the SMC appliance you have, Haswell or Skylake, your 10GbE ports are in a different spot on the back of the appliance.
 Here is a picture of the back of each appliance.
 
+[#haswell-port-location]
 image:smc-haswell-location-ports-new.png[Haswell port location]
 // {% include image.adoc file="smc-haswell-location-ports-new.png" title="Haswell port location" alt="The data and management ports are on the back of the SMC Haswell appliance." caption="Haswell port location" %}
 
+[#skylake-port-location]
 image:smc-appliance-skylake-location-ports.png[Skylake port location]
 // {% include image.adoc file="smc-appliance-skylake-location-ports.png" title="Skylake port location" alt="The data and management ports are on the back of the SMC Skylake appliance." caption="Skylake port location" %}
 
@@ -66,7 +68,8 @@ The images below show two of the four power buttons.
 |===
 | Haswell Appliance | &#32; &#32; &#32; | Skylake Appliance
 
-| image:smc-haswell-power-button-new.png[The power button is at the front of the Haswell appliance.]
+a| [#smc-appliance-power-button]
+image:smc-haswell-power-button-new.png[The power button is at the front of the Haswell appliance.]
 | &#32;
 | image:smc-appliance-skylake-power-button.png[The power button is at the front of the Skylake appliance]
 |===

@@ -135,4 +135,4 @@ If you are using the model file, locate the *Index* cell, and enter the priority
 == Related information
 
 * xref:about-data-modeling-intro.adoc[Model the data for searching]
-* xref:recent-searches.adoc#usage-based-ranking[Usage based rankings (UBR)].
+* xref:recent-searches.adoc[Usage based rankings (UBR)].

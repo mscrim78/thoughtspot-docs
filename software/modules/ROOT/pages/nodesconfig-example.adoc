@@ -57,6 +57,8 @@ See xref:parameters-nodesconfig.adoc[Parameters of the nodes.config file] to und
     }
   }
 ----
+
+[#autodiscovery-of-one-node-example]
 === Autodiscovery of one node example
 ----
  $ vim nodes.config

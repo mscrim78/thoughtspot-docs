@@ -23,7 +23,7 @@ Follow the steps in this checklist to install your cluster.
 | <<install-step-2,Step 2: Check cluster health>>
 
 | &#10063;
-| <<install-step-3,Step 3: Finalize installation>>
+| <<step-3-finalize-installation,Step 3: Finalize installation>>
 |===
 
 [#install-step-1]
@@ -196,7 +196,7 @@ Ensure that all diagnostics show `SUCCESS`.
 
 WARNING: If `tscli cluster check` returns an error, it may suggest you run `tscli storage gc` to resolve the issue. If you run `tscli storage gc`, note that it restarts your cluster.
 
-[#install-step-3]
+[#step-3-finalize-installation]
 == Step 3. Finalize Installation
 
 After the cluster status changes to "`Ready,`" sign in to the ThoughtSpot application on your browser.
@@ -218,6 +218,7 @@ Follow these steps:
 If you do not know the admin credentials, ask your network administrator.
 ThoughtSpot recommends changing the default admin password.
 +
+[#ts-login]
 image::ts-login-page.png[ThoughtSpot's sign-in window]
 // {% include image.adoc file="ts-login-page.png" title="ThoughtSpot's sign-in window" alt="Log in to ThoughtSpot. Enter Username, Password, and click Sign in. You may select the Remember me option." caption="ThoughtSpot's sign-in window" %}
 
