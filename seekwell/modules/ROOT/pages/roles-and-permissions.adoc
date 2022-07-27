@@ -12,7 +12,7 @@ Team administrators can manage what functionality other users can access by hitt
 
 * Admin - Full access to the app including administrative features
 * User - Full access to the app excluding administrative features
-* Restricted - Allows administrator to select functionality / permissions individually.
+* Restricted - Allows administrator to select functionality / permissions individually
 
 To grant specific functionality to a restricted user, type the desired permissions into the "Permissions" field that appears when you select "Restricted" from the role drop-down menu:
 
