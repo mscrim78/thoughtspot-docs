@@ -58,9 +58,11 @@
 ** xref:hubspot.adoc[HubSpot]
 ** Outreach
 ** xref:zoho.adoc[Zoho]
-** xref:linkedin-ads.adoc[LinkedinAds] // article blank in site
+** xref:linkedin-ads.adoc[LinkedinAds]
+// article blank in site
 ** Mailchimp
-** xref:servicenow.adoc[ServiceNow] //article blank in site
+** xref:servicenow.adoc[ServiceNow]
+//article blank in site
 ** xref:enter-manually.adoc[Enter manually]
 ** Pipedrive
 ** xref:front.adoc[Front]
