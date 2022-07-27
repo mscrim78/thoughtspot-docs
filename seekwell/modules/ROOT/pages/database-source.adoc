@@ -1,0 +1,19 @@
+= Database (Source)
+:last_updated: 6/24/2022
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description: Add a new SQL database.
+
+// source
+
+To add a new SQL database, click "Add source" under "Source". If you don't see these options, first start a new SQL block by clicking the plus icon in the top right and selecting "New SQL".
+
+image::new-sql.png[]
+
+image::sql-add-source.png[]
+
+Select the "flavor" (for example, Postgres), give the Source a nickname, and fill in your connection properties.
+
+image::sql-connection-properties.png[]

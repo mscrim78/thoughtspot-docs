@@ -1,0 +1,27 @@
+= Salesforce (Source)
+:last_updated: 6/27/2022
+:author: Naomi
+:linkattrs:
+:experimental:
+//:page-aliases: source-salesforce.adoc
+:page-layout: default-seekwell
+:description: You can query live Salesforce data with SeekWell.
+
+// source
+
+image:salesforce-gif.gif[]
+
+You can query live Salesforce data with SeekWell. We use link:https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm[SOQL,window=_blank], the Salesforce query language, to execute the statements. To get started,  select "Salesforce" as the *Source* in the top right. If you don't see Salesforce as an option, authorize the app link:https://login.salesforce.com/[here,window=_blank] and reload SeekWell.
+
+image::sql-source-salesforce.png[]
+
+A schema appears in the right with the Salesforce Object names. If you click on one object, you'll see all the fields / columns available in that Object. Click the "back" button to go back to the Objects.
+
+image:sql-account-contact.adoc[]        image:sql-delete.png[]
+
+== Example query
+
+[source,ruby]
+----
+select Id, Email, Name, Phone, CreatedDate from Contact
+----

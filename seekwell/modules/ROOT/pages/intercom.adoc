@@ -1,0 +1,39 @@
+= Intercom
+:last_updated: 6/29/2022
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description: With SeekWell's Intercom integration you can easily sync data from your database to Intercom.
+
+// destination
+
+== Getting started
+
+With SeekWell Intercom integration, you can easily sync data from your database to Intercom. To get started, link:https://app.intercom.io/oauth?client_id=2666fea1-41de-4aa2-a04d-e155ce8108dc&state=example[authorize your Intercom account] with SeekWell and then link:https://sql.new/[create a new SQL block] in SeekWell using the plus sign in the top right of the app:
+
+image::destination-intercom.png[]
+
+. Write a SQL statement and run the query to verify the results are as expected.
++
+image::destination-intercom-sql.png[]
+
+. Under "*Destination*" in the right sidebar, select "Intercom".
+
+. After selecting "Intercom" as the destination, click the Mapping option on the bottom of the page next to "Results".
++
+Here you can choose the fields from your query to map to fields in Intercom. You can add additional columns by clicking the green *Add Column* button. Source columns must be in the result of your SQL query.
++
+Once you map the columns to their respective Intercom fields, you can test the sync by clicking the *Test Sync* button.
+
+. Once you test the sync, you can verify the sync to Intercom was successful by clicking on the metadata above the Mapping UI - this takes you to a realtime Feed of your runs.
++
+image::destination-intercom-verify.png[]
+
+. Under the "Repeat" section on the right, select the interval (for example, daily) and time at which you'd like your data to sync.
++
+image::destination-intercom-schedule.png[]
+
+. Complete setup.
++
+From here you can set up more SQL to sync data back to Intercom using the same approach. If you have questions please feel free to contact us link:mailto:contact@seekwell.io[here] or through Intercom on our site link:https://seekwell.io/[here].

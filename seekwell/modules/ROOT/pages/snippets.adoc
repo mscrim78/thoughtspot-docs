@@ -1,0 +1,80 @@
+= Snippets
+:last_updated: 7/5/22
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description: Snippets let you share small, reusable bits of SQL with your team.
+
+
+// Compose (SQL editor)
+
+== Introduction
+
+Snippets let you share small, reusable bits of SQL with your team.
+
+== Demo
+
+video::KwUyIdkBPt0[youtube]
+
+=== Creating your first Snippet
+
+To create a snippet hit `command` / `ctrl` + `k`, and search for "Create snippet".
+
+Working with dates is a great example. Consider this snippet we use at SeekWell which creates three date formats from a `timestamp`.
+
+[source,ruby]
+----
+date_trunc('day', {{column_name}})::date as "{{alias}}_day",
+date_trunc('week', {{column_name}})::date as "{{alias}}_week",
+date_trunc('month', {{column_name}})::date as "{{alias}}_month"
+----
+
+image::snippets.png[]
+
+Once you type `{{`, you'll see the variable added to "Defaults". Here you can add a commonly used value for the variable (e.g. `created_on`).
+
+TIP: Variables are optional, not adding variables will create a "static snippet".
+
+== Navigation
+
+* To create a snippet hit `command` / `ctrl` + `k`, and type "Create snippet".
+* To use a snippet from a block hit `command` / `ctrl` + `;` (semicolon).
+* To view / edit / delete your snippets hit `command` / `ctrl` + `k`, and type "View snippet".
++
+image:sql-snippets.png[]
+
+== Library
+
+=== SnippetLibrary
+
+[options="header",cols="40%,20%,40%"]
+|===
+| Name | Tags | SQL
+
+a| link:https://doc.seekwell.io/addsubselect[addSubSelect] | `ansi` a| 	`(select
+{{group_by_col}},
+max({{max_col}}) max_{{max_col}}
+from
+{{table}}
+group by 1) as max_{{table}}`
+
+a| link:https://doc.seekwell.io/snippets/dayweekmonth[dayWeekMonth] | `postgres` a| `date_trunc('day', {{column_name}})::date::text as "{{alias}}_day",
+date_trunc('week', {{column_name}})::date::text as "{{alias}}_week",
+date_trunc('month', {{column_name}})::date::text as "{{alias}}_month"`
+
+a| link:https://doc.seekwell.io/snippets/addwith[addWith] | `postgres` a| `with {{alias}} as (
+select
+from {{table_name}}
+)`
+
+| Days between two dates | `postgres` a| `now()::date - some_date::date`
+|===
+
+Suggest a snippet link:mailto:contact@seekwell.io[here].
+
+== Other resources to jump-start
+
+* link:https://wiki.postgresql.org/wiki/Date_and_Time_dimensions[Postgres date snippets]
+* link:https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html[MySQL date snippets]
+* link:https://docs.snowflake.com/en/sql-reference/functions-date-time.html[Snowflake date snippets]

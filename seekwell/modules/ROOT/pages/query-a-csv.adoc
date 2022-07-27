@@ -1,0 +1,29 @@
+= Query a CSV
+:last_updated: 6/27/2022
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description:
+
+// source
+
+NOTE: We use xref:sqlite.adoc[SQLite] behind the scenes for this feature.
+
+== Google Drive
+
+. Right-click on the file and click "Share".
++
+image:google-drive-share.png[]
+
+. Change permissions to "Anyone with the link can view".
++
+image:google-drive-link-view.png[]
+
+. Click "Get shareable link" in the top right.
++
+image:google-drive-shareable-link.png[]
+
+. Add the table to your `SELECT` with (1) `{{csv}}` (replace "csv" with a nickname for the source) and select (2) "CSV" and add the (3) URL from the step above.
++
+image:sql-query-csv.png[]

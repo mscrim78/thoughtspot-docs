@@ -1,0 +1,57 @@
+= Facebook
+:last_updated: 7/1/22
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description:
+
+// destination
+
+== Authenticate
+
+Go to link:https://app.seekwell.io/integrations[SeekWell's integration catalog] and click "Add".
+
+image::destination-facebook-ad.png[]
+
+== Write a query
+
+Write or paste in your SQL in a new block.
+
+NOTE: Be sure to give your query a title (text box above the query window).
+
+image::facebook-query.png[]
+
+== Add your destination
+
+Under "Destination" on the right, select "Facebook" and "Create an audience".
+
+image::destination-facebook.png[]
+
+image::destination-facebook-create-audience.png[]
+
+== Map your columns
+
+Click on "Mapping" (above the query results).
+
+image::destination-hubspot-mapping.png[]
+
+== Test the Sync
+
+
+Click "Test Sync". Your results will appear in link:https://business.facebook.com/adsmanager/audiences[Audiences] within a few minutes.
+
+image::destination-facebook-test-sync.png[]
+
+== Logs
+
+
+Clicking on metadata under the "play" button will take you to the logs for your block (including the background job that runs to complete your Facebook updates).
+
+image::destination-facebook-logs.png[]
+
+== Schedule
+
+Click "Add Schedule" under "Repeat" to run your sync on a schedule.
+
+image::destination-facebook-schedule.png[]

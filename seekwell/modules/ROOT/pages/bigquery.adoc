@@ -1,0 +1,33 @@
+= BigQuery
+:last_updated: 6/27/2022
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description:
+
+// source
+
+. Go link:https://console.cloud.google.com/apis/credentials[here,window=_blank] and click on "Create Credentials".
++
+image::bigquery-create-credentials.png[]
+
+. Grant BigQuery User permission.
++
+image:bigquery-user-permission.png[]
+
+.. Click on the credentials under "Service Accounts" link:https://console.cloud.google.com/apis/credentials[here,window=_blank].
++
+image:bigquery-service-acct.png[]
+
+.. Click on "Create new key" under "Add Key" in the "Keys" section.
++
+image:bigquery-add-key.png[]
+
+.. Select JSON.
++
+image:bigquery-select-json.png[]
+
+.. Paste the JSON into the "Service Account Information" field in link:https://app.seekwell.io/integrations[SeekWell].
++
+image:bigquery-service-acct-info.png[]

@@ -1,0 +1,43 @@
+= Excel
+:last_updated: 6/28/2022
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description:
+
+// destination
+
+== Google Drive
+
+. Under "Destination" on the right, click "Add destination", and select "Excel".
+
+. Select the spreadsheet from the drop down. We currently only support `.xlsx` files and this drop-down will show all `.xlsx` files in your Google Drive.
+
+. Enter the Sheet name you want to send data to. #Please note, the entire sheet will be replaced#.
++
+NOTE: If you need other data points or formulas on the same Sheet, send your SeekWell data to one sheet (e.g. "seekwell") and use a formula or pivot table to reference the data from another sheet.
+
+. Run your SQL. When the query is done, refresh the file in Drive to see your data.
++
+video::KoxswXRqCHo[Send data from MySQL to Excel]
+
+== OneDrive (Beta - Invite Only)
+
+. link:mailto:contact@seekwell.io[Contact us] to be added to the beta trial. #This feature will not work without contacting us first#.
+
+. Make sure to authorize the app link:https://seekwell.io/O365_login[here] (you must first log in to link:seekwell.io[seekwell.io]).
+
+. Write your SQL and run it. Make sure the results in the app are what you want in Excel.
+
+. Under "Destination" on the right, click "Add destination" and select "Excel".
+
+. Select the spreadsheet from the drop down (this will show all the `.xlsx` files in your One Drive).
+
+. Enter the range using A1 notions, e.g. "Sheet1!A1". The sheet must already exist.
+
+. Run the query again, the results will be sent to Excel.
++
+++++
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/e5e5ce949dca40289dabeddfac4ab868" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+++++
