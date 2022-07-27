@@ -1,0 +1,63 @@
+= SalesForce (Destination)
+:last_updated: 6/29/2022
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description: You can sync data from your database or warehouse to Salesforce with a simple SQL statement.
+
+// destination
+
+You can sync data from your database or warehouse to Salesforce with a simple SQL statement.
+
+== Using the Mapping UI
+
+. To start sending your database data to Salesforce, link:https://login.salesforce.com/services/oauth2/authorize?client_id=3MVG9LBJLApeX_PDgnQWQtipJhLKZ5zHco7lI6AVz9ZtyX5esJ_oC1b_CJMc.96ffhjXhSrT18lIXWZc5sLXT&redirect_uri=https://seekwell.io/sfdc1&response_type=code[authorize the app].
+
+. Write your SQL query link:http://app.seekwell.io/[in the app] for the data you want to send to Salesforce, and view the results. Be sure to include the `Id` for the record in Salesforce. If you don't already have that in your database, you can query xref:salesforce-source.adoc[Salesforce (Source)] live from SeekWell to get another identifier that is in your database (for example, email) and join to that to get the `Id`.
+
+. Select "Salesforce" as the Destination and select your object (for example, Account) and operation (for example, update).
++
+image:destination-salesforce.png[]
++
+image:destination-salesforce-object.png[]
+
+. Click "Mapping" next to Results under your query.
++
+image:destination-salesforce-mapping.png[]
+
+. In the Mapping UI, select columns from your query and map them to the fields in Salesforce you want to send them to.
++
+image:destination-salesforce-test-sync.png[]
+
+. Click "Test Sync" once you've finished mapping all your columns to their corresponding fields in Salesforce to ensure the sync is working. If the records have not updated, you can view your job statuses in Salesforce under Setup → Bulk Data Load Jobs. Click on the "Job ID" and scroll down to view any errors. You can also view background job errors in the SeekWell App's link:https://app.seekwell.io/feed[Feed].
++
+image:bulk-data-load.png[]
+
+. Add a schedule under "Repeat" so your sync runs regularly and your Salesforce data is always up-to-date.
+
+=== Null values
+
+
+Use the special value `#N/A` to "blank out" or set a field to `NULL`. For example:
+
+[source,ruby]
+----
+select
+u.salesforce_id as "Id",
+u.email as "Email",
+case when u.some_column is null then '#N/A' else u.some_column as "Custom_Data__c"
+from public.users as u
+----
+
+=== Upserts
+
+You need to specify an link:https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_upsert.htm[External ID] (such as email) for upserts.
+
+=== Using Parameters
+
+You can also use Parameters to map your columns to their corresponding fields in Salesforce, as in the video below:
+
+image:salesforce-parameter-gif.gif[]
+
+video::leQbXB9mKQw[youtube]

@@ -1,0 +1,76 @@
+= Connecting to Snowflake
+:last_updated: 7/15/22
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description:
+
+// Getting started
+
+== Prerequisites
+
+To connect to *Snowflake* with *SeekWell*, you need the following fields:
+
+* Account Name
+* Region
+* Warehouse
+* Database
+* Username
+* Password
+* Schema (optional)
+* Role (optional)
+
+
+To find these values in a Snowflake worksheet, first check the URL.
+
+image:snowflake-values.png[]
+
+In the URL, you will find your Account Name (`abcd1234` in our example) and your Region (`us-east-1`). If you don't see a region, it means you're in the default region of `us-west-1`.
+
+image:snowflake-an-region.png[]
+
+You can find your Database and Warehouse by clicking the *Databases* and *Warehouses* icons.
+
+image:snowflake-db.png[]
+
+Your *Username* and *Role* can be found in the top right.
+
+image:snowflake-user-role.png[]
+
+== Connect to Snowflake
+
+. Launch link:https://app.seekwell.io/[Seekwell].
+
+. In the top-right corner, click the plus icon and select *Add New Integration*. The integrations page appears.
+
+. Scroll down to select *Snowflake*, or enter "Snowflake" in the search bar. On the Snowflake tile, click *+ Add*.
+
+. Select "Snowflake" under "Flavor".
++
+image:snowflake-connect-sql.png[]
+
+. Fill out the remaining fields with the account information you found in the prerequisites.
+
+. Click *Save*.
+
+== Finding account details for JDBC
+
+
+When using JDBC, you can use your existing connection string to find account details for Snowflake.
+
+
+[source,ruby]
+----
+jdbc:snowflake://xy12345.eu-central-1.snowflakecomputing.com/?user=peter&warehouse=mywh&db=mydb&schema=public
+----
+
+In the example above:
+
+* *Account Name* = xy12345
+* *Region* = eu-central-1
+** (if region is missing, it means your region is `us-west-1`)
+* *Username* = peter
+* *Warehouse* = mywh
+* *Database* = mydb
+* *Schema* = public

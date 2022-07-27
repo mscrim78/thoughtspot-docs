@@ -1,0 +1,138 @@
+= Refresh Google Sheets Data with Apps Script and the SeekWell API
+:last_updated: 7/5/2022
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description:
+
+// More
+
+Google Apps Script is a powerful tool for extending the functionality of Google Sheets. You can use Apps Script with the link:https://doc.seekwell.io/seekwell-api[SeekWell API] to create features right in Sheets, such as a "Refresh Data" button that triggers a query to send data to your Sheet.
+
+NOTE: If you're new to Apps Script be sure to check out link:https://developers.google.com/apps-script/[Google's documentation] on it.
+
+== Create a "Refresh Data" button in your Sheets toolbar
+
+[#step-1]
+. Make a new Google Spreadsheet and a new link:https://app.seekwell.io/[SeekWell Block] that queries your database (xref:query-sheets-using-sql.adoc[or other Sheets]). Set your destination for the block as a Sheet called "data" in the new Spreadsheet.
+
+. Generate an API Key by hitting `command/ctrl`+ `k`, and type "API" in the link:https://app.seekwell.io/[web app]. Store the generated key. Also, copy the block ID for the block in <<step-1,step 1>>. It can be found in the URL of your block (for example, "app.seekwell.io/run/YOUR_BLOCK_ID").
+
+. Open up the script editor in the Spreadsheet by going to Tools → "Script editor". This will create an Untitled Project which you can rename to "SeekWell Refresh Button".
+
+. Copy this code into your script editor, replacing 'YOUR BLOCK ID' with your block ID and 'YOUR API KEY' with your API key:
++
+[source,ruby]
+----
+function runApi() {
+	var my_block_id =  'YOUR BLOCK ID';
+	var my_api_key = 'YOUR API KEY';
+
+	var data = {
+     'blockId': my_block_id,
+     'api_key': my_api_key,
+     'parameters': []
+        }
+	var options = {
+	  'method' : 'post',
+	  'contentType': 'application/json',
+	  // Convert the JavaScript object to a JSON string.
+	  'payload' : JSON.stringify(data)
+	};
+	var response = UrlFetchApp.fetch('https://api.seekwell.io/run_one', options);
+	//you can log the response if you want
+	//Logger.log(response);
+}
+function onOpen() {
+    SpreadsheetApp.getUi()
+        .createMenu('SeekWell')
+        .addItem('Refresh Data', 'runApi')
+        .addToUi();
+}
+----
+
+If you're unfamiliar with Javascript, this might be a little daunting but this script is actually fairly simple. The onOpen() function creates a "SeekWell" menu item with a "Refresh Data" button in the toolbar. When that is clicked, the runApi() function is called which uses the SeekWell API to trigger your SeekWell block to run and send your data to the Sheet.
+
+Once you save and run that script, the "SeekWell" menu should appear, and clicking "Refresh Data" will send your data to the Sheet.
+
+== Using parameters in the SeekWell API request
+
+
+You can also send parameters from your Sheet to the SeekWell API so that your query only fetches certain data (such as within a specific date interval) to send back to the Sheet. You can do it by adding xref:parameters.adoc[Parameters] to your SeekWell block such as "toDate" and "fromDate" and adding a WHERE clause like the following (assumes you have a date field called "created_on"):
+
+[source,ruby]
+----
+WHERE created_on >= '{{fromDate}}'::date and
+created_on < '{{toDate}}'::date
+----
+
+Then in your runApi() function in the script editor, you can reference specific cells to insert as those parameters. It's best to make another Sheet where you enter your parameters so the data doesn't overwrite them. If you make a new Sheet called "input" and enter the "fromDate" and "toDate" in cells input!F1 and input!H1 respectively, then you can grab those values in Apps Script by using the getRange() and getDisplayValue() methods like the following:
+
+[source,ruby]
+----
+var doc = SpreadsheetApp.getActiveSpreadsheet();
+var fromDate = doc.getRange('input!F1').getDisplayValue();
+var toDate = doc.getRange('input!H1').getDisplayValue();
+----
+
+
+Now you can send those values as parameters back to your query so the data returned to the Sheet will only be between those specified dates. When sending parameters to the SeekWell API, each parameter is a set of key/value pairs with "name" as the name of the parameter and "value" as the value of the parameter.
+
+Using the "fromDate" and "toDate" variables from above, you can construct your parameters like this:
+
+[source,ruby]
+----
+var data = {
+            'blockId': my_block_id,
+            'api_key': my_api_key,
+            'parameters': [{'name': 'toDate', 'value':toDate},
+							{'name':'fromDate','value': fromDate}]
+        };
+----
+
+Putting it all together your new script should look something like this:
+
+[source,ruby]
+----
+function runApi() {
+	var my_block_id =  'YOUR BLOCK ID';
+	var my_api_key = 'YOUR API KEY';
+
+	var doc = SpreadsheetApp.getActiveSpreadsheet();
+	var fromDate = doc.getRange('input!F1').getDisplayValue();
+	var toDate = doc.getRange('input!H1').getDisplayValue();
+
+	var data = {
+     'blockId': my_block_id,
+     'api_key': my_api_key,
+     'parameters': [{'name': 'toDate', 'value':toDate},
+			{'name':'fromDate','value': fromDate}]
+        };
+	var options = {
+	  'method' : 'post',
+	  'contentType': 'application/json',
+	  // Convert the JavaScript object to a JSON string.
+	  'payload' : JSON.stringify(data)
+	};
+	var response = UrlFetchApp.fetch('https://api.seekwell.io/run_one',
+								 options);
+
+	//you can log the response if you want
+	//Logger.log(response);
+}
+function onOpen() {
+    SpreadsheetApp.getUi()
+        .createMenu('SeekWell')
+        .addItem('Refresh Data', 'runApi')
+        .addToUi();
+}
+----
+
+Now whenever you hit "Refresh Data", the data from your query will get sent to your "data" Sheet according to the date interval you specified in the "input" Sheet.
+
+== Getting creative with Apps Script
+
+If you want to draw your own button, you can do so via the *Insert → Drawing* menu in Google Sheets. This will bring up a drawing editor where you can easily draw a box and style it to look like a button. When you click "Save" it will be in your Sheet. You can drag it around to a convenient place and then click the ellipsis icon in the corner → "Assign Script" and type the name of a function from your Apps Script code.
+
+In the example above, you'd want to assign the _runApi()_ function to the button so the SeekWell API is triggered every time the button is clicked.

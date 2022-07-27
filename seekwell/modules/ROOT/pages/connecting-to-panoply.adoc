@@ -1,0 +1,33 @@
+= Connecting to Panoply
+:last_updated: 7/15/22
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description:
+
+// Getting started
+
+To connect to link:https://panoply.io/[Panoply] from SeekWell:
+
+. Launch link:https://app.seekwell.io/[Seekwell].
+
+. In the top-right corner, click the plus icon and select *Add New Integration*. The integrations page appears.
+
+. Scroll down to select *Redshift*, or enter "Redshift" in the search bar. On the Redshift tile, click *+ Add*.
+
+
+. Select Redshift as the flavor.
++
+image:sql-redshift-connect.png[]
+
+. Enter the host and port information. All Panoply connections have the same host and port:
+
+.. Host = link:http://db.panoply.io/[db.panoply.io]
+.. Port = 5439
+
+. To find the remaining connection information, navigate to Panoplu and click *BI Connection* in the Panoply nav. A window similar to the following image appears, where you can find the *Database*, *User*, *Password*, and *Driver* information.
++
+image:sql-panoply-connection.png[]
+
+. Click *Save*.

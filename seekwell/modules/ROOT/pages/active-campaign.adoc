@@ -1,0 +1,45 @@
+= Active Campaign
+:last_updated: 7/21/22
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description:
+
+// destination
+
+== Steps
+
+=== Authentication
+
+. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations].
+
+. Search for Active Campaign and click on “Add”.
++
+image:destination-activecampaign.png[]
+
+. Find your API credentials at link:https://seekwell.activehosted.com/app/settings/developer[https://seekwell.activehosted.com/app/settings/developer].
+
+.. Copy the API Url and API Key and authorize the app in SeekWell.
+
+=== Syncing data to Active Campaign
+
+. Start a new block at link:https://app.seekwell.io/[https://app.seekwell.io/].
+
+. Write a SQL statement and run the query to verify the results are as expected.
+
+. Under "Destination" on the right, select "Active Campaign".
++
+image:destination-activecampaign-select.png[]
+
+. Select your “object” (for example, contacts) and “operation” (for example, create).
+
+. Map your columns.
+
+.. Click on "Mapping” (above the query results).
+
+.. Map the fields in “Source” and “Destination”.
++
+image:destination-ac-mapping.png[]
+
+. Click "Test Sync". Your results will appear in Active Campaign within a few seconds.

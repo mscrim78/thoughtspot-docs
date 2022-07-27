@@ -1,0 +1,17 @@
+= Tables
+:last_updated: 7/5/2022
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description: SeekWell tables let you easily update tables in your database.
+
+// More
+
+== Introduction
+
+SeekWell tables let you easily update tables in your database.
+
+== Demo
+
+video::G4TPy2oX3_k[youtube]

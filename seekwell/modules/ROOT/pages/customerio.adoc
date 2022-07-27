@@ -1,0 +1,59 @@
+= Customer.IO
+:last_updated: 7/1/22
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description: Sync your data warehouse to Customer.IO to create hyper-personalized campaigns, segments, forms, events and forms to reach your customers.
+
+// destination
+
+Sync your data warehouse to link:http://customer.io/[Customer.IO] to create hyper-personalized campaigns, segments, forms, events and forms to reach your customers.
+
+== Steps
+
+=== Authentication
+
+. Authorize the app.
+
+. Authenticate the app:
+
+.. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations].
+
+.. Search for link:http://customer.io/[Customer.io] and click on “Add”.
++
+image:customerio-auth.png[]
+
+.. Find your Customer.io API credentials on link:https://fly.customer.io/settings/api_credentials[https://fly.customer.io/settings/api_credentials].
+
+... *Site* and *API key* tokens will be found under “Tracking API Keys”.
++
+image:customerio-api-cred.png[]
+
+.. Select “App API Keys” in the header next to “Tracking API Keys”.
+
+... Create a new App API key.
+
+... Use the App API key as the *Bearer* token.
++
+image:customerio-app-api.png[]
+
+.. You’re done with the authentication, head over to link:https://app.seekwell.io/[https://app.seekwell.io/].
+
+=== Syncing data to Customer.IO
+
+. Write a SQL statement and run the query to verify the results are as expected.
+
+. Under "Destination" on the right, select "Customer.IO".
++
+image:destination-customerio.png[]
+
+. Select your “object” (for example, segments) and “operation” (for example, delete).
+
+. Map your columns.
+
+.. Click on "Mapping” (above the query results).
+
+.. Map the fields in “Source” and “Destination”.
+
+. Click "Test Sync". Your results will appear in Customer.IO within a few seconds.
