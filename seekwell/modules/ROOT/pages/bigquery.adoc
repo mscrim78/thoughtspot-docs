@@ -1,5 +1,5 @@
-= BigQuery
-:last_updated: 6/27/2022
+= Google BigQuery
+:last_updated: 6/28/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -8,7 +8,12 @@
 
 // source
 
-. Go link:https://console.cloud.google.com/apis/credentials[here,window=_blank] and click on "Create Credentials".
+[#prerequisite]
+== Prerequisites
+
+To get the Service Account information for Google BigQuery, follow these steps:
+
+. Go to the link:https://console.cloud.google.com/apis/credentials[Google BigQuery credentials page,window=_blank] and click on *Create Credentials*.
 +
 image::bigquery-create-credentials.png[]
 
@@ -16,18 +21,28 @@ image::bigquery-create-credentials.png[]
 +
 image:bigquery-user-permission.png[]
 
-.. Click on the credentials under "Service Accounts" link:https://console.cloud.google.com/apis/credentials[here,window=_blank].
+.. Click on the credentials under link:https://console.cloud.google.com/apis/credentials[*Service Accounts*,window=_blank].
 +
 image:bigquery-service-acct.png[]
 
-.. Click on "Create new key" under "Add Key" in the "Keys" section.
+.. Under *Add Key* in the *Keys* section, click on *Create new key*.
 +
 image:bigquery-add-key.png[]
 
-.. Select JSON.
+.. Select *JSON*.
 +
 image:bigquery-select-json.png[]
 
-.. Paste the JSON into the "Service Account Information" field in link:https://app.seekwell.io/integrations[SeekWell].
+== Add Google BigQuery as a source
+
+To connect to BigQuery, follow these steps:
+
+. Open an existing block, or create a new block by clicking the plus icon in the SeekWell home page and selecting *New SQL*.
+
+. Under *Source* in the top right corner, click *Add new source*. If you have a previous connection, select the connection nickname under *Source* and scroll down to select *Add new source*.
+
+. In the pop-up *New source* window, select *Flavor* as *BigQuery*. Enter a nickname for your connection.
+
+. Under Service Account Information, paste the JSON you found in the <<prerequisite,Prerequisites>>.
 +
 image:bigquery-service-acct-info.png[]

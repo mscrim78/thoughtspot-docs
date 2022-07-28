@@ -11,7 +11,7 @@
 NOTE: The database user for this source will need write access to the database. If you need to add or insert rows, consider using xref:forms.adoc[📋 Forms] instead.
 
 You can sync data from a Google Sheet back to your database using the
-xref:google-sheets-addon.adoc[➕ Google Sheets Addon], to get started, link:https://gsuite.google.com/marketplace/app/seekwell_postgres_mysql_snowflake_ms_sql/546600172375[install the addon]. Updates are triggered as soon as an edit in the Sheet is completed, so the updates write back to your database in near-real time.
+xref:google-sheets-addon.adoc[➕ Google Sheets Addon]. To get started, link:https://gsuite.google.com/marketplace/app/seekwell_postgres_mysql_snowflake_ms_sql/546600172375[install the addon]. Updates are triggered as soon as an edit in the Sheet is completed, so the updates write back to your database in near-real time.
 
 video::KOrIT5jqQLI[youtube]
 
