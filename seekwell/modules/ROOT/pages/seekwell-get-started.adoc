@@ -1,0 +1,55 @@
+= Getting started with Seekwell
+:last_updated: 7/28/22
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description: You can write SQL and send the results to apps like Google Sheets, Slack, MS Teams, Hubspot, and more.
+
+// Getting started
+
+////
+++++
+<div style="position: relative; padding-bottom: 58.06451612903225%; height: 0;"><iframe src="https://www.loom.com/embed/2341af8796574626a671940302e8707d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+++++
+////
+
+Use SeekWell to write SQL and send the results to apps like xref:google-sheets.adoc[Google Sheets], xref:microsoft-teams.adoc[MS Teams], xref:salesforce.adoc[Salesforce], xref:slack.adoc[Slack], and more. Blocks are the fundamental framework for working with SeekWell. The four primary components of your block are the SQL that you write, the data source, the destination for your output, and the xref:parameters.adoc[parameter mapping].
+
+////
+Before you begin
+////
+
+== Blocks
+
+Blocks can operate on the results of other blocks, so you can build complex processes to move data across databases and applications.
+
+== Create a Block
+
+To create a block, follow these steps:
+
+== Connect to a source
+
+To connect to a source, follow these steps:
+
+Source -> Add Source
+
+== Write your SQL statement
+
+To input a SQL statement, follow these steps:
+
+Verify that it produces the desired results.
+
+== Connect to a destination
+
+To connect to a destination, follow these steps:
+
+== Set parameters [optional]
+
+To set parameters for your block, follow these steps:
+
+
+=== Related information
+
+
+

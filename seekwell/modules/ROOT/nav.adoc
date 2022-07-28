@@ -4,7 +4,7 @@
 ** Deprecated
 *** xref:python.adoc[Python]
 
-* Getting started
+* xref:seekwell-get-started.adoc[Getting started]
 ** xref:whitelisting-our-ip-address.adoc[Whitelist our IP address]
 ** xref:microsoft-sql-server-ms-sql.adoc[Microsoft SQL Server (MS SQL)]
 ** xref:connect-to-snowflake.adoc[Connect to Snowflake]
@@ -42,7 +42,7 @@
 ** xref:salesforce-source.adoc[Salesforce]
 ** xref:bigquery.adoc[BigQuery]
 
-* Destinations
+* xref:destinations.adoc[Destinations]
 ** xref:google-sheets.adoc[Sheets]
 *** xref:import-sql-database-to-sheets.adoc[Import SQL database to Sheets]
 *** xref:syncsheet.adoc[Sync data from Google Sheets to SQL]
