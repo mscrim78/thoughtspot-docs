@@ -32,7 +32,7 @@
 ** xref:tables.adoc[Tables]
 ** xref:pivot-tables.adoc[Pivot tables]
 
-* Sources
+* xref:sources.adoc[Sources]
 ** xref:database-source.adoc[Add a new SQL Database]
 ** xref:query-sheets-using-sql.adoc[Query Sheets using SQL]
 ** xref:query-blocks.adoc[Query blocks]
