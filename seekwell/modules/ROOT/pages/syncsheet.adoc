@@ -17,7 +17,7 @@ video::KOrIT5jqQLI[youtube]
 
 [#step-1]
 . Create a link:https://sql.new/[new SQL block] with
-xref:parameters.adoc[⚙ Parameters]. It's best to give the parameter the same name as the column, e.g.
+xref:parameters.adoc[⚙ Parameters]. It's best to give the parameter the same name as the column, for example:
 +
 [source,ruby]
 ----
@@ -40,9 +40,9 @@ image:new-sql-block.png[]
 +
 image:sql-set-up-sync.png[]
 
-. Add the range that your data is in, for example, "Sheet1!A:G". You need to include the cell range using A1 notation. Your table in sheets needs to have headers / column names.
+. Add the range that your data is in, for example, "Sheet1!A:G". You need to include the cell range using A1 notation. Your table in Sheets needs to have headers / column names.
 +
-NOTE: You can only have one sync per sheet, but you can have multiple syncs in the same spreadsheet.
+NOTE: You can only have one sync per Sheet, but you can have multiple syncs in the same spreadsheet.
 +
 image:sql-sync.png[]
 
