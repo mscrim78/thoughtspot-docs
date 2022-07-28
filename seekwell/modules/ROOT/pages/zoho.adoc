@@ -1,5 +1,5 @@
 = Zoho (Destination)
-:last_updated: 7/1/22
+:last_updated: 7/28/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -20,7 +20,7 @@
 
 . Write a SQL statement and run the query to verify the results are as expected.
 
-. Under "*Destination*" on the right, select "Zoho".
+. Under *Destination* on the right, select *Zoho*.
 
 . link:https://accounts.zoho.com/oauth/v2/auth?scope=ZohoCRM.users.all,ZohoCRM.settings.profiles.all,ZohoCRM.settings.roles.all,ZohoCRM.modules.ALL,ZohoCRM.settings.fields.ALL&response_type=code&client_id=1000.MWYNSUSNWVM420SPP7KY9Z9WD81LDY&redirect_uri=https://seekwell.io/zoho1&access_type=offline&prompt=consent[Authorize the app].
 
@@ -30,10 +30,10 @@ image:destination-zoho-gif.gif[]
 
 . Map your columns.
 
-.. Click on "Mapping" (above the query results).
+.. To the right of *Results*, click on *Mapping*.
 +
 image:destination-zoho-map-gif.gif[]
 
-.. Click "Test Sync". Your results will appear in Zoho CRM within a few seconds.
+.. Click *Test Sync*. Your results will appear in Zoho CRM within a few seconds.
 
 .. (Optional) Set a schedule so your updates run automatically.

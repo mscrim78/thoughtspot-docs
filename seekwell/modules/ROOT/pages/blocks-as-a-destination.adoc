@@ -8,7 +8,7 @@
 
 // destination
 
-You can use a table created by a Block as your destination. When using the block as a destination, the primary or "Action" block will loop through the results of the destination, or "List" block, and substitute parameters in the Action block with values from the List block. This can be useful for tasks like sending data to dynamically-created Sheets or files.
+You can use a table created by a Block as your destination. When using the block as a destination, the primary or "Action" block will loop through the results of the destination, or "List", block. The query will then substitute parameters in the Action block with values from the List block. This function can be useful for tasks like sending data to dynamically-created Sheets or files.
 
 NOTE: We use the term "*List Block*" to refer to the block you use to get your list, and the term "*Action Block*" for the one that's going to "do something", or write data to a Sheet.
 
@@ -16,16 +16,18 @@ NOTE: We use the term "*List Block*" to refer to the block you use to get your l
 
 video::FjS2Ok_Np48[youtube]
 
+[#create-block]
 == Sheets
 
-. Select *Block* as the type.
+. Within your Block, click the field under *Destination* and select *Block* as the type.
 +
 image:destination-blocks.png[]
 
-. Select the block from the drop-down. You can filter the list by the block name. Your *List Block* must have the xref:blocks-as-a-destination.adoc#required-fields[required fields] for the destination type (see below).
+. Below *Type*, click *Block* and select the desired list block from the drop-down. You can filter the list by the block name. Your *List Block* must have the xref:blocks-as-a-destination.adoc#required-fields[required fields] for the destination type (see below).
 
 . Add xref:parameters.adoc[⚙ Parameters] from the *List Block* into the *Action Block* using the same name as the column name in the *List Block*. Keep the parameter type as the default "value". Make sure there are no spaces in the column name, for example, `some_column`.
 +
+.Parameters example
 [source,ruby]
 ----
 select '{{email}}' as assigned_to, u.channel, u.plan, u.email as user_email
@@ -34,7 +36,7 @@ where 1=1
 and u.channel = '{{channel}}'
 ----
 
-. Run the block. Once it's complete, check your email for the reports.
+. Run the block. Once complete, check your email for the reports.
 
 NOTE: There is a 500 row limit on Destination Lists. If you need that limit removed, please contact us at link:mailto:contact@seekwell.io[contact@seekwell.io].
 
@@ -97,7 +99,7 @@ from my.some_other_table as s
 limit 2
 ----
 
-. Select "Block" as the destination, "Loop thru rows" as the type, and the block you created above as the block.
+. Select *Block* as the destination, *Loop thru rows* as the type, and the block you created <<create-block,above>> as the block.
 +
 image:destination-block.png[]
 

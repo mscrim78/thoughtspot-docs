@@ -18,16 +18,18 @@ video::4Khf2ENIzB4[youtube]
 
 . Write your link:http://app.seekwell.io/[SQL in the app] to obtain the data you want to update/insert. Be sure to map the object ID to the `id` in the destination mapping for *update* and *delete* operations.
 
-. Select Hubspot as the destination and select your object (for example, Contacts) and operation (for example, update).
+. Under *Destination* on the right, select *Hubspot*. Fill the following fields:
+.. Object (for example, Contacts)
+.. Operation (for example, update)
 +
 image:destination-hubspot-gif.gif[]
 
-. Map your columns.
 
-.. Click on "Mapping" (above the query results).
+. Map your columns.
+.. To the right of *Results*, click on *Mapping*.
 +
 image:destination-hubspot-mapping.png[]
 
-. Click "Test Sync". Your results will appear in HubSpot within a few minutes.
+. Click *Test Sync*. Your results appear in HubSpot within a few minutes.
 
 . (Optional) Set a schedule so your updates run automatically.

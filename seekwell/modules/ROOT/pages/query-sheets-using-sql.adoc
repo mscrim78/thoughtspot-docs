@@ -30,13 +30,13 @@ image:sql-params.png[]
 +
 NOTE: If your data starts in A1 and there is only one table in the sheet, you can use the Sheet name. Otherwise you need to specify the range for your table (e.g. `revenue!A:C`).
 
-. Write the rest of your SQL statement as you normally would.
+. Complete the rest of your SQL statement.
 
 == Tips and Tricks
 
 * You must use a SQL alias for the Sheet / table (for example, `from {{users}} as u`).
 * You can use this feature to email a summary of a Sheet via a Story or a full table as a CSV.
-
++
 [source,ruby]
 ----
 select r.email,  u.channel

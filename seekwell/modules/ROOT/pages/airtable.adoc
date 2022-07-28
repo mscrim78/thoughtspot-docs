@@ -16,15 +16,19 @@ video::m-uygyDjV0A[youtube]
 
 == Connecting
 
-. In link:https://app.seekwell.io/[Seekwell,window=_blank], go to Source → "Add source" in the top right of the app.
+. In link:https://app.seekwell.io/[Seekwell,window=_blank], select a block or click the plus icon in the top right and select *New SQL* to create a new block.
+
+. Select *Add source* in the top right of the app. If you have a previous connection, select the connection nickname under *Source* and scroll down to select *Add new source*.
 +
 image:sql-add-source.png[]
+
+. Under *Flavor*, select *Airtable*. Enter a nickname under *Nickname*.
 
 . Add your Airtable API key to the source.
 +
 image:sql-source-airtable.png[]
 +
-You can get your API key link:https://airtable.com/account[here,window=_blank] on your account page (Click on "Generate key" if you do not see an existing API key.
+You can get your API key link:https://airtable.com/account[here,window=_blank] on your account page. If you do not see an existing API key, click on *Generate key*.
 +
 image:sql-airtable-key.png[]
 
@@ -36,6 +40,7 @@ image:airtable-id.png[]
 
 . Write a SQL query. Use the Base ID (`appkLTrRdxeM51z0P` in the example above) as the SQL schema name and the table name to test a `SELECT` statement.
 +
+.Airtable example
 [source,ruby]
 ----
 select *

@@ -4,13 +4,20 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
+:destination: Slack
 :description:
 
 // destination
 
-. Go link:https://slack.com/oauth/authorize?client_id=274525912167.273518441556&scope=files:read,im:history,channels:history,commands,channels:read,users.profile:read,files:write:user,chat:write:bot,users:read,users:read.email,groups:history,mpim:history,im:read,mpim:read,groups:read,bot[here, window=_blank] to authorize the app (make sure you are signed in to your company's Slack account).
+// update images!
 
-. Click on the current destination and select "Slack".
+== Prerequisites
+
+. Sign in to your company's {destination} account and link:https://slack.com/oauth/authorize?client_id=274525912167.273518441556&scope=files:read,im:history,channels:history,commands,channels:read,users.profile:read,files:write:user,chat:write:bot,users:read,users:read.email,groups:history,mpim:history,im:read,mpim:read,groups:read,bot[authorize the app, window=_blank].
+
+== Add {destination} as a destination
+
+. Within your SQL block, click on the current destination and select {destination} from the drop-down.
 +
 image:destination-slack.png[]
 

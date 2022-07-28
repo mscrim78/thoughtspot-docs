@@ -8,7 +8,7 @@
 
 // destination
 
-You can use a "List" generated from an existing block as part of your destination. This can be used for tasks such as:
+You can use a "List" generated from an existing block as part of your destination. You can use this function for tasks such as:
 
 * Sending an email to a set of users that meet certain criteria in your database or a Google Sheet.
 
@@ -22,12 +22,20 @@ video::yNzQMcRgF3M[youtube]
 
 == Email
 
-. Select *Email* as the type, and *Use a block*.
 
-. Select the block from the drop-down. You can search to filter the list.
+. Within your block, click on the current destination and select *Email* from the drop-down.
++
+image:destination-email.png[]
+
+. Under *Send from*, enter your email address.
+
+. Click *Enter manually*, and select *Use a block* from the drop-down.
+
+. Click *Block* and select the block from the drop-down. You can search to filter the list.
 
 . Add xref:parameters.adoc[Parameters] from the *List Block* into the *Action Block* using the same name as the column name in the List Block. Keep the parameter type as the default "value". Make sure there are no spaces in the column name, for example, `some_column`.
 +
+.Email list example
 [source,ruby]
 ----
 select '{{email}}' as assigned_to, u.channel, u.plan, u.email as user_email

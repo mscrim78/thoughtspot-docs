@@ -1,5 +1,5 @@
 = Customer.IO
-:last_updated: 7/1/22
+:last_updated: 7/28/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -38,22 +38,24 @@ image:customerio-api-cred.png[]
 +
 image:customerio-app-api.png[]
 
-.. You’re done with the authentication, head over to link:https://app.seekwell.io/[https://app.seekwell.io/].
+.. Navigate to the link:https://app.seekwell.io/[SeekWell home page].
 
 === Syncing data to Customer.IO
 
 . Write a SQL statement and run the query to verify the results are as expected.
 
-. Under "Destination" on the right, select "Customer.IO".
+. Under *Destination* on the right, select *Customerio*.
 +
 image:destination-customerio.png[]
 
-. Select your “object” (for example, segments) and “operation” (for example, delete).
+. Fill the following fields:
+.. Object (for example, segments)
+.. Operation (for example, delete)
 
 . Map your columns.
 
-.. Click on "Mapping” (above the query results).
+.. To the right of *Results*, click on *Mapping*.
 
-.. Map the fields in “Source” and “Destination”.
+.. Map the fields in *Source* and *Destination*.
 
-. Click "Test Sync". Your results will appear in Customer.IO within a few seconds.
+. Click "Test Sync". Your results appear in Customer.IO within a few seconds.

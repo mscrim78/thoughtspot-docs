@@ -1,5 +1,5 @@
 = Facebook
-:last_updated: 7/1/22
+:last_updated: 7/28/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -8,50 +8,40 @@
 
 // destination
 
-== Authenticate
+== Steps
 
-Go to link:https://app.seekwell.io/integrations[SeekWell's integration catalog] and click "Add".
-
+. Go to link:https://app.seekwell.io/integrations[SeekWell's integration catalog], select Facebook ads, and click *Add*.
++
 image::destination-facebook-ad.png[]
 
-== Write a query
-
-Write or paste in your SQL in a new block.
-
-NOTE: Be sure to give your query a title (text box above the query window).
-
+. Write or paste in your SQL in a new block.
++
+NOTE: Be sure to give your query a title in the text box above the query window.
++
 image::facebook-query.png[]
 
-== Add your destination
-
-Under "Destination" on the right, select "Facebook" and "Create an audience".
-
+. Under *Destination* on the right, select *Facebook* and *Create an audience*.
++
 image::destination-facebook.png[]
-
++
 image::destination-facebook-create-audience.png[]
 
-== Map your columns
+. Map your columns
 
-Click on "Mapping" (above the query results).
-
+.. Above the query results, click on *Mapping*.
++
 image::destination-hubspot-mapping.png[]
 
-== Test the Sync
+.. Map the fields in *Source* and *Destination*.
 
-
-Click "Test Sync". Your results will appear in link:https://business.facebook.com/adsmanager/audiences[Audiences] within a few minutes.
-
+. Click *Test Sync*. Your results appear in link:https://business.facebook.com/adsmanager/audiences[Audiences] within a few minutes.
++
 image::destination-facebook-test-sync.png[]
 
-== Logs
-
-
-Clicking on metadata under the "play" button will take you to the logs for your block (including the background job that runs to complete your Facebook updates).
-
+. [Optional] Click on metadata under the "play" button to see the logs for your block (including the background job that runs to complete your Facebook updates).
++
 image::destination-facebook-logs.png[]
 
-== Schedule
-
-Click "Add Schedule" under "Repeat" to run your sync on a schedule.
+. [Optional] Click *Add Schedule* under *Repeat* to run your sync on a schedule.
 
 image::destination-facebook-schedule.png[]

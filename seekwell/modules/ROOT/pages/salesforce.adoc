@@ -10,19 +10,21 @@
 
 You can sync data from your database or warehouse to Salesforce with a simple SQL statement.
 
-== Using the Mapping UI
+== Use the Mapping UI
 
 . To start sending your database data to Salesforce, link:https://login.salesforce.com/services/oauth2/authorize?client_id=3MVG9LBJLApeX_PDgnQWQtipJhLKZ5zHco7lI6AVz9ZtyX5esJ_oC1b_CJMc.96ffhjXhSrT18lIXWZc5sLXT&redirect_uri=https://seekwell.io/sfdc1&response_type=code[authorize the app].
 
-. Write your SQL query link:http://app.seekwell.io/[in the app] for the data you want to send to Salesforce, and view the results. Be sure to include the `Id` for the record in Salesforce. If you don't already have that in your database, you can query xref:salesforce-source.adoc[Salesforce (Source)] live from SeekWell to get another identifier that is in your database (for example, email) and join to that to get the `Id`.
+. Write your SQL query link:http://app.seekwell.io/[in the app] for the data you want to send to Salesforce, and view the results. Be sure to include the `Id` for the record in Salesforce. If you don't already have the id in your database, you can query xref:salesforce-source.adoc[Salesforce (Source)] live from SeekWell to get another identifier that is in your database (for example, email) and join to that to get the `Id`.
 
-. Select "Salesforce" as the Destination and select your object (for example, Account) and operation (for example, update).
+. Under *Destination* on the right, select *Salesforce*. Fill the following fields:
+.. Object (for example, Account)
+.. Operation (for example, update)
 +
 image:destination-salesforce.png[]
 +
 image:destination-salesforce-object.png[]
 
-. Click "Mapping" next to Results under your query.
+. To the right of *Results*, click *Mapping*.
 +
 image:destination-salesforce-mapping.png[]
 
@@ -30,11 +32,11 @@ image:destination-salesforce-mapping.png[]
 +
 image:destination-salesforce-test-sync.png[]
 
-. Click "Test Sync" once you've finished mapping all your columns to their corresponding fields in Salesforce to ensure the sync is working. If the records have not updated, you can view your job statuses in Salesforce under Setup → Bulk Data Load Jobs. Click on the "Job ID" and scroll down to view any errors. You can also view background job errors in the SeekWell App's link:https://app.seekwell.io/feed[Feed].
+. Once you've finished mapping all your columns to their corresponding fields in Salesforce, click *Test Sync* to ensure the sync is working. If the records have not updated, you can view your job statuses in Salesforce under menu:Setup[Bulk Data Load Jobs]. Click on the *Job ID* and scroll down to view any errors. You can also view background job errors in the SeekWell App's link:https://app.seekwell.io/feed[Feed,window=_blank].
 +
 image:bulk-data-load.png[]
 
-. Add a schedule under "Repeat" so your sync runs regularly and your Salesforce data is always up-to-date.
+. Add a schedule under *Repeat* so your sync runs regularly and your Salesforce data is always up-to-date.
 
 === Null values
 
@@ -52,7 +54,7 @@ from public.users as u
 
 === Upserts
 
-You need to specify an link:https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_upsert.htm[External ID] (such as email) for upserts.
+You need to specify an link:https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_upsert.htm[External ID,window=_blank] (such as email) for upserts.
 
 === Using Parameters
 

@@ -16,11 +16,11 @@ image:sql-source-sheets.png[]
 
 . Add a Sheet to your `from` statement by typing `{{NAME}}`. Replace `NAME` with a one word short reference to the Sheet / table (for example, `select * from {{users}}`).
 
-. In the "Parameters" section, pick "Excel" as the type.
+. In the *Parameters* section, select *Excel* as the type.
 +
 image:sql-params-excel.png[]
 
-. Select the spreadsheet from the drop-down. We currently only support `.xlsx` files and this will show all `.xlsx` files in your Google Drive.
+. Select the spreadsheet from the drop-down. Since SeekWell currently only supports `.xlsx` files, this drop-down displays all `.xlsx` files in your Google Drive.
 
 . Enter the Sheet name you want to query from.
 
