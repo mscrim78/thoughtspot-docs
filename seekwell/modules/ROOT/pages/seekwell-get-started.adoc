@@ -1,0 +1,108 @@
+= Getting started with Seekwell
+:last_updated: 7/28/22
+:author: Naomi
+:linkattrs:
+:experimental:
+:page-layout: default-seekwell
+:description: You can write SQL and send the results to apps like Google Sheets, Slack, MS Teams, Hubspot, and more.
+
+// Getting started
+
+////
+++++
+<div style="position: relative; padding-bottom: 58.06451612903225%; height: 0;"><iframe src="https://www.loom.com/embed/2341af8796574626a671940302e8707d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+++++
+////
+
+Use SeekWell to write SQL and send the results to apps like xref:google-sheets.adoc[Google Sheets], xref:microsoft-teams.adoc[MS Teams], xref:salesforce.adoc[Salesforce], xref:slack.adoc[Slack], and more. Blocks are the fundamental framework for working with SeekWell. The four primary components of your block are the SQL that you write, the data source, the destination for your output, and the xref:parameters.adoc[parameter mapping].
+
+////
+Before you begin
+////
+
+== Blocks
+
+Blocks can operate on the results of other blocks, so you can build complex processes to move data across databases and applications.
+
+== Create a Block
+
+To create a block, follow these steps:
+
+. Log in to link:https://app.seekwell.io/[Seekwell].
+
+. Click the plus icon in the top-right of the screen and select *New SQL*.
+
+. Click *Untitled* and enter the title of your new Block.
+
+== Connect to a source
+
+To connect to a new source, follow these steps:
+
+. Open your Block.
+. Under *Source* in the top right corner, click *Add new source*. If you have a previous connection, select the connection nickname under *Source* and scroll down to select *Add new source*.
+
+. In the pop-up *New source* window, complete the following fields:
+.. Flavor
+.. Nickname
+.. Host
+.. Port
+.. Username
+.. Password
+.. Database
+.. Use SSL / Use SSH
++
+NOTE: You must whitelist the SeekWell IP addresses (35.193.207.79 and 35.239.74.213) for the connection to work. For more information, see xref:whitelisting-our-ip-address.adoc[].
+
+. Click *Save*.
+
+== Write your SQL statement
+
+To input a SQL statement, follow these steps:
+
+. Click *Write SQL here...* and enter your statement.
+
+. In the section below the SQL statement, verify that your statement produces the desired results. Note that you can view your results in both chart and table form.
+
+== Connect to a destination
+
+To connect to a destination, follow these steps:
+
+. Under *Destination*, click *Add destination*. If you have previously selected destinations, click the destination name and scroll down to select *Add destination*.
+
+. SeekWell selects *Sheets* as the default destination. To send your results to a different destination, click *Sheets* and scroll down to select your new destination.
+
+. Fill out the fields below your selected destination. For *Sheets*, fill out the following fields:
+.. Spreadsheet: Select a spreadsheet or click *Create new Sheet*. If you do not see the desired spreadsheet destination, begin typing to search, or click *Refresh Sheets*.
+.. Sheet1: Enter the page of the Spreadsheet to input your results. Seekwell defaults to Sheet1.
+.. A1: Enter the beginning cell to input your results. SeekWell defaults to cell A1.
+.. Replace rows / Append rows: If your Sheet has existing data, decide whether to replace rows with your results, or append your results.
+.. Include column names / Omit column names: Decide whether to include or omit column names.
+
+. CLick *Save*.
+
+. Click the *Play* icon to run SQL and send the results to your chosen destination. The results appear in your destination within a few seconds.
+
+////
+== Set parameters [optional]
+
+With parameters you can inject data into your SQL statement. You can input plain text or  numbers, or inject data from Sheets or another block.
+
+To set parameters for your block, follow these steps:
+
+. Within your SQL statement, add a parameter.
++
+[source,ruby]
+----
+select e.*
+from dummy.events AS e
+where 1=1
+and e.email like '%{{email}}%'
+limit 200
+----
+////
+
+=== Related information
+
+* xref:parameters.adoc[]
+* xref:triggers.adoc[]
+
