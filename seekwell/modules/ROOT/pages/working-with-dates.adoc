@@ -10,16 +10,19 @@
 
 If you're having trouble formatting dates (especially in Sheets), the best way to get consistent format is to cast dates as a string.
 
-* link:https://www.mssqltips.com/sqlservertip/1145/date-and-time-conversions-using-sql-server/[SQL Server]
-* link:http://www.sqlines.com/sql-server-to-mysql/functions/convert_string[MySQL]
-* link:https://www.postgresql.org/docs/8.1/functions-formatting.html[Postgres]
-* link:https://docs.snowflake.com/en/sql-reference/functions-conversion.html#date-and-time-formats-in-conversion-functions[Snowflake]
-* +
+link:https://www.mssqltips.com/sqlservertip/1145/date-and-time-conversions-using-sql-server/[SQL Server]
+
+link:http://www.sqlines.com/sql-server-to-mysql/functions/convert_string[MySQL]
+
+link:https://www.postgresql.org/docs/8.1/functions-formatting.html[Postgres]
+
+link:https://docs.snowflake.com/en/sql-reference/functions-conversion.html#date-and-time-formats-in-conversion-functions[Snowflake]
+
 [%collapsible]
 .BigQuery
 ====
 Use `*_TRUNC` instead of format, e.g.
-+
+
 [source,ruby]
 ----
 TIMESTAMP_TRUNC(timestamp, DAY) AS timestamp_day,

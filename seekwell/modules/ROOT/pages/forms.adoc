@@ -35,7 +35,8 @@ NOTE: Only admin users can see the SQL preview and edit the block.
 
 You can require Form submissions to be approved by an admin on your team. When creating the Form, select "Requires approval" from the drop down on the left. Admins can approve submission from the queue by changing the status to "Approved".
 
-image:requires-approval.png[] image:approval-pending.png[]
+image::requires-approval.png[]
+image::approval-pending.png[]
 
 video::eZHCVj-F5rg[youtube]
 

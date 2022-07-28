@@ -20,13 +20,13 @@ NOTE: If you need other data points or formulas on the same Sheet, send your See
 
 . Run your SQL. When the query is done, refresh the file in Drive to see your data.
 +
-video::KoxswXRqCHo[Send data from MySQL to Excel]
+video::KoxswXRqCHo[youtube]
 
 == OneDrive (Beta - Invite Only)
 
 . link:mailto:contact@seekwell.io[Contact us] to be added to the beta trial. #This feature will not work without contacting us first#.
 
-. Make sure to authorize the app link:https://seekwell.io/O365_login[here] (you must first log in to link:seekwell.io[seekwell.io]).
+. Make sure to authorize the app link:https://seekwell.io/O365_login[here] (you must first log in to link:https://www.seekwell.io[seekwell.io]).
 
 . Write your SQL and run it. Make sure the results in the app are what you want in Excel.
 
