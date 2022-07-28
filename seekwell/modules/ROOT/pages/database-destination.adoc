@@ -38,7 +38,7 @@ video::sq0kxgSUCWc[youtube]
 
 . Start a new block in the link:https://app.seekwell.io/[SeekWell Web App] and choose the source of the data you want to create/replace a new table with. In this example, we use a table from Google Sheets as the source data, so we choose "Sheets/CSV/Block" as our source.
 
-. Write SQL to fetch the data you want to use. If you want the entire table of your source data to be created/replaced in your destination database, simply `SELECT *` from your source table. If your source data is in a Google Sheet, remember to alias the Sheet in double curly braces, or `{{}}`, and change the xref:parameters.adoc[Parameter] Type to *Sheets*. Then enter your correct Spreadsheet and Sheet names under *Parameters* on the right.
+. Write SQL to fetch the data you want to use. If you want the entire table of your source data to be created/replaced in your destination database, simply `SELECT \*` from your source table. If your source data is in a Google Sheet, remember to alias the Sheet in double curly braces, or `{{}}`, and change the xref:parameters.adoc[Parameter] Type to *Sheets*. Then enter your correct Spreadsheet and Sheet names under *Parameters* on the right.
 
 . Check that the correct data returns when you run your SQL query.
 

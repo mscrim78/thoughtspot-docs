@@ -1,5 +1,5 @@
 = Active Campaign
-:last_updated: 7/21/22
+:last_updated: 7/28/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -14,7 +14,7 @@
 
 . Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations].
 
-. Search for Active Campaign and click on “Add”.
+. Search for Active Campaign and click on *Add*.
 +
 image:destination-activecampaign.png[]
 
@@ -28,18 +28,20 @@ image:destination-activecampaign.png[]
 
 . Write a SQL statement and run the query to verify the results are as expected.
 
-. Under "Destination" on the right, select "Active Campaign".
+. Under *Destination* on the right, select *Active Campaign*.
 +
 image:destination-activecampaign-select.png[]
 
-. Select your “object” (for example, contacts) and “operation” (for example, create).
+. Fill the following fields:
+.. Object (for example, contacts)
+.. Operation (for example, create)
 
 . Map your columns.
 
-.. Click on "Mapping” (above the query results).
+.. Above the query results, click on *Mapping*.
 
-.. Map the fields in “Source” and “Destination”.
+.. Map the fields in *Source* and *Destination*.
 +
 image:destination-ac-mapping.png[]
 
-. Click "Test Sync". Your results will appear in Active Campaign within a few seconds.
+. Click *Test Sync*. Your results appear in Active Campaign within a few seconds.

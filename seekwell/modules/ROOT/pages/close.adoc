@@ -28,17 +28,19 @@ image:destination-close.png[]
 
 . Write a SQL statement and run the query to verify the results are as expected.
 
-. Under "Destination" on the right, select "Close".
+. Under *Destination* on the right, select *Close*.
 +
 image:destination-close-select.png[]
 
-. Select your “object” (for example, contact) and “operation” (for example, create).
+. Fill the following fields:
+.. Object (for example, contact)
+.. Operation (for example, create)
 
 . Map your columns.
 
-.. Click on "Mapping” (above the query results).
-.. Map the fields in “Source” and “Destination”.
+.. Above the query results, click on *Mapping*.
+.. Map the fields in *Source* and *Destination*.
 +
 image:destination-close-mapping.png[]
 
-. Click "Test Sync". Your results will appear in Close within a few seconds.
+. Click *Test Sync*. Your results will appear in Close within a few seconds.
