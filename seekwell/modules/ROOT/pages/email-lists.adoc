@@ -18,7 +18,7 @@ NOTE: We use the term "*List Block*" to refer to the block you use to get your l
 
 == Demo
 
-video::yNzQMcRgF3M[]
+video::yNzQMcRgF3M[youtube]
 
 == Email
 

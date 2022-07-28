@@ -228,4 +228,4 @@ limit 200
 
 == Intercom
 
-See xref:intercom[Intercom] for details on this type.
+See xref:intercom.adoc[Intercom] for details on this type.

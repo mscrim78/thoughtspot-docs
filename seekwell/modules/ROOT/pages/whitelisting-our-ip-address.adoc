@@ -24,9 +24,9 @@ Make sure to include the `-----BEGIN RSA PRIVATE KEY-----` at the top and the `-
 .AWS
 ====
 Here's an example on link:https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateVPC.html[AWS]. In the example, we whitelist a Postgres database. Be sure to choose the Type appropriate for your database.
-+
+
 video::b5KQ1v9uBn4[youtube]
-+
+
 image:whitelist-aws.png[]
 ====
 
@@ -52,13 +52,13 @@ image:gcp-connectivity.png[]
 .Microsoft Azure
 ====
 ​Go to your database details and click "Set server firewall".
-+
+
 image:whitelist-microsoft-azure.png[]
-+
+
 Add our IP addresses and click "Save".
-+
+
 image:ms-whitelist.png[]
-+
+
 image:ms-firewall-setting.png[]
 ====
 
@@ -66,15 +66,15 @@ image:ms-firewall-setting.png[]
 .MySQL (manual)
 ====
 Example using MySQL statements
-+
+
 [source,ruby]
 ----
 GRANT SELECT ON *.* to your_user_name@'35.193.207.79' IDENTIFIED BY 'your_user_password';
 GRANT SELECT ON *.* to your_user_name@'35.239.74.213' IDENTIFIED BY 'your_user_password';
 ----
-+
+
 Change `your_user_name` and `your_user_password`.
-+
+
 ​Normally, you will have already granted access to your current External IP. If you have not, you will need to grant access for that as well.
 ====
 

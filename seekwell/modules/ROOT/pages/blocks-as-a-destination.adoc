@@ -14,7 +14,7 @@ NOTE: We use the term "*List Block*" to refer to the block you use to get your l
 
 == Demo
 
-video::FjS2Ok_Np48[Using a Block as the Destination]
+video::FjS2Ok_Np48[youtube]
 
 == Sheets
 
