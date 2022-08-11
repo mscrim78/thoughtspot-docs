@@ -1,5 +1,5 @@
 = Getting started with Seekwell
-:last_updated: 7/28/22
+:last_updated: 8/11/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -59,7 +59,7 @@ NOTE: You must whitelist the SeekWell IP addresses (35.193.207.79 and 35.239.74.
 
 To input a SQL statement, follow these steps:
 
-. Click *Write SQL here...* and enter your statement.
+. Click *Write SQL here...* and enter your statement. Click the *Play* icon to run your query.
 
 . In the section below the SQL statement, verify that your statement produces the desired results. Note that you can view your results in both chart and table form.
 
@@ -72,22 +72,22 @@ To connect to a destination, follow these steps:
 . SeekWell selects *Sheets* as the default destination. To send your results to a different destination, click *Sheets* and scroll down to select your new destination.
 
 . Fill out the fields below your selected destination. For *Sheets*, fill out the following fields:
-.. Spreadsheet: Select a spreadsheet or click *Create new Sheet*. If you do not see the desired spreadsheet destination, begin typing to search, or click *Refresh Sheets*.
-.. Sheet1: Enter the page of the Spreadsheet to input your results. Seekwell defaults to Sheet1.
-.. A1: Enter the beginning cell to input your results. SeekWell defaults to cell A1.
-.. Replace rows / Append rows: If your Sheet has existing data, decide whether to replace rows with your results, or append your results.
-.. Include column names / Omit column names: Decide whether to include or omit column names.
+.. *Spreadsheet*: Select a spreadsheet or click *Create new Sheet*. If you do not see the desired spreadsheet destination, begin typing to search, or click *Refresh Sheets*.
+.. *Sheet1*: Enter the page of the Spreadsheet to input your results. Seekwell defaults to Sheet1.
+.. *A1*: Enter the beginning cell to input your results. SeekWell defaults to cell A1.
+.. *Replace rows / Append rows*: If your Sheet has existing data, decide whether to replace rows with your results, or append your results.
+.. *Include column names / Omit column names*: Decide whether to include or omit column names.
 
 . CLick *Save*.
 
 . Click the *Play* icon to run SQL and send the results to your chosen destination. The results appear in your destination within a few seconds.
 
-////
+
 == Set parameters [optional]
 
 With parameters you can inject data into your SQL statement. You can input plain text or  numbers, or inject data from Sheets or another block.
 
-To set parameters for your block, follow these steps:
+In this example, we demonstrate how to use parameters to add data to your block from Sheets. To set parameters for your block, follow these steps:
 
 . Within your SQL statement, add a parameter.
 +
@@ -99,7 +99,13 @@ where 1=1
 and e.email like '%{{email}}%'
 limit 200
 ----
-////
+
+. As soon as you add a parameter to your SQL, the *Parameters* section appears in SeekWell. Select *Sheets* as the *Type*.
+
+. Select the Spreadsheet you want to grab the parameter value from and the *cell* link:https://developers.google.com/sheets/api/guides/concepts?utm_source=devtools#a1_notation[using A1 notation] (for example, `Sheet1!A1`). *You can only use a single cell* (except in the case of Postgres and Snowflake, see below). If you need to reference multiple cells, use `and / or` statements.
+
+. Run the query and you'll get results based on your parameters.
+
 
 === Related information
 
