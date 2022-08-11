@@ -27,7 +27,7 @@ and e.email like '%{{email}}%'
 limit 200
 ----
 
-. As soon as you add a parameter to your SQL, a "Params" section appears in SeekWell. Select *Sheets* as the *Type*.
+. As soon as you add a parameter to your SQL, a "Parameters" section appears in SeekWell. Select *Sheets* as the *Type*.
 +
 image:parameters-sheets.png[]
 
