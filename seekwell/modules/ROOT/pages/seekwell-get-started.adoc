@@ -1,5 +1,5 @@
 = Getting started with Seekwell
-:last_updated: 8/11/22
+:last_updated: 8/15/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -24,7 +24,7 @@ Before you begin
 
 Blocks can operate on the results of other blocks, so you can build complex processes to move data across databases and applications.
 
-== Create a Block
+=== Create a Block
 
 To create a block, follow these steps:
 
@@ -68,8 +68,8 @@ To input a SQL statement, follow these steps:
 To connect to a destination, follow these steps:
 
 . Under *Destination*, click *Add destination*. If you have previously selected destinations, click the destination name and scroll down to select *Add destination*.
-
-. SeekWell selects *Sheets* as the default destination. To send your results to a different destination, click *Sheets* and scroll down to select your new destination.
+ +
+SeekWell selects *Sheets* as the default destination. To send your results to a different destination, click *Sheets* and scroll down to select your new destination.
 
 . Fill out the fields below your selected destination. For *Sheets*, fill out the following fields:
 .. *Spreadsheet*: Select a spreadsheet or click *Create new Sheet*. If you do not see the desired spreadsheet destination, begin typing to search, or click *Refresh Sheets*.
@@ -78,7 +78,7 @@ To connect to a destination, follow these steps:
 .. *Replace rows / Append rows*: If your Sheet has existing data, decide whether to replace rows with your results, or append your results.
 .. *Include column names / Omit column names*: Decide whether to include or omit column names.
 
-. CLick *Save*.
+. Click *Save*.
 
 . Click the *Play* icon to run SQL and send the results to your chosen destination. The results appear in your destination within a few seconds.
 
@@ -102,9 +102,9 @@ limit 200
 
 . As soon as you add a parameter to your SQL, the *Parameters* section appears in SeekWell. Select *Sheets* as the *Type*.
 
-. Select the Spreadsheet you want to grab the parameter value from and the *cell* link:https://developers.google.com/sheets/api/guides/concepts?utm_source=devtools#a1_notation[using A1 notation] (for example, `Sheet1!A1`). *You can only use a single cell* (except in the case of Postgres and Snowflake, see below). If you need to reference multiple cells, use `and / or` statements.
+. Select the Spreadsheet you want to grab the parameter value from and the *cell* link:https://developers.google.com/sheets/api/guides/concepts?utm_source=devtools#a1_notation[using A1 notation,window=_blank] (for example, `Sheet1!A1`). You can only use a single cell, except in the case of Postgres and Snowflake. If you need to reference multiple cells, use `and / or` statements.
 
-. Run the query and you'll get results based on your parameters.
+. Run the query and results appear based on your parameters.
 
 
 === Related information

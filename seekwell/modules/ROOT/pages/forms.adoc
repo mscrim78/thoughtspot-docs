@@ -1,5 +1,5 @@
 = Forms
-:last_updated: 7/15/2022
+:last_updated: 8/15/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -10,7 +10,7 @@
 
 SeekWell Forms allow you to expose SQL statements as Forms to non-technical teammates. Team members are able to execute pre-defined SQL statements without any SQL experience. Simply set up xref:parameters.adoc[⚙ Parameters] for a query and share the link to the form with your team.
 
-NOTE: SeekWell does no manipulation on your SQL statements to prevent SQL injection. Do not expose blocks or forms to untrusted users. You should prefer link:https://doc.seekwell.io/e18b84a0e07d42ba981a449e2e53f018#cf863d826f2542eaa682d766efb35887[Selects] over Value parameter types and use link:https://doc.seekwell.io/6c37026024db4f7a8b149f5bd38d7cf5#75f3b9ebbb0e40dcbb230da31013e390[Approval Queues]  and link:https://doc.seekwell.io/6c37026024db4f7a8b149f5bd38d7cf5#8482694be8d24762a2933699c3fc84ef[Lookups] where appropriate.
+NOTE: SeekWell does no manipulation on your SQL statements to prevent SQL injection. Do not expose blocks or forms to untrusted users. You should prefer link:https://doc.seekwell.io/e18b84a0e07d42ba981a449e2e53f018#cf863d826f2542eaa682d766efb35887[Selects,window=_blank] over Value parameter types and use link:https://doc.seekwell.io/6c37026024db4f7a8b149f5bd38d7cf5#75f3b9ebbb0e40dcbb230da31013e390[Approval Queues,window=_blank] and link:https://doc.seekwell.io/6c37026024db4f7a8b149f5bd38d7cf5#8482694be8d24762a2933699c3fc84ef[Lookups,window=_blank] where appropriate.
 
 video::v6ms0pW2LpM[youtube]
 
@@ -48,7 +48,7 @@ If you use a "lookup" field in the form, the user will be prompted for that valu
 +
 image:parameters-add-lookup.png[]
 
-. Select the field in the Form you want use to lookup values in the "Lookup Block".
+. Select the field in the Form you want to use to look up values in the "Lookup Block".
 +
 image:lookup-values.png[]
 
@@ -71,8 +71,8 @@ And your form has the following parameters:
 * column_two
 * column_three (lookup field)
 
-When the user submits a lookup on column_three, both column_one and column_two will be populated with current values from the Lookup Block.
+Then when the user submits a lookup on column_three, both column_one and column_two will be populated with current values from the Lookup Block.
 
 == Navigation
 
-Hit `command` / `ctrl` + `k`, and search for "Forms" to see a list of all your Forms and quickly jump to one.
+Hit `command` / `ctrl` + `k`, and search for "Forms" to see a list of all your Forms and quickly access one.
