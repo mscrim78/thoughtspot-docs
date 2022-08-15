@@ -1,5 +1,5 @@
 = Local Database
-:last_updated: 7/15/22
+:last_updated: 8/15/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -9,10 +9,10 @@
 // Getting started
 
 
-You can connect SeekWell to a local database using link:https://ngrok.com/[ngrok]. For more information, see:
+You can connect SeekWell to a local database using link:https://ngrok.com/[ngrok,window=_blank]. For more information, see:
 
-* link:https://medium.com/@jotarios/ngrok-secure-tunnels-local-dead8685bd71[https://medium.com/@jotarios/ngrok-secure-tunnels-local-dead8685bd71]
-* link:https://ngrok.com/docs[https://ngrok.com/docs]
+* link:https://medium.com/@jotarios/ngrok-secure-tunnels-local-dead8685bd71[https://medium.com/@jotarios/ngrok-secure-tunnels-local-dead8685bd71,window=_blank]
+* link:https://ngrok.com/docs[https://ngrok.com/docs,window=_blank]
 
 == Exposing networked services
 
@@ -22,9 +22,9 @@ To start a TCP tunnel, follow these steps:
 
 First, you need sign up to expose this type of services. Ngrok is free to all users.
 
-. link:https://dashboard.ngrok.com/user/signup[Sign up]
-. link:https://dashboard.ngrok.com/get-started[Get your authtoken]
-. Install your authtoken
+. link:https://dashboard.ngrok.com/user/signup[Sign up,window=_blank].
+. link:https://dashboard.ngrok.com/get-started[Get your authtoken,window=_blank].
+. Install your authtoken.
 +
 [source]
 ----
@@ -32,7 +32,7 @@ $ ngrok authtoken YOUR_TOKEN_HERE
 ----
 
 
-. Create your secure tunnel
+. Create your secure tunnel.
 +
 [source]
 ----

@@ -1,5 +1,5 @@
 = Stories
-:last_updated: 6/28/2022
+:last_updated: 8/15/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -10,7 +10,7 @@
 
 == Introduction
 
-SeekWell's Stories let you write narratives about your data using SQL. Think of it as an *always up-to-date Wall Street Journal article about your company*, automatically refreshed and delivered to your inbox daily. For example, using this SQL:
+SeekWell's Stories allow you to write narratives about your data using SQL. Think of it as an always up-to-date Wall Street Journal article about your company, automatically refreshed and delivered to your inbox daily. For example, using this SQL:
 
 image:destination-stories-sample.png[]
 
@@ -18,9 +18,9 @@ You can write a story like this:
 
 image:stories-gif.gif[]
 
-Hitting `=` allows you to access all your SQL results and add them to the Story. The output is rendered below the editor as you type. You can format the Story (e.g. H1, H2, bold, etc.) and add HTML and JavaScript snippets.
+Hitting `=` allows you to access all your SQL results and add them to the Story. The output is rendered below the editor as you type. You can format the Story (using H1, H2, bold, for example) and add HTML and JavaScript snippets.
 
-Stories are great for short regular updates (for example, daily metrics) or alerts (for example, a canceled subscription). Stories can be shared via email, Slack, or in SeekWell Dashboards. Get started link:https://app.seekwell.io[here].
+Stories are useful for short regular updates (for example, daily metrics) or alerts (for example, a canceled subscription). Stories can be shared via email, Slack, or in SeekWell Dashboards. Get started link:https://app.seekwell.io[here,window=_blank].
 
 == Demo
 
@@ -30,21 +30,21 @@ video::lTkv8o0j7Pw[youtube]
 
 == Adding data (single data points)
 
-Once you hit `=` you'll see all saved query results with *exactly one row* (Note: to save a result, simply title the block). Press `return` or click to select a data point and it will be added into the story.
+Once you hit `=`, you'll see all saved query results with *exactly one row* (Note: to save a result, simply title the block). Press `return` or click to select a data point, and it will be added into the story.
 
 image::destination-stories-show-data.png[]
 
 == Adding Formulas and Javascript
 
-You can do math (including references to data points) within the Story using double curly braces, `{{2 + 2}}` or `logic (1 < 2) ? 'down' : 'up'`.
+You can perform math (including references to data points) within the Story using double curly braces, `{{2 + 2}}` or `logic (1 < 2) ? 'down' : 'up'`.
 
 image::destination-stories-formula.png[]
 
 NOTE: This will render .30239, see xref:stories.adoc#formatting[Formatting] below to clean that up.
 
-You can also condition on single data points by adding the single data point (see above) inside double curly braces, such as `{{("total_sales"."sales_this_week" > "total_sales"."sales_last_week") ? 'up' : 'down'}}`. If you had a block titled "total_sales" with columns "sales_this_week" and "sales_last_week", then this would render as 'up' when sales_this_week > sales_last_week, and 'down' otherwise.
+You can also condition on single data points by adding the single data point (see above) inside double curly braces, such as `{{("total_sales"."sales_this_week" > "total_sales"."sales_last_week") ? 'up' : 'down'}}`. If you had a block titled "total_sales" with columns "sales_this_week" and "sales_last_week", then this would render as 'up' when sales_this_week is greater than sales_last_week, and 'down' otherwise.
 
-JavaScript and HTML is allowed within braces, as in the example below:
+SeekWell Stories allow JavaScript and HTML within braces, as in the example below:
 
 image:stories-javascript.gif[]
 
@@ -55,7 +55,7 @@ If 2 is greater than 1 then we celebrate! {{2 > 1 ? `<img height="200" src="http
 But if 2 is less than 3 we failed 😞{{2 > 3 ? `<img src="https://media.giphy.com/media/doPrWYzSG1Vao/giphy.gif">` : '<img src="https://media.giphy.com/media/14aUO0Mf7dWDXW/giphy.gif">'}}
 ----
 
-NOTE: If you're new to JavaScript, the main thing you'll want to understand is how the link:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator[conditional operator] works. In short, the JavaScript code:
+NOTE: If you are new to JavaScript, the main point to want to understand is how the link:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator[conditional operator,window=_blank] works. In short, the JavaScript code:
 `value > 100 ? 'yes' : 'no'` +
 translates to:
 `*IF* value > 100 *THEN* 'yes' *ELSE* 'no'`.
@@ -120,13 +120,13 @@ Images / GIFs
 
 You can add the results of any existing block to a Story. Make sure to first title the block you want to add, or it will not appear in the autocomplete. This feature is currently limited to 20 rows and 20 columns, link:mailto:contact@seekwell.io[contact us] if you need more.
 
+To add blocks to a Story, follow these steps:
+
 . Type `=` and start typing the title of your block.
 
 . To delete a block, highlight a cell in the table to bring up the menu and click the "Table X" icon (last button in image below).
 +
 image:destination-stories-block-delete.png[]
-
-Get started link:https://app.seekwell.io/[here].
 
 == Add charts from Google Sheets
 

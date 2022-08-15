@@ -1,5 +1,5 @@
 = Snippets
-:last_updated: 7/5/22
+:last_updated: 8/15/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -11,7 +11,7 @@
 
 == Introduction
 
-Snippets let you share small, reusable bits of SQL with your team.
+Snippets allow you to share small, reusable bits of SQL with your team.
 
 == Demo
 
@@ -19,9 +19,9 @@ video::KwUyIdkBPt0[youtube]
 
 === Creating your first Snippet
 
-To create a snippet hit `command` / `ctrl` + `k`, and search for "Create snippet".
+To create a snippet, hit `command` / `ctrl` + `k`, and search for "Create snippet".
 
-Working with dates is a great example. Consider this snippet we use at SeekWell which creates three date formats from a `timestamp`.
+Working with dates is a good example. Consider this snippet we use at SeekWell which creates three date formats from a `timestamp`.
 
 [source,ruby]
 ----

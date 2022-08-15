@@ -1,5 +1,5 @@
 = Parameters
-:last_updated: 7/1/22
+:last_updated: 8/15/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -10,11 +10,13 @@
 
 == Introduction
 
-With parameters, you can inject data into your SQL statement. You can input plain text / numbers or inject data from Sheets or another block.
+With parameters, you can inject data into your SQL statement. You can input plain text or numbers, or inject data from Sheets or another block.
 
 == Add data from Sheets
 
 video::d-lJOixrTcM[youtube]
+
+To add data from Sheets, follow these steps:
 
 . Add a parameter to your SQL.
 +
@@ -31,9 +33,9 @@ limit 200
 +
 image:parameters-sheets.png[]
 
-. Select the Spreadsheet you want to grab the parameter value from and the *cell* link:https://developers.google.com/sheets/api/guides/concepts?utm_source=devtools#a1_notation[using A1 notation] (for example, `Sheet1!A1`). *You can only use a single cell* (except in the case of Postgres and Snowflake, see below). If you need to reference multiple cells, use `and / or` statements.
+. Select the Spreadsheet you want to grab the parameter value from and the *cell* link:https://developers.google.com/sheets/api/guides/concepts?utm_source=devtools#a1_notation[using A1 notation,window=_blank] (for example, `Sheet1!A1`). You can only use a single cell, except in the case of <<sheet-range,Postgres and Snowflake>>. If you need to reference multiple cells, use `and / or` statements.
 
-. Run the query and you'll get results based on your parameters.
+. Run the query and results appear based on your parameters.
 
 == Add data from another Block
 
@@ -41,6 +43,7 @@ Select "Block" as the parameter type.
 
 image::parameters-block.png[]
 
+[#sheet-range]
 == Lists and Tables (Postgres and Snowflake only)
 
 You can also use a Sheet *range*, or more than one cell, to generate a SQL list (for example, `where some_column in (1, 2, 3)`). To use the list in your query, simply add the parameter (no parens, quotes, etc. needed), for example:
@@ -58,7 +61,7 @@ where d.some_column in {{vals}}
 
 If you need more power in querying a Sheet, check out xref:query-sheets-using-sql.adoc[🔍 Query Sheets using SQL].
 
-== Setting params in the URL
+== Setting parameters in the URL
 
 You can set parameters in the URL to share links that automatically update the parameters:
 
@@ -83,7 +86,7 @@ image:parameters-share-block.png[]
 
 To run a block as soon as the app finishes loading, set `runOnLoad=1`.
 
-You can also set a special parameter of viewNumber to control the view when a block loads. For example, `?viewNumber=3` will show a full-screen table. Here are the rest:
+You can also set a special parameter of viewNumber to control the view when a block loads. For example, `?viewNumber=3` will show a full-screen table. Here are the other options:
 
 . Split
 . Full screen code
@@ -99,17 +102,18 @@ https://app.seekwell.io/run/yourblockid?&runOnLoad=1&viewNumber=3&email=jim@seek
 
 == Creating a dropdown / select parameter
 
-. Create a block with the options you want in the dropdown (see video below).
+. Create a block with the options you want in the dropdown (see <<demo-parameters,video>> below).
 
 . Choose "Select" as the parameter type.
 +
 image:parameters-select.png[]
 
-. Choose the block you created in step #1 and the column from that block you want to use in the dropdown.
+. Choose the block you created in the first step and the column from that block you want to use in the dropdown.
 +
+[#demo-parameters]
 video::ndzlcyWor4k[youtube]
 
-You can even create a drop down on the fly with SQLite and the "Sheets / CSV / Block" source type.
+You can even create a drop down impromptu with SQLite and the "Sheets / CSV / Block" source type.
 
 [source,ruby]
 ----
@@ -144,7 +148,7 @@ image:parameters-drill-down.png[]
 +
 image:parameters-email.png[]
 
-. The parameter will now show as a link in the results and clicking on the link will drill to the block you've set in the parameter.
+. The parameter will now show as a link in the results and clicking on the link will drill to the block you set in the parameter.
 +
 image:parameters-email-block.png[]
 

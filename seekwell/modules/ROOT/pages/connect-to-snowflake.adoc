@@ -26,7 +26,7 @@ To find these values in a Snowflake worksheet, first check the URL.
 
 image:snowflake-values.png[]
 
-In the URL, you will find your Account Name (`abcd1234` in our example) and your Region (`us-east-1`). If you don't see a region, it means you're in the default region of `us-west-1`.
+In the URL, you will find your Account Name (`abcd1234` in our example) and your Region (`us-east-1`). If you do not see a region, it means you're in the default region of `us-west-1`.
 
 image:snowflake-an-region.png[]
 

@@ -1,5 +1,5 @@
 = Query blocks
-:last_updated: 6/27/2022
+:last_updated: 8/15/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -54,7 +54,7 @@ NOTE: We use xref:sqlite.adoc[SQLite] as the database engine when querying block
 
 video::x2rQoJVmOus[youtube]
 
-NOTE: Please note, large datasets will slow down performance. You can speed things up by only selecting the necessary columns in the Block (for example, list the columns you need instead of `SELECT *`) and by using a `WHERE` clause to filter for just the rows you need.
+NOTE: Please note, large datasets will slow down performance. You can speed things up by only selecting the necessary columns in the Block (for example, list the columns you need instead of `SELECT *`), and by using a `WHERE` clause to filter for just the rows you need.
 
 This can be a powerful way to pull from disparate data sources without the overhead of setting up ETL pipelines. And as with any block, you can send the results of the query to any destination.
 
