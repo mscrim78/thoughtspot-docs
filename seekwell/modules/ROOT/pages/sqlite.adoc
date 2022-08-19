@@ -10,7 +10,7 @@
 
 We use link:https://www.sqlite.org/index.html[SQLite3,window=_blank] as the database engine when you query CSVs, Sheets, and other Blocks. Here are a few tips for working with SQLite:
 
-* Almost all the columns will come through as `TEXT` by default. If one of the columns is an `INTEGER` you can link:https://www.sqlite.org/lang_expr.html#castexpr[use `CAST` to convert it,window=_blank], for example: +
+* Most of the columns will come through as `TEXT` by default. If one of the columns is an `INTEGER` you can link:https://www.sqlite.org/lang_expr.html#castexpr[use `CAST` to convert it,window=_blank], for example: +
 [source,ruby]
 ----
 CAST(text_column AS INTEGER) as integer_column

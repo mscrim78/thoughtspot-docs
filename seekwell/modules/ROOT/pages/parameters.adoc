@@ -59,22 +59,23 @@ where d.some_column in {{vals}}
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/99932d730759461cabc6e136e7d61020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ++++
 
-If you need more power in querying a Sheet, check out xref:query-sheets-using-sql.adoc[🔍 Query Sheets using SQL].
+If you need more power in querying a Sheet, refer to xref:query-sheets-using-sql.adoc[🔍 Query Sheets using SQL].
 
+[#url-parameters]
 == Setting parameters in the URL
 
 You can set parameters in the URL to share links that automatically update the parameters:
 
 [source]
 ----
-https://app.seekwell.io/run/yourreallylonguuid?param1=value1&param2=value2
+https://app.seekwell.io/run/<youruuid>?param1=value1&param2=value2
 ----
 
 Or for a xref:forms.adoc[📋 Forms]:
 
 [source]
 ----
-https://app.seekwell.io/form/yourreallylonguuid?param1=value1&param2=value2
+https://app.seekwell.io/form/<youruuid>?param1=value1&param2=value2
 ----
 
 
@@ -97,7 +98,7 @@ For example, the link below will set the param "email" to jim@seekwell.io, run t
 
 [source]
 ----
-https://app.seekwell.io/run/yourblockid?&runOnLoad=1&viewNumber=3&email=jim@seekwell.io
+https://app.seekwell.io/run/<yourblockid>?&runOnLoad=1&viewNumber=3&email=jim@seekwell.io
 ----
 
 == Creating a dropdown / select parameter
