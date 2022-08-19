@@ -1,5 +1,5 @@
 = Tables
-:last_updated: 7/5/2022
+:last_updated: 8/19/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -15,3 +15,28 @@ SeekWell tables let you easily update tables in your database.
 == Demo
 
 video::G4TPy2oX3_k[youtube]
+
+To edit tables in your database through Seekwell, follow these steps:
+
+. Click `control/command` + `k` and search for "Tables".
+
+. On the page that appears, search for the title of the table you would like to update.
+
+. Select the name of the table from the list.
+
+. To edit any cell of the table, simply click on it and begin to type. Pending changes appear above the table, to the right of the *Sync changes* button.
+
+. To filter the table to more easily find the row(s) you need, select the *Filter* icon in the top right corner and click *+ Add filter*.
+.. From the drop-down on the left, select the title of the column you want to filter on.
+.. To select the filter condition, click *Is* and select a new operator from the list:
+* Is
+* Contains
+* Does not contain
+* Starts with
+* Ends with
+* Is null
+* Is not null
+
+.. Click *Value* and type in the value you want to filter for.
+
+. To finalize your changes, click *Sync changes* in the top left corner. Your table automatically updates in your database.
