@@ -1,5 +1,5 @@
 = Forms
-:last_updated: 8/15/2022
+:last_updated: 8/19/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -29,7 +29,7 @@ NOTE: Only admin users can see the SQL preview and edit the block.
 
 . To share the form with your team, copy the URL.
 
-. You can also set defaults in the URL with xref:parameters.adoc[URL parameters].
+. You can also set defaults in the URL with xref:parameters.adoc#url-parameters[URL parameters].
 
 == Approval Queues
 
