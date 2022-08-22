@@ -1,5 +1,5 @@
 = Google Sheets
-:last_updated: 6/28/2022
+:last_updated: 8/22/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -14,7 +14,7 @@
 [#prerequisite]
 === Prerequisites
 
-Authorize the {destination} app link:https://seekwell.io/web_auth_sheets[here].
+Authorize the {destination} app link:https://seekwell.io/web_auth_sheets[here,window=_blank].
 
 == Add {destination} as a destination
 

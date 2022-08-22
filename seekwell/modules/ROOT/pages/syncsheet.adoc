@@ -11,12 +11,12 @@
 NOTE: The database user for this source will need write access to the database. If you need to add or insert rows, consider using xref:forms.adoc[📋 Forms] instead.
 
 You can sync data from a Google Sheet back to your database using the
-xref:google-sheets-addon.adoc[➕ Google Sheets Addon]. To get started, link:https://gsuite.google.com/marketplace/app/seekwell_postgres_mysql_snowflake_ms_sql/546600172375[install the addon]. Updates are triggered as soon as an edit in the Sheet is completed, so the updates write back to your database in near-real time.
+xref:google-sheets-addon.adoc[➕ Google Sheets Addon]. To get started, link:https://gsuite.google.com/marketplace/app/seekwell_postgres_mysql_snowflake_ms_sql/546600172375[install the addon,window=_blank]. Updates are triggered as soon as an edit in the Sheet is completed, so the updates write back to your database in near-real time.
 
 video::KOrIT5jqQLI[youtube]
 
 [#step-1]
-. Create a link:https://sql.new/[new SQL block] with
+. Create a link:https://sql.new/[new SQL block,window=_blank] with
 xref:parameters.adoc[⚙ Parameters]. It's best to give the parameter the same name as the column, for example:
 +
 [source,ruby]
@@ -30,7 +30,7 @@ where email = '{{email}}'
 +
 image:destination-sql-tags.png[]
 
-. link:https://gsuite.google.com/marketplace/app/seekwell_postgres_mysql_snowflake_ms_sql/546600172375[Launch the addon].
+. link:https://gsuite.google.com/marketplace/app/seekwell_postgres_mysql_snowflake_ms_sql/546600172375[Launch the addon,window=_blank].
 
 . Select the block created in <<step-1,step 1>> (you should see "Form" to the right of it).
 +
@@ -58,7 +58,7 @@ image:sql-sync-done.png[]
 
 === Upserts
 
-In link:https://chartio.com/resources/tutorials/how-to-insert-if-row-does-not-exist-upsert-in-mysql/[MySQL], Upserts (updating and inserting data at the same time) can be performed with "On Duplicate Key Update" after the Insert statement. Your table must already have a link:https://www.mysqltutorial.org/mysql-unique/[unique index]. When the row being inserted has a key that already exists in the table, the specified fields will be updated for that key in the database.
+In link:https://chartio.com/resources/tutorials/how-to-insert-if-row-does-not-exist-upsert-in-mysql/[MySQL,window=_blank], Upserts (updating and inserting data at the same time) can be performed with "On Duplicate Key Update" after the Insert statement. Your table must already have a link:https://www.mysqltutorial.org/mysql-unique/[unique index,window=_blank]. When the row being inserted has a key that already exists in the table, the specified fields will be updated for that key in the database.
 
 In this example, "id" is the unique index. When a certain id already exists in the table, its title, author and year_published will be updated instead of inserting a new row.
 

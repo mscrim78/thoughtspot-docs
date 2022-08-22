@@ -22,7 +22,7 @@
 
 . Under *Destination* on the right, select *Zoho*.
 
-. link:https://accounts.zoho.com/oauth/v2/auth?scope=ZohoCRM.users.all,ZohoCRM.settings.profiles.all,ZohoCRM.settings.roles.all,ZohoCRM.modules.ALL,ZohoCRM.settings.fields.ALL&response_type=code&client_id=1000.MWYNSUSNWVM420SPP7KY9Z9WD81LDY&redirect_uri=https://seekwell.io/zoho1&access_type=offline&prompt=consent[Authorize the app].
+. link:https://accounts.zoho.com/oauth/v2/auth?scope=ZohoCRM.users.all,ZohoCRM.settings.profiles.all,ZohoCRM.settings.roles.all,ZohoCRM.modules.ALL,ZohoCRM.settings.fields.ALL&response_type=code&client_id=1000.MWYNSUSNWVM420SPP7KY9Z9WD81LDY&redirect_uri=https://seekwell.io/zoho1&access_type=offline&prompt=consent[Authorize the app,window=_blank].
 
 . Map the object ID to the `id` in the destination mapping for *update* and *delete* operations.
 +

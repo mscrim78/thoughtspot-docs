@@ -12,9 +12,9 @@ Easily perform operations (create/update/delete) on objects (contacts, accounts,
 
 == Set up Front as your destination
 
-. link:https://app.frontapp.com/oauth/authorize?response_type=code&client_id=9f5367d4c50436312d64&redirect_uri=https://seekwell.io/front1[Authorize the app].
+. link:https://app.frontapp.com/oauth/authorize?response_type=code&client_id=9f5367d4c50436312d64&redirect_uri=https://seekwell.io/front1[Authorize the app,window=_blank].
 
-. Write your link:http://app.seekwell.io/[SQL in the app].
+. Write your link:http://app.seekwell.io/[SQL in the app,window=_blank].
 
 . Click the field below *Destination* and select *Front* from the drop-down. Fill the following fields:
 .. Object (for example, Contacts)
@@ -44,4 +44,4 @@ Channels:: inbox_id, type
 Contact_handles:: contact_id, handle, source
 
 
-For more information, take a look at Front API link:https://dev.frontapp.com/reference/contacts[here] or contact us at link:mailto:contact@seekwell.io[contact@seekwell.io].
+For more information, take a look at Front API link:https://dev.frontapp.com/reference/contacts[here,window=_blank] or contact us at link:mailto:contact@seekwell.io[contact@seekwell.io].

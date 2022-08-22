@@ -8,16 +8,16 @@
 
 // More
 
-Google Apps Script is a powerful tool for extending the functionality of Google Sheets. You can use Apps Script with the link:https://doc.seekwell.io/seekwell-api[SeekWell API] to create features right in Sheets, such as a "Refresh Data" button that triggers a query to send data to your Sheet.
+Google Apps Script is a powerful tool for extending the functionality of Google Sheets. You can use Apps Script with the link:https://doc.seekwell.io/seekwell-api[SeekWell API,window=_blank] to create features right in Sheets, such as a "Refresh Data" button that triggers a query to send data to your Sheet.
 
-NOTE: If you're new to Apps Script be sure to check out link:https://developers.google.com/apps-script/[Google's documentation] on it.
+NOTE: If you're new to Apps Script be sure to check out link:https://developers.google.com/apps-script/[Google's documentation,window=_blank] on it.
 
 == Create a "Refresh Data" button in your Sheets toolbar
 
 [#step-1]
-. Make a new Google Spreadsheet and a new link:https://app.seekwell.io/[SeekWell Block] that queries your database (xref:query-sheets-using-sql.adoc[or other Sheets]). Set your destination for the block as a Sheet called "data" in the new Spreadsheet.
+. Make a new Google Spreadsheet and a new link:https://app.seekwell.io/[SeekWell Block,window=_blank] that queries your database (xref:query-sheets-using-sql.adoc[or other Sheets]). Set your destination for the block as a Sheet called "data" in the new Spreadsheet.
 
-. Generate an API Key by hitting `command/ctrl`+ `k`, and type "API" in the link:https://app.seekwell.io/[web app]. Store the generated key. Also, copy the block ID for the block in <<step-1,step 1>>. It can be found in the URL of your block (for example, "app.seekwell.io/run/YOUR_BLOCK_ID").
+. Generate an API Key by hitting `command/ctrl`+ `k`, and type "API" in the link:https://app.seekwell.io/[web app,window=_blank]. Store the generated key. Also, copy the block ID for the block in <<step-1,step 1>>. It can be found in the URL of your block (for example, "app.seekwell.io/run/YOUR_BLOCK_ID").
 
 . Open up the script editor in the Spreadsheet by going to Tools → "Script editor". This will create an Untitled Project which you can rename to "SeekWell Refresh Button".
 

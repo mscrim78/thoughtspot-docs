@@ -10,7 +10,7 @@
 
 == Steps
 
-. link:https://dev.drift.com/authorize?response_type=code&client_id=5ZdJBsrOtKuzOds6LW8VngxHEDrlIiZE&redirect_uri=https://seekwell.io/drift1&state=abc123[Authorize the app].
+. link:https://dev.drift.com/authorize?response_type=code&client_id=5ZdJBsrOtKuzOds6LW8VngxHEDrlIiZE&redirect_uri=https://seekwell.io/drift1&state=abc123[Authorize the app,window=_blank].
 
 . Write a SQL statement and run the query to verify the results are as expected.
 

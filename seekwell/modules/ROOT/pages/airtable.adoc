@@ -1,5 +1,5 @@
 = Airtable
-:last_updated: 6/27/2022
+:last_updated: 8/22/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -32,7 +32,7 @@ You can get your API key link:https://airtable.com/account[here,window=_blank] o
 +
 image:sql-airtable-key.png[]
 
-. Go to link:https://airtable.com/api[https://airtable.com/api] and click on the base you want to connect to. Check the URL for the Base / App ID, it should start with "app". The ID also appears in green on this page in third paragraph.
+. Go to link:https://airtable.com/api[https://airtable.com/api,window=_blank] and click on the base you want to connect to. Check the URL for the Base / App ID, it should start with "app". The ID also appears in green on this page in third paragraph.
 +
 image:airtable-id-url.png[]
 +

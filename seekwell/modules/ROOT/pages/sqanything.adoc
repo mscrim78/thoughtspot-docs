@@ -12,11 +12,11 @@ video::U0-D6TCtPVU[youtube]
 
 == Get it
 
-Visit the Chrome Web Store link:https://chrome.google.com/webstore/detail/sqanything/naejbcfcmjhcgcjhbddfogknbaggdoek[here] to add sqanything to Chrome.
+Visit the Chrome Web Store link:https://chrome.google.com/webstore/detail/sqanything/naejbcfcmjhcgcjhbddfogknbaggdoek[here,window=_blank] to add sqanything to Chrome.
 
 == What is sqanything?
 
-Data tables are all over the internet, especially link:https://en.wikipedia.org/wiki/List_of_lists_of_lists[Wikipedia]. But HTML tables can be difficult to download or copy-paste cleanly. The sqanything extension lets you query the HTML tables in all your open Chrome tabs with SQL. You can also query tables in Notion, CSV or Excel files, and tables in Google Sheets. You can send the results of your query to Google Sheets or just send all the tables on a web page to Google Sheets.
+Data tables are all over the internet, especially link:https://en.wikipedia.org/wiki/List_of_lists_of_lists[Wikipedia,window=_blank]. But HTML tables can be difficult to download or copy-paste cleanly. The sqanything extension lets you query the HTML tables in all your open Chrome tabs with SQL. You can also query tables in Notion, CSV or Excel files, and tables in Google Sheets. You can send the results of your query to Google Sheets or just send all the tables on a web page to Google Sheets.
 
 === Blocks
 
@@ -40,7 +40,7 @@ If you want to simply send all the tables on a web page (or web pages) to Google
 
 == AlaSQL
 
-This app uses AlaSQL under the hood. Check out link:https://github.com/AlaSQL/alasql/wiki[their documentation] for syntax questions.
+This app uses AlaSQL under the hood. Check out link:https://github.com/AlaSQL/alasql/wiki[their documentation,window=_blank] for syntax questions.
 
 == Example queries
 
@@ -98,7 +98,7 @@ SELECT [Column Name With Space] AS new_col_name FROM table_name
 === Tables with unusual headers
 
 When you have tables with misaligned headers and columns, try using `{headers:false}`. For example, in this url:
-link:https://en.wikipedia.org/wiki/Victory_Bowl[https://en.wikipedia.org/wiki/Victory_Bowl]
+link:https://en.wikipedia.org/wiki/Victory_Bowl[https://en.wikipedia.org/wiki/Victory_Bowl,window=_blank]
 
 image::sqanything-header.png[]
 
@@ -132,7 +132,7 @@ FROM HTML("#REPLACE_WITH_YOUR_ID-1", {headers: false}) LIMIT 5
 
 === How many acquisitions do Google and Yahoo make per year?
 
-If you wanted to compare the number of acquisitions Google and Yahoo have made over time, you could pull up the Wikipedia pages on link:https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Alphabet[Google's (or technically Alphabet's) acquisitions] and link:https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Yahoo![Yahoo's acquisitions]. Then, you could run the query below after replacing "#yahoo-table-alias" and "#google-table-alias" with their respective table aliases under "Schema" in the extension.
+If you wanted to compare the number of acquisitions Google and Yahoo have made over time, you could pull up the Wikipedia pages on link:https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Alphabet[Google's (or technically Alphabet's) acquisitions,window=_blank] and link:https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Yahoo![Yahoo's acquisitions,window=_blank]. Then, you could run the query below after replacing "#yahoo-table-alias" and "#google-table-alias" with their respective table aliases under "Schema" in the extension.
 
 [source,ruby]
 ----
@@ -215,14 +215,14 @@ You can query any table in Notion that is in an open tab and is publicly accessi
 ====
 
 You could simply query it by having that Notion page in one of your tabs—it should show up under your Schema. If the table does not appear, try clicking "Refresh Schema". To query it, simply replace its table alias where it says "#replace-notion-table-alias" in the following query:
-+
+
 [source,ruby]
 ----
 select *  FROM HTML("#replace-notion-table-alias", {headers: true})
 ----
 
-Say you wanted to join that table with the list of link:https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture[Best Picture Nominated movies] to see which of your favorite movies have been nominated for Best Picture. If you opened up the Wikipedia page for Best Picture Nominees, you could join them with your favorite movie table by writing the following query and replacing "#best-picture-noms-table-" with the table aliases for the Best Picture Wikipedia page that shows up under "Schema":
-+
+Say you wanted to join that table with the list of link:https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture[Best Picture Nominated movies,window=_blank] to see which of your favorite movies have been nominated for Best Picture. If you opened up the Wikipedia page for Best Picture Nominees, you could join them with your favorite movie table by writing the following query and replacing "#best-picture-noms-table-" with the table aliases for the Best Picture Wikipedia page that shows up under "Schema":
+
 [source,ruby]
 ----
 With bp_noms as (
@@ -266,7 +266,7 @@ The tables in that page are separated by decade so you'll have to use "UNION ALL
 
 === Which cities had a World Series victory and Super Bowl victory in the same year?
 
-If you wanted to quickly find out which cities had a World Series and a Super Bowl victory in the same year, you could open up the link:https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions[Wikipedia list of Super Bowl winners], the link:https://en.wikipedia.org/wiki/List_of_World_Series_champions[list of World Series winners], and the link:https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population[list of major North American cities] (to help extract the city from the team names).  Then simply replace the "#sb-table-alias","#ws-table-alias",and "#city-table-alias" in the query below with the corresponding table aliases that show up under "Schema" after you open those web pages. To clean up this query, it helps to replace "New York" with "New York City" and "New England" with "Boston" for consistency between the tables.
+If you wanted to quickly find out which cities had a World Series and a Super Bowl victory in the same year, you could open up the link:https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions[Wikipedia list of Super Bowl winners,window=_blank], the link:https://en.wikipedia.org/wiki/List_of_World_Series_champions[list of World Series winners,window=_blank], and the link:https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population[list of major North American cities,window=_blank] (to help extract the city from the team names).  Then simply replace the "#sb-table-alias","#ws-table-alias",and "#city-table-alias" in the query below with the corresponding table aliases that show up under "Schema" after you open those web pages. To clean up this query, it helps to replace "New York" with "New York City" and "New England" with "Boston" for consistency between the tables.
 
 [source,ruby]
 ----
@@ -312,7 +312,7 @@ image::sqanything-city-victory.png[]
 
 === Which movies were Joaquin Phoenix and Amy Adams in together?
 
-Say you had a desire to find out which movies Joaquin Phoenix and Amy Adams both acted in. You could open up the Wikipedia pages for link:https://en.wikipedia.org/wiki/Joaquin_Phoenix_filmography[Joaquin Phoenix filmography] and the link:https://en.wikipedia.org/wiki/List_of_Amy_Adams_performances[list of Amy Adams performances]. Then replace "#jp-table-alias" and "#aa-table-alias" in the query below with the corresponding table aliases that show up under "Schema" after you open those Wikipedia pages.
+Say you had a desire to find out which movies Joaquin Phoenix and Amy Adams both acted in. You could open up the Wikipedia pages for link:https://en.wikipedia.org/wiki/Joaquin_Phoenix_filmography[Joaquin Phoenix filmography,window=_blank] and the link:https://en.wikipedia.org/wiki/List_of_Amy_Adams_performances[list of Amy Adams performances,window=_blank]. Then replace "#jp-table-alias" and "#aa-table-alias" in the query below with the corresponding table aliases that show up under "Schema" after you open those Wikipedia pages.
 
 [source,ruby]
 ----
@@ -337,7 +337,7 @@ image::sqanything-film.png[]
 
 === Are Category 4 Hurricanes becoming more common?
 
-You can also easily manipulate or aggregate data in Wikipedia tables and then send the data to Google Sheets to chart. As an example, you can aggregate the number of category 4 hurricanes per year from the link:https://en.wikipedia.org/wiki/List_of_Category_4_Pacific_hurricanes[Category 4 Hurricane Pacific Wikipedia page] and send it to Google Sheets to analyze to see if the hurricanes are becoming more or less common. In the query below, replace "#cat-4-hurricane-table" with the corresponding table alias under "Schema" after you open that page.
+You can also easily manipulate or aggregate data in Wikipedia tables and then send the data to Google Sheets to chart. As an example, you can aggregate the number of category 4 hurricanes per year from the link:https://en.wikipedia.org/wiki/List_of_Category_4_Pacific_hurricanes[Category 4 Hurricane Pacific Wikipedia page,window=_blank] and send it to Google Sheets to analyze to see if the hurricanes are becoming more or less common. In the query below, replace "#cat-4-hurricane-table" with the corresponding table alias under "Schema" after you open that page.
 
 [source,ruby]
 ----

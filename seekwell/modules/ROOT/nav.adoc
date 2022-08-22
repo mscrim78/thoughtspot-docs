@@ -64,11 +64,11 @@
 ** xref:enter-manually.adoc[Enter manually]
 ** Pipedrive
 ** xref:front.adoc[Front]
-** xref:microsoft-teams.adoc[MS Teams]
+** xref:microsoft-teams.adoc[Microsoft Teams]
 ** xref:drift.adoc[Drift]
 ** Blueshift
 ** Gainsight
-** xref:customerio.adoc[Customerio]
+** xref:customerio.adoc[Customer.io]
 ** xref:active-campaign.adoc[ActiveCampaign]
 ** xref:facebook.adoc[Facebook]
 ** xref:close.adoc[Close]

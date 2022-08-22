@@ -16,7 +16,7 @@ Auto import gives you a quick and simple option for importing tables in a Google
 
 video::fzevbUCfVec[youtube]
 
-. Go to the link:https://app.seekwell.io/[SeekWell Web App] and hit `cmd/ctrl` + `k`, then search for "Import sheet to SQL Database".
+. Go to the link:https://app.seekwell.io/[SeekWell Web App,window=_blank] and hit `cmd/ctrl` + `k`, then search for "Import sheet to SQL Database".
 
 . Click *Spreadsheet* and select your source Spreadsheet. If you don't see your source Spreadsheet in the drop-down menu, start typing its name or scroll to the bottom of the list and click *Refresh Sheets*.
 
@@ -36,9 +36,9 @@ You can also create a new database table by creating a new block and setting the
 
 video::sq0kxgSUCWc[youtube]
 
-. Start a new block in the link:https://app.seekwell.io/[SeekWell Web App] and choose the source of the data you want to create/replace a new table with. In this example, we use a table from Google Sheets as the source data, so we choose "Sheets/CSV/Block" as our source.
+. Start a new block in the link:https://app.seekwell.io/[SeekWell Web App,window=_blank] and choose the source of the data you want to create/replace a new table with. In this example, we use a table from Google Sheets as the source data, so we choose "Sheets/CSV/Block" as our source.
 
-. Write SQL to fetch the data you want to use. If you want the entire table of your source data to be created/replaced in your destination database, simply `SELECT \*` from your source table. If your source data is in a Google Sheet, remember to alias the Sheet in double curly braces, or `{{}}`, and change the xref:parameters.adoc[Parameter] Type to *Sheets*. Then enter your correct Spreadsheet and Sheet names under *Parameters* on the right.
+. Write SQL to fetch the data you want to use. If you want the entire table of your source data to be created/replaced in your destination database, simply `SELECT \*` from your source table. If your source data is in a Google Sheet, remember to alias the Sheet in double curly braces, or `{{}}`, and change the xref:parameters.adoc[Parameter] type to *Sheets*. Then enter your correct Spreadsheet and Sheet names under *Parameters* on the right.
 
 . Check that the correct data returns when you run your SQL query.
 
