@@ -1,10 +1,10 @@
 = Excel
-:last_updated: 6/28/2022
+:last_updated: 8/22/2022
 :author: Naomi
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:destination:
+:destination: Excel
 :description:
 
 // destination
@@ -29,7 +29,7 @@ video::KoxswXRqCHo[youtube]
 
 . link:mailto:contact@seekwell.io[Contact us] to be added to the beta trial. #This feature will not work without contacting us first#.
 
-. Log in to to link:https://www.seekwell.io[seekwell.io] to authorize the app link:https://seekwell.io/O365_login[here].
+. Log in to link:https://www.seekwell.io[seekwell.io,window=_blank] to authorize the app link:https://seekwell.io/O365_login[here,window=_blank].
 
 . Write your SQL and run it. Make sure the results in the app are what you want in Excel.
 

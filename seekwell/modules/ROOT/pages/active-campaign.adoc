@@ -12,19 +12,19 @@
 
 === Authentication
 
-. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations].
+. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations,window=_blank].
 
 . Search for Active Campaign and click on *Add*.
 +
 image:destination-activecampaign.png[]
 
-. Find your API credentials at link:https://seekwell.activehosted.com/app/settings/developer[https://seekwell.activehosted.com/app/settings/developer].
+. Find your API credentials at link:https://seekwell.activehosted.com/app/settings/developer[https://seekwell.activehosted.com/app/settings/developer,window=_blank].
 
 .. Copy the API Url and API Key and authorize the app in SeekWell.
 
 === Syncing data to Active Campaign
 
-. Start a new block at link:https://app.seekwell.io/[https://app.seekwell.io/].
+. Start a new block at link:https://app.seekwell.io/[https://app.seekwell.io/,window=_blank].
 
 . Write a SQL statement and run the query to verify the results are as expected.
 

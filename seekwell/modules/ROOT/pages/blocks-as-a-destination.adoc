@@ -45,7 +45,7 @@ NOTE: There is a 500 row limit on Destination Lists. If you need that limit remo
 == Required Fields
 
 * *Sheets* +
-You can use link:https://docs.google.com/spreadsheets/d/1nSYzQISbGrGfAKg6mKSOincTJVC_Ffxaest5pCu5mxs/edit?usp=sharing[this sheet] as a base, by creating a copy: +
+You can use link:https://docs.google.com/spreadsheets/d/1nSYzQISbGrGfAKg6mKSOincTJVC_Ffxaest5pCu5mxs/edit?usp=sharing[this sheet,window=_blank] as a base, by creating a copy: +
 image:destination-blocks-sheet.png[]
 
 ** type = sheets

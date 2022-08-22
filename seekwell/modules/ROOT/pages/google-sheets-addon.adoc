@@ -12,7 +12,7 @@ NOTE: Before using the addon, make sure you are logged in to your browser with a
 
 == Introduction
 
-SeekWell's Google Sheets Addon lets you and your team execute blocks directly from Google Sheets. Check it out link:https://gsuite.google.com/marketplace/app/seekwell_blocks/546600172375[here].
+SeekWell's Google Sheets Addon lets you and your team execute blocks directly from Google Sheets. Check it out link:https://gsuite.google.com/marketplace/app/seekwell_blocks/546600172375[here,window=_blank].
 
 video::3dUT7LXVh8M[youtube]
 

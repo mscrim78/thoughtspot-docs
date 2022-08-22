@@ -12,7 +12,7 @@
 
 === Authentication
 
-. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations].
+. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations,window=_blank].
 
 . Search for Close and click on “Add”.
 +
@@ -24,7 +24,7 @@ image:destination-close.png[]
 
 === Syncing data to Close
 
-. Start a new block at link:https://app.seekwell.io/[https://app.seekwell.io/].
+. Start a new block at link:https://app.seekwell.io/[https://app.seekwell.io/,window=_blank].
 
 . Write a SQL statement and run the query to verify the results are as expected.
 

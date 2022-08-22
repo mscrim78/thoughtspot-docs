@@ -12,9 +12,9 @@ You can sync data from your database or warehouse to Salesforce with a simple SQ
 
 == Use the Mapping UI
 
-. To start sending your database data to Salesforce, link:https://login.salesforce.com/services/oauth2/authorize?client_id=3MVG9LBJLApeX_PDgnQWQtipJhLKZ5zHco7lI6AVz9ZtyX5esJ_oC1b_CJMc.96ffhjXhSrT18lIXWZc5sLXT&redirect_uri=https://seekwell.io/sfdc1&response_type=code[authorize the app].
+. To start sending your database data to Salesforce, link:https://login.salesforce.com/services/oauth2/authorize?client_id=3MVG9LBJLApeX_PDgnQWQtipJhLKZ5zHco7lI6AVz9ZtyX5esJ_oC1b_CJMc.96ffhjXhSrT18lIXWZc5sLXT&redirect_uri=https://seekwell.io/sfdc1&response_type=code[authorize the app,window=_blank].
 
-. Write your SQL query link:http://app.seekwell.io/[in the app] for the data you want to send to Salesforce, and view the results. Be sure to include the `Id` for the record in Salesforce. If you don't already have the id in your database, you can query xref:salesforce-source.adoc[Salesforce (Source)] live from SeekWell to get another identifier that is in your database (for example, email) and join to that to get the `Id`.
+. Write your SQL query link:http://app.seekwell.io/[in the app,window=_blank] for the data you want to send to Salesforce, and view the results. Be sure to include the `Id` for the record in Salesforce. If you don't already have the id in your database, you can query xref:salesforce-source.adoc[Salesforce (Source)] live from SeekWell to get another identifier that is in your database (for example, email) and join to that to get the `Id`.
 
 . Under *Destination* on the right, select *Salesforce*. Fill the following fields:
 .. Object (for example, Account)

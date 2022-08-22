@@ -8,7 +8,7 @@
 
 // destination
 
-Sync your data warehouse to link:http://customer.io/[Customer.IO] to create hyper-personalized campaigns, segments, forms, events and forms to reach your customers.
+Sync your data warehouse to link:http://customer.io/[Customer.IO,window=_blank] to create hyper-personalized campaigns, segments, forms, events and forms to reach your customers.
 
 == Steps
 
@@ -18,13 +18,13 @@ Sync your data warehouse to link:http://customer.io/[Customer.IO] to create hype
 
 . Authenticate the app:
 
-.. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations].
+.. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations,window=_blank].
 
-.. Search for link:http://customer.io/[Customer.io] and click on “Add”.
+.. Search for link:http://customer.io/[Customer.io,window=_blank] and click on “Add”.
 +
 image:customerio-auth.png[]
 
-.. Find your Customer.io API credentials on link:https://fly.customer.io/settings/api_credentials[https://fly.customer.io/settings/api_credentials].
+.. Find your Customer.io API credentials on link:https://fly.customer.io/settings/api_credentials[https://fly.customer.io/settings/api_credentials,window=_blank].
 
 ... *Site* and *API key* tokens will be found under “Tracking API Keys”.
 +
@@ -38,7 +38,7 @@ image:customerio-api-cred.png[]
 +
 image:customerio-app-api.png[]
 
-.. Navigate to the link:https://app.seekwell.io/[SeekWell home page].
+.. Navigate to the link:https://app.seekwell.io/[SeekWell home page,window=_blank].
 
 === Syncing data to Customer.IO
 

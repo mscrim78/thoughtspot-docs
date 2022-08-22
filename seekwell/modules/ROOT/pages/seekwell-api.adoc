@@ -12,13 +12,13 @@ You can automatically trigger any block to run by sending a request to "https://
 
 == Steps:
 
-.  Open the link:https://app.seekwell.io/[web app] and hit `command` / `ctrl` + `k`, then type “API” to generate an API key.
+.  Open the link:https://app.seekwell.io/[web app,window=_blank] and hit `command` / `ctrl` + `k`, then type “API” to generate an API key.
 
 . Go to your block that you would like to trigger programmatically, and copy the Block ID from the URL as shown below.
 +
 image:sql-block-id.png[]
 
-.  Post a request to "https://api.seekwell.io/run_one" with your Block ID, API Key, and optional parameters (example using Python link:https://pypi.org/project/requests/[Requests HTTP library]).
+.  Post a request to "https://api.seekwell.io/run_one" with your Block ID, API Key, and optional parameters (example using Python link:https://pypi.org/project/requests/[Requests HTTP library,window=_blank]).
 +
 [source,ruby]
 ----
@@ -53,7 +53,7 @@ response = requests.post(url, json=data)
 
 == Use Case: Setting up a Zap
 
-You can set up Zapier to trigger a block to run by using the SeekWell API as a link:https://zapier.com/page/webhooks/[webhook].
+You can set up Zapier to trigger a block to run by using the SeekWell API as a link:https://zapier.com/page/webhooks/[webhook,window=_blank].
 
 === Steps:
 

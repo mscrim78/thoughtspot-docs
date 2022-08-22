@@ -15,7 +15,7 @@ Our Forms addon allows you to trigger a SeekWell block to run upon a Form submis
 
 To use the Google Forms addon, follow these steps:
 
-. link:https://sql.new/[Create a block] that includes xref:parameters.adoc[⚙ Parameters], for example:
+. link:https://sql.new/[Create a block,window=_blank] that includes xref:parameters.adoc[⚙ Parameters], for example:
 +
 [source,ruby]
 ----
@@ -24,7 +24,7 @@ set plan = '{{plan}}'
 where email = '{{email}}'
 ----
 
-. link:https://gsuite.google.com/marketplace/app/sql_forms_postgres_mysql_snowflake_sql_s/308281533721[Launch the forms addon] in the Google Form you'd like to connect to the block.
+. link:https://gsuite.google.com/marketplace/app/sql_forms_postgres_mysql_snowflake_sql_s/308281533721[Launch the forms addon,window=_blank] in the Google Form you'd like to connect to the block.
 
 . Map the field names from the Form to the field names in your query.
 +
