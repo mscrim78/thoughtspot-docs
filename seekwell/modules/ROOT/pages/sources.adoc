@@ -18,3 +18,14 @@ For more information about supported sources, check out these articles:
 ** xref:airtable.adoc[Airtable]
 ** xref:salesforce-source.adoc[Salesforce]
 ** xref:bigquery.adoc[BigQuery]
+
+////
+Airtable
+bigquery
+google sheets
+ms sql server
+mysql
+postgres
+redshift
+snowflake
+////
