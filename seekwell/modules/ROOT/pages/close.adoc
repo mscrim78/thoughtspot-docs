@@ -18,7 +18,7 @@
 +
 image:destination-close.png[]
 
-. Generate a new API Key for SeekWell at link:https://app.close.com/settings/api/[https://app.close.com/settings/api/].
+. Generate a new API Key for SeekWell at link:https://app.close.com/settings/api/[https://app.close.com/settings/api/,window=_blank].
 
 .. Copy the API Key and authorize the app in SeekWell.
 

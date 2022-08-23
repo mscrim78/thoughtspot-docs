@@ -19,7 +19,7 @@ This data processing agreement (DPA), pursuant to art. 28 General Data Protectio
 
 == Subject Matter
 
-The subject matter of this DPA and the thereto related processing activities result from link:https://seekwell.io/terms[SeekWell Terms of Service] (“Agreement”) between you and SeekWell. This DPA amends and supplements your Agreement and requires no further action on your part.
+The subject matter of this DPA and the thereto related processing activities result from link:https://seekwell.io/terms[SeekWell Terms of Service,window=_blank] (“Agreement”) between you and SeekWell. This DPA amends and supplements your Agreement and requires no further action on your part.
 
 The parties agree that to the extent SeekWell operates and manages the Service, SeekWell is acting as a processor under data protection laws on the Customer’s behalf, and the Customer is acting as the controller under data protection laws for the Customer’s end users.
 
@@ -65,7 +65,7 @@ The Standard Contractual Clauses apply with respect to personal data that is tra
 
 == Rectification, Restriction and Erasure of Data
 
-. The Processor may not rectify, erase or restrict the processing of data that is being processed on the Controller's behalf at its own initiative but only upon documented instructions by the Controller, unless the Controller violates SeekWell link:https://seekwell.io/terms[Terms of Service] and their access to Service is terminated as a result of such violation.
+. The Processor may not rectify, erase or restrict the processing of data that is being processed on the Controller's behalf at its own initiative but only upon documented instructions by the Controller, unless the Controller violates SeekWell link:https://seekwell.io/terms[Terms of Service,window=_blank] and their access to Service is terminated as a result of such violation.
 
 . Should a Data Subject contact the Processor directly concerning a rectification, erasure, or restriction of processing, the Processor shall immediately forward such Data Subject’s request to the Controller. The requests of erasure, rectification, data portability and access shall be fulfilled by the Processor in accordance with documented instructions by the Controller without undue delay.
 
@@ -93,7 +93,7 @@ The Processor shall inform the Controller without delay about any changes of Dat
 
 . The Processor may outsource part of the processing activities pursuant to this DPA to Subprocessors that, as far as legally required, shall be subject to the contractual obligations resulting from art. 28 par. 4 GDPR.
 
-. The Processor currently commissions the following Subprocessors on the condition of a contractual agreement in accordance with Article 28 paragraphs 2-4 GDPR are listed in our link:https://userlist.com/docs/legal/sub-processors/[list of Subprocessors].
+. The Processor currently commissions the following Subprocessors on the condition of a contractual agreement in accordance with Article 28 paragraphs 2-4 GDPR are listed in our link:https://userlist.com/docs/legal/sub-processors/[list of Subprocessors,window=_blank].
 
 . The transfer of personal data to any Subprocessor shall only take place after all above-mentioned conditions for the appointment of Subprocessors have been met.
 

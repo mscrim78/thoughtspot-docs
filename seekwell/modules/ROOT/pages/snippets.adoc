@@ -52,18 +52,18 @@ image:sql-snippets.png[]
 |===
 | Name | Tags | SQL
 
-a| link:https://doc.seekwell.io/addsubselect[addSubSelect] | `ansi` a| 	`(select
+a| link:https://doc.seekwell.io/addsubselect[addSubSelect,window=_blank] | `ansi` a| 	`(select
 {{group_by_col}},
 max({{max_col}}) max_{{max_col}}
 from
 {{table}}
 group by 1) as max_{{table}}`
 
-a| link:https://doc.seekwell.io/snippets/dayweekmonth[dayWeekMonth] | `postgres` a| `date_trunc('day', {{column_name}})::date::text as "{{alias}}_day",
+a| link:https://doc.seekwell.io/snippets/dayweekmonth[dayWeekMonth,window=_blank] | `postgres` a| `date_trunc('day', {{column_name}})::date::text as "{{alias}}_day",
 date_trunc('week', {{column_name}})::date::text as "{{alias}}_week",
 date_trunc('month', {{column_name}})::date::text as "{{alias}}_month"`
 
-a| link:https://doc.seekwell.io/snippets/addwith[addWith] | `postgres` a| `with {{alias}} as (
+a| link:https://doc.seekwell.io/snippets/addwith[addWith,window=_blank] | `postgres` a| `with {{alias}} as (
 select
 from {{table_name}}
 )`

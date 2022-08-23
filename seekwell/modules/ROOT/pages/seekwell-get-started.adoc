@@ -28,7 +28,7 @@ Blocks can operate on the results of other blocks, so you can build complex proc
 
 To create a block, follow these steps:
 
-. Log in to link:https://app.seekwell.io/[Seekwell].
+. Log in to link:https://app.seekwell.io/[Seekwell,window=_blank].
 
 . Click the plus icon in the top-right of the screen and select *New SQL*.
 
@@ -111,4 +111,3 @@ limit 200
 
 * xref:parameters.adoc[]
 * xref:triggers.adoc[]
-
