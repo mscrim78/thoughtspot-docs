@@ -1,5 +1,5 @@
-= Sets
-:last_updated: 8/19/2022
+= Sets (deprecated)
+:last_updated: 8/23/2022
 :author: Naomi
 :linkattrs:
 :experimental:
