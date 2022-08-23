@@ -1,5 +1,5 @@
 = Getting started with Seekwell
-:last_updated: 8/15/22
+:last_updated: 8/23/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -80,7 +80,7 @@ SeekWell selects *Sheets* as the default destination. To send your results to a 
 
 . Click *Save*.
 
-. Click the *Play* icon to run SQL and send the results to your chosen destination. The results appear in your destination within a few seconds.
+. Click the *Play* icon to run your query and send the results to your chosen destination. The results appear in your destination within a few seconds.
 
 
 == Set parameters [optional]
