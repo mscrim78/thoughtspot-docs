@@ -28,7 +28,7 @@
 ** xref:triggers.adoc[Triggers]
 ** xref:dashboards.adoc[Dashboards]
 ** xref:forms.adoc[Forms]
-** xref:sets.adoc[Sets]
+//** xref:sets.adoc[Sets]
 ** xref:tables.adoc[Tables]
 ** xref:pivot-tables.adoc[Pivot tables]
 
