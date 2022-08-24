@@ -1,5 +1,5 @@
 = Whitelisting our IP address
-:last_updated: 8/15/22
+:last_updated: 8/23/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -54,7 +54,7 @@ image:gcp-connectivity.png[]
 [%collapsible]
 .Microsoft Azure
 ====
-​Follow these steps to whitelist IP addresses in Microsoft Azure:
+Follow these steps to whitelist IP addresses in Microsoft Azure:
 Go to your database details and click "Set server firewall".
 
 image:whitelist-microsoft-azure.png[]
@@ -79,7 +79,7 @@ GRANT SELECT ON *.* to your_user_name@'35.239.74.213' IDENTIFIED BY 'your_user_p
 
 Change `your_user_name` and `your_user_password`.
 
-​Normally, you will have already granted access to your current External IP. If you have not, you will need to grant access for that as well.
+Normally, you will have already granted access to your current External IP. If you have not, you will need to grant access for that as well.
 ====
 
 [%collapsible]

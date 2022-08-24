@@ -1,5 +1,5 @@
 = Getting started with Seekwell
-:last_updated: 8/15/22
+:last_updated: 8/23/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -28,7 +28,7 @@ Blocks can operate on the results of other blocks, so you can build complex proc
 
 To create a block, follow these steps:
 
-. Log in to link:https://app.seekwell.io/[Seekwell].
+. Log in to link:https://app.seekwell.io/[Seekwell,window=_blank].
 
 . Click the plus icon in the top-right of the screen and select *New SQL*.
 
@@ -80,7 +80,7 @@ SeekWell selects *Sheets* as the default destination. To send your results to a 
 
 . Click *Save*.
 
-. Click the *Play* icon to run SQL and send the results to your chosen destination. The results appear in your destination within a few seconds.
+. Click the *Play* icon to run your query and send the results to your chosen destination. The results appear in your destination within a few seconds.
 
 
 == Set parameters [optional]
@@ -111,4 +111,3 @@ limit 200
 
 * xref:parameters.adoc[]
 * xref:triggers.adoc[]
-

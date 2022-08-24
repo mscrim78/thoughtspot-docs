@@ -3,12 +3,10 @@
 ** xref:dpa.adoc[Data Processing Agreement]
 ** Deprecated
 *** xref:python.adoc[Python]
+*** xref:sets.adoc[]
 
 * xref:seekwell-get-started.adoc[Getting started]
 ** xref:whitelisting-our-ip-address.adoc[Whitelist our IP address]
-** xref:microsoft-sql-server-ms-sql.adoc[Microsoft SQL Server (MS SQL)]
-** xref:connect-to-snowflake.adoc[Connect to Snowflake]
-** xref:connecting-to-panoply.adoc[Connect to Panoply]
 ** xref:local-database.adoc[Connect to a local database]
 ** xref:public-blocks.adoc[Share blocks]
 ** xref:granting-access-via-service-account.adoc[Granting access via Service Account]
@@ -34,13 +32,17 @@
 
 * xref:sources.adoc[Sources]
 ** xref:database-source.adoc[Add a new SQL Database]
+*** xref:airtable.adoc[]
+*** xref:bigquery.adoc[]
+*** xref:microsoft-sql-server-ms-sql.adoc[Microsoft SQL Server (MS SQL)]
+**** xref:connecting-to-panoply.adoc[Panoply]
+*** xref:connect-to-snowflake.adoc[Snowflake]
 ** xref:query-sheets-using-sql.adoc[Query Sheets using SQL]
 ** xref:query-blocks.adoc[Query blocks]
 ** xref:query-a-csv.adoc[Query a CSV]
 ** xref:excel-source.adoc[Excel]
-** xref:airtable.adoc[Airtable]
 ** xref:salesforce-source.adoc[Salesforce]
-** xref:bigquery.adoc[BigQuery]
+
 
 * xref:destinations.adoc[Destinations]
 ** xref:google-sheets.adoc[Sheets]

@@ -40,7 +40,7 @@ image:snowflake-user-role.png[]
 
 == Connect to Snowflake
 
-. Launch link:https://app.seekwell.io/[Seekwell].
+. Launch link:https://app.seekwell.io/[Seekwell,window=_blank].
 
 . In the top-right corner, click the plus icon and select *Add New Integration*. The integrations page appears.
 

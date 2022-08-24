@@ -23,7 +23,7 @@ image:sql-redshift-connect.png[]
 
 . Enter the host and port information. All Panoply connections have the same host and port:
 
-.. Host = link:http://db.panoply.io/[db.panoply.io]
+.. Host = link:http://db.panoply.io/[db.panoply.io,window=_blank]
 .. Port = 5439
 
 . To find the remaining connection information, navigate to Panoply and click *BI Connection* in the Panoply nav. A window similar to the following image appears, where you can find the *Database*, *User*, *Password*, and *Driver* information.
