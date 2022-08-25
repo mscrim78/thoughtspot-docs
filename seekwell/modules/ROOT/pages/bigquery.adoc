@@ -46,3 +46,5 @@ To connect to BigQuery, follow these steps:
 . Under Service Account Information, paste the JSON you found in the <<prerequisite,Prerequisites>>.
 +
 image:bigquery-service-acct-info.png[]
+
+. Click *Save*.

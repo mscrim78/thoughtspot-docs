@@ -69,7 +69,7 @@ from
 {{block1}} as a
 ----
 
-. A new Parameters section appears in the right sidebar. Select "Block" as the type, then find the title of the block you want to use. If your block does not appear in the list, make sure the block is not untitled.
+. A new Parameters section appears in the right sidebar. Select *Block* as the type, then find the title of the block you want to use. If your block does not appear in the list, make sure the block is not untitled.
 +
 image:sql-params-block.png[]
 

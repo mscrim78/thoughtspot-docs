@@ -18,13 +18,14 @@ Authorize the {destination} app link:https://seekwell.io/web_auth_sheets[here,wi
 
 == Add {destination} as a destination
 
-. After writing a SQL statement that pulls the data you want, click on *Click to edit destination* in the right sidebar.
+. After writing a SQL statement that pulls the data you want, click on *Add destination* in the right sidebar and scroll down to select *{destination}*.
 
-. Select a Spreadsheet, Sheet, and cell. If the Sheet does not exist, select "add it". SeekWell will insert the new Sheet.
+. Select a Spreadsheet, Sheet, and cell. If the Sheet does not exist, select *"" does not exist, add it?* +
+SeekWell will insert the new Sheet.
 
-. Click "Run".
+. Click *Run*.
 
-. To set a schedule, select "Click to set Schedule" after "Repeat".
+. To set a schedule, select *Click to set Schedule* below *Repeat*.
 +
 video::4b13fe0c-7d1f-43b9-89b2-9b479f0e8c24.mp4[]
 

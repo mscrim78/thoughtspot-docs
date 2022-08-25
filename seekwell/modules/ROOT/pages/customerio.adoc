@@ -1,5 +1,5 @@
 = Customer.IO
-:last_updated: 7/28/22
+:last_updated: 8/24/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -8,7 +8,7 @@
 
 // destination
 
-Sync your data warehouse to link:http://customer.io/[Customer.IO,window=_blank] to create hyper-personalized campaigns, segments, forms, events and forms to reach your customers.
+Sync your data warehouse to link:http://customer.io/[Customer.IO,window=_blank] to create hyper-personalized campaigns, segments, events, and forms to reach your customers.
 
 == Steps
 
@@ -20,17 +20,17 @@ Sync your data warehouse to link:http://customer.io/[Customer.IO,window=_blank] 
 
 .. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations,window=_blank].
 
-.. Search for link:http://customer.io/[Customer.io,window=_blank] and click on “Add”.
+.. Search for link:http://customer.io/[Customer.io,window=_blank] and click on *Add*. Enter a name for your connection.
 +
 image:customerio-auth.png[]
 
-.. Find your Customer.io API credentials on link:https://fly.customer.io/settings/api_credentials[https://fly.customer.io/settings/api_credentials,window=_blank].
+.. Find your Customer.io API credentials at link:https://fly.customer.io/settings/api_credentials[https://fly.customer.io/settings/api_credentials,window=_blank].
 
-... *Site* and *API key* tokens will be found under “Tracking API Keys”.
+... *Site* and *API key* tokens are located under *Tracking API Keys*.
 +
 image:customerio-api-cred.png[]
 
-.. Select “App API Keys” in the header next to “Tracking API Keys”.
+.. Select *App API Keys* in the header next to *Tracking API Keys*.
 
 ... Create a new App API key.
 
@@ -58,4 +58,4 @@ image:destination-customerio.png[]
 
 .. Map the fields in *Source* and *Destination*.
 
-. Click "Test Sync". Your results appear in Customer.IO within a few seconds.
+. Click *Test Sync*. Your results appear in Customer.IO within a few seconds.

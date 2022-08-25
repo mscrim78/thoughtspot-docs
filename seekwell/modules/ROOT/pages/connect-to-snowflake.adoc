@@ -1,5 +1,5 @@
 = Connecting to Snowflake
-:last_updated: 7/15/22
+:last_updated: 8/23/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -8,6 +8,7 @@
 
 // Getting started
 
+[#prerequisites]
 == Prerequisites
 
 To connect to *Snowflake* with *SeekWell*, you need the following fields:
@@ -50,7 +51,7 @@ image:snowflake-user-role.png[]
 +
 image:snowflake-connect-sql.png[]
 
-. Fill out the remaining fields with the account information you found in the prerequisites.
+. Fill out the remaining fields with the account information you found in the <<prerequisites,prerequisites>>.
 
 . Click *Save*.
 

@@ -1,5 +1,5 @@
 = Excel (Source)
-:last_updated: 6/27/2022
+:last_updated: 8/24/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -10,7 +10,7 @@
 
 == Google Drive
 
-. Start a new SQL block and select "Sheets / CSV / Block" as the source.
+. Start a new SQL block and select *Sheets / CSV / Block* as the source.
 +
 image:sql-source-sheets.png[]
 

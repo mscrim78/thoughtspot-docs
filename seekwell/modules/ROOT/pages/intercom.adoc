@@ -1,5 +1,5 @@
 = Intercom
-:last_updated: 6/29/2022
+:last_updated: 8/24/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -34,7 +34,7 @@ Once you map the columns to their respective Intercom fields, you can test the s
 +
 image::destination-intercom-verify.png[]
 
-. Under the *Repeat* section in the right sidebar, select the interval and time at which you'd like your data to sync.
+. [Optional] Under the *Repeat* section in the right sidebar, select the interval and time at which you'd like your data to sync.
 +
 image::destination-intercom-schedule.png[]
 
