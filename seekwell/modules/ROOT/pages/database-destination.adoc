@@ -16,13 +16,15 @@ Auto import gives you a quick and simple option for importing tables in a Google
 
 video::fzevbUCfVec[youtube]
 
-. Go to the link:https://app.seekwell.io/[SeekWell Web App,window=_blank] and hit `cmd/ctrl` + `k`, then search for "Import sheet to SQL Database".
+. Go to the link:https://app.seekwell.io/[SeekWell Web App,window=_blank] and hit `command/control` + `k`, then search for "Import sheet to SQL Database".
 
 . Click *Spreadsheet* and select your source Spreadsheet. If you don't see your source Spreadsheet in the drop-down menu, start typing its name or scroll to the bottom of the list and click *Refresh Sheets*.
 
 . Click *Destination* to select your destination database. You may need to add your database as a xref:database-source.adoc[source], if you have not done so already.
 
-. [Optional] Under Table Name, enter the table names you want your tables to be called to the right of their respective Sheets. By default, tables will be called their Sheet name. You can also click the sheet name to deselect any Sheets in the Spreadsheet that you don't want to import into your database. Then click *Import Sheets* on the bottom right.
+. [Optional] Click *Schema* and enter the name of a specific schema where you would like to import your tables.
+
+. [Optional] Under *Table Name* and to the right of each Sheet name, enter the table names you want your tables to be called. By default, tables will be called their Sheet name. You can also click the sheet name to deselect any Sheets in the Spreadsheet that you don't want to import into your database. Then click *Import Sheets* on the bottom right.
 
 . Double-check that your new table was successfully created.
 
@@ -36,7 +38,7 @@ You can also create a new database table by creating a new block and setting the
 
 video::sq0kxgSUCWc[youtube]
 
-. Start a new block in the link:https://app.seekwell.io/[SeekWell Web App,window=_blank] and choose the source of the data you want to create/replace a new table with. In this example, we use a table from Google Sheets as the source data, so we choose "Sheets/CSV/Block" as our source.
+. Start a new block in the link:https://app.seekwell.io/[SeekWell Web App,window=_blank] and choose the source of the data you want to create/replace a new table with. In this example, we use a table from Google Sheets as the source data, so we choose *Sheets/CSV/Block* as our source.
 
 . Write SQL to fetch the data you want to use. If you want the entire table of your source data to be created/replaced in your destination database, simply `SELECT \*` from your source table. If your source data is in a Google Sheet, remember to alias the Sheet in double curly braces, or `{{}}`, and change the xref:parameters.adoc[Parameter] type to *Sheets*. Then enter your correct Spreadsheet and Sheet names under *Parameters* on the right.
 

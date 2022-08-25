@@ -24,7 +24,7 @@ image:sql-add-source.png[]
 
 . Under *Flavor*, select *Airtable*. Enter a nickname under *Nickname*.
 
-. Add your Airtable API key to the source.
+. Add your Airtable API key to the source and click *Save*.
 +
 image:sql-source-airtable.png[]
 +

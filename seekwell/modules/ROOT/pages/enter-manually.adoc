@@ -1,5 +1,5 @@
 = Enter manually
-:last_updated: 7/1/22
+:last_updated: 8/24/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -8,7 +8,7 @@
 
 // destination
 
-. Select "Manual" as the destination type.
+. Within your block, click on the current destination and select *Manual* as the destination type.
 +
 image:destination-manual.png[]
 

@@ -1,5 +1,5 @@
 = Front (Destination)
-:last_updated: 7/28/22
+:last_updated: 8/24/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -8,13 +8,13 @@
 
 // destination
 
-Easily perform operations (create/update/delete) on objects (contacts, accounts, contact_handles, channels) to build hyper targeted by providing teams with data synced from your data warehouse.
+Easily perform operations (create/update/delete) on objects (contacts, accounts, contact_handles, channels) to build hyper-targeted communications by providing teams with data synced from your data warehouse.
 
 == Set up Front as your destination
 
 . link:https://app.frontapp.com/oauth/authorize?response_type=code&client_id=9f5367d4c50436312d64&redirect_uri=https://seekwell.io/front1[Authorize the app,window=_blank].
 
-. Write your link:http://app.seekwell.io/[SQL in the app,window=_blank].
+. Write your SQL link:http://app.seekwell.io/[in the app,window=_blank].
 
 . Click the field below *Destination* and select *Front* from the drop-down. Fill the following fields:
 .. Object (for example, Contacts)

@@ -1,5 +1,5 @@
 = Parameters
-:last_updated: 8/15/22
+:last_updated: 8/24/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -114,7 +114,7 @@ image:parameters-select.png[]
 [#demo-parameters]
 video::ndzlcyWor4k[youtube]
 
-You can even create a drop down impromptu with SQLite and the "Sheets / CSV / Block" source type.
+You can even create a dropdown impromptu with SQLite and the "Sheets / CSV / Block" source type.
 
 [source,ruby]
 ----

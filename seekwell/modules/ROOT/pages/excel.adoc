@@ -19,7 +19,7 @@
 +
 NOTE: If you need other data points or formulas on the same Sheet, send your SeekWell data to one sheet (e.g. "seekwell") and use a formula or pivot table to reference the data from another sheet.
 
-. Enter the range using A1 notions, for example, "Sheet1!A1".
+. Click *A1* to enter the range using A1 notions, for example, "Sheet1!A1".
 
 . Run your SQL. When the query is done, refresh the file in Drive to see your data.
 +

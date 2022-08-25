@@ -1,5 +1,5 @@
 = Query a CSV
-:last_updated: 8/15/2022
+:last_updated: 8/24/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -24,8 +24,13 @@ image:google-drive-link-view.png[]
 
 . Click *Get shareable link* in the top right.
 +
+[#shareable]
 image:google-drive-shareable-link.png[]
 
-. Add the table to your `SELECT` with (1) `{{csv}}` (replace "csv" with a nickname for the source) and select (2) "CSV" and add the (3) URL from the step above.
+. Add the table to your `SELECT` with `{{csv}}` (replace "csv" with a nickname for the source).
+
+. Under *Parameters*, click *Value* and select *CSV*.
+
+. Under *File URL*, add the URL from the <<shareable,step above>>.
 +
 image:sql-query-csv.png[]

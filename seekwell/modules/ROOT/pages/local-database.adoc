@@ -1,5 +1,5 @@
 = Local Database
-:last_updated: 8/15/22
+:last_updated: 8/24/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -20,9 +20,8 @@ TCP tunnels allow you to expose any networked service that runs over TCP. This i
 
 To start a TCP tunnel, follow these steps:
 
-First, you need sign up to expose this type of services. Ngrok is free to all users.
 
-. link:https://dashboard.ngrok.com/user/signup[Sign up,window=_blank].
+. link:https://dashboard.ngrok.com/user/signup[Sign up,window=_blank]. Ngrok is free to all users.
 . link:https://dashboard.ngrok.com/get-started[Get your authtoken,window=_blank].
 . Install your authtoken.
 +
