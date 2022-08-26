@@ -1,5 +1,5 @@
 = Seekwell API
-:last_updated: 7/21/2022
+:last_updated: 8/26/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -12,13 +12,13 @@ You can automatically trigger any block to run by sending a request to "https://
 
 == Steps:
 
-.  Open the link:https://app.seekwell.io/[web app,window=_blank] and hit `command` / `ctrl` + `k`, then type “API” to generate an API key.
+.  Open the link:https://app.seekwell.io/[web app,window=_blank] and hit `command` / `control` + `k`, then type “API”. Click *Create API key* to generate an API key.
 
-. Go to your block that you would like to trigger programmatically, and copy the Block ID from the URL as shown below.
+. Go to the block that you would like to trigger programmatically, and copy the Block ID from the URL. As shown below, the Block ID appears after the url `\https://app.seekwell.io/run/`.
 +
 image:sql-block-id.png[]
 
-.  Post a request to "https://api.seekwell.io/run_one" with your Block ID, API Key, and optional parameters (example using Python link:https://pypi.org/project/requests/[Requests HTTP library,window=_blank]).
+.  Post a request to "https://api.seekwell.io/run_one" with your Block ID, API Key, and optional parameters. In this example, we use the Python link:https://pypi.org/project/requests/[Requests HTTP library,window=_blank]).
 +
 [source,ruby]
 ----
@@ -34,12 +34,12 @@ response = requests.post(url, json=data)
 print(response.ok)
 ----
 
-. (Optional) If the block you are triggering has xref:parameters.adoc[Parameters], you can set those parameters in your request JSON. In the example below, I'm sending user data to a Google Sheet based on which channel they signed up through (facebook, twitter, etc.).
-
+. (Optional) If the block you are triggering has xref:parameters.adoc[Parameters], you can set those parameters in your request JSON. In the example below, we send user data to a Google Sheet based on the channel through which the user signed up (Facebook, Twitter, etc.).
++
 // image missing
-
++
 The "parameters" in your request JSON should be an array of dictionaries containing the name-value pairs of each of the Parameters you want to set, as in the code below.
-
++
 [source,ruby]
 ----
 data = {

@@ -8,7 +8,7 @@
 
 // Sources
 
-For more information about supported sources, check out these articles:
+For more information about supported sources, see the following:
 
 ** xref:database-source.adoc[Add a new SQL Database]
 ** xref:query-sheets-using-sql.adoc[Query Sheets using SQL]

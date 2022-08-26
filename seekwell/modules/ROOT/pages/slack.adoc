@@ -1,5 +1,5 @@
 = Slack Alerts
-:last_updated: 8/22/2022
+:last_updated: 8/26/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -22,8 +22,6 @@
 image:destination-slack.png[]
 
 . Select the channel.
-+
-image:destination-slack-channel.png[]
 
 . Run your SQL again to send to the designated {destination} channel.
 

@@ -1,5 +1,5 @@
 = Getting started with Seekwell
-:last_updated: 8/23/22
+:last_updated: 8/26/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -44,10 +44,13 @@ To connect to a new source, follow these steps:
 . In the pop-up *New source* window, complete the following fields:
 .. Flavor
 .. Nickname
+.. Account Name (exclusive to Snowflake connections)
+.. Service Account Information in JSON (exclusive to BigQuery)
 .. Host
 .. Port
 .. Username
 .. Password
+.. Warehouse (exclusive to Snowflake connections)
 .. Database
 .. Use SSL / Use SSH
 +
@@ -65,7 +68,7 @@ To input a SQL statement, follow these steps:
 
 == Connect to a destination
 
-To connect to a destination, follow these steps:
+To connect to a new destination, follow these steps:
 
 . Under *Destination*, click *Add destination*. If you have previously selected destinations, click the destination name and scroll down to select *Add destination*.
  +
@@ -75,7 +78,7 @@ SeekWell selects *Sheets* as the default destination. To send your results to a 
 .. *Spreadsheet*: Select a spreadsheet or click *Create new Sheet*. If you do not see the desired spreadsheet destination, begin typing to search, or click *Refresh Sheets*.
 .. *Sheet1*: Enter the page of the Spreadsheet to input your results. Seekwell defaults to Sheet1.
 .. *A1*: Enter the beginning cell to input your results. SeekWell defaults to cell A1.
-.. *Replace rows / Append rows*: If your Sheet has existing data, decide whether to replace rows with your results, or append your results.
+.. *Replace rows / Append rows*: If your selected Sheet has existing data, decide whether to replace rows with your results, or append your results.
 .. *Include column names / Omit column names*: Decide whether to include or omit column names.
 
 . Click *Save*.

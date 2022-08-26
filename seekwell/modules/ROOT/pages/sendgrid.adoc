@@ -1,5 +1,5 @@
 = Sendgrid
-:last_updated: 7/5/2022
+:last_updated: 8/26/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -8,11 +8,13 @@
 
 // More
 
-If you're an Enterprise customer, you can use your own SendGrid account to send emails. Below is a suggested template for standard email reports, where:
+Enterprise customers can use their own SendGrid account to send emails. Below is a suggested template for standard email reports.
 
-* title - The title of the block
-* totalRowsReturned - the rows in the SQL results
-* dfHtml - The results rendered in HTML
+For the following parameters, insert:
+
+title:: The title of the block.
+totalRowsReturned:: The rows in the SQL results.
+dfHtml:: The results rendered in HTML.
 
 == Standard template
 

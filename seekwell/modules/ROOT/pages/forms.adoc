@@ -19,7 +19,7 @@ video::v6ms0pW2LpM[youtube]
 
 . Test the SQL statement and ensure results are as expected.
 
-. To view the block as a form, hit `command` / `ctrl` + `k` and search for "Go to Form".
+. To view the block as a form, hit `command` / `control` + `k` and search for "Go to Form".
 
 . Test the Form again with new inputs.
 +
@@ -75,4 +75,4 @@ Then, when the user submits a lookup on column_three, both column_one and column
 
 == Navigation
 
-Hit `command` / `ctrl` + `k`, and search for "Forms" to see a list of all your Forms and quickly access one.
+Hit `command` / `control` + `k`, and search for "Forms" to see a list of all your Forms and quickly access one.
