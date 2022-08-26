@@ -1,5 +1,5 @@
 = Sync data from Google Sheets to SQL
-:last_updated: 6/29/2022
+:last_updated: 8/26/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -54,7 +54,7 @@ You can now test your sync by updating a value in the Sheet and confirming the w
 
 image:sql-sync-done.png[]
 
-== Tips and Tricks
+== Tips and tricks
 
 === Upserts
 
@@ -74,7 +74,7 @@ ON DUPLICATE KEY UPDATE
     year_published = '{{year_published}}';
 ----
 
-=== Handling Null Data
+=== Handling null data
 
 Null numbers can be casted as Signed Integers in MySQL to avoid errors:
 

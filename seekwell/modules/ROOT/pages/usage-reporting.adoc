@@ -8,4 +8,4 @@
 
 // Navigation / Organization
 
-Go to link:https://app.seekwell.io/usage[https://app.seekwell.io/usage,window=_blank] to see which blocks are moving the needle on your pricing.
+Go to link:https://app.seekwell.io/usage[https://app.seekwell.io/usage,window=_blank] to see which blocks are having the most effect on your pricing.

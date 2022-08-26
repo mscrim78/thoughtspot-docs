@@ -1,5 +1,5 @@
 = Tables
-:last_updated: 8/19/2022
+:last_updated: 8/26/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -18,7 +18,7 @@ video::G4TPy2oX3_k[youtube]
 
 To edit tables in your database through Seekwell, follow these steps:
 
-. Click `control/command` + `k` and search for "Tables".
+. Click `control` / `command` + `k` and search for "Tables".
 
 . On the page that appears, search for the title of the table you would like to update.
 

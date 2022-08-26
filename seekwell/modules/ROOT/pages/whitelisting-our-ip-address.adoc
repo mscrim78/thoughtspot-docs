@@ -69,7 +69,7 @@ image:ms-firewall-setting.png[]
 [%collapsible]
 .MySQL (manual)
 ====
-Example using MySQL statements
+Example using MySQL statements:
 
 [source,ruby]
 ----

@@ -8,7 +8,7 @@
 
 // Compose (SQL editor)
 
-If you're having trouble formatting dates (especially in Sheets), the best way to get consistent format is to cast dates as a string.
+If you are having trouble formatting dates (especially in Sheets), the best way to get consistent format is to cast dates as a string.
 
 link:https://www.mssqltips.com/sqlservertip/1145/date-and-time-conversions-using-sql-server/[SQL Server,window=_blank]
 
