@@ -50,7 +50,7 @@ limit 10
 
 NOTE:  Double quotes (`"`) are required for Tables with spaces in the name. For example, a table name of "This Has Spaces" will be `SELECT * FROM appId."This Has Spaces"`.
 
-== Joining Tables
+== Joining tables
 
 . SeekWell adds two special columns to your Table:
 

@@ -32,7 +32,7 @@ NOTE: If you have gaps in your data (e.g. data in A:D, an empty column in E, and
 
 
 
-== Via a New Block with Database as destination
+== Via a new block with Database as destination
 
 You can also create a new database table by creating a new block and setting the Destination as *Database*. Watch the following demonstration video, or follow the steps below:
 
