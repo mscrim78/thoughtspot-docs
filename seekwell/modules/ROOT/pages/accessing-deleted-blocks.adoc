@@ -8,7 +8,7 @@
 
 // Navigation / Organization
 
-You can access previously deleted blocks by going to the link:https://app.seekwell.io/[SeekWell web app,window=_blank], hitting `command` / `ctrl` + `k`, and searching for "trash". A menu item appears called "View Trash".
+You can access previously deleted blocks by going to the link:https://app.seekwell.io/[SeekWell web app,window=_blank], hitting `command` / `control` + `k`, and searching for "trash". A menu item appears called "View Trash".
 
 image::sql-trash.png[]
 

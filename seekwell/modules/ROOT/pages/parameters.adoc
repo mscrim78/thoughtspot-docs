@@ -44,7 +44,7 @@ Select "Block" as the parameter type.
 image::parameters-block.png[]
 
 [#sheet-range]
-== Lists and Tables (Postgres and Snowflake only)
+== Lists and tables (Postgres and Snowflake only)
 
 You can also use a Sheet *range*, or more than one cell, to generate a SQL list (for example, `where some_column in (1, 2, 3)`). To use the list in your query, simply add the parameter (no parens, quotes, etc. needed), for example:
 

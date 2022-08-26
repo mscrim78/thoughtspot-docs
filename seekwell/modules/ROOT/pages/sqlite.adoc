@@ -1,5 +1,5 @@
 = SQLite
-:last_updated: 8/15/22
+:last_updated: 8/26/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -18,7 +18,7 @@ CAST(text_column AS INTEGER) as integer_column
 
 * link:https://www.w3resource.com/sqlite/sqlite-data-types.php[SQLite,window=_blank] does not have a storage class set aside for storing dates and/or times. Most dates will be converted to a `TEXT` field.
 
-* SQLite does however have several link:https://www.sqlitetutorial.net/sqlite-date/[functions,window=_blank] to help manipulate dates. Since the dates are `TEXT`, you can truncate dates using `SUBSTR`. For example, you can convert a timestamp to a month: +
+* SQLite does, however, have several link:https://www.sqlitetutorial.net/sqlite-date/[functions,window=_blank] to help manipulate dates. Since the dates are `TEXT`, you can truncate dates using `SUBSTR`. For example, you can convert a timestamp to a month: +
 [source,ruby]
 ----
 substr('2020-05-21 23:22', 1, 7) as created_on

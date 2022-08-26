@@ -1,5 +1,5 @@
 = Stories
-:last_updated: 8/15/2022
+:last_updated: 8/26/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -10,11 +10,11 @@
 
 == Introduction
 
-SeekWell's Stories allow you to write narratives about your data using SQL. Think of it as an always up-to-date Wall Street Journal article about your company, automatically refreshed and delivered to your inbox daily. For example, using this SQL:
+SeekWell's Stories allow you to write narratives about your data using SQL. Think of them as an always up-to-date Wall Street Journal article about your company, automatically refreshed and delivered to your inbox daily. For example, using this SQL:
 
 image:destination-stories-sample.png[]
 
-You can write a story like this:
+You can write a story like the following:
 
 image:stories-gif.gif[]
 
@@ -30,7 +30,7 @@ video::lTkv8o0j7Pw[youtube]
 
 == Adding data (single data points)
 
-Once you hit `=`, you'll see all saved query results with *exactly one row* (Note: to save a result, simply title the block). Press `return` or click to select a data point, and it will be added into the story.
+Once you hit `=`, you see all saved query results with *exactly one row* (Note: to save a result, simply title the block). Press `return` or click to select a data point, and it will be added into the story.
 
 image::destination-stories-show-data.png[]
 
@@ -55,7 +55,7 @@ If 2 is greater than 1 then we celebrate! {{2 > 1 ? `<img height="200" src="http
 But if 2 is less than 3 we failed 😞{{2 > 3 ? `<img src="https://media.giphy.com/media/doPrWYzSG1Vao/giphy.gif">` : '<img src="https://media.giphy.com/media/14aUO0Mf7dWDXW/giphy.gif">'}}
 ----
 
-NOTE: If you are new to JavaScript, the main point to want to understand is how the link:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator[conditional operator,window=_blank] works. In short, the JavaScript code:
+NOTE: If you are new to JavaScript, the main point to understand is how the link:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator[conditional operator,window=_blank] works. In short, the JavaScript code:
 `value > 100 ? 'yes' : 'no'` +
 translates to:
 `*IF* value > 100 *THEN* 'yes' *ELSE* 'no'`.
@@ -118,7 +118,7 @@ Images / GIFs
 
 == Adding Tables / Blocks
 
-You can add the results of any existing block to a Story. Make sure to first title the block you want to add, or it will not appear in the autocomplete. This feature is currently limited to 20 rows and 20 columns, link:mailto:contact@seekwell.io[contact us] if you need more.
+You can add the results of any existing block to a Story. Make sure to first title the block you want to add, or it will not appear in the autocomplete when you search. This feature is currently limited to 20 rows and 20 columns, link:mailto:contact@seekwell.io[contact us] if you need more.
 
 To add blocks to a Story, follow these steps:
 

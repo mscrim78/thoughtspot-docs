@@ -8,7 +8,7 @@
 
 // More
 
-Team administrators can manage what functionality other users can access by hitting `command` / `ctrl` + `k`, and searching for "Roles". The following roles are available:
+Team administrators can manage what functionality other users can access by hitting `command` / `control` + `k`, and searching for "Roles". The following roles are available:
 
 Admin:: Full access to the app including administrative features.
 

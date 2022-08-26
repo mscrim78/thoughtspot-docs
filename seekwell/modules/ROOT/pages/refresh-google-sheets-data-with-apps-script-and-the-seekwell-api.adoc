@@ -1,4 +1,4 @@
-= Refresh Google Sheets Data with Apps Script and the SeekWell API
+= Refresh Google Sheets data with Apps Script and the SeekWell API
 :last_updated: 8/24/2022
 :author: Naomi
 :linkattrs:
@@ -17,7 +17,7 @@ NOTE: If you're new to Apps Script be sure to check out link:https://developers.
 [#step-1]
 . Make a new Google Spreadsheet and a new link:https://app.seekwell.io/[SeekWell Block,window=_blank] that queries your database (xref:query-sheets-using-sql.adoc[or other Sheets]). Set your destination for the block as a Sheet called "data" in the new Spreadsheet.
 
-. Generate an API Key by hitting `command/ctrl`+ `k`, and searching for "API" in the link:https://app.seekwell.io/[web app,window=_blank]. Click *Create API key*.
+. Generate an API Key by hitting `command` / `control`+ `k`, and searching for "API" in the link:https://app.seekwell.io/[web app,window=_blank]. Click *Create API key*.
 
 . Store the generated key. Also, copy the block ID for the block in <<step-1,step 1>>. It can be found in the URL of your block (for example, "app.seekwell.io/run/YOUR_BLOCK_ID").
 

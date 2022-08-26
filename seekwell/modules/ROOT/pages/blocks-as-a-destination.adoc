@@ -42,7 +42,7 @@ NOTE: There is a 500 row limit on Destination Lists. If you need that limit remo
 
 
 [#required-fields]
-== Required Fields
+== Required fields
 
 * *Sheets* +
 You can use link:https://docs.google.com/spreadsheets/d/1nSYzQISbGrGfAKg6mKSOincTJVC_Ffxaest5pCu5mxs/edit?usp=sharing[this sheet,window=_blank] as a base, by creating a copy: +
@@ -105,7 +105,7 @@ image:destination-block.png[]
 
 . Run the block and verify the results in your destination database.
 
-== Case Study
+== Case study
 
 An apparel company wants to add a sample of customers who abandoned their cart to three different Sheets daily. Each PM is responsible for a separate channel and should only see customers from their channel.
 

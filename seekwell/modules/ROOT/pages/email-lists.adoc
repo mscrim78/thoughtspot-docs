@@ -54,6 +54,6 @@ image:sql-email-na.png[]
 
 NOTE: There is a 500 row limit on Destination Lists. If you need that limit removed, please contact us at link:mailto:contact@seekwell.io[contact@seekwell.io].
 
-== Case Study
+== Case study
 
 An apparel company wanted to email a sample of customers who abandoned their cart to three of their product managers daily. Each PM is responsible for a separate channel and should only see customers from their channel.

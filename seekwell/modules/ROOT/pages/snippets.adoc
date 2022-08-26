@@ -1,5 +1,5 @@
 = Snippets
-:last_updated: 8/19/22
+:last_updated: 8/26/22
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -19,7 +19,7 @@ video::KwUyIdkBPt0[youtube]
 
 === Creating your first Snippet
 
-To create a snippet, hit `command` / `ctrl` + `k`, and search for "Create snippet".
+To create a snippet, hit `command` / `control` + `k`, and search for "Create snippet".
 
 Working with dates is a good example. Consider this snippet we use at SeekWell which creates three date formats from a `timestamp`.
 
@@ -38,9 +38,9 @@ TIP: Variables are optional, not adding variables will create a "static snippet"
 
 == Navigation
 
-* To create a snippet, hit `command` / `ctrl` + `k`, and type "Create snippet".
-* To use a snippet from a block, hit `command` / `ctrl` + `;` (semicolon).
-* To view / edit / delete your snippets, hit `command` / `ctrl` + `k`, and type "View snippet".
+* To create a snippet, hit `command` / `control` + `k`, and type "Create snippet".
+* To use a snippet from a block, hit `command` / `control` + `;` (semicolon).
+* To view / edit / delete your snippets, hit `command` / `control` + `k`, and type "View snippet".
 +
 image:sql-snippets.png[]
 
@@ -73,7 +73,7 @@ from {{table_name}}
 
 Suggest a snippet link:mailto:contact@seekwell.io[here].
 
-== Other resources to jump-start
+== Related information
 
 * link:https://wiki.postgresql.org/wiki/Date_and_Time_dimensions[Postgres date snippets,window=_blank]
 * link:https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html[MySQL date snippets,window=_blank]
