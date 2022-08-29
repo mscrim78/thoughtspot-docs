@@ -47,7 +47,7 @@ Versus, Inline Subquerying, Growth| &check; | &check;
 | All chart types and configurations | &check; | &check;
 | Spot IQ: Instant insights, Did you know?,
 Pinboard insights, Analyze | &check; | &cross;
-| Monitor | &check; | &cross;
+| SpotIQ Monitor Headlines | &check; | &cross;
 | Table and Column remapping through Scriptability | &cross; | &check;
 | Custom calendar | &check; | &cross;
 |====================
