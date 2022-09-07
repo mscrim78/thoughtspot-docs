@@ -34,7 +34,7 @@ To create a block, follow these steps:
 
 . Click *Untitled* and enter the title of your new Block.
 
-== Connect to a source
+=== Connect to a source
 
 To connect to a new source, follow these steps:
 
