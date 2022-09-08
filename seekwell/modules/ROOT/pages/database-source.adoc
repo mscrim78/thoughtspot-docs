@@ -1,5 +1,5 @@
 = Database (Source)
-:last_updated: 6/24/2022
+:last_updated: 9/7/2022
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -19,10 +19,14 @@ image::sql-add-source.png[]
 . Select the *Flavor* (for example, Postgres).
 
 . Give the Source a *Nickname*, and fill in the following connection properties:
+
+.. *Account Name* (exclusive to Snowflake connections)
+.. *Service Account Information in JSON* (exclusive to BigQuery)
 .. *Host*
 .. *Port*
 .. *Username*
 .. *Password*
+.. *Warehouse* (exclusive to Snowflake connections)
 .. *Database*
 .. Choose to *Use SSL* or *Use SSH*
 +

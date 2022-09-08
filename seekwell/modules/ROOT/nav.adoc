@@ -34,7 +34,7 @@
 *** xref:airtable.adoc[]
 *** xref:bigquery.adoc[]
 *** xref:microsoft-sql-server-ms-sql.adoc[Microsoft SQL Server (MS SQL)]
-**** xref:connecting-to-panoply.adoc[Panoply]
+*** xref:connecting-to-panoply.adoc[Panoply]
 *** xref:connect-to-snowflake.adoc[Snowflake]
 ** xref:query-sheets-using-sql.adoc[Query Sheets using SQL]
 ** xref:query-blocks.adoc[Query blocks]

@@ -15,7 +15,7 @@
 
 . Click *Workbook* and select the desired Workbook from the drop-down. Since SeekWell currently only supports `.xlsx` files, this drop-down will show all `.xlsx` files in your Google Drive.
 
-. Click *Sheet1* and enter the Sheet name you want to send data to. #Please note, the entire sheet will be replaced#.
+. Click *Sheet1* and enter the Sheet name you want to send data to. Please note, the entire sheet will be replaced.
 +
 NOTE: If you need other data points or formulas on the same Sheet, send your SeekWell data to one sheet (e.g. "seekwell") and use a formula or pivot table to reference the data from another sheet.
 
@@ -27,7 +27,9 @@ video::KoxswXRqCHo[youtube]
 
 == OneDrive (Beta - Invite Only)
 
-. link:mailto:contact@seekwell.io[Contact us] to be added to the beta trial. #This feature will not work without contacting us first#.
+. link:mailto:contact@seekwell.io[Contact us] to be added to the beta trial.
++
+NOTE: This feature will not work without contacting support.
 
 . Log in to link:https://www.seekwell.io[seekwell.io,window=_blank] to authorize the app link:https://seekwell.io/O365_login[here,window=_blank].
 
