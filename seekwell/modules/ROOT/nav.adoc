@@ -12,7 +12,7 @@
 ** xref:granting-access-via-service-account.adoc[Granting access via Service Account]
 
 * Navigate Seekwell
-** Seekwell home page
+//** Seekwell home page
 ** xref:tags-and-search.adoc[Tags and search]
 ** xref:shortcuts-navigation.adoc[Shortcuts / Navigation]
 ** xref:accessing-deleted-blocks.adoc[Access deleted blocks]
@@ -34,7 +34,7 @@
 *** xref:airtable.adoc[]
 *** xref:bigquery.adoc[]
 *** xref:microsoft-sql-server-ms-sql.adoc[Microsoft SQL Server (MS SQL)]
-**** xref:connecting-to-panoply.adoc[Panoply]
+*** xref:connecting-to-panoply.adoc[Panoply]
 *** xref:connect-to-snowflake.adoc[Snowflake]
 ** xref:query-sheets-using-sql.adoc[Query Sheets using SQL]
 ** xref:query-blocks.adoc[Query blocks]
@@ -77,7 +77,7 @@
 * Integrations
 ** xref:snowflake.adoc[Snowflake External Function]
 ** xref:google-sheets-addon.adoc[Google Sheets Addon]
-*** xref:syncsheet.adoc[Sync data from Google Sheets to SQL]
+//*** xref:syncsheet.adoc[Sync data from Google Sheets to SQL]
 ** xref:google-forms-addon.adoc[Google Forms Addon]
 ** xref:sendgrid.adoc[SendGrid]
 ** xref:seekwell-api.adoc[SeekWell API]
