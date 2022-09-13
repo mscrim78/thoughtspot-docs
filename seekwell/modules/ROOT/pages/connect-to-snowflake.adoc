@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: Connect to Snowflake from Seekwell.
 
 // Getting started
 

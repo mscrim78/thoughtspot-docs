@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: Use Apps Script with the SeekWell API to create features right in Sheets, such as a "Refresh Data" button that triggers a query to send data to your Sheet.
 
 // More
 

@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Now you can create or replace tables in your database based on a table in Google Sheets or another table in your database.
+:description: You can create or replace tables in your database based on a table in Google Sheets or another table in your database.
 
 // destination
 

@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: Seekwell dashboards allow you to share multiple blocks (tables, charts, forms and stories) on one page.
 
 // More
 

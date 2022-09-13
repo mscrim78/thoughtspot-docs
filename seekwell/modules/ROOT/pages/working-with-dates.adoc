@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: If you are having trouble formatting dates (especially in Sheets), the best way to get consistent format is to cast dates as a string.
 
 // Compose (SQL editor)
 

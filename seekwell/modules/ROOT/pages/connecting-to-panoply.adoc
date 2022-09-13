@@ -4,11 +4,11 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: Follow these steps to connect to Panoply from Seekwell.
 
 // Getting started
 
-To connect to link:https://panoply.io/[Panoply,window=_blank] from SeekWell:
+To connect to link:https://panoply.io/[Panoply,window=_blank] from SeekWell, follow these steps:
 
 . Launch link:https://app.seekwell.io/[Seekwell,window=_blank].
 

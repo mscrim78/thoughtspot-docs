@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: You can access previously deleted blocks by going to the SeekWell web app, hitting `command` / `ctrl` + `k`, and then typing "trash".
+:description: You can access previously deleted blocks.
 
 // Navigation / Organization
 
