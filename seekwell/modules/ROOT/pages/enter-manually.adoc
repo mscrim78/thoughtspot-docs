@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: Use the Manual destination type to set up your destination by manually entering JSON.
 
 // destination
 

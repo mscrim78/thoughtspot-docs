@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: Sync data from Seekwell to Facebook ads.
 
 // destination
 

@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Send real-time alerts like metrics or user data to MS Teams.
+:description: Send real-time alerts like metrics or user data to Microsoft Teams.
 
 // destination
 
@@ -26,7 +26,7 @@ image:destination-ms-teams-channel.png[]
 
 . Write your SQL query.
 
-.. SeekWell will use the title of the blocks for the alert in MS Teams. If no title is specified in SeekWell, the alert will send using "Seekwell Alert" as the title in MS Teams.
+.. SeekWell will use the title of the blocks for the alert in Microsoft Teams. If no title is specified in SeekWell, the alert will send using "Seekwell Alert" as the title in Microsoft Teams.
 +
 image:destination-ms-teams-sample.png[]
 +
@@ -36,4 +36,4 @@ image:destination-ms-teams-sample-block.png[]
 
 NOTE: If you are part of many teams or channels, it might take a free extra seconds for them to show up in the drop down menu.
 
-IMPORTANT: You can also create SeekWell's xref:stories.adoc[Stories], which let you write narratives about your data using SQL and send directly to MS Teams.
+IMPORTANT: You can also create SeekWell's xref:stories.adoc[Stories], which let you write narratives about your data using SQL and send directly to Microsoft Teams.

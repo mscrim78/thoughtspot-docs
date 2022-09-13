@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: Sync data from a Google Sheet to your database using the Google Sheets Addon.
 
 // destination
 

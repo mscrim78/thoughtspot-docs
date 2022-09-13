@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-seekwell
 :destination: Excel
-:description:
+:description: Set up Excel as a destination.
 
 // destination
 

@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: You can send data from Snowflake into Google Sheets, Salesforce, and any other destination we support from your existing Snowflake Worksheets.
 
 // More
 

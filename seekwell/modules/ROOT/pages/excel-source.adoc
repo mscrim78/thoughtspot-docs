@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: Set up Excel as a source for your Seekwell block.
 
 // source
 

@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Team administrators can manage what functionality other users can access by hitting `command` / `ctrl` + `k`, and searching for "Roles".
+:description: Team administrators can manage what functionality other users can access.
 
 // More
 

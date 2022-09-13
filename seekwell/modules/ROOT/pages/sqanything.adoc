@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description:
+:description: The sqanything extension lets you query the HTML tables in all your open Chrome tabs with SQL.
 
 // More
 

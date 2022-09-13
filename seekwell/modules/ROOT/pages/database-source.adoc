@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Add a new SQL database.
+:description: Follow these steps to add a new SQL database.
 
 // source
 

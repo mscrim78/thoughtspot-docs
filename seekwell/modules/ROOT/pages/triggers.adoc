@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: You can use *Triggers* (or conditions) to prevent the execution of a scheduled job.
+:description: You can use Triggers (or conditions) to prevent the execution of a scheduled job.
 
 // destination
 

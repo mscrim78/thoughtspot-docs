@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-seekwell
 :destination: Google Sheets
-:description:
+:description: Send data from Seekwell to Google Sheets.
 
 // destination
 
