@@ -70,7 +70,7 @@
 //** Blueshift
 //** Gainsight
 ** xref:customerio.adoc[Customer.io]
-** xref:active-campaign.adoc[ActiveCampaign]
+** xref:active-campaign.adoc[Active Campaign]
 ** xref:facebook.adoc[Facebook]
 ** xref:close.adoc[Close]
 
