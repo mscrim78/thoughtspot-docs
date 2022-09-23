@@ -3,6 +3,7 @@
 :experimental:
 :linkattrs:
 :page-partial:
+:description: Find the answers to ThoughtSpot's frequently asked questions (FAQ).
 
 
 == Where can I find the version of ThoughtSpot I am using?

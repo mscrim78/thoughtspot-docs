@@ -4,6 +4,7 @@
 :page-partial:
 :page-aliases: /reference/geomap-reference.adoc
 :experimental:
+:description: This reference lists ThoughtSpot's supported countries and their subdivisions.
 
 ThoughtSpot recognizes and supports a broad list of geographic regions and their subdivisions.
 
