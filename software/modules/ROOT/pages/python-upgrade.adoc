@@ -2,6 +2,7 @@
 :last_updated: 4/26/2022
 :linkattrs:
 :experimental:
+:description: You can upgrade your Python version to Python 3.9 or remain on the default version.
 
 By default, your ThoughtSpot cluster comes with either Python 3.6 or Python 3.7. You can upgrade your Python version to Python 3.9 or remain on the default version.
 

@@ -3,6 +3,7 @@
 :linkattrs:
 :page-partial:
 :experimental:
+:description: Your user privileges determine the actions you can take in ThoughtSpot.
 
 include::partial$liveboards-announcement.adoc[]
 

@@ -3,6 +3,7 @@
 :linkattrs:
 :experimental:
 :page-aliases: /end-user/r-scripts/run-prebuilt-r-scripts.adoc
+:description: If you have R privileges, you can run R analyses on search results, and save and share the resulting visualization with others.
 
 Anyone with R privileges can run an R analysis [.label.label-dep]#Deprecated 8.4.0.sw# in ThoughtSpot using provided scripts, you don't need to be an expert.
 

@@ -4,6 +4,7 @@
 :linkattrs:
 :page-partial:
 :page-aliases: /end-user/pinboards/about-showing-underlying-data-from-within-a-pinboard.adoc, pinboard-search.adoc
+:description: You can perform many of the same search actions on individual visualizations within a Liveboard as you can within a search.
 
 include::partial$liveboards-announcement.adoc[]
 

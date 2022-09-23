@@ -2,6 +2,7 @@
 :last-updated: 11/05/2021
 :experimental:
 :linkattrs:
+:description: You can use aggregation to organize your data at a level of detail that suits your business needs.
 
 == Introduction
 
