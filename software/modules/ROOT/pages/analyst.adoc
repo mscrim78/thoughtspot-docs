@@ -3,6 +3,7 @@
 :linkattrs:
 :page-partial:
 :experimental:
+:description: As an analyst, you create and manage worksheets for everyone in your organization.
 
 include::partial$liveboards-announcement.adoc[]
 
