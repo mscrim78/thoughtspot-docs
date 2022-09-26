@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: You can schedule Python scripts to run on a schedule or use them to return DataFrame's which can then be queried by you or your team with SQL.
+
 
 // More
 
