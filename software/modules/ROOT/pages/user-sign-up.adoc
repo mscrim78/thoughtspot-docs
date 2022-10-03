@@ -3,6 +3,7 @@
 :experimental:
 :linkattrs:
 :page-partial:
+:description: Learn how to allow people in your organization to sign up for ThoughtSpot.
 :page-aliases: /admin/users-groups/sign-up.adoc
 
 Learn how to allow people in your organization to sign up for ThoughtSpot.

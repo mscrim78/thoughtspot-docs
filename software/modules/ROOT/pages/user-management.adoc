@@ -3,6 +3,7 @@
 :linkattrs:
 :experimental:
 :page-partial:
+:description: When you create a user manually in ThoughtSpot, you continue to manage that user in ThoughtSpot.
 :page-aliases: /admin/users-groups/add-user.adoc
 
 include::partial$liveboards-announcement.adoc[]

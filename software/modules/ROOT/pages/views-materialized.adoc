@@ -2,6 +2,7 @@
 :last_updated: 10/31/2018
 :experimental:
 :linkattrs:
+:description: You can materialize a view to improve its performance.
 :page-aliases: /admin/loading/materialized-views.adoc
 
 You can materialize a view to improve its performance.
