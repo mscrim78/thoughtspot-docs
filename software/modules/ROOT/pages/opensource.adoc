@@ -2,6 +2,7 @@
 :last_updated: 12/09/2019
 :experimental:
 :linkattrs:
+:description: ThoughtSpot uses open source libraries.
 
 
 ThoughtSpot uses open source libraries.

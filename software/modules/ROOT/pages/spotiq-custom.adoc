@@ -3,6 +3,7 @@
 :linkattrs:
 :experimental:
 :page-partial:
+:description: Everywhere in ThoughtSpot where you can run SpotIQ analyze, you can configure a customized SpotIQ analysis.
 :page-aliases: /spotiq/customization.adoc
 
 

@@ -2,6 +2,7 @@
 :last_updated: 11/15/2019
 :experimental:
 :linkattrs:
+:description: Learn about object security, row-level security, column-level security, and system privileges.
 
 include::partial$liveboards-announcement.adoc[]
 
@@ -33,9 +34,9 @@ Similarly, you can only see the data in a worksheet to which you have access if 
 
 Work with your ThoughtSpot support team to enable the Advanced Security Mode on the relevant clusters.
 
-== Row level security (RLS)
+== Row-level security (RLS)
 
-Row level security controls what data a user can see in each shared piece of content.
+Row-level security controls what data a user can see in each shared piece of content.
 Even if a user has access to a worksheet, they can only see rows from the tables they have permission to see.
 
 RLS applies at the table level, so it automatically extends to all worksheets, saved answers, and Liveboards based on that table, every time.
@@ -56,9 +57,9 @@ RLS supports a hierarchy of groups, which makes it possible to grant access to s
 Keep in mind that users within a group can share with one another.
 If you put everyone in your organization into the same group for RLS, they can share with anyone in the company.
 
-== Column level security (CLS)
+== Column-level security (CLS)
 
-Column level security lets users see certain columns in a table, but not other columns.
+Column-level security lets users see certain columns in a table, but not other columns.
 This can be accomplished by sharing a limited set of columns in a table with specific users or groups.
 
 Because someone can share with anyone in the same group, they can potentially share restricted columns.
