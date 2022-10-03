@@ -2,6 +2,7 @@
 :last_updated: 12/31/2020
 :experimental:
 :linkattrs:
+:description: If you need to load data from multiple CSV files, create a script to automate the process.
 :page-aliases: /admin/loading/load-with-script.adoc
 
 If you need to load data from multiple CSV files, create a script to automate the process.
