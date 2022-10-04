@@ -2,6 +2,7 @@
 :last_updated: 11/18/2019
 :experimental:
 :linkattrs:
+:description: Learn how to check the timezone your ThoughtSpot installation is running on.
 :page-aliases: /admin/troubleshooting/set-timezone.adoc
 
 Learn how to check the timezone your ThoughtSpot installation is running on.

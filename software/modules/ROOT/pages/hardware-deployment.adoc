@@ -3,6 +3,7 @@
 :linkattrs:
 :experimental:
 :page-aliases: /appliance/hardware/hardware-and-deployment.adoc
+:description: Required and provided installation hardware.
 
 Required and provided installation hardware.
 

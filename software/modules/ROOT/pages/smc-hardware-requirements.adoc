@@ -3,6 +3,7 @@
 :linkattrs:
 :experimental:
 :page-aliases: /appliance/hardware/hardware-requirements-smc.adoc
+:description: Learn about your SMC hardware before deploying ThoughtSpot.
 
 Learn about your SMC hardware before deploying ThoughtSpot.
 

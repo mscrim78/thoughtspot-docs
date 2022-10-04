@@ -4,6 +4,7 @@
 :linkatttrs:
 :page-partial:
 :page-aliases: /admin/scriptability/app-templates.adoc
+:description: SpotApps, ThoughtSpot's scriptable applications, allow you to migrate multiple objects to and from clusters.
 
 include::partial$liveboards-announcement.adoc[]
 

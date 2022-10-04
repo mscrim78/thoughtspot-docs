@@ -3,6 +3,7 @@
 :linkattrs:
 :page-aliases: /data-integrate/clients/set-up-the-odbc-driver-using-ssis.adoc
 :experimental:
+:description: Use SSIS to set up the ODBC Driver.
 
 Use SSIS to set up the ODBC Driver.
 

@@ -3,6 +3,7 @@
 :linkattrs:
 :experimental:
 :page-partial:
+:description: There are several system monitoring Liveboards in ThoughtSpot that provide answers for system status and resource usage questions.
 :page-aliases: /admin/system-monitor/monitor-pinboards.adoc, system-pinboards.adoc
 
 include::partial$liveboards-announcement.adoc[]

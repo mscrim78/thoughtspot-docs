@@ -3,6 +3,7 @@
 :experimental:
 :linkattrs:
 :page-partial:
+:description: If network connectivity to and from ThoughtSpot is not working, try using these steps to find and correct the issue.
 :page-aliases: /admin/troubleshooting/check-connectivity.adoc
 
 If network connectivity to and from ThoughtSpot is not working, try using these steps to find and correct the issue.

@@ -4,6 +4,7 @@
 :experimental:
 :page-partial:
 :page-aliases: /admin/users-groups/add-group.adoc
+:description: ThoughtSpot has intuitive user group management for assigning privileges, user selection, multi-tier subgroups, default Liveboard assignment, and emailing.
 
 include::partial$liveboards-announcement.adoc[]
 

@@ -3,6 +3,7 @@
 :linkattrs:
 :page-aliases: /appliance/rhel/rhel-prerequisites.adoc
 :experimenal:
+:description: Follow these steps to prepare the system and ThoughtSpot clusters for installation.
 
 Prepare the system and ThoughtSpot clusters for installation:
 
