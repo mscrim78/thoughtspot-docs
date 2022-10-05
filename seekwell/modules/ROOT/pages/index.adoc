@@ -75,7 +75,7 @@ Find topics for the common Seekwell workflows below.
 <div class="columns">
   <div class="box">
     <h2>
-      <a href="https://docs.thoughtspot.com/seekwell/seekwell-get-started">Getting started</a>
+      Getting started
     </h2>
     <ul>
       <li><a href="https://docs.thoughtspot.com/seekwell/whitelisting-our-ip-address">Whitelist our IP address</a></li>
@@ -103,7 +103,7 @@ Find topics for the common Seekwell workflows below.
     </div>
   <div class="box">
     <h2>
-      <a href="https://docs.thoughtspot.com/seekwell/sources">Sources</a>
+      Sources
     </h2>
    <ul>
         <li><a href="https://docs.thoughtspot.com/seekwell/database-source">Add a new SQL database</a></li>
@@ -121,7 +121,7 @@ Find topics for the common Seekwell workflows below.
     </div>
       <div class="box">
         <h2>
-          <a href="https://docs.thoughtspot.com/seekwell/destinations">Destinations
+          Destinations
         </h2>
         <ul>
          <li><a href="https://docs.thoughtspot.com/seekwell/google-sheets">Sheets</a></li>
