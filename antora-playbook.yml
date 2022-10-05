@@ -28,4 +28,4 @@ asciidoc:
 
 output:
   clean: true
-  dir: build/seekwell
+  dir: build/
