@@ -1,5 +1,7 @@
 site:
   title: Seekwell
+  url: https://preview-seekwell.netlify.app/
+  start_page: seekwell::index.adoc
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
