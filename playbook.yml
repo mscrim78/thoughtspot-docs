@@ -1,12 +1,12 @@
 site:
-  title: ThoughtSpot Software
+  title: Seekwell
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
   - url: ./
     branches: HEAD
     start_paths:
-      - software/
+      - seekwell/
 ui:
   bundle:
     url: ui-bundle/ui2-bundle.zip
@@ -26,4 +26,4 @@ asciidoc:
 
 output:
   clean: true
-  dir: build/software
+  dir: build/seekwell
