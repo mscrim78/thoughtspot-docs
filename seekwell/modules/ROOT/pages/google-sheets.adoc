@@ -39,4 +39,4 @@ You can also append results, instead of replacing the prior results, by checking
 
 * Checking the append option omits column names. If you need an easy way to get all the column names, just write without the Append option first and copy the column names.
 +
-video::append_to_sheet.mp4[]
+video::append_to_sheet.mp4[width=320, height=240]
