@@ -27,7 +27,7 @@ SeekWell will insert the new Sheet.
 
 . To set a schedule, select *Click to set Schedule* below *Repeat*.
 +
-video::4b13fe0c-7d1f-43b9-89b2-9b479f0e8c24.mp4[]
+video::4b13fe0c-7d1f-43b9-89b2-9b479f0e8c24.mp4[width=320, height=240]
 
 == Appending data
 
