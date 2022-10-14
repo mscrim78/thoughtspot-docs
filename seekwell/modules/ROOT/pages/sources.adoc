@@ -19,6 +19,8 @@ For more information about supported sources, see the following:
 ** xref:salesforce-source.adoc[Salesforce]
 ** xref:bigquery.adoc[BigQuery]
 
+To see a list of supported sources, see link:https://app.seekwell.io/integrations[Integrations].
+
 ////
 Airtable
 bigquery
