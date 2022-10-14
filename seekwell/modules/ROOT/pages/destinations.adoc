@@ -41,3 +41,5 @@ SeekWell supports the following destinations:
 ** xref:active-campaign.adoc[ActiveCampaign]
 ** xref:facebook.adoc[Facebook]
 ** xref:close.adoc[Close]
+
+To see a list of supported destinations, see link:https://app.seekwell.io/integrations[Integrations].
