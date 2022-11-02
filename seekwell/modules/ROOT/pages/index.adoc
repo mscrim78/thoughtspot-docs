@@ -79,7 +79,7 @@ Find topics for the common Seekwell workflows below.
     </h2>
     <ul>
       <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/whitelisting-our-ip-address">Whitelist our IP address</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/loacl-database">Connect to a local database</a></li>
+      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/local-database">Connect to a local database</a></li>
       <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/public-blocks">Share blocks</a></li>
       <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/granting-access-via-service-account">Grant access via Service Account</a></li>
 
