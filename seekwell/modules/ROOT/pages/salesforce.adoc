@@ -1,4 +1,4 @@
-= SalesForce (Destination)
+= Salesforce (Destination)
 :last_updated: 6/29/2022
 :author: Naomi
 :linkattrs:
