@@ -1,8 +1,5 @@
 name: seekwell
 title: SeekWell
 version: ~
-asciidoc:
-  attributes:
-    page-layout: default-seekwell
 nav:
 - modules/ROOT/nav.adoc
