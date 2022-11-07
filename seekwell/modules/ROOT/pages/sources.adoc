@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Seekwell supports the following sources.
+:description: SeekWell supports the following sources.
 
 // Sources
 

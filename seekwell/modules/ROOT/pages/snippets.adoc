@@ -21,7 +21,7 @@ video::KwUyIdkBPt0[youtube]
 
 To create a snippet, hit `command` / `control` + `k`, and search for "Create snippet".
 
-Working with dates is a good example. Consider this snippet we use at SeekWell which creates three date formats from a `timestamp`.
+Working with dates is a good example. Consider this snippet we use at {seekwell} which creates three date formats from a `timestamp`.
 
 [source,ruby]
 ----

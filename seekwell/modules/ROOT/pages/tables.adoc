@@ -10,13 +10,13 @@
 
 == Introduction
 
-SeekWell tables let you easily update tables in your database.
+{seekwell} tables let you easily update tables in your database.
 
 == Demo
 
 video::G4TPy2oX3_k[youtube]
 
-To edit tables in your database through Seekwell, follow these steps:
+To edit tables in your database through {seekwell}, follow these steps:
 
 . Click `control` / `command` + `k` and search for "Tables".
 

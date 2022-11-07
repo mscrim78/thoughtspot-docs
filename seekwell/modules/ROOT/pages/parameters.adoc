@@ -29,7 +29,7 @@ and e.email like '%{{email}}%'
 limit 200
 ----
 
-. As soon as you add a parameter to your SQL, a "Parameters" section appears in SeekWell. Select *Sheets* as the *Type*.
+. As soon as you add a parameter to your SQL, a "Parameters" section appears in {seekwell}. Select *Sheets* as the *Type*.
 +
 image:parameters-sheets.png[]
 
@@ -213,7 +213,7 @@ WHERE 1=1
 ----
 
 
-Select the "Subquery" parameter type and select the block whose SQL you want to add from the drop down:
+Select the "Subquery" parameter type and select the block whose SQL you want to add from the drop-down:
 
 image:parameters-subquery.png[]
 

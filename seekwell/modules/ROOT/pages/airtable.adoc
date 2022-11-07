@@ -8,7 +8,7 @@
 
 // source
 
-With SeekWell you can query your Airtable bases (including across multiple bases) using plain SQL (link:https://www.sqlite.org/index.html[SQLite flavor,window=_blank]).
+With {seekwell} you can query your Airtable bases (including across multiple bases) using plain SQL (link:https://www.sqlite.org/index.html[SQLite flavor,window=_blank]).
 
 NOTE: To test this on an example Base, copy the link:https://www.airtable.com/templates/sales-crm/expvjTzYAZareV1pt[Sales CRM Base in the Airtable Templates,window=_blank].
 
@@ -16,7 +16,7 @@ video::m-uygyDjV0A[youtube]
 
 == Connecting
 
-. In link:https://app.seekwell.io/[Seekwell,window=_blank], select a block or click the plus icon in the top right and select *New SQL* to create a new block.
+. In link:https://app.seekwell.io/[{seekwell},window=_blank], select a block or click the plus icon in the top right and select *New SQL* to create a new block.
 
 . Select *Add source* in the top right of the app. If you have a previous connection, select the connection nickname under *Source* and scroll down to select *Add new source*.
 +
@@ -52,7 +52,7 @@ NOTE:  Double quotes (`"`) are required for Tables with spaces in the name. For 
 
 == Joining tables
 
-. SeekWell adds two special columns to your Table:
+. {seekwell} adds two special columns to your Table:
 
 .. `_id` is the unique id for the record in your table. Use `_id` to join to "Linked" records / tables.
 

@@ -13,11 +13,11 @@
 
 . Under *Destination* on the right, click *Add destination*, and select *Excel*.
 
-. Click *Workbook* and select the desired Workbook from the drop-down. Since SeekWell currently only supports `.xlsx` files, this drop-down will show all `.xlsx` files in your Google Drive.
+. Click *Workbook* and select the desired Workbook from the drop-down. Since {seekwell} currently only supports `.xlsx` files, this drop-down will show all `.xlsx` files in your Google Drive.
 
 . Click *Sheet1* and enter the Sheet name you want to send data to. Please note, the entire sheet will be replaced.
 +
-NOTE: If you need other data points or formulas on the same Sheet, send your SeekWell data to one sheet (e.g. "seekwell") and use a formula or pivot table to reference the data from another sheet.
+NOTE: If you need other data points or formulas on the same Sheet, send your {seekwell} data to one sheet (e.g. "seekwell") and use a formula or pivot table to reference the data from another sheet.
 
 . Click *A1* to enter the range using A1 notions, for example, "Sheet1!A1".
 

@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Query a CSV from Google Drive using Seekwell parameters.
+:description: Query a CSV from Google Drive using SeekWell parameters.
 
 // source
 

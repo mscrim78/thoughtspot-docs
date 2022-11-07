@@ -4,13 +4,13 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Sync data from Seekwell to Facebook ads.
+:description: Sync data from SeekWell to Facebook ads.
 
 // destination
 
 == Steps
 
-. Go to link:https://app.seekwell.io/integrations[SeekWell's integration catalog,window=_blank], select Facebook ads, and click *Add*.
+. Go to link:https://app.seekwell.io/integrations[{seekwell}'s integration catalog,window=_blank], select Facebook ads, and click *Add*.
 +
 image::destination-facebook-ad.png[]
 

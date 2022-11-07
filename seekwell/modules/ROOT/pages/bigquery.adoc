@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Connect Seekwell to Google BigQuery.
+:description: Connect SeekWell to Google BigQuery.
 
 // source
 
@@ -37,7 +37,7 @@ image:bigquery-select-json.png[]
 
 To connect to BigQuery, follow these steps:
 
-. Open an existing block, or create a new block by clicking the plus icon in the SeekWell home page and selecting *New SQL*.
+. Open an existing block, or create a new block by clicking the plus icon in the {seekwell} home page and selecting *New SQL*.
 
 . Under *Source* in the top right corner, click *Add new source*. If you have a previous connection, select the connection nickname under *Source* and scroll down to select *Add new source*.
 

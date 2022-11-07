@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Sync data from Seekwell to Active Campaign.
+:description: Sync data from SeekWell to Active Campaign.
 
 // destination
 
@@ -20,7 +20,7 @@ image:destination-activecampaign.png[]
 
 . Find your API credentials at link:https://seekwell.activehosted.com/app/settings/developer[https://seekwell.activehosted.com/app/settings/developer,window=_blank].
 
-.. Copy the API Url and API Key and authorize the app in SeekWell.
+.. Copy the API Url and API Key and authorize the app in {seekwell}.
 
 === Syncing data to Active Campaign
 

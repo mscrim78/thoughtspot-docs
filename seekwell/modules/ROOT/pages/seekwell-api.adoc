@@ -1,10 +1,10 @@
-= Seekwell API
+= {seekwell} API
 :last_updated: 8/26/2022
 :author: Naomi
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Use the Seekwell API to automatically trigger any block to run.
+:description: Use the SeekWell API to automatically trigger any block to run.
 
 // More
 
@@ -53,11 +53,11 @@ response = requests.post(url, json=data)
 
 == Use Case: Setting up a Zap
 
-You can set up Zapier to trigger a block to run by using the SeekWell API as a link:https://zapier.com/page/webhooks/[webhook,window=_blank].
+You can set up Zapier to trigger a block to run by using the {seekwell} API as a link:https://zapier.com/page/webhooks/[webhook,window=_blank].
 
 === Steps:
 
-. Make a new Zap and create the App Event or schedule you want to trigger your SeekWell Block to run.
+. Make a new Zap and create the App Event or schedule you want to trigger your {seekwell} Block to run.
 . Make an Action and choose "Webhooks" as your App and "Post" as your Action Event.
-. Enter the SeekWell API URL along with the required data fields.
+. Enter the {seekwell} API URL along with the required data fields.
 . Your block should then run whenever the Zap is triggered.

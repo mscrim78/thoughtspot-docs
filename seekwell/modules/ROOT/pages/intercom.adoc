@@ -10,11 +10,11 @@
 
 == Getting started
 
-With SeekWell Intercom integration, you can easily sync data from your database to Intercom. To get started, link:https://app.intercom.io/oauth?client_id=2666fea1-41de-4aa2-a04d-e155ce8108dc&state=example[authorize your Intercom account,window=_blank] with SeekWell.
+With {seekwell} Intercom integration, you can easily sync data from your database to Intercom. To get started, link:https://app.intercom.io/oauth?client_id=2666fea1-41de-4aa2-a04d-e155ce8108dc&state=example[authorize your Intercom account,window=_blank] with {seekwell}.
 
 To set up Intercom as a destination, follow these steps:
 
-. link:https://sql.new/[Create a new SQL block,window=_blank] in SeekWell using the plus sign in the top right of the home screen:
+. link:https://sql.new/[Create a new SQL block,window=_blank] in {seekwell} using the plus sign in the top right of the home screen:
 +
 image::destination-intercom.png[]
 

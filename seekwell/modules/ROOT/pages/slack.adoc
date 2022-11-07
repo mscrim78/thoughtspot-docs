@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-seekwell
 :destination: Slack
-:description: Set up Slack as a destination from Seekwell.
+:description: Set up Slack as a destination from SeekWell.
 
 // destination
 

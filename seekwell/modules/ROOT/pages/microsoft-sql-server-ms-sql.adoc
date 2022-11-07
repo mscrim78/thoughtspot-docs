@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Set up mixed mode authentication to connect your Microsoft SQL database to Seekwell.
+:description: Set up mixed mode authentication to connect your Microsoft SQL database to SeekWell.
 
 // Getting started
 
@@ -20,7 +20,7 @@ CREATE USER Mary WITH PASSWORD = '********';
 ----
 
 
-This is the solution to most "Adaptive Server connection failed" errors you see when trying to connect with SeekWell.
+This is the solution to most "Adaptive Server connection failed" errors you see when trying to connect with {seekwell}.
 
 
 You also need to whitelist our IP address link:https://support.appliedi.net/kb/how-to-whitelist-an-ip-address-for-ms-sql-access-on-a-windows-2012-server/[for SQL Server,window=_blank].

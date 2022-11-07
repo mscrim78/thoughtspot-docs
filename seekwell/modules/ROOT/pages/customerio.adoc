@@ -38,7 +38,7 @@ image:customerio-api-cred.png[]
 +
 image:customerio-app-api.png[]
 
-.. Navigate to the link:https://app.seekwell.io/[SeekWell home page,window=_blank].
+.. Navigate to the link:https://app.seekwell.io/[{seekwell} home page,window=_blank].
 
 === Syncing data to Customer.IO
 

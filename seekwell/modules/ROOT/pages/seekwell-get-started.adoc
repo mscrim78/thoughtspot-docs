@@ -1,4 +1,4 @@
-= Getting started with Seekwell
+= Getting started with {seekwell}
 :last_updated: 8/26/22
 :author: Naomi
 :linkattrs:
@@ -14,7 +14,7 @@
 ++++
 ////
 
-Use SeekWell to write SQL and send the results to apps like xref:google-sheets.adoc[Google Sheets], xref:microsoft-teams.adoc[MS Teams], xref:salesforce.adoc[Salesforce], xref:slack.adoc[Slack], and more. Blocks are the fundamental framework for working with SeekWell. The four primary components of your block are the SQL that you write, the data source, the destination for your output, and the xref:parameters.adoc[parameter mapping].
+Use {seekwell} to write SQL and send the results to apps like xref:google-sheets.adoc[Google Sheets], xref:microsoft-teams.adoc[MS Teams], xref:salesforce.adoc[Salesforce], xref:slack.adoc[Slack], and more. Blocks are the fundamental framework for working with {seekwell}. The four primary components of your block are the SQL that you write, the data source, the destination for your output, and the xref:parameters.adoc[parameter mapping].
 
 ////
 Before you begin
@@ -28,7 +28,7 @@ Blocks can operate on the results of other blocks, so you can build complex proc
 
 To create a block, follow these steps:
 
-. Log in to link:https://app.seekwell.io/[Seekwell,window=_blank].
+. Log in to link:https://app.seekwell.io/[{seekwell},window=_blank].
 
 . Click the plus icon in the top-right of the screen and select *New SQL*.
 
@@ -54,7 +54,7 @@ To connect to a new source, follow these steps:
 .. Database
 .. Use SSL / Use SSH
 +
-NOTE: You must whitelist the SeekWell IP addresses (35.193.207.79 and 35.239.74.213) for the connection to work. For more information, see xref:whitelisting-our-ip-address.adoc[].
+NOTE: You must whitelist the {seekwell} IP addresses (35.193.207.79 and 35.239.74.213) for the connection to work. For more information, see xref:whitelisting-our-ip-address.adoc[].
 
 . Click *Save*.
 
@@ -72,12 +72,12 @@ To connect to a new destination, follow these steps:
 
 . Under *Destination*, click *Add destination*. If you have previously selected destinations, click the destination name and scroll down to select *Add destination*.
  +
-SeekWell selects *Sheets* as the default destination. To send your results to a different destination, click *Sheets* and scroll down to select your new destination.
+{seekwell} selects *Sheets* as the default destination. To send your results to a different destination, click *Sheets* and scroll down to select your new destination.
 
 . Fill out the fields below your selected destination. For *Sheets*, fill out the following fields:
 .. *Spreadsheet*: Select a spreadsheet or click *Create new Sheet*. If you do not see the desired spreadsheet destination, begin typing to search, or click *Refresh Sheets*.
-.. *Sheet1*: Enter the page of the Spreadsheet to input your results. Seekwell defaults to Sheet1.
-.. *A1*: Enter the beginning cell to input your results. SeekWell defaults to cell A1.
+.. *Sheet1*: Enter the page of the Spreadsheet to input your results. {seekwell} defaults to Sheet1.
+.. *A1*: Enter the beginning cell to input your results. {seekwell} defaults to cell A1.
 .. *Replace rows / Append rows*: If your selected Sheet has existing data, decide whether to replace rows with your results, or append your results.
 .. *Include column names / Omit column names*: Decide whether to include or omit column names.
 
@@ -88,7 +88,7 @@ SeekWell selects *Sheets* as the default destination. To send your results to a 
 
 == Set parameters [optional]
 
-With parameters you can inject data into your SQL statement. You can input plain text or  numbers, or inject data from Sheets or another block.
+With parameters, you can inject data into your SQL statement. You can input plain text or  numbers, or inject data from Sheets or another block.
 
 In this example, we demonstrate how to use parameters to add data to your block from Sheets. To set parameters for your block, follow these steps:
 
@@ -103,7 +103,7 @@ and e.email like '%{{email}}%'
 limit 200
 ----
 
-. As soon as you add a parameter to your SQL, the *Parameters* section appears in SeekWell. Select *Sheets* as the *Type*.
+. As soon as you add a parameter to your SQL, the *Parameters* section appears in {seekwell}. Select *Sheets* as the *Type*.
 
 . Select the Spreadsheet you want to grab the parameter value from and the *cell* link:https://developers.google.com/sheets/api/guides/concepts?utm_source=devtools#a1_notation[using A1 notation,window=_blank] (for example, `Sheet1!A1`). You can only use a single cell, except in the case of Postgres and Snowflake. If you need to reference multiple cells, use `and / or` statements.
 
