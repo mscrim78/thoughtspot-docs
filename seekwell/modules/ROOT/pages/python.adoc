@@ -72,4 +72,4 @@ seekwell = {'df': df}
 
 When you run this code, you see the results of your existing block appear along with your new `added_with_python` column.
 
-NOTE: SeekWell is not meant for ad-hoc Python analysis and thus is not intended to debug your script. Be sure to test your scripts locally or in another cloud environment like Colab before scheduling the script on SeekWell.
+NOTE: {seekwell} is not meant for ad-hoc Python analysis and thus is not intended to debug your script. Be sure to test your scripts locally or in another cloud environment like Colab before scheduling the script on {seekwell}.

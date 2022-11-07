@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-seekwell
 :destination: Google Sheets
-:description: Send data from Seekwell to Google Sheets.
+:description: Send data from SeekWell to Google Sheets.
 
 // destination
 
@@ -21,7 +21,7 @@ Authorize the {destination} app link:https://seekwell.io/web_auth_sheets[here,wi
 . After writing a SQL statement that pulls the data you want, click on *Add destination* in the right sidebar and scroll down to select *{destination}*.
 
 . Select a Spreadsheet, Sheet, and cell. If the Sheet does not exist, select *"" does not exist, add it?* +
-SeekWell will insert the new Sheet.
+{seekwell} will insert the new Sheet.
 
 . Click *Run*.
 

@@ -9,7 +9,7 @@
 // Getting started
 
 
-You can connect SeekWell to a local database using link:https://ngrok.com/[ngrok,window=_blank]. For more information, see:
+You can connect {seekwell} to a local database using link:https://ngrok.com/[ngrok,window=_blank]. For more information, see:
 
 * link:https://medium.com/@jotarios/ngrok-secure-tunnels-local-dead8685bd71[https://medium.com/@jotarios/ngrok-secure-tunnels-local-dead8685bd71,window=_blank]
 * link:https://ngrok.com/docs[https://ngrok.com/docs,window=_blank]

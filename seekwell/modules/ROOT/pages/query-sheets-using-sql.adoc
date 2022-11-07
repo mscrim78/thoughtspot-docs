@@ -10,7 +10,7 @@
 
 == Introduction
 
-With SeekWell you can query a Google Sheet using plain SQL (xref:sqlite.adoc[SQLite] to be specific) and send the results of the query to another Sheet. You can also send the results using Slack or email.
+With {seekwell} you can query a Google Sheet using plain SQL (xref:sqlite.adoc[SQLite] to be specific) and send the results of the query to another Sheet. You can also send the results using Slack or email.
 
 == Demo
 

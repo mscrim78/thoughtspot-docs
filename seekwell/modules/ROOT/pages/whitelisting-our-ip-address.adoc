@@ -8,7 +8,7 @@
 
 // Getting started
 
-To use Seekwell, you first need to whitelist the following IP addresses:
+To use {seekwell}, you first need to whitelist the following IP addresses:
 
 *35.193.207.79* and *35.239.74.213​*
 

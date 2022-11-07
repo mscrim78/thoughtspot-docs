@@ -4,15 +4,15 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Follow these steps to connect to Panoply from Seekwell.
+:description: Follow these steps to connect to Panoply from SeekWell.
 
 // Getting started
 
-To connect to link:https://panoply.io/[Panoply,window=_blank] from SeekWell, follow these steps:
+To connect to link:https://panoply.io/[Panoply,window=_blank] from {seekwell}, follow these steps:
 
-. Launch link:https://app.seekwell.io/[Seekwell,window=_blank].
+. Launch link:https://app.seekwell.io/[{seekwell},window=_blank].
 
-. In the top right corner, click the plus icon and select *Add New Integration*. The integrations page appears.
+. In the top right corner, click the plus icon and select *Add New Integration*. The Integrations page appears.
 
 . Scroll down to select *Redshift*, or enter "Redshift" in the search bar. On the Redshift tile, click *+ Add*.
 

@@ -1,4 +1,4 @@
-= SeekWell Documentation
+= {seekwell} Documentation
 :page-layout: home-branch-seekwell
 
 ++++
@@ -73,7 +73,7 @@ ul li img {
 </style>
 ++++
 
-SeekWell allows you to sync your data warehouse with external apps and automate your customer data workflows.
+{seekwell} allows you to sync your data warehouse with external apps and automate your customer data workflows.
 
 
 Find topics for the common {seekwell} workflows below.

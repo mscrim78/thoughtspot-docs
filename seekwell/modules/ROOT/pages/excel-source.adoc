@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Set up Excel as a source for your Seekwell block.
+:description: Set up Excel as a source for your SeekWell block.
 
 // source
 
@@ -20,7 +20,7 @@ image:sql-source-sheets.png[]
 +
 image:sql-params-excel.png[]
 
-. Select the spreadsheet from the drop-down. Since SeekWell currently only supports `.xlsx` files, this drop-down displays all `.xlsx` files in your Google Drive.
+. Select the spreadsheet from the drop-down. Since {seekwell} currently only supports `.xlsx` files, this drop-down displays all `.xlsx` files in your Google Drive.
 
 . Enter the Sheet name you want to query from.
 

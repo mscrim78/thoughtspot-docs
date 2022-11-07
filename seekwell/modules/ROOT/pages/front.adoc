@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Set up Front as a destination from Seekwell.
+:description: Set up Front as a destination from SeekWell.
 
 // destination
 

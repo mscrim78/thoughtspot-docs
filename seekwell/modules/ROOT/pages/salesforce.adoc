@@ -14,7 +14,7 @@ You can sync data from your database or warehouse to Salesforce with a simple SQ
 
 . To start sending your database data to Salesforce, link:https://login.salesforce.com/services/oauth2/authorize?client_id=3MVG9LBJLApeX_PDgnQWQtipJhLKZ5zHco7lI6AVz9ZtyX5esJ_oC1b_CJMc.96ffhjXhSrT18lIXWZc5sLXT&redirect_uri=https://seekwell.io/sfdc1&response_type=code[authorize the app,window=_blank].
 
-. Write your SQL query link:http://app.seekwell.io/[in the app,window=_blank] for the data you want to send to Salesforce, and view the results. Be sure to include the `Id` for the record in Salesforce. If you don't already have the id in your database, you can query xref:salesforce-source.adoc[Salesforce (Source)] live from SeekWell to get another identifier that is in your database (for example, email) and join to that to get the `Id`.
+. Write your SQL query link:http://app.seekwell.io/[in the app,window=_blank] for the data you want to send to Salesforce, and view the results. Be sure to include the `Id` for the record in Salesforce. If you don't already have the id in your database, you can query xref:salesforce-source.adoc[Salesforce (Source)] live from {seekwell} to get another identifier that is in your database (for example, email) and join to that to get the `Id`.
 
 . Under *Destination* on the right, select *Salesforce*. Fill the following fields:
 .. Object (for example, Account)
@@ -32,7 +32,7 @@ image:destination-salesforce-mapping.png[]
 +
 image:destination-salesforce-test-sync.png[]
 
-. Once you've finished mapping all your columns to their corresponding fields in Salesforce, click *Test Sync* to ensure the sync is working. If the records have not updated, you can view your job statuses in Salesforce under menu:Setup[Bulk Data Load Jobs]. Click on the *Job ID* and scroll down to view any errors. You can also view background job errors in the SeekWell App's link:https://app.seekwell.io/feed[Feed,window=_blank].
+. Once you've finished mapping all your columns to their corresponding fields in Salesforce, click *Test Sync* to ensure the sync is working. If the records have not updated, you can view your job statuses in Salesforce under menu:Setup[Bulk Data Load Jobs]. Click on the *Job ID* and scroll down to view any errors. You can also view background job errors in the {seekwell} App's link:https://app.seekwell.io/feed[Feed,window=_blank].
 +
 image:bulk-data-load.png[]
 

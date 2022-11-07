@@ -4,11 +4,11 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Seekwell supports the following destinations.
+:description: SeekWell supports the following destinations.
 
 // Destinations
 
-SeekWell supports the following destinations:
+{seekwell} supports the following destinations:
 
 ** xref:google-sheets.adoc[Sheets]
 *** xref:import-sql-database-to-sheets.adoc[Import SQL database to Sheets]

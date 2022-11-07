@@ -4,13 +4,13 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Seekwell dashboards allow you to share multiple blocks (tables, charts, forms and stories) on one page.
+:description: SeekWell dashboards allow you to share multiple blocks (tables, charts, forms and stories) on one page.
 
 // More
 
 // is this currently supported?
 
-SeekWell Dashboards allow you to share multiple blocks (for example, tables, charts, xref:forms.adoc[📋 Forms], and xref:stories.adoc[✍ Stories]) on one page. You can use Dashboards to create:
+{seekwell} Dashboards allow you to share multiple blocks (for example, tables, charts, xref:forms.adoc[📋 Forms], and xref:stories.adoc[✍ Stories]) on one page. You can use Dashboards to create:
 
 * DevOps dashboards that xref:parameters.adoc[let non-technical teammates update data]
 

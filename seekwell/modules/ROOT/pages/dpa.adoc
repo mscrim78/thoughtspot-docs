@@ -14,14 +14,14 @@ _Updated: February 21, 2020_
 
 This data processing agreement (DPA), pursuant to art. 28 General Data Protection Regulation (GDPR), is made between the following parties:
 
-*Controller*: a customer of SeekWell (“Customer”, “you”);
-*Processor*: SeekWell, operated by SeekWell, Inc. ("SeekWell," "we," "our", or “us”).
+*Controller*: a customer of {seekwell} (“Customer”, “you”);
+*Processor*: {seekwell}, operated by {seekwell}, Inc. ("{seekwell}," "we," "our", or “us”).
 
 == Subject Matter
 
-The subject matter of this DPA and the thereto related processing activities result from link:https://seekwell.io/terms[SeekWell Terms of Service,window=_blank] (“Agreement”) between you and SeekWell. This DPA amends and supplements your Agreement and requires no further action on your part.
+The subject matter of this DPA and the thereto related processing activities result from link:https://seekwell.io/terms[{seekwell} Terms of Service,window=_blank] (“Agreement”) between you and {seekwell}. This DPA amends and supplements your Agreement and requires no further action on your part.
 
-The parties agree that to the extent SeekWell operates and manages the Service, SeekWell is acting as a processor under data protection laws on the Customer’s behalf, and the Customer is acting as the controller under data protection laws for the Customer’s end users.
+The parties agree that to the extent {seekwell} operates and manages the Service, {seekwell} is acting as a processor under data protection laws on the Customer’s behalf, and the Customer is acting as the controller under data protection laws for the Customer’s end users.
 
 === Term
 
@@ -51,7 +51,7 @@ The personal data collected and processed related to:
 
 == Data Transfers
 
-The Customer acknowledges that, in connection with the Services, personal data will be transferred to SeekWell in the United States.
+The Customer acknowledges that, in connection with the Services, personal data will be transferred to {seekwell} in the United States.
 
 The Standard Contractual Clauses apply with respect to personal data that is transferred outside the European Economic Area (“EEA”), either directly or via onward transfer, to any country not recognized by the European Commission as providing an adequate level of protection for personal data (as described in the data protection laws).
 
@@ -65,7 +65,7 @@ The Standard Contractual Clauses apply with respect to personal data that is tra
 
 == Rectification, Restriction and Erasure of Data
 
-. The Processor may not rectify, erase or restrict the processing of data that is being processed on the Controller's behalf at its own initiative but only upon documented instructions by the Controller, unless the Controller violates SeekWell link:https://seekwell.io/terms[Terms of Service,window=_blank] and their access to Service is terminated as a result of such violation.
+. The Processor may not rectify, erase or restrict the processing of data that is being processed on the Controller's behalf at its own initiative but only upon documented instructions by the Controller, unless the Controller violates {seekwell} link:https://seekwell.io/terms[Terms of Service,window=_blank] and their access to Service is terminated as a result of such violation.
 
 . Should a Data Subject contact the Processor directly concerning a rectification, erasure, or restriction of processing, the Processor shall immediately forward such Data Subject’s request to the Controller. The requests of erasure, rectification, data portability and access shall be fulfilled by the Processor in accordance with documented instructions by the Controller without undue delay.
 

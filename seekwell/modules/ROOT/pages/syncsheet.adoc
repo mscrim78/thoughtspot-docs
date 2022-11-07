@@ -76,7 +76,7 @@ ON DUPLICATE KEY UPDATE
 
 === Handling null data
 
-Null numbers can be casted as Signed Integers in MySQL to avoid errors:
+Null numbers can be cast as Signed Integers in MySQL to avoid errors:
 
 [source,ruby]
 ----

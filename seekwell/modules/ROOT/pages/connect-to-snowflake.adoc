@@ -4,14 +4,14 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Connect to Snowflake from Seekwell.
+:description: Connect to Snowflake from SeekWell.
 
 // Getting started
 
 [#prerequisites]
 == Prerequisites
 
-To connect to *Snowflake* with *SeekWell*, you need the following fields:
+To connect to *Snowflake* with *{seekwell}*, you need the following fields:
 
 * Account Name
 * Region
@@ -41,9 +41,9 @@ image:snowflake-user-role.png[]
 
 == Connect to Snowflake
 
-. Launch link:https://app.seekwell.io/[Seekwell,window=_blank].
+. Launch link:https://app.seekwell.io/[{seekwell},window=_blank].
 
-. In the top-right corner, click the plus icon and select *Add New Integration*. The integrations page appears.
+. In the top-right corner, click the plus icon and select *Add New Integration*. The Integrations page appears.
 
 . Scroll down to select *Snowflake*, or enter "Snowflake" in the search bar. On the Snowflake tile, click *+ Add*.
 

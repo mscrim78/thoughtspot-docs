@@ -8,7 +8,7 @@
 
 // More
 
-Our Forms addon allows you to trigger a SeekWell block to run upon a Form submission. You can use this to, for example:
+Our Forms addon allows you to trigger a {seekwell} block to run upon a Form submission. You can use this to, for example:
 
 * Insert a record into a table in your database
 * Update a column in your database using a primary key (e.g. email address)

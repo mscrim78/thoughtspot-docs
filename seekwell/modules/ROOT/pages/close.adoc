@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Set up Close as a destination for Seekwell.
+:description: Set up Close as a destination for SeekWell.
 
 // destination
 
@@ -20,13 +20,13 @@ image:destination-close.png[]
 
 . Enter a *Name*.
 
-. Generate a new *API Key* for SeekWell at link:https://app.close.com/settings/api/[https://app.close.com/settings/api/,window=_blank].
+. Generate a new *API Key* for {seekwell} at link:https://app.close.com/settings/api/[https://app.close.com/settings/api/,window=_blank].
 
-.. Copy the API Key and authorize the app in SeekWell.
+.. Copy the API Key and authorize the app in {seekwell}.
 
 === Syncing data to Close
 
-. Start a new block in link:https://app.seekwell.io/[Seekwell,window=_blank].
+. Start a new block in link:https://app.seekwell.io/[{seekwell},window=_blank].
 
 . Write a SQL statement and run the query to verify the results are as expected.
 

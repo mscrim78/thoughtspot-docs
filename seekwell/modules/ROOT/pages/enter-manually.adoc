@@ -51,7 +51,7 @@ image:destination-blocks-uuid.png[]
 
 sheet:: The name of the specific Sheet in your Spreadsheet that you want to send data to.
 
-serviceAccount::  _true_ or _false_. Indicates whether you are using a Service Account. If you have granted SeekWell access to your Google Sheets then you can leave this as _false_.
+serviceAccount::  _true_ or _false_. Indicates whether you are using a Service Account. If you have granted {seekwell} access to your Google Sheets then you can leave this as _false_.
 
 cell:: The cell in the Sheet to send data to (e.g. "A1").
 

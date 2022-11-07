@@ -11,13 +11,13 @@
 video::Dp76jQQpsIk[youtube]
 
 
-Sets in Seekwell allow you to create clean datasets for the rest of your team to use, and allow them to analyze data in your database without having to write code.
+Sets in {seekwell} allow you to create clean datasets for the rest of your team to use, and allow them to analyze data in your database without having to write code.
 
-Let's walk through a demonstration of how to create a set, explore the set within Seekwell, and send the results to an external business app.
+Let's walk through a demonstration of how to create a set, explore the set within {seekwell}, and send the results to an external business app.
 
-== Create a Seekwell Set
+== Create a {seekwell} Set
 
-To create a Set within Seekwell, follow these steps:
+To create a Set within {seekwell}, follow these steps:
 
 . Connect to your database. The *Source* dropdown displays all previously connected databases. If you do not see In this example, we connect to the demo database, `sw-replica`.
 
@@ -32,15 +32,15 @@ where 1=1
 
 . Test that you see the desired results by running your query.
 
-. In the bottom right corner, select the *Edit set schema* icon, which looks like two curly brackets. Seekwell automatically generates a schema for your SQL query.
+. In the bottom right corner, select the *Edit set schema* icon, which looks like two curly brackets. {seekwell} automatically generates a schema for your SQL query.
 
 . Using the *Edit set schema* window, you can add measures to your query, such as a `count` of paid users, by injecting a SQL attribute defining a `"sum(case when plan != 'basic' then 1 else 0 end)".
 
 . Click *Run* to test your updated query schema displays the desired results.
 
-== Explore sets in Seekwell
+== Explore sets in {seekwell}
 
-To explore a set within Seekwell, follow these steps:
+To explore a set within {seekwell}, follow these steps:
 
 . Click `command/control` + `k`, then search for *Explore Sets*.
 
@@ -48,7 +48,7 @@ To explore a set within Seekwell, follow these steps:
 
 . Search for the relevant measures to suit your business use case. In this example, to find the total number of plans, contrast by the number of paid plans, and group the results by week, you would search for: `DemoUsers.created_on_week` `DemoUsers.count` `DemoUsers.paid`.
 
-. Click `command`+`enter`, or select the *Run* icon to see your results. Seekwell displays your results as a table by default. To see your results as a chart, click the *chart* icon.
+. Click `command`+`enter`, or select the *Run* icon to see your results. {seekwell} displays your results as a table by default. To see your results as a chart, click the *chart* icon.
 
 . [Optional] Title the chart view of your search to save.
 

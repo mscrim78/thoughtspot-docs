@@ -10,7 +10,7 @@
 
 == Introduction
 
-You can use Seekwell to send query results, either from your database or a Google Sheet, via email. The email contains an HTML preview of the results, a link back to the block, and a CSV file with the query results.
+You can use {seekwell} to send query results, either from your database or a Google Sheet, via email. The email contains an HTML preview of the results, a link back to the block, and a CSV file with the query results.
 
 == Steps
 
@@ -20,7 +20,7 @@ image:destination-email.png[]
 
 . Under *Send from*, enter your email address.
 
-. By default, SeekWell asks you to enter the list of emails manually. To use the email list as a block, see xref:email-lists.adoc[].
+. By default, {seekwell} asks you to enter the list of emails manually. To use the email list as a block, see xref:email-lists.adoc[].
 
 . Click *Emails (comma separated list)* to enter email addresses as a comma-separated list, and click *Save*.
 +

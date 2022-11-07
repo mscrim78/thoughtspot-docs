@@ -8,9 +8,9 @@
 
 // More
 
-SeekWell Forms allow you to expose SQL statements as Forms to non-technical teammates. Team members are able to execute pre-defined SQL statements without any SQL experience. Simply set up xref:parameters.adoc[⚙ Parameters] for a query and share the link to the form with your team.
+{seekwell} Forms allow you to expose SQL statements as Forms to non-technical teammates. Team members are able to execute pre-defined SQL statements without any SQL experience. Simply set up xref:parameters.adoc[⚙ Parameters] for a query and share the link to the form with your team.
 
-NOTE: SeekWell does no manipulation on your SQL statements to prevent SQL injection. Do not expose blocks or forms to untrusted users. You should prefer link:https://doc.seekwell.io/e18b84a0e07d42ba981a449e2e53f018#cf863d826f2542eaa682d766efb35887[Selects,window=_blank] over Value parameter types and use link:https://doc.seekwell.io/6c37026024db4f7a8b149f5bd38d7cf5#75f3b9ebbb0e40dcbb230da31013e390[Approval Queues,window=_blank] and link:https://doc.seekwell.io/6c37026024db4f7a8b149f5bd38d7cf5#8482694be8d24762a2933699c3fc84ef[Lookups,window=_blank] where appropriate.
+NOTE: {seekwell} does no manipulation on your SQL statements to prevent SQL injection. Do not expose blocks or forms to untrusted users. You should prefer link:https://doc.seekwell.io/e18b84a0e07d42ba981a449e2e53f018#cf863d826f2542eaa682d766efb35887[Selects,window=_blank] over Value parameter types and use link:https://doc.seekwell.io/6c37026024db4f7a8b149f5bd38d7cf5#75f3b9ebbb0e40dcbb230da31013e390[Approval Queues,window=_blank] and link:https://doc.seekwell.io/6c37026024db4f7a8b149f5bd38d7cf5#8482694be8d24762a2933699c3fc84ef[Lookups,window=_blank] where appropriate.
 
 video::v6ms0pW2LpM[youtube]
 
@@ -33,7 +33,7 @@ NOTE: Only admin users can see the SQL preview and edit the block.
 
 == Approval Queues
 
-You can require Form submissions to be approved by an admin on your team. When creating the Form, select "Requires approval" from the drop down on the left. Admins can approve submission from the queue by changing the status to "Approved".
+You can require Form submissions to be approved by an admin on your team. When creating the Form, select "Requires approval" from the drop-down on the left. Admins can approve submission from the queue by changing the status to "Approved".
 
 image::requires-approval.png[]
 image::approval-pending.png[]

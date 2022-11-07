@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-seekwell
-:description: Seekwell uses SQLite3 as the database engine when you query CSVs, Sheets, and other blocks.
+:description: SeekWell uses SQLite3 as the database engine when you query CSVs, Sheets, and other blocks.
 
 // Compose (SQL editor)
 
