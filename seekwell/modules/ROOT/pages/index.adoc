@@ -96,7 +96,7 @@ Find topics for the common Seekwell workflows below.
     </div>
   <div class="box">
     <h2>
-      Compose in SeekWell Editor
+      SQL editor
     </h2>
     <ul>
       <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/parameters">Parameters</a></li>
