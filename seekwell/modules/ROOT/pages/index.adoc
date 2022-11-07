@@ -1,4 +1,4 @@
-= image:just-logo-black-40px.png[] SeekWell Documentation
+= SeekWell Documentation
 :page-layout: home-branch-seekwell
 
 ++++
