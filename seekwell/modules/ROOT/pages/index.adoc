@@ -1,4 +1,4 @@
-= SeekWell Documentation
+= image:just-logo-black-40px.png[] SeekWell Documentation
 :page-layout: home-branch-seekwell
 
 ++++
@@ -59,6 +59,15 @@ ul li img {
 
 .doc-home .columns .box {
     padding-right: 8px;
+}
+
+.doc-home .columns .box h2 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+#preamble+.sect1, .doc .sect1+.sect1 {
+    margin-left: -1px !important;
 }
 
 </style>
