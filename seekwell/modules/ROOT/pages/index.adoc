@@ -1,4 +1,4 @@
-= SeekWell Documentation
+= image:just-logo-black-40px.png[] SeekWell Documentation
 :page-layout: home-branch-seekwell
 
 ++++
@@ -61,6 +61,15 @@ ul li img {
     padding-right: 8px;
 }
 
+.doc-home .columns .box h2 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+#preamble+.sect1, .doc .sect1+.sect1 {
+    margin-left: -1px !important;
+}
+
 </style>
 ++++
 
@@ -87,7 +96,7 @@ Find topics for the common Seekwell workflows below.
     </div>
   <div class="box">
     <h2>
-      Compose in SeekWell Editor
+      SQL editor
     </h2>
     <ul>
       <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/parameters">Parameters</a></li>
