@@ -76,7 +76,7 @@ ul li img {
 SeekWell allows you to sync your data warehouse with external apps and automate your customer data workflows.
 
 
-Find topics for the common Seekwell workflows below.
+Find topics for the common {seekwell} workflows below.
 
 [.conceal-title]
 == {empty}
