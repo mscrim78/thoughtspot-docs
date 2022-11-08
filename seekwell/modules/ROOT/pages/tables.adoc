@@ -18,7 +18,7 @@ video::G4TPy2oX3_k[youtube]
 
 To edit tables in your database through {seekwell}, follow these steps:
 
-. Click `control` / `command` + `k` and search for "Tables".
+. Click kbd:[`control`] / kbd:[`command`] + kbd:[`k`] and search for "Tables".
 
 . On the page that appears, search for the title of the table you would like to update.
 

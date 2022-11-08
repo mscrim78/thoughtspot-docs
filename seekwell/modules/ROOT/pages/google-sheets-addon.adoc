@@ -28,6 +28,6 @@ video::3dUT7LXVh8M[youtube]
 
 . To see the results of your edited block, select the name of the block within the Add-on, define the *Range*, and click the *Run* button.
 
-== Working with Parameters
+== Working with parameters
 
 video::ndzlcyWor4k[youtube]

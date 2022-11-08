@@ -18,7 +18,7 @@ You can write a story like the following:
 
 image:stories-gif.gif[]
 
-Hitting `=` allows you to access all your SQL results and add them to the Story. The output is rendered below the editor as you type. You can format the Story (using H1, H2, bold, for example) and add HTML and JavaScript snippets.
+Hitting kbd:[`=`] allows you to access all your SQL results and add them to the Story. The output is rendered below the editor as you type. You can format the Story (using H1, H2, bold, for example) and add HTML and JavaScript snippets.
 
 Stories are useful for short regular updates (for example, daily metrics) or alerts (for example, a canceled subscription). Stories can be shared via email, Slack, or in {seekwell} Dashboards. Get started link:https://app.seekwell.io[here,window=_blank].
 
@@ -30,7 +30,7 @@ video::lTkv8o0j7Pw[youtube]
 
 == Adding data (single data points)
 
-Once you hit `=`, you see all saved query results with *exactly one row* (Note: to save a result, simply title the block). Press `return` or click to select a data point, and it will be added into the story.
+Once you hit kbd:[`=`], you see all saved query results with *exactly one row* (Note: to save a result, simply title the block). Press `return` or click to select a data point, and it will be added into the story.
 
 image::destination-stories-show-data.png[]
 

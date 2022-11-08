@@ -42,13 +42,13 @@ where 1=1
 
 To explore a set within {seekwell}, follow these steps:
 
-. Click `command/control` + `k`, then search for *Explore Sets*.
+. Click kbd:[`command`] / kbd:[`control`] + kbd:[`k`], then search for *Explore Sets*.
 
 . Enter the name of your set in the Sets search bar.
 
 . Search for the relevant measures to suit your business use case. In this example, to find the total number of plans, contrast by the number of paid plans, and group the results by week, you would search for: `DemoUsers.created_on_week` `DemoUsers.count` `DemoUsers.paid`.
 
-. Click `command`+`enter`, or select the *Run* icon to see your results. {seekwell} displays your results as a table by default. To see your results as a chart, click the *chart* icon.
+. Click kbd:[`command`] + kbd:[`enter`], or select the *Run* icon to see your results. {seekwell} displays your results as a table by default. To see your results as a chart, click the *chart* icon.
 
 . [Optional] Title the chart view of your search to save.
 
@@ -61,4 +61,3 @@ To send the results of your exploration in Sets to an external app, follow these
 . Fill in the details of your destination. For example, when sending to Google Sheets, you must enter the destination Spreadsheet, Sheet name, and cell number in A1 format.
 
 . Run the query again. Your results appear in your destination app within seconds.
-
