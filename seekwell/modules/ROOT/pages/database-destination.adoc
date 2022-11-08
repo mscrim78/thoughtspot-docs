@@ -16,7 +16,7 @@ Auto import gives you a quick and simple option for importing tables in a Google
 
 video::fzevbUCfVec[youtube]
 
-. Go to the link:https://app.seekwell.io/[{seekwell} Web App,window=_blank] and hit `command/control` + `k`, then search for "Import sheet to SQL Database".
+. Go to the link:https://app.seekwell.io/[{seekwell} Web App,window=_blank] and hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], then search for "Import sheet to SQL Database".
 
 . Click *Spreadsheet* and select your source Spreadsheet. If you don't see your source Spreadsheet in the drop-down menu, start typing its name or scroll to the bottom of the list and click *Refresh Sheets*.
 

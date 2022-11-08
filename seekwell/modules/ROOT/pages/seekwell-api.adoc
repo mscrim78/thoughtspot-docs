@@ -12,7 +12,7 @@ You can automatically trigger any block to run by sending a request to "https://
 
 == Steps:
 
-.  Open the link:https://app.seekwell.io/[web app,window=_blank] and hit `command` / `control` + `k`, then type “API”. Click *Create API key* to generate an API key.
+.  Open the link:https://app.seekwell.io/[web app,window=_blank] and hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], then type “API”. Click *Create API key* to generate an API key.
 
 . Go to the block that you would like to trigger programmatically, and copy the Block ID from the URL. As shown below, the Block ID appears after the url `\https://app.seekwell.io/run/`.
 +

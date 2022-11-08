@@ -10,7 +10,7 @@
 
 You can schedule Python scripts to run on a schedule or use them to return DataFrame's which can then be queried by you or your team with SQL.
 
-. To begin, link:https://app.seekwell.io/[open the app] and hit `command` / `control` + `k`, and entering "python".
+. To begin, link:https://app.seekwell.io/[open the app] and hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], and entering "python".
 
 . [Optional] Add a `dict` named `seekwell` to the end of your script with the DataFrames you want to return. This will make them available using SQL.
 
@@ -24,7 +24,7 @@ image::python-source-block.png[]
 
 == Example
 
-Create a new block named "SuperBowl" and add the script below. Hit `command` / `control` + `k`, enter "Python", and run the block.
+Create a new block named "SuperBowl" and add the script below. Hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], enter "Python", and run the block.
 
 [source,ruby]
 ----

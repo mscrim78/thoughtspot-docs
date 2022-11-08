@@ -14,7 +14,7 @@ You can automatically import tables in your SQL database into a Google Spreadshe
 
 == Steps
 
-. Open up the {seekwell} link:https://app.seekwell.io/[web app,window=_blank], type `command / control` + `k`, and search for "Import SQL Database to Sheets".
+. Open up the {seekwell} link:https://app.seekwell.io/[web app,window=_blank], type kbd:[`command`] / kbd:[`control`] + kbd:[`k], and search for "Import SQL Database to Sheets".
 
 . Choose a Google Spreadsheet to import your database tables into.
 

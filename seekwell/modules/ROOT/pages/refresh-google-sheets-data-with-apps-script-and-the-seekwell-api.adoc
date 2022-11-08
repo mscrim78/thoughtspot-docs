@@ -17,11 +17,11 @@ NOTE: If you're new to Apps Script be sure to check out link:https://developers.
 [#step-1]
 . Make a new Google Spreadsheet and a new link:https://app.seekwell.io/[{seekwell} Block,window=_blank] that queries your database (xref:query-sheets-using-sql.adoc[or other Sheets]). Set your destination for the block as a Sheet called "data" in the new Spreadsheet.
 
-. Generate an API Key by hitting `command` / `control`+ `k`, and searching for "API" in the link:https://app.seekwell.io/[web app,window=_blank]. Click *Create API key*.
+. Generate an API Key by hitting kbd:[`command`] / kbd:[`control`] + kbd:[`k`], and searching for "API" in the link:https://app.seekwell.io/[web app,window=_blank]. Click *Create API key*.
 
 . Store the generated key. Also, copy the block ID for the block in <<step-1,step 1>>. It can be found in the URL of your block (for example, "app.seekwell.io/run/YOUR_BLOCK_ID").
 
-. Open up the script editor in the Spreadsheet by going to Tools → "Script editor". This will create an Untitled Project which you can rename to "{seekwell} Refresh Button".
+. Open up the script editor in the Spreadsheet by going to menu:Tools["Script editor"]. This will create an Untitled Project which you can rename to "{seekwell} Refresh Button".
 
 . Copy this code into your script editor, replacing 'YOUR BLOCK ID' with your block ID and 'YOUR API KEY' with your API key:
 +
@@ -135,6 +135,6 @@ Now whenever you hit "Refresh Data", the data from your query will get sent to y
 
 == Getting creative with Apps Script
 
-If you want to draw your own button, you can do so via the *Insert → Drawing* menu in Google Sheets. This will bring up a drawing editor where you can easily draw a box and style it to look like a button. When you click *Save*, it will appear in your Sheet. You can drag the button to a convenient place and then click the ellipsis icon in the corner → "Assign Script" and type the name of a function from your Apps Script code.
+If you want to draw your own button, you can do so via the menu:Insert[Drawing] menu in Google Sheets. This will bring up a drawing editor where you can easily draw a box and style it to look like a button. When you click *Save*, it will appear in your Sheet. You can drag the button to a convenient place and then click the ellipsis icon in the corner, click "Assign Script", and type the name of a function from your Apps Script code.
 
 In the example above, you'd want to assign the _runApi()_ function to the button so the {seekwell} API is triggered every time the button is clicked.

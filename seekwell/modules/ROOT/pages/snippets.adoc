@@ -19,7 +19,7 @@ video::KwUyIdkBPt0[youtube]
 
 === Creating your first Snippet
 
-To create a snippet, hit `command` / `control` + `k`, and search for "Create snippet".
+To create a snippet, hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], and search for "Create snippet".
 
 Working with dates is a good example. Consider this snippet we use at {seekwell} which creates three date formats from a `timestamp`.
 
@@ -38,9 +38,9 @@ TIP: Variables are optional, not adding variables will create a "static snippet"
 
 == Navigation
 
-* To create a snippet, hit `command` / `control` + `k`, and type "Create snippet".
-* To use a snippet from a block, hit `command` / `control` + `;` (semicolon).
-* To view / edit / delete your snippets, hit `command` / `control` + `k`, and type "View snippet".
+* To create a snippet, hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], and type "Create snippet".
+* To use a snippet from a block, hit kbd:[`command`] / kbd:[`control`] + kbd:[`;`] (semicolon).
+* To view / edit / delete your snippets, hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], and type "View snippet".
 +
 image:sql-snippets.png[]
 

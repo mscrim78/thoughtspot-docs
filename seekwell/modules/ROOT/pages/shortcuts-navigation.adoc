@@ -8,12 +8,12 @@
 
 == Run
 
-* Press `command` / `control` + `k` to open the command palette.
-* Press `command` / `control` + `;` to use a xref:snippets.adoc[Snippet].
+* Press kbd:[`command`] / kbd:[`control`] + kbd:[`k`] to open the command palette.
+* Press kbd:[`command`] / kbd:[`control`] + kbd:[`;`] to use a xref:snippets.adoc[Snippet].
 * Views
 +
 image:shortcuts-gif.gif[]
 
-** Press `control` / `alt` + `1` to use the Split view (or `esc`).
-** Press `control` / `alt` + `2` to maximize the editor.
-** Press `control` / `alt` + `3` to maximize the table.
+** Press kbd:[`control`] / kbd:[`alt`] + kbd:[`1`] to use the Split view (or kbd:[`esc`]).
+** Press kbd:[`control`] / kbd:[`alt`] + kbd:[`2`] to maximize the editor.
+** Press kbd:[`control`] / kbd:[`alt`] + kbd:[`3`] to maximize the table.
