@@ -19,11 +19,11 @@ video::FjS2Ok_Np48[youtube]
 [#create-block]
 == Sheets
 
-. Within your Block, click the field under *Destination* and select *Block* as the type.
+. Within your Block, select the field under *Destination* and select *Block* as the type.
 +
 image:destination-blocks.png[]
 
-. Below *Type*, click *Block* and select the desired list block from the drop-down. You can filter the list by the block name. Your *List Block* must have the xref:blocks-as-a-destination.adoc#required-fields[required fields] for the destination type (see below).
+. Below *Type*, select *Block* and select the desired list block from the drop-down. You can filter the list by the block name. Your *List Block* must have the xref:blocks-as-a-destination.adoc#required-fields[required fields] for the destination type (see below).
 
 . Add xref:parameters.adoc[⚙ Parameters] from the *List Block* into the *Action Block* using the same name as the column name in the *List Block*. Keep the parameter type as the default "value". Make sure there are no spaces in the column name, for example, `some_column`.
 +

@@ -30,16 +30,16 @@ To create a block, follow these steps:
 
 . Log in to link:https://app.seekwell.io/[{seekwell},window=_blank].
 
-. Click the plus icon in the top-right of the screen and select *New SQL*.
+. Select the plus icon in the top-right of the screen and choose *New SQL*.
 
-. Click *Untitled* and enter the title of your new Block.
+. Select *Untitled* and enter the title of your new Block.
 
 === Connect to a source
 
 To connect to a new source, follow these steps:
 
 . Open your Block.
-. Under *Source* in the top right corner, click *Add new source*. If you have a previous connection, select the connection nickname under *Source* and scroll down to select *Add new source*.
+. Under *Source* in the top right corner, select *Add new source*. If you have a previous connection, select the connection nickname under *Source* and scroll down to select *Add new source*.
 
 . In the pop-up *New source* window, complete the following fields:
 .. Flavor
@@ -56,13 +56,13 @@ To connect to a new source, follow these steps:
 +
 NOTE: You must whitelist the {seekwell} IP addresses (35.193.207.79 and 35.239.74.213) for the connection to work. For more information, see xref:whitelisting-our-ip-address.adoc[].
 
-. Click *Save*.
+. Select *Save*.
 
 == Write your SQL statement
 
 To input a SQL statement, follow these steps:
 
-. Click *Write SQL here...* and enter your statement. Click the *Play* icon to run your query.
+. Select *Write SQL here...* and enter your statement. Select the *Play* icon to run your query.
 
 . In the section below the SQL statement, verify that your statement produces the desired results. Note that you can view your results in both chart and table form.
 
@@ -70,20 +70,20 @@ To input a SQL statement, follow these steps:
 
 To connect to a new destination, follow these steps:
 
-. Under *Destination*, click *Add destination*. If you have previously selected destinations, click the destination name and scroll down to select *Add destination*.
+. Under *Destination*, select *Add destination*. If you have previously selected destinations, select the destination name and scroll down to select *Add destination*.
  +
-{seekwell} selects *Sheets* as the default destination. To send your results to a different destination, click *Sheets* and scroll down to select your new destination.
+{seekwell} selects *Sheets* as the default destination. To send your results to a different destination, select *Sheets* and scroll down to select your new destination.
 
 . Fill out the fields below your selected destination. For *Sheets*, fill out the following fields:
-.. *Spreadsheet*: Select a spreadsheet or click *Create new Sheet*. If you do not see the desired spreadsheet destination, begin typing to search, or click *Refresh Sheets*.
+.. *Spreadsheet*: Select a spreadsheet or select *Create new Sheet*. If you do not see the desired spreadsheet destination, begin typing to search, or select *Refresh Sheets*.
 .. *Sheet1*: Enter the page of the Spreadsheet to input your results. {seekwell} defaults to Sheet1.
 .. *A1*: Enter the beginning cell to input your results. {seekwell} defaults to cell A1.
 .. *Replace rows / Append rows*: If your selected Sheet has existing data, decide whether to replace rows with your results, or append your results.
 .. *Include column names / Omit column names*: Decide whether to include or omit column names.
 
-. Click *Save*.
+. Select *Save*.
 
-. Click the *Play* icon to run your query and send the results to your chosen destination. The results appear in your destination within a few seconds.
+. Select the *Play* icon to run your query and send the results to your chosen destination. The results appear in your destination within a few seconds.
 
 
 == Set parameters [optional]

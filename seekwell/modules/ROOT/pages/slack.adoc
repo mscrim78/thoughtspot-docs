@@ -17,7 +17,7 @@
 
 == Add {destination} as a destination
 
-. Within your SQL block, click on the current destination and select {destination} from the drop-down.
+. Within your SQL block, select the current destination and choose {destination} from the drop-down.
 +
 image:destination-slack.png[]
 

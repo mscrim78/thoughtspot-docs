@@ -8,7 +8,7 @@
 
 // More
 
-You can share blocks publicly by clicking the "Share" icon in the top right of a block.
+You can share blocks publicly by selecting the "Share" icon in the top right of a block.
 
 image::share-block.png[]
 

@@ -30,10 +30,10 @@ image:destination-zoho-gif.gif[]
 
 . Map your columns.
 
-.. To the right of *Results*, click on *Mapping*.
+.. To the right of *Results*, select *Mapping*.
 +
 image:destination-zoho-map-gif.gif[]
 
-.. Click *Test Sync*. Your results will appear in Zoho CRM within a few seconds.
+.. Select *Test Sync*. Your results appear in Zoho CRM within a few seconds.
 
 .. (Optional) Set a schedule so your updates run automatically.

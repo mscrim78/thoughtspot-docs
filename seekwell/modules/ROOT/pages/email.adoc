@@ -14,7 +14,7 @@ You can use {seekwell} to send query results, either from your database or a Goo
 
 == Steps
 
-. Within your block, click on the current destination and select *Email* from the drop-down.
+. Within your block, select the current destination and choose *Email* from the drop-down.
 +
 image:destination-email.png[]
 
@@ -22,7 +22,7 @@ image:destination-email.png[]
 
 . By default, {seekwell} asks you to enter the list of emails manually. To use the email list as a block, see xref:email-lists.adoc[].
 
-. Click *Emails (comma separated list)* to enter email addresses as a comma-separated list, and click *Save*.
+. Select *Emails (comma separated list)* to enter email addresses as a comma-separated list, and select *Save*.
 +
 image:destination-email-list.png[]
 

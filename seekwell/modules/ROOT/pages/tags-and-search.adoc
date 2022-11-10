@@ -12,11 +12,11 @@ Tags are a good way to stay organized and group similar blocks. You can add tags
 
 image::sql-tag-sidebar.png[]
 
-Once you add a tag, you can then use it in a search or click the tag name in the left sidebar in the main screen.
+Once you add a tag, you can then use it in a search or select the tag name in the left sidebar in the main screen.
 
 image::sql-tag-search.png[]
 
-From the main screen, click in the "Search" box at the top of the screen to start a search.
+From the main screen, select the "Search" box at the top of the screen to start a search.
 
 image::sql-search.png[]
 

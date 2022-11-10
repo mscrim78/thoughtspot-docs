@@ -19,7 +19,7 @@ To set up Salesforce as your source, follow these steps:
 +
 image::sql-source-salesforce.png[]
 
-. A schema appears in the right with the Salesforce Object names. If you click on one object, you'll see all the fields / columns available in that Object. Click the "back" button to go back to the Objects.
+. A schema appears in the right with the Salesforce Object names. If you select one object, you'll see all the fields / columns available in that Object. Select the "back" button to go back to the Objects.
 +
 image::sql-account-contact.png[]
 image::sql-delete.png[]

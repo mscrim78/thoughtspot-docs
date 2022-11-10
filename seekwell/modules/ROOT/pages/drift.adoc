@@ -20,13 +20,13 @@ To set up Drift as a destination, follow these steps:
 
 . Map SQL columns to the Drift fields using Mapping UI.
 
-.. After selecting *Drift* as the destination, click the *Mapping* option on the bottom of the page next to *Results*.
+.. After selecting *Drift* as the destination, select the *Mapping* option on the bottom of the page next to *Results*.
 +
 image:destination-drift-mapping.png[]
 
 .. Map the fields in *Source* and *Destination*.
 
-. Click *Test Sync*. Your results appear in Drift within a few minutes.
+. Select *Test Sync*. Your results appear in Drift within a few minutes.
 
 . Set a schedule so your updates run automatically.
 

@@ -16,7 +16,7 @@ Easily perform operations (create/update/delete) on objects (contacts, accounts,
 
 . Write your SQL link:http://app.seekwell.io/[in the app,window=_blank].
 
-. Click the field below *Destination* and select *Front* from the drop-down. Fill the following fields:
+. Select the field below *Destination* and choose *Front* from the drop-down. Fill the following fields:
 .. Object (for example, Contacts)
 .. Operation (for example, create)
 +
@@ -24,11 +24,11 @@ image:destination-front.png[]
 
 . Map your columns.
 
-.. To the right of *Results*, click on *Mapping*.
+.. To the right of *Results*, select *Mapping*.
 
 .. Map the fields in *Source* and *Destination*.
 
-.. Click *Test Sync*. Your results appear in Front within a few seconds.
+.. Select *Test Sync*. Your results appear in Front within a few seconds.
 +
 image:destination-front-test.png[]
 

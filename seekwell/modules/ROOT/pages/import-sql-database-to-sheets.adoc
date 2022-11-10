@@ -8,7 +8,7 @@
 
 // destination
 
-You can automatically import tables in your SQL database into a Google Spreadsheet with just a few clicks.
+You can automatically import tables in your SQL database into a Google Spreadsheet with just a few actions.
 
 //gif image does not download
 
@@ -20,6 +20,6 @@ You can automatically import tables in your SQL database into a Google Spreadshe
 
 . Select all the tables you want to import and specify the name the Sheet should be called (by default, it is the same name as the table).
 
-. Click *Import Tables*.
+. Select *Import Tables*.
 
 . (Optional) Select *Schedule Import* to import tables to Sheets on a regular basis (weekly, daily, or in five-minute intervals).

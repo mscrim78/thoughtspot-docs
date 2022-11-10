@@ -40,9 +40,9 @@ image:whitelist-aws.png[]
 .Google Cloud
 ====
 Follow this example on to whitelist IP addresses in Google Cloud SQL:
-First click on *SQL* in the drop-down.
-Select your database and click on the "Connections" tab.
-Click "Add network". Make sure you include "/32" after the IP address.
+First select *SQL* from the drop-down.
+Select your database and select the "Connections" tab.
+Select "Add network". Make sure you include "/32" after the IP address.
 
 image:whitelist-gc-sql.png[]
 
@@ -55,11 +55,11 @@ image:gcp-connectivity.png[]
 .Microsoft Azure
 ====
 Follow these steps to whitelist IP addresses in Microsoft Azure:
-Go to your database details and click "Set server firewall".
+Go to your database details and select "Set server firewall".
 
 image:whitelist-microsoft-azure.png[]
 
-Add our IP addresses and click "Save".
+Add our IP addresses and select "Save".
 
 image:ms-whitelist.png[]
 

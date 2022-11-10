@@ -16,7 +16,7 @@ video::m-uygyDjV0A[youtube]
 
 == Connecting
 
-. In link:https://app.seekwell.io/[{seekwell},window=_blank], select a block or click the plus icon in the top right and select *New SQL* to create a new block.
+. In link:https://app.seekwell.io/[{seekwell},window=_blank], select a block or select the plus icon in the top right and select *New SQL* to create a new block.
 
 . Select *Add source* in the top right of the app. If you have a previous connection, select the connection nickname under *Source* and scroll down to select *Add new source*.
 +
@@ -24,15 +24,15 @@ image:sql-add-source.png[]
 
 . Under *Flavor*, select *Airtable*. Enter a nickname under *Nickname*.
 
-. Add your Airtable API key to the source and click *Save*.
+. Add your Airtable API key to the source and select *Save*.
 +
 image:sql-source-airtable.png[]
 +
-You can get your API key link:https://airtable.com/account[here,window=_blank] on your account page. If you do not see an existing API key, click on *Generate key*.
+You can get your API key link:https://airtable.com/account[here,window=_blank] on your account page. If you do not see an existing API key, select *Generate key*.
 +
 image:sql-airtable-key.png[]
 
-. Go to link:https://airtable.com/api[https://airtable.com/api,window=_blank] and click on the base you want to connect to. Check the URL for the Base / App ID, it should start with "app". The ID also appears in green on this page in third paragraph.
+. Go to link:https://airtable.com/api[https://airtable.com/api,window=_blank] and select the base you want to connect to. Check the URL for the Base / App ID, it should start with "app". The ID also appears in green on this page in third paragraph.
 +
 image:airtable-id-url.png[]
 +

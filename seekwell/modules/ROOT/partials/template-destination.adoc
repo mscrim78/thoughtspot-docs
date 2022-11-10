@@ -21,14 +21,14 @@ To send data from Seekwell, follow these steps:
 
 . Select "Sheets" from the drop-down that appears.
 
-.. Click "Spreadsheet", and scroll down to select your destination spreadsheet.
+.. Select "Spreadsheet", and scroll down to select your destination spreadsheet.
 
-.. [optional] Click "Sheet1" and scroll down to select your destination page in the spreadsheet, or search by typing the name of the destination page. To add a new sheet to an existing spreadsheet, click "Add it", and enter a name.
+.. [optional] Select "Sheet1" and scroll down to choose your destination page in the spreadsheet, or search by typing the name of the destination page. To add a new sheet to an existing spreadsheet, select "Add it", and enter a name.
 
 
 === Append data to a {destination} spreadsheet from Seekwell
 
-By default, Seekwell replaces existing data in the destination with the results of your query. To append data rather than replacing, click "Replace rows" and select "Append rows" from the drop-down.
+By default, Seekwell replaces existing data in the destination with the results of your query. To append data rather than replacing, select "Replace rows" and select "Append rows" from the drop-down.
 
 NOTE: * You need to start your data in A1. Use a formula if you need the data placed somewhere specific on another sheet (e.g. put your daily data on daily!A1 then reference daily in your dashboard sheet as a formula).
 * You can't have blank values in the first column.

@@ -14,7 +14,7 @@ NOTE: We use xref:sqlite.adoc[SQLite] behind the scenes for this feature.
 
 To query a CSV from Google Drive, follow these steps:
 
-. Within Google Drive, right-click on the file name and click *Share*.
+. Within Google Drive, right-click on the file name and select *Share*.
 +
 image:google-drive-share.png[]
 
@@ -22,14 +22,14 @@ image:google-drive-share.png[]
 +
 image:google-drive-link-view.png[]
 
-. Click *Get shareable link* in the top right.
+. Select *Get shareable link* in the top right.
 +
 [#shareable]
 image:google-drive-shareable-link.png[]
 
 . Add the table to your `SELECT` with `{{csv}}` (replace "csv" with a nickname for the source).
 
-. Under *Parameters*, click *Value* and select *CSV*.
+. Under *Parameters*, select *Value* and select *CSV*.
 
 . Under *File URL*, add the URL from the <<shareable,step above>>.
 +

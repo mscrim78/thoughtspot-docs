@@ -10,7 +10,7 @@
 
 To add a new SQL database, follow these steps:
 
-. Click *Add source* under *Source*. If you don't see these options, first start a new SQL block by clicking the plus icon in the top right and selecting *New SQL*.
+. Select *Add source* under *Source*. If you don't see these options, first start a new SQL block by selecting the plus icon in the top right and selecting *New SQL*.
 +
 image::new-sql.png[]
 +
@@ -34,4 +34,4 @@ image::sql-connection-properties.png[]
 +
 NOTE: You must whitelist the {seekwell} IP addresses (35.193.207.79 and 35.239.74.213) for the connection to work. For more information, see xref:whitelisting-our-ip-address.adoc[].
 
-. Click *Save*.
+. Select *Save*.

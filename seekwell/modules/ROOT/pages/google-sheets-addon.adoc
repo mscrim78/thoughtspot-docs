@@ -22,11 +22,11 @@ video::3dUT7LXVh8M[youtube]
 
 . Using the Search bar, search for the Block you'd like to execute. Under *Range*, enter the name of the desired Sheet to send your results. If the Sheet does not exist, {seekwell} will add it.
 
-. To go back to your list of Blocks, click the *X* icon in the top right corner of the Add-on.
+. To go back to your list of Blocks, select the *X* icon in the top right corner of the Add-on.
 
-. Click the Block title to see it within link:https://app.seekwell.io/[{seekwell},window=_blank] and to make changes. After editing, return to the Google Sheets Add-on window and select *Refresh block*.
+. Select the Block title to see it within link:https://app.seekwell.io/[{seekwell},window=_blank] and to make changes. After editing, return to the Google Sheets Add-on window and select *Refresh block*.
 
-. To see the results of your edited block, select the name of the block within the Add-on, define the *Range*, and click the *Run* button.
+. To see the results of your edited block, select the name of the block within the Add-on, define the *Range*, and select the *Run* button.
 
 == Working with parameters
 

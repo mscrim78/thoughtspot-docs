@@ -79,7 +79,7 @@ https://app.seekwell.io/form/<youruuid>?param1=value1&param2=value2
 ----
 
 
-Click the "Share block" link in the top right to get the link with the current parameter values:
+Select the "Share block" link in the top right to get the link with the current parameter values:
 
 image:parameters-share-block.png[]
 
@@ -149,7 +149,7 @@ image:parameters-drill-down.png[]
 +
 image:parameters-email.png[]
 
-. The parameter will now show as a link in the results and clicking on the link will drill to the block you set in the parameter.
+. The parameter will now show as a link in the results and selecting on the link will drill to the block you set in the parameter.
 +
 image:parameters-email-block.png[]
 
@@ -182,7 +182,7 @@ limit 100
 
 image:parameters-update.png[]
 
-Hovering over an editable cell changes the background to black, and you can now change the value. Click the Save icon to run your update block.
+Hovering over an editable cell changes the background to black, and you can now change the value. Select the Save icon to run your update block.
 
 image:parameters-editable-cell.png[] image:parameters-save.png[]
 
@@ -198,7 +198,7 @@ where email = 'alan4rk1m0x10crkb7d@somecompany.com'
 == Subqueries
 
 
-You can add the SQL of any block into another block for use in a subselect or CTE. Once a subquery is added, you can click on it to drill down to the child query.
+You can add the SQL of any block into another block for use in a subselect or CTE. Once a subquery is added, you can select it to drill down to the child query.
 
 video::IqMazian1Ks[youtube]
 

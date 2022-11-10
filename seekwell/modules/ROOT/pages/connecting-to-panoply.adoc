@@ -12,9 +12,9 @@ To connect to link:https://panoply.io/[Panoply,window=_blank] from {seekwell}, f
 
 . Launch link:https://app.seekwell.io/[{seekwell},window=_blank].
 
-. In the top right corner, click the plus icon and select *Add New Integration*. The Integrations page appears.
+. In the top right corner, select the plus icon and select *Add New Integration*. The Integrations page appears.
 
-. Scroll down to select *Redshift*, or enter "Redshift" in the search bar. On the Redshift tile, click *+ Add*.
+. Scroll down to select *Redshift*, or enter "Redshift" in the search bar. On the Redshift tile, select *+ Add*.
 
 
 . Select Redshift as the flavor.
@@ -26,8 +26,8 @@ image:sql-redshift-connect.png[]
 .. Host = link:http://db.panoply.io/[db.panoply.io,window=_blank]
 .. Port = 5439
 
-. To find the remaining connection information, navigate to Panoply and click *BI Connection* in the Panoply nav. A window similar to the following image appears, where you can find the *Database*, *User*, *Password*, and *Driver* information.
+. To find the remaining connection information, navigate to Panoply and select *BI Connection* in the Panoply nav. A window similar to the following image appears, where you can find the *Database*, *User*, *Password*, and *Driver* information.
 +
 image:sql-panoply-connection.png[]
 
-. Click *Save*.
+. Select *Save*.

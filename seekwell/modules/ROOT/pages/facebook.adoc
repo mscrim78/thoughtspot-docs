@@ -10,7 +10,7 @@
 
 == Steps
 
-. Go to link:https://app.seekwell.io/integrations[{seekwell}'s integration catalog,window=_blank], select Facebook ads, and click *Add*.
+. Go to link:https://app.seekwell.io/integrations[{seekwell}'s integration catalog,window=_blank], select Facebook ads, and select *Add*.
 +
 image::destination-facebook-ad.png[]
 
@@ -28,13 +28,13 @@ image::destination-facebook-create-audience.png[]
 
 . Map your columns
 
-.. Above the query results, click on *Mapping*.
+.. Above the query results, select *Mapping*.
 +
 image::destination-hubspot-mapping.png[]
 
 .. Map the fields in *Source* and *Destination*.
 
-. Click *Test Sync*. Your results appear in link:https://business.facebook.com/adsmanager/audiences[Audiences,window=_blank] within a few minutes.
+. Select *Test Sync*. Your results appear in link:https://business.facebook.com/adsmanager/audiences[Audiences,window=_blank] within a few minutes.
 +
 image::destination-facebook-test-sync.png[]
 
@@ -42,6 +42,6 @@ image::destination-facebook-test-sync.png[]
 +
 image::destination-facebook-logs.png[]
 
-. [Optional] Click *Add Schedule* under *Repeat* to run your sync on a schedule.
+. [Optional] Select *Add Schedule* under *Repeat* to run your sync on a schedule.
 +
 image::destination-facebook-schedule.png[]

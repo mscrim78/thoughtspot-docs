@@ -24,7 +24,7 @@ image:destination-salesforce.png[]
 +
 image:destination-salesforce-object.png[]
 
-. To the right of *Results*, click *Mapping*.
+. To the right of *Results*, select *Mapping*.
 +
 image:destination-salesforce-mapping.png[]
 
@@ -32,7 +32,7 @@ image:destination-salesforce-mapping.png[]
 +
 image:destination-salesforce-test-sync.png[]
 
-. Once you've finished mapping all your columns to their corresponding fields in Salesforce, click *Test Sync* to ensure the sync is working. If the records have not updated, you can view your job statuses in Salesforce under menu:Setup[Bulk Data Load Jobs]. Click on the *Job ID* and scroll down to view any errors. You can also view background job errors in the {seekwell} App's link:https://app.seekwell.io/feed[Feed,window=_blank].
+. Once you've finished mapping all your columns to their corresponding fields in Salesforce, select *Test Sync* to ensure the sync is working. If the records have not updated, you can view your job statuses in Salesforce under menu:Setup[Bulk Data Load Jobs]. Select the *Job ID* and scroll down to view any errors. You can also view background job errors in the {seekwell} App's link:https://app.seekwell.io/feed[Feed,window=_blank].
 +
 image:bulk-data-load.png[]
 
@@ -64,4 +64,3 @@ image:salesforce-parameter-gif.gif[]
 
 
 video::leQbXB9mKQw[youtube]
-
