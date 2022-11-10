@@ -14,7 +14,7 @@ To set up and explore your data, access the {seekwell} application from a standa
 
 * A Web browser
 
-* A username and password for {seekwell}.
+* A Google account.
 
 == Supported Web browsers
 
