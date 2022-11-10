@@ -14,7 +14,7 @@
 
 . Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations,window=_blank].
 
-. Search for Active Campaign and click on *Add*.
+. Search for Active Campaign and select *Add*.
 +
 image:destination-activecampaign.png[]
 
@@ -38,10 +38,10 @@ image:destination-activecampaign-select.png[]
 
 . Map your columns.
 
-.. Above the query results, click on *Mapping*.
+.. Above the query results, select *Mapping*.
 
 .. Map the fields in *Source* and *Destination*.
 +
 image:destination-ac-mapping.png[]
 
-. Click *Test Sync*. Your results appear in Active Campaign within a few seconds.
+. Select *Test Sync*. Your results appear in Active Campaign within a few seconds.

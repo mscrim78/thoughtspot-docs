@@ -24,7 +24,7 @@ image:sql-source-sheets.png[]
 
 . Add a Sheet to your `from` statement by typing `{{NAME}}`. Replace NAME with a one-word short reference to the Sheet or table (for example, `{{users}}`).
 
-. In the *Parameters* section, click *Value* and pick *Sheets* as the type.
+. In the *Parameters* section, select *Value* and choose *Sheets* as the type.
 +
 image:sql-params.png[]
 +

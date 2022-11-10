@@ -44,7 +44,7 @@ video::eZHCVj-F5rg[youtube]
 
 If you use a "lookup" field in the form, the user will be prompted for that value before being able to submit. Once the user provides a value for the lookup field, the "Lookup Block" will run and populate any matching values in the Forms parameters.
 
-. Click "Add Lookup" under Parameters.
+. Select "Add Lookup" under Parameters.
 +
 image:parameters-add-lookup.png[]
 

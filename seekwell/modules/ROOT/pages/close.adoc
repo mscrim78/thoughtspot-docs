@@ -14,7 +14,7 @@
 
 . Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations,window=_blank].
 
-. Search for Close and click on “Add”.
+. Search for Close and select “Add”.
 +
 image:destination-close.png[]
 
@@ -40,9 +40,9 @@ image:destination-close-select.png[]
 
 . Map your columns.
 
-.. Above the query results, click on *Mapping*.
+.. Above the query results, select *Mapping*.
 .. Map the fields in *Source* and *Destination*.
 +
 image:destination-close-mapping.png[]
 
-. Click *Test Sync*. Your results will appear in Close within a few seconds.
+. Select *Test Sync*. Your results appear in Close within a few seconds.

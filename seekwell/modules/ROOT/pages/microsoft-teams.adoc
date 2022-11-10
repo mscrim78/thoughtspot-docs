@@ -16,7 +16,7 @@ Use {seekwell} to send real-time alerts like metrics or user data to MS Teams.
 
 . link:https://slack.com/oauth/authorize?client_id=274525912167.273518441556&scope=files:read,im:history,channels:history,commands,channels:read,users.profile:read,files:write:user,chat:write:bot,users:read,users:read.email,groups:history,mpim:history,im:read,mpim:read,groups:read,bot[Authorize the app,window=_blank]. Make sure you're signed in to a work or school account.
 
-. Click on the current destination (Sheets, by default) and select *MS Teams* from the drop-down.
+. Select the current destination (Sheets, by default) and choose *MS Teams* from the drop-down.
 +
 image:destination-ms-teams.png[]
 

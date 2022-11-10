@@ -54,7 +54,7 @@ image::python-superbowl-wins.png[]
 
 == Injecting a SQL result / using Parameters
 
-You can add the result of an existing SQL block to your Python script using xref:parameters.adoc[⚙ Parameters]. First click "Add parameter" in the right sidebar and select "Block" as the type. Name the parameter (e.g. df) and select the SQL block you want to use.
+You can add the result of an existing SQL block to your Python script using xref:parameters.adoc[⚙ Parameters]. First select "Add parameter" in the right sidebar and choose "Block" as the type. Name the parameter (e.g. df) and select the SQL block you want to use.
 
 image::python-add-parameter.png[]
 

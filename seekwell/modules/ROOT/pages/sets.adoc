@@ -36,19 +36,19 @@ where 1=1
 
 . Using the *Edit set schema* window, you can add measures to your query, such as a `count` of paid users, by injecting a SQL attribute defining a `"sum(case when plan != 'basic' then 1 else 0 end)".
 
-. Click *Run* to test your updated query schema displays the desired results.
+. Select *Run* to test your updated query schema displays the desired results.
 
 == Explore sets in {seekwell}
 
 To explore a set within {seekwell}, follow these steps:
 
-. Click kbd:[`command`] / kbd:[`control`] + kbd:[`k`], then search for *Explore Sets*.
+. Type kbd:[`command`] / kbd:[`control`] + kbd:[`k`], then search for *Explore Sets*.
 
 . Enter the name of your set in the Sets search bar.
 
 . Search for the relevant measures to suit your business use case. In this example, to find the total number of plans, contrast by the number of paid plans, and group the results by week, you would search for: `DemoUsers.created_on_week` `DemoUsers.count` `DemoUsers.paid`.
 
-. Click kbd:[`command`] + kbd:[`enter`], or select the *Run* icon to see your results. {seekwell} displays your results as a table by default. To see your results as a chart, click the *chart* icon.
+. Type kbd:[`command`] + kbd:[`enter`], or select the *Run* icon to see your results. {seekwell} displays your results as a table by default. To see your results as a chart, select the *chart* icon.
 
 . [Optional] Title the chart view of your search to save.
 

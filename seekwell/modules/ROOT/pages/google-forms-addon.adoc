@@ -30,4 +30,4 @@ where email = '{{email}}'
 +
 image:sql-forms.png[]
 
-. Click *Save* and the Form submissions will be passed through to the block.
+. Select *Save*, and the Form submissions will be passed through to the block.

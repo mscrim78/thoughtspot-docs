@@ -36,7 +36,7 @@ image:destination-sql-tags.png[]
 +
 image:new-sql-block.png[]
 
-. Click "Set up a sync" under the Run button.
+. Select "Set up a sync" under the Run button.
 +
 image:sql-set-up-sync.png[]
 
@@ -48,7 +48,7 @@ image:sql-sync.png[]
 
 . If the table in Sheets has different column names than your parameters, specify the names under each parameter name.
 
-. Click Save.
+. Select *Save*.
 
 You can now test your sync by updating a value in the Sheet and confirming the write back to your database. Please link:mailto:contact@seekwell.io[let us know] if you run into any issues with this.
 

@@ -20,7 +20,7 @@ Sync your data warehouse to link:http://customer.io/[Customer.IO,window=_blank] 
 
 .. Go to link:https://app.seekwell.io/integrations[https://app.seekwell.io/integrations,window=_blank].
 
-.. Search for link:http://customer.io/[Customer.io,window=_blank] and click on *Add*. Enter a name for your connection.
+.. Search for link:http://customer.io/[Customer.io,window=_blank] and select *Add*. Enter a name for your connection.
 +
 image:customerio-auth.png[]
 
@@ -54,8 +54,8 @@ image:destination-customerio.png[]
 
 . Map your columns.
 
-.. To the right of *Results*, click on *Mapping*.
+.. To the right of *Results*, select *Mapping*.
 
 .. Map the fields in *Source* and *Destination*.
 
-. Click *Test Sync*. Your results appear in Customer.IO within a few seconds.
+. Select *Test Sync*. Your results appear in Customer.IO within a few seconds.

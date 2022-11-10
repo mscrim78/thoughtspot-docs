@@ -30,7 +30,7 @@ video::lTkv8o0j7Pw[youtube]
 
 == Adding data (single data points)
 
-Once you hit kbd:[`=`], you see all saved query results with *exactly one row* (Note: to save a result, simply title the block). Press `return` or click to select a data point, and it will be added into the story.
+Once you type kbd:[`=`], you see all saved query results with *exactly one row* (Note: to save a result, simply title the block). Press `return` or click to select a data point, and it will be added into the story.
 
 image::destination-stories-show-data.png[]
 
@@ -124,13 +124,13 @@ To add blocks to a Story, follow these steps:
 
 . Type `=` and start typing the title of your block.
 
-. To delete a block, highlight a cell in the table to bring up the menu and click the "Table X" icon (last button in image below).
+. To delete a block, highlight a cell in the table to bring up the menu and select the "Table X" icon (last button in image below).
 +
 image:destination-stories-block-delete.png[]
 
 == Add charts from Google Sheets
 
-. Click "Publish chart" from the menu on the chart.
+. Select "Publish chart" from the menu on the chart.
 +
 image:destination-stories-chart.png[]
 

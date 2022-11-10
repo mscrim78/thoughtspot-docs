@@ -22,23 +22,23 @@ You can also query tables in Notion, CSV or Excel files, and tables in Google Sh
 
 === Blocks
 
-Each individual query, including the web pages that it queries from and the destination it sends to (if applicable), is called a "Block". When you launch the extension, you can see your past Blocks by clicking "View History".
+Each individual query, including the web pages that it queries from and the destination it sends to (if applicable), is called a "Block". When you launch the extension, you can see your past Blocks by selecting "View History".
 
-When you click on one of your blocks, it will automatically launch the web pages used in that query (including Wikipedia pages, CSV's, Notion Pages, public Google Spreadsheets, etc.), so you can run the same query and get the same results. You can create a new Block by clicking "New SQL Block" after you launch the extension.
+When you select one of your blocks, it will automatically launch the web pages used in that query (including Wikipedia pages, CSV's, Notion Pages, public Google Spreadsheets, etc.), so you can run the same query and get the same results. You can create a new Block by selecting "New SQL Block" after you launch the extension.
 
 === Schema
 
-When you start or launch a Block, you will see a tab for "Schema" underneath the query text. This shows you the active HTML tables currently in your Chrome tabs. If you don't see any tables, you can click "Refresh Schema" at the bottom.
+When you start or launch a Block, you will see a tab for "Schema" underneath the query text. This shows you the active HTML tables currently in your Chrome tabs. If you don't see any tables, you can select "Refresh Schema" at the bottom.
 
-Each web page in your Chrome tabs is assigned an "alias", such as "851nb3". All the tables on that web page are given the same alias, plus the order in which they appear on the web page (for example, the 5th table on the page would be "851nb3-5"). When you click on a web page under your Schema, you can see all the tables on that page. When you click on a specific table, you can see the number of columns, an example query, and the first 5 rows of that data table.  The example query will look something like this: `"SELECT * FROM HTML("#t851nb3-5", {headers: true}) LIMIT 5"`. You can copy and paste the example query into your query text in order to start querying from that table.
+Each web page in your Chrome tabs is assigned an "alias", such as "851nb3". All the tables on that web page are given the same alias, plus the order in which they appear on the web page (for example, the 5th table on the page would be "851nb3-5"). When you open a web page under your Schema, you can see all the tables on that page. When you open a specific table, you can see the number of columns, an example query, and the first 5 rows of that data table.  The example query will look something like this: `"SELECT * FROM HTML("#t851nb3-5", {headers: true}) LIMIT 5"`. You can copy and paste the example query into your query text in order to start querying from that table.
 
-If you wish to remove a web page or data table from your Schema for a certain block (so that web page will no longer automatically launch when you click on that block), you can click on the trash can icon to the right of the web page or table.
+If you wish to remove a web page or data table from your Schema for a certain block (so that web page will no longer automatically launch when you select that block), you can select the trash can icon to the right of the web page or table.
 
 === Destination
 
-Under the query text of a Block, there is also a tab for "Destination". Here, you can enter a Spreadsheet ID and Sheet name (and, optionally, cell location) to send your query result to. The Spreadsheet ID can be found in the Google Sheet URL. When you click "Run" after entering your destination, your query result will be sent to that Sheet.
+Under the query text of a Block, there is also a tab for "Destination". Here, you can enter a Spreadsheet ID and Sheet name (and, optionally, cell location) to send your query result to. The Spreadsheet ID can be found in the Google Sheet URL. When you select "Run" after entering your destination, your query result will be sent to that Sheet.
 
-If you want to simply send all the tables on a web page (or web pages) to Google Sheets, you can click "Extract HTML tables to Sheets" after launching the extension. Here you can enter the same information as above, and also a prepend to the Sheet name (for example "test" so each Sheet will be called "test_" + the table alias).
+If you want to simply send all the tables on a web page (or web pages) to Google Sheets, you can select "Extract HTML tables to Sheets" after launching the extension. Here you can enter the same information as above, and also a prepend to the Sheet name (for example "test" so each Sheet will be called "test_" + the table alias).
 
 == AlaSQL
 
@@ -216,7 +216,7 @@ You can query any table in Notion that is in an open tab and is publicly accessi
 |===
 ====
 
-You could simply query this table by opening that Notion page in one of your tabs—it should show up under your Schema. If the table does not appear, try clicking "Refresh Schema". To query the table, simply replace its table alias where it says "#replace-notion-table-alias" in the following query:
+You could simply query this table by opening that Notion page in one of your tabs—it should show up under your Schema. If the table does not appear, try selecting "Refresh Schema". To query the table, simply replace its table alias where it says "#replace-notion-table-alias" in the following query:
 
 [source,ruby]
 ----

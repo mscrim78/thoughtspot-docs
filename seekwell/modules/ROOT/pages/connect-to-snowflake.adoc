@@ -31,7 +31,7 @@ In the URL, you will find your Account Name (`abcd1234` in our example) and your
 
 image:snowflake-an-region.png[]
 
-You can find your Database and Warehouse by clicking the *Databases* and *Warehouses* icons.
+You can find your Database and Warehouse by selecting the *Databases* and *Warehouses* icons.
 
 image:snowflake-db.png[]
 
@@ -43,9 +43,9 @@ image:snowflake-user-role.png[]
 
 . Launch link:https://app.seekwell.io/[{seekwell},window=_blank].
 
-. In the top-right corner, click the plus icon and select *Add New Integration*. The Integrations page appears.
+. In the top-right corner, select the plus icon and select *Add New Integration*. The Integrations page appears.
 
-. Scroll down to select *Snowflake*, or enter "Snowflake" in the search bar. On the Snowflake tile, click *+ Add*.
+. Scroll down to select *Snowflake*, or enter "Snowflake" in the search bar. On the Snowflake tile, select *+ Add*.
 
 . Select "Snowflake" under "Flavor".
 +
@@ -53,7 +53,7 @@ image:snowflake-connect-sql.png[]
 
 . Fill out the remaining fields with the account information you found in the <<prerequisites,prerequisites>>.
 
-. Click *Save*.
+. Select *Save*.
 
 == Finding account details for JDBC
 
