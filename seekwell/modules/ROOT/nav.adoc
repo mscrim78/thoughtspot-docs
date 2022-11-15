@@ -7,7 +7,7 @@
 
 
 
-* xref:seekwell-get-started.adoc[Getting started]
+* xref:seekwell-get-started.adoc[Get started]
 ** xref:accessing.adoc[SeekWell browser access]
 ** xref:whitelisting-our-ip-address.adoc[Whitelist our IP address]
 ** xref:local-database.adoc[Connect to a local database]
@@ -33,7 +33,7 @@
 ** xref:pivot-tables.adoc[Pivot tables]
 
 * xref:sources.adoc[Sources]
-** xref:database-source.adoc[Add a new SQL Database]
+** xref:database-source.adoc[Add a new SQL database]
 *** xref:airtable.adoc[]
 *** xref:bigquery.adoc[]
 *** xref:microsoft-sql-server-ms-sql.adoc[Microsoft SQL Server (MS SQL)]
