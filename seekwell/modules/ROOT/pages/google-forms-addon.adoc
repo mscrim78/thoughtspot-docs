@@ -17,7 +17,7 @@ To use the Google Forms addon, follow these steps:
 
 . link:https://sql.new/[Create a block,window=_blank] that includes xref:parameters.adoc[⚙ Parameters], for example:
 +
-[source,ruby]
+[source]
 ----
 update dummy.users
 set plan = '{{plan}}'

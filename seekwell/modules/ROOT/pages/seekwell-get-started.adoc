@@ -94,7 +94,7 @@ In this example, we demonstrate how to use parameters to add data to your block 
 
 . Within your SQL statement, add a parameter.
 +
-[source,ruby]
+[source]
 ----
 select e.*
 from dummy.events AS e

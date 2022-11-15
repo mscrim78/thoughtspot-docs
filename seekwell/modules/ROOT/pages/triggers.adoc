@@ -22,7 +22,7 @@ image:sql-trigger-rows.png[]
 +
 For example, if you had a column in the trigger block called "users" and you wanted to check if users increased 10% since the last run, you could use the ternary:
 +
-[source,ruby]
+[source]
 ----
 cur.users > prev.users * 1.1 ? true : false
 ----

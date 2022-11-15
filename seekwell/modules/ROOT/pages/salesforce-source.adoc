@@ -26,7 +26,7 @@ image::sql-delete.png[]
 
 == Example query
 
-[source,ruby]
+[source]
 ----
 select Id, Email, Name, Phone, CreatedDate from Contact
 ----

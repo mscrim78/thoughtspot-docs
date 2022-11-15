@@ -37,7 +37,7 @@ NOTE: If your data starts in A1 and there is only one table in the sheet, you ca
 * You must use a SQL alias for the Sheet or table (for example, `from {{users}} as u`).
 * You can use this feature to email a summary of a Sheet via a Story, or a full table as a CSV.
 +
-[source,ruby]
+[source]
 ----
 select r.email,  u.channel
 from

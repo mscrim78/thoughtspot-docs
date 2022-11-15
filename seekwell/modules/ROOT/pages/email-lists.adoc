@@ -36,7 +36,7 @@ image:destination-email.png[]
 . Add xref:parameters.adoc[Parameters] from the *List Block* into the *Action Block* using the same name as the column name in the List Block. Keep the parameter type as the default "value". Make sure there are no spaces in the column name, for example, `some_column`.
 +
 .Email list example
-[source,ruby]
+[source]
 ----
 select '{{email}}' as assigned_to, u.channel, u.plan, u.email as user_email
 from dummy.users as u

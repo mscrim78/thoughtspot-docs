@@ -28,7 +28,7 @@ image:destination-blocks.png[]
 . Add xref:parameters.adoc[⚙ Parameters] from the *List Block* into the *Action Block* using the same name as the column name in the *List Block*. Keep the parameter type as the default "value". Make sure there are no spaces in the column name, for example, `some_column`.
 +
 .Parameters example
-[source,ruby]
+[source]
 ----
 select '{{email}}' as assigned_to, u.channel, u.plan, u.email as user_email
 from dummy.users as u
@@ -66,7 +66,7 @@ image:destination-blocks-uuid.png[]
 
 You can define the List block with a SQLite query. Select "Blocks" as the source to use SQLite. For example, to create a new Sheet for everyday use:
 
-[source,ruby]
+[source]
 ----
 SELECT
 date('now') as dt,
@@ -82,7 +82,7 @@ You can send rows from one query to a block that performs, for example, `INSERT`
 
 . Create a block with "value" xref:parameters.adoc[⚙ Parameters]. For example:
 +
-[source,ruby]
+[source]
 ----
 INSERT INTO your.users (channel, country, created_on, email)
 VALUES ('{{channel}}', '{{country}}', '{{created_on}}', '{{email}}');
@@ -92,7 +92,7 @@ NOTE: Be sure to properly quote text / string columns. Make sure the "name" you 
 
 . Create your `SELECT` block. You may want to include a `LIMIT` while testing.
 +
-[source,ruby]
+[source]
 ----
 select s.channel, s.country, s.created_on, s.email
 from my.some_other_table as s

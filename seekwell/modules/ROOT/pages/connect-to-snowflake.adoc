@@ -61,7 +61,7 @@ image:snowflake-connect-sql.png[]
 When using JDBC, you can use your existing connection string to find account details for Snowflake.
 
 
-[source,ruby]
+[source]
 ----
 jdbc:snowflake://xy12345.eu-central-1.snowflakecomputing.com/?user=peter&warehouse=mywh&db=mydb&schema=public
 ----
