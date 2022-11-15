@@ -87,10 +87,10 @@ Find topics for the common {seekwell} workflows below.
       Getting started
     </h2>
     <ul>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/whitelisting-our-ip-address">Whitelist our IP address</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/local-database">Connect to a local database</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/public-blocks">Share blocks</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/granting-access-via-service-account">Grant access via Service Account</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/whitelisting-our-ip-address">Whitelist our IP address</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/local-database">Connect to a local database</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/public-blocks">Share blocks</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/granting-access-via-service-account">Grant access via Service Account</a></li>
 
     </ul>
     </div>
@@ -99,15 +99,15 @@ Find topics for the common {seekwell} workflows below.
       SQL editor
     </h2>
     <ul>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/parameters">Parameters</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/snippets">Snippets</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/sqlite">SQLite</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/stories">Stories</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/triggers">Triggers</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/dashboards">Dashboards</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/forms">Forms</a></li>
-      <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/tables">Tables</a></li>
-    <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/pivot-tables">Pivot tables</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/parameters">Parameters</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/snippets">Snippets</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/sqlite">SQLite</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/stories">Stories</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/triggers">Triggers</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/dashboards">Dashboards</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/forms">Forms</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/tables">Tables</a></li>
+    <li><a href="https://docs.thoughtspot.com/seekwell/pivot-tables">Pivot tables</a></li>
     </ul>
     </div>
   <div class="box">
@@ -115,17 +115,17 @@ Find topics for the common {seekwell} workflows below.
       Sources
     </h2>
    <ul>
-        <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/database-source">Add a new SQL database</a></li>
-<ul><li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/airtable">Airtable</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/bigquery">BigQuery</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/microsoft-sql-server-ms-sql">Microsoft SQL Server (MS SQL)</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/connecting-to-panoply">Panoply</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/connect-to-snowflake">Snowflake</a></li></ul>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/query-sheets-using-sql">Query Sheets using SQL</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/query-blocks">Query blocks</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/query-a-csv">Query a CSV</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/excel-source">Excel</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/salesforce-source">Salesforce</a></li>
+        <li><a href="https://docs.thoughtspot.com/seekwell/database-source">Add a new SQL database</a></li>
+<ul><li><a href="https://docs.thoughtspot.com/seekwell/airtable">Airtable</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/bigquery">BigQuery</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/microsoft-sql-server-ms-sql">Microsoft SQL Server (MS SQL)</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/connecting-to-panoply">Panoply</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/connect-to-snowflake">Snowflake</a></li></ul>
+<li><a href="https://docs.thoughtspot.com/seekwell/query-sheets-using-sql">Query Sheets using SQL</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/query-blocks">Query blocks</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/query-a-csv">Query a CSV</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/excel-source">Excel</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/salesforce-source">Salesforce</a></li>
     </ul>
     </div>
       <div class="box">
@@ -133,24 +133,24 @@ Find topics for the common {seekwell} workflows below.
           Destinations
         </h2>
         <ul>
-         <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/google-sheets">Sheets</a></li>
-          <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/excel">Excel</a></li>
-       <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/slack">Slack alerts</a></li>
-       <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/email">Email alerts</a></li>
-          <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/blocks-as-a-destination">Blocks</a></li>
-          <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/database-destination">Database</a></li>
-          <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/intercom">Intercom</a></li>
-          <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/salesforce">Salesforce</a></li>
-          <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/hubspot">HubSpot</a></li>
-          <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/zoho">Zoho</a></li>
-          <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/enter-manually">Enter manually</a></li>
-          <li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/front">Front</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/microsoft-teams">Microsoft Teams</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/drift">Drift</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/customerio">Customer.io</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/active-campaign">Active Campaign</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/facebook">Facebook</a></li>
-<li><a href="https://seekwell--preview-seekwell.netlify.app/seekwell/close">Close</a></li>
+         <li><a href="https://docs.thoughtspot.com/seekwell/google-sheets">Sheets</a></li>
+          <li><a href="https://docs.thoughtspot.com/seekwell/excel">Excel</a></li>
+       <li><a href="https://docs.thoughtspot.com/seekwell/slack">Slack alerts</a></li>
+       <li><a href="https://docs.thoughtspot.com/seekwell/email">Email alerts</a></li>
+          <li><a href="https://docs.thoughtspot.com/seekwell/blocks-as-a-destination">Blocks</a></li>
+          <li><a href="https://docs.thoughtspot.com/seekwell/database-destination">Database</a></li>
+          <li><a href="https://docs.thoughtspot.com/seekwell/intercom">Intercom</a></li>
+          <li><a href="https://docs.thoughtspot.com/seekwell/salesforce">Salesforce</a></li>
+          <li><a href="https://docs.thoughtspot.com/seekwell/hubspot">HubSpot</a></li>
+          <li><a href="https://docs.thoughtspot.com/seekwell/zoho">Zoho</a></li>
+          <li><a href="https://docs.thoughtspot.com/seekwell/enter-manually">Enter manually</a></li>
+          <li><a href="https://docs.thoughtspot.com/seekwell/front">Front</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/microsoft-teams">Microsoft Teams</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/drift">Drift</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/customerio">Customer.io</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/active-campaign">Active Campaign</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/facebook">Facebook</a></li>
+<li><a href="https://docs.thoughtspot.com/seekwell/close">Close</a></li>
         </ul>
         </div>
  </div>
