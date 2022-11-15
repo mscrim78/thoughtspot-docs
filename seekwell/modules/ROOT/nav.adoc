@@ -14,8 +14,8 @@
 ** xref:public-blocks.adoc[Share blocks]
 ** xref:granting-access-via-service-account.adoc[Granting access via Service Account]
 
-* Navigate Seekwell
-//** Seekwell home page
+* Navigate SeekWell
+//** SeekWell home page
 ** xref:tags-and-search.adoc[Tags and search]
 ** xref:shortcuts-navigation.adoc[Shortcuts / Navigation]
 ** xref:accessing-deleted-blocks.adoc[Access deleted blocks]
@@ -84,7 +84,7 @@
 ** xref:google-forms-addon.adoc[Google Forms Addon]
 ** xref:sendgrid.adoc[SendGrid]
 ** xref:seekwell-api.adoc[SeekWell API]
-*** xref:refresh-google-sheets-data-with-apps-script-and-the-seekwell-api.adoc[Refresh Google Sheets data with Apps Script and the Seekwell API]
+*** xref:refresh-google-sheets-data-with-apps-script-and-the-seekwell-api.adoc[Refresh Google Sheets data with Apps Script and the SeekWell API]
 ** xref:sqanything.adoc[SQanything (AlaSQL Chrome Extension)]
 
 * Troubleshooting
