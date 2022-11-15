@@ -23,7 +23,7 @@ link:https://docs.snowflake.com/en/sql-reference/functions-conversion.html#date-
 ====
 Use `*_TRUNC` instead of format, e.g.
 
-[source,ruby]
+[source]
 ----
 TIMESTAMP_TRUNC(timestamp, DAY) AS timestamp_day,
 ----

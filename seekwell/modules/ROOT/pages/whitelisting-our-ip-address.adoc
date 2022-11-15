@@ -71,7 +71,7 @@ image:ms-firewall-setting.png[]
 ====
 Example using MySQL statements:
 
-[source,ruby]
+[source]
 ----
 GRANT SELECT ON *.* to your_user_name@'35.193.207.79' IDENTIFIED BY 'your_user_password';
 GRANT SELECT ON *.* to your_user_name@'35.239.74.213' IDENTIFIED BY 'your_user_password';

@@ -23,7 +23,7 @@ To create a snippet, hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], and sear
 
 Working with dates is a good example. Consider this snippet we use at {seekwell} which creates three date formats from a `timestamp`.
 
-[source,ruby]
+[source]
 ----
 date_trunc('day', {{column_name}})::date as "{{alias}}_day",
 date_trunc('week', {{column_name}})::date as "{{alias}}_week",

@@ -14,7 +14,7 @@ If you currently use Windows Authentication to connect to your database, you nee
 
 We suggest link:https://docs.microsoft.com/en-us/sql/t-sql/statements/create-user-transact-sql?view=sql-server-ver15[creating a read-only username,window=_blank] of "seekwell" for your team to log in with. You or an admin will need to log in to your database and create the user, for example:
 
-[source,ruby]
+[source]
 ----
 CREATE USER Mary WITH PASSWORD = '********';
 ----

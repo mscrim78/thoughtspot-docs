@@ -26,7 +26,7 @@ image::python-source-block.png[]
 
 Create a new block named "SuperBowl" and add the script below. Hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], enter "Python", and run the block.
 
-[source,ruby]
+[source]
 ----
 import pandas as pd
 dfs = pd.read_html('https://en.wikipedia.org/wiki/Super_Bowl')
@@ -37,7 +37,7 @@ seekwell = {'winRates': df}
 
 The results appear in the app. Next, create a new block, change the Source to "Block", and paste in the query below:
 
-[source,ruby]
+[source]
 ----
 select sum("Wins") as total_wins
 from {{SuperBowl}}

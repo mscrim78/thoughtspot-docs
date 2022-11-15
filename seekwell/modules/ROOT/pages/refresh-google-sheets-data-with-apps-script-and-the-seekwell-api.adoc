@@ -25,7 +25,7 @@ NOTE: If you're new to Apps Script be sure to check out link:https://developers.
 
 . Copy this code into your script editor, replacing 'YOUR BLOCK ID' with your block ID and 'YOUR API KEY' with your API key:
 +
-[source,ruby]
+[source]
 ----
 function runApi() {
 	var my_block_id =  'YOUR BLOCK ID';
@@ -63,7 +63,7 @@ Once you save and run the script above, the "{seekwell}" menu should appear, and
 
 You can also send parameters from your Sheet to the {seekwell} API so that your query only fetches certain data (such as within a specific date interval) to send back to the Sheet. You can do it by adding xref:parameters.adoc[Parameters] to your {seekwell} block such as "toDate" and "fromDate" and adding a WHERE clause like the following (assumes you have a date field called "created_on"):
 
-[source,ruby]
+[source]
 ----
 WHERE created_on >= '{{fromDate}}'::date and
 created_on < '{{toDate}}'::date
@@ -71,7 +71,7 @@ created_on < '{{toDate}}'::date
 
 Then in your runApi() function in the script editor, you can reference specific cells to insert as those parameters. It's best to make another Sheet where you enter your parameters so the data doesn't overwrite them. If you make a new Sheet called "input" and enter the "fromDate" and "toDate" in cells input!F1 and input!H1 respectively, then you can grab those values in Apps Script by using the getRange() and getDisplayValue() methods like the following:
 
-[source,ruby]
+[source]
 ----
 var doc = SpreadsheetApp.getActiveSpreadsheet();
 var fromDate = doc.getRange('input!F1').getDisplayValue();
@@ -83,7 +83,7 @@ Now you can send those values as parameters back to your query so the data retur
 
 Using the "fromDate" and "toDate" variables from above, you can construct your parameters like this:
 
-[source,ruby]
+[source]
 ----
 var data = {
             'blockId': my_block_id,
@@ -95,7 +95,7 @@ var data = {
 
 Putting it all together your new script should look something like this:
 
-[source,ruby]
+[source]
 ----
 function runApi() {
 	var my_block_id =  'YOUR BLOCK ID';

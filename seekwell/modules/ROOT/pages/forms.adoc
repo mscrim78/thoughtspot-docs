@@ -58,7 +58,7 @@ image:lookup-values.png[]
 
 For example, if you create a Lookup Block of:
 
-[source,ruby]
+[source]
 ----
 select column_one, column_two
 from table_name

@@ -23,7 +23,7 @@ To create a Set within {seekwell}, follow these steps:
 
 . Write your SQL query, for example:
 +
-[source,ruby]
+[source]
 ----
 select u.*
 from dummy.users as u

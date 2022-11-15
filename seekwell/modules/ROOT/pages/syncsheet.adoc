@@ -19,7 +19,7 @@ video::KOrIT5jqQLI[youtube]
 . Create a link:https://sql.new/[new SQL block,window=_blank] with
 xref:parameters.adoc[⚙ Parameters]. It's best to give the parameter the same name as the column, for example:
 +
-[source,ruby]
+[source]
 ----
 update dummy.users
 set plan = '{{plan}}'
@@ -62,7 +62,7 @@ In link:https://chartio.com/resources/tutorials/how-to-insert-if-row-does-not-ex
 
 In this example, "id" is the unique index. When a certain id already exists in the table, its title, author and year_published will be updated instead of inserting a new row.
 
-[source,ruby]
+[source]
 ----
 INSERT INTO books
     (id, title, author, year_published)
@@ -78,7 +78,7 @@ ON DUPLICATE KEY UPDATE
 
 Null numbers can be cast as Signed Integers in MySQL to avoid errors:
 
-[source,ruby]
+[source]
 ----
 CAST('{{your_param}}' AS SIGNED INTEGER)
 ----

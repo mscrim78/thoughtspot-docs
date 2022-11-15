@@ -43,7 +43,7 @@ image:bulk-data-load.png[]
 
 Use the special value `#N/A` to "blank out" or set a field to `NULL`. For example:
 
-[source,ruby]
+[source]
 ----
 select
 u.salesforce_id as "Id",

@@ -20,7 +20,7 @@ To add data from Sheets, follow these steps:
 
 . Add a parameter to your SQL.
 +
-[source,ruby]
+[source]
 ----
 select e.*
 from dummy.events AS e
@@ -48,7 +48,7 @@ image::parameters-block.png[]
 
 You can also use a Sheet *range*, or more than one cell, to generate a SQL list (for example, `where some_column in (1, 2, 3)`). To use the list in your query, simply add the parameter (no parens, quotes, etc. needed), for example:
 
-[source,ruby]
+[source]
 ----
 select *
 from some_table as d
@@ -116,7 +116,7 @@ video::ndzlcyWor4k[youtube]
 
 You can even create a dropdown impromptu with SQLite and the "Sheets / CSV / Block" source type.
 
-[source,ruby]
+[source]
 ----
 SELECT *
   FROM (VALUES ("dog"),
@@ -133,7 +133,7 @@ SELECT *
 
 . Add a parameter to your select statement, for example:
 +
-[source,ruby]
+[source]
 ----
 SELECT {{email}}, r.revenue
 FROM dummy.revenue AS r
@@ -163,7 +163,7 @@ image:parameters-editable.png[]
 
 Create a block to update the plan with the following SQL:
 
-[source,ruby]
+[source]
 ----
 update dummy.users
 set plan = '{{plan}}'
@@ -172,7 +172,7 @@ where email = '{{email}}'
 
 Add a parameter in your `select` (for example, `{{plan}}`), choose the "Editable" parameter type, and select the block you created above as the "Update with" block. The "SQL" field is the SQL to get the current value.
 
-[source,ruby]
+[source]
 ----
 select d.email, {{plan}}
 from dummy.users AS d
@@ -188,7 +188,7 @@ image:parameters-editable-cell.png[] image:parameters-save.png[]
 
 The entire row is passed into the update block, so the `email` in the row you updated is used as a parameter in the update block. In our case, the update SQL becomes:
 
-[source,ruby]
+[source]
 ----
 update dummy.users
 set plan = 'premium'
@@ -204,7 +204,7 @@ video::IqMazian1Ks[youtube]
 
 *Parent Block*
 
-[source,ruby]
+[source]
 ----
 SELECT u.email, u.channel, r.revenue
 FROM dummy.users AS u inner join
@@ -219,7 +219,7 @@ image:parameters-subquery.png[]
 
 *Child Block (revenue)*
 
-[source,ruby]
+[source]
 ----
 SELECT
 r.email,

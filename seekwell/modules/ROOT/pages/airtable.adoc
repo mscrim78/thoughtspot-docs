@@ -41,7 +41,7 @@ image:airtable-id.png[]
 . Write a SQL query. Use the Base ID (`appkLTrRdxeM51z0P` in the example above) as the SQL schema name and the table name to test a `SELECT` statement.
 +
 .Airtable example
-[source,ruby]
+[source]
 ----
 select *
 from appREPLACEWITHYOURID."Opportunities"
@@ -62,7 +62,7 @@ You can use these like any other column.
 
 . In the link:https://www.airtable.com/templates/sales-crm/expvjTzYAZareV1pt[Sales CRM Base,window=_blank], there is an `Accounts` table and a `Contacts` table. To join them, let's use the first `id` of the first linked `Contact` and get their `Name`.
 +
-[source,ruby]
+[source]
 ----
 select
 a.__id as account_id,

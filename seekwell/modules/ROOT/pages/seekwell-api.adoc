@@ -20,7 +20,7 @@ image:sql-block-id.png[]
 
 .  Post a request to "https://api.seekwell.io/run_one" with your Block ID, API Key, and optional parameters. In this example, we use the Python link:https://pypi.org/project/requests/[Requests HTTP library,window=_blank]).
 +
-[source,ruby]
+[source]
 ----
 import requests
 
@@ -40,7 +40,7 @@ print(response.ok)
 +
 The "parameters" in your request JSON should be an array of dictionaries containing the name-value pairs of each of the Parameters you want to set, as in the code below.
 +
-[source,ruby]
+[source]
 ----
 data = {
             'blockId': long_id_from_url_in_step_2,
