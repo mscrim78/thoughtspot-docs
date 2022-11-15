@@ -1,5 +1,5 @@
 name: seekwell
 title: SeekWell
-version: ~
+version: 'latest'
 nav:
 - modules/ROOT/nav.adoc
