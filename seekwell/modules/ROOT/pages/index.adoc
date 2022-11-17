@@ -87,7 +87,7 @@ Find topics for the common {seekwell} workflows below.
       Getting started
     </h2>
     <ul>
-      <li><a href="https://docs.thoughtspot.com/seekwell/latest/whitelisting-our-ip-address">Whitelist our IP address</a></li>
+      <li><a href="https://docs.thoughtspot.com/seekwell/latest/safelisting-our-ip-address">Safelist our IP address</a></li>
       <li><a href="https://docs.thoughtspot.com/seekwell/latest/local-database">Connect to a local database</a></li>
       <li><a href="https://docs.thoughtspot.com/seekwell/latest/public-blocks">Share blocks</a></li>
       <li><a href="https://docs.thoughtspot.com/seekwell/latest/granting-access-via-service-account">Grant access via Service Account</a></li>

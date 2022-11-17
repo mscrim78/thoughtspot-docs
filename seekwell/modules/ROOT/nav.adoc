@@ -9,7 +9,7 @@
 
 * xref:seekwell-get-started.adoc[Get started]
 ** xref:accessing.adoc[SeekWell browser access]
-** xref:whitelisting-our-ip-address.adoc[Whitelist our IP address]
+** xref:safelisting-our-ip-address.adoc[Safelist our IP address]
 ** xref:local-database.adoc[Connect to a local database]
 ** xref:public-blocks.adoc[Share blocks]
 ** xref:granting-access-via-service-account.adoc[Granting access via Service Account]

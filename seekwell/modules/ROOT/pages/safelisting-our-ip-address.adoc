@@ -1,4 +1,4 @@
-= Whitelisting our IP address
+= Safelisting our IP address
 :last_updated: 8/23/22
 :author: Naomi
 :linkattrs:
@@ -8,7 +8,7 @@
 
 // Getting started
 
-To use {seekwell}, you first need to whitelist the following IP addresses:
+To use {seekwell}, you first need to safelist the following IP addresses:
 
 *35.193.207.79* and *35.239.74.213​*
 
@@ -23,7 +23,7 @@ Make sure to include the `-----BEGIN RSA PRIVATE KEY-----` at the top and the `-
 [%collapsible]
 .AWS
 ====
-Here's an example on link:https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateVPC.html[AWS,window=_blank]. In the example, we whitelist a Postgres database. Be sure to choose the Type appropriate for your database.
+Here's an example on link:https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateVPC.html[AWS,window=_blank]. In the example, we safelist a Postgres database. Be sure to choose the Type appropriate for your database.
 
 video::b5KQ1v9uBn4[youtube]
 
@@ -39,7 +39,7 @@ image:whitelist-aws.png[]
 [%collapsible]
 .Google Cloud
 ====
-Follow this example on to whitelist IP addresses in Google Cloud SQL:
+Follow this example on to safelist IP addresses in Google Cloud SQL:
 First select *SQL* from the drop-down.
 Select your database and select the "Connections" tab.
 Select "Add network". Make sure you include "/32" after the IP address.
@@ -54,7 +54,7 @@ image:gcp-connectivity.png[]
 [%collapsible]
 .Microsoft Azure
 ====
-Follow these steps to whitelist IP addresses in Microsoft Azure:
+Follow these steps to safelist IP addresses in Microsoft Azure:
 Go to your database details and select "Set server firewall".
 
 image:whitelist-microsoft-azure.png[]
