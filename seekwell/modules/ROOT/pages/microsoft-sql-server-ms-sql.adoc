@@ -23,4 +23,4 @@ CREATE USER Mary WITH PASSWORD = '********';
 This is the solution to most "Adaptive Server connection failed" errors you see when trying to connect with {seekwell}.
 
 
-You also need to whitelist our IP address link:https://support.appliedi.net/kb/how-to-whitelist-an-ip-address-for-ms-sql-access-on-a-windows-2012-server/[for SQL Server,window=_blank].
+You also need to safelist our IP address link:https://support.appliedi.net/kb/how-to-whitelist-an-ip-address-for-ms-sql-access-on-a-windows-2012-server/[for SQL Server,window=_blank].

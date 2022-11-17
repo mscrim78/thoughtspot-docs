@@ -32,6 +32,6 @@ image::sql-add-source.png[]
 +
 image::sql-connection-properties.png[]
 +
-NOTE: You must whitelist the {seekwell} IP addresses (35.193.207.79 and 35.239.74.213) for the connection to work. For more information, see xref:whitelisting-our-ip-address.adoc[].
+NOTE: You must safelist the {seekwell} IP addresses (35.193.207.79 and 35.239.74.213) for the connection to work. For more information, see xref:safelisting-our-ip-address.adoc[].
 
 . Select *Save*.
