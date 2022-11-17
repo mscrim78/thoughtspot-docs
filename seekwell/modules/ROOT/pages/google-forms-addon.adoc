@@ -28,6 +28,6 @@ where email = '{{email}}'
 
 . Map the field names from the Form to the field names in your query.
 +
-image:sql-forms.png[]
+image:sql-forms.png[Map field names]
 
 . Select *Save*, and the Form submissions will be passed through to the block.

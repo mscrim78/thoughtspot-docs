@@ -31,7 +31,7 @@ limit 200
 
 . As soon as you add a parameter to your SQL, a "Parameters" section appears in {seekwell}. Select *Sheets* as the *Type*.
 +
-image:parameters-sheets.png[]
+image:parameters-sheets.png[Add Parameters to SQL]
 
 . Select the Spreadsheet you want to grab the parameter value from and the *cell* link:https://developers.google.com/sheets/api/guides/concepts?utm_source=devtools#a1_notation[using A1 notation,window=_blank] (for example, `Sheet1!A1`). You can only use a single cell, except in the case of <<sheet-range,Postgres and Snowflake>>. If you need to reference multiple cells, use `and / or` statements.
 
@@ -41,7 +41,7 @@ image:parameters-sheets.png[]
 
 Select "Block" as the parameter type.
 
-image::parameters-block.png[]
+image::parameters-block.png[Select Block as parameter type]
 
 [#sheet-range]
 == Lists and tables (Postgres and Snowflake only)
@@ -81,7 +81,7 @@ https://app.seekwell.io/form/<youruuid>?param1=value1&param2=value2
 
 Select the "Share block" link in the top right to get the link with the current parameter values:
 
-image:parameters-share-block.png[]
+image:parameters-share-block.png[Share block]
 
 == Trigger actions on load
 
@@ -107,7 +107,7 @@ https://app.seekwell.io/run/<yourblockid>?&runOnLoad=1&viewNumber=3&email=jim@se
 
 . Choose "Select" as the parameter type.
 +
-image:parameters-select.png[]
+image:parameters-select.png[Choose Select as parameter type]
 
 . Choose the block you created in the first step and the column from that block you want to use in the dropdown.
 +
@@ -143,15 +143,15 @@ limit 2
 
 . Select the Drill Down type.
 +
-image:parameters-drill-down.png[]
+image:parameters-drill-down.png[Select type as Drill Down]
 
 . Insert the SQL that will display and select the block you want to drill to. For example, if you were selecting email from a table and wanted to drill to another block that had email as a parameter, your SQL would be `email`. The parameter names must be the same between the two blocks.
 +
-image:parameters-email.png[]
+image:parameters-email.png[Select parameter names for your block]
 
 . The parameter will now show as a link in the results and selecting on the link will drill to the block you set in the parameter.
 +
-image:parameters-email-block.png[]
+image:parameters-email-block.png[Email appears as link in results]
 
 == Editable
 
@@ -159,7 +159,7 @@ video::ie6xuUw3rYU[youtube]
 
 You can use the "editable" parameter type to make columns values editable. You can then pass the entire row into another block to perform SQL updates. For example, say you had a `users` table that had the columns `plan` and `email`.
 
-image:parameters-editable.png[]
+image:parameters-editable.png[Editable parameter type]
 
 Create a block to update the plan with the following SQL:
 
@@ -180,11 +180,11 @@ order by created_on desc
 limit 100
 ----
 
-image:parameters-update.png[]
+image:parameters-update.png[Add a parameter to your select statement]
 
 Hovering over an editable cell changes the background to black, and you can now change the value. Select the Save icon to run your update block.
 
-image:parameters-editable-cell.png[] image:parameters-save.png[]
+image:parameters-editable-cell.png[Hover over an editable cell] image:parameters-save.png[Select Save]
 
 The entire row is passed into the update block, so the `email` in the row you updated is used as a parameter in the update block. In our case, the update SQL becomes:
 
@@ -215,7 +215,7 @@ WHERE 1=1
 
 Select the "Subquery" parameter type and select the block whose SQL you want to add from the drop-down:
 
-image:parameters-subquery.png[]
+image:parameters-subquery.png[Select Subquery parameter type]
 
 *Child Block (revenue)*
 

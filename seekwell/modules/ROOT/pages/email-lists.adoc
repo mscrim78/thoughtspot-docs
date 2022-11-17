@@ -25,7 +25,7 @@ video::yNzQMcRgF3M[youtube]
 
 . Within your block, select the current destination and choose *Email* from the drop-down.
 +
-image:destination-email.png[]
+image:destination-email.png[Select Email as destination]
 
 . Under *Send from*, enter your email address.
 
@@ -46,9 +46,9 @@ and u.channel = '{{channel}}'
 
 . If you use the "send to" email as a parameter in the query (for example, `{{email}}`), you can set a default email which will send an "audit email". You can use the "audit email" to test if the query ran. To prevent sending this email, set the default to "NA". You can change this setting at any time.
 +
-image:sql-default-email.png[]
+image:sql-default-email.png[Set default email]
 +
-image:sql-email-na.png[]
+image:sql-email-na.png[Remove default email]
 
 . Run the block. Once it completes, check your email for the reports.
 

@@ -16,7 +16,7 @@
 
 . Search for Close and select “Add”.
 +
-image:destination-close.png[]
+image:destination-close.png[Add Close as Destination]
 
 . Enter a *Name*.
 
@@ -32,7 +32,7 @@ image:destination-close.png[]
 
 . Under *Destination* on the right, select *Close*.
 +
-image:destination-close-select.png[]
+image:destination-close-select.png[Select Close as destination]
 
 . Fill the following fields:
 .. Object (for example, contact)
@@ -43,6 +43,6 @@ image:destination-close-select.png[]
 .. Above the query results, select *Mapping*.
 .. Map the fields in *Source* and *Destination*.
 +
-image:destination-close-mapping.png[]
+image:destination-close-mapping.png[Map Soure and Destination columns]
 
 . Select *Test Sync*. Your results appear in Close within a few seconds.

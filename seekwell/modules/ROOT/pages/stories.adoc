@@ -12,7 +12,7 @@
 
 {seekwell}'s Stories allow you to write narratives about your data using SQL. Think of them as an always up-to-date Wall Street Journal article about your company, automatically refreshed and delivered to your inbox daily. For example, using this SQL:
 
-image:destination-stories-sample.png[]
+image:destination-stories-sample.png[Sample SQL story]
 
 You can write a story like the following:
 
@@ -32,13 +32,13 @@ video::lTkv8o0j7Pw[youtube]
 
 Once you type kbd:[`=`], you see all saved query results with *exactly one row* (Note: to save a result, simply title the block). Press `return` or click to select a data point, and it will be added into the story.
 
-image::destination-stories-show-data.png[]
+image::destination-stories-show-data.png[Show data]
 
 == Adding Formulas and Javascript
 
 You can perform math (including references to data points) within the Story using double curly braces, `{{2 + 2}}` or `logic (1 < 2) ? 'down' : 'up'`.
 
-image::destination-stories-formula.png[]
+image::destination-stories-formula.png[Formula in SQL]
 
 NOTE: This will render .30239, see xref:stories.adoc#formatting[Formatting] below to clean that up.
 
@@ -126,17 +126,17 @@ To add blocks to a Story, follow these steps:
 
 . To delete a block, highlight a cell in the table to bring up the menu and select the "Table X" icon (last button in image below).
 +
-image:destination-stories-block-delete.png[]
+image:destination-stories-block-delete.png[Delete a block]
 
 == Add charts from Google Sheets
 
 . Select "Publish chart" from the menu on the chart.
 +
-image:destination-stories-chart.png[]
+image:destination-stories-chart.png[Publish chart from chart menu]
 
 . Select "Image" as the type.
 +
-image:destination-stories-publish.png[]
+image:destination-stories-publish.png[Select image as type]
 
 . Copy the link.
 

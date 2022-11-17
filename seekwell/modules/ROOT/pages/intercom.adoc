@@ -16,11 +16,11 @@ To set up Intercom as a destination, follow these steps:
 
 . link:https://sql.new/[Create a new SQL block,window=_blank] in {seekwell} using the plus sign in the top right of the home screen:
 +
-image::destination-intercom.png[]
+image::destination-intercom.png[Create a new SQL block]
 
 . Write a SQL statement in your Block and run the query to verify the results are as expected.
 +
-image::destination-intercom-sql.png[]
+image::destination-intercom-sql.png[Enter SQL statement]
 
 . Under *Destination* in the right sidebar, select *Intercom*.
 
@@ -32,11 +32,11 @@ Once you map the columns to their respective Intercom fields, you can test the s
 
 . Once you test the sync, you can verify the sync to Intercom was successful by selecting on the metadata above the Mapping UI to see a realtime Feed of your runs.
 +
-image::destination-intercom-verify.png[]
+image::destination-intercom-verify.png[Verify your sync to Intercom]
 
 . [Optional] Under the *Repeat* section in the right sidebar, select the interval and time at which you'd like your data to sync.
 +
-image::destination-intercom-schedule.png[]
+image::destination-intercom-schedule.png[Schedule your intercom sync]
 
 . Complete setup.
 +

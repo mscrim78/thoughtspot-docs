@@ -10,11 +10,11 @@
 
 You can use *Triggers* (or conditions) to prevent the execution of a scheduled job. For example, if you had a query that was scheduled to run every 5 minutes and send an email, you could add a trigger that must be met before the email is actually sent. There are three types of triggers:
 
-image::sql-triggers.png[]
+image::sql-triggers.png[Add a trigger]
 
 * "Block has rows" checks if another block is currently returning rows.
 +
-image:sql-trigger-rows.png[]
+image:sql-trigger-rows.png[Check if another block is returning rows]
 
 * "Block value changed" will check if one of the columns in another block has changed since the last run.
 

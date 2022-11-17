@@ -19,7 +19,7 @@
 
 . Within your SQL block, select the current destination and choose {destination} from the drop-down.
 +
-image:destination-slack.png[]
+image:destination-slack.png[Select Slack as destination]
 
 . Select the channel.
 

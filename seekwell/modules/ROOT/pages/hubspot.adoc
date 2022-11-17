@@ -28,7 +28,7 @@ image:destination-hubspot-gif.gif[]
 . Map your columns.
 .. To the right of *Results*, select *Mapping*.
 +
-image:destination-hubspot-mapping.png[]
+image:destination-hubspot-mapping.png[Map your columns]
 
 . Select *Test Sync*. Your results appear in HubSpot within a few minutes.
 

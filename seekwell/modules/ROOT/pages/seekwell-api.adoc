@@ -16,7 +16,7 @@ You can automatically trigger any block to run by sending a request to "https://
 
 . Go to the block that you would like to trigger programmatically, and copy the Block ID from the URL. As shown below, the Block ID appears after the url `\https://app.seekwell.io/run/`.
 +
-image:sql-block-id.png[]
+image:sql-block-id.png[Find SeekWell Block ID]
 
 .  Post a request to "https://api.seekwell.io/run_one" with your Block ID, API Key, and optional parameters. In this example, we use the Python link:https://pypi.org/project/requests/[Requests HTTP library,window=_blank]).
 +

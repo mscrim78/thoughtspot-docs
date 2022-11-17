@@ -10,6 +10,6 @@
 
 You can access previously deleted blocks by going to the link:https://app.seekwell.io/[{seekwell} web app,window=_blank], hitting kbd:[`command`] / kbd:[`control`] + kbd:[`k`], and searching for "trash". A menu item appears called "View Trash".
 
-image::sql-trash.png[]
+image::sql-trash.png[SeekWell view trash]
 
 After selecting "View Trash", a list of all your previously deleted blocks appears. Select "Restore" next to whichever blocks you want to restore, and they will be available again from the link:https://app.seekwell.io/[{seekwell} web app,window=_blank].

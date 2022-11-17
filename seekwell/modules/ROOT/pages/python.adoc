@@ -16,11 +16,11 @@ You can schedule Python scripts to run on a schedule or use them to return DataF
 
 . [Optional] Set your schedule.
 +
-image:python-schedule.png[]
+image:python-schedule.png[Schedule your SQL]
 
 If your script returns DataFrames, you can access them with SQL by changing the Source to "Block".
 
-image::python-source-block.png[]
+image::python-source-block.png[Change source to Sheets/CSV/Block]
 
 == Example
 
@@ -46,19 +46,19 @@ from {{SuperBowl}}
 
 In the Parameters section, change the type to "Block", select "SuperBowl" as the block and "winRates" as the DataFrame.
 
-image::python-block-superbowl.png[]
+image::python-block-superbowl.png[Select SuperBowl block]
 
 Run the query and SQL sums the Wins. You can now send the results to any destination (e.g. Google Sheets) as you normally would.
 
-image::python-superbowl-wins.png[]
+image::python-superbowl-wins.png[Sum of SuperBowl wins]
 
 == Injecting a SQL result / using Parameters
 
 You can add the result of an existing SQL block to your Python script using xref:parameters.adoc[⚙ Parameters]. First select "Add parameter" in the right sidebar and choose "Block" as the type. Name the parameter (e.g. df) and select the SQL block you want to use.
 
-image::python-add-parameter.png[]
+image::python-add-parameter.png[Add parameter]
 
-image::python-parameter-df.png[]
+image::python-parameter-df.png[Select Block for parameter]
 
 
 You can now reference `df` in your Python code:

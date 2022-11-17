@@ -21,7 +21,7 @@ video::FjS2Ok_Np48[youtube]
 
 . Within your Block, select the field under *Destination* and select *Block* as the type.
 +
-image:destination-blocks.png[]
+image:destination-blocks.png[Select Block as destination type]
 
 . Below *Type*, select *Block* and select the desired list block from the drop-down. You can filter the list by the block name. Your *List Block* must have the xref:blocks-as-a-destination.adoc#required-fields[required fields] for the destination type (see below).
 
@@ -46,11 +46,11 @@ NOTE: There is a 500 row limit on Destination Lists. If you need that limit remo
 
 * *Sheets* +
 You can use link:https://docs.google.com/spreadsheets/d/1nSYzQISbGrGfAKg6mKSOincTJVC_Ffxaest5pCu5mxs/edit?usp=sharing[this sheet,window=_blank] as a base, by creating a copy: +
-image:destination-blocks-sheet.png[]
+image:destination-blocks-sheet.png[Use Sheet example]
 
 ** type = sheets
 ** ss_id (long UUID from within the URL of a Sheet) +
-image:destination-blocks-uuid.png[]
+image:destination-blocks-uuid.png[Select UUID from Sheet URL]
 ** sheet
 ** append
 *** TRUE
@@ -101,7 +101,7 @@ limit 2
 
 . Select *Block* as the destination, *Loop thru rows* as the type, and the block you created <<create-block,above>> as the block.
 +
-image:destination-block.png[]
+image:destination-block.png[Select Block as destination]
 
 . Run the block and verify the results in your destination database.
 

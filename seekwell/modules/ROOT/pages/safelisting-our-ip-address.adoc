@@ -27,7 +27,7 @@ Here's an example on link:https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide
 
 video::b5KQ1v9uBn4[youtube]
 
-image:whitelist-aws.png[]
+image:whitelist-aws.png[Safelist AWS]
 ====
 
 [%collapsible]
@@ -44,11 +44,11 @@ First select *SQL* from the drop-down.
 Select your database and select the "Connections" tab.
 Select "Add network". Make sure you include "/32" after the IP address.
 
-image:whitelist-gc-sql.png[]
+image:whitelist-gc-sql.png[Safelist Google Cloud]
 
-image:google-cloud-sql.png[]
+image:google-cloud-sql.png[Select SQL]
 
-image:gcp-connectivity.png[]
+image:gcp-connectivity.png[Select Connections]
 ====
 
 [%collapsible]
@@ -57,13 +57,13 @@ image:gcp-connectivity.png[]
 Follow these steps to safelist IP addresses in Microsoft Azure:
 Go to your database details and select "Set server firewall".
 
-image:whitelist-microsoft-azure.png[]
+image:whitelist-microsoft-azure.png[Safelist Microsoft Azure]
 
 Add our IP addresses and select "Save".
 
-image:ms-whitelist.png[]
+image:ms-whitelist.png[Enter IP addresses]
 
-image:ms-firewall-setting.png[]
+image:ms-firewall-setting.png[Select Save]
 ====
 
 [%collapsible]
