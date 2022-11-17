@@ -20,7 +20,7 @@ Easily perform operations (create/update/delete) on objects (contacts, accounts,
 .. Object (for example, Contacts)
 .. Operation (for example, create)
 +
-image:destination-front.png[]
+image:destination-front.png[Add Front as destination]
 
 . Map your columns.
 
@@ -30,7 +30,7 @@ image:destination-front.png[]
 
 .. Select *Test Sync*. Your results appear in Front within a few seconds.
 +
-image:destination-front-test.png[]
+image:destination-front-test.png[Test Sync]
 
 .. (Optional) Set a schedule so your updates run automatically.
 

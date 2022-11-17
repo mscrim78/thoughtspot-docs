@@ -10,11 +10,11 @@
 
 . Within your block, select the current destination and choose *Manual* as the destination type.
 +
-image:destination-manual.png[]
+image:destination-manual.png[Select Manual as destination]
 
 . Update the JSON.
 +
-image:destination-manual-json.png[]
+image:destination-manual-json.png[Update JSON manually]
 
 == JSON example sheets
 
@@ -47,7 +47,7 @@ type::  The type of destination you are sending data to. Will likely be "sheets"
 
 ss_id:: The ID of the Google Spreadsheet you are sending data to. You can find it in the URL of the Spreadsheet.
 +
-image:destination-blocks-uuid.png[]
+image:destination-blocks-uuid.png[Find the Google Spreadsheet ID]
 
 sheet:: The name of the specific Sheet in your Spreadsheet that you want to send data to.
 

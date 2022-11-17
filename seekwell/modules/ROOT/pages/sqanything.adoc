@@ -102,11 +102,11 @@ SELECT [Column Name With Space] AS new_col_name FROM table_name
 When you have tables with misaligned headers and columns, try using `{headers:false}`. For example, in this url:
 link:https://en.wikipedia.org/wiki/Victory_Bowl[https://en.wikipedia.org/wiki/Victory_Bowl,window=_blank]
 
-image::sqanything-header.png[]
+image::sqanything-header.png[SQAnything header]
 
 There are fewer headers than columns. Setting the headers = false, results in gathering the correct data:
 
-image::sqanything-header-fix.png[]
+image::sqanything-header-fix.png[Set headers as false]
 
 [source]
 ----
@@ -170,7 +170,7 @@ select year,acquirer, company from google ) as a group by 1
 
 You have to do some string manipulation to extract the year from the acquisition date columns. If you run that query after replacing the table aliases, and then send the data to Google Sheets to chart, you should get a chart that looks something like below. From the chart, you can see that Yahoo's acquisitions have slowed down in the last few years; the company was acquired themselves by Verizon in 2017. Alphabet completed a total of 34 acquisitions in 2014, including DeepMind and Nest.
 
-image::sqanything-acquisition-chart.png[]
+image::sqanything-acquisition-chart.png[Yahoo and Google Acquisitions chart]
 
 === Querying Notion
 
@@ -310,7 +310,7 @@ where cast(ws.year as integer) = cast(sb.year as integer)
 
 You should see the result that three different cities had both a World Series victory and a Super Bowl victory in the same year: New York (Mets and Jets) in 1969, Boston (Red Sox and Patriots) in 2004, and Pittsburgh (Pirates and Steelers) in 1979.
 
-image::sqanything-city-victory.png[]
+image::sqanything-city-victory.png[SQAnything city and winner chart]
 
 === Which movies were Joaquin Phoenix and Amy Adams in together?
 
@@ -335,7 +335,7 @@ WHERE jp.title <> "TBA"
 
 Since those tables have offset columns for Year and Title, one solution is to check the "Year" column for digits, and if it doesn't have any then use "Year" instead of "Title" as the title. The reason this happens is that the "Year" column can span multiple rows, so the first row for each year moves all the columns over one. If you run that query, you should get the result that they were both in the movies *Her* and *The Master*.
 
-image::sqanything-film.png[]
+image::sqanything-film.png[SQAnything film query result]
 
 === Are Category 4 Hurricanes becoming more common?
 
@@ -350,4 +350,4 @@ group by Season
 
 You can send the results to Sheets by entering the Spreadsheet ID and Sheet name under "Destination". After you send that query to Sheets and chart the data, you should see a chart that looks like this:
 
-image::sqanything-hurricane.png[]
+image::sqanything-hurricane.png[Number of Category 4 Hurricanes per season chart]

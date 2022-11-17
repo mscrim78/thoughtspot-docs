@@ -25,19 +25,19 @@ To connect to *Snowflake* with *{seekwell}*, you need the following fields:
 
 To find these values in a Snowflake worksheet, first check the URL.
 
-image:snowflake-values.png[]
+image:snowflake-values.png[check Snowflake URL]
 
-In the URL, you will find your Account Name (`abcd1234` in our example) and your Region (`us-east-1`). If you do not see a region, it means you're in the default region of `us-west-1`.
+In the URL, you will find your Account Name (`abcd1234` in our example) and your Region (`us-east-1`). If you don't see a region, it means you're in the default region of `us-west-1`.
 
-image:snowflake-an-region.png[]
+image:snowflake-an-region.png[Account and Region fields in URL]
 
 You can find your Database and Warehouse by selecting the *Databases* and *Warehouses* icons.
 
-image:snowflake-db.png[]
+image:snowflake-db.png[Find Database and Warehouse]
 
 Your *Username* and *Role* can be found in the top right.
 
-image:snowflake-user-role.png[]
+image:snowflake-user-role.png[Find Username and Role]
 
 == Connect to Snowflake
 
@@ -49,7 +49,7 @@ image:snowflake-user-role.png[]
 
 . Select "Snowflake" under "Flavor".
 +
-image:snowflake-connect-sql.png[]
+image:snowflake-connect-sql.png[Select Snowflake as Flavor]
 
 . Fill out the remaining fields with the account information you found in the <<prerequisites,prerequisites>>.
 

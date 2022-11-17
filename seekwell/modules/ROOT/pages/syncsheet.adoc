@@ -28,23 +28,23 @@ where email = '{{email}}'
 
 . Add the form tag.
 +
-image:destination-sql-tags.png[]
+image:destination-sql-tags.png[SQL tags in SeekWell]
 
 . link:https://gsuite.google.com/marketplace/app/seekwell_postgres_mysql_snowflake_ms_sql/546600172375[Launch the addon,window=_blank].
 
 . Select the block created in <<step-1,step 1>> (you should see "Form" to the right of it).
 +
-image:new-sql-block.png[]
+image:new-sql-block.png[Select block created in Step 1]
 
 . Select "Set up a sync" under the Run button.
 +
-image:sql-set-up-sync.png[]
+image:sql-set-up-sync.png[Set up a sync]
 
 . Add the range that your data is in, for example, "Sheet1!A:G". You need to include the cell range using A1 notation. Your table in Sheets needs to have headers / column names.
 +
 NOTE: You can only have one sync per Sheet, but you can have multiple syncs in the same spreadsheet.
 +
-image:sql-sync.png[]
+image:sql-sync.png[Enter range under MySQL in A1 notation]
 
 . If the table in Sheets has different column names than your parameters, specify the names under each parameter name.
 
@@ -52,7 +52,7 @@ image:sql-sync.png[]
 
 You can now test your sync by updating a value in the Sheet and confirming the write back to your database. Please link:mailto:contact@seekwell.io[let us know] if you run into any issues with this.
 
-image:sql-sync-done.png[]
+image:sql-sync-done.png[Test sync]
 
 == Tips and tricks
 

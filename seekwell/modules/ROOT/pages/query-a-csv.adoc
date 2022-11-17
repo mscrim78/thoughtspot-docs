@@ -16,16 +16,16 @@ To query a CSV from Google Drive, follow these steps:
 
 . Within Google Drive, right-click on the file name and select *Share*.
 +
-image:google-drive-share.png[]
+image:google-drive-share.png[Share from Google Drive]
 
 . Change sharing permissions to *Anyone with the link can view*.
 +
-image:google-drive-link-view.png[]
+image:google-drive-link-view.png[Change sharing permissions]
 
 . Select *Get shareable link* in the top right.
 +
 [#shareable]
-image:google-drive-shareable-link.png[]
+image:google-drive-shareable-link.png[Get shareable link]
 
 . Add the table to your `SELECT` with `{{csv}}` (replace "csv" with a nickname for the source).
 
@@ -33,4 +33,4 @@ image:google-drive-shareable-link.png[]
 
 . Under *File URL*, add the URL from the <<shareable,step above>>.
 +
-image:sql-query-csv.png[]
+image:sql-query-csv.png[Add URL as File URL]

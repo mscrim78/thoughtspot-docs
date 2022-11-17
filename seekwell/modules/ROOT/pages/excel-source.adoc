@@ -12,13 +12,13 @@
 
 . Start a new SQL block and select *Sheets / CSV / Block* as the source.
 +
-image:sql-source-sheets.png[]
+image:sql-source-sheets.png[Select Sheets/CSV/Block as Source]
 
 . Add a Sheet to your `from` statement by typing `{{NAME}}`. Replace `NAME` with a one word short reference to the Sheet / table (for example, `select * from {{users}}`).
 
 . In the *Parameters* section, select *Excel* as the type.
 +
-image:sql-params-excel.png[]
+image:sql-params-excel.png[Select Excel under Parameters]
 
 . Select the spreadsheet from the drop-down. Since {seekwell} currently only supports `.xlsx` files, this drop-down displays all `.xlsx` files in your Google Drive.
 

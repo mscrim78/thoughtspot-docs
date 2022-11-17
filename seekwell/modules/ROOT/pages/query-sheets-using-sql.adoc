@@ -20,13 +20,13 @@ video::x2rQoJVmOus[youtube]
 
 . Select *Sheets / CSV / Block* as the source.
 +
-image:sql-source-sheets.png[]
+image:sql-source-sheets.png[Select Sheets/CSV/Block as source]
 
 . Add a Sheet to your `from` statement by typing `{{NAME}}`. Replace NAME with a one-word short reference to the Sheet or table (for example, `{{users}}`).
 
 . In the *Parameters* section, select *Value* and choose *Sheets* as the type.
 +
-image:sql-params.png[]
+image:sql-params.png[Select Sheets under Value]
 +
 NOTE: If your data starts in A1 and there is only one table in the sheet, you can use the Sheet name. Otherwise you need to specify the range for your table (e.g. `revenue!A:C`).
 

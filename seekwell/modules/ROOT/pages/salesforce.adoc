@@ -20,21 +20,21 @@ You can sync data from your database or warehouse to Salesforce with a simple SQ
 .. Object (for example, Account)
 .. Operation (for example, update)
 +
-image:destination-salesforce.png[]
+image:destination-salesforce.png[Select Salesforce as Destination]
 +
-image:destination-salesforce-object.png[]
+image:destination-salesforce-object.png[Select Salesforce object]
 
 . To the right of *Results*, select *Mapping*.
 +
-image:destination-salesforce-mapping.png[]
+image:destination-salesforce-mapping.png[Select Mapping]
 
 . In the Mapping UI, select columns from your query and map them to the fields in Salesforce you want to send them to.
 +
-image:destination-salesforce-test-sync.png[]
+image:destination-salesforce-test-sync.png[Map columns]
 
 . Once you've finished mapping all your columns to their corresponding fields in Salesforce, select *Test Sync* to ensure the sync is working. If the records have not updated, you can view your job statuses in Salesforce under menu:Setup[Bulk Data Load Jobs]. Select the *Job ID* and scroll down to view any errors. You can also view background job errors in the {seekwell} App's link:https://app.seekwell.io/feed[Feed,window=_blank].
 +
-image:bulk-data-load.png[]
+image:bulk-data-load.png[View job statuses in Salesforce]
 
 . Add a schedule under *Repeat* so your sync runs regularly and your Salesforce data is always up-to-date.
 

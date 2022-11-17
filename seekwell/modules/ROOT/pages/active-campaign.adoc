@@ -16,7 +16,7 @@
 
 . Search for Active Campaign and select *Add*.
 +
-image:destination-activecampaign.png[]
+image:destination-activecampaign.png[Add ActiveCampaign]
 
 . Find your API credentials at link:https://seekwell.activehosted.com/app/settings/developer[https://seekwell.activehosted.com/app/settings/developer,window=_blank].
 
@@ -30,7 +30,7 @@ image:destination-activecampaign.png[]
 
 . Under *Destination* on the right, select *Active Campaign*.
 +
-image:destination-activecampaign-select.png[]
+image:destination-activecampaign-select.png[Select ActiveCampaign as destination]
 
 . Fill the following fields:
 .. Object (for example, contacts)
@@ -42,6 +42,6 @@ image:destination-activecampaign-select.png[]
 
 .. Map the fields in *Source* and *Destination*.
 +
-image:destination-ac-mapping.png[]
+image:destination-ac-mapping.png[Map Source and Destination columns]
 
 . Select *Test Sync*. Your results appear in Active Campaign within a few seconds.

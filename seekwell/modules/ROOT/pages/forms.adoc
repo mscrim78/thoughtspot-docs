@@ -23,7 +23,7 @@ video::v6ms0pW2LpM[youtube]
 
 . Test the Form again with new inputs.
 +
-image:sql-demo-form.png[]
+image:sql-demo-form.png[Test the Form]
 +
 NOTE: Only admin users can see the SQL preview and edit the block.
 
@@ -35,8 +35,8 @@ NOTE: Only admin users can see the SQL preview and edit the block.
 
 You can require Form submissions to be approved by an admin on your team. When creating the Form, select "Requires approval" from the drop-down on the left. Admins can approve submission from the queue by changing the status to "Approved".
 
-image::requires-approval.png[]
-image::approval-pending.png[]
+image::requires-approval.png[Form requires approval]
+image::approval-pending.png[Approval pending]
 
 video::eZHCVj-F5rg[youtube]
 
@@ -46,11 +46,11 @@ If you use a "lookup" field in the form, the user will be prompted for that valu
 
 . Select "Add Lookup" under Parameters.
 +
-image:parameters-add-lookup.png[]
+image:parameters-add-lookup.png[Add Lookup under Parameters]
 
 . Select the field in the Form you want to use to look up values in the "Lookup Block".
 +
-image:lookup-values.png[]
+image:lookup-values.png[Select the field to use for look up values]
 
 . Select the field in the "Lookup Block".
 

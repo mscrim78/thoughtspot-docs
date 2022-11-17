@@ -30,7 +30,7 @@ date_trunc('week', {{column_name}})::date as "{{alias}}_week",
 date_trunc('month', {{column_name}})::date as "{{alias}}_month"
 ----
 
-image::snippets.png[]
+image::snippets.png[Created on date]
 
 Once you type `{{`, you'll see the variable added to "Defaults". Here you can add a commonly used value for the variable (for example, `created_on`).
 
@@ -42,7 +42,7 @@ TIP: Variables are optional, not adding variables will create a "static snippet"
 * To use a snippet from a block, hit kbd:[`command`] / kbd:[`control`] + kbd:[`;`] (semicolon).
 * To view / edit / delete your snippets, hit kbd:[`command`] / kbd:[`control`] + kbd:[`k`], and type "View snippet".
 +
-image:sql-snippets.png[]
+image:sql-snippets.png[View snippets]
 
 == Library
 

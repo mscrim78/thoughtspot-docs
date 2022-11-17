@@ -16,7 +16,7 @@ You can use {seekwell} to send query results, either from your database or a Goo
 
 . Within your block, select the current destination and choose *Email* from the drop-down.
 +
-image:destination-email.png[]
+image:destination-email.png[Select Email as destination]
 
 . Under *Send from*, enter your email address.
 
@@ -24,7 +24,7 @@ image:destination-email.png[]
 
 . Select *Emails (comma separated list)* to enter email addresses as a comma-separated list, and select *Save*.
 +
-image:destination-email-list.png[]
+image:destination-email-list.png[Enter emails as a comma-separated list]
 
 . To test that the email is sent, run the query again.
 

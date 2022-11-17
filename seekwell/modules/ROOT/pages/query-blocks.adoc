@@ -71,7 +71,7 @@ from
 
 . A new Parameters section appears in the right sidebar. Select *Block* as the type, then find the title of the block you want to use. If your block does not appear in the list, make sure the block is not untitled.
 +
-image:sql-params-block.png[]
+image:sql-params-block.png[Add Block as parameter]
 
 . Run the query. This query will only return the results of the prior block, but you can now start joining to other blocks and source types (for example, a Sheet or CSV). To join, make sure you give the block as `alias`.
 +

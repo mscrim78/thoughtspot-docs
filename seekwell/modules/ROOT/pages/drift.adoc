@@ -22,7 +22,7 @@ To set up Drift as a destination, follow these steps:
 
 .. After selecting *Drift* as the destination, select the *Mapping* option on the bottom of the page next to *Results*.
 +
-image:destination-drift-mapping.png[]
+image:destination-drift-mapping.png[Map SQL columns to Drift]
 
 .. Map the fields in *Source* and *Destination*.
 

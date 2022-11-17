@@ -22,13 +22,13 @@ Sync your data warehouse to link:http://customer.io/[Customer.IO,window=_blank] 
 
 .. Search for link:http://customer.io/[Customer.io,window=_blank] and select *Add*. Enter a name for your connection.
 +
-image:customerio-auth.png[]
+image:customerio-auth.png[Add customer.io]
 
 .. Find your Customer.io API credentials at link:https://fly.customer.io/settings/api_credentials[https://fly.customer.io/settings/api_credentials,window=_blank].
 
 ... *Site* and *API key* tokens are located under *Tracking API Keys*.
 +
-image:customerio-api-cred.png[]
+image:customerio-api-cred.png[Find Site and API key tokens]
 
 .. Select *App API Keys* in the header next to *Tracking API Keys*.
 
@@ -36,7 +36,7 @@ image:customerio-api-cred.png[]
 
 ... Use the App API key as the *Bearer* token.
 +
-image:customerio-app-api.png[]
+image:customerio-app-api.png[Select App API key as Bearer token]
 
 .. Navigate to the link:https://app.seekwell.io/[{seekwell} home page,window=_blank].
 
@@ -46,7 +46,7 @@ image:customerio-app-api.png[]
 
 . Under *Destination* on the right, select *Customerio*.
 +
-image:destination-customerio.png[]
+image:destination-customerio.png[Select customer.io as destination]
 
 . Fill the following fields:
 .. Object (for example, segments)

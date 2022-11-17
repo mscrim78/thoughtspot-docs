@@ -18,19 +18,19 @@ Use {seekwell} to send real-time alerts like metrics or user data to MS Teams.
 
 . Select the current destination (Sheets, by default) and choose *MS Teams* from the drop-down.
 +
-image:destination-ms-teams.png[]
+image:destination-ms-teams.png[Select MS Teams as destination]
 
 . Select the *Team* and *Channel*.
 +
-image:destination-ms-teams-channel.png[]
+image:destination-ms-teams-channel.png[Select Team and Channel]
 
 . Write your SQL query.
 
 .. {seekwell} will use the title of the blocks for the alert in Microsoft Teams. If no title is specified in {seekwell}, the alert will send using "{seekwell} Alert" as the title in Microsoft Teams.
 +
-image:destination-ms-teams-sample.png[]
+image:destination-ms-teams-sample.png[Title Sample Block]
 +
-image:destination-ms-teams-sample-block.png[]
+image:destination-ms-teams-sample-block.png[Title appears in MS Teams]
 
 . Set up a schedule to send updates to your teams.
 

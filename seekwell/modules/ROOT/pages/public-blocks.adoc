@@ -10,10 +10,10 @@
 
 You can share blocks publicly by selecting the "Share" icon in the top right of a block.
 
-image::share-block.png[]
+image::share-block.png[Share a block]
 
 Control access by selecting *Share block with teammate*, *Share table publicly*, or *Share chart publicly*.
 
 You can also revoke sharing by selecting *Revoke public access*.
 
-image::block-revoke-share.png[]
+image::block-revoke-share.png[Revoke sharing]
