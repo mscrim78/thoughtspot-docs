@@ -8,7 +8,7 @@
 
 // More
 
-Google Apps Script is a powerful tool for extending the functionality of Google Sheets. You can use Apps Script with the link:https://doc.seekwell.io/seekwell-api[{seekwell} API,window=_blank] to create features right in Sheets, such as a "Refresh Data" button that triggers a query to send data to your Sheet.
+Google Apps Script is a powerful tool for extending the functionality of Google Sheets. You can use Apps Script with the xref:seekwell-api.adoc[{seekwell} API] to create features right in Sheets, such as a "Refresh Data" button that triggers a query to send data to your Sheet.
 
 NOTE: If you're new to Apps Script be sure to check out link:https://developers.google.com/apps-script/[Google's documentation,window=_blank] on it.
 
