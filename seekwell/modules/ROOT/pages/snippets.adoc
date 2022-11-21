@@ -52,7 +52,7 @@ image:sql-snippets.png[View snippets]
 |===
 | Name | Tags | SQL
 
-a| link:https://doc.seekwell.io/addsubselect[addSubSelect,window=_blank] |
+a| addSubSelect |
 `ansi` a|
 
 [source]
@@ -65,16 +65,28 @@ from
 group by 1) as max_{{table}}
 ----
 
-a| link:https://doc.seekwell.io/snippets/dayweekmonth[dayWeekMonth,window=_blank] | `postgres` a| `date_trunc('day', {{column_name}})::date::text as "{{alias}}_day",
+a| dayWeekMonth | `postgres` a|
+[source]
+----
+date_trunc('day', {{column_name}})::date::text as "{{alias}}_day",
 date_trunc('week', {{column_name}})::date::text as "{{alias}}_week",
-date_trunc('month', {{column_name}})::date::text as "{{alias}}_month"`
+date_trunc('month', {{column_name}})::date::text as "{{alias}}_month"
+----
 
-a| link:https://doc.seekwell.io/snippets/addwith[addWith,window=_blank] | `postgres` a| `with {{alias}} as (
+a| addWith | `postgres` a|
+[source]
+----
+with {{alias}} as (
 select
 from {{table_name}}
-)`
+)
+----
 
-| Days between two dates | `postgres` a| `now()::date - some_date::date`
+| Days between two dates | `postgres` a|
+[source]
+----
+now()::date - some_date::date
+----
 |===
 
 Suggest a snippet link:mailto:contact@seekwell.io[here].
