@@ -15,6 +15,10 @@
     vertical-align: 1px;
 }
 
+.doc-snippet h3 {
+    margin-left: 10px !important;
+    margin-top: 1px !important;
+}
 </style>
 
 <div class="accordion-container">
