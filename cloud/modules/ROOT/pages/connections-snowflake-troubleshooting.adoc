@@ -22,6 +22,14 @@
     margin-left: 10px !important;
     margin-top: 1px !important;
 }
+
+doc-snippet h3:not(.discrete) {
+    font-size: 15px !important;
+}
+
+li {
+    font-size: 14.5px !important;
+}
 </style>
 
 <div class="accordion-container">
