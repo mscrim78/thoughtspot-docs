@@ -79,7 +79,7 @@
 </ul>
 <h3>Recommended action(s)</h3>
  <ul>
-  <li>Verify your Snowflake account name and re-enter it.</li>
+  <li>Verify the Snowflake account name is correct and re-enter it.</li>
   <li>Contact your Snowflake administrator.
 </li>
 </ul>
@@ -99,8 +99,8 @@
 </ul>
 <h3>Recommended action(s)</h3>
  <ul>
-  <li>Verify the correct username, role and re-enter it.</li>
-  <li>Verify the user and role having permission to access the database, schema and table in Snowflake.
+  <li>Verify the username and role are correct, then re-enter them.</li>
+  <li>Verify the user and role have permission to access the database, schema, and table in Snowflake.
 </li>
 </ul>
 </p>
