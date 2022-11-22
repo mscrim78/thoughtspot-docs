@@ -36,9 +36,9 @@
   <li>Network connectivity to the cluster was unstable.</li></ul>
 <h3>Recommended action(s)</h3>
  <ul>
-  <li>Verify that you have the correct username and password for your Snowflake data warehouse.</li>
+  <li>Verify you have the correct username and password for your Snowflake data warehouse.</li>
   <li>Make sure you have a stable network connection to your cluster.</li>
-<li>Contact the administrator for your Snowflake data warehouse.</li></ul>
+<li>Contact your Snowflake administrator.</li></ul>
 
 </p>
     </div>
@@ -52,13 +52,13 @@
       <p class="ac-text"><h3>Possible causes</h3>
 <ul>
   <li>Network connectivity to Snowflake was unstable.</li>
-  <li>The Snowflake data warehouse is offline.</li>
+  <li>Your Snowflake data warehouse is offline.</li>
 <li>Connection reset.</li>
 </ul>
 <h3>Recommended action(s)</h3>
  <ul>
   <li>Make sure you have a stable network connection to Snowflake.</li>
-  <li>Contact your Snowflake administrator for assistance.
+  <li>Contact your Snowflake administrator.
 </li>
 <li>Contact <a href="https://www.snowflake.com/support/" target="_blank">Snowflake support</a>.
 </li></ul>
@@ -80,7 +80,7 @@
 <h3>Recommended action(s)</h3>
  <ul>
   <li>Verify your Snowflake account name and re-enter it.</li>
-  <li>Contact Snowflake administrator.
+  <li>Contact your Snowflake administrator.
 </li>
 </ul>
 </p>
