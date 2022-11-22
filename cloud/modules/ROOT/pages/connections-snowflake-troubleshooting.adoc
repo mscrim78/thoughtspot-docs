@@ -20,7 +20,7 @@
 <div class="accordion-container">
   <div class="ac">
     <h2 class="ac-header">
-      <button type="button" class="ac-trigger">Connection username or password incorrect.</button>
+      <button type="button" class="ac-trigger">Connection username or password incorrect</button>
     </h2>
     <div class="ac-panel">
       <p class="ac-text"><h3>Possible causes</h3>
@@ -121,7 +121,7 @@ Connection to Snowflake could not be established. Role <role> specified in the c
 </ul></p>
 </div>
 </div>
-    
+
 
 
 
