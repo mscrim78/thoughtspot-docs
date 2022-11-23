@@ -18,13 +18,13 @@
     color: black !important;
 }
 
-.doc-snippet h3 {
+.doc-snippet h3a {
     margin-left: 10px !important;
     margin-top: 1px !important;
 }
 
-doc-snippet h3:not(.discrete) {
-    font-size: 15px !important;
+doc-snippet h3-a:not(.discrete) {
+    font-size: 25px !important;
 }
 
 li {
@@ -38,11 +38,11 @@ li {
       <button type="button" class="ac-trigger">Connection username or password incorrect</button>
     </h2>
     <div class="ac-panel">
-      <p class="ac-text"><h3>Possible causes</h3>
+      <p class="ac-text"><h3a>Possible causes</h3a>
  <ul>
   <li>Wrong username or password was entered.</li>
   <li>Network connectivity to the cluster was unstable.</li></ul>
-<h3>Recommended action(s)</h3>
+<h3a>Recommended action(s)</h3a>
  <ul>
   <li>Verify you have the correct username and password for your Snowflake data warehouse.</li>
   <li>Make sure you have a stable network connection to your cluster.</li>
