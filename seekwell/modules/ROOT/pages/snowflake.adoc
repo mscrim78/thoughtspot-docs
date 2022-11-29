@@ -43,7 +43,7 @@ DESCRIBE integration seekwell;
 
 == Create `seekwell` function
 
-NOTE: Open the link:https://app.seekwell.io/[web app,window=_blank] and hit `command` / `control` + `k`, then type “API” to generate an API key.
+NOTE: Open the link:https://app.seekwell.io/[web app,window=_blank] and select kbd:[command] / kbd:[control] + kbd:[k], then type “API” to generate an API key.
 
 [source]
 ----

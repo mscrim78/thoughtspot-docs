@@ -18,7 +18,7 @@ You can write a story like the following:
 
 image:stories-gif.gif[]
 
-Hitting kbd:[`=`] allows you to access all your SQL results and add them to the Story. The output is rendered below the editor as you type. You can format the Story (using H1, H2, bold, for example) and add HTML and JavaScript snippets.
+Selecting kbd:[=] allows you to access all your SQL results and add them to the Story. The output is rendered below the editor as you type. You can format the Story (using H1, H2, bold, for example) and add HTML and JavaScript snippets.
 
 Stories are useful for short regular updates (for example, daily metrics) or alerts (for example, a canceled subscription). Stories can be shared via email, Slack, or in {seekwell} Dashboards. Get started link:https://app.seekwell.io[here,window=_blank].
 

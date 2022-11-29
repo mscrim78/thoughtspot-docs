@@ -131,7 +131,7 @@ function onOpen() {
 }
 ----
 
-Now whenever you hit "Refresh Data", the data from your query will get sent to your "data" Sheet according to the date interval you specified in the "input" Sheet.
+Now whenever you select "Refresh Data", the data from your query will get sent to your "data" Sheet according to the date interval you specified in the "input" Sheet.
 
 == Getting creative with Apps Script
 
