@@ -3,4 +3,4 @@
 :page-noindex:
 :connection: Databricks
 
-include::partial$connections-no-connection.adoc[]
+include::partial$connections-databricks-no-connection.adoc[]

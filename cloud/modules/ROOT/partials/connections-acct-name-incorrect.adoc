@@ -3,6 +3,7 @@ Connection account name incorrect.
 
 === Possible cause(s)
 - Connection account name was mistyped.
+- Wrong account name was entered.
 - Connection account name was changed in the cloud data warehouse.
 
 === Recommended action(s)

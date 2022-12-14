@@ -3,4 +3,4 @@
 :page-noindex:
 :connection: Redshift
 
-include::partial$connections-no-connection.adoc[]
+include::partial$connections-redshift-no-connection.adoc[]
