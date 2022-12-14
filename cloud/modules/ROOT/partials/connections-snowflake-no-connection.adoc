@@ -8,4 +8,4 @@
 === Recommended action(s)
 - Make sure you have a stable network connection to {connection}.
 - Contact your {connection} administrator for assistance.
-- Contact https://www.snowflake.com/support/[Snowflake support].
+- Contact https://www.snowflake.com/support/[Snowflake support^].
