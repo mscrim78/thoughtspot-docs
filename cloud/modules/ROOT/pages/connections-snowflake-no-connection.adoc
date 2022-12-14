@@ -3,4 +3,4 @@
 :page-noindex:
 :connection: Snowflake
 
-include::partial$connections-no-connection.adoc[]
+include::partial$connections-snowflake-no-connection.adoc[]
