@@ -25,3 +25,9 @@ Password::  Enter the password associated with the user account of the Teradata 
 Database::
 Enter the database name associated with the Teradata database.
 _(Optional)_
+
+'''
+> **Related information**
+>
+> * xref:embrace-teradata-add.adoc[Add a connection]
+> * xref:embrace-teradata-modify.adoc[Modify a connection]

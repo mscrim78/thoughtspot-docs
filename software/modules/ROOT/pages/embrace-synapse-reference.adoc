@@ -23,3 +23,9 @@ User::  Enter the Synapse account username.
 Password::  Enter the Synapse account password.
 [#embrace-synapse-ref-database]
 Database::  Specify the database associated with the account.
+
+'''
+> **Related information**
+>
+> * xref:embrace-synapse-add.adoc[Add a connection]
+> * xref:embrace-synapse-modify.adoc[Modify a connection]

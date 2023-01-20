@@ -142,3 +142,10 @@ image::embrace-delete-table-depend.png[]
 . If the "Cannot delete" warning appears, click the link for each object to delete it, and then click *Ok*.
 Otherwise, go to the next step.
 . When all its dependencies are removed, delete the connection by clicking *Delete*, and then click again *Delete* to confirm.
+
+'''
+> **Related information**
+>
+> * xref:embrace-redshift-add.adoc[]
+> * xref:embrace-redshift-best.adoc[]
+> * xref:embrace-redshift-reference.adoc[]
