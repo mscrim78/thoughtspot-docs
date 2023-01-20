@@ -138,3 +138,9 @@ image::embrace-delete-table-depend.png[]
 +
 Otherwise, go to the next step.
 . When all its dependencies are removed, delete the connection by clicking *Delete*, and then click *Delete* again to confirm.
+
+'''
+> **Related information**
+>
+> * xref:embrace-hana-add.adoc[Add a connection]
+> * xref:embrace-hana-reference.adoc[Reference]

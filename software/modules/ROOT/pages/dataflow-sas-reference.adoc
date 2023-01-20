@@ -72,3 +72,9 @@ Valid Values:;; Any ASCII character
 Default:;; \"
 [#dataflow-sas-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-sas-add.adoc[Add a connection]
+> * xref:dataflow-sas-sync.adoc[Sync data]

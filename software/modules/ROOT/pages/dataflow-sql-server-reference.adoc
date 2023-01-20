@@ -77,3 +77,9 @@ Valid Values:;; Any ASCII character
 Default:;; \"
 [#dataflow-sql-server-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-sql-server-add.adoc[Add a connection]
+> * xref:dataflow-sql-server-sync.adoc[Sync data]
