@@ -27,3 +27,9 @@ xref:dataflow-databricks-delta-lake-reference.adoc#dataflow-databricks-delta-lak
 xref:dataflow-databricks-delta-lake-reference.adoc#dataflow-databricks-delta-lake-conn-dbfs-stage-location[DBFS stage location]:: Specify the mount storage object location
 
 . Click *Create connection*.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-databricks-delta-lake-sync.adoc[Sync data]
+> * xref:dataflow-databricks-delta-lake-reference.adoc[Reference]

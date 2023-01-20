@@ -104,3 +104,9 @@ Valid Values:;; Any numeric value
 Default:;; 1000
 [#dataflow-teradata-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-teradata-add.adoc[Add a connection]
+> * xref:dataflow-teradata-sync.adoc[Sync data]

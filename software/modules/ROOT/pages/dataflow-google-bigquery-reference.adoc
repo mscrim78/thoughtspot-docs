@@ -93,3 +93,9 @@ Valid Values:;; TRUE
 Default:;; FALSE
 [#dataflow-google-bigquery-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-google-bigquery-add.adoc[Add a connection]
+> * xref:dataflow-google-bigquery-sync.adoc[Sync data]

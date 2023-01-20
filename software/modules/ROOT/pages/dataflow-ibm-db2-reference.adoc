@@ -95,3 +95,9 @@ Valid Values:;; Any numeric value
 Default:;; 1000
 [#dataflow-ibm-db2-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-ibm-db2-add.adoc[Add a connection]
+> * xref:dataflow-ibm-db2-sync.adoc[Sync data]

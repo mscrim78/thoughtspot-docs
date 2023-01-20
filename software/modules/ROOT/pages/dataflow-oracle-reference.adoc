@@ -104,3 +104,9 @@ Valid Values:;; Any numeric value
 Default:;; 1000
 [#dataflow-oracle-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-oracle-add.adoc[Add a connection]
+> * xref:dataflow-oracle-sync.adoc[Sync data]

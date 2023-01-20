@@ -18,3 +18,11 @@ _(Optional)_
 Project id::  Enter the project ID associated with the BigQuery database.
 [#embrace-gbq-ref-service-account]
 Service account::  Enter the service account JSON key associated with the BigQuery database. To generate the key, refer to xref:embrace-gbq-prerequisites.adoc#service-account[Google BigQuery prerequisites].
+
+'''
+> **Related information**
+>
+> * xref:embrace-gbq-prerequisites.adoc[Prerequisites]
+> * xref:embrace-gbq-add.adoc[Add a connection]
+> * xref:embrace-gbq-modify.adoc[Modify a connection]
+

@@ -25,3 +25,10 @@ User::  Enter the Redshift account username.
 Password::  Enter the Redshift account password.
 [#embrace-redshift-ref-databse]
 Database::  Specify the database associated with the account.
+
+'''
+> **Related information**
+>
+> * xref:embrace-redshift-add.adoc[Add a connection]
+> * xref:embrace-redshift-modify.adoc[Modify a Redshift connection]
+> * xref:embrace-redshift-best.adoc[]
