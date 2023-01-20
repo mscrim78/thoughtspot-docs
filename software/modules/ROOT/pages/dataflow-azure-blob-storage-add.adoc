@@ -28,3 +28,9 @@ xref:dataflow-azure-blob-storage-reference.adoc#dataflow-azure-blob-storage-conn
 xref:dataflow-azure-blob-storage-reference.adoc#dataflow-azure-blob-storage-conn-folder[Folder]:: Give the storage folder details. Displayed only when "Storage type" is "Datalake GEN2 Storage".
 
 . Click *Create connection*.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-azure-blob-storage-sync.adoc[Sync data]
+> * xref:dataflow-azure-blob-storage-reference.adoc[Reference]

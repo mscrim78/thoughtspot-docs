@@ -67,3 +67,9 @@ Default:;; 1000
 include::partial$dataflow/max-ignored-rows.adoc[]
 [#dataflow-mariadb-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-mariadb-add.adoc[Add a connection]
+> * xref:dataflow-mariadb-sync.adoc[Sync data]

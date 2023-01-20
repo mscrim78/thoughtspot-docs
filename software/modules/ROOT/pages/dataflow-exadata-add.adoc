@@ -40,3 +40,4 @@ Specify the options associated with the JDBC URL.
 > **Related information**
 >
 > * xref:dataflow-exadata-reference.adoc#connection-properties[DataFlow Exadata connection properties]
+> * xref:dataflow-exadata-sync.adoc[]

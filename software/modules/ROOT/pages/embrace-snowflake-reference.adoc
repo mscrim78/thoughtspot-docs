@@ -37,3 +37,11 @@ _(Optional)_
 OAuth:: Enter the OAuth client ID associated with the Snowflake database.
 [#embrace-snowflake-ref-oauth-client-secret]
 OAuth client secret:: Enter the OAuth client secret associated with the Snowflake database.
+
+'''
+> **Related information**
+>
+> * xref:embrace-snowflake-add.adoc[]
+> * xref:embrace-snowflake-modify.adoc[]
+> * xref:embrace-snowflake-best.adoc[]
+> * xref:embrace-snowflake-partner.adoc[Partner Connect], with an accompanying xref:embrace-snowflake-tutorial.adoc[Tutorial]

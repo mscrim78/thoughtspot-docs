@@ -33,3 +33,9 @@ xref:dataflow-mysql-reference.adoc#dataflow-mysql-conn-version[Version]:: Specif
 xref:dataflow-mysql-reference.adoc#dataflow-mysql-conn-jdbc-options[JDBC options]:: Specify the options associated with the JDBC URL.
 
 . Click *Create connection*.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-mysql-sync.adoc[Sync data]
+> * xref:dataflow-mysql-reference.adoc[Reference]

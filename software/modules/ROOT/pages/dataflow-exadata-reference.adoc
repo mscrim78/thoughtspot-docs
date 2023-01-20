@@ -142,6 +142,9 @@ Example:;; :
 Valid Values:;; Any printable ASCII character
 Default:;; :
 
-== Related Information
-
-xref:dataflow-tips.adoc[Dataflow tips]
+'''
+> **Related information**
+>
+> * xref:dataflow-exadata-add.adoc[Add a connection]
+> * xref:dataflow-exadata-sync.adoc[Sync data]
+> * xref:dataflow-tips.adoc[Dataflow tips]

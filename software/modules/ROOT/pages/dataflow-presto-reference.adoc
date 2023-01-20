@@ -96,3 +96,9 @@ Valid Values:;; Any ASCII character
 include::partial$dataflow/max-ignored-rows.adoc[]
 [#dataflow-presto-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-presto-add.adoc[Add a connection]
+> * xref:dataflow-presto-sync.adoc[Sync data]

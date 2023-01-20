@@ -24,3 +24,9 @@ xref:dataflow-salesforce-reference.adoc#dataflow-salesforce-conn-password[Passwo
 xref:dataflow-salesforce-reference.adoc#dataflow-salesforce-conn-use-sandbox[Use sandbox]:: Specify if connecting to copy of a production environment.
 
 . Click *Create connection*.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-salesforce-sync.adoc[Sync data]
+> * xref:dataflow-salesforce-reference.adoc[Reference]

@@ -67,3 +67,5 @@ You can play the video, which shows you the entire workflow of using Embrace to 
 > * xref:embrace.adoc[Embrace overview]
 > * xref:embrace-snowflake-add.adoc[Add a Snowflake connection]
 > * xref:embrace-snowflake-modify.adoc[Modify a Snowflake connection]
+> * xref:embrace-snowflake-best.adoc[]
+> * xref:embrace-snowflake-reference.adoc[]

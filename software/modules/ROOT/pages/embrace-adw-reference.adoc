@@ -23,3 +23,9 @@ Wallet file:: Upload the wallet file containing your Oracle client credentials. 
 [#embrace-adw-ref-schema]
 Schema:: Specify the schema associated with the database.
 _Optional field_.
+
+'''
+> **Related information**
+>
+> * xref:embrace-adw-add.adoc[]
+> * xref:embrace-adw-modify.adoc[Modify an ADW connection]

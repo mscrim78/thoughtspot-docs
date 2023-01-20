@@ -233,3 +233,11 @@ If you cannot find your **Full account name** in Snowflake, see the following ex
 === Example accounts for connecting, by platform and region
 
 See https://docs.snowflake.com/en/user-guide/admin-account-identifier.html#account-identifier-formats-by-cloud-platform-and-region[Account Identifier Formats by Cloud Platform and Region, window=_blank] in Snowflake's documentation.
+
+'''
+> **Related information**
+>
+> * xref:embrace-snowflake-add.adoc[]
+> * xref:embrace-snowflake-modify.adoc[]
+> * xref:embrace-snowflake-reference.adoc[]
+> * xref:embrace-snowflake-partner.adoc[Partner Connect], with an accompanying xref:embrace-snowflake-tutorial.adoc[Tutorial]
