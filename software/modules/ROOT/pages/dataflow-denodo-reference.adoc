@@ -56,3 +56,9 @@ Valid Values:;; Any ASCII character
 Default:;; \"
 [#dataflow-denodo-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-denodo-add.adoc[Add a connection]
+> * xref:dataflow-denodo-sync.adoc[Sync data]

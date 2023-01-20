@@ -226,3 +226,9 @@ Default:;;
 ----
 [#dataflow-cassandra-sync-ts-load-options]
 include::partial$dataflow/ts-load-options.adoc[]
+
+'''
+> **Related information**
+>
+> * xref:dataflow-cassandra-add.adoc[Add a connection]
+> * xref:dataflow-cassandra-sync.adoc[Sync data]
