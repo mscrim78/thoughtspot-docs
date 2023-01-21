@@ -246,3 +246,9 @@ Optional field.
 *Valid Values:*
 +
 --user "dbuser" --password "$DIWD" --target_database "ditest" --target_schema "falcon_schema"
+
+'''
+> **Related information**
+>
+> * xref:dataflow-presto-add.adoc[Add a connection]
+> * xref:dataflow-presto-sync.adoc[Sync data]

@@ -180,4 +180,10 @@ Optional field.
 +
 --null_value "" --escape_character "" --max_ignored_rows 0 *Default:*
 +
---max_ignored_rows 0+++</dlentry>+++
+--max_ignored_rows 0
+
+'''
+> **Related information**
+>
+> * xref:dataflow-mysql-add.adoc[Add a connection]
+> * xref:dataflow-mysql-sync.adoc[Sync data]

@@ -27,3 +27,9 @@ Specify if connecting to copy of a production environment.
 +
 See xref:dataflow-salesforce-reference.adoc#connection-properties[Connection properties] for details, defaults, and examples.
 . Click *Create connection*.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-salesforce-sync.adoc[Sync data]
+> * xref:dataflow-salesforce-reference.adoc[Reference]

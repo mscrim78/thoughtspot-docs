@@ -126,3 +126,10 @@ Optional field.
 *Valid values:* `--null_value ""` `--escape_character ""` `--max_ignored_rows 0`
 +
 *Default:* `--max_ignored_rows 0`
+
+'''
+> **Related information**
+>
+> * xref:dataflow-amazon-aurora-add.adoc[Add a connection]
+> * xref:dataflow-amazon-aurora-sync.adoc[Sync data]
+

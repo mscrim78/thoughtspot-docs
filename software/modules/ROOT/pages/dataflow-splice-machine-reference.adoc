@@ -245,3 +245,9 @@ Optional field.
 *Default:*
 +
 --max_ignored_rows 0
+
+'''
+> **Related information**
+>
+> * xref:dataflow-splice-machine-add.adoc[Add a connection]
+> * xref:dataflow-splice-machine-sync.adoc[Sync data]

@@ -19,3 +19,12 @@ Password:: Enter the Snowflake account password.
 Role:: Specify the privilege of the user.
 Warehouse:: Specify the warehouse associated with the connection.
 Database:: Specify the database associated with the account. _(Optional)_
+
+'''
+> **Related information**
+>
+> * xref:embrace-snowflake-add.adoc[Add a connection]
+> * xref:embrace-snowflake-modify.adoc[Modify a connection]
+> * xref:embrace-snowflake-best.adoc[Best practices]
+> * xref:embrace-snowflake-partner.adoc[Partner Connect]
+> * xref:embrace-snowflake-tutorial.adoc[Tutorial]

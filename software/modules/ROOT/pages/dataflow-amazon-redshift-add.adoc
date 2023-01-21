@@ -37,3 +37,9 @@ Specify the options associated with the JDBC URL.
 +
 See xref:dataflow-amazon-redshift-reference.adoc#connection-properties[Connection properties] for details, defaults, and examples.
 . Click *Create connection*.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-amazon-redshift-sync.adoc[Sync data]
+> * xref:dataflow-amazon-redshift-reference.adoc[Reference]

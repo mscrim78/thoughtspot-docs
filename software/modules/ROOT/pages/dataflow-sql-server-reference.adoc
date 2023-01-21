@@ -214,3 +214,9 @@ Optional field.
 *Default:*
 +
 --max_ignored_rows 0
+
+'''
+> **Related information**
+>
+> * xref:dataflow-sql-server-add.adoc[Add a connection]
+> * xref:dataflow-sql-server-sync.adoc[Sync data]

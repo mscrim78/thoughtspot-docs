@@ -30,3 +30,9 @@ See xref:dataflow-sql-server-reference.adoc#sync-properties[Sync properties] for
 . Save your work by clicking *Save*.
 +
 Alternatively, click *Save and sync now* to save your work and sync data at the same time.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-sql-server-add.adoc[Add a connection]
+> * xref:dataflow-sql-server-reference.adoc[Reference]

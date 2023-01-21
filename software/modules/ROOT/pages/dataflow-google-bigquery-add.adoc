@@ -42,3 +42,9 @@ Specify the options associated with the JDBC URL.
 See xref:dataflow-google-bigquery-reference.adoc#connection-properties[Connection properties] for details, defaults, and examples.
 
 . Click *Create connection*.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-google-bigquery-sync.adoc[Sync data]
+> * xref:dataflow-google-bigquery-reference.adoc[Reference]

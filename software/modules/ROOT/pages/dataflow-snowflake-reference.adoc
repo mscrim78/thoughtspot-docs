@@ -335,3 +335,9 @@ Optional field.
 *Default:*
 +
 `--max_ignored_rows 0`
+
+'''
+> **Related information**
+>
+> * xref:dataflow-snowflake-add.adoc[Add a connection]
+> * xref:dataflow-snowflake-sync.adoc[Sync data]

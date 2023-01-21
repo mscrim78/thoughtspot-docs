@@ -153,3 +153,9 @@ Optional field.
 *Default:*
 +
 --max_ignored_rows 0
+
+'''
+> **Related information**
+>
+> * xref:dataflow-salesforce-add.adoc[Add a connection]
+> * xref:dataflow-salesforce-sync.adoc[Sync data]

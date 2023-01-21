@@ -180,3 +180,9 @@ Optional field.
 *Default:*
 +
 --max_ignored_rows 0
+
+'''
+> **Related information**
+>
+> * xref:dataflow-mariadb-add.adoc[Add a connection]
+> * xref:dataflow-mariadb-sync.adoc[Sync data]

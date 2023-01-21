@@ -201,3 +201,10 @@ Optional field.
 *Default:*
 +
 --max_ignored_rows 0
+
+
+'''
+> **Related information**
+>
+> * xref:dataflow-netezza-add.adoc[Add a connection]
+> * xref:dataflow-netezza-sync.adoc[Sync data]
