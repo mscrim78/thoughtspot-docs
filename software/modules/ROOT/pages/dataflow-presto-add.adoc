@@ -61,3 +61,9 @@ Specify the options associated with the JDBC URL.
 +
 See xref:dataflow-presto-reference.adoc#connection-properties[Connection properties] for details, defaults, and examples.
 . Click *Create connection*.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-presto-sync.adoc[Sync data]
+> * xref:dataflow-presto-reference.adoc[Reference]

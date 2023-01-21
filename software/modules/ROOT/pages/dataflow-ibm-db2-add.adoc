@@ -51,3 +51,9 @@ Specify the options associated with the JDBC URL.
 +
 See xref:dataflow-ibm-db2-reference.adoc#connection-properties[Connection properties] for details, defaults, and examples.
 . Click *Create connection*.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-ibm-db2-sync.adoc[Sync data]
+> * xref:dataflow-ibm-db2-reference.adoc[Reference]

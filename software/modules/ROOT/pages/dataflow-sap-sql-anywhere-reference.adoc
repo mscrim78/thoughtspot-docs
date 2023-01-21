@@ -181,3 +181,9 @@ Optional field.
 *Default:*
 +
 --max_ignored_rows 0
+
+'''
+> **Related information**
+>
+> * xref:dataflow-sap-sql-anywhere-add.adoc[Add a connection]
+> * xref:dataflow-sap-sql-anywhere-sync.adoc[Sync data]

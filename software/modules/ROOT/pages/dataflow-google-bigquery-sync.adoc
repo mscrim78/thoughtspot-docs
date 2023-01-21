@@ -31,3 +31,9 @@ See xref:dataflow-google-bigquery-reference.adoc#sync-properties[Sync properties
 . Save your work by clicking *Save*.
 +
 Alternatively, click *Save and sync now* to save your work and sync data at the same time.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-google-bigquery-add.adoc[Add a connection]
+> * xref:dataflow-google-bigquery-reference.adoc[Reference]

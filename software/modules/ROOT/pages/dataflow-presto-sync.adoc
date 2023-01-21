@@ -27,3 +27,9 @@ See xref:dataflow-presto-reference.adoc#sync-properties[Sync properties] for det
 . Save your work by clicking *Save*.
 +
 Alternatively, click *Save and sync now* to save your work and sync data at the same time.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-presto-add.adoc[Add a connection]
+> * xref:dataflow-presto-reference.adoc[Reference]

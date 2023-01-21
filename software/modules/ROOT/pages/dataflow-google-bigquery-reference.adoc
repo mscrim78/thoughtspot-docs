@@ -168,3 +168,9 @@ Optional field.
 *Valid values:* --null_value "" --escape_character "" --max_ignored_rows 0
 +
 *Default:* --max_ignored_rows 0
+
+'''
+> **Related information**
+>
+> * xref:dataflow-google-bigquery-add.adoc[Add a connection]
+> * xref:dataflow-google-bigquery-sync.adoc[Sync data]

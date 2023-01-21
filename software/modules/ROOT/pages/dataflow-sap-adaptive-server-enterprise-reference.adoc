@@ -178,3 +178,10 @@ Optional field.
 *Default:*
 +
 --max_ignored_rows 0
+
+'''
+> **Related information**
+>
+> * xref:dataflow-sap-adaptive-server-enterprise-add.adoc[Add a connection]
+> * xref:dataflow-sap-adaptive-server-enterprise-sync.adoc[Sync data]
+

@@ -489,3 +489,9 @@ true_false, T_F, 1_0, T_NULL
 *Default:*
 +
 true_false
+
+'''
+> **Related information**
+>
+> * xref:dataflow-files-add.adoc[Add a connection]
+> * xref:dataflow-files-sync.adoc[Sync data]

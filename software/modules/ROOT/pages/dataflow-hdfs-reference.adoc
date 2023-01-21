@@ -465,3 +465,10 @@ Optional field.
 *Default:*
 +
 `--max_ignored_rows 0`
+
+
+'''
+> **Related information**
+>
+> * xref:dataflow-hdfs-add.adoc[Add a connection]
+> * xref:dataflow-hdfs-sync.adoc[Sync data]

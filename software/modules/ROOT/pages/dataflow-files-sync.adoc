@@ -71,3 +71,9 @@ Specifies the representation of data in the boolean field.
 See xref:dataflow-files-reference.adoc#sync-properties[Sync properties] for details, defaults, and examples.
 . Save your work by clicking *Save*.
 + Alternatively, click *Save and sync now* to save your work and sync data at the same time.
+
+'''
+> **Related information**
+>
+> * xref:dataflow-files-add.adoc[Add a connection]
+> * xref:dataflow-files-reference.adoc[Reference]

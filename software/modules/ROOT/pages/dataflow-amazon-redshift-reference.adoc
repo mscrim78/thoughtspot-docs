@@ -132,3 +132,10 @@ Optional field.
 *Valid values:* --user "dbuser" --password "$DIWD" --target_database "ditest" --target_schema "falcon_schema"
 +
 *Default:* --max_ignored_rows 0
+
+'''
+> **Related information**
+>
+> * xref:dataflow-amazon-redshift-add.adoc[Add a connection]
+> * xref:dataflow-amazon-redshift-sync.adoc[Sync data]
+
