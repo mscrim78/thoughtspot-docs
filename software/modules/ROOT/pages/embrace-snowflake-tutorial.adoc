@@ -271,9 +271,12 @@ Now in the search results, you can see labels with the state name and total sale
 +
 image::partner-connect-geo-curr-search.png[]
 
-== Related information
-
-* xref:embrace-snowflake-partner.adoc[ThoughtSpot in Snowflake Partner Connect]
-* xref:embrace-intro.adoc[Embrace overview]
-* xref:embrace-snowflake-add.adoc[Add a Snowflake connection]
-* xref:embrace-snowflake-modify.adoc[Modify a Snowflake connection]
+'''
+> **Related information**
+>
+> * xref:embrace-snowflake-partner.adoc[ThoughtSpot in Snowflake Partner Connect]
+> * xref:embrace-intro.adoc[Embrace overview]
+> * xref:embrace-snowflake-add.adoc[Add a Snowflake connection]
+> * xref:embrace-snowflake-modify.adoc[Modify a Snowflake connection]
+> * xref:embrace-snowflake-reference.adoc[]
+> * xref:embrace-snowflake-best.adoc[]

@@ -1,4 +1,4 @@
-= ["Teradata connection reference"]
+= Teradata connection reference
 :last_updated: 06/18/2020
 :permalink: /:collection/:path.html
 :sidebar: mydoc_sidebar
@@ -7,8 +7,25 @@
 Here is a list of the fields of a Teradata connection in ThoughtSpot Embrace.
 You need specific information to establish a seamless and secure connection.
 All fields are required, except where noted.
-+++<dlentry id="embrace-teradata-ref-connection-name">+++Connection name::::  Enter a new Teradata connection name.+++</dlentry>++++++<dlentry id="embrace-teradata-ref-connection-description">+++Connection description::::
+[#embrace-teradata-ref-connection-name]
+Connection name::  Enter a new Teradata connection name.
+[#embrace-teradata-ref-connection-description]
+Connection description::
 Provide a short description of the connection.
-_(Optional)_+++</dlentry>++++++<dlentry id="embrace-teradata-ref-host-id">+++Host::::  Enter the host associated with the Teradata database.+++</dlentry>++++++<dlentry id="embrace-teradata-ref-user-id">+++User::::  Enter the user account associated with the Teradata database.+++</dlentry>++++++<dlentry id="embrace-teradata-ref-user-id">+++Password::::  Enter the password associated with the user account of the Teradata database.+++</dlentry>++++++<dlentry id="embrace-teradata-ref-database">+++Database::::
+_(Optional)_
+[#embrace-teradata-ref-host-id]
+Host::  Enter the host associated with the Teradata database.
+[#embrace-teradata-ref-user-id]
+User::  Enter the user account associated with the Teradata database.
+[#embrace-teradata-password]
+Password::  Enter the password associated with the user account of the Teradata database.
+[#embrace-teradata-ref-database]
+Database::
 Enter the database name associated with the Teradata database.
-_(Optional)_+++</dlentry>+++
+_(Optional)_
+
+'''
+> **Related information**
+>
+> * xref:embrace-teradata-add.adoc[]
+> * xref:embrace-teradata-modify.adoc[]

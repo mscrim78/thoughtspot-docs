@@ -141,3 +141,12 @@ image::connection-delete-warning.png[]
 . If the "Cannot delete" warning appears, click the link for each object to delete it, and then click *Ok*.
 Otherwise, go to the next step.
 . When all its dependencies are removed, delete the connection by clicking *Delete*, and then click again *Delete* to confirm.
+
+'''
+> **Related information**
+>
+> * xref:embrace-snowflake-add.adoc[Add a connection]
+> * xref:embrace-snowflake-best.adoc[Best practices]
+> * xref:embrace-snowflake-reference.adoc[Reference]
+> * xref:embrace-snowflake-partner.adoc[Partner Connect]
+> * xref:embrace-snowflake-tutorial.adoc[Tutorial]
