@@ -40,3 +40,9 @@ image::gbq-serviceaccountpermissions.png[Specify permissions]
 . Click *CREATE*.
 The key downloads to your computer. +
 Copy and paste this key under *Service account* when connecting to Google BigQuery in ThoughtSpot.
+
+'''
+> **Related information**
+>
+> * xref:embrace-gbq-add.adoc[]
+> * xref:embrace-gbq-modify.adoc[]
