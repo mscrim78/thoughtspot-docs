@@ -16,3 +16,10 @@ Password:: Enter the Redshift account password.
 Mandatory field.
 Database:: Specify the database associated with the account.
 Mandatory field.
+
+'''
+> **Related information**
+>
+> * xref:embrace-redshift-add.adoc[]
+> * xref:embrace-redshift-modify.adoc[]
+> * xref:embrace-redshift-best.adoc[]
