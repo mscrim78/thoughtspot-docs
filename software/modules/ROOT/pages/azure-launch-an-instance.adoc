@@ -44,7 +44,7 @@ Create your virtual machines based on the https://azuremarketplace.microsoft.com
 
 . Log in to the Azure portal.
 +
-In a browser, go to https://portal.azure.com/#home, and log into your Azure account.
+In a browser, go to https://portal.azure.com/#home, and log in to your Azure account.
 
 . On the Azure portal homepage, hover over *Virtual machines*, and click *Create*.
 +
@@ -80,7 +80,7 @@ Choose the https://azuremarketplace.microsoft.com/en-us/marketplace/apps/thought
 | *7*
 | Select *SSH public key* and specify a username.
 Note that this user is necessary for Azure VM creation, but the user does not exist in ThoughtSpot.
-You cannot log into ThoughtSpot, or `ssh` into the command line, with this user.
+You cannot log in to ThoughtSpot, or `ssh` into the command line, with this user.
 
 | *8*
 | Enter an SSH public key.
@@ -185,7 +185,7 @@ Refer to xref:ports.adoc[Network ports] for more information.
 [#prepare-for-startup]
 === Prepare for starting up ThoughtSpot
 
-_Prerequisite_: To log into the VM, you need the private key that is available in the image.
+_Prerequisite_: To log in to the VM, you need the private key that is available in the image.
 You can obtain this from your ThoughtSpot contact.
 
 . Obtain the VM's public and private IP addresses.
