@@ -12,4 +12,13 @@ Use it to teach yourself, or take a screen recording of it and create your own T
 
 image::replay-search.png[]
 
-The replay starta automatically.
+The replay starts automatically.
+
+'''
+> **Related information**
+>
+> * xref:chart-table-change.adoc[Change result display options]
+> * xref:show-underlying-data.adoc[Show underlying data]
+> * xref:search-drill-down.adoc[See the search behind a result]
+> * xref:search-conditional-formatting.adoc[Apply conditional formatting to a table]
+> * xref:search-download.adoc[Download your search]

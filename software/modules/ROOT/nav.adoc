@@ -390,7 +390,7 @@
 *** xref:js-api-enable.adoc[Authentication flow with embed]
 *** xref:embed-full.adoc[Full application embedding]
 *** xref:trusted-authentication.adoc[Configure trusted authentication]
-** xref:runtime-filters.adoc[Runtime Filters]
+** xref:runtime-filters.adoc[Runtime filters]
 *** xref:runtime-filter-apply.adoc[Apply a runtime filter]
 *** xref:runtime-filter-operators.adoc[Runtime filter operators]
 
