@@ -122,3 +122,9 @@ image::spotiq-help.png[]
 > **Related information**
 >
 > * xref:tscli-command-ref.adoc#tscli-rpackage[tscli rpackage]
+> * xref:spotiq-best.adoc[Best practices]
+> * xref:spotiq-monitor-headlines.adoc[Monitor headlines]
+> * xref:spotiq-comparative.adoc[Comparative analysis]
+> * xref:spotiq-custom.adoc[Custom SpotIQ analysis]
+> * xref:spotiq-feedback.adoc[Insight feedback]
+> * xref:spotiq-preferences.adoc[SpotIQ preferences]

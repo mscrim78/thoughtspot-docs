@@ -136,3 +136,13 @@ Click each headline in the *SpotIQ >> Follow* interface to see the detailed perf
 You can change your visualization to table view, or to another chart type to better visualize your changing metric.
 
 image::spotiq-monitor-detail.png[Metric performance over time]
+
+'''
+> **Related information**
+>
+> * xref:spotiq-best.adoc[Best practices]
+> * xref:spotiq-comparative.adoc[Comparative analysis]
+> * xref:spotiq-custom.adoc[Custom SpotIQ analysis]
+> * xref:spotiq-r.adoc[Advanced R customizations]
+> * xref:spotiq-feedback.adoc[Insight feedback]
+> * xref:spotiq-preferences.adoc[SpotIQ preferences]
