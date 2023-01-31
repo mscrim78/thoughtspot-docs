@@ -60,3 +60,11 @@ image::choose_chart_font_label.png[]
 image::table_visualization_fonts.png[]
 
 . Click the *Reset* button on the upper right hand side of the sections if you would like to bring back the default fonts.
+
+'''
+> **Related information**
+>
+> * xref:upload-application-logos.adoc[Upload application logos]
+> * xref:choose-background-color.adoc[Choose a background color]
+> * xref:select-chart-color-palettes.adoc[Select chart color palettes]
+> * xref:change-the-footer-text.adoc[Change the footer text]

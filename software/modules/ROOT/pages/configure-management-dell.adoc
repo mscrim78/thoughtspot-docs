@@ -38,3 +38,12 @@ image::dell-idracconfig.png[Dell iDRAC configuration]
 == Configure nodes
 
 Next, xref:configure-nodes-dell.adoc[configure nodes.]
+
+'''
+> **Related information**
+>
+> * xref:prerequisites-dell.adoc[Prerequisites]
+> * xref:hardware-requirements-dell.adoc[Hardware requirements]
+> * xref:connect-appliance-dell.adoc[Connect the appliance]
+> * xref:configure-nodes-dell.adoc[Configure nodes]
+> * xref:install-cluster-dell.adoc[Install cluster]

@@ -61,3 +61,10 @@ You can obtain these files from xref:contact.adoc[ThoughtSpot Support].
 We hope your experience with ThoughtSpot is excellent.
 Please let us know how it goes, and what we can do to make it better.
 You can xref:contact.adoc[contact ThoughtSpot] by email, phone, or by filing a support ticket.
+
+'''
+> **Related information**
+>
+> * xref:vmware-setup.adoc[Set up ThoughtSpot in VMware]
+> * xref:installing-vmware.adoc[Configure ThoughtSpot nodes in VMware]
+> * xref:vmware-cluster-install.adoc[Install ThoughtSpot clusters in VMware]

@@ -18,7 +18,8 @@ When choosing an instance type, ensure that it uses Intel CPUs.
 == ThoughtSpot Azure instance types
 
 |===
-| Per VM user data capacity | Instance type | CPU/RAM | Recommended per-VM + Premium SSD Managed Disk volume | Required root volume capacity
+| Per VM user data capacity | Instance type | CPU/RAM | Recommended per-VM +
+Premium SSD Managed Disk volume | Required root volume capacity
 
 | 200 GB
 | E64s_v3
@@ -47,3 +48,10 @@ When choosing an instance type, ensure that it uses Intel CPUs.
 
 For most instances, the per VM recommended user data capacity is set at 50% of the available RAM on the instance.
 However, in the case of our 16CPU/128GB RAM and 32CPU/256GB RAM instances, we support user data sizes below those numbers to budget for application overhead.
+
+'''
+> **Related information**
+>
+> * xref:launch-an-instance-azure.adoc[Set up ThoughtSpot in Azure]
+> * xref:installing-azure.adoc[Configure ThoughtSpot nodes in Azure]
+> * xref:azure-cluster-install.adoc[Install ThoughtSpot clusters in Azure]

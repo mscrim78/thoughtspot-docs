@@ -132,3 +132,12 @@ image::ts-u.png[link="https://training.thoughtspot.com/", window=_blank]
 == Install your cluster
 
 Next, xref:install-cluster-dell.adoc[install your cluster.]
+
+'''
+> **Related information**
+>
+> * xref:prerequisites-dell.adoc[Prerequisites]
+> * xref:hardware-requirements-dell.adoc[Hardware requirements]
+> * xref:connect-appliance-dell.adoc[Connect the appliance]
+> * xref:configure-management-dell.adoc[Configure management settings]
+> * xref:install-cluster-dell.adoc[Install cluster]

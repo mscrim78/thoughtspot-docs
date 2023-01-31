@@ -190,3 +190,11 @@ image::ts-u.png[link="https://training.thoughtspot.com/", window=_blank]
 == Install the cluster
 
 Next, xref:smc-cluster-install.adoc[install your cluster.]
+
+'''
+> **Related information**
+>
+> * xref:prerequisites-smc.adoc[Prerequisites]
+> * xref:hardware-requirements-smc.adoc[Hardware requirements]
+> * xref:connect-appliance-smc.adoc[Connect the appliance]
+> * xref:smc-cluster-install.adoc[Install cluster]

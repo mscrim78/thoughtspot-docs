@@ -44,3 +44,11 @@ Therefore, the secondary palette usually consists of secondary colors.
 You can disable color rotation for single-color charts.
 If you disable color rotation, ThoughtSpot generates single-color charts in the order of your color palette, left to right.
 If you leave color rotation enabled, ThoughtSpot generates the color of single-color charts randomly.
+
+'''
+> **Related information**
+>
+> * xref:upload-application-logos.adoc[Upload application logos]
+> * xref:set-chart-and-table-visualization-fonts.adoc[Set chart and table visualization fonts]
+> * xref:choose-background-color.adoc[Choose a background color]
+> * xref:change-the-footer-text.adoc[Change the footer text]
