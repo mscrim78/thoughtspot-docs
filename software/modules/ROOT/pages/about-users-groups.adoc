@@ -50,7 +50,8 @@ Permissions to see and edit tables, worksheets, and pinboards are set when you s
 The following table shows the intersection of user privilege and ability:
 include::partial$security-matrix.adoc[]
 
-== Related information
-
-* xref:add-group.adoc[Add a group and set security privileges]
-* xref:add-user.adoc[Add a user]
+'''
+> **Related information**
+>
+> * xref:add-group.adoc[Add a group and set security privileges]
+> * xref:add-user.adoc[Add a user]

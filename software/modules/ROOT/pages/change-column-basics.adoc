@@ -91,7 +91,8 @@ To change the column type:
 . Change it to either `MEASURE` or `ATTRIBUTE`.
 . Save your changes.
 
-== Related information
-
-* xref:about-data-modeling-intro.adoc[Model the data for searching]
-* xref:change-visibility-synonym.adoc[Hide column or define a column synonym]
+'''
+> **Related information**
+>
+> * xref:about-data-modeling-intro.adoc[Model the data for searching]
+> * xref:change-visibility-synonym.adoc[Hide column or define a column synonym]

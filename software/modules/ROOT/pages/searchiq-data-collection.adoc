@@ -87,8 +87,9 @@ Select ThoughtSpot employees who need to access this data in order to improve th
 Your ThoughtSpot administrator may ask ThoughtSpot to disable SearchIQ data logging for all users in the cluster.
 Please note that this will impact the accuracy of natural language question interpretation by the system.
 
-== Related information
-
-* xref:about-searchiq.adoc[About SearchIQ]
-* xref:use-searchiq.adoc[Use SearchIQ]
-* xref:teach-searchiq.adoc[Teach SearchIQ your language]
+'''
+> **Related information**
+>
+> * xref:about-searchiq.adoc[About SearchIQ]
+> * xref:use-searchiq.adoc[Use SearchIQ]
+> * xref:teach-searchiq.adoc[Teach SearchIQ your language]

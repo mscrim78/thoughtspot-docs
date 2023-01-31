@@ -48,10 +48,11 @@ Also, Anthony Chen's blog post on https://www.thoughtspot.com/codex/using-r-anal
 
 image::r-pinboard-examples.png[]
 
-== Related information
-
-* xref:create-r-scripts.adoc[Create and share R scripts]
-* xref:run-prebuilt-r-scripts.adoc[Run pre-built R scripts on answers]
-* xref:adv-customize-withr.adoc[SpotIQ custom analysis]
-* xref:about-users-groups.adoc[Understand groups and privileges]
-* xref:tscli-command-ref.adoc#tscli-rpackage[tscli rpackage]
+'''
+> **Related information**
+>
+> * xref:create-r-scripts.adoc[Create and share R scripts]
+> * xref:run-prebuilt-r-scripts.adoc[Run pre-built R scripts on answers]
+> * xref:adv-customize-withr.adoc[SpotIQ custom analysis]
+> * xref:about-users-groups.adoc[Understand groups and privileges]
+> * xref:tscli-command-ref.adoc#tscli-rpackage[tscli rpackage]
