@@ -17,7 +17,8 @@ include::partial$view-materialize-navigation.adoc[]
 +
 image::refresh-materialized-views.png[Refresh a stale view]
 
-== Related Information
-
-* xref:about-query-on-query.adoc[Understand views]
-* xref:materialized-views.adoc[About materialized views]
+'''
+> **Related information**
+>
+> * xref:about-query-on-query.adoc[Understand views]
+> * xref:materialized-views.adoc[About materialized views]

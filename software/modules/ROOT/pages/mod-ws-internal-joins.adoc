@@ -51,8 +51,9 @@ image::change-join.png[]
 +
 Click *Save*.
 
-== Related Information
-
-* xref:progressive-joins.adoc[Join rule]
-* xref:constraints.adoc[Create joins using TQL]
-* xref:create-new-relationship.adoc[Create join relationships in the browser]
+'''
+> **Related information**
+>
+> * xref:progressive-joins.adoc[Join rule]
+> * xref:constraints.adoc[Create joins using TQL]
+> * xref:create-new-relationship.adoc[Create join relationships in the browser]

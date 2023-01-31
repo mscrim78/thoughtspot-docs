@@ -114,9 +114,10 @@ For most instances, the per VM recommended user data capacity is set at 50% of t
 However, in the case of our 16CPU/128GB RAM and 32CPU/256GB RAM instances, we support user data sizes below those numbers to budget for application overhead.
 
 [#related]
-== Related information
-
-* https://aws.amazon.com/ec2/instance-types/[EC2 instance types, window=_blank]
-* https://aws.amazon.com/ec2/pricing/[EC2 pricing, window=_blank]
-* https://aws.amazon.com/ebs/pricing/[EBS pricing, window=_blank]
-* http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html[Placement groups, window=_blank]
+'''
+> **Related information**
+>
+> * link:https://aws.amazon.com/ec2/instance-types/[EC2 instance types, window=_blank]
+> * link:https://aws.amazon.com/ec2/pricing/[EC2 pricing, window=_blank]
+> * link:https://aws.amazon.com/ebs/pricing/[EBS pricing, window=_blank]
+> * link:http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html[Placement groups, window=_blank]

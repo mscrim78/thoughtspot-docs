@@ -76,11 +76,12 @@ You can save an answer you want to work more on later, or just keep it for your 
 You can also share an answer with other users.
 The *Answers* tab is where you can view and then the your saved search results.
 
-== Related information
-
-* xref:about-choosing-sources.adoc[Choose a data source]
-* xref:about-the-search-bar.adoc[Search bar features]
-* xref:recent-searches.adoc[Search suggestions]
-* xref:about-attributes-and-measures.adoc[Search results and column types]
-* xref:share-answers.adoc[Share an answer]
-* xref:about-searchiq.adoc[About SearchIQ] +++<span class="label label-beta">Beta</span>+++
+'''
+> **Related information**
+>
+> * xref:about-choosing-sources.adoc[Choose a data source]
+> * xref:about-the-search-bar.adoc[Search bar features]
+> * xref:recent-searches.adoc[Search suggestions]
+> * xref:about-attributes-and-measures.adoc[Search results and column types]
+> * xref:share-answers.adoc[Share an answer]
+> * xref:about-searchiq.adoc[About SearchIQ] +++<span class="label label-beta">Beta</span>+++

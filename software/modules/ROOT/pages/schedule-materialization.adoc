@@ -18,8 +18,9 @@ image::view-materialize-10.png[Update or create a schedule]
 
 include::partial$view-materialize-schedule-options.adoc[]
 
-== Related Information
-
-* xref:about-query-on-query.adoc[Understand views]
-* xref:create-aggregated-worksheet.adoc[Save a search as a view]
-* xref:materialized-views.adoc[About materialized views]
+'''
+> **Related information**
+>
+> * xref:about-query-on-query.adoc[Understand views]
+> * xref:create-aggregated-worksheet.adoc[Save a search as a view]
+> * xref:materialized-views.adoc[About materialized views]

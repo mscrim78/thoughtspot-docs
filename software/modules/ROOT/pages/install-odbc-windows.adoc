@@ -149,7 +149,12 @@ image::windows-odbc-success.png[]
 
 Now, you are ready to begin using the connection you've configured.
 
-== Related information
-
-* xref:enable-ODBC-log.adoc[Enable ODBC logs].
-* xref:multiple-sources-windows.adoc[Configure multiple connections on Windows].
+'''
+> **Related information**
+>
+> * xref:enable-ODBC-log.adoc[Enable ODBC logs]
+> * xref:multiple-sources-windows.adoc[Configure multiple connections on Windows]
+> * xref:windows-deploy-ssl.adoc[Deploy SSL with ODBC on Windows]
+> * xref:set-up-the-odbc-driver-using-ssis.adoc[Set up the ODBC Driver for SSIS]
+> * xref:install-odbc-linux.adoc[Install the ODBC Driver on Linux]
+> * xref:odbc-best-practices.adoc[Best practices for using ODBC]
