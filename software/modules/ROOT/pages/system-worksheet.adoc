@@ -46,3 +46,14 @@ TS: Table Row Size::
   Describes the named tables by timestamp and row size.
 TS: Table Shards::
   Describes the named tables by timestamp and shard count.
+
+'''
+> **Related information**
+>
+> * xref:system-info-usage.adoc[Overview board]
+> * xref:system-data.adoc[Data board]
+> * xref:cluster-manager.adoc[Cluster manager board]
+> * xref:system-alerts-events.adoc[Alerts and events board]
+> * xref:system-pinboards.adoc[System pinboards]
+> * xref:falcon-monitor.adoc[Falcon monitor pinboards]
+> * xref:performance-tracking.adoc[Performance tracking pinboard]

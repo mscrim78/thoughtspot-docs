@@ -24,3 +24,14 @@ Use this Pinboard to view and analyze information about the following topics:
 * data requests and latency
 * data errors
 * pinboard latency
+
+'''
+> **Related information**
+>
+> * xref:system-info-usage.adoc[Overview board]
+> * xref:system-data.adoc[Data board]
+> * xref:cluster-manager.adoc[Cluster manager board]
+> * xref:system-alerts-events.adoc[Alerts and events board]
+> * xref:system-worksheet.adoc[System worksheets]
+> * xref:system-pinboards.adoc[System pinboards]
+> * xref:falcon-monitor.adoc[Falcon monitor pinboards]

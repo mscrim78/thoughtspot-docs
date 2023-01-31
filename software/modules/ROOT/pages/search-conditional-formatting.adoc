@@ -62,3 +62,12 @@ image::conditional_formatting_chart.png[]
 
 NOTE: If you change the chart type, you must apply conditional formatting again.
 It is tied to the specific visualization.
+
+'''
+> **Related information**
+>
+> * xref:chart-table-change.adoc[Change result display options]
+> * xref:show-underlying-data.adoc[Show underlying data]
+> * xref:search-drill-down.adoc[See the search behind a result]
+> * xref:search-download.adoc[Download your search]
+> * xref:search-replay.adoc[Replay search]
