@@ -76,3 +76,11 @@ image:smc-serialnumber.png[Location of serial number]
 == Connect the appliance
 
 Next, xref:connect-appliance-smc.adoc[connect the appliance.]
+
+'''
+> **Related information**
+>
+> * xref:prerequisites-smc.adoc[Prerequisites]
+> * xref:connect-appliance-smc.adoc[Connect the appliance]
+> * xref:configure-nodes-smc.adoc[Configure nodes]
+> * xref:smc-cluster-install.adoc[Install cluster]

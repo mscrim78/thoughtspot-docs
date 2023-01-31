@@ -81,3 +81,12 @@ The image above shows two of the four power buttons.
 == Configure the management settings
 
 Next, xref:configure-management-dell.adoc[configure the management settings.]
+
+'''
+> **Related information**
+>
+> * xref:prerequisites-dell.adoc[Prerequisites]
+> * xref:hardware-requirements-dell.adoc[Hardware requirements]
+> * xref:configure-management-dell.adoc[Configure management settings]
+> * xref:configure-nodes-dell.adoc[Configure nodes]
+> * xref:install-cluster-dell.adoc[Install cluster]

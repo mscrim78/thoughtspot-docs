@@ -277,3 +277,11 @@ Next, retry the set-config command.
 $ cat nodes.config | tscli cluster set-config
 ----
 The command output should no longer have a warning.
+
+'''
+> **Related information**
+>
+> * xref:prerequisites-smc.adoc[Prerequisites]
+> * xref:hardware-requirements-smc.adoc[Hardware requirements]
+> * xref:connect-appliance-smc.adoc[Connect the appliance]
+> * xref:configure-nodes-smc.adoc[Configure nodes]

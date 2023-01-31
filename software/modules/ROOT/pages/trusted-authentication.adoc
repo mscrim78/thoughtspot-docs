@@ -105,3 +105,10 @@ For example, the customer requests a specific object:
 ----
 +
 If you are using ThoughtSpot embed with objects or pages, you must request re-authenticate requests for each new object.
+
+'''
+> **Related information**
+>
+> * xref:embed-a-viz.adoc[Embed pinboard or visualization]
+> * xref:enable-JS-API.adoc[Authentication flow with embed]
+> * xref:about-full-embed.adoc[Full application embedding]

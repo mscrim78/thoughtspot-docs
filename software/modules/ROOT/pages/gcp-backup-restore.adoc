@@ -51,3 +51,10 @@ Example:
 ----
 $ tscli cluster restore gcs://bucket0001/backup/my_backup001 --enable_cloud_storage gcs
 ----
+
+'''
+> **Related information**
+>
+> * xref:launch-an-instance-gcp.adoc[Set up ThoughtSpot in GCP]
+> * xref:installing-gcp.adoc[Configure ThoughtSpot nodes in GCP]
+> * xref:gcp-cluster-install.adoc[Install ThoughtSpot clusters in GCP]

@@ -98,3 +98,11 @@ If you do not know the admin credentials, ask your network administrator.
 == Configure nodes
 
 Next, xref:configure-nodes-smc.adoc[configure nodes.]
+
+'''
+> **Related information**
+>
+> * xref:prerequisites-smc.adoc[Prerequisites]
+> * xref:hardware-requirements-smc.adoc[Hardware requirements]
+> * xref:configure-nodes-smc.adoc[Configure nodes]
+> * xref:smc-cluster-install.adoc[Install cluster]

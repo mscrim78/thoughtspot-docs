@@ -100,3 +100,16 @@ Pass all the entries in `--include` starting with `/` to find(1), and all entrie
 The above command collects all system and all orion logs, but excludes hadoop (hdfs) and zookeeper logs.
 See xref:upload-logs-egnyte.adoc[Upload logs to ThoughtSpot Support] about using a secure file sever to collect log files or other files needed for troubleshooting.
 You can easily send log files to this file serve directly from the ThoughtSpot instance.
+
+'''
+> **Related information**
+>
+> * xref:upload-logs-egnyte.adoc[Upload logs to ThoughtSpot Support]
+> * xref:check-connectivity.adoc[Network connectivity issues]
+> * xref:set-timezone.adoc[Check the timezone]
+> * xref:certificate-warning.adoc[Browser untrusted connection error]
+> * xref:char-encoding.adoc[Characters not displaying correctly]
+> * xref:clear-browser-cache.adoc[Clear the browser cache]
+> * xref:formula-date-problem.adoc[Cannot open a saved answer that contains a formula]
+> * xref:data-loading-too-slowly.adoc[Data loading too slowly]
+> * xref:search-too-many-blanks.adoc[Search results contain too many blanks]
