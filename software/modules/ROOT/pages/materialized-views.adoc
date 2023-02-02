@@ -82,8 +82,9 @@ Here are some conditions that could lead to a View becoming stale:
 * Change to formulas in the View
 * Change the datatypes in the underlying tables
 
-== Related Information
-
-* xref:about-query-on-query.adoc[Understand views]
-* xref:create-aggregated-worksheet.adoc[Save a search as a view]
-* xref:materialize-a-view.adoc[Materialize a view]
+'''
+> **Related information**
+>
+> * xref:about-query-on-query.adoc[Understand views]
+> * xref:create-aggregated-worksheet.adoc[Save a search as a view]
+> * xref:materialize-a-view.adoc[Materialize a view]

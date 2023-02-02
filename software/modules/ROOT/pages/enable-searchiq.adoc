@@ -27,8 +27,9 @@ image::searchiq_privilege.png[]
 
 NOTE: Because the SearchIQ search experience is very different from the original ThoughtSpot search experience, you should give your new users some orientation on it, so they know what to expect.
 
-== Related information
-
-* xref:about-searchiq.adoc[About SearchIQ]
-* xref:use-searchiq.adoc[Use SearchIQ]
-* xref:teach-searchiq.adoc[Teach SearchIQ your language]
+'''
+> **Related information**
+>
+> * xref:about-searchiq.adoc[About SearchIQ]
+> * xref:use-searchiq.adoc[Use SearchIQ]
+> * xref:teach-searchiq.adoc[Teach SearchIQ your language]

@@ -54,7 +54,8 @@ You can view the experts for a data source by creating a search using the data s
 
 If you have edit permissions for the data source, you can see experts when you xref:add-expert.adoc[manage experts].
 
-== Related information
-
-* xref:retrieve-expert-answer.adoc[Review answers from Ask an expert]
-* xref:answer-expert-question.adoc[Answer Ask an expert questions]
+'''
+> **Related information**
+>
+> * xref:retrieve-expert-answer.adoc[Review answers from Ask an expert]
+> * xref:answer-expert-question.adoc[Answer Ask an expert questions]

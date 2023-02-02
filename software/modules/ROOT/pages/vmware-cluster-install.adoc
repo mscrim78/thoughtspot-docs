@@ -110,13 +110,14 @@ As you develop your expertise in VMware cluster installation, we recommend the f
 See other training resources at
 https://training.thoughtspot.com/[ThoughtSpot U].
 
-== Related information
-
-Use these references for successful installation and administration of ThoughtSpot:
-
-* xref:nodesconfig-example.adoc[The nodes.config file]
-* xref:parameters-nodesconfig.adoc[Parameters of the nodes.config file]
-* xref:cluster-create.adoc[Using the tscli cluster create command]
-* xref:parameters-cluster-create.adoc[Parameters of the `cluster create` command]
-* xref:welcome-intro.adoc[Deployment Overview]
-* xref:contact.adoc[Contact Support]
+'''
+> **Related information**
+>
+> Use these references for successful installation and administration of ThoughtSpot:
+>
+> * xref:nodesconfig-example.adoc[The nodes.config file]
+> * xref:parameters-nodesconfig.adoc[Parameters of the nodes.config file]
+> * xref:cluster-create.adoc[Using the tscli cluster create command]
+> * xref:parameters-cluster-create.adoc[Parameters of the `cluster create` command]
+> * xref:welcome-intro.adoc[Deployment Overview]
+> * xref:contact.adoc[Contact Support]

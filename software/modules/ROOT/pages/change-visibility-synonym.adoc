@@ -58,6 +58,7 @@ If you are using the model file, the list of synonyms must be enclosed in  squar
 
 . Save your changes.
 
-== Related information
-
-xref:about-data-modeling-intro.adoc[Model the data for searching]
+'''
+> **Related information**
+>
+> * xref:about-data-modeling-intro.adoc[Model the data for searching]

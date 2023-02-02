@@ -34,6 +34,7 @@ This answer displays notifications of data loads.
 The answer displays the *Time*, the *User* that performed the action, and a *Summary* of the action.
 Notifications are kept for 90 days before being discarded.
 
-== Related information
-
-* xref:alerts-reference.adoc[Alert code reference]
+'''
+> **Related information**
+>
+> * xref:alerts-reference.adoc[Alert code reference]

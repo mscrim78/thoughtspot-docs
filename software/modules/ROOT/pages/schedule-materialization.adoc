@@ -25,8 +25,9 @@ NOTE: Refresh works only if it is scheduled in the refresh window set for the cl
 Only the start time of the refresh window is configurable using the flag `orion.materializationConfig.refreshWindowStartTime` which can be set to values such as `12:00PM` or `01:00AM` etc.
 Example: To set the cluster window from 2:00 AM to 10:00 AM you can set the flag as `orion.materializationConfig.refreshWindowStartTime "02:00AM"`.
 
-== Related Information
-
-* xref:about-query-on-query.adoc[Understand views]
-* xref:create-aggregated-worksheet.adoc[Save a search as a view]
-* xref:materialized-views.adoc[About materialized views]
+'''
+> **Related information**
+>
+> * xref:about-query-on-query.adoc[Understand views]
+> * xref:create-aggregated-worksheet.adoc[Save a search as a view]
+> * xref:materialized-views.adoc[About materialized views]

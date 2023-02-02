@@ -61,8 +61,8 @@ Clicking on the microphone will begin accepting voice input, which is translated
 
 NOTE: If the SearchIQ text-to-speech functionality is not working, ensure that you are accessing ThoughtSpot in your browser using HTTPS:// and not HTTP://.
 
-== Related information
-
-
-* xref:use-searchiq.adoc[Use SearchIQ]
-* xref:teach-searchiq.adoc[Teach SearchIQ your language]
+'''
+> **Related information**
+>
+> * xref:use-searchiq.adoc[Use SearchIQ]
+> * xref:teach-searchiq.adoc[Teach SearchIQ your language]

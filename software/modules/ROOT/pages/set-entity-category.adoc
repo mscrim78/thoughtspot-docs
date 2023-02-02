@@ -65,7 +65,8 @@ To specify entity categories:
 . Use the drop-down menu to set the `ENTITY CATEGORY` to the type you want.
 . Click *SAVE CHANGES* in the upper right.
 
-== Related information
-
-* xref:about-searchiq.adoc[SearchIQ]
-* xref:data-modeling-settings.adoc[Overview of data modeling settings]
+'''
+> **Related information**
+>
+> * xref:about-searchiq.adoc[SearchIQ]
+> * xref:data-modeling-settings.adoc[Overview of data modeling settings]

@@ -58,6 +58,7 @@ As you develop your expertise in data modeling and the Attribution Dimension set
 
 See other training resources at https://community.thoughtspot.com/s/[ThoughtSpot Community]
 
-== Related information
-
-xref:about-data-modeling-intro.adoc[Model the data for searching]
+'''
+> **Related information**
+>
+> * xref:about-data-modeling-intro.adoc[Model the data for searching]

@@ -46,9 +46,10 @@ If your View has more than 40 million rows, consider sharding it.
 * To improve performance, you can materialize the Views.
 * You can use an ETL (extract, transform, load) processes to circumvent these limitations.
 
-== Related Information
-
-* xref:more-example-scenarios.adoc[More view scenario examples]
-* xref:create-aggregated-worksheet.adoc[Save a search as a view]
-* xref:constraints.adoc[Constraints]
-* xref:materialized-views.adoc[Materialized views]
+'''
+> **Related information**
+>
+> * xref:more-example-scenarios.adoc[More view scenario examples]
+> * xref:create-aggregated-worksheet.adoc[Save a search as a view]
+> * xref:constraints.adoc[Constraints]
+> * xref:materialized-views.adoc[Materialized views]

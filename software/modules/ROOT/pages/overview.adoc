@@ -383,6 +383,7 @@ They are there to support older installations that relied on them.
 New installations should not use or rely on deprecated boards.
 Older installations that have used these boards in some way should use the new boards and remove any dependencies.
 
-== Related information
-
-* xref:tscli-command-ref.adoc#tscli-logs[`tscli logs` command]
+'''
+> **Related information**
+>
+> * xref:tscli-command-ref.adoc#tscli-logs[`tscli logs` command]

@@ -40,6 +40,7 @@ image::worksheet-formula-settings.png[Advanced settings in the Formula Builder]
 . Name the formula by clicking its title and typing the new name.
 Click *Save*.
 
-== Related information
-
-xref:formula-reference.adoc[Formula function reference]
+'''
+> **Related information**
+>
+> * xref:formula-reference.adoc[Formula function reference]
