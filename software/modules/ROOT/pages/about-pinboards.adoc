@@ -2,7 +2,7 @@
 :experimental:
 :last_updated: 6/30/2019
 
-Create a new Pinboard to group and manage related search results. 
+Create a new Pinboard to group and manage related search results.
 Pinboards act like live dashboards.
 They are collections of your related charts, tables, and headlines.
 
@@ -77,7 +77,8 @@ image::pinboard-controls.png[]
 If you make a change to a Pinboard, the system recognizes this and displays an alert message with a *Save changes* button at the top of the page.
 Click this button to make your changes permanent.
 
-== Related information
-
-- xref:download-pinboard-pdf.adoc[Download a pinboard as PDF]
-- xref:start-a-slideshow.adoc[Present a pinboard]
+'''
+> **Related information**
+>
+> * xref:download-pinboard-pdf.adoc[Download a pinboard as PDF]
+> * xref:start-a-slideshow.adoc[Present a pinboard]

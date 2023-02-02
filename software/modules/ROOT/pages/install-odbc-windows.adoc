@@ -150,7 +150,8 @@ image::windows-odbc-success.png[]
 
 Now, you are ready to begin using the connection you've configured.
 
-== Related information
-
-* xref:enable-ODBC-log.adoc[Enable ODBC logs].
-* xref:multiple-sources-windows.adoc[Configure multiple connections on Windows].
+'''
+> **Related information**
+>
+> * xref:enable-ODBC-log.adoc[Enable ODBC logs]
+> * xref:multiple-sources-windows.adoc[Configure multiple connections on Windows]

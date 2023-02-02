@@ -295,6 +295,7 @@ You cannot change both, unless migrating or updating the Worksheet two times.
 * It is not possible to include Worksheet filters in the YAML script.
 * You cannot create Scriptable representations of R- or Python-powered visualizations.
 
-== Related Information
-
-* xref:worksheet-export.adoc[Migrate or restore Worksheets]
+'''
+> **Related information**
+>
+> * xref:worksheet-export.adoc[Migrate or restore Worksheets]

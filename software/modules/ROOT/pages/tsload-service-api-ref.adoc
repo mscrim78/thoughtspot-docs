@@ -442,6 +442,7 @@ Status: 500 INTERNAL SERVER ERROR
 error code = INTERNAL, message = Couldn't resolve the authentication service.
 ----
 
-== Related information
-
-xref:load-with-service.adoc[Use the tsload connector to load data]
+'''
+> **Related information**
+>
+> * xref:load-with-service.adoc[Use the tsload connector to load data]

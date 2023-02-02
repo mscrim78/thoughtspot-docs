@@ -52,10 +52,11 @@ image::materialization-dialog-on.png[]
 +
 If after some time, the status has not changed to *Materialized*, check the xref:materialized-views.adoc#materialization-status[list of statuses] and corresponding actions to take.
 
-== Related Information
-
-* xref:about-query-on-query.adoc[Understand views]
-* xref:create-aggregated-worksheet.adoc[Save a search as a view]
-* xref:materialized-views.adoc[About materialized views]
-* xref:constraints.adoc[Constraints]
-* xref:sharding.adoc[Sharding]
+'''
+> **Related information**
+>
+> * xref:about-query-on-query.adoc[Understand views]
+> * xref:create-aggregated-worksheet.adoc[Save a search as a view]
+> * xref:materialized-views.adoc[About materialized views]
+> * xref:constraints.adoc[Constraints]
+> * xref:sharding.adoc[Sharding]

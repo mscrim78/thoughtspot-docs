@@ -27,8 +27,9 @@ To change the name of a Worksheet or table:
 . Find the Worksheet or table you want to rename and click its name.
 . Click the current name, and enter a new name.
 
-== Related information
-
-* xref:change-inclusion-rule.adoc[Change the join rule for a worksheet]
-* xref:add-joins.adoc[Add joins between a worksheet and other data]
-* xref:mod-ws-internal-joins.adoc[Modify table joins within a worksheet]
+'''
+> **Related information**
+>
+> * xref:change-inclusion-rule.adoc[Change the join rule for a worksheet]
+> * xref:add-joins.adoc[Add joins between a worksheet and other data]
+> * xref:mod-ws-internal-joins.adoc[Modify table joins within a worksheet]

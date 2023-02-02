@@ -57,6 +57,7 @@ The size of each email is limited to 25 MB, which matches most email services si
 
 And the total number of recipients for a scheduled Pinboard job cannot exceed the default of 1000.
 
-== Related information
-
-For information on creating a Pinboard, see the xref:schedule-a-pinboard-job.adoc[Schedule a Pinboard job].
+'''
+> **Related information**
+>
+> For information on creating a Pinboard, see the xref:schedule-a-pinboard-job.adoc[Schedule a Pinboard job].

@@ -27,7 +27,8 @@ Remember that at this point your View is still searchable.
 It just isn't materialized into memory.
 If you want to remove the View altogether, you still need to delete the View.
 
-== Related Information
-
-* xref:about-query-on-query.adoc[Understand views]
-* xref:materialize-a-view.adoc[Materialize a view]
+'''
+> **Related information**
+>
+> * xref:about-query-on-query.adoc[Understand views]
+> * xref:materialize-a-view.adoc[Materialize a view]

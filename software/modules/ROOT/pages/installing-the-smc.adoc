@@ -25,12 +25,13 @@ This guide explains how to deploy ThoughtSpot on an SMC appliance, using Thought
 Starting with version 6.0.4, you can also deploy ThoughtSpot on an SMC appliance using Red Hat Enterprise Linux (RHEL), allowing you to run ThoughtSpot on an RHEL image that your organization manages internally.
 To install ThoughtSpot using RHEL, refer to the xref:rhel.adoc[RHEL deployment guide].
 
-== Related information
-
-Use these references to aid you in successful installation and administration of ThoughtSpot.
-
-* xref:nodesconfig-example.adoc[The nodes.config file]
-* xref:parameters-nodesconfig.adoc[Parameters of the nodes.config file]
-* xref:cluster-create.adoc[Using the tscli cluster create command]
-* xref:parameters-cluster-create.adoc[Parameters of the cluster create command]
-* xref:contact.adoc[Contact Support]
+'''
+> **Related information**
+>
+> Use these references to aid you in successful installation and administration of ThoughtSpot.
+>
+> * xref:nodesconfig-example.adoc[The nodes.config file]
+> * xref:parameters-nodesconfig.adoc[Parameters of the nodes.config file]
+> * xref:cluster-create.adoc[Using the tscli cluster create command]
+> * xref:parameters-cluster-create.adoc[Parameters of the cluster create command]
+> * xref:contact.adoc[Contact Support]

@@ -89,6 +89,7 @@ You may need to download the file again and  make your edits using vi or vim.
 
 As soon as the file is uploaded, your new settings will be reflected within a few minutes.
 
-== Related information
-
-* xref:teach-searchiq.adoc[Teach SearchIQ your language]
+'''
+> **Related information**
+>
+> * xref:teach-searchiq.adoc[Teach SearchIQ your language]
