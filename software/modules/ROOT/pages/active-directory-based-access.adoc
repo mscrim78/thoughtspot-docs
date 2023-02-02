@@ -61,6 +61,7 @@ tscli sssd disable
 
 NOTE: Running this command also removes the AD group from `sudo` list.
 
-== Related Information
-
-* The xref:tscli-command-ref.adoc#tscli-sssd[sssd command] in the `tscli` command reference
+'''
+> **Related information**
+>
+> * The xref:tscli-command-ref.adoc#tscli-sssd[sssd command] in the `tscli` command reference

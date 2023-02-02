@@ -50,8 +50,9 @@ image::searchiq_details.png[]
 . If the answer isn't what you were expecting, you can refine your answer by xref:teach-searchiq.adoc[teaching SearchIQ your language].
 . If you need help, use xref:ask-an-expert.adoc[Ask an expert].
 
-== Related information
-
-* xref:about-searchiq.adoc[About SearchIQ]
-* xref:teach-searchiq.adoc[Teach SearchIQ your language]
-* xref:ask-an-expert.adoc[Ask an expert]
+'''
+> **Related information**
+>
+> * xref:about-searchiq.adoc[About SearchIQ]
+> * xref:teach-searchiq.adoc[Teach SearchIQ your language]
+> * xref:ask-an-expert.adoc[Ask an expert]

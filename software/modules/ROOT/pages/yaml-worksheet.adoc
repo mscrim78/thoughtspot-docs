@@ -275,6 +275,7 @@ You cannot change both, unless migrating or updating the worksheet two times.
 * It is not possible to reverse the join direction in the TSL script.
 * You cannot create Scriptable representations of R- or Python-powered visualizations.
 
-== Related Information
-
-* xref:worksheet-export.adoc[Migrate or restore Worksheets]
+'''
+> **Related information**
+>
+> * xref:worksheet-export.adoc[Migrate or restore Worksheets]

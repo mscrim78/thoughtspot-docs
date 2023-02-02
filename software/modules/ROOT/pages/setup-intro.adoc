@@ -43,16 +43,17 @@ $ tscli feature get-all-config
 ----
 
 [#related]
-== Related information
-
-The following tasks are also available:
-
-* xref:set-your-thoughtspot-locale.adoc[Set your locale]
-* xref:test-network.adoc[Test connectivity between nodes]
-* xref:set-custom-calendar.adoc[Set up a fiscal calendar year]
-* xref:about-LDAP.adoc[Integrate LDAP]
-* xref:set-up-monitoring.adoc[Set up monitoring]
-* xref:work-with-ts-support.adoc[Configure support services]
-* xref:ports.adoc[Network ports]
-* xref:about-load-balancer-configuration.adoc[Configure load balancing and proxies]
-* xref:customize-style.adoc[Customize look and feel]
+'''
+> **Related information**
+>
+> The following tasks are also available:
+>
+> * xref:set-your-thoughtspot-locale.adoc[Set your locale]
+> * xref:test-network.adoc[Test connectivity between nodes]
+> * xref:set-custom-calendar.adoc[Set up a fiscal calendar year]
+> * xref:about-LDAP.adoc[Integrate LDAP]
+> * xref:set-up-monitoring.adoc[Set up monitoring]
+> * xref:work-with-ts-support.adoc[Configure support services]
+> * xref:ports.adoc[Network ports]
+> * xref:about-load-balancer-configuration.adoc[Configure load balancing and proxies]
+> * xref:customize-style.adoc[Customize look and feel]
