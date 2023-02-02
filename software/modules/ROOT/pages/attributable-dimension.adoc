@@ -60,6 +60,7 @@ See other training resources at:
 
 https://community.thoughtspot.com/s/[ThoughtSpot Community, window=_blank]
 
-== Related information
-
-xref:about-data-modeling-intro.adoc[Model the data for searching]
+'''
+> **Related information**
+>
+> * xref:about-data-modeling-intro.adoc[Model the data for searching]

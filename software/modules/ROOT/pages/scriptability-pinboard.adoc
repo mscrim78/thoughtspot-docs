@@ -103,6 +103,7 @@ The file uploads automatically.
 +
 image::scriptability-pinboard-successful.png[Upload successful]
 
-== Related Information
-
-* xref:tsl-pinboard.adoc[Pinboard TSL specification]
+'''
+> **Related information**
+>
+> * xref:tsl-pinboard.adoc[Pinboard TSL specification]

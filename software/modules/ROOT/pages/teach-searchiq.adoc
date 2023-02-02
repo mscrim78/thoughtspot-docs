@@ -72,8 +72,9 @@ The hierarchy of SearchIQ language learning is set up like this:
 
 In this way, SearchIQ provides the best and most customized search experience possible for all users, and your efforts to teach it are valuable to as many people as possible.
 
-== Related information
-
-* xref:about-searchiq.adoc[About SearchIQ]
-* xref:use-searchiq.adoc[Use SearchIQ]
-* xref:searchiq-mappings.adoc[Modify SearchIQ mappings]
+'''
+> **Related information**
+>
+> * xref:about-searchiq.adoc[About SearchIQ]
+> * xref:use-searchiq.adoc[Use SearchIQ]
+> * xref:searchiq-mappings.adoc[Modify SearchIQ mappings]

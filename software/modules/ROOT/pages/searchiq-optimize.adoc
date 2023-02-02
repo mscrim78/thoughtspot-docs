@@ -52,8 +52,9 @@ After you finish training SearchIQ on the Dataset, we recommend that you share w
 
 Remember that users who experience SearchIQ see only the columns that SearchIQ knows.
 
-== Related information
-
-* xref:about-searchiq.adoc[About SearchIQ]
-* xref:use-searchiq.adoc[Use SearchIQ]
-* xref:teach-searchiq.adoc[Teach SearchIQ your language]
+'''
+> **Related information**
+>
+> * xref:about-searchiq.adoc[About SearchIQ]
+> * xref:use-searchiq.adoc[Use SearchIQ]
+> * xref:teach-searchiq.adoc[Teach SearchIQ your language]
