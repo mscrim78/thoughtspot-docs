@@ -26,7 +26,8 @@ You should review the new answer, to learn from the things the expert did to ans
 Note that the answer is a full fledged ThoughtSpot answer.
 This means that you can pin it to a pinboard, edit it, or share it with others, just like the result of any ThoughtSpot search.
 
-== Related information
-
-* xref:ask-an-expert.adoc[Ask an expert]
-* xref:answer-expert-question.adoc[Answer Ask an expert questions]
+'''
+> **Related information**
+>
+> * xref:ask-an-expert.adoc[Ask an expert]
+> * xref:answer-expert-question.adoc[Answer Ask an expert questions]

@@ -14,3 +14,11 @@ Port:: Enter the port number associated with the Redshift database.
 User:: Enter the Redshift account username.
 Password:: Enter the Redshift account password.
 Database:: Specify the database associated with the account.
+
+'''
+> **Related information**
+>
+> * xref:embrace-redshift-add.adoc[Add a connection]
+> * xref:embrace-redshift-modify.adoc[Modify a connection]
+> * xref:embrace-redshift-best.adoc[Best practices]
+

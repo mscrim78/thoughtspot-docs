@@ -42,11 +42,12 @@ If you want to use a CSV (comma separated values) or delimited file, or you are 
 
 WARNING: Use secondary disks or your NAS or a bucket for dataloads. Do NOT use the primary disk, at locations such as `/tmp`, `/home/admin`, or `/export/home/admin`.
 
-== Related Information
-
-* xref:load-from-web-browser.adoc[Load CSV files with the UI]
-* xref:append-data-from-a-web-browser.adoc[Append data through the UI]
-* xref:plan-schema.adoc[Schema planning concepts]
-* xref:create-schema.adoc[Overview of schema building]
-* xref:use-data-importer.adoc[Import CSV files with tsload]
-* xref:schema-viewer.adoc[How to view a data schema]
+'''
+> **Related information**
+>
+> * xref:load-from-web-browser.adoc[Load CSV files with the UI]
+> * xref:append-data-from-a-web-browser.adoc[Append data through the UI]
+> * xref:plan-schema.adoc[Schema planning concepts]
+> * xref:create-schema.adoc[Overview of schema building]
+> * xref:use-data-importer.adoc[Import CSV files with tsload]
+> * xref:schema-viewer.adoc[How to view a data schema]

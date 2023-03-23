@@ -14,3 +14,9 @@ Port:: Enter the port number associated with the Synapse database.
 User:: Enter the Synapse account username.
 Password:: Enter the Synapse account password.
 Database:: Specify the database associated with the account.
+
+'''
+> **Related information**
+>
+> * xref:embrace-synapse-add.adoc[]
+> * xref:embrace-synapse-modify.adoc[]

@@ -33,6 +33,7 @@ This diagram shows all of the required connections.
 
 image::data_connect_design.png[]
 
-== Related information
-
-https://thoughtspot.egnyte.com/dl/fuxryvKclK[ThoughtSpot Egnyte site]
+'''
+> **Related information**
+>
+> * link:https://thoughtspot.egnyte.com/dl/fuxryvKclK[ThoughtSpot Egnyte site]

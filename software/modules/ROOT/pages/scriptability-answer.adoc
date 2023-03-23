@@ -105,6 +105,7 @@ The file uploads automatically.
 +
 image::scriptability-cloud-successful-import.png[Upload successful]
 
-== Related Information
-
-* xref:tsl-answer.adoc[Answer TSL specification]
+'''
+> **Related information**
+>
+> * xref:tsl-answer.adoc[Answer TSL specification]
