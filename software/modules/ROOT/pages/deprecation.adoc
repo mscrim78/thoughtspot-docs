@@ -1,25 +1,25 @@
-= Deprecation announcements
+= Deprecated and removed features
 :last_updated: 06/21/2021
 :linkattrs:
 :experimental:
 
-ThoughtSpot sometimes deprecates and then de-supports existing features, replacing them with new and more effective means to use our products.
+ThoughtSpot sometimes deprecates and then removes existing features, replacing them with new and more effective means to use our products.
 In this article, we give you advance notice of features we are discontinuing in future releases.
 
 Please https://community.thoughtspot.com/customers/s/contactsupport[contact^] your Customer Success or SRE team for clarification.
 
-ThoughtSpot _deprecates_ some existing features, and then _de-supports_ them. These terms mean two different things.
+ThoughtSpot _deprecates_ some existing features, and then _removes_ them. These terms mean two different things.
 
 Deprecated::
 A deprecated feature still exists in the product, for backward compatibility, but there is a plan to remove it in a later release. Deprecated features do not receive ongoing support from ThoughtSpot.
 +
 We recommend that you stop using deprecated features as soon as possible, and change your workflows to use the new, improved functionality instead.
 
-De-supported::
-A de-supported feature no longer exists in the product. When you upgrade to a newer release, any workflows that rely on a de-supported feature no longer work.
+Removed::
+A removeed feature no longer exists in the product. When you upgrade to a newer release, any workflows that rely on a removed feature no longer work.
 
-[#de-support-7-0]
-== De-supported in 7.0
+[#remove-7-0]
+== Removed in 7.0
 
 SearchIQ::
 The 7.0 release of ThoughtSpot Software, targeted for March 2021 (LA) and June 2021 (GA), will drop support for  *SearchIQ*. This feature was always in Beta, and was never deployed on production environments.
@@ -29,8 +29,8 @@ As we move to ThoughtSpot Cloud, we incorporate and further enrich the affordanc
 SpotIQ Monitor Headlines::
 The 7.0 release of ThoughtSpot Software, targeted for March 2021 (LA) and June 2021 (GA) will drop support for SpotIQ Headline Monitoring. This feature has been in Beta and was never deployed on production environments.
 
-[#de-support-7-1]
-== De-supported in 7.1
+[#remove-7-1]
+== Removed in 7.1
 
 The 7.1 release of ThoughtSpot Software, targeted for July 2021 (LA) and Oct 2021 (GA), will drop support for the following features:
 
@@ -48,7 +48,7 @@ Replay search::
 This feature allowed you to replay the search used to create an Answer. As an alternative, starting in 7.0.1, use xref:search-assist.adoc[Search Assist] to learn how to use ThoughtSpot search on xref:search-assist-coach.adoc[your company's data].
 
 Learn how to use ThoughtSpot Pinboard::
-This Pinboard contains search replays created in the system. The Replay Search feature is also de-supported in 7.1. Customers currently use *Replay search* and the *Learn how to use ThoughtSpot Pinboard* to learn how to use ThoughtSpot's search on data. As an alternative, starting in 7.0.1, use xref:search-assist.adoc[Search Assist] to learn how to use ThoughtSpot search on xref:search-assist-coach.adoc[your company's data].
+This Pinboard contains search replays created in the system. The Replay Search feature is also removeed in 7.1. Customers currently use *Replay search* and the *Learn how to use ThoughtSpot Pinboard* to learn how to use ThoughtSpot's search on data. As an alternative, starting in 7.0.1, use xref:search-assist.adoc[Search Assist] to learn how to use ThoughtSpot search on xref:search-assist-coach.adoc[your company's data].
 
 Custom actions::
 Starting in the 7.1.0 software release, embed customers can no longer use custom actions created in the *Action customization* section of the Admin Console, or create new custom actions in the Admin Console.
@@ -57,7 +57,7 @@ Instead, starting in the 8.4.0.sw release, if you are embedding through https://
 
 [#deprecated-7-1-1]
 == Deprecated in 7.1.1
-The 7.1.1 release of ThoughtSpot Software, targeted for November 2021 (GA), will deprecate the following features. ThoughtSpot will drop support for these features in a later release. If you have the new Answer experience turned on in 7.1.1, these features are de-supported in 7.1.1. To use these features, turn the new Answer experience off.
+The 7.1.1 release of ThoughtSpot Software, targeted for November 2021 (GA), will deprecate the following features. ThoughtSpot will drop support for these features in a later release. If you have the new Answer experience turned on in 7.1.1, these features are removeed in 7.1.1. To use these features, turn the new Answer experience off.
 
 Multiple join path resolution within the formula editor or a search::
 When you try to search on columns with more than one possible join path, the system no longer allows you to define the join path within the search. Similarly, when you try to create a formula with columns with more than one possible join path, the system does not allow you to define the join path. Instead, the system now prompts you to resolve this issue and avoid confusion or incorrect data by creating a Worksheet with the correct join path.
@@ -75,8 +75,8 @@ ThoughtSpot continues to support R for all customers who currently include R cha
 We support R only in Falcon deployments (data imported into ThoughtSpot), and R integration is disabled by default. It is not available when creating connections and linking to external databases in real time.
 ====
 
-[#de-support-7-1-1]
-== De-supported in 7.1.1
+[#remove-7-1-1]
+== Removed in 7.1.1
 
 The 7.1.1 release of ThoughtSpot Software, targeted for November 2021 (GA), will drop support for the following feature.
 
