@@ -63,6 +63,19 @@ The AI-suggested searches feature is now available for administrators to enable,
 
 image::ai-suggested-searches.png[ai-suggested searches]
 
+ifndef::pendo-links[]
+[#9-3-0-cl-gcp]
+[discrete]
+=== ThoughtSpot Cloud on Google Cloud
+
+
+//Naomi
+
+ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
+
+ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot. To migrate to GCP, contact {support-url}.
+endif::[]
+
 [#9-3-0-cl-cross-filters]
 [discrete]
 === Liveboard cross filters
@@ -178,6 +191,19 @@ When you create a Worksheet, ThoughtSpot automatically creates synonyms for each
 
 image::ai-synonyms.png[A Worksheet with AI synonyms]
 
+ifdef::pendo-links[]
+[#9-3-0-cl-gcp]
+[discrete]
+=== ThoughtSpot Cloud on Google Cloud
+
+
+//Naomi
+
+ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
+
+ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot. To migrate to GCP, contact {support-url}.
+endif::[]
+
 ifndef::free-trial-feature[]
 [#9-3-0-cl-dbt]
 [discrete]
@@ -196,22 +222,6 @@ endif::[]
 
 endif::free-trial-feature[]
 
-ifndef::pendo-links[]
-[#9-3-0-cl-gcp]
-[discrete]
-=== ThoughtSpot Cloud on Google Cloud [.badge.badge-early-access]#Early
-endif::[]
-ifdef::pendo-links[]
-[#9-3-0-cl-gcp]
-[discrete]
-=== ThoughtSpot Cloud on Google Cloud
-endif::[]
-
-//Naomi
-
-ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
-
-ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot.
 
 [#9-3-0-cl-aurora]
 [discrete]
