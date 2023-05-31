@@ -176,6 +176,19 @@ You can now identify the key change drivers for changes in your metrics in a KPI
 [discrete]
 === _Other features and enhancements_
 
+ifdef::pendo-links[]
+[#9-3-0-cl-gcp]
+[discrete]
+=== ThoughtSpot Cloud on Google Cloud
+
+
+//Naomi
+
+ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
+
+ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot. To migrate to GCP, contact {support-url}.
+endif::[]
+
 ifndef::pendo-links[]
 [#9-2-0-cl-synonyms]
 [discrete]
@@ -191,18 +204,7 @@ When you create a Worksheet, ThoughtSpot automatically creates synonyms for each
 
 image::ai-synonyms.png[A Worksheet with AI synonyms]
 
-ifdef::pendo-links[]
-[#9-3-0-cl-gcp]
-[discrete]
-=== ThoughtSpot Cloud on Google Cloud
 
-
-//Naomi
-
-ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
-
-ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot. To migrate to GCP, contact {support-url}.
-endif::[]
 
 ifndef::free-trial-feature[]
 [#9-3-0-cl-dbt]
