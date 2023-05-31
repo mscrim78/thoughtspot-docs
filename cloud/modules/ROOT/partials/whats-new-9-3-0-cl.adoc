@@ -171,10 +171,6 @@ endif::[]
 
 You can now identify the key change drivers for changes in your metrics in a KPI chart.This feature is now available for administrators to enable, without contacting ThoughtSpot Support. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s).
 
-'''
-[#secondary-9-2-0-cl]
-[discrete]
-=== _Other features and enhancements_
 
 ifdef::pendo-links[]
 [#9-3-0-cl-gcp]
@@ -188,6 +184,13 @@ ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS.
 
 ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot. To migrate to GCP, contact {support-url}.
 endif::[]
+
+
+'''
+[#secondary-9-2-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
 
 ifndef::pendo-links[]
 [#9-2-0-cl-synonyms]
