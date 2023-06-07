@@ -272,7 +272,7 @@ ifndef::free-trial-feature[]
 
 // Naomi
 
-Admin users will be able to access a Liveboard reflecting the pricing model purchased and associated with their cluster. Query-based pricing customers see the xref:query-stats.adoc[Billable Query Stats Liveboard], while time-based pricing customers see the xref:consumption-pricing-time-based.adoc#credit-usage-pinboard[Credit Usage Liveboard].
+Admin users will be able to access a Liveboard reflecting the pricing model purchased and associated with their cluster. Query-based pricing customers see the Billable Query Stats Liveboard, while time-based pricing customers see the Credit Usage Liveboard.
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
