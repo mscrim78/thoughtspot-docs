@@ -4,15 +4,15 @@
 :page-aliases: /spotiq/special-topics.adoc
 :page-layout: default-cloud
 :linkattrs:
-:description: Learn the SpotIQ best practices.
+:description: Learn the SpotIQ best practices for custom SpotIQ analysis.
 
-Learn the SpotIQ best practices.
+Learn the SpotIQ best practices for custom SpotIQ analysis.
 
 The SpotIQ feature works without you having to do anything but push a button.
 However, like any other feature, there are things you can do to optimize the feature.
 This page contains some best practices you can use to make SpotIQ more effective when you use it.
 
-== When to invoke SpotIQ
+== When to invoke custom SpotIQ analysis
 
 A good time to run *SpotIQ Analyze* is right after you upload data.
 SpotIQ can very quickly help you find insights in your data.
