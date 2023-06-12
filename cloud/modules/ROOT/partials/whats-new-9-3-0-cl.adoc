@@ -363,6 +363,13 @@ endif::free-trial-feature[]
 
 You can now connect to and query Amazon Aurora and Amazon RDS for PostgreSQL databases using the PostgreSQL connector. For details, see
 ifndef::pendo-links[]
+xref:connections-postgresql.adoc[PostgreSQL].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-postgresql.adoc[PostgreSQL,window=_blank].
+////
+For details, see
+ifndef::pendo-links[]
 xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL] and
 endif::[]
 ifdef::pendo-links[]
@@ -374,6 +381,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL,window=_blank].
 endif::[]
+////
 
 // spell out RDS somewhere
 
