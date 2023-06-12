@@ -232,19 +232,12 @@ endif::free-trial-feature[]
 
 [#9-3-0-cl-aurora]
 [discrete]
-=== Amazon Aurora PostgreSQL connection
+=== Amazon Aurora PostgreSQL and Amazon Relational Database Service (RDS) PostgreSQL connection
 
 // Naomi
 
-You can now create connections from ThoughtSpot to Amazon Aurora PostgreSQL.
+You can now connect to and query Amazon Aurora and Amazon RDS for PostgreSQL databases using the PostgreSQL connector.
 
-[#9-3-0-cl-rds]
-[discrete]
-=== Amazon Relational Database Service (RDS) PostgreSQL connection
-
-// Naomi
-
-You can now create connections from ThoughtSpot to Amazon RDS PostgreSQL.
 
 [#9-3-0-cl-mysql]
 [discrete]
