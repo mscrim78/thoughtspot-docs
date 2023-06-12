@@ -355,27 +355,19 @@ endif::[]
 endif::free-trial-feature[]
 
 
-[#9-3-0-cl-aurora]
-[discrete]
-=== Amazon Aurora PostgreSQL connection
-
-// Naomi
-
-You can now create connections from ThoughtSpot to Amazon Aurora PostgreSQL. For details, see
-ifndef::pendo-links[]
-xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL].
-endif::[]
-ifdef::pendo-links[]
-xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL,window=_blank].
-endif::[]
-
 [#9-3-0-cl-rds]
 [discrete]
-=== Amazon Relational Database Service (RDS) PostgreSQL connection
+=== Amazon Aurora PostgreSQL connection and Amazon Relational Database Service (RDS) PostgreSQL connection
 
 // Naomi
 
-You can now create connections from ThoughtSpot to Amazon RDS PostgreSQL. For details, see
+You can now connect to and query Amazon Aurora and Amazon RDS for PostgreSQL databases using the PostgreSQL connector. For details, see
+ifndef::pendo-links[]
+xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL] and
+endif::[]
+ifdef::pendo-links[]
+xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL,window=_blank] and
+endif::[]
 ifndef::pendo-links[]
 xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL].
 endif::[]
