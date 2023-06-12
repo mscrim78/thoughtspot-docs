@@ -111,14 +111,11 @@ ThoughtSpot Cloud on Google Cloud :: ThoughtSpot Cloud will be available on Goog
 ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot.
 
 
-Amazon Aurora PostgreSQL connection::
-You can now create connections from ThoughtSpot to Amazon Aurora PostgreSQL. For details, see
-xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL].
-
-
-Amazon Relational Database Service (RDS) PostgreSQL connection::
-You can now create connections from ThoughtSpot to Amazon RDS PostgreSQL. For details, see
+Amazon Aurora PostgreSQL connection and Amazon Relational Database Service (RDS) PostgreSQL connection::
+You can now connect to and query Amazon Aurora and Amazon RDS for PostgreSQL databases using the PostgreSQL connector. For details, see
+xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL] and
 xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL].
+
 
 
 MySQL connection::
