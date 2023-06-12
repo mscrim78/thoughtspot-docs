@@ -112,9 +112,8 @@ ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be a
 
 
 Amazon Aurora PostgreSQL connection and Amazon Relational Database Service (RDS) PostgreSQL connection::
-You can now connect to and query Amazon Aurora and Amazon RDS for PostgreSQL databases using the PostgreSQL connector. For details, see
-xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL] and
-xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL].
+You can now connect to and query Amazon Aurora and Amazon RDS for PostgreSQL databases using the PostgreSQL connector.
+//For details, see xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL] and xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL].
 
 
 
