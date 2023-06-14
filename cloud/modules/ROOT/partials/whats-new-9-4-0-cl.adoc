@@ -14,7 +14,7 @@ endif::free-trial-feature[]
 
 [#9-4-0-cl-indexing-queries]
 [discrete]
-=== Indexing Queries Liveboard 
+=== Indexing Queries Liveboard
 
 // Naomi
 
@@ -50,13 +50,6 @@ endif::free-trial-feature[]
 
 Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart. This feature is now available for administrators to enable, without contacting ThoughtSpot Support. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
 
-For more information, see
-ifndef::pendo-links[]
-xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis].
-endif::[]
-ifdef::pendo-links[]
-xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis,window=_blank].
-endif::[]
 
 
 [#9-4-0-cl-verified]
@@ -65,13 +58,7 @@ endif::[]
 
 // Naomi
 
-Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. For more information, see
-ifndef::pendo-links[]
-xref:liveboard-verify.adoc[Verified Liveboards].
-endif::[]
-ifdef::pendo-links[]
-xref:liveboard-verify.adoc[Verified Liveboards,window=_blank].
-endif::[]
+Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness.
 
 [#9-4-0-cl-charts]
 [discrete]
@@ -85,13 +72,7 @@ endif::[]
 
 // Naomi
 
-We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. For more information, see
-ifndef::pendo-links[]
-xref:date-filter.adoc[Date filters for Answers and Liveboards].
-endif::[]
-ifdef::pendo-links[]
-xref:date-filter.adoc[Date filters for Answers and Liveboards,window=_blank].
-endif::[]
+We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title.
 
 image:date-picker.png[Date picker for Answers]
 
@@ -254,13 +235,7 @@ NEEDS EVALUATION
 
 // Naomi
 
-ThoughtSpot Cloud is now available in London when you connect using AWS. See
-ifndef::pendo-links[]
-xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support].
-endif::[]
-ifdef::pendo-links[]
-xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support,window=_blank].
-endif::[]
+ThoughtSpot Cloud is now available in London when you connect using AWS. 
 
 
 NEEDS EVALUATION
