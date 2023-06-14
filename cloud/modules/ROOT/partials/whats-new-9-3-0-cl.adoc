@@ -367,6 +367,7 @@ xref:connections-postgresql.adoc[PostgreSQL].
 endif::[]
 ifdef::pendo-links[]
 xref:connections-postgresql.adoc[PostgreSQL,window=_blank].
+endif::[]
 ////
 For details, see
 ifndef::pendo-links[]
@@ -422,6 +423,20 @@ Admin users will be able to access a Liveboard reflecting the pricing model purc
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
+
+ifndef::pendo-links[]
+[#9-2-0-cl-synonyms]
+[discrete]
+=== Fivetran SpotApp [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-2-0-cl-synonyms]
+[discrete]
+=== Fivetran SpotApp [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+With the Fivetran SpotApp, you can create an ELT job and start syncing data to your cloud data warehouse directly from the SpotApps page.
+
 [discrete]
 === ThoughtSpot Everywhere
 
