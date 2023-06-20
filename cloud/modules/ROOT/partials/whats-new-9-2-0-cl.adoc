@@ -598,7 +598,7 @@ ifdef::pendo-links[]
 === Column and data source overview in Search Data [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-In the Search data page, you now see a short description of your selected data source which helps you understand the kinds of answers you can get from that data source.
+In the Search data page, you now see a short description of your selected data source which helps you understand the kinds of answers you can get from that data source. This is part of the new data panel experience, which is in beta in this release.
 
 Data source information includes the name,
 description, Liveboards created using the data source (if available),
