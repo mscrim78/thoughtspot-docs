@@ -73,7 +73,20 @@ It retains the snapshots from the previous three 4-hour intervals, and two snaps
 Here, ThoughtSpot retains 7 periodic snapshots overall.
 For detailed information about understanding the schedule, see xref:how-to-create-a-schedule.adoc[Understand backup/snapshot schedules].
 
-NOTE: The longest possible backup schedule you can configure is one week (seven days).
+[NOTE]
+====
+The longest possible backup schedule you can configure is one week. This configuration should be entered as:
+
+[source]
+schedule {
+period {
+number: 7
+unit: DAY
+    }
+}
+
+ThoughtSpot does not generate an error for periods greater than seven days, but the snapshot will not be created.
+====
 
 [source]
  $ tscli snapshot-policy show
