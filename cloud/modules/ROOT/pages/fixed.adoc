@@ -17,7 +17,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Issue ID |Description
 
 |SCAL-147691
-|Cannot search by name when sharing an object
+|Cannot search by name when sharing an object.
 
 |SCAL-141234
 |Autocomplete does not work when a search token has a leading whitespace.
