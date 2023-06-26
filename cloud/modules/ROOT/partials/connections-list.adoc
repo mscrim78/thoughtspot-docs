@@ -1,5 +1,3 @@
-* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
-* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL]
 * xref:connections-redshift.adoc[Amazon Redshift]
 * xref:connections-synapse.adoc[Azure Synapse]
 * xref:connections-databricks.adoc[Databricks]
