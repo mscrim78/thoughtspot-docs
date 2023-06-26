@@ -16,16 +16,13 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description
 
-|SCAL-145266
-|Worksheets created from dbt models have _Apply all joins_ option selected by default.
+|SCAL-147691
+|Cannot search by name when sharing an object
 
 |SCAL-141234
-|Autocomplete in search does not work properly when there is a space before the search token.
-|SCAL-141234
-|Autocomplete in search does not work properly when there is a space before the search token.
-|SCAL-151590
-|Imported Liveboard does not retain parameter values.
-|SCAL-147179
-|"Input is invalid" error appears when creating a custom calendar with valid values.
-
+|Autocomplete does not work when a search token has a leading whitespace.
+|SCAL-160338
+|Error in query execution when loading data.
+|SCAL-159531
+|KPI text in tile is truncated when tile size is different than the supported KPI tile sizes.
 |===
