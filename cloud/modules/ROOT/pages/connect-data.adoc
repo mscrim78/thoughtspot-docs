@@ -58,10 +58,8 @@ IMPORTANT: Connections does not support joins across connections.
 [#set-up-connection]
 == Set up your connection
 
-* *xref:connections-amazon-aurora-postgresql-add.adoc[Add an Amazon Aurora PostgreSQL connection]* +
-Create the connection between ThoughtSpot and tables in an external Amazon Aurora PostgreSQL database.
-* *xref:connections-redshift-add.adoc[Add an Amazon RDS PostgreSQL connection]* +
-Create the connection between ThoughtSpot and tables in an external Amazon RDS PostgreSQL database.
+
+
 * *xref:connections-redshift-add.adoc[Add an Amazon Redshift connection]* +
  Create the connection between ThoughtSpot and tables in an external Amazon RedShift database.
 * *xref:connections-synapse-add.adoc[Add an Azure Synapse connection]* +
