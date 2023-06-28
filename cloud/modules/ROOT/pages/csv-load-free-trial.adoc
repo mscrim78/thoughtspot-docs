@@ -14,7 +14,7 @@ Your data should be in a CSV (comma separated values) file before you load it.
 A CSV file is a text file made up of data fields separated by a delimiter and optionally enclosed with an enclosing character.
 
 == Add data files
-Learn how to upload a CSV file. You can also edit that file later, or replace it with a different file. Note that you can only use 1 CSV file at a time.
+Learn how to upload a CSV file. You can also edit that file later, or replace it with a different file. Note that you can only use 1 CSV file at a time. The current file size limit is 10 MB.
 
 include::partial$csv-upload.adoc[]
 
