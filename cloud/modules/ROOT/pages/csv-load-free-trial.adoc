@@ -1,4 +1,4 @@
-= Load CSV files with the UI in Free Trial
+= Load CSV files in Free Trial
 :last_updated:
 :linkattrs:
 :experimental:
