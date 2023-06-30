@@ -10,16 +10,15 @@ You have the flexibility to run ThoughtSpot on an RHEL 7.8, 7.9, 8.1, 8.2, 8.3, 
 
 ThoughtSpot certifies *RHEL 7.8 and 7.9* on the following platforms:
 
-* Bare metal deployments on the two ThoughtSpot-certified hardware appliances: xref:dell.adoc[DELL] and xref:smc.adoc[SMC]
+* Bare metal deployments on the ThoughtSpot-certified hardware appliance: xref:smc.adoc[SMC] and xref:dell.adoc[Dell]
 * Cloud deployments: xref:aws-configuration-options.adoc[Amazon Web Services (AWS) EC2], xref:azure-configuration-options.adoc[Microsoft Azure], and xref:gcp-configuration-options.adoc[Google Cloud Platform (GCP)]
 * xref:vmware.adoc[VMware]
 
-<<<<<<< HEAD
-ThoughtSpot certifies *RHEL 8.1, 8.2, 8.3, 8.4, 8.5, 8.6, and 8.7* on the following platforms:
-=======
-ThoughtSpot certifies *RHEL 8.4, 8.5, and 8.6* on the following platforms:
->>>>>>> 662f169c3... SCAL-136794 - rhel changes
 
+ThoughtSpot certifies *RHEL 8.1, 8.2, 8.3, 8.4, 8.5, 8.6, and 8.7* on the following platforms:
+
+
+* Bare metal deployments on the ThoughtSpot-certified hardware appliance: xref:smc.adoc[SMC]
 * Cloud deployments: xref:aws-configuration-options.adoc[Amazon Web Services (AWS) EC2], xref:azure-configuration-options.adoc[Microsoft Azure]
 * xref:vmware.adoc[VMware]
 
