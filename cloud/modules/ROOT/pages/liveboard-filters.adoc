@@ -30,6 +30,8 @@ NOTE: Filters automatically apply to all tabs in the Liveboard. To specify certa
 
 ThoughtSpot also supports <<cross-filter,ad-hoc filtering>>, so you can filter the data on your Liveboard by selecting a data point on any visualization in the Liveboard. These ad-hoc cross filters are not permanent, and do not appear to other users of the Liveboard.
 
+NOTE: If a hidden column is used in an Answer pinned to a Liveboard, then the entire Liveboard becomes read-only to users. This limits Liveboard functionality, which means the ability to adjust filters and download data is restricted. If you want to make a certain column available only to a subset of users, we recommend using xref:security-data-object.adoc#cls[column-level security].
+
 == Create a Liveboard filter
 
 You can create a filter in the Liveboard view for any Liveboard.
