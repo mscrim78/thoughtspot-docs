@@ -95,6 +95,8 @@ endif::[]
 
 Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. To enable this feature, contact {support-url}.
 
+[#9-4-0-cl-charts]
+[discrete]
 === Geomap chart enhancements
 
 // Naomi
@@ -140,11 +142,13 @@ ThoughtSpot admins now have more control for enabling the new data panel experie
 
 // Mark
 
+////
 [#9-4-0-cl-snowflake-spotapp]
 [discrete]
 === Snowflake Query Profile SpotApp
 
-// Naomi
+// Naomi --have not heard back from Samridh
+////
 
 // [#9-4-0-cl-rbac]
 // [discrete]
@@ -161,14 +165,15 @@ ThoughtSpot admins now have more control for enabling the new data panel experie
 
 // Mark
 
+////
 [#9-4-0-cl-connections]
 [discrete]
 === Connection error messaging improvements
 
-// Naomi
+// Naomi -- can't access Champagne Data connections
 
 // scal-138770
-
+////
 
 [#9-4-0-cl-eureka]
 [discrete]
@@ -183,13 +188,7 @@ We made the following changes to the AI Answer feature:
 * Title and descriptions are now pre-populated when you save an AI Answer.
 
 
-[#9-4-0-cl-ubr]
-[discrete]
-=== UBR re-design to accommodate additional usage metrics
 
-// Naomi
-
-// potentially moved to 9.5.0.cl
 
 // [#9-4-0-cl-ts-object]
 // [discrete]
@@ -267,9 +266,6 @@ You can now create connections from ThoughtSpot to the following connections:
 // Naomi
 
 ThoughtSpot Cloud is now available in London when you connect using AWS. 
-
-
-NEEDS EVALUATION
 
 
 
