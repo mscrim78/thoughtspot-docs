@@ -150,21 +150,6 @@ ThoughtSpot admins now have more control for enabling the new data panel experie
 // Naomi --have not heard back from Samridh
 ////
 
-// [#9-4-0-cl-rbac]
-// [discrete]
-// === RBAC - UI changes for Roles
-
-// Mark
-
-
-// NEEDS EVALUATION
-
-// [#9-4-0-cl-ft]
-// [discrete]
-// === APP BE: FT/TE/PE changes (Orgs 1.5)
-
-// Mark
-
 ////
 [#9-4-0-cl-connections]
 [discrete]
