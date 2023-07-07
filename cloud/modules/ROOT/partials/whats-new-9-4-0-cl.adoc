@@ -32,13 +32,7 @@ We made the following changes to the natural language search feature:
 * You can now interact with the Answers created by natural language search the way you would any other Answer, including sorting values and drilling down.
 * Title and descriptions are now automatically created when you save an AI Answer.
 
-Once enabled, your ThoughtSpot administrator can grant access to the *Natural language search* and *AI-suggested searches* features for users in a group by assigning the *_Can preview ThoughtSpot Sage_* user privilege to the group. You do not need this privilege to access AI-generated Worksheet column synonyms. For more information about ThoughtSpot Sage,
-ifndef::pendo-links[]
-see xref:search-sage.adoc[ThoughtSpot Sage].
-endif::[]
-ifdef::pendo-links[]
-see xref:search-sage.adoc[ThoughtSpot Sage,window=_blank].
-endif::[]
+Once enabled, your ThoughtSpot administrator can grant access to the *Natural language search* and *AI-suggested searches* features for users in a group by assigning the *_Can preview ThoughtSpot Sage_* user privilege to the group. You do not need this privilege to access AI-generated Worksheet column synonyms.
 
 
 ifndef::pendo-links[]
@@ -56,13 +50,6 @@ endif::[]
 
 You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. As an example, you can use custom groups to search for which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products.
 
-For more information, see
-ifndef::pendo-links[]
-xref:reusable-groups.adoc[Custom groups].
-endif::[]
-ifdef::pendo-links[]
-xref:reusable-groups.adoc[Custom groups,window=_blank].
-endif::[]
 
 image::reusable-groups.png[Reusable group example]
 
@@ -89,13 +76,7 @@ endif::[]
 
 // Naomi -- screenshot, move further up. note whether you need to opt in or if it's on by default.
 
-You now receive in-app notifications when items are shared with you, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon. For more information, see
-ifndef::pendo-links[]
-xref:web-notifications.adoc[Web notifications].
-endif::[]
-ifdef::pendo-links[]
-xref:web-notifications.adoc[Web notifications,window=_blank].
-endif::[]
+You now receive in-app notifications when items are shared with you, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon.
 
 [#9-4-0-cl-contextual]
 [discrete]
@@ -106,16 +87,7 @@ endif::[]
 // GA in 9.4.0.cl
 
 Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart.
-//This feature is now available for administrators to enable, without contacting ThoughtSpot Support.
 Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
-
-For more information, see
-ifndef::pendo-links[]
-xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis].
-endif::[]
-ifdef::pendo-links[]
-xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis,window=_blank].
-endif::[]
 
 image:contextual-change.png[Contextual change analysis window]
 
@@ -132,13 +104,7 @@ endif::[]
 
 // Naomi
 
-Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. To enable this feature, contact {support-url}. For more information, see
-ifndef::pendo-links[]
-xref:liveboard-verify.adoc[Verified Liveboards].
-endif::[]
-ifdef::pendo-links[]
-xref:liveboard-verify.adoc[Verified Liveboards,window=_blank].
-endif::[]
+Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. To enable this feature, contact {support-url}.
 
 [#9-4-0-cl-charts]
 [discrete]
@@ -148,24 +114,12 @@ endif::[]
 
 ThoughtSpot now supports the following enhancements for geomap visualizations:
 
-* We now provide geomap data for all countries. For a full list, see
-ifndef::pendo-links[]
-link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries].
-endif::[]
-ifdef::pendo-links[]
-link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries,window=_blank].
-endif::[]
+* We now provide geomap data for all countries.
 * We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
 * We now support multiple levels of subdivisions within a country, rather than just city and zip code.
 * Zip code data is now visualized as an area within a region, rather than a point on a map.
 
-For more information, see
-ifndef::pendo-links[]
-xref:chart-geo.adoc#enhancement[Geo chart enhancements].
-endif::[]
-ifdef::pendo-links[]
-xref:chart-geo.adoc#enhancement[Geo chart enhancements,window=_blank].
-endif::[]
+image::geo-multiple.png[Geomap displaying multiple countries' subdivisions]
 
 ifndef::pendo-links[]
 [#9-4-0-cl-date-picker]
@@ -180,13 +134,7 @@ endif::[]
 
 // Naomi
 
-We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. This feature must be enabled by your administrator. For more information, see
-ifndef::pendo-links[]
-xref:date-filter.adoc[Date filters for Answers and Liveboards].
-endif::[]
-ifdef::pendo-links[]
-xref:date-filter.adoc[Date filters for Answers and Liveboards,window=_blank].
-endif::[]
+We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. This feature must be enabled by your administrator.
 
 image:date-picker.png[Date picker for Answers]
 
@@ -203,13 +151,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:chart-kpi.adoc[KPI charts,window=_blank].
 endif::[]
-Existing Headlines pinned to Liveboards will not be affected in this release. For more information, see
-ifndef::pendo-links[]
-link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts].
-endif::[]
-ifdef::pendo-links[]
-link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts,window=_blank].
-endif::[]
+Existing Headlines pinned to Liveboards will not be affected in this release.
 
 [#9-4-0-cl-sheets]
 [discrete]
@@ -308,13 +250,7 @@ We introduced a Liveboard to answer the following questions: +
 * How long are the indexing queries taking?
 * Which connections have the most failures so that the admin can easily identify them?
 
-Admin users can access the Indexing Queries Liveboard by searching the Liveboards tab, and use the results to improve indexing queries performance. For more information, see
-ifndef::pendo-links[]
-xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
-endif::[]
-ifdef::pendo-links[]
-xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard,window=_blank].
-endif::[]
+Admin users can access the Indexing Queries Liveboard by searching the Liveboards tab, and use the results to improve indexing queries performance.
 
 image::liveboard-indexing-queries.png[Indexing queries Liveboard]
 endif::free-trial-feature[]
@@ -327,32 +263,14 @@ endif::free-trial-feature[]
 
 You can now create connections from ThoughtSpot to:
 
-ifndef::pendo-links[]
-* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL]
-endif::[]
-ifdef::pendo-links[]
-* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL,window=_blank]
-endif::[]
 
-ifndef::pendo-links[]
-* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL]
-endif::[]
-ifdef::pendo-links[]
-* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL,window=_blank]
-endif::[]
-ifndef::pendo-links[]
-* xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL]
-endif::[]
-ifdef::pendo-links[]
-* xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL,window=_blank]
-endif::[]
+* Amazon Aurora for MySQL
 
-ifndef::pendo-links[]
-* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL]
-endif::[]
-ifdef::pendo-links[]
-* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL,window=_blank]
-endif::[]
+* Amazon Aurora for PostgreSQL
+
+* Amazon RDS for MySQL
+
+* Amazon RDS for PostgreSQL
 
 
 
@@ -363,13 +281,7 @@ endif::[]
 
 // Naomi -- reword, clarify effect
 
-ThoughtSpot Cloud is now available in London when you connect using AWS. See
-ifndef::pendo-links[]
-xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support].
-endif::[]
-ifdef::pendo-links[]
-xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support,window=_blank].
-endif::[]
+ThoughtSpot Cloud is now available in London when you connect using AWS.
 
 
 
