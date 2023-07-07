@@ -29,7 +29,7 @@ endif::[]
 We made the following changes to the natural language search feature:
 
 * Redesigned search results page. Filtering facets are now in the left panel.
-* You can now interact with the Answers created by natural language search the way you would any other Answer, including sorting values and drilling down.
+* You can now interact with the Answers created by natural language search, including sorting values and drilling down.
 * Title and descriptions are now automatically created when you save an AI Answer.
 
 Once enabled, your ThoughtSpot administrator can grant access to the *Natural language search* and *AI-suggested searches* features for users in a group by assigning the *_Can preview ThoughtSpot Sage_* user privilege to the group. You do not need this privilege to access AI-generated Worksheet column synonyms.
@@ -48,7 +48,7 @@ endif::[]
 
 // Naomi -- add example and gif! explain reuse
 
-You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. As an example, you can use custom groups to search for which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products.
+You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. As an example, you can use custom groups to search for which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet.
 
 
 image::reusable-groups.png[Reusable group example]
@@ -87,7 +87,7 @@ You now receive in-app notifications when items are shared with you, or when oth
 // GA in 9.4.0.cl
 
 Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart.
-Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
+Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s).
 
 image:contextual-change.png[Contextual change analysis window]
 
@@ -115,9 +115,9 @@ Admin-assigned verifiers can now mark Liveboards as verified. Users can now requ
 ThoughtSpot now supports the following enhancements for geomap visualizations:
 
 * We now provide geomap data for all countries.
-* We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
 * We now support multiple levels of subdivisions within a country, rather than just city and zip code.
 * Zip code data is now visualized as an area within a region, rather than a point on a map.
+* We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
 
 image::geo-multiple.png[Geomap displaying multiple countries' subdivisions]
 
@@ -167,7 +167,7 @@ ThoughtSpot Connected Sheets is an add-on that allows you to connect to a Though
 
 // keep exploring button-- explain flow. Add screenshot-- button and onboarding screen. Reword invite? Move further down.
 
-When new users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
+When new users receive a Share link to ThoughtSpot and view the shared object, they can now click the *Keep exploring* button to be directed to onboarding.
 
 image::keep-exploring.png[Keep exploring button]
 
@@ -281,7 +281,7 @@ You can now create connections from ThoughtSpot to:
 
 // Naomi -- reword, clarify effect
 
-ThoughtSpot Cloud is now available in London when you connect using AWS.
+ThoughtSpot Cloud now supports the London region when you connect using AWS.
 
 
 
