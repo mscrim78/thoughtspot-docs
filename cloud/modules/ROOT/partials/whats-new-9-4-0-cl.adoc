@@ -11,12 +11,18 @@ NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To
 endif::free-trial-feature[]
 
 [#primary-9-4-0-cl]
-
-[#9-4-0-cl-eureka]
+ifndef::pendo-links[]
+[#9-4-0-cl-sage]
 [discrete]
-== ThoughtSpot Sage
+=== ThoughtSpot Sage [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-3-0-cl-sage]
+[discrete]
+=== ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
-=== Natural language search improvements
+==== Natural language search improvements
 
 // Naomi. Release notes only?? screenshot pointing out the changes. Move to the top. Rename: natural language search. Check if early access or GA (sage features). Clarify the "interactive" point, what can you do now.
 
@@ -25,6 +31,14 @@ We made the following changes to the natural language search feature:
 * Redesigned search results page. Filtering facets are now in the left panel.
 * You can now interact with the Answers created by natural language search the way you would any other Answer, including sorting values and drilling down.
 * Title and descriptions are now automatically created when you save an AI Answer.
+
+Once enabled, your ThoughtSpot administrator can grant access to the *Natural language search* and *AI-suggested searches* features for users in a group by assigning the *_Can preview ThoughtSpot Sage_* user privilege to the group. You do not need this privilege to access AI-generated Worksheet column synonyms. For more information about ThoughtSpot Sage,
+ifndef::pendo-links[]
+see xref:search-sage.adoc[ThoughtSpot Sage].
+endif::[]
+ifdef::pendo-links[]
+see xref:search-sage.adoc[ThoughtSpot Sage,window=_blank].
+endif::[]
 
 
 ifndef::pendo-links[]
@@ -275,7 +289,9 @@ We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboa
 
 // Mark -- move to other features and enhancements. add image of admin panel. may not need to call out data fluency
 
-ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable *Data Fluency* by going to *Admin* > *Early Access features*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
+ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable the new data panel experience by going to *Admin* > *Early Access features*, and enabling *Data Fluency*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*
+
+image::dp-experience.png[data panel experience]
 
 ifndef::free-trial-feature[]
 [#9-4-0-cl-indexing-queries]

@@ -22,7 +22,7 @@ endif::[]
 ifdef::pendo-links[]
 [#9-3-0-cl-sage]
 [discrete]
-=== ThoughtSpot Sage
+=== ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
 In this release, ThoughtSpot Sage features are available for administrators to enable, without contacting ThoughtSpot Support. ThoughtSpot Sage makes it easier for you to get answers and insights from your complex data. ThoughtSpot Sage uses  a combination of GPT-3, GPT-3.5T and GPT-4, and the large language models (LLM) of the Microsoft Azure OpenAI Service.
