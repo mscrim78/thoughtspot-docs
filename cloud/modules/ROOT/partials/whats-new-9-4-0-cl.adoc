@@ -12,26 +12,20 @@ endif::free-trial-feature[]
 
 [#primary-9-4-0-cl]
 
-ifndef::free-trial-feature[]
-[#9-4-0-cl-indexing-queries]
+[#9-4-0-cl-eureka]
 [discrete]
-=== Indexing Queries Liveboard
+== ThoughtSpot Sage
 
-// Naomi
+=== Natural language search improvements
 
-// under discussion of when it will be added to Cloud
+// Naomi. Release notes only?? screenshot pointing out the changes. Move to the top. Rename: natural language search. Check if early access or GA (sage features). Clarify the "interactive" point, what can you do now.
 
-We introduced a Liveboard to answer the following questions: +
+We made the following changes to the natural language search feature:
 
-* How many indexing queries are made?
-* What queries are failing and why?
-* How long are the indexing queries taking?
-* Which connections have the most failures so that the admin can easily identify them?
+* Redesigned search results page. Filtering facets are now in the left panel.
+* You can now interact with the Answers created by natural language search the way you would any other Answer, including sorting values and drilling down.
+* Title and descriptions are now automatically created when you save an AI Answer.
 
-Admin users can access the Indexing Queries Liveboard by searching the Liveboards tab, and use the results to improve indexing queries performance.
-
-image::liveboard-indexing-queries.png[Indexing queries Liveboard]
-endif::free-trial-feature[]
 
 ifndef::pendo-links[]
 [#9-4-0-cl-cohorts]
@@ -44,41 +38,72 @@ ifdef::pendo-links[]
 === Custom groups [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi
+// Naomi -- add example and gif! explain reuse
 
-You can now create reusable groups, which can be used to classify values in a list you can then reuse across multiple analyses. Reusable groups are community objects which, unlike formulas, remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet.
+You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. As an example, you can use custom groups to search for which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products.
 
-// Naomi
+For more information, see
+ifndef::pendo-links[]
+xref:reusable-groups.adoc[Custom groups].
+endif::[]
+ifdef::pendo-links[]
+xref:reusable-groups.adoc[Custom groups,window=_blank].
+endif::[]
 
-[#9-4-0-cl-onboarding]
+image::reusable-groups.png[Reusable group example]
+
+////
+ifndef::pendo-links[]
+[#9-4-0-cl-lower]
 [discrete]
-=== Show onboarding for new users following the share link
+=== Table column case definition [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-4-0-cl-lower]
+[discrete]
+=== Table column case definition [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Naomi
 
-// keep exploring button
+////
 
-When users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
 
 [#9-4-0-cl-coms]
 [discrete]
 === Notification center
 
-// Naomi
+// Naomi -- screenshot, move further up. note whether you need to opt in or if it's on by default.
 
-Users can now receive in-app notifications when items are shared with them, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon.
+You now receive in-app notifications when items are shared with you, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon. For more information, see
+ifndef::pendo-links[]
+xref:web-notifications.adoc[Web notifications].
+endif::[]
+ifdef::pendo-links[]
+xref:web-notifications.adoc[Web notifications,window=_blank].
+endif::[]
 
 [#9-4-0-cl-contextual]
 [discrete]
 === Contextual change analysis
 
-// Naomi
+// Naomi-- add image. clarify if it needs to be enabled by admin or if it's fully GA.
 
 // GA in 9.4.0.cl
 
-Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart. This feature is now available for administrators to enable, without contacting ThoughtSpot Support. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
+Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart.
+//This feature is now available for administrators to enable, without contacting ThoughtSpot Support.
+Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
 
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis,window=_blank].
+endif::[]
 
+image:contextual-change.png[Contextual change analysis window]
 
 ifndef::pendo-links[]
 [#9-4-0-cl-verified]
@@ -93,21 +118,40 @@ endif::[]
 
 // Naomi
 
-Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. To enable this feature, contact {support-url}.
+Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. To enable this feature, contact {support-url}. For more information, see
+ifndef::pendo-links[]
+xref:liveboard-verify.adoc[Verified Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-verify.adoc[Verified Liveboards,window=_blank].
+endif::[]
 
 [#9-4-0-cl-charts]
 [discrete]
 === Geomap chart enhancements
 
-// Naomi
+// Naomi-- reword openstreetmap to describe what it is and what it provides. add value prop of new option (not our past supported countries). add image of multiple countries in a single viz. add in a note-- do they need admin to enable?
 
 ThoughtSpot now supports the following enhancements for geomap visualizations:
 
-* We now provide geomap data for all countries.
+* We now provide geomap data for all countries. For a full list, see
+ifndef::pendo-links[]
+link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries].
+endif::[]
+ifdef::pendo-links[]
+link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries,window=_blank].
+endif::[]
 * We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
 * We now support multiple levels of subdivisions within a country, rather than just city and zip code.
 * Zip code data is now visualized as an area within a region, rather than a point on a map.
 
+For more information, see
+ifndef::pendo-links[]
+xref:chart-geo.adoc#enhancement[Geo chart enhancements].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-geo.adoc#enhancement[Geo chart enhancements,window=_blank].
+endif::[]
 
 ifndef::pendo-links[]
 [#9-4-0-cl-date-picker]
@@ -119,59 +163,100 @@ ifdef::pendo-links[]
 [discrete]
 === Date picker enhancement in Search [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
+
 // Naomi
 
-We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title.
+We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. This feature must be enabled by your administrator. For more information, see
+ifndef::pendo-links[]
+xref:date-filter.adoc[Date filters for Answers and Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:date-filter.adoc[Date filters for Answers and Liveboards,window=_blank].
+endif::[]
 
 image:date-picker.png[Date picker for Answers]
 
+[#9-4-0-cl-headline]
+[discrete]
+=== Headline creation and pinning deprecation
+
+// Naomi-- move out of other features section
+
+ThoughtSpot is deprecating the pin Headline to Liveboard feature. Beginning in the 9.4.0.cl Cloud release, users will no longer see the pin icon when they hover over table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, you must create
+ifndef::pendo-links[]
+xref:chart-kpi.adoc[KPI charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-kpi.adoc[KPI charts,window=_blank].
+endif::[]
+Existing Headlines pinned to Liveboards will not be affected in this release. For more information, see
+ifndef::pendo-links[]
+link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts].
+endif::[]
+ifdef::pendo-links[]
+link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts,window=_blank].
+endif::[]
 
 [#9-4-0-cl-sheets]
 [discrete]
 === ThoughtSpot for Connected Sheets plugin
 
-ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery(TM), DataBricks, and others), and use the tools in Google Sheets(TM) for ad-hoc analysis.
+// Mark -- take out trademark?
 
-// Mark
+ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis.
 
 [#9-4-0-cl-data-fluency]
 [discrete]
 === Admin controls for new data panel experience
 
+// Mark -- move to other features and enhancements. add image of admin panel. may not need to call out data fluency
+
 ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable *Data Fluency* by going to *Admin* > *Early Access features*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
 
-// Mark
+[#9-4-0-cl-onboarding]
+[discrete]
+=== Show onboarding for new users following the share link
+
+// Naomi
+
+// keep exploring button-- explain flow. Add screenshot-- button and onboarding screen. Reword invite? Move further down.
+
+When new users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
+
+image::keep-exploring.png[Keep exploring button]
 
 ////
 [#9-4-0-cl-snowflake-spotapp]
 [discrete]
 === Snowflake Query Profile SpotApp
 
-// Naomi --have not heard back from Samridh
+// Naomi
 ////
+
+// [#9-4-0-cl-rbac]
+// [discrete]
+// === RBAC - UI changes for Roles
+
+// Mark
 
 ////
 [#9-4-0-cl-connections]
 [discrete]
 === Connection error messaging improvements
 
-// Naomi -- can't access Champagne Data connections
+// Naomi
 
 // scal-138770
+
 ////
 
-[#9-4-0-cl-eureka]
-[discrete]
-=== AI Answer improvements
 
-// Naomi. Release notes only??
 
-We made the following changes to the AI Answer feature:
+// [#9-4-0-cl-ft]
+// [discrete]
+// === APP BE: FT/TE/PE changes (Orgs 1.5)
 
-* Redesigned search results page. Filtering facets are now in the left panel.
-* AI Answer is now interactive.
-* Title and descriptions are now pre-populated when you save an AI Answer.
-
+// Mark
 
 
 
@@ -185,11 +270,9 @@ We made the following changes to the AI Answer feature:
 [discrete]
 === Worksheet formula indexing
 
-In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the column which contains the formula. 
+// Mark -- move to other features and enhancements.
 
-// Mark
-
-
+In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the formula.
 
 
 
@@ -200,36 +283,51 @@ In this release, worksheet formulas can now be indexed by setting *Suggest value
 [discrete]
 === _Other features and enhancements_
 
-[#9-4-0-cl-headline]
-[discrete]
-=== Headline creation deprecation
 
-// Naomi
-
-ThoughtSpot will deprecate the pin Headline to Liveboard feature. Beginning in the 9.4.0.cl Cloud release, users will no longer see the pin icon when they select table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, we recommend creating
-ifndef::pendo-links[]
-xref:chart-kpi.adoc[KPI charts].
-endif::[]
-ifdef::pendo-links[]
-xref:chart-kpi.adoc[KPI charts,window=_blank].
-endif::[]
-Existing Headlines pinned to Liveboards will not be affected in this release.
 
 [#9-4-0-cl-breakpoint]
 [discrete]
-=== Responsive Liveboards outside ThoughtSpot Everywhere (TSE) scenarios
+=== Responsive Liveboards
 
-// Naomi
+// Naomi. remove TSE wording. add gif showing resize.
 
-We have improved the responsiveness of Liveboards in non-TSE scenarios. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
+We have improved the responsiveness of Liveboards. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
+
+image::downsize.gif[Liveboard resize]
 
 [#9-4-0-cl-mobile]
 [discrete]
 === Liveboard tabs in Mobile app
 
-// Naomi
+// Naomi-- put at top of other features
 
 We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
+
+ifndef::free-trial-feature[]
+[#9-4-0-cl-indexing-queries]
+[discrete]
+=== Indexing Queries Liveboard
+
+// Naomi-- move to other features section, not for business users
+
+
+We introduced a Liveboard to answer the following questions: +
+
+* How many indexing queries are made?
+* Which queries are failing and why?
+* How long are the indexing queries taking?
+* Which connections have the most failures so that the admin can easily identify them?
+
+Admin users can access the Indexing Queries Liveboard by searching the Liveboards tab, and use the results to improve indexing queries performance. For more information, see
+ifndef::pendo-links[]
+xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
+endif::[]
+ifdef::pendo-links[]
+xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard,window=_blank].
+endif::[]
+
+image::liveboard-indexing-queries.png[Indexing queries Liveboard]
+endif::free-trial-feature[]
 
 [#9-4-0-cl-connections]
 [discrete]
@@ -237,20 +335,51 @@ We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboa
 
 // Naomi
 
-You can now create connections from ThoughtSpot to the following connections:
+You can now create connections from ThoughtSpot to:
 
-* Amazon Aurora for MySQL
-* Amazon Aurora for PostgreSQL
-* Amazon RDS for MySQL
-* Amazon RDS for PostgreSQL
+ifndef::pendo-links[]
+* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL,window=_blank]
+endif::[]
+
+ifndef::pendo-links[]
+* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL,window=_blank]
+endif::[]
+ifndef::pendo-links[]
+* xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL,window=_blank]
+endif::[]
+
+ifndef::pendo-links[]
+* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL,window=_blank]
+endif::[]
+
+
+
 
 [#9-4-0-cl-aws]
 [discrete]
-=== New London cloud region
+=== New London cloud region for AWS
 
-// Naomi
+// Naomi -- reword, clarify effect
 
-ThoughtSpot Cloud is now available in London when you connect using AWS. 
+ThoughtSpot Cloud is now available in London when you connect using AWS. See
+ifndef::pendo-links[]
+xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support].
+endif::[]
+ifdef::pendo-links[]
+xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support,window=_blank].
+endif::[]
 
 
 
@@ -259,4 +388,3 @@ ifndef::free-trial-feature[]
 === ThoughtSpot Everywhere
 
 For new features and enhancements introduced in this release of ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
-endif::[]
