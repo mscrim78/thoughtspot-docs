@@ -61,7 +61,7 @@ For more complex worksheets with thousands of columns, multiple use cases combin
 
 == Enabling ThoughtSpot Sage
 
-ThoughtSpot Sage features are available as Private Preview starting in the 9.2.0.cl release. They are disabled by default, and require approval from ThoughtSpot before they can be enabled. If you want to enable ThoughtSpot Sage, contact {support-url}.
+ThoughtSpot Sage features are available as Early Access starting in the 9.3.0.cl release. They are disabled by default, and must be enabled by your administrator. To enable these features, your admin must navigate to the Admin tab, select the *Search & SpotIQ* section, and enable each feature individually.
 
 Once ThoughtSpot Sage is enabled, your ThoughtSpot administrator can do the following:
 
