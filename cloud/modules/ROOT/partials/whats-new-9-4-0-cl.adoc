@@ -267,7 +267,7 @@ You can now create connections from ThoughtSpot to:
 
 * Amazon RDS for PostgreSQL
 
-[#9-4-0-cl-connections]
+[#9-4-0-cl-connection-error]
 [discrete]
 === Connection error messaging improvements
 
