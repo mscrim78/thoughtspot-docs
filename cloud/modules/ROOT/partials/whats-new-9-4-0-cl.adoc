@@ -267,6 +267,18 @@ You can now create connections from ThoughtSpot to:
 
 * Amazon RDS for PostgreSQL
 
+[#9-4-0-cl-connections]
+[discrete]
+=== Connection error messaging improvements
+
+// Naomi
+
+// scal-138770
+
+If you run into an error while creating a connection, you can now click *View details* to see error details and add a comment for your administrator.
+
+image::connection-error-detail.png[A view details pop-up window showing error details, additional details, and a box to write a comment to your administrator]
+
 ifndef::pendo-links[]
 [#9-4-0-cl-lower]
 [discrete]
