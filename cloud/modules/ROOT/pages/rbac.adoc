@@ -24,6 +24,7 @@ CAUTION: Once you enable RBAC it cannot be disabled.
 
 A role is a collection of privileges. The role and its assigned privileges list the actions that can be performed, such as Can administer ThoughtSpot or Can upload user data. Roles can be high-level, like Super Admin, or specific based on your organization’s structure and requirements. Roles are configured and then assigned to groups. For more information about groups, see xref:groups-privileges.adoc[Understand groups and privileges].
 
+
 The following table shows existing ThoughtSpot group privileges and the new more granular RBAC privileges introduced with ThoughtSpot 9.5.0.cl.
 
 |===
@@ -48,6 +49,7 @@ In an Org enabled cluster, this privilege is available only at the primary Org l
 
 |Can view Billing Information|Can view all details under the Billing section.|
 |===
+
 //(assigned to admin group after RBAC migration)
 Previously, administrators were part of the administrator group. Members of this group could manage users, groups, and had view and edit access to all data. In some organizations these functions are broken out in a more granular way between different users. Roles allow you to assign the specific roles and privileges required without including those that are not needed. ThoughtSpot RBAC includes a Super Admin role that includes all of the privileges previously included in the Administrator group to help you migrate to RBAC. Users with this privilege can access all cluster data. This privilege should only be granted in exceptional circumstances.
 
@@ -66,6 +68,11 @@ Developer|Can schedule monitor alerts, manage tags, can download data, and has d
 Administrator|Can manage users and groups, data, and connections.  |
 
 
+|===
+
+
+Can view Billing Information
+|Can view all details under the Billing section.|
 |===
 
 

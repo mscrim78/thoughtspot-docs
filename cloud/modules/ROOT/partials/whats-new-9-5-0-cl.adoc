@@ -81,6 +81,19 @@ The new data panel experience is GA in this release. This is part of the Data Fl
 
 image:new_data_panel.png[new data panel]
 
+[#9-4-0-cl-verified]
+[discrete]
+=== Verified Liveboards
+
+// Naomi
+
+Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. For more information, see
+ifndef::pendo-links[]
+xref:liveboard-verify.adoc[Verified Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-verify.adoc[Verified Liveboards,window=_blank].
+endif::[]
 
 [#9-5-0-cl-filters]
 [discrete]
@@ -138,6 +151,14 @@ We made the following enhancements to ThoughtSpot Mobile:
 ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
 
 ThoughtSpot includes some standard roles to help existing customers transition to RBAC. To enable RBAC, contact {support-url}.
+
+See
+ifndef::pendo-links[]
+xref:rbac.adoc[Understand RBAC and privileges].
+endif::[]
+ifdef::pendo-links[]
+xref:rbac.adoc[Understand RBAC and privileges,window=_blank].
+endif::[]
 
 // Mary
 
@@ -228,8 +249,7 @@ endif::[]
 
 // Naomi-- add image of the knowledge card with info, red box around new metadata.
 
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 For more information, see
 ifndef::pendo-links[]
 xref:catalog-integration.adoc[Catalog integration].
@@ -308,6 +328,14 @@ In this release, the Fivetran connection to SpotApp is GA. Fivetran  helps you m
 === ServiceNow Incident Management (Snowflake Connector for ServiceNow)
 
 In this release, there is a new ServiceNow Incident Management SpotApp which allows you to use your ServiceNow data stored in Snowflake. If you use the ServiceNow Snowflake connector to move your data from ServiceNow to Snowflake, use this SpotApp to track the number of tickets submitted, and understand the efficiency of how those tickets are resolved.
+
+See
+ifndef::pendo-links[]
+xref:spotapps-servicenow.adoc[ServiceNow Incident Management SpotApps].
+endif::[]
+ifdef::pendo-links[]
+xref:spotapps-servicenow.adoc[ServiceNow Incident Management SpotApps,window=_blank].
+endif::[]
 
 // Mark
 
