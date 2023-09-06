@@ -65,14 +65,7 @@ ThoughtSpot delivers some standard roles to help you transition to RBAC. You can
 Business Users|Can schedule monitor alerts, manage tags, download data, and has SpotIQ privilgeges. |
 Analyst |Can schedule monitor alerts, schedule for others, manage sync, manage tags, and has SpotIQ privilgeges. Can administer and bypass RLS. Can manage, upload, and download data.|
 Developer|Can schedule monitor alerts, manage tags, can download data, and has developer and SpotIQ privilgeges.|
-Administrator|Can manage users and groups, data, and connections.  |
-
-
-|===
-
-
-Can view Billing Information
-|Can view all details under the Billing section.|
+Administrator|Can manage users and groups, data, and connections.
 |===
 
 
