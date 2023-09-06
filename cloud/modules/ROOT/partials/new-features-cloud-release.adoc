@@ -58,10 +58,8 @@ Responsive Liveboards:: We have improved the responsiveness of Liveboards. For w
 
 Chart display enhancements:: When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu.
 
-=== ServiceNow Incident Management (Snowflake Connector for ServiceNow)
-
-In this release, there is a new ServiceNow Incident Management SpotApp which allows you to use your ServiceNow data stored in Snowflake. If you use the ServiceNow Snowflake connector to move your data from ServiceNow to Snowflake, use this SpotApp to track the number of tickets submitted, and understand the efficiency of how those tickets are resolved.
-
+ServiceNow Incident Management (Snowflake Connector for ServiceNow):: In this release, there is a new ServiceNow Incident Management SpotApp which allows you to use your ServiceNow data stored in Snowflake. If you use the ServiceNow Snowflake connector to move your data from ServiceNow to Snowflake, use this SpotApp to track the number of tickets submitted, and understand the efficiency of how those tickets are resolved.
++
 For more information, see
 xref:spotapps-servicenow.adoc[ServiceNow Incident Management SpotApps].
 
@@ -106,8 +104,7 @@ Mobile enhancements:: We made the following enhancements to ThoughtSpot Mobile:
 
 * We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
-[#9-5-0-cl-rbac-granular]
-[discrete]
+
 Introduction of roles and more granular access privileges::
 
 ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
