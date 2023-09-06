@@ -249,8 +249,7 @@ endif::[]
 
 // Naomi-- add image of the knowledge card with info, red box around new metadata.
 
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 For more information, see
 ifndef::pendo-links[]
 xref:catalog-integration.adoc[Catalog integration].
