@@ -97,7 +97,13 @@ Optionally, enter a description.
 [#privileges]
 Privileges::
 Check the privileges you want to grant to the role.
++
+image::rbac_create_role.png[RBAC create role]
+
 . Click *Review selection* to continue.
++
+image::rbac_review.png[RBAC review selections]
+
 . Review your selections, and click *Save* to create the new role.
 
 === Edit a role
@@ -117,14 +123,13 @@ To delete a role, follow these steps:
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Roles* from the side navigation bar that appears.
 //<insert screen cap here>
-. Select the role you plan to delete by clicking the box next to the role name.
-If you don’t immediately see the name of the group, try searching for it.
+. Click on the More options menu for the role you want to delete.
+If you don’t immediately see the name of the role, try searching for it.
 . Select *Delete*.
 
 == Assign roles to groups
 Once you have created roles, you can assign them to groups to manage privileges for your users. For more information about assigning roles to groups, see Understand groups and privileges xref:group-management.adoc[Create, edit, or delete a group].
 
-//https://docs.thoughtspot.com/cloud/latest/. <This topic has been updated to include Roles and Privileges with a note that Roles are only available for those with RBAC enabled.>
 
 
 
