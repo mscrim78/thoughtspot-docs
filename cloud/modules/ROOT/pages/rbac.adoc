@@ -61,9 +61,9 @@ ThoughtSpot delivers some standard roles to help you transition to RBAC. You can
 |Super Admin
 |Can manage users and groups and has view and edit access to all data. Users with this privilege can access all cluster data. This privilege should only be granted in exceptional circumstances.|
 
-Business Users|Can schedule monitor alerts, manage tags, download data, and has SpotIQ privilgeges. |
-Analyst |Can schedule monitor alerts, schedule for others, manage sync, manage tags, and has SpotIQ privilgeges. Can administer and bypass RLS. Can manage, upload, and download data.|
-Developer|Can schedule monitor alerts, manage tags, can download data, and has developer and SpotIQ privilgeges.|
+Business Users|Can schedule monitor alerts, manage tags, download data, and has SpotIQ privileges. |
+Analyst |Can schedule monitor alerts, schedule for others, manage sync, manage tags, and has SpotIQ privileges. Can administer and bypass RLS. Can manage, upload, and download data.|
+Developer|Can schedule monitor alerts, manage tags, can download data, and has developer and SpotIQ privileges.|
 Administrator|Can manage users and groups, data, and connections.
 |===
 
