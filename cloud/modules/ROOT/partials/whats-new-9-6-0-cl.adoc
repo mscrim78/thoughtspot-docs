@@ -93,11 +93,7 @@ endif::[]
 
 endif::free-trial-feature[]
 
-[#9-6-0-cl-content]
-[discrete]
-=== Unstructured content [POC]
 
-// Naomi
 
 [#9-6-0-cl-error]
 [discrete]
@@ -326,11 +322,7 @@ endif::free-trial-feature[]
 
 // Naomi
 
-[#9-6-0-cl-nimbus]
-[discrete]
-=== Nimbus - Cloud export service
 
-// Naomi
 
 
 [#9-6-0-cl-onboarding]
