@@ -12,7 +12,7 @@ Roles can be assigned to groups.
 A group can have one or more roles assigned to it.
 When multiple roles are assigned to a group, the privileges available to users within that group are a union of the privileges in each role assigned to the group.
 
-RBAC is disabled by default. To enable this feature, contact ThoughtSpot Support.
+RBAC is disabled by default. To enable this feature, contact {support-url}.
 
 CAUTION: Once you enable RBAC it cannot be disabled.
 
@@ -30,24 +30,22 @@ The following table shows existing ThoughtSpot group privileges and the new more
 |===
 |ThoughtSpot privilege |ThoughtSpot RBAC privileges|Description
 
-|Can administer ThoughtSpot
+.7+|Can administer ThoughtSpot |Can manage Users|Can create, view, update and delete users. This is an administrative privilege.
 
-|Can manage Users|Can create, view, update and delete users. This is an administrative privilege.|
+|Can manage Groups|Can create, view, update and delete groups. This is an administrative privilege.
 
-|Can manage Groups|Can create, view, update and delete groups. This is an administrative privilege.|
-
-|Can manage Roles|Can create, view, update and delete roles. This is an administrative privilege.|
+|Can manage Roles|Can create, view, update and delete roles. This is an administrative privilege.
 
 |Can manage Orgs|Can create, view, update and delete Orgs in a multi-tenancy environment. This privilege is available only in Org enabled clusters.
-In an Org enabled cluster, this privilege is available only at the primary Org level and is not visible to any other Orgs.|
+In an Org enabled cluster, this privilege is available only at the primary Org level and is not visible to any other Orgs.
 
-|Can manage Authentication|Can manage identity and access management.|
+|Can manage Authentication|Can manage identity and access management.
 
-|Can manage Application settings|Can manage application settings.|
+|Can manage Application settings|Can manage application settings.
 
-|Can view System activities|Can view all options under the System activities section.|
+|Can view System activities|Can view all options under the System activities section.
 
-|Can view Billing Information|Can view all details under the Billing section.|
+|Can view Billing Information|Can view all details under the Billing section.
 |===
 
 //(assigned to admin group after RBAC migration)
@@ -56,6 +54,7 @@ Previously, administrators were part of the administrator group. Members of this
 === RBAC roles
 ThoughtSpot delivers some standard roles to help you transition to RBAC. You can also create custom roles with custom privileges based on your organizational needs. The following are the standard roles delivered with ThoughtSpot.
 
+[cols="20%,80%"]
 |===
 |Role |Description
 
