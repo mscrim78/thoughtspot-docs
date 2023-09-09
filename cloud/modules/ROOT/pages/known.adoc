@@ -56,4 +56,18 @@ Null formulas exist.
 *Workaround*:
 
 Remove null formulas.
+
+|SCAL-172348
+|_User_admin_ granular privilege is not being followed when user is created by ThoughtSpot public v1 APIs.
+a|*Symptoms*:
+
+User admin can't create, read, update, or delete users by using ThoughtSpot public v1 user APIs.
+
+*Conditions*:
+
+Role-based access control (RBAC) is enabled and customer is using ThoughtSpot public v1 APIs.
+
+*Workaround*:
+
+Perform the required operations using the _admin_ privilege or use ThoughtSpot Everywhere (TSE) v2 APIs with the _User admin_ privilege.
 |===
