@@ -61,7 +61,7 @@ Remove null formulas.
 |_User_admin_ granular privilege is not being followed when user is created by ThoughtSpot public v1 APIs.
 a|*Symptoms*:
 
-User admin can't create, read, update, or delete users by using ThoughtSpot public v1 user APIs.
+_User_admin_ can't create, read, update, or delete users by using ThoughtSpot public v1 user APIs.
 
 *Conditions*:
 
