@@ -23,14 +23,6 @@ Verified Liveboards:: Admin-assigned verifiers can now mark Liveboards as verifi
 
 Rename filters on a Liveboard:: You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, select *Filter options*.
 
-
-* How many indexing queries are made?
-* What queries are failing and why?
-* How long are the indexing queries taking?
-* Which connections have the most failures so that the admin can easily identify them?
-+
-Admin users can access the Indexing Queries Liveboard from the admin tab, and use the results to improve indexing queries performance. For more information, see xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
-
 Custom groups [.badge.badge-beta-relnotes]#Beta#:: You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see xref:custom-groups.adoc[Custom groups].
 
 Date picker enhancement in Search:: We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. For more information, see
