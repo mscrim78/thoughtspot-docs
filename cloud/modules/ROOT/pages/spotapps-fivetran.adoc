@@ -63,8 +63,14 @@ To create a job to copy data from your source application into your cloud data w
 . Go to the SpotApp you want to use.
 . Select the *Connector Blocks* tab.
 . For Fivetran, click *Configure*.
++
+image::fivetran-config1.png[]
 . Enter the _API key_ and _API Secret_ for Fivetran and click *Continue*.
-. Choose the _Destination_ cloud data warehouse, enter the _Schema_ and click *Continue*.
++
+image::fivetran-config2.png[]
+. Choose the _Destination_, enter the _Schema_, select the _Sync frequency_, and click *Next*.
++
+image::fivetran-config3.png[]
 . In the confirmation screen, click *Authorize*.
 +
 A page from Fivetran appears with additional details about setup requirements in Fivetran.
