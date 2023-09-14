@@ -257,7 +257,7 @@ We made the following enhancements to verified Liveboards:
 
 * When you request verification, you can now see the underlying data sources that will be shared with the verifier.
 * The name of the Liveboard now appears in verification request emails.
-* A banner appears when you edit an Answer on, or pin an Answer to, a verified Liveboard, warning that making any modification will change the "Verified" banner to one that advises the Liveboard has been modified and may need to be verified again.
+* A banner appears when you edit an Answer on, or pin an Answer to, a verified Liveboard, warning that making any modification will add a banner that advises the Liveboard has been modified and may need to be verified again.
 
 
 [#9-6-0-cl-billing]
