@@ -43,11 +43,7 @@ NEEDS EVALUATION
 
 // Mary
 
-[#9-6-0-cl-nls]
-[discrete]
-=== Context-based column selection in Eureka NLS
 
-// Naomi
 
 [#9-6-0-cl-kpi]
 [discrete]
