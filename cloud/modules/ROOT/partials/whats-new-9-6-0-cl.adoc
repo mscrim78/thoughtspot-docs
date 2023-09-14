@@ -66,8 +66,11 @@ endif::[]
 
 // Naomi
 
-When running change analysis, you can now see additional insights on attributes not included in your analysis. For example, ThoughtSpot might detect values that underwent the most significant percentage change between the two data points defined in your analysis, or identify values whose share of the total changed the most. If such changes are present in the data, the additional insights appear below the main analysis.
+When running change analysis, you can now see additional insights on attributes not included in your analysis. For example, ThoughtSpot might detect values that underwent the most significant percentage change between the two data points defined in your analysis, or identify values whose share of the total changed the most. If such changes are present in the data, the additional insights appear below the main analysis in the Change analysis pop-up.
 
+// NOTE: Additional insights are only available for Sum and Count aggregates.
+
+image::additional-insight.png[A change analysis window with more insights below]
 
 
 endif::free-trial-feature[]
@@ -180,11 +183,13 @@ Admin users can now see indexing statistics for their cluster using the Index St
 
 image:index-statistics.png[Index statistics]
 
+////
 [#9-6-0-cl-byok]
 [discrete]
 === BYOK implementation in SaaS v2 - GCP phase 1
 
 // Mark
+////
 
 [#9-6-0-cl-dbt]
 [discrete]
@@ -200,7 +205,7 @@ In the past, ThoughtSpot generated a new Worksheet every time a user edited an e
 
 Previously, when a Worksheet was created, the default worksheet join rule was "apply all joins". Currently, "apply joins progressively" is the default. This means that when a Search is done on the Worksheet, joins are applied as each search term is added, rather than applying all joins to every Search.
 
-
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-6-0-cl-cache]
@@ -213,15 +218,12 @@ ifdef::pendo-links[]
 === View search cache [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi
+// Naomi -- may not be external, waiting on Manish's response
+////
 
 endif::free-trial-feature[]
 
-[#9-6-0-cl-connectivity]
-[discrete]
-=== Private connectivity - SaaS v2
 
-// Naomi
 
 [#9-6-0-cl-athena]
 [discrete]
@@ -247,37 +249,16 @@ NEEDS EVALUATION
 
 [#9-6-0-cl-verified]
 [discrete]
-=== Phase 1: Verified Liveboards spillover items
+=== Verified Liveboards
 
 // Naomi
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-6-0-cl-looker]
-[discrete]
-=== Looker: Query Gen and Search Data changes [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-6-0-cl-looker]
-[discrete]
-=== Looker: Query Gen and Search Data changes [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
+We made the following enhancements to verified Liveboards:
 
-// Mark
+* When you request verification, you can now see the underlying data sources that will be shared with the verifier.
+* The name of the Liveboard now appears in verification request emails.
+* A banner appears when you edit an Answer on, or pin an Answer to, a verified Liveboard, warning that making any modification will change the "Verified" banner to one that advises the Liveboard has been modified and may need to be verified again.
 
-endif::free-trial-feature[]
-
-[#9-6-0-cl-byok-design]
-[discrete]
-=== BYOK design in SaaS v2 - GCP and AWS
-
-// Mark
-
-[#9-6-0-cl-semantic]
-[discrete]
-=== Looker: Semantic Layer integration
-
-// Mark
 
 [#9-6-0-cl-billing]
 [discrete]
@@ -315,11 +296,6 @@ endif::free-trial-feature[]
 
 // Mary
 
-[#9-6-0-cl-default]
-[discrete]
-=== Enable Orgs by default on all clusters
-
-// Mark
 
 [#9-6-0-cl-accessibility]
 [discrete]
@@ -336,15 +312,14 @@ endif::free-trial-feature[]
 
 [#9-6-0-cl-hidden]
 [discrete]
-=== Add 'Hidden columns' section in table configuration
+=== Hidden columns in tables
 
 // Naomi
 
-[#9-6-0-cl-pivot]
-[discrete]
-=== Pivot table with having filter
+You can now hide a column from your table or visualization without removing it from your current Search. If you hide the column you're using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu image:icon-gear-10px.png[gear icon], and drag the selected column to *Hidden Columns*.
 
-// Naomi
+image::hidden-column.png[A table with product as a hidden column]
+
 
 
 
