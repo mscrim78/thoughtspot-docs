@@ -12,6 +12,9 @@
 
 Before you create a sync to {connection} from ThoughtSpot, sign in to {connection} to find your instance URL, Client Secret, and Client ID. You need this information to create the connection to send your data to {connection}.
 
+NOTE: Users in the US region should configure the following redirect URL in ServiceNow: https://seekwell.dataplane-public.aws-us-east-1.thoughtspot.cloud/servicenow_save_oauth. +
+Users in the EU region should use: https://seekwell.dataplane-public.aws-eu-central-1.thoughtspot.cloud/servicenow_save_oauth.
+
 
 == Sync to {connection} from an Answer
 
