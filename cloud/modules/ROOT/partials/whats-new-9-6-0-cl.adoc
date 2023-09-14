@@ -12,37 +12,25 @@ endif::free-trial-feature[]
 
 [#primary-9-6-0-cl]
 
+////
 [#9-6-0-cl-literacy]
 [discrete]
 === Literacy: remove multiple date bucketing on the same column logic
 
 // Mary
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-6-0-cl-tooltip]
-[discrete]
-=== Tooltip customization [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-6-0-cl-tooltip]
-[discrete]
-=== Tooltip customization [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mary
-
-endif::free-trial-feature[]
+////
 
 
-NEEDS EVALUATION
 
+
+
+////
 [#9-6-0-cl-rbac]
 [discrete]
 === RBAC with orgs: Admin Sidebar UI changes as per user privileges
 
 // Mary
-
+////
 
 ////
 [#9-6-0-cl-kpi]
@@ -56,12 +44,12 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-6-0-cl-change]
 [discrete]
-=== Change analysis: Additional interesting insights [.badge.badge-beta]#Beta#
+=== Change analysis: Additional insights [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-6-0-cl-change]
 [discrete]
-=== Change analysis: Additional interesting insights [.badge.badge-beta-whats-new]#Beta#
+=== Change analysis: Additional insights [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi
@@ -219,10 +207,9 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi -- may not be external, waiting on Manish's response
-////
 
 endif::free-trial-feature[]
-
+////
 
 
 [#9-6-0-cl-athena]
@@ -243,8 +230,6 @@ You can now create connections from ThoughtSpot to Amazon Athena.
 
 
 
-NEEDS EVALUATION
-
 
 
 [#9-6-0-cl-verified]
@@ -260,54 +245,24 @@ We made the following enhancements to verified Liveboards:
 * A banner appears when you edit an Answer on, or pin an Answer to, a verified Liveboard, warning that making any modification will add a banner that advises the Liveboard has been modified and may need to be verified again.
 
 
-[#9-6-0-cl-billing]
-[discrete]
-=== Billing related changes for customers on shared clusters
 
-// Mark
-
-[#9-6-0-cl-orgs]
-[discrete]
-=== Loading balancing customers on shared clusters as different orgs
-
-// Mary
-
+////
 [#9-6-0-cl-snapshot]
 [discrete]
 === Org aware snapshot and org statistics
 
 // Mary
+////
 
-[#9-6-0-cl-granular]
-[discrete]
-=== Granular privileges for FT, TE, Enterprise - Orgs
 
-// Mary
 
-[#9-6-0-cl-enablement]
-[discrete]
-=== [Place holder] Orgs enablement default for all clusters (Org0 working gaps)
-
-// Mary
-
+////
 [#9-6-0-cl-users]
 [discrete]
 === Users and Groups V2 UI (Orgs 1.5)
 
 // Mary
-
-
-[#9-6-0-cl-accessibility]
-[discrete]
-=== Accessibility improvements phase 1
-
-// Mark
-
-[#9-6-0-cl-hadoop]
-[discrete]
-=== Upgrade Hadoop 2 to Hadoop 3
-
-// Mark
+////
 
 
 [#9-6-0-cl-hidden]
@@ -323,12 +278,13 @@ image::hidden-column.png[A table with product as a hidden column]
 
 
 
-
+////
 [#9-6-0-cl-onboarding]
 [discrete]
 === LCM changes for onboarding a customer on shared cluster (Essential/ Pro Edition) as an org
 
 // Mary
+////
 
 ifndef::free-trial-feature[]
 [discrete]
