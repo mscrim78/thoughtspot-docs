@@ -185,7 +185,7 @@ image:index-statistics.png[Index statistics]
 
 // Naomi
 
-In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, when you add to a dbt Worksheet in ThoughtSpot and sync to dbt, the changes are reflected on the ThoughtSpot Worksheet and the underlying dbt object. Users can update existing objects, update an existing object and create a new object, or simply create a new object.
+In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, when you add to a dbt Worksheet in ThoughtSpot and sync to dbt, the changes are reflected on the ThoughtSpot Worksheet and the underlying dbt object. Users can update an object, update an object and create a new object, or simply create a new object.
 
 [#9-6-0-cl-dbt-hardening]
 [discrete]
@@ -242,7 +242,7 @@ We made the following enhancements to verified Liveboards:
 
 * When you request verification, you can now see the underlying data sources that will be shared with the verifier.
 * The name of the Liveboard now appears in verification request emails.
-* A banner appears when you edit an Answer on, or pin an Answer to, a verified Liveboard, warning that making any modification will add a banner that advises the Liveboard has been modified and may need to be verified again.
+* When editing an Answer on or pinning an Answer to a verified Liveboard, a warning banner appears indicating it may need to be verified again.
 
 
 
