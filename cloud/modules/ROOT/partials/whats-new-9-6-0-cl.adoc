@@ -54,7 +54,7 @@ endif::[]
 
 // Naomi
 
-When running change analysis, you can now see additional insights on attributes not included in your analysis. For example, ThoughtSpot might detect values that underwent the most significant percentage change between the two data points defined in your analysis, or identify values whose share of the total changed the most. If such changes are present in the data, the additional insights appear below the main analysis in the Change analysis pop-up.
+When running change analysis, you can now see additional insights on attributes not included in your analysis. For example, ThoughtSpot might detect values that underwent the most significant percentage change between the two data points defined in your analysis, or identify values whose share of the total changed the most. If such changes are present in the data, the additional insights appear below the main analysis in the change analysis pop-up window.
 
 // NOTE: Additional insights are only available for Sum and Count aggregates.
 
@@ -72,12 +72,12 @@ endif::[]
 ifndef::pendo-links[]
 [#9-6-0-cl-embed]
 [discrete]
-=== Embedding in Note tiles [.badge.badge-early-access]#Early Access#
+=== Embedding in note tiles [.badge.badge-early-access]#Early Access#
 endif::[]
 
 // Naomi
 
-You can now embed content such as videos, pdfs, or figma files into Liveboards using the Note Tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL for the content you want to embed. You can interact with the content embedded in a Liveboard like you would with a website. This feature must be enabled by your administrator.
+You can now embed content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or embed code for your content. You can interact with the content embedded in a Liveboard like you would with a website. This feature must be enabled by your administrator.
 
 image:embed-note-tile.gif[Animation demonstrating how to embed content in a Liveboard]
 
@@ -185,7 +185,7 @@ image:index-statistics.png[Index statistics]
 
 // Naomi
 
-In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, when you add to a dbt Worksheet in ThoughtSpot and sync to dbt, the changes are reflected on the ThoughtSpot Worksheet and the underlying dbt object. Users can update existing objects, update an existing object and create a new object, or simply create a new object.
+In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, when you add to a dbt Worksheet in ThoughtSpot and sync to dbt, the changes are reflected on the ThoughtSpot Worksheet and the underlying dbt object. Users can update an object, update an object and create a new object, or simply create a new object.
 
 [#9-6-0-cl-dbt-hardening]
 [discrete]
@@ -242,7 +242,7 @@ We made the following enhancements to verified Liveboards:
 
 * When you request verification, you can now see the underlying data sources that will be shared with the verifier.
 * The name of the Liveboard now appears in verification request emails.
-* A banner appears when you edit an Answer on, or pin an Answer to, a verified Liveboard, warning that making any modification will add a banner that advises the Liveboard has been modified and may need to be verified again.
+* When editing an Answer on or pinning an Answer to a verified Liveboard, a warning banner appears indicating it may need to be verified again.
 
 
 
