@@ -21,7 +21,7 @@ Before you can use the {spotapp}, you must have the following:
 +
 NOTE: You must generate these in Fivetran.
 
-* Credentials for a supported cloud data warehouse into which Fivetran will write the data
+* Existing connection in Fivetran to a cloud data warehouse into which Fivetran will write the data
 * Credentials for source application from which Fivetran will copy the data (Examples: Salesforce, ServiceNow, Jira, etc)
 * You must create views based on the following {application} tables in your cloud data warehouse. If you already created the views, you only need access to the views, not the tables. Refer to <<schema,{spotapp} schema>> for more details.
 ** pg_user
@@ -65,19 +65,19 @@ To create a job to copy data from your source application into your cloud data w
 . For Fivetran, click *Configure*.
 +
 image::fivetran-config1.png[]
-. Enter the _API key_ and _API Secret_ for Fivetran and click *Continue*.
+. Enter the _API key_ and _API Secret_ for Fivetran and click *Next*.
 +
 image::fivetran-config2.png[]
-. Choose the _Destination_, enter the _Schema_, select the _Sync frequency_, and click *Next*.
+. For _Destination_, select the name of the connection to a cloud data warehouse you set up in Fivetran, create a _Schema_ name, select the _Sync frequency_, and then click *Next*.
 +
 image::fivetran-config3.png[]
-. In the confirmation screen, click *Authorize*.
+. In the Authorize screen, click *Authorize*.
 +
-A page from Fivetran appears with additional details about setup requirements in Fivetran.
-. Once you have completed the required steps in Fivetran, click *Authorize*.
+A page from Fivetran indicates ThoughtSpot is using Fivetran to connect to your source application.
+. Click *Continue*.
 +
-A login page from the source application appears.
-. Enter the credentials for the source application, and log in.
+The next page in Fivetran indicates the information you need to provide to connect Fivetran to your source application.
+. Enter all the credentials for the source application, and click *Save & Test*.
 +
 The SpotApp page appears again with the _Connector Blocks_ tab selected. A green checkmark appears next to the Fivetran connector block indicating that the ELT job has been created in Fivetran.
 +
