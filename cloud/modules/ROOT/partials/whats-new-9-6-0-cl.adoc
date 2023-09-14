@@ -54,7 +54,7 @@ endif::[]
 
 // Naomi
 
-When running change analysis, you can now see additional insights on attributes not included in your analysis. For example, ThoughtSpot might detect values that underwent the most significant percentage change between the two data points defined in your analysis, or identify values whose share of the total changed the most. If such changes are present in the data, the additional insights appear below the main analysis in the Change analysis pop-up.
+When running change analysis, you can now see additional insights on attributes not included in your analysis. For example, ThoughtSpot might detect values that underwent the most significant percentage change between the two data points defined in your analysis, or identify values whose share of the total changed the most. If such changes are present in the data, the additional insights appear below the main analysis in the change analysis pop-up window.
 
 // NOTE: Additional insights are only available for Sum and Count aggregates.
 
