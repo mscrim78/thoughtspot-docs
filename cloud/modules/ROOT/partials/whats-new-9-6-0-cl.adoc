@@ -261,7 +261,7 @@ We made the following enhancements to verified Liveboards:
 [discrete]
 === Users and Groups V2 UI (Orgs 1.5)
 
-// Mary - Waiting for confirmation re PM and doc requirement
+// Mary - No doc required for 9.6.0.cl. SCAL-159425 is targetted for 9.8.0.cl and will complete this feature.
 ////
 
 
