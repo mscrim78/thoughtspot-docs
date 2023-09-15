@@ -101,7 +101,7 @@ Mobile enhancements:: We made the following enhancements to ThoughtSpot Mobile:
 * We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
 
-Introduction of roles and more granular access privileges::
+Introduction of roles and more granular access privileges [.badge.badge-private-preview]#Private Preview#::
 
 ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
 +
