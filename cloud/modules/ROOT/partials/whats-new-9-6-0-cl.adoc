@@ -54,7 +54,7 @@ endif::[]
 
 // Naomi
 
-When running change analysis, you can now see additional insights on attributes not included in your analysis. For example, ThoughtSpot might detect values that underwent the most significant percentage change between the two data points defined in your analysis, or identify values whose share of the total changed the most. If such changes are present in the data, the additional insights appear below the main analysis in the change analysis pop-up window.
+When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window.
 
 // NOTE: Additional insights are only available for Sum and Count aggregates.
 
@@ -77,7 +77,7 @@ endif::[]
 
 // Naomi
 
-You can now embed content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or embed code for your content. You can interact with the content embedded in a Liveboard like you would with a website. This feature must be enabled by your administrator.
+You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website. This feature must be enabled by your administrator.
 
 image:embed-note-tile.gif[Animation demonstrating how to embed content in a Liveboard]
 
@@ -128,7 +128,7 @@ endif::[]
 
 // Naomi
 
-You can now tag other users, add or reply to comments, or subscribe to comment threads directly on a Liveboard. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on.
+You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on.
 This feature must be enabled by your administrator.
 
 image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
