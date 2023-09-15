@@ -151,7 +151,7 @@ endif::[]
 ifdef::pendo-links[]
 [#9-5-0-cl-rbac-granular]
 [discrete]
-=== Introduction of roles and more granular access privileges
+=== Introduction of roles and more granular access privileges [.badge.badge-private-preview]#Private Preview#
 endif::[]
 
 ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
