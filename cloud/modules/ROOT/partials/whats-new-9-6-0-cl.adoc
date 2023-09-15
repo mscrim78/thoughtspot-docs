@@ -17,7 +17,7 @@ endif::free-trial-feature[]
 [discrete]
 === Literacy: remove multiple date bucketing on the same column logic
 
-// Mary
+// Mary - Moved to 9.0.7.cl release
 ////
 
 
@@ -29,7 +29,7 @@ endif::free-trial-feature[]
 [discrete]
 === RBAC with orgs: Admin Sidebar UI changes as per user privileges
 
-// Mary
+// Mary - Marked as no doc required, but I think is a mistake, so I'm waiting for confirmation from Vijay.
 ////
 
 ////
@@ -251,7 +251,7 @@ We made the following enhancements to verified Liveboards:
 [discrete]
 === Org aware snapshot and org statistics
 
-// Mary
+// Mary - Sent to Sanditya to confirm the no doc needed status.
 ////
 
 
@@ -261,7 +261,7 @@ We made the following enhancements to verified Liveboards:
 [discrete]
 === Users and Groups V2 UI (Orgs 1.5)
 
-// Mary
+// Mary - Waiting for confirmation re PM and doc requirement
 ////
 
 
@@ -283,7 +283,7 @@ image::hidden-column.png[A table with product as a hidden column]
 [discrete]
 === LCM changes for onboarding a customer on shared cluster (Essential/ Pro Edition) as an org
 
-// Mary
+// Mary - Sent to Maheshwari to confirm the no doc needed tag.
 ////
 
 ifndef::free-trial-feature[]
