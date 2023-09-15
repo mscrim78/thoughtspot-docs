@@ -283,7 +283,7 @@ image::hidden-column.png[A table with product as a hidden column]
 [discrete]
 === LCM changes for onboarding a customer on shared cluster (Essential/ Pro Edition) as an org
 
-// Mary - Sent to Maheshwari to confirm the no doc needed tag.
+// Mary - Confirmed no doc needed for 9.6.0.cl. SCAL-154079 should be targetted for 9.8.0.cl per Maheshwari.
 ////
 
 ifndef::free-trial-feature[]
