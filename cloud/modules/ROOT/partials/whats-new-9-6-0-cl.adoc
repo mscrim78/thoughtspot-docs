@@ -44,12 +44,12 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-6-0-cl-change]
 [discrete]
-=== Change analysis: Additional insights [.badge.badge-beta]#Beta#
+=== Change analysis: More insights [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-6-0-cl-change]
 [discrete]
-=== Change analysis: Additional insights [.badge.badge-beta-whats-new]#Beta#
+=== Change analysis: More insights [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi
@@ -97,11 +97,37 @@ endif::[]
 
 // Naomi
 
-You can now see the state of query execution for any Liveboard visualization while it loads. If a visualization takes longer than three seconds to load, ThoughtSpot displays the current query execution status to help users identify the reason for the delay.
+You can now see the state of query execution for any Liveboard visualization while it loads. If a visualization takes longer than three seconds to load, ThoughtSpot displays the current query execution status (executing query, waiting for connection, or processing query) to help users identify the reason for the delay.
 
 image::query-execution.png[Liveboard displaying query execution status as visualizations load]
 
 endif::free-trial-feature[]
+
+[#9-6-0-cl-metadata]
+[discrete]
+=== Alation metadata
+
+Users can now see metadata information on tables and columns imported from Alation. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+
+image::catalog-integration.png[Column with description and verification status showing]
+
+[#9-6-0-cl-rename]
+[discrete]
+=== Renaming columns in an Answer
+
+// Naomi
+
+You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made on an Answer are not reflected in the underlying Worksheet.
+
+[#9-6-0-cl-hidden]
+[discrete]
+=== Hidden columns in tables
+
+// Naomi
+
+You can now hide a column from your table without removing it from your current Search. If you hide the column you're using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu image:icon-gear-10px.png[gear icon], and drag the selected column to *Hidden Columns*.
+
+image::hidden-column.png[A table with product as a hidden column]
 
 
 ////
@@ -128,12 +154,25 @@ endif::[]
 
 // Naomi
 
-You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on.
+You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. Users can point out insights or reach out for clarification without leaving ThoughtSpot. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on.
 This feature must be enabled by your administrator.
 
 image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
 
 endif::free-trial-feature[]
+
+[#9-6-0-cl-verified]
+[discrete]
+=== Verified Liveboards
+
+// Naomi
+
+We made the following enhancements to verified Liveboards:
+
+* When you request verification, you can now see the underlying data sources that will be shared with the verifier.
+* The name of the Liveboard now appears in verification request emails.
+* When editing an Answer on or pinning an Answer to a verified Liveboard, a warning banner appears indicating it may need to be verified again.
+
 
 [#9-6-0-cl-slides]
 [discrete]
@@ -148,23 +187,17 @@ ThoughtSpot Connected Slides is an add-on that allows you to insert charts and l
 
 [#9-6-0-cl-alation]
 [discrete]
-=== Alation data catalog integration
+=== Alation catalog integration
 
 // Naomi
 
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status.
 
 
-image::catalog-integration.png[Column with description and verification status showing]
+image::alation-data-governance.png[Alation data catalog setup page]
 
 
-[#9-6-0-cl-rename]
-[discrete]
-=== Renaming column names
 
-// Naomi
-
-You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made on an Answer are not reflected in the underlying Worksheet.
 
 
 [#9-6-0-cl-sage]
@@ -173,7 +206,7 @@ You can now rename columns in an Answer and see the new name reflected on the ta
 
 // Naomi
 
-Admin users can now see indexing statistics for their cluster using the Index Statistics Liveboard. You can filter the results by connection, table, and column, and see the breakdown of indexed tokens in the visualizations. This Liveboard helps you see how many tokens you are using, and can help you diagnose indexing issues and errors.
+Admin users can now see indexing statistics for their cluster using the Index Statistics Liveboard. You can filter the results by connection, table, and column, and see the breakdown of indexed search tokens in the visualizations. This Liveboard helps you see how many search tokens you are using, and can help you diagnose indexing issues and errors.
 
 image:index-statistics.png[Index statistics]
 
@@ -191,13 +224,13 @@ image:index-statistics.png[Index statistics]
 
 // Naomi
 
-In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, when you add to a dbt Worksheet in ThoughtSpot and sync to dbt, the changes are reflected on the ThoughtSpot Worksheet and the underlying dbt object. Users can update an object, update an object and create a new object, or simply create a new object.
+In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, ThoughtSpot maintains a persistent connection with dbt and provides realtime updates. Users can update an object, update an object and create a new object, or simply create a new object.
 
 [#9-6-0-cl-dbt-hardening]
 [discrete]
 === dbt Worksheet join rule
 
-Previously, when a Worksheet was created, the default worksheet join rule was "apply all joins". Currently, "apply joins progressively" is the default. This means that when a Search is done on the Worksheet, joins are applied as each search term is added, rather than applying all joins to every Search.
+Previously, when a Worksheet was created from a dbt model, the default worksheet join rule was "apply all joins". Now, "apply joins progressively" is the default. This means that when a Search is done on the Worksheet, joins are applied as each search term is added, rather than applying all joins to every Search.
 
 ////
 ifndef::free-trial-feature[]
@@ -238,17 +271,6 @@ You can now create connections from ThoughtSpot to Amazon Athena.
 
 
 
-[#9-6-0-cl-verified]
-[discrete]
-=== Verified Liveboards
-
-// Naomi
-
-We made the following enhancements to verified Liveboards:
-
-* When you request verification, you can now see the underlying data sources that will be shared with the verifier.
-* The name of the Liveboard now appears in verification request emails.
-* When editing an Answer on or pinning an Answer to a verified Liveboard, a warning banner appears indicating it may need to be verified again.
 
 
 
@@ -270,16 +292,6 @@ We made the following enhancements to verified Liveboards:
 // Mary - No doc required for 9.6.0.cl. SCAL-159425 is targetted for 9.8.0.cl and will complete this feature.
 ////
 
-
-[#9-6-0-cl-hidden]
-[discrete]
-=== Hidden columns in tables
-
-// Naomi
-
-You can now hide a column from your table or visualization without removing it from your current Search. If you hide the column you're using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu image:icon-gear-10px.png[gear icon], and drag the selected column to *Hidden Columns*.
-
-image::hidden-column.png[A table with product as a hidden column]
 
 
 
