@@ -77,12 +77,18 @@ A page from Fivetran indicates ThoughtSpot is using Fivetran to connect to your 
 . Click *Continue*.
 +
 The next page in Fivetran indicates the information you need to provide to connect Fivetran to your source application.
-. Enter all the credentials for the source application, and click *Save & Test*.
+. Enter all the credentials for your source application, and click *Save & Test*.
 +
-The SpotApp page appears again with the _Connector Blocks_ tab selected. A green checkmark appears next to the Fivetran connector block indicating that the ELT job has been created in Fivetran.
+A message appears indicating the connector is being configured, and then the SpotApps page appears again with the _Connector Blocks_ tab selected. This time, a _Reconfigure_ link appears next to the Fivetran connector block indicating the ELT job has been created in Fivetran.
 +
-IMPORTANT: If you decide to make changes to the ELT job you created, you must do it inside Fivetran.
-. After the Fivetran ELT job is complete, navigate to the *Analytics block* tab, to deploy the SpotApp for your source application.
+image::fivetran-config4.png[]
++
+After the Fivetran ELT job is complete, you are ready to deploy the SpotApp for your source application.
++
+TIP: If you decide to make changes to your ELT job, you must do it in Fivetran.
+
+. To deploy the SpotApp for your source application, refer to xref:spotapps-deploy.adoc[Deploying SpotApps].
+
 
 [#schema]
 == {spotapp} schema
