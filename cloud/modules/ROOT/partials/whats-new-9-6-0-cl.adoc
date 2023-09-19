@@ -29,7 +29,7 @@ endif::free-trial-feature[]
 [discrete]
 === RBAC with orgs: Admin Sidebar UI changes as per user privileges
 
-// Mary - Marked as no doc required, but I think is a mistake, so I'm waiting for confirmation from Vijay.
+// Mary - Marked as no doc required, but I think is a mistake, so I'm waiting for confirmation from Vijay. Sept. 9 Vijay confirmed that we should note the possible difference in menus in the admin docs & created SCAL-173988. Waiting for access to a system with the menu change enabled from Ruchi Bajpai.
 ////
 
 ////
@@ -279,7 +279,7 @@ You can now create connections from ThoughtSpot to Amazon Athena.
 [discrete]
 === Org aware snapshot and org statistics
 
-// Mary - Sent to Sanditya to confirm the no doc needed status.
+// Mary - Sent to Sanditya to confirm the no doc needed status. Sent another reminder Sept.19.
 ////
 
 
