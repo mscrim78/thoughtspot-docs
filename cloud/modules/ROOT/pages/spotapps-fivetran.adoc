@@ -21,8 +21,8 @@ Before you can use the {spotapp}, you must have the following:
 +
 NOTE: You must generate these in Fivetran.
 
-* Existing connection in Fivetran to a cloud data warehouse into which Fivetran will write the data
-* Credentials for source application from which Fivetran will copy the data (Examples: Salesforce, ServiceNow, Jira, etc)
+* An existing connection in Fivetran to the cloud data warehouse where Fivetran will write the data from your source application.
+* Credentials for your source application from which Fivetran will copy the data (Examples: Salesforce, ServiceNow, Jira, etc).
 * You must create views based on the following {application} tables in your cloud data warehouse. If you already created the views, you only need access to the views, not the tables. Refer to <<schema,{spotapp} schema>> for more details.
 ** pg_user
 ** stl_query
