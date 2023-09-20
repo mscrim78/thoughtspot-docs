@@ -111,14 +111,6 @@ Users can now see metadata information on tables and columns imported from Alati
 
 image::catalog-integration.png[Column with description and verification status showing]
 
-[#9-6-0-cl-rename]
-[discrete]
-=== Renaming columns in an Answer
-
-// Naomi
-
-You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. To try it out, click the more options icon image:icon-more-10px.png[ellipsis icon] in the column header, select *Rename*, and type the new name in the box that appears. Changes made on an Answer are not reflected in the underlying Worksheet.
-
 [#9-6-0-cl-hidden]
 [discrete]
 === Hidden columns in tables
