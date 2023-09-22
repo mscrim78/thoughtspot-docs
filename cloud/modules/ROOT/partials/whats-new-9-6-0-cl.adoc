@@ -12,36 +12,15 @@ endif::free-trial-feature[]
 
 [#primary-9-6-0-cl]
 
-////
-[#9-6-0-cl-literacy]
-[discrete]
-=== Literacy: remove multiple date bucketing on the same column logic
-
-// Mary - Moved to 9.0.7.cl release
-////
-
-
-
-
-
-
-[#9-6-0-cl-rbac]
-[discrete]
-=== Roles added to Primary Org
-ThoughtSpot introduces role-based access control (RBAC) in Primary Orgs to allow for more granular access privileges.
-Use roles to apply privileges customized for your organizational needs.
-
-To enable RBAC, contact {support-url}.
-
 CAUTION: Once you enable RBAC it cannot be disabled.
 
 // Mary - Marked as no doc required, but I think is a mistake, so I'm waiting for confirmation from Vijay. Sept. 9 Vijay confirmed that we should note the possible difference in menus in the admin docs & created SCAL-173988. Waiting for access to a system with the menu change enabled from Ruchi Bajpai.
 ////
 
 ////
-[#9-6-0-cl-kpi]
-[discrete]
-=== [Cortex] KPI anomalies completion
+// [#9-6-0-cl-kpi]
+// [discrete]
+// === [Cortex] KPI anomalies completion
 
 // Naomi
 ////
@@ -136,7 +115,6 @@ image::hidden-column.png[A table with product as a hidden column]
 // Naomi -- release notes only
 
 Previously, ThoughtSpot displayed generic error messages for Connection errors on Liveboards. Now, you can see the error message received from the underlying Cloud data warehouse.
-////
 
 ifndef::free-trial-feature[]
 ifdef::pendo-links[]
@@ -191,11 +169,15 @@ ThoughtSpot Connected Slides is an add-on that allows you to insert charts and l
 
 You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data governance* section of the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status.
 
-
 image::alation-data-governance.png[Alation data catalog setup page]
 
+[#9-6-0-cl-rbac]
+[discrete]
+=== Roles added to Primary Org
+ThoughtSpot introduces role-based access control (RBAC) in Primary Orgs to allow for more granular access privileges.
+Use roles to apply privileges customized for your organizational needs.
 
-
+To enable RBAC, contact {support-url}.
 
 
 [#9-6-0-cl-sage]
@@ -209,9 +191,9 @@ Admin users can now see indexing statistics for their cluster using the Index St
 image:index-statistics.png[Index statistics]
 
 ////
-[#9-6-0-cl-byok]
-[discrete]
-=== BYOK implementation in SaaS v2 - GCP phase 1
+// [#9-6-0-cl-byok]
+// [discrete]
+// === BYOK implementation in SaaS v2 - GCP phase 1
 
 // Mark
 ////
@@ -231,23 +213,21 @@ In the past, ThoughtSpot generated a new Worksheet every time a user edited an e
 Previously, when a Worksheet was created from a dbt model, the default worksheet join rule was "apply all joins". Now, "apply joins progressively" is the default. This means that when you search on a Worksheet, joins are applied as each search term is added, rather than applying all joins to every search.
 
 ////
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-6-0-cl-cache]
-[discrete]
-=== View search cache [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-6-0-cl-cache]
-[discrete]
-=== View search cache [.badge.badge-early-access-whats-new]#Early Access#
+// ifndef::free-trial-feature[]
+// ifndef::pendo-links[]
+// [#9-6-0-cl-cache]
+// [discrete]
+// === View search cache [.badge.badge-early-access]#Early Access#
+// endif::[]
+// ifdef::pendo-links[]
+// [#9-6-0-cl-cache]
+// [discrete]
+// === View search cache [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
 // Naomi -- may not be external, waiting on Manish's response
 
 endif::free-trial-feature[]
-////
-
 
 [#9-6-0-cl-athena]
 [discrete]
@@ -258,49 +238,14 @@ endif::free-trial-feature[]
 You can now create connections from ThoughtSpot to Amazon Athena.
 
 ////
-[#9-6-0-cl-ansi]
-[discrete]
-=== ANSI SQL dialect for generic JDBC driver
+// [#9-6-0-cl-ansi]
+// [discrete]
+// === ANSI SQL dialect for generic JDBC driver
 
 // Naomi
-////
 
 
 
-
-
-
-
-
-////
-[#9-6-0-cl-snapshot]
-[discrete]
-=== Org aware snapshot and org statistics
-
-// Mary - Sent to Sanditya to confirm the no doc needed status. Sent another reminder Sept.19.
-////
-
-
-
-////
-[#9-6-0-cl-users]
-[discrete]
-=== Users and Groups V2 UI (Orgs 1.5)
-
-// Mary - No doc required for 9.6.0.cl. SCAL-159425 is targetted for 9.8.0.cl and will complete this feature.
-////
-
-
-
-
-
-////
-[#9-6-0-cl-onboarding]
-[discrete]
-=== LCM changes for onboarding a customer on shared cluster (Essential/ Pro Edition) as an org
-
-// Mary - Confirmed no doc needed for 9.6.0.cl. SCAL-154079 should be targetted for 9.8.0.cl per Maheshwari.
-////
 
 ifndef::free-trial-feature[]
 [discrete]
