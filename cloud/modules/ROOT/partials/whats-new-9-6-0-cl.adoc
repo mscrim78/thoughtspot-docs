@@ -182,7 +182,7 @@ CAUTION: Once you enable RBAC it cannot be disabled.
 
 // Naomi
 
-Admin users can now see indexing statistics for their cluster using the Index Statistics Liveboard. You can filter the results by connection, table, and column, and see the breakdown of indexed search tokens in the visualizations. This Liveboard helps you see how many search tokens you are using, and can help you diagnose indexing issues and errors.
+Admin users can now see indexing statistics for their cluster using the Index Statistics Liveboard. You can filter the results by connection, table, and column, and see the breakdown of indexed search tokens in the visualizations. This Liveboard helps you see how many search tokens you are using, and can help you diagnose indexing issues and errors. To try it out, go to *Liveboards* and search for *Index statistics*.
 
 image:index-statistics.png[Index statistics]
 
