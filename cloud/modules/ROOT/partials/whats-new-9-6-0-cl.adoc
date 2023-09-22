@@ -12,8 +12,6 @@ endif::free-trial-feature[]
 
 [#primary-9-6-0-cl]
 
-CAUTION: Once you enable RBAC it cannot be disabled.
-
 // Mary - Marked as no doc required, but I think is a mistake, so I'm waiting for confirmation from Vijay. Sept. 9 Vijay confirmed that we should note the possible difference in menus in the admin docs & created SCAL-173988. Waiting for access to a system with the menu change enabled from Ruchi Bajpai.
 ////
 
@@ -108,14 +106,14 @@ image::hidden-column.png[A table with product as a hidden column]
 
 
 ////
-[#9-6-0-cl-error]
-[discrete]
-=== Improve error messaging related to Connections for Liveboard visualizations
+// [#9-6-0-cl-error]
+// [discrete]
+// === Improve error messaging related to Connections for Liveboard visualizations
 
 // Naomi -- release notes only
 
 Previously, ThoughtSpot displayed generic error messages for Connection errors on Liveboards. Now, you can see the error message received from the underlying Cloud data warehouse.
-
+////
 ifndef::free-trial-feature[]
 ifdef::pendo-links[]
 [#9-6-0-cl-cord]
@@ -127,7 +125,7 @@ ifndef::pendo-links[]
 [discrete]
 === Commenting on Liveboards [.badge.badge-early-access]#Early Access#
 endif::[]
-
+////
 // Naomi
 
 You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. Users can point out insights or reach out for clarification without leaving ThoughtSpot. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on.
@@ -178,6 +176,8 @@ ThoughtSpot introduces role-based access control (RBAC) in Primary Orgs to allow
 Use roles to apply privileges customized for your organizational needs.
 
 To enable RBAC, contact {support-url}.
+
+CAUTION: Once you enable RBAC it cannot be disabled.
 
 
 [#9-6-0-cl-sage]
