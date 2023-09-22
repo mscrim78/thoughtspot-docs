@@ -24,10 +24,16 @@ endif::free-trial-feature[]
 
 
 
-////
+
 [#9-6-0-cl-rbac]
 [discrete]
-=== RBAC with orgs: Admin Sidebar UI changes as per user privileges
+=== Roles added to Primary Org
+ThoughtSpot introduces role-based access control (RBAC) in Primary Orgs to allow for more granular access privileges.
+Use roles to apply privileges customized for your organizational needs.
+
+To enable RBAC, contact {support-url}.
+
+CAUTION: Once you enable RBAC it cannot be disabled.
 
 // Mary - Marked as no doc required, but I think is a mistake, so I'm waiting for confirmation from Vijay. Sept. 9 Vijay confirmed that we should note the possible difference in menus in the admin docs & created SCAL-173988. Waiting for access to a system with the menu change enabled from Ruchi Bajpai.
 ////
