@@ -90,6 +90,27 @@ h2#_whats_new_in_thoughtspot_cloud {
     margin-top: 10px !important;
 }
 
+.doc .admonitionblock.caution > table {
+  background-color: transparent;
+  border: 2px solid rgba(247, 140, 32, 0.2); /* for new all-in-one note */
+  border-left: 6px solid #f78c20; /* for new all-in-one note */
+  border-radius: 5px; /* for new all-in-one note */
+  border-bottom: 2px solid rgba(247, 140, 32, 0.2);
+  border-top: 2px solid rgba(247, 140, 32, 0.2);
+  border-right: 2px solid rgba(247, 140, 32, 0.2);
+  /* box-shadow: 0.1px 1px 5px 1px #ccc; */
+}
+
+.doc .admonitionblock.caution td.icon i::before {
+  background-image: url(../img/caution.svg);
+  vertical-align: middle;
+}
+
+.doc .admonitionblock.caution td.content::before {
+  /* content: "Caution: "; */
+  color: #f78c20;
+}
+
 </style>
 ++++
 
