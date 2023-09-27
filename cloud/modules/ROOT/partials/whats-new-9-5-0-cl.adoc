@@ -329,6 +329,14 @@ image::single-select.gif[The filter editing window shows options to create multi
 
 In this release, the Fivetran SpotApp connector block is GA. Fivetran helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse so you can use the SpotApps designed for those applications.
 
+See
+ifndef::pendo-links[]
+xref:spotapps-fivetran.adoc[Fivetran SpotApp connector block].
+endif::[]
+ifdef::pendo-links[]
+xref:spotapps-servicenow.adoc[Fivetran SpotApp connector block,window=_blank].
+endif::[]
+
 [#9-5-0-cl-spotapp-service-now-snowflake]
 [discrete]
 === ServiceNow Incident Management (Snowflake Connector for ServiceNow)

@@ -34,5 +34,5 @@ Use *AppEmbed* to embed the https://developers.thoughtspot.com/docs/?pageid=full
 
 == How to embed ThoughtSpot content
 
-For information about how to embed ThoughtSpot in your app, see https://developers.thoughtspot.com/docs/?pageid=visual-embed-sdk[Visual Embed SDK,window=_blank].
+For information about how to embed ThoughtSpot in your app, see https://developers.thoughtspot.com/docs/js-reference#_visual_embed_sdk_libraries[Visual Embed SDK,window=_blank].
 
