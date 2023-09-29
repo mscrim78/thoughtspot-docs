@@ -1,0 +1,274 @@
+ifndef::pendo-links[]
+October 2023 [label label-dep]#9.7.0.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#October 2023#
+[label label-dep-whats-new]#9.7.0.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-9-7-0-cl]
+
+// Business User
+
+[#9-7-0-cl-nls]
+[discrete]
+=== NLS improvements for 9.6
+
+// Mary
+
+ifndef::pendo-links[]
+[#9-7-0-cl-slack]
+[discrete]
+=== ThoughtSpot Slack bot for Natural Language Search [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-slack]
+[discrete]
+=== ThoughtSpot Slack bot for Natural Language Search [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+[#9-7-0-cl-migration]
+[discrete]
+=== Orgs 1.5: Migration FT/TE to Orgs - Phase 2
+
+// Mary
+
+[#9-7-0-cl-en-de]
+[discrete]
+=== i18n: Add en-DE/English (Germany) as a new language in TS
+
+// Naomi
+
+[#9-7-0-cl-localization]
+[discrete]
+=== i18n: Mobile app localization
+
+// Naomi
+
+ifndef::pendo-links[]
+[#9-7-0-cl-atlan]
+[discrete]
+=== ThoughtSpot connector to Atlan [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-atlan]
+[discrete]
+=== ThoughtSpot connector to Atlan [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+[#9-7-0-cl-magiclink]
+[discrete]
+=== MagicLink GA - support sending magic link via email to log in on the mobile app
+
+// Naomi
+
+[#9-7-0-cl-backend]
+[discrete]
+=== MagicLink- build backend service to support sending magic link via email to log in on the mobile app
+
+// Naomi
+
+[#9-7-0-cl-mobile-push]
+[discrete]
+=== Send mobile (iOS/Android) push notifications using COMS
+
+// Mary
+
+[#9-7-0-cl-explain]
+[discrete]
+=== KPI explain change on Mobile
+
+// Naomi
+
+// Analyst
+
+
+[#9-7-0-cl-redesign]
+[discrete]
+=== Homepage refresh
+
+// Mark
+
+ifndef::pendo-links[]
+[#9-7-0-cl-personalized]
+[discrete]
+=== Personalized Liveboard Views [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-personalized]
+[discrete]
+=== Personalized Liveboard Views [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+
+// Mary
+
+[#9-7-0-cl-embedding]
+[discrete]
+=== Embedding in note tiles
+
+// Naomi
+
+Embedding in note tiles is now GA. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website.
+
+image:embed-note-tile.gif[Animation demonstrating how to embed content in a Liveboard]
+
+[#9-7-0-cl-pivot]
+[discrete]
+=== Pivot Table Issues
+
+// Mary
+
+[#9-7-0-cl-radiant]
+[discrete]
+=== Radiant compliance alignment for TS Sync
+
+// Naomi
+
+[#9-7-0-cl-variables]
+[discrete]
+=== System Variables GA
+
+// Naomi
+
+[#9-7-0-cl-filter]
+[discrete]
+=== If filter is view-only, add 'request access' to the filter modal
+
+// Naomi
+
+[#9-7-0-cl-coms]
+[discrete]
+=== COMS Slack Bot
+
+// Mary
+
+[#9-7-0-cl-schema]
+[discrete]
+=== Schema graph in TML
+
+// Mark
+
+[#9-7-0-cl-accessibility]
+[discrete]
+=== Accessibility improvements phase 2-4
+
+// Mark
+
+
+'''
+[#secondary-9-7-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
+ifndef::pendo-links[]
+[#9-7-0-cl-sap-hana]
+[discrete]
+=== SAP Hana Calculation view input parameters & variables [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-sap-hana]
+[discrete]
+=== SAP Hana Calculation view input parameters & variables [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+[#9-7-0-cl-oauth]
+[discrete]
+=== OAuth for Databricks using PKCE
+
+// Naomi
+
+[#9-7-0-cl-dbt]
+[discrete]
+=== dbt integration: enhancements to the models integration
+
+// Naomi
+
+// IT/Ops Engineer
+
+[#9-7-0-cl-monitoring]
+[discrete]
+=== Pro-edition monitoring dashboard and alerts
+
+// Mark
+
+[#9-7-0-cl-tse]
+[discrete]
+=== TSE granular privileges and RBAC for shared tenant
+
+// Mary
+
+[#9-7-0-cl-orgs]
+[discrete]
+=== [Alpha] feature: Pro Admin portal for Orgs 1.5
+
+// Mary
+
+[#9-7-0-cl-data]
+[discrete]
+=== [Orgs 1.5] Data Tab --> Usage Statistics should be Orgs aware
+
+// Mary
+
+[#9-7-0-cl-billing]
+[discrete]
+=== [Orgs 1.5] Billing and usage metrics for Admin portal to be Orgs aware
+
+// Mary
+
+ifndef::pendo-links[]
+[#9-7-0-cl-nav]
+[discrete]
+=== Global navigation redesign [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-nav]
+[discrete]
+=== Global navigation redesign [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark
+
+[#9-7-0-cl-embrace]
+[discrete]
+=== Embrace v2
+
+// Naomi
+
+[#9-7-0-cl-modal]
+[discrete]
+=== Monitor alert edit/create modal improvements
+
+// Naomi
+
+[#9-7-0-cl-tml]
+[discrete]
+=== WS v2 TML Migration
+
+// Mark
+
+[#9-7-0-cl-hadoop]
+[discrete]
+=== Upgrade Hadoop 2 to Hadoop 3
+
+// Mark
+
+
+ifndef::free-trial-feature[]
+[discrete]
+=== ThoughtSpot Everywhere
+
+For new features and enhancements introduced in this release of ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::[]
