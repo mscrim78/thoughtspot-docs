@@ -184,6 +184,12 @@ endif::[]
 
 // Naomi
 
+[#9-7-0-cl-snowflake]
+[discrete]
+=== Embrace Key Pair authentication for Snowflake
+
+// Naomi
+
 [#9-7-0-cl-oauth]
 [discrete]
 === OAuth for Databricks using PKCE
