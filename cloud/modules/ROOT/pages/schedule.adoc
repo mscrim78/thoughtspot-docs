@@ -22,6 +22,8 @@ Here is the current schedule for ThoughtSpot Cloud cluster upgrades:
 |December 4, 2023
 |===
 
+NOTE: Upgrade dates are subject to change without notice.
+
 == Upgrade process
 - New releases are deployed on a monthly basis in a phased manner across all clusters.
 - Development clusters are deployed with new releases 7-10 days prior to a production cluster to allow the release to be validated.
