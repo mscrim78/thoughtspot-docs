@@ -1,10 +1,9 @@
 = Release schedule
 :last_updated: 4/30/2020
 :linkattrs:
-:page-aliases: /admin/setup/logins.adoc, /end-user/accessing.adoc
 :experimental:
 :page-layout: default-cloud
-:description: Learn how to reach ThoughtSpot from a browser. 
+:description:  Current schedule for ThoughtSpot Cloud cluster upgrades
 
 Here is the current schedule for ThoughtSpot Cloud cluster upgrades:
 
