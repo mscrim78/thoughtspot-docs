@@ -2,12 +2,13 @@
 :last_updated: 4/30/2020
 :linkattrs:
 :experimental:
+:page-toclevels: -1
 :page-layout: default-cloud
 :description:  Current schedule for ThoughtSpot Cloud cluster upgrades
 
 Here is the current schedule for ThoughtSpot Cloud cluster upgrades:
 
-
+[cols="15%,85%"]
 |===
 |Release |Upgrade date
 
