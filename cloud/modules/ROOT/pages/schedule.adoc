@@ -1,0 +1,39 @@
+= Release schedule
+:last_updated: 4/30/2020
+:linkattrs:
+:page-aliases: /admin/setup/logins.adoc, /end-user/accessing.adoc
+:experimental:
+:page-layout: default-cloud
+:description: Learn how to reach ThoughtSpot from a browser. 
+
+Here is the current schedule for ThoughtSpot Cloud cluster upgrades:
+
+
+|===
+|Release |Upgrade date
+
+|9.7.0.cl
+|October 23, 2023
+
+|9.8.0.cl
+|November 10, 2023
+
+|9.9.0.cl
+|December 4, 2023
+|===
+
+== Upgrade process
+- New releases are deployed on a monthly basis in a phased manner across all clusters.
+- Development clusters are deployed with new releases 7-10 days prior to a production cluster to allow the release to be validated.
+- Scheduled email notifications are sent 3 days prior to the scheduled date for development clusters and 7 days prior to the date for production clusters. Production cluster notifications are sent 7 days, 3 days, and 1 day prior to the scheduled date.
+- Deferring an upgrade is not recommended. However, it is recommended in certain situations, such as waiting for a pending fix to a critical issue encountered in a development environment. To request your upgrade to be deferred, please contact {support-url}.
+
+=== Upgrade times
+
+Upgrades are done during off-business hours and take place at the following times:
+
+- *APAC: 10 am PST (5pm UTC)*
+- *ANZ : 3 am PST (10 am UTC / 6 pm Singapore Time / 8pm AST / 10pm NZT)*
+- *EMEA : 3pm PST (10pm UTC)*
+- *US : 8 pm PST (3 am UTC)*
+
