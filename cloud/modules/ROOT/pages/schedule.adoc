@@ -34,8 +34,8 @@ NOTE: Upgrade dates are subject to change without notice.
 
 Upgrades are done during off-business hours and take place at the following times:
 
-- *APAC:* 10:00 AM PST (5:00 PM UTC)
-- *ANZ:* 3:00 AM PST (10:00 AM UTC / 6:00 PM Singapore Time / 8:00 PM AST / 10:00 PM NZT)
-- *EMEA:* 3:00 PM PST (10:00 PM UTC)
-- *US:* 8:00 PM PST (3:00 AM UTC)
+- *APAC:* 10:00 AM Pacific Time (5:00 PM UTC)
+- *ANZ:* 3:00 AM Pacific Time (10:00 AM UTC / 6:00 PM Singapore Time / 8:00 PM Atlantic Time / 10:00 PM New Zealand Time)
+- *EMEA:* 3:00 PM Pacific Time (10:00 PM UTC)
+- *US:* 8:00 PM Pacific Time (3:00 AM UTC)
 
