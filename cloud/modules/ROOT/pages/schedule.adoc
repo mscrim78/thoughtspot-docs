@@ -10,16 +10,16 @@ Here is the current schedule for ThoughtSpot Cloud cluster upgrades:
 
 [cols="15%,85%"]
 |===
-|Release |Upgrade date
+|Release |Upgrade dates
 
 |9.7.0.cl
-|October 23, 2023
+|October 18-26, 2023
 
 |9.8.0.cl
-|November 10, 2023
+|November 7-20, 2023
 
 |9.9.0.cl
-|December 4, 2023
+|December 4-12, 2023
 |===
 
 NOTE: Upgrade dates are subject to change without notice.
