@@ -28,7 +28,7 @@ NOTE: Upgrade dates are subject to change without notice.
 - New releases are deployed on a monthly basis in a phased manner across all clusters.
 - Development clusters are deployed with new releases 7 to 10 days prior to a production cluster to allow the release to be validated.
 - Scheduled email notifications are sent three days prior to the scheduled date for development clusters and seven days prior to the date for production clusters. Production cluster notifications are sent seven days, three days, and one day prior to the scheduled date.
-- Deferring an upgrade is not recommended. However, it is recommended in certain situations, such as waiting for a pending fix to a critical issue encountered in a development environment. To request your upgrade to be deferred, please contact {support-url}.
+- Deferring an upgrade is not recommended, except for certain situations, like waiting for a fix to a critical issue encountered in your development environment. To request your upgrade to be deferred, please contact {support-url}.
 
 == Upgrade times
 
