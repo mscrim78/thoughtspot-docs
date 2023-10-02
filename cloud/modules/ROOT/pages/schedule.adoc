@@ -2,7 +2,7 @@
 :last_updated: 4/30/2020
 :linkattrs:
 :experimental:
-:page-toclevels: -1
+// :page-toclevels: -1
 :page-layout: default-cloud
 :description:  Current schedule for ThoughtSpot Cloud cluster upgrades
 
@@ -26,11 +26,11 @@ NOTE: Upgrade dates are subject to change without notice.
 
 == Upgrade process
 - New releases are deployed on a monthly basis in a phased manner across all clusters.
-- Development clusters are deployed with new releases 7-10 days prior to a production cluster to allow the release to be validated.
-- Scheduled email notifications are sent 3 days prior to the scheduled date for development clusters and 7 days prior to the date for production clusters. Production cluster notifications are sent 7 days, 3 days, and 1 day prior to the scheduled date.
+- Development clusters are deployed with new releases 7 to 10 days prior to a production cluster to allow the release to be validated.
+- Scheduled email notifications are sent three days prior to the scheduled date for development clusters and seven days prior to the date for production clusters. Production cluster notifications are sent seven days, three days, and one day prior to the scheduled date.
 - Deferring an upgrade is not recommended. However, it is recommended in certain situations, such as waiting for a pending fix to a critical issue encountered in a development environment. To request your upgrade to be deferred, please contact {support-url}.
 
-=== Upgrade times
+== Upgrade times
 
 Upgrades are done during off-business hours and take place at the following times:
 
