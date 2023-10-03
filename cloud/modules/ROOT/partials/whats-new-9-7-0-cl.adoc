@@ -108,10 +108,36 @@ To access this feature, go to your KPI chart and select the caret icon to the ri
 
 // Analyst
 
+ifndef::pendo-links[]
+[#9-7-0-cl-nav]
+[discrete]
+=== New persona-based navigation [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-nav]
+[discrete]
+=== New persona-based navigation [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
+In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, the navigation within each app is on the left to create better consistency and ease of use for users switching between the different apps. The Search Data button has been renamed Open Query Builder to more easily distinguish it from the Sage search bar, and it is now in the left-hand navigation of the Insights app. When switching to a different app, that app is opened in a new browser tab.
+
+This new navigation experience is disabled by default, but you can enable it in your user profile.
+
+// Mark
+
+ifndef::pendo-links[]
 [#9-7-0-cl-redesign]
 [discrete]
-=== Homepage refresh
+=== Redesigned home page [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-redesign]
+=== Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+The newly redesigned home page is part of the new Insights app, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The redesigned home page is part of the new persona-based navigation, in this release.
+
+This new home page experience is disabled by default, but you can enable it in your user profile.
 
 // Mark
 
@@ -174,19 +200,6 @@ When creating a filter on a Liveboard or Answer, you must have access to the und
 
 // Mary
 
-[#9-7-0-cl-schema]
-[discrete]
-=== Schema graph in TML
-
-// Mark
-
-[#9-7-0-cl-accessibility]
-[discrete]
-=== Accessibility improvements phase 2-4
-
-// Mark
-
-
 '''
 [#secondary-9-7-0-cl]
 [discrete]
@@ -237,11 +250,11 @@ We now support OAuth with PKCE for Databricks.
 
 // IT/Ops Engineer
 
-[#9-7-0-cl-monitoring]
-[discrete]
-=== Pro-edition monitoring dashboard and alerts
+// [#9-7-0-cl-monitoring]
+// [discrete]
+// === Pro-edition monitoring dashboard and alerts
 
-// Mark
+// Mark - TBD
 
 [#9-7-0-cl-tse]
 [discrete]
@@ -267,19 +280,6 @@ We now support OAuth with PKCE for Databricks.
 
 // Mary
 
-ifndef::pendo-links[]
-[#9-7-0-cl-nav]
-[discrete]
-=== Global navigation redesign [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-7-0-cl-nav]
-[discrete]
-=== Global navigation redesign [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mark
-
 ////
 [#9-7-0-cl-embrace]
 [discrete]
@@ -295,19 +295,6 @@ endif::[]
 
 // Naomi
 ////
-
-[#9-7-0-cl-tml]
-[discrete]
-=== WS v2 TML Migration
-
-// Mark
-
-[#9-7-0-cl-hadoop]
-[discrete]
-=== Upgrade Hadoop 2 to Hadoop 3
-
-// Mark
-
 
 ifndef::free-trial-feature[]
 [discrete]
