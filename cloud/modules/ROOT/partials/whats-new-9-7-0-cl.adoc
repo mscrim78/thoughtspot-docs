@@ -17,7 +17,7 @@ endif::free-trial-feature[]
 [#9-7-0-cl-nls]
 [discrete]
 === NLS improvements for 9.6
-
+//No doc required per Mourya Balabhadra
 // Mary
 
 ////
@@ -37,8 +37,9 @@ endif::[]
 
 [#9-7-0-cl-migration]
 [discrete]
-=== Orgs 1.5: Migration FT/TE to Orgs - Phase 2
-
+=== Enabling Orgs on Free Trial and Team Edition clusters
+ThoughtSpot has Enabled Orgs on Free Trial and Team edition clusters to provide customers a path to go from Free Trial to a Team, Group, or Pro edition subscription.
+//confirmed doc req from @Aditya Chand
 // Mary
 
 [#9-7-0-cl-en-de]
@@ -93,7 +94,7 @@ We simplified the log in process for the ThoughtSpot mobile app. You can now ent
 [#9-7-0-cl-mobile-push]
 [discrete]
 === Send mobile (iOS/Android) push notifications using COMS
-
+//awaiting confirmation of doc req and PM from @Arpit Rai
 // Mary
 
 [#9-7-0-cl-explain]
@@ -168,7 +169,7 @@ image:embed-note-tile.gif[Animation demonstrating how to embed content in a Live
 [#9-7-0-cl-pivot]
 [discrete]
 === Pivot Table Issues
-
+//Pending confirmation of doc req and PM from Damian Waldron
 // Mary
 
 
@@ -196,7 +197,8 @@ When creating a filter on a Liveboard or Answer, you must have access to the und
 
 [#9-7-0-cl-coms]
 [discrete]
-=== COMS Slack Bot
+=== ThoughtSpot Slack bot integration
+ThoughtSpot delivers a Slack bot integration. ThoughtSpot's Slack integration lets you preview Liveboard and Answer links shared directly in Slack.
 
 // Mary
 
