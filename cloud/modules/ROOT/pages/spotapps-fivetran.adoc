@@ -37,7 +37,7 @@ image::fivetran-config1.png[]
 . Enter the _API key_ and _API Secret_ for Fivetran and click *Next*.
 +
 image::fivetran-config2.png[]
-. For _Destination_, select the name of the connection to a cloud data warehouse you set up in Fivetran, create a _Schema_ name, select the _Sync frequency_, and then click *Next*.
+. For _Destination_, select the name of the connection to a cloud data warehouse you set up in Fivetran, create a _Schema_ name (should be a unique name every time you create a connector), select the _Sync frequency_, and then click *Next*.
 +
 image::fivetran-config3.png[]
 . In the Authorize screen, click *Authorize*.
