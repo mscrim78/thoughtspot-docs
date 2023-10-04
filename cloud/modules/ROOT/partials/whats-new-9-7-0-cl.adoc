@@ -16,7 +16,7 @@ endif::free-trial-feature[]
 
 [#9-7-0-cl-nls]
 [discrete]
-=== NLS improvements for 9.6
+//=== NLS improvements for 9.6
 //No doc required per Mourya Balabhadra
 // Mary
 
@@ -37,9 +37,10 @@ endif::[]
 
 [#9-7-0-cl-migration]
 [discrete]
-=== Enabling Orgs on Free Trial and Team Edition clusters
-ThoughtSpot has Enabled Orgs on Free Trial and Team edition clusters to provide customers a path to go from Free Trial to a Team, Group, or Pro edition subscription.
+//=== Enabling Orgs on Free Trial and Team Edition clusters
+//ThoughtSpot has Enabled Orgs on Free Trial and Team edition clusters to provide customers a path to go from Free Trial to a Team, Group, or Pro edition subscription.
 //confirmed doc req from @Aditya Chand
+//update: Oct. 4 @Aditya Chand advised documentation is required but no what's new as this is only for new customers.
 // Mary
 
 
@@ -138,7 +139,7 @@ ifdef::pendo-links[]
 [discrete]
 === Personalized Liveboard Views [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-
+Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard to create a view, and save it for future use. The new Liveboard is a view of the master Liveboard, so any changes made to the master Liveboard flow  automatically to the filtered Liveboard view but not vice-versa. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering.
 
 // Mary-- note: this article should be titled personalized-liveboard-views.adoc to match in-product links
 
@@ -155,7 +156,8 @@ image:embed-note-tile.gif[Animation demonstrating how to embed content in a Live
 [#9-7-0-cl-pivot]
 [discrete]
 === Pivot Table Issues
-//Pending confirmation of doc req and PM from Damian Waldron
+Previously, the summary values in ThoughtSpot pivot tables were not always calculated correctly. Enhancements to the pivot table summary calculations now ensure that the values are calculated correctly.
+// Damian Waldron
 // Mary
 
 
@@ -247,25 +249,25 @@ We now support OAuth with PKCE for Databricks.
 [#9-7-0-cl-tse]
 [discrete]
 === TSE granular privileges and RBAC for shared tenant
-
+//waiting for clarification from Parvat Yadav, Vijay Venugopal
 // Mary
 
 [#9-7-0-cl-orgs]
 [discrete]
 === [Alpha] feature: Pro Admin portal for Orgs 1.5
-
+//awaiting clarification from Vijay
 // Mary
 
 [#9-7-0-cl-data]
 [discrete]
 === [Orgs 1.5] Data Tab --> Usage Statistics should be Orgs aware
-
+//awaiting clarification from Vijay
 // Mary
 
 [#9-7-0-cl-billing]
 [discrete]
 === [Orgs 1.5] Billing and usage metrics for Admin portal to be Orgs aware
-
+//awaiting clarification from Vijay
 // Mary
 
 ////
