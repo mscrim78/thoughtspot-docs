@@ -120,7 +120,7 @@ endif::[]
 
 
 
-In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, the navigation within each app is on the left to create better consistency and ease of use for users switching between the different apps.  When switching to a different app, that app is opened in a new browser tab.
+In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, the navigation within each app is on the left to create better consistency and ease of use for users switching between the different apps.  When you switch to a different app, that app opens in a new browser tab.
 
 image::app-switcher.png[]
 
