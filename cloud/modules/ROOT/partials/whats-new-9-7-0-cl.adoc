@@ -53,20 +53,24 @@ This new navigation experience is disabled by default, but you can enable it in 
 
 // Mark-- clarify "navigation within the app is on the left". Confirm with Adi if flag enabling by default/banned by admin makes it in to 9.7. Mention where in user profile to enable.
 
-////
+
 ifndef::pendo-links[]
 [#9-7-0-cl-slack]
 [discrete]
-=== ThoughtSpot Slack bot for Natural Language Search [.badge.badge-beta]#Beta#
+=== SpotDev Slack app [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-7-0-cl-slack]
 [discrete]
-=== ThoughtSpot Slack bot for Natural Language Search [.badge.badge-beta-whats-new]#Beta#
+=== SpotDev Slack app [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi
-////
+
+You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Dev Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
+
+image::nls-slack.png[SpotDev Slack app]
+
 
 [#9-7-0-cl-migration]
 [discrete]
@@ -95,31 +99,17 @@ endif::[]
 You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the *Data* tab, you can set up a connection to Atlan to import
 column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
-////
-[#9-7-0-cl-magiclink]
+
+[#9-7-0-cl-mobile]
 [discrete]
-=== Magic link
+=== Mobile enhancements
 
-// Naomi
+// Naomi and Mary
 
-We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
-////
+We made the following improvements to ThoughtSpot mobile:
 
-////
-[#9-7-0-cl-backend]
-[discrete]
-=== MagicLink- build backend service to support sending magic link via email to log in on the mobile app
-
-// Naomi
-////
-
-[#9-7-0-cl-mobile-push]
-[discrete]
-=== Send mobile (iOS/Android) push notifications using COMS
-//awaiting confirmation of doc req and PM from @Arpit Rai
-// Mary
-
-// make all mobile updates one blurb
+* We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
+//* send mobile push notifications using COMS-- waiting to hear back from Arpit.
 
 
 
@@ -200,7 +190,7 @@ ThoughtSpot delivers a Slack bot integration. ThoughtSpot's Slack integration le
 ifndef::pendo-links[]
 [#9-7-0-cl-sap-hana]
 [discrete]
-=== SAP Hana Calculation view input parameters & variables [.badge.badge-beta]#Beta#
+=== SAP Hana Calculation view input parameters  [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-7-0-cl-sap-hana]
