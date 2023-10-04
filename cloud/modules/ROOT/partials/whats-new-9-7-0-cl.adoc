@@ -14,11 +14,44 @@ endif::free-trial-feature[]
 
 // Business User
 
-[#9-7-0-cl-nls]
+ifndef::pendo-links[]
+[#9-7-0-cl-redesign]
 [discrete]
-//=== NLS improvements for 9.6
-//No doc required per Mourya Balabhadra
-// Mary
+=== Redesigned home page [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-redesign]
+=== Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+The redesigned home page is part of the new *Insights* app, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The _Search Data_ button has been renamed _Open Query Builder_ to more easily distinguish it from the Sage search bar. The redesigned home page is part of the new persona-based navigation, in this release.
+
+image::home-page-redesign.png[]
+
+This new home page experience is disabled by default, but you can enable it in your user profile.
+
+// Mark-- take out mention of the insights app and focus on new home page. Explain where things are on the home page, try making it a scrolling gif OR add a link to/embed the video explaining the home page. Make sure image shows data. Conditionalize the video to show only in docs side what's new. Move 'the redesigned home page is part of the new persona-based navigation, in this release' into a new section for the persona-based nav, explain how it works. Contact Adi to see if admin banning new homepage made it in.
+
+ifndef::pendo-links[]
+[#9-7-0-cl-nav]
+[discrete]
+=== New persona-based navigation [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-nav]
+[discrete]
+=== New persona-based navigation [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+
+
+In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, the navigation within each app is on the left side to create better consistency and ease of use for users switching between the different apps. When you switch to a different app, that app opens in a new browser tab.
+
+image::app-switcher.png[]
+
+This new navigation experience is disabled by default, but you can enable it in your user profile.
+
+// Mark-- clarify "navigation within the app is on the left". Confirm with Adi if flag enabling by default/banned by admin makes it in to 9.7. Mention where in user profile to enable.
 
 ////
 ifndef::pendo-links[]
@@ -57,7 +90,7 @@ ifdef::pendo-links[]
 === Atlan data catalog integration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi
+// Naomi-- break into two pieces-- user experience of seeing metadata and integration steps (secondary)
 
 You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the *Data* tab, you can set up a connection to Atlan to import
 column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
@@ -86,48 +119,15 @@ We simplified the log in process for the ThoughtSpot mobile app. You can now ent
 //awaiting confirmation of doc req and PM from @Arpit Rai
 // Mary
 
+// make all mobile updates one blurb
+
 
 
 // Analyst
 
-ifndef::pendo-links[]
-[#9-7-0-cl-redesign]
-[discrete]
-=== Redesigned home page [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-7-0-cl-redesign]
-=== Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-The newly redesigned home page is part of the new *Insights* app, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The _Search Data_ button has been renamed _Open Query Builder_ to more easily distinguish it from the Sage search bar. The redesigned home page is part of the new persona-based navigation, in this release.
-
-image::home-page-redesign.png[]
-
-This new home page experience is disabled by default, but you can enable it in your user profile.
-
-// Mark
-
-ifndef::pendo-links[]
-[#9-7-0-cl-nav]
-[discrete]
-=== New persona-based navigation [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-7-0-cl-nav]
-[discrete]
-=== New persona-based navigation [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
 
 
 
-In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, the navigation within each app is on the left to create better consistency and ease of use for users switching between the different apps.  When you switch to a different app, that app opens in a new browser tab.
-
-image::app-switcher.png[]
-
-This new navigation experience is disabled by default, but you can enable it in your user profile.
-
-// Mark
 
 ifndef::pendo-links[]
 [#9-7-0-cl-personalized]
@@ -141,7 +141,7 @@ ifdef::pendo-links[]
 endif::[]
 Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard to create a view, and save it for future use. The new Liveboard is a view of the master Liveboard, so any changes made to the master Liveboard flow  automatically to the filtered Liveboard view but not vice-versa. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering.
 
-// Mary-- note: this article should be titled personalized-liveboard-views.adoc to match in-product links
+// Mary-- note: this article should be titled personalized-liveboard-views.adoc to match in-product links. be careful with the word "view"-- talk about function alone without using that term. Add an image with a box around the filter line with the saved filters.
 
 [#9-7-0-cl-embedding]
 [discrete]
@@ -153,33 +153,33 @@ Embedding in note tiles is now GA. You can now embed interactive content such as
 
 image:embed-note-tile.gif[Animation demonstrating how to embed content in a Liveboard]
 
+////
 [#9-7-0-cl-pivot]
 [discrete]
-=== Pivot Table Issues
+=== Pivot table improvements
 Previously, the summary values in ThoughtSpot pivot tables were not always calculated correctly. Enhancements to the pivot table summary calculations now ensure that the values are calculated correctly.
 // Damian Waldron
-// Mary
-
+// Mary-- add in docs and release notes, keep out of what's new. Mention specific instances where it's now fixed/ what kind of pivot tables are now summarized correctly.
+////
 
 [#9-7-0-cl-variables]
 [discrete]
-=== System Variables GA
+=== System Variables in Answer and Worksheet formulas.
 
-// Naomi
+// Naomi-- more details on use case. reword to be clearer. clarify if new variables can be used in row-level security.
 
-Previously, ThoughtSpot supported the variables `ts_username` and `ts_groups` for use in row-level security formulas alone. Now, users can access the following string variables:
+Previously, ThoughtSpot supported the `ts_username` variable for use in row-level security formulas alone. Now, users can access the following string variables:
 
 * `ts_orgname`
 * `ts_email_domain`
-* `ts_username`
 
-These variables are available to use in Answer and Worksheet formulas.
+`ts_orgname`, `ts_username`, and `ts_email_domain` variables are available to use in Answer and Worksheet formulas.
 
 [#9-7-0-cl-filter]
 [discrete]
-=== Request access to view-only filters
+=== Request access to data source from filter
 
-// Naomi
+// Naomi-- add image. is it only requesting access to worksheet or are other data sources included?
 
 When creating a filter on a Liveboard or Answer, you must have access to the underlying data source. Users can now request access to the underlying Worksheet through the filter modal on a Liveboard or Answer.
 
@@ -188,7 +188,7 @@ When creating a filter on a Liveboard or Answer, you must have access to the und
 === ThoughtSpot Slack bot integration
 ThoughtSpot delivers a Slack bot integration. ThoughtSpot's Slack integration lets you preview Liveboard and Answer links shared directly in Slack.
 
-// Mary
+// Mary-- ask for clarification on what this means since we already have Slack integration with Sync. internal name is Coms, external name is Notifications. are the notifications now pushed to Slack from the Liveboard? What notifications are there-- someone requested access/ shared? Or other updates? may add in language "get notified when x happens in Slack"
 
 '''
 [#secondary-9-7-0-cl]
@@ -205,12 +205,13 @@ endif::[]
 ifdef::pendo-links[]
 [#9-7-0-cl-sap-hana]
 [discrete]
-=== SAP Hana Calculation view input parameters & variables [.badge.badge-beta-whats-new]#Beta#
+=== SAP Hana calculation view input parameters [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi
+// Naomi-- add in a concrete example.
 
-Previously, users could not query calculation views defined with input parameters in SAP Hana from ThoughtSpot. Now, you can define a parameter to link to the parameter in SAP Hana using TML at the table level, and create a linked_parameter clause to ensure the parameter is displayed in all Answers created from the table.
+//Previously, users could not query calculation views defined with input parameters in SAP Hana from ThoughtSpot.
+Now, you can define a parameter to link to the parameter in SAP Hana using TML at the table level, and create a linked_parameter clause to ensure the parameter is displayed in all Answers created from the table.
 
 
 
@@ -250,7 +251,7 @@ We now support OAuth with PKCE for Databricks.
 [discrete]
 === TSE granular privileges and RBAC for shared tenant
 //waiting for clarification from Parvat Yadav, Vijay Venugopal
-// Mary
+// Mary-- is this TSE only?
 
 [#9-7-0-cl-orgs]
 [discrete]
