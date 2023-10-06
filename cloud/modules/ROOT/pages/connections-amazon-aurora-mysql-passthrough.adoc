@@ -91,3 +91,4 @@ By default, ThoughtSpot modifies all text in formulas to lowercase.:: This may c
 > * xref:connections-amazon-aurora-mysql-delete-table-dependencies.adoc[Delete a table with dependent objects]
 > * xref:connections-amazon-aurora-mysql-delete.adoc[Delete an {connection} connection]
 > * xref:connections-amazon-aurora-mysql-reference.adoc[Connection reference for {connection}]
+> * xref:connections-amazon-aurora-mysql-private-link.adoc[{connection} PrivateLink]
