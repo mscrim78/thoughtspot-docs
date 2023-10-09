@@ -1,4 +1,4 @@
-= Release schedule
+// = Release schedule
 :last_updated: 4/30/2020
 :linkattrs:
 :experimental:
@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :description:  Current schedule for ThoughtSpot Cloud cluster upgrades
 
-Here is the current schedule for ThoughtSpot Cloud cluster upgrades:
+// Here is the current schedule for ThoughtSpot Cloud cluster upgrades:
 ////
 [cols="20%,40%,40%"]
 |===
@@ -28,6 +28,7 @@ Here is the current schedule for ThoughtSpot Cloud cluster upgrades:
 |3 days prior to upgrade
 |7 days prior to upgrade
 |===
+////
 ////
 [cols="15%,85%"]
 |===
@@ -60,4 +61,4 @@ Upgrades take place during off-business hours, at the following times:
 - *ANZ:* 3:00 AM Pacific Time (10:00 AM UTC / 6:00 PM Singapore Time / 8:00 PM Atlantic Time / 10:00 PM New Zealand Time)
 - *EMEA:* 3:00 PM Pacific Time (10:00 PM UTC)
 - *US:* 8:00 PM Pacific Time (3:00 AM UTC)
-
+////
