@@ -182,6 +182,16 @@ ThoughtSpot delivers a Slack bot integration. ThoughtSpot's Slack integration le
 
 // Mary-- ask for clarification on what this means since we already have Slack integration with Sync. internal name is Coms, external name is Notifications. are the notifications now pushed to Slack from the Liveboard? What notifications are there-- someone requested access/ shared? Or other updates? may add in language "get notified when x happens in Slack"
 
+[#9-7-0-cl-data-fluency-ga]
+// SCAL-161459
+[discrete]
+=== New data panel GA
+The new data panel experience is GA in this release. This is part of the Data Fluency feature. It is enabled by default. To disable it, go to your ThoughtSpot user profile and set the Answer data panel experience to Classic experience.
+
+image::new_data_panel.png[]
+
+
+
 '''
 [#secondary-9-7-0-cl]
 [discrete]
