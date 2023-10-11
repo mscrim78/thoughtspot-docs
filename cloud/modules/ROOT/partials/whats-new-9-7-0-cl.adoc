@@ -67,7 +67,7 @@ ifdef::pendo-links[]
 === SpotDev Slack app [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi
+// Naomi-- scal-159819
 
 You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Dev Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
 
