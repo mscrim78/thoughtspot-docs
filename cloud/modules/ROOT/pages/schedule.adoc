@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :description:  Current schedule for ThoughtSpot Cloud cluster upgrades
 
-ThoughtSpot Cloud releases are rolled out in a phased manner across the entire ThoughtSpot cloud environment. The initial Release Candidate is deployed internal ThoughtSpot, customer development (DEV), and customer Proof-of-Technology (PoT) environments. Once the quality of the Release Candidate is confirmed, it is rolled out as Generally Available (GA) across all production (PROD) environments.
+ThoughtSpot Cloud releases are rolled out in a phased manner across the entire ThoughtSpot cloud environment. The initial Release Candidate is deployed on internal ThoughtSpot, customer development (DEV), and customer Proof-of-Technology (PoT) environments. Once the quality of the Release Candidate is confirmed, it is rolled out as Generally Available (GA) across all production (PROD) environments.
 
 This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 
@@ -21,11 +21,7 @@ This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 (PROD)
 
 |9.7.0.cl
-|October 20-17, 2023
-|October 23-31, 2023
-
-|9.7.0.cl
-|October 20-17, 2023
+|October 10-17, 2023
 |October 23-31, 2023
 
 |9.8.0.cl
