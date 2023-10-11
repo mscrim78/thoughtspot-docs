@@ -6,6 +6,8 @@
 :page-layout: default-cloud
 :linkattrs:
 
+// scal-176840
+
 These are the known issues in this release of ThoughtSpot Cloud.
 
 [#releases-9-5-x]
