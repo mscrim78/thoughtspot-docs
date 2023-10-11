@@ -70,4 +70,18 @@ Role-based access control (RBAC) is enabled and customer is using ThoughtSpot pu
 *Workaround*:
 
 Perform the required operations using the _admin_ privilege or use ThoughtSpot Everywhere (TSE) v2 APIs with the _User_admin_ privilege.
+
+| SCAL-175396
+| PDF Exports in Visualization format does not allow note tiles to be downloaded.
+| *Symptoms*:
+
+Note tile will not be downloaded.
+
+*Conditions*:
+
+Note tile is added to a Liveboard.
+
+*Workaround*:
+
+Export the Liveboard in the Liveboard Format.
 |===
