@@ -17,6 +17,7 @@ endif::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-redesign]
 [discrete]
+// SCAL-151210
 === Redesigned home page [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
@@ -35,6 +36,7 @@ This new home page experience is disabled by default. To enable it, open your us
 ifndef::pendo-links[]
 [#9-7-0-cl-nav]
 [discrete]
+// SCAL-175398
 === New persona-based navigation [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
