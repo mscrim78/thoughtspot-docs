@@ -36,7 +36,7 @@ This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 |November 15-23, 2023
 |December 4-14, 2023
 
-|Customer email notifications
+|*Customer email notifications*
 |3 days prior to upgrade
 |7 days prior to upgrade
 |===
