@@ -25,11 +25,13 @@ ifdef::pendo-links[]
 === Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-In this release,  we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The _Search Data_ button has been renamed _Open Query Builder_ to more easily distinguish it from the Sage search bar.
+In this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The _Search Data_ button has been renamed _Open Query Builder_ to more easily distinguish it from the Sage search bar.
 
 image::scroll_homepage.gif[]
 
 This new home page experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
+
+NOTE: The admin can disable this feature for the entire cluster, in the _Early access features_ section of the Admin page.
 
 // Mark-- take out mention of the insights app and focus on new home page. Explain where things are on the home page, try making it a scrolling gif OR add a link to/embed the video explaining the home page. Make sure image shows data. Conditionalize the video to show only in docs side what's new. Move 'the redesigned home page is part of the new persona-based navigation, in this release' into a new section for the persona-based nav, explain how it works. Contact Adi to see if admin banning new homepage made it in.
 
