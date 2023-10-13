@@ -53,7 +53,7 @@ image::app-switcher.png[]
 
 This new navigation experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
 
-NOTE: The admin can disable new navigation and home page for the entire cluster, in the _Early access features_ section of the Admin page.
+NOTE: The admin can disable the new navigation and home page for the cluster, in the _Early access features_ section of the Admin page.
 
 // Mark-- clarify "navigation within the app is on the left". Confirm with Adi if flag enabling by default/banned by admin makes it in to 9.7. Mention where in user profile to enable.
 
