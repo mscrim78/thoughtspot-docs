@@ -5,6 +5,7 @@
 // :page-toclevels: -1
 :page-layout: default-cloud
 :description:  Current schedule for ThoughtSpot Cloud cluster upgrades
+:jira: SCAL-175305
 
 ThoughtSpot Cloud releases are rolled out in a phased manner across the entire ThoughtSpot cloud environment. The initial release candidate is deployed on internal ThoughtSpot, and customer development (DEV) environments. Once the quality of the release candidate is confirmed, it is rolled out as generally available (GA) across all production (PROD) environments.
 
