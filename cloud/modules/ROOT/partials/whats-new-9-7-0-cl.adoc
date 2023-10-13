@@ -25,7 +25,7 @@ ifdef::pendo-links[]
 === Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-In this release,  we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The _Search Data_ button has been renamed _Open Query Builder_ to more easily distinguish it from the Sage search bar.
+In this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The _Search Data_ button has been renamed _Open Query Builder_ to more easily distinguish it from the Sage search bar.
 
 image::scroll_homepage.gif[]
 
@@ -52,6 +52,8 @@ In this release, we introduce a completely redesigned navigation experience orga
 image::app-switcher.png[]
 
 This new navigation experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
+
+NOTE: The admin can disable new navigation and home page feature for the entire cluster, in the _Early access features_ section of the Admin page.
 
 // Mark-- clarify "navigation within the app is on the left". Confirm with Adi if flag enabling by default/banned by admin makes it in to 9.7. Mention where in user profile to enable.
 
