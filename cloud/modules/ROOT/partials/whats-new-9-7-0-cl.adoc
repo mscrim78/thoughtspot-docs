@@ -269,6 +269,18 @@ We now support OAuth with PKCE for Databricks.
 
 // Mark - TBD
 
+[#9-7-0-cl-rbac]
+[discrete]
+=== Roles added to Primary Org [.badge.badge-update-note]#Beta#
+ThoughtSpot introduces role-based access control (RBAC) in Primary Orgs to allow for more granular access privileges.
+Use roles to apply privileges customized for your organizational needs.
+
+To enable RBAC, contact {support-url}.
+
+NOTE: Once you enable RBAC it cannot be disabled.
+
+// Mary
+
 [#9-7-0-cl-tse]
 [discrete]
 //=== TSE granular privileges and RBAC for shared tenant
