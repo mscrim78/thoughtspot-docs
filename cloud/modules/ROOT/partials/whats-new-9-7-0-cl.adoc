@@ -135,9 +135,9 @@ ifdef::pendo-links[]
 [discrete]
 === Personalized Liveboard Views [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard to create a view, and save it for future use. The new Liveboard is a view of the master Liveboard, so any changes made to the master Liveboard flow  automatically to the filtered Liveboard view but not vice-versa. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering.
+Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save it for future use. The new Liveboard is version of the master Liveboard, so any changes made to the master Liveboard are carried over ot the new Liveboard. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the new Liveboard are not automatically pushed to the master Liveboard.
 
-// Mary-- note: this article should be titled personalized-liveboard-views.adoc to match in-product links. be careful with the word "view"-- talk about function alone without using that term. Add an image with a box around the filter line with the saved filters.
+// Mary-- note: this article should be titled personalized-liveboard-views.adoc to match in-product links. Add an image with a box around the filter line with the saved filters.
 
 [#9-7-0-cl-embedding]
 [discrete]
@@ -182,7 +182,7 @@ When creating a filter on a Liveboard or Answer, you must have access to the und
 [#9-7-0-cl-coms]
 [discrete]
 === ThoughtSpot Slack bot integration
-ThoughtSpot delivers a Slack bot integration. ThoughtSpot's Slack integration lets you preview Liveboard and Answer links shared directly in Slack.
+ThoughtSpot delivers a Slack bot integration. Get notified in Slack when Liveboards are updated.  ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
 
 // Mary-- ask for clarification on what this means since we already have Slack integration with Sync. internal name is Coms, external name is Notifications. are the notifications now pushed to Slack from the Liveboard? What notifications are there-- someone requested access/ shared? Or other updates? may add in language "get notified when x happens in Slack"
 
