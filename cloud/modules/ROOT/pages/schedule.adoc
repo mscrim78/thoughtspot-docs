@@ -24,7 +24,7 @@ This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 (PROD)
 
 |9.7.0.cl
-|October 10-17, 2023
+|October 6-23, 2023
 |October 23-31, 2023
 
 |9.8.0.cl
