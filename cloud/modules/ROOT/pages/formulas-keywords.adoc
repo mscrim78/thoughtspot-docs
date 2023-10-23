@@ -23,6 +23,8 @@ You can also use these keywords to suit other business use cases, by making the 
 - Specify multiple columns, for example, `revenue of region and state`
 - Specify the total ratio, for example, `revenue percentage of all`
 
+NOTE: "of" and "percentage of" keywords are in beta, and off by default. If they are not available on your cluster, you must contact {support-url} to enable them.
+
 == “Of” keyword example
 
 You may want an answer to the question: “What is the revenue of each customer nation?” In this case, you would search for: `Revenue by Customer Nation`, which displays the total revenue at nation level. In order to see the revenue of each customer nation, you add the following filter to your search: `Revenue of Customer Nation`.
