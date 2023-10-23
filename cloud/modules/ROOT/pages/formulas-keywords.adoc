@@ -1,7 +1,7 @@
 = Keywords “of”, “percentage of”
 :last_updated: 5/1/23
 :linkattrs:
-:page-layout: default-cloud
+:page-layout:  default-cloud-beta
 :experimental:
 :description: Use the keywords “of” and “percentage of” to answer business questions related to contribution and total ratios.
 
@@ -14,6 +14,8 @@ You can also use these keywords to suit other business use cases, by making the 
 - Specify aggregation type, for example, `average revenue of region`
 - Specify multiple columns, for example, `revenue of region and state`
 - Specify the total ratio, for example, `revenue percentage of all`
+
+NOTE: "of" and "percentage of" keywords are in beta, and off by default. If they are not available on your cluster, you must contact {support-url} to enable them.
 
 == “Of” keyword example
 
