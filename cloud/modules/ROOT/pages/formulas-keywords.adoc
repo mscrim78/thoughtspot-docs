@@ -5,6 +5,14 @@
 :experimental:
 :description: Use the keywords “of” and “percentage of” to answer business questions related to contribution and total ratios.
 
++++++
+<style>
+.badge-beta {
+    border: none !important;
+}
+</style>
++++++
+
 To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we have added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” Previously, searches such as these required the use of a group aggregate formula, which presented a barrier to users.
 
 To use these keywords, it is helpful to understand what the syntax returns. `Revenue of region` returns the revenue at the regional level of detail, while `Revenue percentage of region` returns the revenue as a percentage of the total region.
@@ -14,6 +22,8 @@ You can also use these keywords to suit other business use cases, by making the 
 - Specify aggregation type, for example, `average revenue of region`
 - Specify multiple columns, for example, `revenue of region and state`
 - Specify the total ratio, for example, `revenue percentage of all`
+
+NOTE: "of" and "percentage of" keywords are in beta, and off by default. If they are not available on your cluster, you must contact {support-url} to enable them.
 
 == “Of” keyword example
 
