@@ -33,10 +33,10 @@ ifndef::pendo-links[]
 xref:spotdev.adoc[SpotDev Slack app].
 endif::[]
 ifdef::pendo-links[]
-xref:spotdev.adoc[SpotDev Slack app,window=_blank].
+xref:spotdev.adoc[ThoughtSpot Slack app,window=_blank].
 endif::[]
 
-image::nls-slack.png[SpotDev Slack app]
+image::nls-slack.png[ThoughtSpot Slack app]
 
 
 [#9-7-0-cl-migration]
