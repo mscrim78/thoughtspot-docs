@@ -63,7 +63,7 @@ Network access control (NACL) credentials are stored in our directory as SSO is 
 * ThoughtSpot to cloud data warehouse
 * ThoughtSpot to internal resources
 - All credentials and keys encrypted in internal Secure Vault
-- Encryption at Rest (EAR): https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html[Encrypted EBS with keys stored in AWS KMS^]
+- Encryption at rest (EAR): https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html[Encrypted EBS with keys stored in AWS KMS^]
 - Encrypted s3 bucket containing cluster backup. S3 bucket per tenant with per-tenant encryption key.
 
 
