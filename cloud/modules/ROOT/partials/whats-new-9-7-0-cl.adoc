@@ -31,7 +31,7 @@ endif::[]
 
 You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
 
-image::nls-slack.png[SpotDev Slack app]
+image::nls-slack.png[ThoughtSpot Slack app]
 
 
 [#9-7-0-cl-migration]
@@ -135,6 +135,8 @@ Previously, ThoughtSpot supported the `ts_username` variable for use in row-leve
 
 When creating a filter on a Liveboard or Answer, you must have access to the underlying data source. Users can now request access to the underlying Worksheet through the filter modal on a Liveboard or Answer.
 
+image::filter-request-access.png[Request access to data sources underlying a filter]
+
 [#9-7-0-cl-coms]
 [discrete]
 === ThoughtSpot Slack bot integration
@@ -172,8 +174,10 @@ endif::[]
 
 // Naomi-- scal-158463
 
-You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the *Data* tab, you can set up a connection to Atlan to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+You can now import information related to your tables and columns from Atlan into ThoughtSpot. From the *Data* tab, you can set up a connection to Atlan to import
+column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, column and table information is visible to all users.
+
+image::atlan-data-governance.png[Sync metadata from Atlan]
 
 ifndef::pendo-links[]
 [#9-7-0-cl-sap-hana]
