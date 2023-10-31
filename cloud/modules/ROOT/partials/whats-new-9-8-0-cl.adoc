@@ -215,7 +215,30 @@ Custom sorting for attributes to sort all chart types in a way that helps users 
 [discrete]
 === Custom calendar enabled by default
 
-In this release, custom calendar is now enabled by default for connections.
+In this release, custom calendar is now enabled by default for the following connections:
+
+* Amazon Athena
+* Amazon Aurora MySQL
+* Amazon Aurora PostgreSQL
+* Amazon RDS MySQL
+* Amazon RDS PostgreSQL
+* Amazon Redshift
+* Databricks
+* Google AlloyDB for PostgreSQL
+* Google BigQuery
+* Google Cloud SQL for PostgreSQL
+* Google Cloud SQL for SQL Server
+* Microsoft Azure Synapse
+* MySQL
+* Oracle ADW
+* Presto
+* SAP HANA
+* Singlestore
+* Snowflake
+* SQL Server
+* Starburst
+* Teradata
+* Trino
 
 // Mark -- SCAL-138688. mention which Connections it's not available for?
 
