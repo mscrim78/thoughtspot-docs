@@ -37,7 +37,7 @@ All other instance configurations are controlled through Infrastructure as Code 
 All ThoughtSpot Cloud environments (Dev, QA, Prod) are completely isolated by firewall.
 Authorized people access the environment through a secure data center in ThoughtSpot (across a VPN tunnel). Certificates are only valid for 20 minutes.
 
-== VPC and E2 instance
+== VPC and EC2 instance
 
 Completely dedicated and separate VPC and EC2 instance, including:
 
@@ -45,12 +45,13 @@ Completely dedicated and separate VPC and EC2 instance, including:
 - Gateways
 - Dedicated backup
 
-== Account-level security
+== Instance security services
 
 There are security tools on the front end that allow inspection of traffic, including:
 
 - Denial of service (DoS)
 - Web application firewalls
+- Intrusion detection systems
 
 == Network access control and security group configuration
 
