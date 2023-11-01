@@ -46,17 +46,20 @@ image::nls-slack.png[ThoughtSpot Slack app]
 ifndef::pendo-links[]
 [#9-7-0-cl-atlan]
 [discrete]
-=== Atlan metadata [.badge.badge-beta]#Beta#
+=== Atlan [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-7-0-cl-atlan]
 [discrete]
-=== Atlan metadata [.badge.badge-beta-whats-new]#Beta#
+=== Atlan [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi-- scal-158463
 
-Users can now see metadata information on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users. This feature is in beta and off by default. To enable it, contact {support-url}.
+You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. To enable the connection to Atlan, contact {support-url}.
+
+image::catalog-integration.png[Atlan metadata shown in Search Data]
+
 
 
 
