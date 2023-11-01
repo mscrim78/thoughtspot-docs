@@ -19,9 +19,11 @@ endif::free-trial-feature[]
 [discrete]
 === Sage Coach
 
-// Naomi -- SCAL-154204. Santiago is waiting to confirm whether Admin users or Worksheet owners will have access to make feedback apply globally. add a gif. split into two? new user experience and data workspace part.
+// Naomi -- SCAL-154204. Santiago is waiting to confirm whether Admin users or Worksheet owners will have access to make feedback apply globally. split into two? new user experience and data workspace part.
 
 When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
+
+image::sage-coach.gif[]
 
 
 
@@ -40,11 +42,13 @@ endif::[]
 
 ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view-only access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard.
 
+image::kpi-filtered.png[KPI alert with filter]
+
 [#9-8-0-cl-insight]
 [discrete]
 ===  Change analysis: More insights
 
-// Naomi -- SCAL-172513. is More insights capitalized in product? add image.
+// Naomi -- SCAL-172513. is More insights capitalized in product?
 
 Change analysis _more insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window.
 
@@ -76,7 +80,9 @@ image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
 
 // Naomi -- SCAL-177812. add image/gif. find out if there's an opt-out option. is there an admin control over the feature?
 
-When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates an alert. You receive emails with updates to the KPI on a periodic basis.
+When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab.
+
+image::kpi-alert-homepage.png[]
 
 [#9-8-0-cl-view]
 [discrete]
@@ -89,14 +95,14 @@ Personalized views allow you to save your own set of values for filters and para
 [discrete]
 === Push notifications
 
-// Naomi -- SCAL-58625. contact Arpit and Vaibav. ask if we can access emulator. connect all mobile features under one header.
+// Naomi -- SCAL-58625. contact Arpit and Vaibhav. ask if we can access emulator. connect all mobile features under one header. added in end of November
 ////
 
 [#9-8-0-cl-slack]
 [discrete]
 === ThoughtSpot for Slack
 
-// Naomi -- SCAL-159818. what is the final external name? contact Sean Z. update image with external name? Add in a note saying Slack adopts the name based on your cluster?
+// Naomi -- SCAL-159818.
 
 You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Slack
 app, add it to a Slack channel, and you can ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
@@ -247,6 +253,8 @@ The following connections are now available to all customers and are on by defau
 
 You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status.
 
+image::atlan-data-governance.png[Sync metadata from Atlan]
+
 [#9-8-0-cl-embrace]
 [discrete]
 === OAuth connection improvements
@@ -273,6 +281,7 @@ If you do not have a valid OAuth access token, you can now directly navigate to 
 You can now delete an Org without first removing all users, connections and objects.
 // Mary -- SCAL-134057
 
+////
 [#9-8-0-cl-viz]
 [discrete]
 === Remove deleted visualizations from Object Usage count
@@ -280,6 +289,17 @@ You can now delete an Org without first removing all users, connections and obje
 // Naomi -- SCAL-161589. article only.
 
 The Object Usage Liveboard no longer includes objects that have been deleted. This ensures a more accurate count of objects in use on your cluster.
+////
+
+[#9-8-0-cl-sql]
+[discrete]
+=== Disable SQL passthrough functions
+
+// Naomi -- scal-164805
+
+Admin users can now ban passthrough functions for their cluster, to prevent SQL injection attacks. This option is available under the *Search & SpotIQ* section of the *Admin* tab.
+
+image::sql-passthrough-enable.png[Enable or disable SQL passthrough functions]
 
 
 
