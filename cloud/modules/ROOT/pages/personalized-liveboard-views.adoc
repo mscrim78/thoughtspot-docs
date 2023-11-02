@@ -22,6 +22,8 @@ You can create a personalized view for any Liveboard that you can apply filters 
 . Select *Make view available to all users* if you want the view to be visible to others.
 . Click *Save*.
 
+image::personalized-views.png[Save view of filtered Liveboard]
+
 From a personalized Liveboard view, you can create additional views, update existing views, manage views, or reset a Liveboard.
 
 == Update a personalized Liveboard view
