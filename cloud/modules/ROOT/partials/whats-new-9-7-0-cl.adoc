@@ -39,7 +39,7 @@ image::nls-slack.png[ThoughtSpot Slack app]
 //=== Enabling Orgs on Free Trial and Team Edition clusters
 //ThoughtSpot has Enabled Orgs on Free Trial and Team edition clusters to provide customers a path to go from Free Trial to a Team, Group, or Pro edition subscription.
 //confirmed doc req from @Aditya Chand
-//update: Oct. 4 @Aditya Chand advised documentation is required but no what's new as this is only for new customers.
+//update: Oct. 4 @Aditya Chand no what's new/doc required as this is only for new customers. May be updated in the 9.8.0.cl docs when we add information about the editions to the docs.
 // Mary
 
 
@@ -94,7 +94,10 @@ ifdef::pendo-links[]
 [discrete]
 === Personalized Liveboard Views [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save it for future use. The new Liveboard is version of the master Liveboard, so any changes made to the master Liveboard are carried over ot the new Liveboard. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the new Liveboard are not automatically pushed to the master Liveboard.
+Personalized Liveboard views allow you to save your own set of values for filters and parameters in a Liveboard without creating a copy of the Liveboard. When you change the values of the already present filters in a Liveboard, you can save the personalized view for future use. The personalized Liveboard view inherits any changes made to the master Liveboard, including changes made to pinned visualizations, tabs, filter chips, and re-ordering.
+
+image::personalized_views.png[Save view shown when filter values are applied]
+
 
 // Mary-- note: this article should be titled personalized-liveboard-views.adoc to match in-product links. Add an image with a box around the filter line with the saved filters.
 
@@ -114,7 +117,7 @@ image:embed-note-tile.gif[Animation demonstrating how to embed content in a Live
 === Pivot table improvements
 Previously, the summary values in ThoughtSpot pivot tables were not always calculated correctly. Enhancements to the pivot table summary calculations now ensure that the values are calculated correctly.
 // Damian Waldron
-// Mary-- add in docs and release notes, keep out of what's new. Mention specific instances where it's now fixed/ what kind of pivot tables are now summarized correctly.
+// Mary-- add in docs/release notes, keep out of what's new. Mention specific instances where it's now fixed/ what kind of pivot tables are now summarized correctly.
 ////
 
 [#9-7-0-cl-variables]
@@ -143,9 +146,9 @@ image::filter-request-access.png[Request access to data sources underlying a fil
 [#9-7-0-cl-coms]
 [discrete]
 === ThoughtSpot Slack bot integration
-ThoughtSpot delivers a Slack bot integration. Get notified in Slack when Liveboards are updated.  ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
+Get notified in Slack when Liveboards are updated.  ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
 
-// Mary-- ask for clarification on what this means since we already have Slack integration with Sync. internal name is Coms, external name is Notifications. are the notifications now pushed to Slack from the Liveboard? What notifications are there-- someone requested access/ shared? Or other updates? may add in language "get notified when x happens in Slack"
+// Mary--  Internal name is Coms, external name is Notifications. add in language "get notified when x happens in Slack"
 
 [#9-7-0-cl-data-fluency-ga]
 // SCAL-161459
