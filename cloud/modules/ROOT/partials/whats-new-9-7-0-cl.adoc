@@ -1,8 +1,8 @@
 ifndef::pendo-links[]
-October 2023 [label label-dep]#9.7.0.cl#
+November 2023 [label label-dep]#9.7.0.cl#
 endif::[]
 ifdef::pendo-links[]
-[month-year-whats-new]#October 2023#
+[month-year-whats-new]#November 2023#
 [label label-dep-whats-new]#9.7.0.cl#
 endif::[]
 
