@@ -1,8 +1,8 @@
 ifndef::pendo-links[]
-October 2023 [label label-dep]#9.7.0.cl#
+November 2023 [label label-dep]#9.7.0.cl#
 endif::[]
 ifdef::pendo-links[]
-[month-year-whats-new]#October 2023#
+[month-year-whats-new]#November 2023#
 [label label-dep-whats-new]#9.7.0.cl#
 endif::[]
 
@@ -108,7 +108,10 @@ ifdef::pendo-links[]
 [discrete]
 === Personalized Liveboard Views [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save it for future use. The new Liveboard is version of the master Liveboard, so any changes made to the master Liveboard are carried over ot the new Liveboard. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the new Liveboard are not automatically pushed to the master Liveboard.
+Personalized Liveboard views allow you to save your own set of values for filters and parameters in a Liveboard without creating a copy of the Liveboard. When you change the values of the already present filters in a Liveboard, you can save the personalized view for future use. The personalized Liveboard view inherits any changes made to the master Liveboard, including changes made to pinned visualizations, tabs, filter chips, and re-ordering.
+
+image::personalized_views.png[Save view shown when filter values are applied]
+
 
 // Mary-- note: this article should be titled personalized-liveboard-views.adoc to match in-product links. Add an image with a box around the filter line with the saved filters.
 
@@ -165,7 +168,9 @@ image::filter-request-access.png[Request access to the underlying data source]
 [#9-7-0-cl-coms]
 [discrete]
 === ThoughtSpot Slack bot integration
-ThoughtSpot delivers a Slack bot integration. Get notified in Slack when Liveboards are updated.  ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
+Get notified in Slack when Liveboards are updated. ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
+
+// Mary--  Internal name is Coms, external name is Notifications. add in language "get notified when x happens in Slack"
 
 // Mary-- ask for clarification on what this means since we already have Slack integration with Sync. internal name is Coms, external name is Notifications. are the notifications now pushed to Slack from the Liveboard? What notifications are there-- someone requested access/ shared? Or other updates? may add in language "get notified when x happens in Slack"
 
@@ -201,8 +206,7 @@ endif::[]
 
 // Naomi-- scal-158463
 
-You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the *Data* tab, you can set up a connection to Atlan to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the *Data* tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
 For more information, see
 ifndef::pendo-links[]
