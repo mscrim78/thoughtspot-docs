@@ -110,8 +110,10 @@ ifdef::pendo-links[]
 endif::[]
 Personalized Liveboard views allow you to save your own set of values for filters and parameters in a Liveboard without creating a copy of the Liveboard. When you change the values of the already present filters in a Liveboard, you can save the personalized view for future use. The personalized Liveboard view inherits any changes made to the master Liveboard, including changes made to pinned visualizations, tabs, filter chips, and re-ordering.
 
-image::personalized_views.png[Save view shown when filter values are applied]
 
+
+image::personalized_views.png[Save view shown when filter values are applied]
+For more information, see xref:personalized-liveboard-views.adoc[Personalized Liveboard views].
 
 // Mary-- note: this article should be titled personalized-liveboard-views.adoc to match in-product links. Add an image with a box around the filter line with the saved filters.
 
@@ -171,8 +173,6 @@ image::filter-request-access.png[Request access to the underlying data source]
 Get notified in Slack when Liveboards are updated. ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
 
 // Mary--  Internal name is Coms, external name is Notifications. add in language "get notified when x happens in Slack"
-
-// Mary-- ask for clarification on what this means since we already have Slack integration with Sync. internal name is Coms, external name is Notifications. are the notifications now pushed to Slack from the Liveboard? What notifications are there-- someone requested access/ shared? Or other updates? may add in language "get notified when x happens in Slack"
 
 [#9-7-0-cl-data-fluency-ga]
 // SCAL-161459
@@ -296,6 +296,7 @@ To enable RBAC, contact {support-url}.
 
 NOTE: Once you enable RBAC it cannot be disabled.
 
+For more information, see xref:rbac.adoc[Understand RBAC and privileges].
 // Mary
 
 [#9-7-0-cl-tse]
