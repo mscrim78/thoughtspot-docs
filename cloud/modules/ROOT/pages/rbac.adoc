@@ -59,10 +59,10 @@ The following are descriptions of each of the RBAC roles.
 |===
 |Role |Description
 
-|Super Admin
-|Can manage users and groups and has view and edit access to all data. Users with this privilege can access all cluster data. This privilege should only be granted in exceptional circumstances.|
+//|Super Admin
+//|Can manage users and groups and has view and edit access to all data. Users with this privilege can access all cluster data. This privilege should only be granted in exceptional circumstances.|
 
-Can manage Users
+|Can manage Users
 |Can create, view, update and delete users. This is an administrative privilege.|
 
 Can manage Groups
@@ -99,11 +99,10 @@ Before adding users to groups, you can create custom roles if necessary and assi
 To create a role, follow these steps:
 
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
-. Select *Roles* from the side navigation bar that appears.
-//<insert screen cap here>
+. Select *Roles* from the side navigation bar.
 . Select the *Create role* button on the right side of the screen.
 . In the *Create role* modal, enter the details for the new role:
-//<insert screen cap here>
+
 +
 [#role-name]
 Role name::
@@ -116,7 +115,14 @@ Optionally, enter a description.
 [#privileges]
 Privileges::
 Check the privileges you want to grant to the role.
+
+image::rbac_create_role.png[Create role modal]
+
+[start=5]
 . Click *Review selection* to continue.
+
+image::rbac_review.png[RBAC review modal]
+[start=6]
 . Review your selections, and click *Save* to create the new role.
 
 === Edit a role
@@ -124,7 +130,6 @@ To edit a role, follow these steps:
 
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Roles* from the side navigation bar that appears.
-//<insert screen cap here>
 . Click on a role to edit the role.
 . In the *Edit role* modal, make your desired changes.
 . Click *Review selection* to continue.
@@ -135,7 +140,6 @@ To delete a role, follow these steps:
 
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Roles* from the side navigation bar that appears.
-//<insert screen cap here>
 . Select the role you plan to delete by clicking the box next to the role name.
 If you don’t immediately see the name of the group, try searching for it.
 . Select *Delete*.
