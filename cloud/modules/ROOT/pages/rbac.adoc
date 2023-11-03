@@ -59,10 +59,10 @@ The following are descriptions of each of the RBAC roles.
 |===
 |Role |Description
 
-//|Super Admin
-//|Can manage users and groups and has view and edit access to all data. Users with this privilege can access all cluster data. This privilege should only be granted in exceptional circumstances.|
+|Super Admin
+|Can manage users and groups and has view and edit access to all data. Users with this privilege can access all cluster data. This privilege should only be granted in exceptional circumstances.|
 
-|Can manage Users
+Can manage Users
 |Can create, view, update and delete users. This is an administrative privilege.|
 
 Can manage Groups
