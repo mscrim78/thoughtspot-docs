@@ -70,10 +70,15 @@ We made the following enhancements to verified Liveboards:
 - The name of the Liveboard now appears in verification request emails.
 - When editing an Answer on or pinning an Answer to a verified Liveboard, a warning banner appears indicating it may need to be verified again.
 
+Enabling Orgs on Free Trial and Team Edition clusters::
+ThoughtSpot has Enabled Orgs on Free Trial and Team edition clusters to provide customers a path to go from Free Trial to a Team, Group, or Pro edition subscription.
+
+
 [#9-6-0-cl-slides]
 ThoughtSpot for Google Slides add-on::
 
 ThoughtSpot Connected Slides is an add-on that allows you to insert charts and live data visualizations right into your Google Slides™ presentation. Just connect to ThoughtSpot, find a chart or visualization, and add it to your slide presentation. For details, see xref:thoughtspot-slides.adoc[ThoughtSpot Connected Slides].
+
 
 [#9-6-0-cl-data-engineer]
 === For the Data Engineer
@@ -174,6 +179,16 @@ ServiceNow Incident Management (Snowflake Connector for ServiceNow):: In this re
 For more information, see
 xref:spotapps-servicenow.adoc[ServiceNow Incident Management SpotApps].
 
+Personalized Liveboard Views [.badge.badge-early-access-whats-new]#Early Access#::
+endif::[]
+Personalized Liveboard views allow you to save your own set of values for filters and parameters in a Liveboard without creating a copy of the Liveboard. When you change the values of the already present filters in a Liveboard, you can save the personalized view for future use. The personalized Liveboard view inherits any changes made to the master Liveboard, including changes made to pinned visualizations, tabs, filter chips, and re-ordering.
+For more information, see xref:personalized-liveboard-views.adoc[Personalized Liveboard views].
+
+Pivot table improvements::
+Previously, the summary values in ThoughtSpot pivot tables were not always calculated correctly. Enhancements to the pivot table summary calculations now ensure that the values are calculated correctly.
+
+ThoughtSpot Slack bot integration::
+Get notified in Slack when Liveboards are updated. ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
 
 [#9-5-0-cl-business-user]
 === For the Business User
@@ -223,6 +238,15 @@ ThoughtSpot introduces role-based access control (RBAC) to allow for more granul
 ThoughtSpot includes some standard roles to help existing customers transition to RBAC. To enable RBAC, contact {support-url}.
 See
 xref:rbac.adoc[Understand RBAC and privileges].
+
+Roles added to Primary Org [.badge.badge-update-note]#Beta#::
+ThoughtSpot introduces role-based access control (RBAC) in Primary Orgs to allow for more granular access privileges.
+Use roles to apply privileges customized for your organizational needs.
+To enable RBAC, contact {support-url}.
+
+NOTE: Once you enable RBAC it cannot be disabled.
+
+For more information, see xref:rbac.adoc[Understand RBAC and privileges].
 
 ThoughtSpot for Connected Sheets add-on:: ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis.
 +
