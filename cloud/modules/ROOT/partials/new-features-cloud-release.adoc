@@ -40,10 +40,6 @@ Request access to data source from filter:: When creating a filter on a Liveboar
 ThoughtSpot Slack bot integration:: Get notified in Slack when Liveboards are updated. ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
 
 //scal-161459
-New data panel GA:: The new data panel experience is available for all customers in this release, and is enabled by default. In this release, you can now filter data sources by how they are tagged.
-
-
-
 [#9-7-0-cl-business-user]
 === For the Business User
 
