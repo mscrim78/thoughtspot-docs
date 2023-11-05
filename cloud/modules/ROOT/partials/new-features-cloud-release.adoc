@@ -45,7 +45,7 @@ ThoughtSpot Slack bot integration:: Get notified in Slack when Liveboards are up
 
 New data panel with tag-based filtering::
 The new data panel experience is available for all customers in this release, and is enabled by default. In this release, you can now filter data sources by how they are tagged.
-
++
 For more information, see xref:search-start.adoc[Start a new search].
 
 //scal-159819
