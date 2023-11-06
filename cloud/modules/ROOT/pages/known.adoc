@@ -169,7 +169,7 @@ Query is incorrectly translated to `AggregateDistinct`.
 
 *Conditions*:
 
-Using Snowflake
+Using Snowflake with `enableGroupingByGroupAggregrates` feature enabled.
 
 *Workaround*:
 
