@@ -28,7 +28,7 @@ Using Liveboard preview feature using the same ID for multiple users.
 
 *Workaround*:
 
-TBD.
+None.
 |SCAL-175240
 |PDF downloads do not work.
 a|*Symptoms*:
@@ -37,11 +37,11 @@ PDF downloads do not work.
 
 *Conditions*:
 
-TBD.
+-
 
 *Workaround*:
 
-TBD.
+None.
 
 |SCAL-174177
 |Liveboards do not load.
@@ -51,7 +51,7 @@ Liveboards do not load.
 
 *Conditions*:
 
-TBD.
+-
 
 *Workaround*:
 
@@ -117,7 +117,7 @@ None.
 |It is not possible to disable GraphQL v2.
 a|*Symptoms*:
 
-TBD.
+-
 
 *Conditions*:
 
@@ -145,7 +145,7 @@ When opening the query visualizer.
 
 *Workaround*:
 
-TBD.
+None.
 
 |SCAL-164158
 |Liveboards render slowly.
@@ -155,7 +155,7 @@ Liveboards render slowly.
 
 *Conditions*:
 
-TBD.
+-
 
 *Workaround*:
 
