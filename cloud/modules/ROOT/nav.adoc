@@ -682,6 +682,6 @@
 ** xref:reaggregation-scenarios.adoc[Reaggregation in practice]
 ** xref:liveboard-gating-condition-example.adoc[Liveboard schedule gating conditions in practice]
 ** xref:liveboard-hyperlink.adoc[Add a hyperlink to a search]
-* About ThoughtSpot Cloud
-** Security
-*** xref:cloud-security.adoc[ThoughtSpot Cloud Security]
+// * About ThoughtSpot Cloud
+// ** Security
+// *** xref:cloud-security.adoc[ThoughtSpot Cloud Security]
