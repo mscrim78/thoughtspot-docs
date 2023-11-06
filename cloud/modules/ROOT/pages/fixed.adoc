@@ -17,37 +17,29 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description
 
-|SCAL-175970
-|POST tspublic/v1/user returns a 500 error if null is passed on under the group parameter for the tspublic V1 user API property.
-|SCAL-174155
-|Data filter does not show the values in the Liveboards for the specified year.
-|SCAL-173805
-|The error `TypeError: runtimeFilterParams.set is not a function. (In 'runtimeFilterParams.set(I,b)', 'runtimeFilterParams.set' is undefined)` occurs when using runtime filters along with cookieless authentication.
-|SCAL-173537
-|Incorrect date bucketing occurs on windowing and group functions, when date bucketing on windowing or group functions is defined over chasm trap worksheets.
-|SCAL-173139
-|Adding values in bulk does not work on Liveboard filters.
-|SCAL-172371
-|Signing into ThoughtSpot returns users to the sign-in page.
-|SCAL-171542
-|Worksheet creation and search do not work in a newly created org.
-|SCAL-171537
-|Loading an embedded Liveboard takes eight minutes.
-|SCAL-170042
-|A worksheet which does not have a dependency cannot be deleted.
-|SCAL-168719
-|Liveboards are slow to load, even though queries are executed in milliseconds in the cloud data warehouse.
-|SCAL-168585
-|Filter is not applied before aggregation when `enableGroupAggregateNewReaggregation` is enabled.
+|SCAL-179034
+|Liveboard preview feature potential security leak, due to the same ID being used for multiple customers.
+|SCAL-175240
+|PDF downloads do not work.
+|SCAL-174177
+|Liveboards do not load.
+|SCAL-173808
+|Filters in Answer search are not applied.
+|SCAL-172622
+|_Request Access_ button for a shared Answer does not work.
+|SCAL-172617
+|When a user requests access to worksheet, the worksheet name is not displayed properly.
+|SCAL-172356
+|Atlan connector: User can edit an existing or create a new connection using deleted API tokens.
+|SCAL-171431
+|It is not possible to disable GraphQL v2.
+|SCAL-164158
+|Liveboards render slowly.
+|SCAL-163806
+|Snowflake query is incorrectly translated to `AggregateDistinct`.
 |SCAL-167159
 |When opening the query visualizer, the error `Error Details [11022]
 Passthrough functions not supported for current query. Trace Id for this incident is ff025b55-9f46-470e-95f4-c4766533e5cf
 Additional Details
 Passthrough functions cannot be executed on Falcon objects` appears.
-|SCAL-164846
-|Undefined values are displayed in a pivot table when the pivot table is currently in a corrupted state which is caused by the expansion of column values.
-|SCAL-163781
-|Liveboard fails to load with `"Cannot query parameter"` message
-|SCAL-157206
-|Downloading a pivot table to Excel file fails when a formula column contains a custom format column.
 |===
