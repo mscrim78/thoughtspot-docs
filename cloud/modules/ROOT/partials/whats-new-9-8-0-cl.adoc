@@ -133,9 +133,9 @@ Easily find verified Liveboards with trusted content by filtering search results
 
 [#9-8-0-cl-tml]
 [discrete]
-=== Use TML tokens to create Answer in NLS
+//=== Use TML tokens to create Answer in NLS
 
-// Mary -- SCAL-153748 - No doc needed...waiting for confirmation from Santiago
+// Mary -- SCAL-153748 - No doc needed...confirmed with Santiago
 
 
 [#9-8-0-cl-atlan]
@@ -174,19 +174,19 @@ ifdef::pendo-links[]
 [discrete]
 === Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-Custom sorting for attributes to sort all chart types in a way that helps users to consume charts more efficiently. Previously custom sorting could only be applied to an Answer using custom columns and the search bar, and could not be applied to some chart types. You can now sort on any column in a chart, in ascending or descending order, from the column heading menu.
+ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. Previously custom sorting could only be applied to an Answer using custom columns and the search bar, and could not be applied to some chart types. You can now sort on any column in a chart, in ascending or descending order, from the column heading menu.
 // Mary - SCAL-156895.
 
 [#9-8-0-cl-sage]
 [discrete]
-=== Highlight Sage using demo tab
-
-// Mary -- SCAL-160350 - Awaiting confirmation of doc requirement form Adi
+//=== ThoughtSpot introduces Sage demos for Free Trial and Team Editions
+//ThoughtSpot introduces Sage demos for Free Trial and Team Editions.
+// Mary -- SCAL-160350 - No what's new required, per Aditya Chan
 
 [#9-8-0-cl-team]
 [discrete]
-=== Alert customers if they are over the user limit on Team Edition
-
+//=== Alert customers if they are over the user limit on Team Edition
+//ThoughtSpot introduces in-product alerts to let you know if your number of users exceeds the limit for Team Edition.
 // Mary -- SCAL-153046 - Awaiting confirmation of doc requirement form Adi
 
 
@@ -283,7 +283,7 @@ If you do not have a valid OAuth access token, you can now directly navigate to 
 
 [#9-8-0-cl-IAM]
 [discrete]
-=== Need a way for an admin user to resend activation mail in IAM v2
+//=== Need a way for an admin user to resend activation mail in IAM v2
 
 // Mary -- SCAL-148215 - Confirmed no doc needed with Aditya Gupta that this was a validation epic.
 
