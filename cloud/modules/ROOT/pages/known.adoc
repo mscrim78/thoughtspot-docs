@@ -137,7 +137,7 @@ a|*Symptoms*:
 `Error Details [11022]
 Passthrough functions not supported for current query. Trace Id for this incident is ff025b55-9f46-470e-95f4-c4766533e5cf
 Additional Details
-Passthrough functions cannot be executed on Falcon objects` appears.
+Passthrough functions cannot be executed on Falcon objects`
 
 *Conditions*:
 
