@@ -16,11 +16,24 @@ These are the known issues in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-175240
-|TBD.
+|SCAL-179034
+|Liveboard preview feature potential security leak, due to the same ID being used for multiple customers.
 a|*Symptoms*:
 
+PDF downloads do not work.
+
+*Conditions*:
+
+Using Liveboard preview feature using the same ID for multiple users.
+
+*Workaround*:
+
 TBD.
+|SCAL-175240
+|PDF downloads do not work.
+a|*Symptoms*:
+
+PDF downloads do not work.
 
 *Conditions*:
 
@@ -31,10 +44,10 @@ TBD.
 TBD.
 
 |SCAL-174177
-|TBD.
+|Liveboards do not load.
 a|*Symptoms*:
 
-TBD.
+Liveboards do not load.
 
 *Conditions*:
 
@@ -42,97 +55,103 @@ TBD.
 
 *Workaround*:
 
-TBD.
+None.
 
 |SCAL-173808
-|TBD.
+|Filters in Answer search are not applied.
 a|*Symptoms*:
 
-TBD.
+
 
 *Conditions*:
 
-TBD.
+In Answer.
 
 *Workaround*:
 
-TBD.
+None.
 
 |SCAL-172622
-|TBD.
+|_Request Access_ button for a shared Answer does not work.
 a|*Symptoms*:
 
-TBD.
+_Request Access_ button does not work.
 
 *Conditions*:
 
-TBD.
+In a shared Answer.
 
 *Workaround*:
 
-TBD.
+None.
 
 |SCAL-172617
-|TBD.
+|When a user requests access to worksheet, the worksheet name is not displayed properly.
 a|*Symptoms*:
 
-TBD.
+Worksheet name is incorrectly displayed.
 
 *Conditions*:
 
-TBD.
+Requesting access to worksheet.
 
 *Workaround*:
 
-TBD.
+None.
 
 |SCAL-172356
-|TBD.
+|User can edit an existing or create a new Atlan connection using deleted API tokens.
 a|*Symptoms*:
 
-TBD.
+User can edit an existing or create a new connection using deleted API tokens.
 
 *Conditions*:
 
-TBD.
+Using Atlan connector.
 
 *Workaround*:
 
-TBD.
+None.
 
 |SCAL-171431
-|TBD.
+|It is not possible to disable GraphQL v2.
 a|*Symptoms*:
 
 TBD.
 
 *Conditions*:
 
-TBD.
+Try to disable GraphQL v2.
 
 *Workaround*:
 
-TBD.
+None.
 
 |SCAL-167159
-|TBD.
+|The error `Error Details [11022]
+Passthrough functions not supported for current query. Trace Id for this incident is ff025b55-9f46-470e-95f4-c4766533e5cf
+Additional Details
+Passthrough functions cannot be executed on Falcon objects` appears.
 a|*Symptoms*:
 
-TBD.
+ `Error Details [11022]
+Passthrough functions not supported for current query. Trace Id for this incident is ff025b55-9f46-470e-95f4-c4766533e5cf
+Additional Details
+Passthrough functions cannot be executed on Falcon objects` appears.
 
 *Conditions*:
 
-TBD.
+When opening the query visualizer.
 
 *Workaround*:
 
 TBD.
 
 |SCAL-164158
-|TBD.
+|Liveboards render slowly.
 a|*Symptoms*:
 
-TBD.
+Liveboards render slowly.
 
 *Conditions*:
 
@@ -140,20 +159,22 @@ TBD.
 
 *Workaround*:
 
-TBD.
+None.
 
 |SCAL-163806
-|TBD.
+|Query is incorrectly translated to `AggregateDistinct`.
 a|*Symptoms*:
 
-TBD.
+Query is incorrectly translated to `AggregateDistinct`.
 
 *Conditions*:
 
-TBD.
+Using Snowflake
 
 *Workaround*:
 
-TBD.
+None.
 
 |===
+
+
