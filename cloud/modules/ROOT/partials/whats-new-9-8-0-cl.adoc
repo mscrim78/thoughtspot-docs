@@ -185,9 +185,9 @@ ThoughtSpot introduces custom sorting of attributes to sort all chart types in a
 
 [#9-8-0-cl-team]
 [discrete]
-=== Alert customers if they are over the user limit on Team Edition
-ThoughtSpot alerts admins when number of users exceeds the limit for Team Edition.
-// Mary -- SCAL-153046 - Awaiting confirmation of doc requirement form Adi
+//=== Alert customers if they are over the user limit on Team Edition
+//ThoughtSpot alerts admins when number of users exceeds the limit for Team Edition.
+// Mary -- SCAL-153046 - Text approved by Aditya Chan, then requested removed since we can't target the content for only Team Edition customers.
 
 
 [#9-8-0-cl-dbt]
