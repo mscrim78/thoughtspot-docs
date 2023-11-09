@@ -23,7 +23,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-177127
 |ThoughtSpot Everywhere: The download option no longer works after switching to cookieless authentication.
 |SCAL-175970
-|POST tspublic/v1/user returns a 500 error if null is passed on under the group parameter for the tspublic V1 user API property.
+|`POST tspublic/v1/user` returns a 500 error if null is passed on under the group parameter for the tspublic V1 user API property.
 |SCAL-174937
 |Using `VS` keyword causes incorrect results.
 |SCAL-174155
@@ -47,7 +47,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-168585
 |Filter is not applied before aggregation when `enableGroupAggregateNewReaggregation` is enabled.
 |SCAL-167159
-|Passthrough functions cannot be executed on Falon objects.
+|Passthrough functions cannot be executed on Falcon objects.
 |SCAL-164846
 |Pivot table display "Undefined" when user clicks Edit button in a Liveboard or opens the visualization in edit mode.
 |SCAL-163781
