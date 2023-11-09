@@ -15,6 +15,7 @@ endif::free-trial-feature[]
 
 // Business User
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-slack]
 [discrete]
@@ -37,7 +38,7 @@ xref:spotdev.adoc[ThoughtSpot Slack app,window=_blank].
 endif::[]
 
 image::nls-slack.png[ThoughtSpot Slack app]
-
+endif::free-trial-feature[]
 
 [#9-7-0-cl-migration]
 [discrete]
@@ -49,7 +50,7 @@ image::nls-slack.png[ThoughtSpot Slack app]
 
 
 
-
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-atlan]
 [discrete]
@@ -75,7 +76,7 @@ endif::[]
 
 
 image::catalog-integration.png[Atlan metadata]
-
+endif::free-trial-feature[]
 
 [#9-7-0-cl-mobile]
 [discrete]
@@ -97,7 +98,7 @@ We made the following improvements to ThoughtSpot mobile:
 
 
 
-
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-personalized]
 [discrete]
@@ -121,6 +122,8 @@ xref:personalized-liveboard-views.adoc[Personalized Liveboard views,window=_blan
 endif::[]
 
 // Mary-- note: this article should be titled personalized-liveboard-views.adoc to match in-product links. Add an image with a box around the filter line with the saved filters.
+
+endif::free-trial-feature[]
 
 [#9-7-0-cl-embedding]
 [discrete]
@@ -204,6 +207,7 @@ endif::[]
 
 // Data Engineer
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-atlan-catalog]
 [discrete]
@@ -228,7 +232,9 @@ xref:catalog-integration-atlan.adoc[Atlan catalog integration,window=_blank].
 endif::[]
 
 image::atlan-data-governance.png[Sync data from Atlan]
+endif::free-trial-feature[]
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-sap-hana]
 [discrete]
@@ -250,6 +256,8 @@ endif::[]
 ifdef::pendo-links[]
 xref:tml-tables.adoc[TML for tables,window=_blank] and xref:tml-worksheets.adoc[TML for Worksheets,window=_blank].
 endif::[]
+
+endif::free-trial-feature[]
 
 
 
@@ -297,6 +305,7 @@ endif::[]
 
 // Mark - TBD
 
+ifndef::free-trial-feature[]
 [#9-7-0-cl-rbac]
 [discrete]
 === Roles added to Primary Org [.badge.badge-update-note]#Beta#
@@ -315,6 +324,7 @@ ifdef::pendo-links[]
 xref:rbac.adoc[Understand RBAC and privileges,window=_blank].
 endif::[]
 // Mary
+endif::free-trial-feature[]
 
 [#9-7-0-cl-tse]
 [discrete]
