@@ -14,7 +14,22 @@ These are the known issues in this release of ThoughtSpot Cloud.
 
 [cols="17%,39%,38%"]
 |===
+
 |Issue ID |Description|Symptoms, conditions, and workaround
+
+|SCAL-170123
+|Password field is not masked when creating a Databricks, Denodo, or Dremio connection.
+a|*Symptoms*:
+
+The plaintext password is displayed in the field, visible only to the person entering the credentials.
+
+*Conditions*:
+
+When a user enters credentials for Databricks, Denodo, or Dremio connections when creating a new connection.
+
+*Workaround*:
+
+None.
 
 |SCAL-179034
 |Liveboard preview feature potential security leak, due to the same ID being used for multiple customers.
