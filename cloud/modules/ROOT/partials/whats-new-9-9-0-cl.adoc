@@ -18,7 +18,11 @@ endif::free-trial-feature[]
 [discrete]
 === Ask Sage
 
-// Mark -- scal-175485
+// Naomi -- scal-175485, scal-177391. actually EA.
+
+You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. To access Ask Sage, ask a question using the Natural Language Search interface on the Home page, and click *Ask a follow up*.
+
+image:ask-sage-follow.png[Natural language search with "Ask a follow up" highlighted]
 
 [#9-9-0-cl-homepage]
 [discrete]
@@ -44,21 +48,27 @@ image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
 
 [#9-9-0-cl-highcharts]
 [discrete]
-=== Chart customizations: Highcharts
+=== Chart customizations
 
-// Naomi -- scal-166121
+// Naomi -- scal-166121. actually EA.
+
+You can now access advanced chart customization settings for Answers by selecting the gear icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds.
 
 [#9-9-0-cl-change]
 [discrete]
 === Run change analysis iteratively
 
-// Naomi -- scal-141936
+// Naomi -- scal-141936. actually beta. spotiq-change.adoc#iterative
+
+You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. When you right-click on a column in the change analysis window to drill down, ThoughtSpot adds the column as a filter and re-calculates change analysis for the specific window of time specified in your original search.
 
 [#9-9-0-cl-spotiq]
 [discrete]
-=== SpotIQ Liveboard summaries
+=== AI Highlights
 
-// Naomi -- scal-162712
+// Naomi -- scal-162712. actually beta.
+
+ThoughtSpot now provides AI-generated highlight summaries for your Liveboards. AI Highlights identify the key information displayed in a Liveboard, and emphasize data that has changed since your last visit to the Liveboard.
 
 [#9-9-0-cl-summary]
 [discrete]
@@ -68,9 +78,15 @@ image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
 
 [#9-9-0-cl-nl]
 [discrete]
-=== Chart type derived from natural language question
+=== Natural language search chart type
 
 // Naomi -- scal-156247
+
+You can now specify the answering chart type when you use Natural Language Search. For example, search for "sales by region pie chart", and the results appear in pie chart format.
+
+image::nls-chart-type.png[Natural language search with chart type specified in query]
+
+
 
 [#9-9-0-cl-mobile]
 [discrete]
