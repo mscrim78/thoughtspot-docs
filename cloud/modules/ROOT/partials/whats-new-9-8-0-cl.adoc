@@ -151,9 +151,8 @@ image::pie_chart_example.png[Donut chart example]
 [discrete]
 === Functional enhancements for verified Liveboards
 Easily find verified Liveboards with trusted content and filter search results to return only verified content. Request verification of Liveboards and cancel requests when needed.
-Administrators can track users' engagement with verified Liveboards.
 
-// Mary -- SCAL-158469. how do admins track user engagement? If a separate feature, make a separate blurb.
+// Mary -- SCAL-158469.
 
 
 
