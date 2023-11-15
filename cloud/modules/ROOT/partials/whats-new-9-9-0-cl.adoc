@@ -127,17 +127,21 @@ image::nls-chart-type.png[Natural language search with chart type specified in q
 
 // Naomi -- scal-164290
 
+
 [#9-9-0-cl-list]
 [discrete]
 === System Variables -- LIST type
 
-// Naomi -- scal-164682
+// Naomi -- scal-164289
 
+
+////
 [#9-9-0-renaming]
 [discrete]
 === Renaming columns
 
-// Naomi -- scal-158432
+// Naomi -- scal-158432. moved to 9.10
+////
 
 [#9-9-0-cl-parameters]
 [discrete]
@@ -157,17 +161,21 @@ image::nls-chart-type.png[Natural language search with chart type specified in q
 
 // Mary -- scal-134503
 
+////
 [#9-9-0-cl-conditional]
 [discrete]
 === Improve rule-based conditional formatting
 
-// Naomi -- scal-164682
+// Naomi -- scal-164682. moved to 9.10
+////
 
+////
 [#9-9-0-cl-null]
 [discrete]
 === Null and missing values in charts
 
-// Naomi -- scal-150931
+// Naomi -- scal-150931. moved to 9.10
+////
 
 [#9-9-0-cl-granular]
 [discrete]
