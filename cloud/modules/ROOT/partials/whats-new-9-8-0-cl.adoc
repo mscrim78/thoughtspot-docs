@@ -98,6 +98,7 @@ Personalized views allow you to save your own set of values for filters and para
 // Naomi -- SCAL-58625. contact Arpit and Vaibhav. ask if we can access emulator. connect all mobile features under one header. added in end of November
 ////
 
+////
 [#9-8-0-cl-slack]
 [discrete]
 === ThoughtSpot for Slack
@@ -108,6 +109,7 @@ ThoughtSpot for Slack is now available to all customers and is enabled by defaul
 app, add it to a Slack channel, and you can ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
 
 image::nls-slack.png[Slack app answers question in natural language]
+////
 
 ////
 [#9-8-0-cl-donut]
