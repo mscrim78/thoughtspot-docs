@@ -233,7 +233,6 @@ The ThoughtSpot mobile app has the following limitations:
 === For administrators:
 
 * To deploy the app to users in your company, see xref:mobile-deploy.adoc[Deploy mobile app].
-* To try the app before deploying it, see xref:mobile-deploy.adoc#try-the-mobile-app[Try mobile app].
 
 === For users:
 
