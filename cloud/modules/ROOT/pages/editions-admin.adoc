@@ -16,61 +16,61 @@ This article provides information about the capabilities administrators have in 
 |===
 .^|Capability ^.^|Team ^.^|Essentials ^.^|Pro ^.^|Enterprise
 
-|*Org creation and management*
+|Org creation and management
 ^.^|
 ^.^|
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*User management*
+|User management
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*Group management*
+|Group management
 ^.^|
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*Role management (RBAC)*
+|Role management (RBAC)
 ^.^|
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*SAML authentication*
+|SAML authentication
 ^.^|
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*System Liveboards*
+|System Liveboards
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*Developer privileges**
+|Developer privileges*
 ^.^|
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*ThoughtSpot Sage preview*
+|ThoughtSpot Sage preview
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*Data management privileges*
+|Data management privileges
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*SpotIQ privileges*
+|SpotIQ privileges
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
