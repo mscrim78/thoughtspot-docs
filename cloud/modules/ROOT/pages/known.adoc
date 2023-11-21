@@ -17,33 +17,6 @@ These are the known issues in this release of ThoughtSpot Cloud.
 
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-170123
-|Password field is not masked when creating a Databricks, Denodo, or Dremio connection.
-a|*Symptoms*:
-
-The plaintext password is displayed in the field, visible only to the person entering the credentials. The edit connection page does not show the password that the connection was created with. The field displays as empty.
-
-*Conditions*:
-
-When a user enters credentials for Databricks, Denodo, or Dremio connections when creating a new connection.
-
-*Workaround*:
-
-None.
-
-|SCAL-179034
-|Liveboard preview feature potential security leak, due to the same ID being used for multiple customers.
-a|*Symptoms*:
-
-PDF downloads do not work.
-
-*Conditions*:
-
-Using Liveboard preview feature using the same ID for multiple users.
-
-*Workaround*:
-
-None.
 |SCAL-175240
 |PDF downloads do not work.
 a|*Symptoms*:
@@ -176,19 +149,7 @@ Liveboards render slowly.
 
 None.
 
-|SCAL-163806
-|Query is incorrectly translated to `AggregateDistinct`.
-a|*Symptoms*:
 
-Query is incorrectly translated to `AggregateDistinct`.
-
-*Conditions*:
-
-Using Snowflake with `enableGroupingByGroupAggregrates` feature enabled.
-
-*Workaround*:
-
-None.
 
 |===
 
