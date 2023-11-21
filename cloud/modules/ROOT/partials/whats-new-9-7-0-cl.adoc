@@ -179,10 +179,10 @@ image::filter-request-access.png[Request access to the underlying data source]
 
 [#9-7-0-cl-coms]
 [discrete]
-=== ThoughtSpot Slack bot integration
-Get notified in Slack when Liveboards are updated. ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
+//=== ThoughtSpot Slack bot integration
+//ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
 
-// Mary--  Internal name is Coms, external name is Notifications. add in language "get notified when x happens in Slack"
+// Mary--  per Aditya Chand: Moved out from 9.7"
 
 [#9-7-0-cl-data-fluency-ga]
 // SCAL-161459
