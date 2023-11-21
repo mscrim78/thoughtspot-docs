@@ -5,7 +5,7 @@
 :page-layout: default-cloud
 :author: Teresa Killmond
 :description: ThoughtSpot's dbt integration allows you to provide your existing dbt models and create ThoughtSpot Worksheets, which you can use to search your data.
-:jira: SCAL-182271
+:jira: SCAL-182271, SCAL-182987
 
 ThoughtSpot's dbt integration allows you to easily provide your existing dbt models and automatically create ThoughtSpot xref:worksheets.adoc[Worksheets], which you can use to xref:search-data.adoc[search your data].
 
@@ -205,6 +205,10 @@ NOTE: When you edit a dbt integration, you often add columns and descriptions to
 . Select *Edit*.
 
 . Run the dbt integration again, making any changes you would like. Follow the steps in <<integrate,Integrating with dbt>>. This updates your Worksheets, tables, and Liveboards, based on the changes in your dbt models.
++
+NOTE: You may generate an error if you have removed or renamed a column in dbt before re-syncing to ThoughtSpot. To handle this error, check your dbt models and tables to ensure every column maps correctly to the tables and models in ThoughtSpot.
+
+
 
 == Limitations
 
