@@ -6,7 +6,7 @@
 :linkattrs:
 :page-layout: default-cloud
 :description: These are the issues we fixed in recent ThoughtSpot Cloud releases.
-:jira: SCAL-177532
+:jira: SCAL-183017
 
 These are the issues we fixed in this release of ThoughtSpot Cloud.
 

@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-cloud
 :linkattrs:
-:jira: SCAL-177532
+:jira: SCAL-183017
 
 These are the known issues in this release of ThoughtSpot Cloud.
 
