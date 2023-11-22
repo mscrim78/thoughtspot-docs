@@ -16,6 +16,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 [cols="20%,80%"]
 |===
 |Issue ID |Description
+
 |SCAL-177495
 |`yearly` and `monthly` keywords do not work.
 |SCAL-177151
