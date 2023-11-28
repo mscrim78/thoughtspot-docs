@@ -13,10 +13,14 @@ These release notes include information about new features, fixed issues from th
 * Support for SpotIQ analysis to directly identify the key drivers for recent change in your KPIs.
 * Support for IAMv2 login on ThoughtSpot Mobile.
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Introductions of ThoughtSpot mobile push notifications.
 =======
 *
 >>>>>>> 72c671a96 (added 2.8 and 2.8.1 features)
+=======
+* Introduction of ThoughtSpot mobile push notifications.
+>>>>>>> 7a8a10893 (added 2.8 and 2.8.1 content to the mobile.adoc file)
 
 
 [#2-8-new]
