@@ -5,7 +5,7 @@
 :description: You can now use Glean to search unstructured data, such as documents, powerpoints, and excel files, directly from a Liveboard.
 :linkattrs:
 :experimental:
-:jira: SCAL-175860
+:jira: SCAL-175860, SCAL-184539
 
 You can now use Glean to search unstructured data, such as documents, powerpoints, and excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights.
 
@@ -32,6 +32,5 @@ image:glean-configure-window.png[Configure your Glean results]
 
 
 . Click on any result in the Glean tile to open in a new tab. You can filter your results by date, author, type of file, or collection (tag).
-+
-image:glean-tile.png[Glean tile displaying Google document results]
+
 
