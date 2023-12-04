@@ -28,7 +28,7 @@ image::comment-sidebar.png[]
 After clicking *Comment*, you can hover over the data point, heading, or description you'd like to comment on, and click it to begin typing your comment. You can tag other users using the @ symbol. Users tagged in a comment receive an email notification. When a new comment is added, a red dot appears on the comment icon to let users know there is an unread comment.
 
 
-Users can reply to comments by clicking on the comment, and selecting the *Reply* section below the comment. You can also click the *more options* icon in the top right corner of any comment to share with Slack, unsubscribe from the thread, or resolve the original comment. To exit comment mode, press *ESC*, or click the x-icon in the top right corner of the comment sidebar.
+Users can reply to comments by clicking on the comment, and selecting the *Reply* section below the comment. You can also click the *more options* icon in the top right corner of any comment to unsubscribe from the thread, or resolve the original comment. To exit comment mode, press *ESC*, or click the x-icon in the top right corner of the comment sidebar.
 
 
 Data in a Liveboard may change after you add a comment. ThoughtSpot stores the data point at the time you commented. To see the original data behind a comment, click on the data point below the comment.
