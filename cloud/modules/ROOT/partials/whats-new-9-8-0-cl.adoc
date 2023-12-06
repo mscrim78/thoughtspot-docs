@@ -165,14 +165,6 @@ Easily find verified Liveboards with trusted content and sort Liveboards to view
 
 // Mary -- SCAL-153748 - No doc needed...waiting for confirmation from Santiago
 
-[#9-8-0-cl-csv]
-[discrete]
-=== CSV upload to Falcon database
-
-You can now upload CSV files directly into the Falcon database built into ThoughtSpot Cloud. This allows you to start using ThoughtSpot right away without the need to set up a connection to a cloud data warehouse.
-
-// Mark -- SCAL-161857. possibly take out Falcon, title it as ThoughtSpot's own data store. do we want to highlight this in the what's new?
-
 [#9-8-0-cl-atlan]
 [discrete]
 === Atlan
@@ -257,7 +249,7 @@ Define a custom sort order to sort charts in a specific order based on your busi
 [discrete]
 === Custom calendar enabled by default
 
-In this release, custom calendar is now enabled by default for connections.
+In this release, custom calendar is now enabled by default for connections which support custom calendar. For details, see xref:connections-cust-cal.adoc[Custom calendar overview].
 
 // Mark -- SCAL-138688. mention which Connections it's not available for?
 
@@ -312,7 +304,7 @@ image::atlan-data-governance.png[Sync metadata from Atlan]
 
 [#9-8-0-cl-embrace]
 [discrete]
-=== Embrace OAuth connection improvements
+=== Connections OAuth connection improvements
 
 // Naomi -- SCAL-160062. waiting on Bharath
 
