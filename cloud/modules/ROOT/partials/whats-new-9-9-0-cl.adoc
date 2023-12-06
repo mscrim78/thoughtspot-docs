@@ -1,4 +1,3 @@
-////
 ifndef::pendo-links[]
 November 2023 [label label-dep]#9.9.0.cl#
 endif::[]
@@ -31,12 +30,6 @@ xref:ask-sage.adoc[Ask Sage,window=_blank].
 endif::[]
 
 endif::free-trial-feature[]
-
-[#9-9-0-cl-homepage]
-[discrete]
-=== User customization for homepage revamp
-
-// Mark -- scal-160332
 
 ifndef::free-trial-feature[]
 [#9-9-0-cl-glean]
@@ -137,17 +130,13 @@ endif::[]
 
 [#9-9-0-cl-spotiq]
 [discrete]
-=== SpotIQ Liveboard summaries
+=== AI highlights
+
+AI highlights provides you with quick insights on how top metrics changed in your Liveboard, helping you to focus on the changes that are most important to you. Just open your Liveboard, and click *View AI Highlights*. ThoughtSpot generates a summary of the changes in your KPIs.
+
+image::ai-highlights-window.png[]
 
 // Mark -- scal-162712
-
-[#9-9-0-cl-summary]
-[discrete]
-=== Worksheet summary
-
-// Mark -- scal-161991
-
-
 
 [#9-9-0-cl-mobile]
 [discrete]
@@ -172,7 +161,9 @@ endif::[]
 
 [#9-9-0-cl-byoc]
 [discrete]
-=== Bring Your Own Charts (BYOC)
+=== Custom charts
+
+You can now add your own custom charts to ThoughtSpot. For developers who want to create custom charts, refer to the https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
 
 // Mark -- scal-171984
 
@@ -181,20 +172,6 @@ endif::[]
 === Tooltip customization
 
 // Mary -- scal-143396
-
-
-
-
-
-[#9-9-0-cl-parameters]
-[discrete]
-=== Formulas, Filter, and Parameters screen
-
-// Mark -- scal-142019
-
-
-
-
 
 [#9-9-0-cl-verified]
 [discrete]
@@ -275,31 +252,6 @@ You can now use the dbt public API to perform the following tasks:
 
 // Mary -- scal-154107
 
-
-
-[#9-9-0-cl-preview]
-[discrete]
-=== Preview mode
-
-// Mark -- scal-149592
-
-[#9-9-0-cl-worksheet-v2]
-[discrete]
-=== Worksheet v2
-
-// Mark -- scal-155276
-
-[#9-9-0-cl-logging]
-[discrete]
-=== Runaway logging leads to P0
-
-// Mark -- scal-39685
-
-[#9-9-0-cl-delta]
-[discrete]
-=== Build Upgrade Delta Migration
-
-// Mark -- scal-168350
 
 ifndef::free-trial-feature[]
 [discrete]
