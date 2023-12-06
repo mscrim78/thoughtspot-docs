@@ -8,7 +8,7 @@
 
 // designed specifically for data professionals and analysts
 
-Sage Coach allows analysts to fine-tune the results of natural language search by examining and validating the feedback users give. Analysts can hand-select examples and pieces of feedback, personalize Sage output for specific users and groups of users, or for the cluster as a whole.
+Sage Coach allows analysts to fine-tune the results of natural language search by examining and validating the feedback users give. Analysts can hand-select examples and pieces of feedback, and personalize Sage output for specific users and groups of users, or for the cluster as a whole.
 
 == Review user feedback
 
