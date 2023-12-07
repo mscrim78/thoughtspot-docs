@@ -120,14 +120,19 @@ endif::[]
 [discrete]
 === AI highlights
 
-AI highlights provides you with quick insights on how top metrics changed in your Liveboard, helping you to focus on the changes that are most important to you. Just open your Liveboard, and click *View AI Highlights*. ThoughtSpot generates a summary of the changes in your KPIs.
+AI highlights provides you with quick insights on how top metrics changed in your Liveboard, helping you to focus on the changes that are most important to you. Just open your Liveboard, and click the AI highlights button image:ai-highlights.png[AI highlights]. ThoughtSpot generates a summary of the changes in your KPIs. When the highlights are ready, click *View AI Highlights*.
 
 image::ai-highlights-window.png[]
 
+For more information, see
+ifndef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI highlights].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI highlights,window=_blank].
+endif::[]
+
 // Mark -- scal-162712. add article link. make sure to highlight icon in article.
-
-
-
 
 // Analyst
 
@@ -136,7 +141,11 @@ image::ai-highlights-window.png[]
 [discrete]
 === Custom charts
 
-You can now add your own custom charts to ThoughtSpot. For developers who want to create custom charts, refer to the link:https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
+You can now add your own custom charts to ThoughtSpot. For more information about using custom charts, see xref:chart-byoc.adoc[Custom charts]. For developers who want to create custom charts, refer to the link:https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
+
+image::custom-chart-select.png[]
+
+
 
 // Mark -- scal-171984. appears as a chart on the list of charts once added. take image with custom chart highlighted in chart settings.
 
