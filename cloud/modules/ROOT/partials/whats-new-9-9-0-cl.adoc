@@ -141,7 +141,22 @@ endif::[]
 [discrete]
 === Custom charts
 
-You can now add your own custom charts to ThoughtSpot. For more information about using custom charts, see xref:chart-byoc.adoc[Custom charts]. For developers who want to create custom charts, refer to the link:https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
+You can now add your own custom charts to ThoughtSpot.
+
+For more information about using custom charts, see
+ifndef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts,window=_blank].
+endif::[]
+For developers who want to create custom charts, see
+ifndef::pendo-links[]
+link:https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
+endif::[]
+ifdef::pendo-links[]
+link:https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
+endif::[]
 
 image::custom-chart-select.png[]
 
