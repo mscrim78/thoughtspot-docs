@@ -50,7 +50,7 @@ endif::[]
 
 // Naomi -- SCAL-127727. add a gif. ask if the filter appears in your email alerts, so users know the data they're getting is filtered.
 
-ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. For more information, see
+ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. To enable this feature, contact your administrator. For more information, see
 ifndef::pendo-links[]
 xref:monitor.adoc[Monitor alerts].
 endif::[]
@@ -58,7 +58,7 @@ ifdef::pendo-links[]
 xref:monitor.adoc[Monitor alerts,window=_blank].
 endif::[]
 
-image::kpi-filtered.png[KPI alert with filter]
+//image::kpi-filtered.png[KPI alert with filter]
 endif::free-trial-feature[]
 
 [#9-8-0-cl-insight]
@@ -92,7 +92,7 @@ endif::[]
 
 // Naomi -- SCAL-89341. waiting on Vikas
 
-When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard.
+When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, contact your administrator.
 
 image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
 endif::free-trial-feature[]
@@ -109,7 +109,7 @@ image::kpi-alert-homepage.png[KPI alert from homepage watchlist]
 
 [#9-8-0-cl-view]
 [discrete]
-===  Personalized views - Enable users to save their filters/parameter values in a Liveboard
+===  Personalized views
 Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save it for future use. The new Liveboard is a version of the master Liveboard, so any changes made to the master Liveboard are carried over to the new Liveboard. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the new Liveboard are not automatically pushed to the master Liveboard.
 // Mary -- SCAL-163617. value prop: this makes it so users don't have to make copies of Liveboards (and then not see changes to the original Liveboard)
 
@@ -196,7 +196,7 @@ Using ThoughtSpot Sync you can now sync data directly from an Answer or a custom
 
 [#9-8-0-cl-enhance]
 [discrete]
-=== Enhancements for TS Sync - Liveboard Sync (MS Teams and Slack)
+=== Enhancements for TS Sync
 ThoughtSpot Sync allows you to connect and share Liveboards using Microsoft Teams and Slack.
 // Mary - SCAL-158473. value prop? the new feature is that you can share a whole Liveboard. screenshot?
 
@@ -210,7 +210,7 @@ ifdef::pendo-links[]
 [discrete]
 === Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-Define a custom sort order to sort charts in a specific order based on your business needs, and helps users consume charts more efficiently.
+Define a custom sort order to sort charts in a specific order based on your business needs, and helps users consume charts more efficiently. To enable this feature, contact your administrator.
 // Mary - SCAL-156895
 
 [#9-8-0-cl-sage]
@@ -326,7 +326,7 @@ If you do not have a valid OAuth access token, you can now directly navigate to 
 
 [#9-8-0-cl-orgs]
 [discrete]
-=== Support for deletion of Orgs - All Editions
+=== Support for deletion of Orgs
 You can now delete an Org without first removing all users, connections and objects.
 // Mary -- SCAL-134057
 
