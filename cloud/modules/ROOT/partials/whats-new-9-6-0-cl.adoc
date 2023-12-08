@@ -87,7 +87,7 @@ endif::free-trial-feature[]
 [discrete]
 === Alation metadata
 
-Users can now see metadata information on tables and columns imported from Alation. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+Alation catalog integration is now available to all users and on by default. Users can now see metadata information on tables and columns imported from Alation. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
 image::catalog-integration.png[Column with description and verification status showing]
 
@@ -160,7 +160,7 @@ ThoughtSpot Connected Slides is an add-on that allows you to insert charts and l
 
 // Naomi
 
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data governance* section of the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status.
+Alation catalog integration is now available to all users and on by default. You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data governance* section of the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status.
 
 image::alation-data-governance.png[Alation data catalog setup page]
 
