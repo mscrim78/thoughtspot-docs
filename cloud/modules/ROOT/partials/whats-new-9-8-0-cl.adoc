@@ -40,9 +40,9 @@ endif::[]
 
 // Naomi -- SCAL-127727. add a gif. ask if the filter appears in your email alerts, so users know the data they're getting is filtered. (they don't)
 
-ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view-only access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard.
+ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view-only access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. To enable this feature, reach out to your administrator.
 
-image::kpi-filtered.png[KPI alert with filter]
+//image::kpi-filtered.png[KPI alert with filter]
 
 [#9-8-0-cl-insight]
 [discrete]
@@ -70,7 +70,7 @@ endif::[]
 
 // Naomi -- SCAL-89341.
 
-When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard.
+When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, reach out to your administrator.
 
 image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
 
@@ -86,8 +86,8 @@ image::kpi-alert-homepage.png[]
 
 [#9-8-0-cl-view]
 [discrete]
-===  Personalized views - Enable users to save their filters/parameter values in a Liveboard
-Personalized views allow you to save your own set of values for filters and parameters in a Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save the view for future use. Any changes made to the master Liveboard are carried over to the view, including changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the view are not pushed to the master Liveboard. This eliminates the need to make multiple copies of a Liveboard with your preferred filter values, that can fall out of sync with the original.
+===  Personalized views
+Personalized views are now available to all users and on by default. Personalized views allow you to save your own set of values for filters and parameters in a Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save the view for future use. Any changes made to the master Liveboard are carried over to the view, including changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the view are not pushed to the master Liveboard. This eliminates the need to make multiple copies of a Liveboard with your preferred filter values, that can fall out of sync with the original.
 // Mary -- SCAL-163617.
 
 ////
@@ -162,7 +162,7 @@ Using ThoughtSpot Sync you can now sync data directly from an Answer without hav
 
 [#9-8-0-cl-enhance]
 [discrete]
-=== Enhancements for TS Sync - Liveboard Sync (MS Teams and Slack)
+=== Enhancements for TS Sync
 ThoughtSpot Sync allows you to connect and share complete Liveboards using Microsoft Teams and Slack. Previously only Answers could be shared.
 // Mary - SCAL-158473.
 
@@ -176,7 +176,7 @@ ifdef::pendo-links[]
 [discrete]
 === Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. Previously custom sorting could only be applied to an Answer using custom columns and the search bar, and could not be applied to some chart types. You can now sort on any column in a chart, in ascending or descending order, from the column heading menu.
+ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. Previously custom sorting could only be applied to an Answer using custom columns and the search bar, and could not be applied to some chart types. You can now sort on any column in a chart, in ascending or descending order, from the column heading menu. To enable this feature, reach out to your administrator.
 // Mary - SCAL-156895.
 
 [#9-8-0-cl-sage]
@@ -192,20 +192,6 @@ ThoughtSpot introduces custom sorting of attributes to sort all chart types in a
 // Mary -- SCAL-153046 - Text approved by Aditya Chan, then requested removed since we can't target the content for only Team Edition customers.
 
 
-[#9-8-0-cl-dbt]
-[discrete]
-===  dbt public API
-
-// Naomi -- SCAL-132886. Waiting on Samridh
-
-You can now use the dbt public API to perform the following tasks:
-
-* Create a dbt connection
-* Delete a dbt connection
-* Search a list of dbt connections
-* Update a dbt connection
-* Run dbt Sync
-* Update dbt Sync
 
 
 
@@ -269,6 +255,21 @@ You can now import metadata information related to your tables and columns from 
 
 image::atlan-data-governance.png[Sync metadata from Atlan]
 
+[#9-8-0-cl-dbt]
+[discrete]
+===  dbt public API
+
+// Naomi -- SCAL-132886. Waiting on Samridh
+
+You can now use the dbt public API to perform the following tasks:
+
+* Create a dbt connection
+* Delete a dbt connection
+* Search a list of dbt connections
+* Update a dbt connection
+* Run dbt Sync
+* Update dbt Sync
+
 [#9-8-0-cl-embrace]
 [discrete]
 === OAuth connection improvements
@@ -291,7 +292,7 @@ If you do not have a valid OAuth access token, you can now directly navigate to 
 
 [#9-8-0-cl-orgs]
 [discrete]
-=== Support for deletion of Orgs - All Editions
+=== Support for deletion of Orgs
 You can now delete an Org without first removing all users, connections and objects.
 // Mary -- SCAL-134057
 
