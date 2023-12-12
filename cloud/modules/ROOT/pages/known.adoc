@@ -1,11 +1,11 @@
 = Known issues
 :keywords: known issues
-:last_updated: 2/1/2023
+:last_updated: 12/12/2023
 :author: Mark Plummer
 :experimental:
 :page-layout: default-cloud
 :linkattrs:
-:jira: SCAL-177532
+:jira: SCAL-177532, SCAL-185857
 
 These are the known issues in this release of ThoughtSpot Cloud.
 
@@ -17,139 +17,144 @@ These are the known issues in this release of ThoughtSpot Cloud.
 
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-175240
-|PDF downloads do not work.
+|SCAL-182743
+|Updates to runtime filters in a Liveboard do not appear in the downloaded Liveboard.
 a|*Symptoms*:
 
-PDF downloads do not work.
+When you update a runtime filter, and then download a Liveboard, the PDF artifact doesn't reflect the pre-applied filters.
 
 *Conditions*:
 
--
+Update a runtime filter in a Liveboard and then download it.
+
+ThoughtSpot version 9.3.0.cl
 
 *Workaround*:
 
 None.
 
-|SCAL-174177
-|Liveboards do not load.
+|SCAL-177835
+|The group_aggregate function works differently with null values between ThoughtSpot Cloud and Software versions.
 a|*Symptoms*:
 
-Liveboards do not load.
+Using an `if` statement in a formula to determine if a number is `NULL` generates a different result with ThoughtSpot Software compared to ThoughtSpot Cloud.
 
 *Conditions*:
 
--
+ThoughtSpot version 9.5.0.cl
 
 *Workaround*:
 
 None.
 
 |SCAL-173808
-|Filters in Answer search are not applied.
+|A filter created for the max date function does not apply to the result set, based on the underlying SQL query.
 a|*Symptoms*:
-
-
+A filter created in an Answer for the max date function does not apply to the result set, even when applied in the Answer's search bar.
 
 *Conditions*:
 
-In Answer.
+The underlying sql query.
+
+ThoughtSpot version 9.5.0.cl.
 
 *Workaround*:
 
 None.
 
 |SCAL-172622
-|_Request Access_ button for a shared Answer does not work.
+|Requesting access to a filter in an Answer does not work.
 a|*Symptoms*:
 
-_Request Access_ button does not work.
+Clicking *Request Access* in the filter of an Answer does not work.
 
 *Conditions*:
 
-In a shared Answer.
+. User creates an Answer with a filter applied to any column.
+. They save the answer and share it with another user who doesn't have access to the underlying data.
+. The other user clicks the filter chip in the Answer and clicks the *Request Access* button.
++
+ThoughtSpot version 9.7.0.cl.
+
 
 *Workaround*:
 
 None.
 
 |SCAL-172617
-|When a user requests access to worksheet, the worksheet name is not displayed properly.
+|Worksheet name not properly displayed in warning message when requesting access to a filter in a Worksheet.
 a|*Symptoms*:
 
-Worksheet name is incorrectly displayed.
+Worksheet name not properly displayed in warning message when user does not have access to a filter in a Worksheet.
 
 *Conditions*:
 
-Requesting access to worksheet.
+. User creates an Answer with a filter applied to any column.
+. They save the answer and share it with another user who doesn't have access to the underlying data.
+. The other user clicks the filter chip in the Worksheet.
++
+ThoughtSpot version 9.7.0.cl.
 
 *Workaround*:
 
 None.
 
 |SCAL-172356
-|User can edit an existing or create a new Atlan connection using deleted API tokens.
+|User can edit an existing or create a new Atlan connection in ThoughtSpot using deleted API tokens.
 a|*Symptoms*:
 
-User can edit an existing or create a new connection using deleted API tokens.
+Deleting the token in Atlan for an Atlan connection in ThoughtSpot does not make the token invalid. User is able to modify existing connection and also create a new connection with deleted token.
 
 *Conditions*:
 
-Using Atlan connector.
+. Open the *Data* tab and navigate to *Data governance*.
+. In the Atlan tile, click *Connect*.
+. Enter the credentials and click *Next*.
+. Set the sync schedule and click *Next*.
+. Select the metadata fields to import, and click *Save & Sync*.
+. On the Atlan side, delete the generated token for the Atlan connection established in ThoughtSpot.
+. In ThoughtSpot, edit the Atlan connection and modify the sync / metadata checks.
++
+ThoughtSpot version 9.7.0.cl.
 
 *Workaround*:
 
 None.
 
 |SCAL-171431
-|It is not possible to disable GraphQL v2.
+|GraphQL v2 cannot be disabled in ThoughtSpot.
 a|*Symptoms*:
 
--
+No way to disable GraphQL v2 in the product or by ThoughtSpot support.
 
 *Conditions*:
 
-Try to disable GraphQL v2.
+QraphQL v2 is running.
+
+ThoughtSpot version 9.4.0.cl.
 
 *Workaround*:
 
 None.
 
 |SCAL-167159
-|The error `Error Details [11022]
-Passthrough functions not supported for current query. Trace Id for this incident is ff025b55-9f46-470e-95f4-c4766533e5cf
-Additional Details
-Passthrough functions cannot be executed on Falcon objects` appears.
+|Passthrough functions cannot be executed on an object in ThoughtSpot's in-memory database.
 a|*Symptoms*:
 
-`Error Details [11022]
+Error appears: `Error Details [11022]
 Passthrough functions not supported for current query. Trace Id for this incident is ff025b55-9f46-470e-95f4-c4766533e5cf
 Additional Details
 Passthrough functions cannot be executed on Falcon objects`
 
 *Conditions*:
 
-When opening the query visualizer.
+Open query visualizer.
+
+ThoughtSpot version 9.4.0.cl.
 
 *Workaround*:
 
 None.
-
-|SCAL-164158
-|Liveboards render slowly.
-a|*Symptoms*:
-
-Liveboards render slowly.
-
-*Conditions*:
-
--
-
-*Workaround*:
-
-None.
-
-
 
 |===
 
