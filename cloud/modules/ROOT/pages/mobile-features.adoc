@@ -1,0 +1,84 @@
+= ThoughtSpot mobile features
+:last_updated: 14/12/2023
+:linkattrs:
+:experimental:
+:page-layout: default-cloud
+:page-aliases:
+:description: ThoughtSpot mobile features.
+
+
+[cols="40%,60%"]
+|===
+a| image:v1_mobile.gif[Gif of the basic mobile experience]
+a| Home Liveboard:: Add charts and tables to a customizable Home Liveboard.
+Quick Share:: Share KPIs and charts using iMessage, email, and Slack (supports <<deep-linking,deep linking>>).
+Responsive & Interactive Experience::
+Tap and swipe to see chart details.
+Filter to pinpoint relevant insights.
+Favorites:: Tag your favorite Liveboards and Answers for quick access.
+|===
+
+[#deep-linking]
+== Sharing with deep linking
+
+You can share a link to objects in ThoughtSpot using instant messaging or email and the recipient can open the link in the mobile app or the web.
+If a user has the mobile app, the link will open directly in the mobile app.
+If they don't have the mobile app, they are presented with the option to download it or to view it on the web.
+
+=== Shareable objects
+
+[cols=3*]
+|===
+| *Object*****
+| *Share/open on web*****
+| *Share/open on Mobile*****
+
+| Answer
+| Yes/Yes
+| Yes/Yes
+
+| Liveboard
+| Yes/Yes
+| Yes/Yes
+
+| Liveboard visualization
+| Yes/Yes
+| Yes/Yes
+
+| Table
+| Yes/Yes
+| No
+
+| Worksheet
+| Yes/Yes
+| No
+
+| SpotIQ Insights
+| Yes/Yes
+| No
+|===
+
+[#drill-down]
+== Drill down
+
+You can seamlessly and intuitively select data point(s) and drill down for more detailed information.
+You can also trace the drill path back and reset to the initial state.
+
+To drill down:
+
+. Tap to select a data point.
++
+A description of the point you selected appears at the top of the screen, and action buttons appear at the bottom of the screen.
+. Tap the *Drill* button.
++
+A list of columns appears.
+. Select a column to drill down on.
+. To drill down further, tap an item on the chart, select a column to drill down on, and then tap *Drill*.
+
+To go back to the previous chart:
+
+* Tap the Revert icon image:revert.png[revert icon].
+
+To go back to the top level where you started your drill down:
+
+* Tap the Reset icon image:reset.png[reset icon].
