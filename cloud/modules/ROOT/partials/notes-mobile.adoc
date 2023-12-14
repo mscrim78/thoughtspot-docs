@@ -1,6 +1,10 @@
 
 
+<<<<<<< HEAD
 ThoughtSpot mobile 2.8.1  is now available.
+=======
+ThoughtSpot mobile 2.8.1 is now available.
+>>>>>>> 72c671a96 (added 2.8 and 2.8.1 features)
 These release notes include information about new features, fixed issues from the previous releases, and any known issues.
 
 [#2-8-1-new]
@@ -8,15 +12,26 @@ These release notes include information about new features, fixed issues from th
 
 * Support for SpotIQ analysis to directly identify the key drivers for recent change in your KPIs.
 * Support for IAMv2 login on ThoughtSpot Mobile.
+<<<<<<< HEAD
 * Introductions of ThoughtSpot mobile push notifications.
+=======
+*
+>>>>>>> 72c671a96 (added 2.8 and 2.8.1 features)
 
 
 [#2-8-new]
 == 2.8 New Features and Functionality
 
+<<<<<<< HEAD
 * Improved deep linking to ThoughtSpot Mobile.
 * Internationalization and localization of ThoughtSpot Mobile.
 
+=======
+* Improved linking to ThoughtSpot Mobile.
+* Internationalization and localization of ThoughtSpot Mobile.
+
+
+>>>>>>> 72c671a96 (added 2.8 and 2.8.1 features)
 [#2-7-new]
 == 2.7 New Features and Functionality
 
