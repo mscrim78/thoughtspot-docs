@@ -67,7 +67,7 @@ endif::free-trial-feature[]
 
 // Naomi -- SCAL-172513. is More insights capitalized in product?
 
-Change analysis _More insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window. For more information, see
+Change analysis _More insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window. Note that insights do not appear for measures of type `count` and `ratios`. For more information, see
 ifndef::pendo-links[]
 xref:spotiq-change.adoc#additional[Change analysis].
 endif::[]
