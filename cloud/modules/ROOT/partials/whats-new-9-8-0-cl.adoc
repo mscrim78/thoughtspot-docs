@@ -244,13 +244,6 @@ endif::free-trial-feature[]
 // Mary -- SCAL-153046 - Awaiting confirmation of doc requirement form Adi
 ////
 
-////
-[#9-8-0-cl-dbt]
-[discrete]
-===  dbt integration: public API
-
-// Naomi -- SCAL-132886. Waiting on Samridh
-////
 
 ////
 [#9-8-0-cl-filter]
@@ -309,13 +302,6 @@ ifdef::pendo-links[]
 endif::[]
 
 
-////
-[#9-8-0-cl-integration]
-[discrete]
-=== dbt integration: support for v1.6
-
-// Naomi SCAL-119947. may not need what's new.
-////
 
 // IT/ Ops Engineer
 
@@ -349,6 +335,8 @@ You can now use the dbt public API to perform the following tasks:
 * Update a dbt connection
 * Run dbt Sync
 * Update dbt Sync
+
+//For more information, see link:https://developers.thoughtspot.com/docs[dbt public API].
 
 [#9-8-0-cl-embrace]
 [discrete]
