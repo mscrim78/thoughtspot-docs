@@ -252,7 +252,18 @@ Define a custom sort order to sort charts in a specific order based on your busi
 [discrete]
 === Custom calendar enabled by default
 
-In this release, custom calendar is now enabled by default for connections which support custom calendar. For details, see xref:connections-cust-cal.adoc[Custom calendar overview].
+In this release, custom calendar is enabled by default for all connections, except for the following which don’t support custom calendar:
+
+- Dremio
+- Denodo
+
+For details, see
+ifndef::pendo-links[]
+xref:connections-cust-cal.adoc[Custom calendar overview].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-cust-cal.adoc[Custom calendar overview,window=_blank].
+endif::[]
 
 // Mark -- SCAL-138688. mention which Connections it's not available for?
 

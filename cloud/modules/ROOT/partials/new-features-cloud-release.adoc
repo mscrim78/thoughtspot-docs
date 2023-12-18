@@ -81,7 +81,15 @@ Embrace OAuth connection improvements:: If you do not have a valid OAuth access 
 Disable SQL passthrough functions::
 Admin users can now ban passthrough functions for all connections on their cluster, to prevent SQL injection attacks. This option is available under the *Search & SpotIQ* section of the *Admin* tab.
 
+// SCAL-138688
+=== Custom calendar enabled by default
 
+In this release, custom calendar is enabled by default for all connections, except for the following which don’t support custom calendar:
+
+- Dremio
+- Denodo
+
+For details, see xref:connections-cust-cal.adoc[Custom calendar overview].
 
 [#9-8-0-cl-developer]
 === For the Developer
