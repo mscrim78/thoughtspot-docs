@@ -109,7 +109,13 @@ endif::free-trial-feature[]
 
 // Naomi -- SCAL-177812. add image/gif. find out if there's an opt-out option. is there an admin control over the feature?
 
-When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert, based on the KPI's cadence. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab.
+When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert, based on the KPI's cadence. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab. For more information, see
+ifndef::pendo-links[]
+xref:thoughtspot-one-homepage.adoc#monitor[Track important KPIs].
+endif::[]
+ifdef::pendo-links[]
+xref:thoughtspot-one-homepage.adoc#monitor[Track important KPIs,window=_blank].
+endif::[]
 
 image::kpi-alert-homepage.png[KPI alert from homepage watchlist]
 
