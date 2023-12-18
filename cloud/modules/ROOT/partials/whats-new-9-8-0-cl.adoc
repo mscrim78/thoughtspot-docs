@@ -90,7 +90,7 @@ ifdef::pendo-links[]
 === Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- SCAL-89341. waiting on Vikas
+// Naomi -- SCAL-89341. waiting on Vikas. add article link?
 
 When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, contact your administrator.
 
@@ -110,7 +110,7 @@ image::kpi-alert-homepage.png[KPI alert from homepage watchlist]
 [#9-8-0-cl-view]
 [discrete]
 ===  Personalized views
-Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save it for future use. The new Liveboard is a version of the master Liveboard, so any changes made to the master Liveboard are carried over to the new Liveboard. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the new Liveboard are not automatically pushed to the master Liveboard.
+Personalized views are now available to all users and on by default. Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save the view for future use. Any changes made to the master Liveboard are carried over to the view, including changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the view are not pushed to the master Liveboard. This eliminates the need to make multiple copies of a Liveboard with your preferred filter values, that can fall out of sync with the original.
 // Mary -- SCAL-163617. value prop: this makes it so users don't have to make copies of Liveboards (and then not see changes to the original Liveboard)
 
 ////
@@ -161,12 +161,13 @@ Easily find verified Liveboards with trusted content and sort Liveboards to view
 
 
 
-
+////
 [#9-8-0-cl-tml]
 [discrete]
 === Use TML tokens to create Answer in NLS
 
 // Mary -- SCAL-153748 - No doc needed...waiting for confirmation from Santiago
+////
 
 [#9-8-0-cl-atlan]
 [discrete]
@@ -197,9 +198,10 @@ Using ThoughtSpot Sync you can now sync data directly from an Answer or a custom
 [#9-8-0-cl-enhance]
 [discrete]
 === Enhancements for TS Sync
-ThoughtSpot Sync allows you to connect and share Liveboards using Microsoft Teams and Slack.
+ThoughtSpot Sync allows you to connect and share complete Liveboards using Microsoft Teams and Slack. Previously, only Answers could be shared.
 // Mary - SCAL-158473. value prop? the new feature is that you can share a whole Liveboard. screenshot?
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-8-0-cl-custom]
 [discrete]
@@ -210,20 +212,25 @@ ifdef::pendo-links[]
 [discrete]
 === Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-Define a custom sort order to sort charts in a specific order based on your business needs, and helps users consume charts more efficiently. To enable this feature, contact your administrator.
+ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. Previously custom sorting could only be applied to an Answer using custom columns and the search bar, and could not be applied to some chart types. You can now sort on any column in a chart, in ascending or descending order, from the column heading menu. To enable this feature, contact your administrator.
 // Mary - SCAL-156895
 
+endif::free-trial-feature[]
+
+////
 [#9-8-0-cl-sage]
 [discrete]
 === Highlight Sage using demo tab
 
 // Mary -- SCAL-160350 - Awaiting confirmation of doc requirement form Adi
 
+
 [#9-8-0-cl-team]
 [discrete]
 === Alert customers if they are over the user limit on Team Edition
 
 // Mary -- SCAL-153046 - Awaiting confirmation of doc requirement form Adi
+////
 
 ////
 [#9-8-0-cl-dbt]
@@ -316,6 +323,21 @@ endif::[]
 
 image::atlan-data-governance.png[Sync metadata from Atlan]
 
+[#9-8-0-cl-dbt]
+[discrete]
+===  dbt public API
+
+// Naomi -- SCAL-132886. Waiting on Samridh
+
+You can now use the dbt public API to perform the following tasks:
+
+* Create a dbt connection
+* Delete a dbt connection
+* Search a list of dbt connections
+* Update a dbt connection
+* Run dbt Sync
+* Update dbt Sync
+
 [#9-8-0-cl-embrace]
 [discrete]
 === Connections OAuth connection improvements
@@ -329,11 +351,13 @@ If you do not have a valid OAuth access token, you can now directly navigate to 
 ** Edit the connection
 ** Upload a CSV file (Snowflake connections only)
 
+////
 [#9-8-0-cl-IAM]
 [discrete]
 === Need a way for an admin user to resend activation mail in IAM v2
 
 // Mary -- SCAL-148215 - Confirmed no doc needed with Aditya Gupta that this was a validation epic.
+////
 
 [#9-8-0-cl-orgs]
 [discrete]
