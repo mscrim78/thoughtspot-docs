@@ -16,7 +16,7 @@ endif::free-trial-feature[]
 // Business User
 
 
-////
+
 [#9-8-0-cl-sage-coach]
 [discrete]
 === Sage Coach
@@ -34,7 +34,6 @@ xref:sage-coach.adoc[Sage Coach,window=_blank].
 endif::[]
 
 image::sage-coach.gif[Gif demonstrating giving feedback for natural language search]
-////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
