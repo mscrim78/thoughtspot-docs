@@ -23,11 +23,11 @@ Use ThoughtSpot mobile to access Answers and create or filter Liveboards.
 
 Version 2.8.1 supports more features that were previously available only through the ThoughtSpot web app, including:
 
-* <<kpi-change-analysis,KPI change analysis>>
-* <<localization, Internationalization and localization>>
-* <<mobile-push-notifications,ThoughtSpot mobile push notifications>>
-* <<deep-linking,Deep linking>>
-* <<drill-down,Drill down>>
+* xref:mobile-kpi-change-analysis.adoc[KPI change analysis]
+* xref:mobile-localization.adoc[Internationalization and localization]
+* xref:mobile-push-notifications.adoc[ThoughtSpot mobile push notifications]
+* xref:mobile-deep-linking.adoc[Deep linking]
+* xref:mobile-drill-down.adoc[Drill down]
 
 
 For details, see xref:notes-mobile.adoc[Mobile release notes].
