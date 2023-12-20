@@ -60,5 +60,5 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-167159
 |Passthrough functions cannot be executed on Falcon objects.
 |SCAL-164846
-|Pivot table display "Undefined" when user clicks Edit button in a Liveboard or opens the visualization in edit mode.
+|Pivot table displays "Undefined" when user clicks Edit button in a Liveboard or opens the visualization in edit mode.
 |===
