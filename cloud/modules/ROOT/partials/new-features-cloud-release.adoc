@@ -80,6 +80,8 @@ Atlan:: Atlan is now available to all customers and is on by default. You can no
 // scal-162075
 Donut charts:: We have renamed the pie chart as donut chart. For more information, see xref:chart-donut.adoc[Donut charts].
 
+// scal-187051
+Update to Liveboard PDFs:: We have removed the ability to add footer text and the existing admin footer set on the cluster only for Liveboard PDFs. This resolves the issue of misaligned footers in exported PDFs from Liveboards. This applies to Liveboard PDFs only. For more information, see xref:liveboard-download-pdf.adoc[Download a Liveboard as a PDF].
 [#9-8-0-cl-data-engineer]
 === For the Data Engineer
 
