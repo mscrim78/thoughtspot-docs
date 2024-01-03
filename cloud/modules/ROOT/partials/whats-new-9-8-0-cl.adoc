@@ -76,7 +76,7 @@ endif::[]
 
 image::additional-insight.png[More insights]
 
-
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-8-0-cl-anomaly]
@@ -101,6 +101,7 @@ endif::[]
 
 image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
 endif::free-trial-feature[]
+////
 
 [#9-8-0-cl-watchlist]
 [discrete]
