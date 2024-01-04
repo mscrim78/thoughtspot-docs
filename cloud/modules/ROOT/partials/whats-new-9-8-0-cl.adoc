@@ -57,22 +57,7 @@ image::additional-insight.png[More insights]
 
 
 
-ifndef::pendo-links[]
-[#9-8-0-cl-anomaly]
-[discrete]
-=== Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-8-0-cl-anomaly]
-[discrete]
-=== Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
 
-// Naomi -- SCAL-89341.
-
-When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, reach out to your administrator.
-
-image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
 
 [#9-8-0-cl-watchlist]
 [discrete]
@@ -291,6 +276,15 @@ If you do not have a valid OAuth access token, you can now directly navigate to 
 ** Create a custom SQL view
 ** Edit the connection
 ** Upload a CSV file (Snowflake connections only)
+
+[#9-8-0-cl-restrict-allowing]
+[discrete]
+=== Snowflake account name restrictions
+
+// Naomi-- scal-187049
+
+In accordance with link:https://community.snowflake.com/s/article/Behaviour-Change-Release-information-associated-with-Snowflake-JDBC-driver-version-3-13-25#:~:text=This%20change%20was%20made%20to,my_account.snowflakecomputing.com[Snowflake's recent JDBC update], ThoughtSpot no longer supports Snowflake account names that contain underscores for connections that use Private Link.
+
 
 
 [#9-8-0-cl-IAM]
