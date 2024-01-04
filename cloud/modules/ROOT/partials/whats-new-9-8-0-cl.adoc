@@ -343,7 +343,7 @@ image::atlan-data-governance.png[Sync metadata from Atlan]
 
 [#9-8-0-cl-dbt]
 [discrete]
-===  dbt public API
+=== dbt public API
 
 // Naomi -- SCAL-132886. Waiting on Samridh
 

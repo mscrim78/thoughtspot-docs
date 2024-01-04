@@ -106,6 +106,10 @@ The following connections are now available to all customers and are on by defau
 // SCAL-169279
 Atlan catalog integration:: You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
+// SCAL-183256
+Data Catalog for GCP::
+ThoughtSpot does not support Data Catalog for GCP Cloud. Support for Data Catalog will be added in 9.12.0.cl.
+
 // SCAL-132886
 dbt public API::
 You can now use the dbt public API to perform the following tasks:
