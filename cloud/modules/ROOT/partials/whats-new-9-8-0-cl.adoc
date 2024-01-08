@@ -315,7 +315,7 @@ ifndef::pendo-links[]
 endif::[]
 
 ifdef::pendo-links[]
-* xref:connections-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL,window=_blank]
+* xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL,window=_blank]
 * xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL,window=_blank]
 * xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server,window=_blank]
 * xref:connections-singlestore.adoc[SingleStore,window=_blank]
