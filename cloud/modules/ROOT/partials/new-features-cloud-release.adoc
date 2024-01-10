@@ -35,9 +35,6 @@ xref:sage-coach.adoc[Sage Coach].
 Custom Sorting [.badge.badge-early-access]#Early Access#::
 ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order. To enable this feature, contact your administrator.
 
-image::custom-sort-order.png[Custom Sorting]
-
-
 
 [#9-8-0-cl-business-user]
 === For the Business User
