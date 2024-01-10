@@ -15,12 +15,288 @@ To see our feature deprecation plans, please see xref:deprecation.adoc[Deprecati
 
 For a complete list of issues that we fixed in this release, see xref:fixed.adoc[Fixed issues].
 
-For a complete list of known issues in this release, see xref:known.adoc[Known issues].
+//For a complete list of known issues in this release, see xref:known.adoc[Known issues].
 
 [#new]
 == New Features and Functionality
 
 include::partial$new-features-cloud-release.adoc[]
+
+[#9-8-0-cl]
+== ThoughtSpot 9.8.0.cl Release
+
+
+* <<9-8-0-cl-first,For the First User>>
+* <<9-8-0-cl-analyst,For the Analyst>>
+* <<9-8-0-cl-business-user,For the Business User>>
+* <<9-8-0-cl-data-engineer,For the Data Engineer>>
+* <<9-8-0-cl-it-ops-engineer,For the IT Ops Engineer>>
+* <<9-8-0-cl-developer,For the Developer>>
+
+[#9-8-0-cl-first]
+=== For the First User
+
+Getting started with ThoughtSpot Cloud::
+The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
+For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
+
+[#9-8-0-cl-analyst]
+=== For the Analyst
+[#9-8-0-cl-sage-coach-review]
+[discrete]
+=== Sage Coach feedback review
+
+// Naomi -- SCAL-154204
+
+You can now review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to the entire cluster. Use the *Query Feedback* modal to review feedback given to individual natural language queries, and use the *Query Term Feedback* modal to review the translation of individual natural language terms to search tokens.
+
+
+For more information, see
+ifndef::pendo-links[]
+xref:sage-coach.adoc[Sage Coach].
+endif::[]
+ifdef::pendo-links[]
+xref:sage-coach.adoc[Sage Coach,window=_blank].
+endif::[]
+
+image:queries-feedback.png[ThoughtSpot query feedback]
+
+[#9-8-0-cl-sync]
+[discrete]
+=== Database as a destination for Answer Sync
+Using ThoughtSpot Sync you can now sync data directly from an Answer or a custom SQL view, to your Snowflake or Redshift cloud data warehouse.
+// Mary - SCAL-158474.
+
+[#9-8-0-cl-enhance]
+[discrete]
+=== Enhancements for TS Sync
+ThoughtSpot Sync allows you to connect and share complete Liveboards using Microsoft Teams and Slack. Previously, only Answers could be shared.
+// Mary - SCAL-158473. value prop? the new feature is that you can share a whole Liveboard. screenshot?
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-8-0-cl-custom]
+[discrete]
+=== Custom Sorting [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-8-0-cl-custom]
+[discrete]
+=== Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order. To enable this feature, contact your administrator.
+
+image::custom-sort-order.png[Custom Sorting]
+
+// Mary - SCAL-156895
+
+endif::free-trial-feature[]
+
+[#9-8-0-cl-business-user]
+=== For the Business User
+[#9-8-0-cl-sage-coach]
+[discrete]
+=== Sage Coach
+
+// Naomi -- SCAL-154204. Santiago is waiting to confirm whether Admin users or Worksheet owners will have access to make feedback apply globally. add a gif. split into two? new user experience and data workspace part.
+
+When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users and Worksheet owners can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
+
+For more information, see
+ifndef::pendo-links[]
+xref:sage-coach.adoc[Sage Coach].
+endif::[]
+ifdef::pendo-links[]
+xref:sage-coach.adoc[Sage Coach,window=_blank].
+endif::[]
+
+image::sage-coach.gif[Gif demonstrating giving feedback for natural language search]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-8-0-cl-context]
+[discrete]
+=== Contextual alert creation on KPI charts [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-8-0-cl-context]
+[discrete]
+=== Contextual alert creation on KPI charts [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi -- SCAL-127727. add a gif. ask if the filter appears in your email alerts, so users know the data they're getting is filtered.
+
+ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. To enable this feature, contact your administrator. For more information, see
+ifndef::pendo-links[]
+xref:monitor.adoc[Monitor alerts].
+endif::[]
+ifdef::pendo-links[]
+xref:monitor.adoc[Monitor alerts,window=_blank].
+endif::[]
+
+//image::kpi-filtered.png[KPI alert with filter]
+endif::free-trial-feature[]
+
+[#9-8-0-cl-insight]
+[discrete]
+===  Change analysis: More insights
+
+// Naomi -- SCAL-172513. is More insights capitalized in product?
+
+Change analysis _More insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window. Note that insights do not appear for measures of type `count` and `ratios`. For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#additional[Change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#additional[Change analysis,window=_blank].
+endif::[]
+
+image::additional-insight.png[More insights]
+[#9-8-0-cl-watchlist]
+[discrete]
+=== KPI scheduled watchlist alert
+
+// Naomi -- SCAL-177812. add image/gif. find out if there's an opt-out option. is there an admin control over the feature?
+
+When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert, based on the KPI's cadence. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab. For more information, see
+ifndef::pendo-links[]
+xref:thoughtspot-one-homepage.adoc#monitor[Track important KPIs].
+endif::[]
+ifdef::pendo-links[]
+xref:thoughtspot-one-homepage.adoc#monitor[Track important KPIs,window=_blank].
+endif::[]
+
+image::kpi-alert-homepage.png[KPI alert from homepage watchlist]
+
+[#9-8-0-cl-view]
+[discrete]
+===  Personalized views
+Personalized views are now available to all users and on by default. Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save the view for future use. Any changes made to the master Liveboard are carried over to the view, including changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the view are not pushed to the master Liveboard. This eliminates the need to make multiple copies of a Liveboard with your preferred filter values, that can fall out of sync with the original.
+// Mary -- SCAL-163617. value prop: this makes it so users don't have to make copies of Liveboards (and then not see changes to the original Liveboard)
+
+[#9-8-0-cl-atlan]
+[discrete]
+=== Atlan
+
+// Naomi - SCAL-169279. think up a replacement for "metadata"
+
+Atlan is now available to all customers and is on by default. You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration,window=_blank].
+endif::[]
+
+image::catalog-integration.png[Atlan metadata shown in Search Data]
+
+[#9-8-0-cl-data-engineer]
+=== For the Data Engineer
+[#9-8-0-cl-calendar]
+[discrete]
+=== Custom calendar enabled by default
+
+In this release, custom calendar is enabled by default for all connections, except for the following which don’t support custom calendar:
+
+- Dremio
+- Denodo
+
+For details, see
+ifndef::pendo-links[]
+xref:connections-cust-cal.adoc[Custom calendar overview].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-cust-cal.adoc[Custom calendar overview,window=_blank].
+endif::[]
+
+// Mark -- SCAL-138688. mention which Connections it's not available for?
+
+[#9-8-0-cl-connections]
+[discrete]
+=== Connections
+
+// Naomi -- SCAL-166161, SCAL-166160, SCAL-166159, SCAL-164909
+
+The following connections are now available to all customers and are on by default:
+
+ifndef::pendo-links[]
+* xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL]
+* xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
+* xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
+* xref:connections-singlestore.adoc[SingleStore]
+endif::[]
+
+ifdef::pendo-links[]
+* xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL,window=_blank]
+* xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL,window=_blank]
+* xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server,window=_blank]
+* xref:connections-singlestore.adoc[SingleStore,window=_blank]
+endif::[]
+
+[#9-8-0-cl-it-ops-engineer]
+=== For the IT/Ops Engineer
+[#9-8-0-cl-atlan-catalog]
+[discrete]
+=== Atlan catalog integration
+
+// Naomi - SCAL-169279
+
+You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration,window=_blank].
+endif::[]
+
+image::atlan-data-governance.png[Sync metadata from Atlan]
+
+[#9-8-0-cl-dbt]
+[discrete]
+=== dbt public API
+
+// Naomi -- SCAL-132886. Waiting on Samridh
+
+You can now use the dbt public API to perform the following tasks:
+
+* Create a dbt connection
+* Delete a dbt connection
+* Search a list of dbt connections
+* Update a dbt connection
+* Run dbt Sync
+* Update dbt Sync
+
+//For more information, see link:https://developers.thoughtspot.com/docs[dbt public API].
+
+[#9-8-0-cl-embrace]
+[discrete]
+=== Connections OAuth connection improvements
+
+// Naomi -- SCAL-160062. waiting on Bharath
+
+If you do not have a valid OAuth access token, you can now directly navigate to the OAuth authorization screen when performing one of the following actions on a connection shared with you:
+
+** View sample data
+** Create a custom SQL view
+** Edit the connection
+** Upload a CSV file (Snowflake connections only)
+
+[#9-8-0-cl-restrict-allowing]
+[discrete]
+=== Snowflake account name restrictions
+
+// Naomi-- scal-187049
+
+In accordance with link:https://community.snowflake.com/s/article/Behaviour-Change-Release-information-associated-with-Snowflake-JDBC-driver-version-3-13-25#:~:text=This%20change%20was%20made%20to,my_account.snowflakecomputing.com[Snowflake's recent JDBC update], ThoughtSpot does not support Snowflake account names that contain underscores for connections that use Private Link. For more information on how to adjust your account name behavior to avoid this restriction, see xref:connections-snowflake-private-link.adoc#account-name[Snowflake Private Link].
+
+
+
+[#9-8-0-cl-developer]
+=== For the Developer
+
+ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+
+
 
 [#9-7-0-cl]
 == ThoughtSpot 9.7.0.cl Release
