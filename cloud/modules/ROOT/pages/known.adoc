@@ -119,6 +119,19 @@ An answer with line-chart visualization.
 - If the issue is observed in a Liveboard tile, modifying the tile size should help. Try modifying the tile size until the visualization looks as expected, and save the affected tile in that size.
 - If the issue is observed on the Answers page and the browser window is either zoomed-in or zoomed-out, try changing it back to 100% zoom. If the browser window is resized, try resizing it to a more normal size.
 
+|SCAL-187638
+|Filters in Explore mode do not work
+a|*Symptoms*:
+
+Applying a new filter to a column that already has filters, removes the existing filters.
+
+*Conditions*:
+
+An answer with line-chart visualization.
+
+*Workaround*:
+
+Change filters using filter chips in the visualization's UI instead of using Explore.
 
 
 |===
