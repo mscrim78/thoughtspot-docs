@@ -1,3 +1,4 @@
+////
 = Known issues
 :keywords: known issues
 :last_updated: 1/16/2024
@@ -135,3 +136,5 @@ Change filters using filter chips in the visualization's UI instead of using Exp
 
 
 |===
+
+////
