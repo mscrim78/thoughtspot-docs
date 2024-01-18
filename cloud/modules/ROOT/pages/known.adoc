@@ -89,20 +89,6 @@ Sync schedule exists and one the scheduled syncs failed. 9.8.0.cl release.
 
 Remove the sync schedules.
 
-|SCAL-184583
-|Cannot search a table associated with a problematic connection.
-a|*Symptoms*:
-
-User sees a 'connection not available' error, when searching on any table associated with a problematic connection due to connection leak.
-
-*Conditions*:
-
-Sync schedule exists and one the scheduled syncs failed. 9.8.0.cl release.
-
-*Workaround*:
-
-Remove the sync schedules.
-
 |SCAL-180968
 |Incorrect y-axis is plotted for a line chart when it is resized.
 a|*Symptoms*:
@@ -136,5 +122,4 @@ Change filters using filter chips in the visualization's UI instead of using Exp
 
 
 |===
-
 ////
