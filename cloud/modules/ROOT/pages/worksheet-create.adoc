@@ -3,7 +3,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
-:page-aliases: /admin/ts-cloud/worksheet-create.adoc
+:page-aliases: customSorting.adoc
 :description: To model your use case and optimize ThoughtSpot Search, create a Worksheet.
 
 To model your use case and optimize ThoughtSpot Search, create a Worksheet.
