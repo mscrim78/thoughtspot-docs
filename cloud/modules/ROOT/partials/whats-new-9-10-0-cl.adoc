@@ -222,28 +222,6 @@ You can also cancel verification requests when needed.
 
 You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet.
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-10-0-cl-byoc]
-[discrete]
-=== Custom charts [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-10-0-cl-byoc]
-[discrete]
-=== Custom charts [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-
-You can now use custom charts created outside of ThoughtSpot. Developers with your company can create custom charts using the ThoughtSpot Charts SDK, and your administrator can add them to your cluster.
-
-image::custom-chart-select.png[Custom Chart]
-
-// Mark -- scal-171984, scal-67410. possibly below "other features"
-
-endif::free-trial-feature[]
-
-
 [#9-10-0-cl-sync]
 [discrete]
 === ThoughtSpot Sync for Google BigQuery
