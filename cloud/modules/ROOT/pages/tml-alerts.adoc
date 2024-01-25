@@ -214,7 +214,7 @@ Container for the xref:monitor.adoc[Monitor] threshold-based alert condition, if
 
 [#personalised_view_id]
 personalised_view_id::
-ID of the personalised View the monitor alert is based on. If no personalised_view_id is included, this TML creates an alert with no ad-hoc filters applied, or a normal, non-contextual alert. If a personalised_view_id is available and supplied as part of the metric_id, the filters and parameters applied to the personalised View are applied to create the contextual alert.
+ID of the personalised View the monitor alert is based on. If no personalised_view_id is included, this TML creates an alert with no ad-hoc filters applied. If a personalised_view_id is available and supplied as part of the metric_id, the filters and parameters applied to the personalised View are applied to create the contextual alert.
 
 [#personalised_view_info]
 personalised_view_info::
