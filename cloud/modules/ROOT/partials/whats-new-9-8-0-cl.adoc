@@ -27,10 +27,10 @@ When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot w
 
 For more information, see
 ifndef::pendo-links[]
-xref:sage-coach.adoc[Sage Coach].
+xref:ai-answers.adoc#sage-coach[Sage Coach].
 endif::[]
 ifdef::pendo-links[]
-xref:sage-coach.adoc[Sage Coach,window=_blank].
+xref:ai-answers.adoc#sage-coach[Sage Coach,window=_blank].
 endif::[]
 
 image::sage-coach.gif[Gif demonstrating giving feedback for natural language search]
