@@ -232,14 +232,24 @@ You can also cancel verification requests when needed.
 
 You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet.
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-10-0-cl-sync]
 [discrete]
-=== ThoughtSpot Sync for Google BigQuery
+=== ThoughtSpot Sync for Google BigQuery [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-sync]
+[discrete]
+=== ThoughtSpot Sync for Google BigQuery [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Naomi -- scal-174127.
 // PM: Vijay
 
-Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
+Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse. To enable this feature, contact {support-url}.
+
+endif::free-trial-feature[]
 
 
 
