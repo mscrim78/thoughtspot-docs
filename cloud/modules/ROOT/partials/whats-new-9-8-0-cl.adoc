@@ -239,6 +239,8 @@ ifndef::pendo-links[]
 === Custom Sorting [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
+
+
 [#9-8-0-cl-custom]
 [discrete]
 === Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
@@ -246,7 +248,11 @@ endif::[]
 ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order. To enable this feature, contact your administrator.
 
 image::custom-sort-order.png[Custom Sorting]
+For more information about how to configure a custom sort order, see
+xref:worksheet-custom-sort.adoc[Define a custom sort order for a Worksheet].
 
+For more information about how to use custom sorting, see
+xref:chart-table-change.adoc#custom-sort[Custom Sort].
 // Mary - SCAL-156895
 
 endif::free-trial-feature[]
