@@ -10,7 +10,7 @@ Certain features supported for ThoughtSpot on AWS are not available for ThoughtS
 
 * xref:ts-cloud-requirements-support.adoc#restrict_cluster_access_only_to_certain_ip_addresses[Allowed origin]
 * xref:custom-domains.adoc[Custom domains]
-Catalog integration (xref:catalog-integration.adoc[Alation]
+* Catalog integration (xref:catalog-integration.adoc[Alation])
 * xref:business-continuity.adoc#disaster-recovery[Disaster Recovery]
 * xref:security-thoughtspot-lifecycle.adoc#advanced-data-ear[Encryption at rest]
 * xref:connections-ipsec-vpn.adoc[IPSec VPN], xref:connections-gbq-open-vpn.adoc[GBQ Open VPN] and xref:connections-synapse-open-vpn.adoc[Synapse VPN]
