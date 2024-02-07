@@ -207,7 +207,16 @@ endif::free-trial-feature[]
 
 You can now specify the answering chart type when you use natural language search. For example, search for "show me sales by region as a bar chart", and the results appear in bar chart format.
 
+[#9-10-0-cl-add]
+[discrete]
+=== Add formula or Parameter to Answer
 
+// Naomi -- scal-177253
+// PM: Damian
+
+You can now add a formula or Parameter to an Answer by navigating to the *Category* image:icon-by-category.png[Category view] or *A to Z* image:icon-a-to-z.png[Alphabetical view] view of the Data panel, clicking *+ Add*, and selecting *Formula* or *Parameter*.
+
+image:add-formula-parameter.png[Add a formula or Parameter to an Answer]
 
 
 
