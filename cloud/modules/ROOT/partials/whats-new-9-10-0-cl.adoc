@@ -120,6 +120,7 @@ By default, fields visualized in charts are included in the tooltip. You can rem
 // Mary -- scal-143396, scal-163885.
 //Pending (Manan Shah) - screen cap to follow
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-10-0-cl-conditional]
@@ -140,7 +141,7 @@ Rather than simply using conditional formatting comparing a column's measures to
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 
 endif::free-trial-feature[]
-
+////
 
 
 [#9-10-0-cl-null]
