@@ -50,7 +50,7 @@ endif::[]
 
 With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact {support-url}.
 
-image::ai-highlights.gif[AI Highlights]
+image::liveboard-highlight.gif[AI Highlights]
 
 // Mark -- scal-178483, scal-162712, SCAL-158409
 // PM: Manan
