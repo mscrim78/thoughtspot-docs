@@ -78,17 +78,6 @@ New data panel GA:: The new data panel experience is available for all customers
 [#9-7-0-cl-business-user]
 === For the Business User
 
-//scal-151210
-Redesigned home page [.badge.badge-early-access-relnotes]#Early Access#::
-In this release,  we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The _Search Data_ button has been renamed _Open Query Builder_ to more easily distinguish it from the Sage search bar.
-+
-This new home page experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
-
-// SCAL-175398
-New persona-based navigation [.badge.badge-early-access-relnotes]#Early Access#:: In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps. When you switch to a different app, that app opens in a new browser tab. The redesigned home page is part of the new persona-based navigation, in this release.
-+
-This new navigation experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
-
 ////
 //scal-159818
 ThoughtSpot Slack app [.badge.badge-beta-relnotes]#Beta#:: You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format. For more information, see
