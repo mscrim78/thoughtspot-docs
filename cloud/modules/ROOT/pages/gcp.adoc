@@ -8,6 +8,7 @@
 
 Certain features supported for ThoughtSpot on AWS are not available for ThoughtSpot on GCP. Note that the following features are currently not supported for ThoughtSpot on GCP:
 
+
 * xref:ts-cloud-requirements-support.adoc#restrict_cluster_access_only_to_certain_ip_addresses[Allowed origin]
 * xref:custom-domains.adoc[Custom domains]
 * Catalog integration (xref:catalog-integration.adoc[Alation])
@@ -15,3 +16,4 @@ Certain features supported for ThoughtSpot on AWS are not available for ThoughtS
 * xref:security-thoughtspot-lifecycle.adoc#advanced-data-ear[Encryption at rest]
 * xref:connections-ipsec-vpn.adoc[IPSec VPN], xref:connections-gbq-open-vpn.adoc[GBQ Open VPN] and xref:connections-synapse-open-vpn.adoc[Synapse VPN]
 * xref:business-continuity.adoc#high-availability[Multi-node (High Availability)]
+* xref:spotiq-change.adoc#natural[Natural language narratives for SpotIQ]
