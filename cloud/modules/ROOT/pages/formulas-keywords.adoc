@@ -1,4 +1,4 @@
-= Keywords “of”, “percentage of”
+= Keywords "of", "percentage of" [.badge.badge-beta]#Beta#
 :last_updated: 5/1/23
 :linkattrs:
 :page-layout: default-cloud
