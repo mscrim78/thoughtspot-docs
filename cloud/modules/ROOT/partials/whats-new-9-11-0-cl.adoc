@@ -35,13 +35,6 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 
 The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as "What is the share of a certain store’s sales as a percentage of the regional whole?" Previously, these kinds of questions required the use of a group aggregate formula, which presented a barrier to users. To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
 
-For more information, see
-ifndef::pendo-links[]
-xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
-endif::[]
-ifdef::pendo-links[]
-xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
-endif::[]
 
 [#9-11-0-cl-feedback]
 [discrete]
@@ -122,13 +115,7 @@ ifdef::pendo-links[]
 endif::[]
 
 With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
-For more information, see
-ifndef::pendo-links[]
-xref:liveboard-ai-highlights.adoc[AI highlights].
-endif::[]
-ifdef::pendo-links[]
-xref:liveboard-ai-highlights.adoc[AI highlights,window=_blank].
-endif::[]
+
 
 image::liveboard-highlight.gif[AI Highlights]
 
@@ -183,13 +170,6 @@ endif::[]
 
 Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
 
-For more information, see
-ifndef::pendo-links[]
-xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
-endif::[]
-ifdef::pendo-links[]
-xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting,window=_blank].
-endif::[]
 
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 
@@ -218,13 +198,7 @@ You can create custom sets, which can be used to classify values in a list you c
 
 NOTE: Query sets are BETA in 9.11.0.cl.
 
-For more information, see
-ifndef::pendo-links[]
-xref:custom-groups.adoc[Custom sets].
-endif::[]
-ifdef::pendo-links[]
-xref:custom-groups.adoc[Custom sets,window=_blank].
-endif::[]
+
 
 image::custom-groups.gif[Reusable set creation process]
 // Mary -- SCAL-158899
@@ -276,13 +250,7 @@ endif::free-trial-feature[]
 // Naomi -- SCAL-180691
 // PM: Vijay
 
-ThoughtSpot Sync for Google BigQuery is now on by default and available to all users. Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse. For more information, see
-ifndef::pendo-links[]
-xref:sync-gbq.adoc[Sync data from ThoughtSpot to Google BigQuery].
-endif::[]
-ifdef::pendo-links[]
-xref:sync-gbq.adoc[Sync data from ThoughtSpot to Google BigQuery,window=_blank].
-endif::[]
+ThoughtSpot Sync for Google BigQuery is now on by default and available to all users. Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -301,13 +269,6 @@ endif::[]
 
 You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status. To enable this feature, contact {support-url}.
 
-For more information, see
-ifndef::pendo-links[]
-xref:catalog-integration-collibra.adoc[Collibra integration].
-endif::[]
-ifdef::pendo-links[]
-xref:catalog-integration-collibra.adoc[Collibra integration,window=_blank].
-endif::[]
 
 endif::free-trial-feature[]
 
