@@ -80,7 +80,8 @@ image:advanced-options-other.png[Other advanced options]
 * Select the chart background color
 * Select the background color for the plotted area
 * Enter the background image for the plotted area
-
++
+NOTE: You must enter the URL of the background image. ThoughtSpot only displays images from whitelisted domains.
 
 == X-axis options
 
