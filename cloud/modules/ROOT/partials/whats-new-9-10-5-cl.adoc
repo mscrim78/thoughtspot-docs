@@ -1,27 +1,27 @@
 ifndef::pendo-links[]
-March 2024 [label label-dep]#9.11.0.cl#
+March 2024 [label label-dep]#9.10.5.cl#
 endif::[]
 ifdef::pendo-links[]
 [month-year-whats-new]#March 2024#
-[label label-dep-whats-new]#9.11.0.cl#
+[label label-dep-whats-new]#9.10.5.cl#
 endif::[]
 
 ifndef::free-trial-feature[]
 NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
 endif::free-trial-feature[]
 
-[#primary-9-11-0-cl]
+[#primary-9-10-5-cl]
 
 // Business User
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-11-0-cl-spotiq]
+[#9-10-5-cl-spotiq]
 [discrete]
 === AI Highlights [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-spotiq]
+[#9-10-5-cl-spotiq]
 [discrete]
 === AI Highlights [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
@@ -38,12 +38,12 @@ endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-11-0-cl-mode]
+[#9-10-5-cl-mode]
 [discrete]
 === Mode connector [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-mode]
+[#9-10-5-cl-mode]
 [discrete]
 === Mode connector [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
@@ -55,7 +55,7 @@ ThoughtSpot now supports connections to Mode. Import reusable Datasets created i
 
 endif::free-trial-feature[]
 
-[#9-11-0-cl-data-panel]
+[#9-10-5-cl-data-panel]
 [discrete]
 === Answer data panel enhancements
 
@@ -77,12 +77,12 @@ image::answer-panel-new.gif[Information panel appears when you click on a column
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-11-0-cl-collibra]
+[#9-10-5-cl-collibra]
 [discrete]
 === Collibra integration [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-collibra]
+[#9-10-5-cl-collibra]
 [discrete]
 === Collibra integration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
@@ -100,12 +100,12 @@ endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-11-0-cl-byoc]
+[#9-10-5-cl-byoc]
 [discrete]
 === Custom charts [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-byoc]
+[#9-10-5-cl-byoc]
 [discrete]
 === Custom charts [.badge.badge-beta-whats-new]#Beta#
 endif::[]
@@ -122,12 +122,12 @@ endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-11-0-cl-simple-cohorts]
+[#9-10-5-cl-simple-cohorts]
 [discrete]
 === Custom sets [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-simple-cohorts]
+[#9-10-5-cl-simple-cohorts]
 [discrete]
 === Custom sets [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
@@ -145,7 +145,7 @@ image::column-set.gif[Column set creation process]
 
 endif::free-trial-feature[]
 
-[#9-11-0-cl-percentage]
+[#9-10-5-cl-percentage]
 [discrete]
 === Keywords "of" and "percentage of"
 
@@ -157,7 +157,7 @@ The "of" and "percentage of" keywords are now on by default and available to all
 
 
 
-[#9-11-0-cl-sync]
+[#9-10-5-cl-sync]
 [discrete]
 === ThoughtSpot Sync for Google BigQuery
 
@@ -169,7 +169,7 @@ ThoughtSpot Sync for Google BigQuery is now on by default and available to all u
 
 
 
-[#9-11-0-cl-tscli]
+[#9-10-5-cl-tscli]
 [discrete]
 === Remove additional information when exporting a Liveboard as a CSV
 ThoughtSpot allows users to export a Liveboard as a CSV. By default, the exported CSV has some additional information, such as filters applied, and user information. ThoughtSpot introduces the ability to remove this additional information when exporting a Liveboard as a CSV.
@@ -190,12 +190,12 @@ By default, this feature is turned off. To enable this feature, contact {support
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-11-0-cl-collibra-metadata]
+[#9-10-5-cl-collibra-metadata]
 [discrete]
 === Collibra catalog integration [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-collibra-metadata]
+[#9-10-5-cl-collibra-metadata]
 [discrete]
 === Collibra catalog integration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
@@ -212,12 +212,12 @@ endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-11-0-cl-worksheet]
+[#9-10-5-cl-worksheet]
 [discrete]
 === Click and drag to create joins with Models [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-worksheet]
+[#9-10-5-cl-worksheet]
 [discrete]
 === Click and drag to create joins with Models [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
@@ -232,12 +232,12 @@ endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-11-0-cl-granular]
+[#9-10-5-cl-granular]
 [discrete]
 === Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-granular]
+[#9-10-5-cl-granular]
 [discrete]
 === Granular privileges: addition of data control privileges [.badge.badge-beta-whats-new]#Beta#
 endif::[]
@@ -254,7 +254,7 @@ RBAC is disabled by default. To enable this feature, contact {support-url}.
 
 endif::free-trial-feature[]
 
-[#9-11-0-cl-feedback]
+[#9-10-5-cl-feedback]
 [discrete]
 === Feedback review
 
@@ -267,7 +267,7 @@ We made the following changes to ThoughtSpot feedback review for AI Answers:
 * When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
 * You can now import query feedback when you move information from a development cluster to a production cluster.
 
-[#9-11-0-cl-dbt-share]
+[#9-10-5-cl-dbt-share]
 [discrete]
 === dbt integration: sharing dbt connections
 
@@ -276,7 +276,7 @@ We made the following changes to ThoughtSpot feedback review for AI Answers:
 
 You can now select a dbt connection and click *Share* to share the connection with other users or groups. By default, the underlying Cloud data warehouse connection is shared. Note that you need *Can manage data* privileges to access and share dbt connections.
 
-[#9-11-0-cl-dbt-join]
+[#9-10-5-cl-dbt-join]
 [discrete]
 === dbt integration: join enhancement
 
@@ -285,7 +285,7 @@ You can now select a dbt connection and click *Share* to share the connection wi
 
 When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. Now, joins between the tables will be created local to the Worksheet instead of creating a global join between the tables.
 
-[#9-11-0-cl-dbt-error]
+[#9-10-5-cl-dbt-error]
 [discrete]
 === dbt error message handling
 
@@ -294,7 +294,7 @@ When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables ba
 
 ThoughtSpot displays dbt error messages that clearly describe whether the error originated in dbt or in ThoughtSpot, where the error was encountered, and what steps users should take to resolve the issue.
 
-[#9-11-0-cl-ts-groups]
+[#9-10-5-cl-ts-groups]
 [discrete]
 === Ts_Groups system variable
 
@@ -306,7 +306,7 @@ ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet
 For example, you could create a formula such as: `masked sales = if ( 'all data' in ts_groups) then sales else null`. The formula checks if you are a member of the 'all data' group. If you are a member, the formula returns the sales column. If not, it returns null.
 ////
 
-[#9-11-0-cl-pkce]
+[#9-10-5-cl-pkce]
 [discrete]
 === OAuth for Snowflake using Proof Key for Code Exchange (PKCE)
 ThoughtSpot incorporates PKCE for Snowflake. The addition of PKCE as an extension of the OAuth 2.0 protocol provides an added layer of security.
@@ -321,7 +321,7 @@ ThoughtSpot incorporates PKCE for Snowflake. The addition of PKCE as an extensio
 
 
 
-[#9-11-0-cl-dremio]
+[#9-10-5-cl-dremio]
 [discrete]
 === Dremio on-premises support for OAuth
 Dremio now supports use of OAuth with Dremio on-premises.
@@ -331,7 +331,7 @@ Dremio now supports use of OAuth with Dremio on-premises.
 
 
 
-[#9-11-0-cl-embrace]
+[#9-10-5-cl-embrace]
 [discrete]
 === Enhancements to error messages for Search and Answers
 
@@ -341,7 +341,7 @@ Dremio now supports use of OAuth with Dremio on-premises.
 To improve our error messaging when an error prevents data from loading, we introduced a broader classification that allows you to understand issues more clearly. You can click "Copy error details" to download and send a file to your administrators.
 
 
-[#9-11-0-cl-custom-link]
+[#9-10-5-cl-custom-link]
 [discrete]
 === Support for custom URLs in scheduled Liveboard emails
 ThoughtSpot introduces support for custom URL links in scheduled Liveboard emails. If your organization has set a custom URL for your clusters, the links in scheduled emails now include the custom URL.
@@ -352,12 +352,12 @@ ThoughtSpot introduces support for custom URL links in scheduled Liveboard email
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-11-0-cl-byoc-develop]
+[#9-10-5-cl-byoc-develop]
 [discrete]
 === Develop custom charts [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-byoc-develop]
+[#9-10-5-cl-byoc-develop]
 [discrete]
 === Develop custom charts [.badge.badge-beta-whats-new]#Beta#
 endif::[]
