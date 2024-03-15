@@ -189,7 +189,7 @@ include::partial$keywords/n_weeks_ago.adoc[]
 * _n_ weeks ago
 
 include::partial$keywords/last_n_weeks_for_each_month.adoc[]
-日本語;; 月毎の最後の _n_ 月
+日本語;; 月毎の最後の _n_ 週
 
 include::partial$keywords/last_n_weeks_for_each_quarter.adoc[]
 日本語;; 四半期毎の最後の _n_ 週
