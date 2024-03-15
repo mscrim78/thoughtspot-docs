@@ -180,6 +180,21 @@ include::partial$keywords/quarterly.adoc[]
 include::partial$keywords/quarterly_year_over_year.adoc[]
 русский;; ежеквартально год к году
 
+include::partial$keywords/this_day.adoc[]
+русский;; этот день
+
+include::partial$keywords/this_month.adoc[]
+русский;;; этот месяц
+
+include::partial$keywords/this_quarter.adoc[]
+русский;;; этот квартал
+
+include::partial$keywords/this_week.adoc[]
+русский;;; этот неделя
+
+include::partial$keywords/this_year.adoc[]
+русский;;; этот год
+
 include::partial$keywords/today.adoc[]
 русский;; cегодня
 
