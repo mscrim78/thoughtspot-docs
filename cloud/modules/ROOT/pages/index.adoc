@@ -175,6 +175,7 @@ Find topics for the common types of ThoughtSpot users.
           <li><a href="https://docs.thoughtspot.com/cloud/latest/use-agreement">Use agreement</a></li>
           <li><a href="https://docs.thoughtspot.com/cloud/latest/performance-tracking">Performance tracking Liveboard</a></li>
           <li><a href="preview-thoughtspot.netlify.app/cloud/latest/consumption-pricing">Consumption-based pricing</a></li>
+<a class="anchor" href="#next-release">
         </ul>
         </div>
  </div>
@@ -225,10 +226,6 @@ Find topics for the common types of ThoughtSpot users.
      </div>
   </div>  -->
 ++++
-[#next-release]
-{empty} +
-{empty} +
-{empty} +
 
 == What's coming in the next release
 
