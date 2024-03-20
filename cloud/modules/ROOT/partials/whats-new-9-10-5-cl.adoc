@@ -1,8 +1,8 @@
 ifndef::pendo-links[]
-March 2024 [label label-dep]#9.10.5.cl#
+April 2024 [label label-dep]#9.10.5.cl#
 endif::[]
 ifdef::pendo-links[]
-[month-year-whats-new]#March 2024#
+[month-year-whats-new]#April 2024#
 [label label-dep-whats-new]#9.10.5.cl#
 endif::[]
 
