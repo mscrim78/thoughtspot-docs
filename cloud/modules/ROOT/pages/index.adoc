@@ -226,6 +226,10 @@ Find topics for the common types of ThoughtSpot users.
   </div>  -->
 ++++
 [#next-release]
+{empty} +
+{empty} +
+{empty} +
+
 == What's coming in the next release
 
 include::partial$whats-new-9-10-5-cl.adoc[]
