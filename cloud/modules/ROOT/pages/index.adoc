@@ -175,7 +175,7 @@ Find topics for the common types of ThoughtSpot users.
           <li><a href="https://docs.thoughtspot.com/cloud/latest/use-agreement">Use agreement</a></li>
           <li><a href="https://docs.thoughtspot.com/cloud/latest/performance-tracking">Performance tracking Liveboard</a></li>
           <li><a href="preview-thoughtspot.netlify.app/cloud/latest/consumption-pricing">Consumption-based pricing</a></li>
-<a class="anchor" href="#next-release">
+<h2 id="next-release"></h2>
         </ul>
         </div>
  </div>
