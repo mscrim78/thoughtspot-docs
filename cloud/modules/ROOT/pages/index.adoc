@@ -118,7 +118,7 @@ Find topics for the common types of ThoughtSpot users.
         <li><a href="https://docs.thoughtspot.com/cloud/9.8.0.cl/spotiq-change">Change analysis</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/9.8.0.cl/search-sage">ThoughtSpot Sage</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/9.8.0.cl/thoughtspot-sync">ThoughtSpot Sync</a></li>
-<li><a href="https://docs.thoughtspot.com/cloud/9.8.0.cl/thoughtspot-sheets">Add-ons for Google Sheets&trade;</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/9.8.0.cl/thoughtspot-sheets">Add-on for Google Sheets&trade;</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/9.8.0.cl/thoughtspot-slides">Add-on for Google Slides&trade;</a></li>
     </ul>
     </div>
