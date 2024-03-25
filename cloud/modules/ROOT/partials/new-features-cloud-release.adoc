@@ -20,7 +20,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 Renaming columns::
 You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet. For more information, see xref:chart-column-axis-rename.adoc#column-rename[Rename a table column].
 
-// Mark -- SCAL-158357
+// Mark -- SCAL-192432
 Models [.badge.badge-early-access-relnotes]#Early Access#::
 With Models, we've completely redesigned how you model your data in ThoughtSpot. With the Model editor, you can drag and drop tables and columns, create joins, and much more in an intuitive, tabbed interface which streamlines your workflow. Models will replace Worksheets in the future, but in this release you can create and use Models or Worksheets. To enable this feature, contact your administrator.
 For more information, see xref:models.adoc[Models].
@@ -46,7 +46,7 @@ Rather than simply using conditional formatting comparing a column's measures to
 Functional enhancements for verified Liveboards::
 Easily find verified Liveboards with trusted content and sort Liveboards to view verified content. Request verification of Liveboards and cancel requests when needed.
 
-// Mark -- SCAL-189591
+// Mark -- SCAL-189664
 Deprecation of SpotApps::
 In this release, you will still be able to use SpotApps, but ThoughtSpot will remove the SpotApps UI in a later release. Though we will be removing the UI, you will still be able to upload pre-built SpotApp templates. For details, see xref:deprecation.adoc[Deprecated and removed features].
 
