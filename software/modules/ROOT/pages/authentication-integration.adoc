@@ -265,4 +265,3 @@ To only allow SSO login by default, contact {support-url}. Note that if you chan
 > * xref:search-spotiq-settings.adoc[]
 > * xref:onboarding-email-settings.adoc[]
 > * xref:style-customization.adoc[]
-> * xref:scheduled-maintenance.adoc[]
