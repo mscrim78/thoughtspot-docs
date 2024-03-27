@@ -2,8 +2,8 @@
 :last_updated: 6/28/2022
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
-:page-aliases: /admin/ts-cloud/search-spotiq-settings.adoc, admin-portal-search-spotiq-settings.adoc
+:page-layout: default
+:page-aliases:
 :description: Manage indexing and SpotIQ settings for your organization from the Admin Console.
 
 

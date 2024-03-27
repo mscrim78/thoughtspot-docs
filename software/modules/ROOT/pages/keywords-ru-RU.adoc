@@ -2,8 +2,8 @@
 :last_updated: 11/19/2019
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
-:page-aliases: /reference/keywords-ru-RU.adoc
+:page-layout: default
+:page-aliases:
 :description: Use keywords to help define a search.
 :locale: русский (ограниченный выпуск)
 :jira: SCAL-180332, SCAL-199692

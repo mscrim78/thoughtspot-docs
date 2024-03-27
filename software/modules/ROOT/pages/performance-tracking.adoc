@@ -2,8 +2,8 @@
 :last_updated: 11/05/2021
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
-:page-aliases: /admin/ts-cloud/performance-tracking.adoc
+:page-layout: default
+:page-aliases:
 :description: Use the Performance Tracking Liveboard to understand how your ThoughtSpot cluster is performing.
 
 
