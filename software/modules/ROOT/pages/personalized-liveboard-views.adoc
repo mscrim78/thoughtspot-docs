@@ -2,7 +2,6 @@
 :last_updated: 10/17/2023
 :linkattrs:
 :experimental:
-:page-layout: default
 :page-aliases:
 :description: You can personalize Liveboards by applying filters that are persisted.
 
