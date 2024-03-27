@@ -2,8 +2,8 @@
 :last_updated: 5/6/2021
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
-:page-aliases: /admin/setup/configure-saml-with-tscli.adoc, /admin/ts-cloud/authentication-integration.adoc, authentication-saml.adoc
+:page-layout: default
+:page-aliases:
 :description: ThoughtSpot integrates with SAML for authentication.
 
 
@@ -111,7 +111,7 @@ You need admin privileges to enable SAML SSO authentication.
 
 . If you are using xref:orgs-overview.adoc[], ask {support-url} to enable SAML integration in your environment. After ThoughtSpot Support enables SAML integration, you can configure SAML for your environment.
 . Configure the ThoughtSpot application instance on your IDP server.
-.. If you are using xref:okta-iam.adoc[], you must whitelist the following URL in your IDP: `https://identity.thoughtspotlogin.cloud/`.
+.. If you are using xref:okta-iam.adoc[], you must whitelist the following URL in your IDP: `https://identity.thoughtspotlogin/`.
 . Sign in to your ThoughtSpot application instance.
 . From the top navigation bar, select the *Admin* tab.
 . Select *SAML* from the side navigation bar that appears.
@@ -124,7 +124,7 @@ image::admin-portal-saml-configure.png[Configure SAML]
 ThoughtSpot Service Address::
 A fully qualified and resolvable domain name for the ThoughtSpot service.
 +
-This must be in the format _<cluster-name>.thoughtspot.cloud_.
+This must be in the format _<cluster-name>.thoughtspot._.
 Port::
 Enter `443` in this box.
 +
