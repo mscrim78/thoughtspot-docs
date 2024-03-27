@@ -53,8 +53,6 @@ You should only use the *All orgs > Users* section of the Admin Console to add u
 
 *Application and menu customization*
 
-* xref:customize-help.adoc[Customize ThoughtSpot help:] Customize ThoughtSpot Help to be specific to your data, examples, and documentation.
-
 * xref:style-customization.adoc[Customize application style:] Change the overall style of your ThoughtSpot interface: logo, colors, fonts, and footer text.
 
 *Monitor system*
@@ -71,6 +69,3 @@ Org administrators can complete the following tasks in the Admin Console. These 
 * xref:admin-portal-users-orgs.adoc[Manage ThoughtSpot users:] Create, edit, or delete users in a specific Org. Add users to or remove users from groups in a specific Org.
 
 * xref:admin-portal-groups-orgs.adoc[Manage ThoughtSpot groups:] Create, edit, or delete groups in a specific Org.
-
-* xref:scheduled-maintenance.adoc[View scheduled maintenance:] View upcoming maintenance and downtime for a specific Org in the ThoughtSpot application.
-
