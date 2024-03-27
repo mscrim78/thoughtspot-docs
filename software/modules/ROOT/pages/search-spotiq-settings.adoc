@@ -2,7 +2,6 @@
 :last_updated: 6/28/2022
 :linkattrs:
 :experimental:
-:page-layout: default
 :page-aliases:
 :description: Manage indexing and SpotIQ settings for your organization from the Admin Console.
 

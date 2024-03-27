@@ -2,7 +2,6 @@
 :last_updated: 9/28/2020
 :linkattrs:
 :experimental:
-:page-layout: default
 :page-aliases:
 :description: Style Customization allows you to change the overall style of your ThoughtSpot interface.
 

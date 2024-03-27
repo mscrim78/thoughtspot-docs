@@ -3,7 +3,6 @@
 :linkattrs:
 :experimental:
 :page-aliases:
-:page-layout: default
 :description: You can customize ThoughtSpot Help to be specific to your data, examples, and documentation.
 
 

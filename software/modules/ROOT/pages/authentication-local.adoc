@@ -2,7 +2,6 @@
 :last_updated: 5/28/2020
 :linkattrs:
 :experimental:
-:page-layout: default
 :page-aliases:
 :description: ThoughtSpot has robust local authentication, and integrates with SAML.
 

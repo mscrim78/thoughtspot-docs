@@ -2,7 +2,6 @@
 :last_updated: 11/05/2021
 :linkattrs:
 :experimental:
-:page-layout: default
 :page-aliases:
 :description: Use the Performance Tracking Liveboard to understand how your ThoughtSpot cluster is performing.
 
