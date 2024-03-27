@@ -5,7 +5,7 @@
 :page-aliases:
 :description: Use keywords to help define a search.
 :locale: русский (ограниченный выпуск)
-:jira: SCAL-180332, SCAL-199692
+:jira: SCAL-180332, SCAL-199692, SCAL-184464
 
 Use keywords when asking a question to help define your search.
 This reference lists the various keywords.
