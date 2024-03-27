@@ -4,7 +4,7 @@
 :linkattrs:
 :page-partial:
 :description: Use the Performance Tracking Liveboard to understand how your ThoughtSpot cluster is performing.
-:page-aliases: performance-tracking.adoc
+
 
 
 Use the Performance Tracking Liveboard to understand how your ThoughtSpot cluster is performing.
