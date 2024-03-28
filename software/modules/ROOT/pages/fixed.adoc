@@ -15,8 +15,6 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |===
 |Issue ID |Description
 
-
-
 |SCAL-182743
 |Updates to runtime filters in a Liveboard do not appear in the downloaded Liveboard.
 
