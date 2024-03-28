@@ -1,11 +1,11 @@
 = Known issues
 :keywords: known issues
-:last_updated: 10/26/2023
+:last_updated: 3/28/2024
 :experimental:
 :page-layout:
 :linkattrs:
 :description: These are the known issues in recent ThoughtSpot Software releases.
-:jira: SCAL-177831
+:jira: SCAL-201268
 
 These are the known issues in this release of ThoughtSpot Software.
 
@@ -16,7 +16,22 @@ These are the known issues in this release of ThoughtSpot Software.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-XXXXXX
+|SCAL-196307
+|TBD
+a|*Symptoms*:
+
+TBD
+
+
+*Conditions*:
+
+TBD
+
+*Workaround*:
+
+TBD
+
+|SCAL-199453
 |TBD
 a|*Symptoms*:
 
