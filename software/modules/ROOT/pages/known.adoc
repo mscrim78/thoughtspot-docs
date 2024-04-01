@@ -1,6 +1,6 @@
 = Known issues
 :keywords: known issues
-:last_updated: 3/28/2024
+:last_updated: 4/1/2024
 :experimental:
 :page-layout:
 :linkattrs:
@@ -16,35 +16,20 @@ These are the known issues in this release of ThoughtSpot Software.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-196307
-|TBD
-a|*Symptoms*:
-
-TBD
-
-
-*Conditions*:
-
-TBD
-
-*Workaround*:
-
-TBD
-
 |SCAL-199453
-|TBD
+|Scheduled Liveboards do not include all visualizations when using csv format.
 a|*Symptoms*:
 
-TBD
+Only the CSV of the first visualization is sent in the email. All other CSVs are missing from the email.
 
 
 *Conditions*:
 
-TBD
+Liveboard with multiple visualizations and configured schedule.
 
 *Workaround*:
 
-TBD
+None
 
 |===
 
