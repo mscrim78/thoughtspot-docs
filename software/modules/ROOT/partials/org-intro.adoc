@@ -4,7 +4,9 @@ If the Orgs feature is enabled on your instance, your cluster administrator can 
 
 [NOTE]
 ====
-The Orgs feature requires either the ThoughtSpot Enterprise Edition or the ThoughtSpot Embedded Enterprise Edition. See https://www.thoughtspot.com/pricing[ThoughtSpot pricing and editions^].
+The Orgs feature is only supported for customers with Embrace connections, Falcon connections are not supported.
 
-If you have either of these editions, contact {support-url} to enable Orgs. The Orgs feature is off by default. To learn about multi-tenancy using groups instead of Orgs, refer to https://developers.thoughtspot.com/docs/multitenancy-without-orgs[Multi-tenancy with groups^].
+Migration of existing customers to Orgs is not supported.
+
+To enable Orgs, contact {support-url}. The Orgs feature is off by default.
 ====
