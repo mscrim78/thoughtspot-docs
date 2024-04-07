@@ -6,7 +6,7 @@
 :page-aliases:
 :description: You can edit a Presto connection to add tables and columns.
 :connection: Presto
-:jira: SCAL-118895
+:jira: SCAL-118895, SCAL-201045
 
 To edit a {connection} connection:
 
@@ -63,4 +63,3 @@ See the xref:connections-presto-reference.adoc[Connection reference] for details
 > * xref:connections-presto-reference.adoc[Connection reference for {connection}]
 > * xref:connections-query-tags.adoc#tag-presto[ThoughtSpot query tags in Presto]
 > * xref:connections-presto-passthrough.adoc[]
-
