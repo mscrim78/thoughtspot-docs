@@ -108,7 +108,7 @@ Users with edit permissions on a Liveboard can set their preferred attribute col
 Natural language search chart type:: You can now specify the answering chart type when you use Natural Language Search. For example, search for "sales by region pie chart", and the results appear in pie chart format. For more information, see xref:ai-answers.adoc[].
 
 
-// Naomi -- scal-177253, documentation JIRA scal-201038
+// Naomi -- scal-177253, documentation JIRA scal-201038 (approved)
 Add formula or parameter to Answer::
 You can now add a formula or parameter to an Answer by navigating to the *Category* image:icon-by-category.png[Category view] or *A to Z* image:icon-a-to-z.png[Alphabetical view] view of the Data panel, clicking *+ Add*, and selecting *Formula* or *Parameter*.
 
@@ -138,10 +138,10 @@ To access this feature, go to your KPI chart and select the caret icon to the ri
 
 === For the Data Engineer
 
-// Naomi -- scal-166158, documentation JIRA scal-201042
+// Naomi -- scal-166158, documentation JIRA scal-201042 (approved)
 Google Cloud SQL for MySQL connection:: We added support for xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL].
 
-// Naomi -- scal-118895, documentation JIRA SCAL-20104
+// Naomi -- scal-118895, documentation JIRA SCAL-201045
 Validate metadata for connections::
 You can now validate connections to discover any changes in metadata after the connection was created. When you validate a connection, ThoughtSpot provides a JSON file containing details on the metadata changes. Once alerted to a metadata change, you can use TML to update the connection.
 
@@ -153,10 +153,10 @@ Row-level security in custom calendars:: We now support row-level security in cu
 // Mark -- SCAL-161198
 //Looker Modeler connection:: You can now create a connection to Looker Modeler. For more information, see xref:connections-looker.adoc[Looker Modeler].
 
-// Naomi -- scal-169065, documentation JIRA scal-201046
+// Naomi -- scal-169065, documentation JIRA scal-201046 (approved)
 dbt public API:: dbt core users can now use the dbt public API to upload dbt project files to ThoughtSpot. Use the dbt sync API to upload your dbt project's zip files.
 
-// Naomi -- scal-169614, documentation JIRA scal-201047
+// Naomi -- scal-169614, documentation JIRA scal-201047 (approved)
 dbt version 1.7:: ThoughtSpot now supports dbt version 1.7.
 
 [#9-10-0-cl-developer]
