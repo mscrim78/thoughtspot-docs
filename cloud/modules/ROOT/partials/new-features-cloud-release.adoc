@@ -25,12 +25,12 @@ Models [.badge.badge-early-access-relnotes]#Early Access#::
 With Models, we've completely redesigned how you model your data in ThoughtSpot. With the Model editor, you can drag and drop tables and columns, create joins, and much more in an intuitive, tabbed interface which streamlines your workflow. Models will replace Worksheets in the future, but in this release you can create and use Models or Worksheets. To enable this feature, contact your administrator.
 For more information, see xref:models.adoc[Models].
 
-// Naomi -- scal-174127, documentation JIRA scal-201041
+// Naomi -- scal-174127, documentation JIRA scal-201041 (approved)
 ThoughtSpot Sync for Google BigQuery [.badge.badge-beta-relnotes]#Beta#::
 Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse. To enable this feature, contact {support-url}.
 For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 
-// Naomi -- scal-176730
+// Naomi -- scal-176730, documentation JIRA 201311
 ThoughtSpot Sync from unsaved Answers:: You can now create syncs from Answers without saving first.
 
 //Mary -- scal-143396, scal-163885, Doc JIRA scal-201631
@@ -62,7 +62,7 @@ In this release, you will still be able to use SpotApps, but ThoughtSpot will re
 
 
 
-// Naomi -- scal-169683, documentation JIRA scal-201035
+// Naomi -- scal-169683, documentation JIRA scal-201035 (approved)
 Null and missing values in charts::
 You can now choose how null and missing values appear in line, column, and bar charts in ThoughtSpot. Null and missing values appear as bars of 1 pixel width on bar and column charts. You can choose whether to display null date values as zero values, line breaks, or an average of proximate values on a line chart. Rather than showing a sharp decline to zero every time there is null or missing data on your line chart, you can see the missing values represented as line breaks or averages of the closest values instead. For more information, see
 xref:chart-null-missing.adoc[Null and missing values in charts].
@@ -72,14 +72,14 @@ xref:chart-null-missing.adoc[Null and missing values in charts].
 Ask Sage:: You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. To access Ask Sage, ask a question using the Natural Language Search interface on the Home page, and click *Ask a follow up*. For more information, see xref:ask-sage.adoc[Ask Sage].
 ////
 
-// Naomi -- scal-141936, scal-176265, documentation JIRA scal-178860
+// Naomi -- scal-141936, scal-176265, documentation JIRA scal-178860 (approved)
 Iterative change analysis [.badge.badge-beta-relnotes]#Beta#::
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
-// Naomi -- SCAL-127727, SCAL-164086, documentation JIRA scal-201033
+// Naomi -- SCAL-127727, SCAL-164086, documentation JIRA scal-201033 (approved)
 Contextual alert creation on KPI charts:: ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. For more information, see xref:monitor.adoc[Monitor alerts].
 
-// Naomi -- SCAL-159819
+// Naomi -- SCAL-159819, documentation JIRA scal-201314
 ThoughtSpot for Slack [.badge.badge-early-access-relnotes]#Early Access#::
 You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Slack app, add it to a Slack channel, and you can ask questions of your data sources in natural language. ThoughtSpot answers in chart format. For more information, see xref:spotdev.adoc[].
 
@@ -97,9 +97,6 @@ xref:monitor.adoc#early-access[Monitor].
 // Naomi -- scal-166121, documentation JIRA scal-201034. actually EA.
 Chart customizations [.badge.badge-early-access-relnotes]#Early Access#:: You can now access advanced chart customization settings for Answers by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. For more information, see xref:chart-settings-advanced.adoc[Advanced chart settings].
 
-// Naomi -- scal-141936. actually beta. spotiq-change.adoc#iterative
-
-Run change analysis iteratively:: You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. When you right-click on an attribute value in the change analysis window to drill down, ThoughtSpot adds the attribute value as a filter and re-calculates change analysis for the specific window of time specified in your original search. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
 // Naomi -- scal-147558, documentation JIRA scal-201036
 Change analysis: remember personalized columns [.badge.badge-early-access-relnotes]#Early Access#::
