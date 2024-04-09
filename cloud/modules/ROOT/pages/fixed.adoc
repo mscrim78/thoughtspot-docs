@@ -26,13 +26,13 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-197530
 |Liveboards fail to load intermittently.
 |SCAL-196097
-|`User_auth_info` atlas objects cause high memory usage.
+|The failure to garbage collect user_auth_infos caused high memory usage
 |SCAL-194741
 |EmbedEvent.CustomAction fail to send data inside data.embedAnswerData.data.
 |SCAL-194515
 |Unable to add admin user to multiple Orgs.
 |SCAL-194224
-|Customers using a Google BigQuery connection are unable to download tables as CSV, PDF, or XLSX files when table contains boolean or datetime columns.
+|Customers using a Google BigQuery connection unable to download tables as CSV, PDF, or XLSX files using Bigquery API, when table contains boolean or datetime columns.
 |SCAL-193868
 |Profiles in use by other XLSX downloads are deleted while in use.
 |SCAL-191966
@@ -52,7 +52,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-185098
 |Customers navigating to Data > Sync occasionally see "Seekwell Service down" error and are unable to use this feature.
 |SCAL-184640
-|API calls for natural language search fail in embedded environments.
+|Support for natural language conversational search was missing on this version, causing a console error on liveboard page, which in turn showed error in embedded liveboards.
 |SCAL-184586
 |Snowflake JDBC connection suddenly fails and the error message "request timed out after 30000ms" appears.
 |SCAL-184455
