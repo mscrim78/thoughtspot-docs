@@ -22,7 +22,7 @@ Navigate to the Admin Console by selecting the *Admin* tab from the top navigati
 
 Select *Users* from the side navigation bar.
 
-image::admin-portal-users-orgs.png[Admin Console - Users]
+//image::admin-portal-users-orgs.png[Admin Console - Users]- waiting for sw cluster with orgs enabled for sw specific image
 
 Use the Admin Console to accomplish the following tasks:
 

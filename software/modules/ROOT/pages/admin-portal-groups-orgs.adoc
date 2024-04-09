@@ -26,7 +26,7 @@ To manage groups, you must first ensure that you are in the correct Org. Navigat
 Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 Select *Groups* from the side navigation bar that appears. If you do not see *Groups*, you may be in the *All orgs* section of the *Admin Console*. Instead, select *Primary org* from the left navigation bar. Then, select *Groups*.
 
-image::admin-portal-groups-orgs.png[Admin Console - Groups]
+//image::admin-portal-groups-orgs.png[Admin Console - Groups]- waiting for sw cluster with orgs enabled for sw specific image
 
 Use the Admin Console to accomplish the following tasks:
 
