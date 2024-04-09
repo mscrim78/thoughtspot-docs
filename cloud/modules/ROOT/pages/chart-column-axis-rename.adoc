@@ -28,6 +28,16 @@ image::edit-axis-rename.png[Rename axis]
 
 Alternatively, you can select the chart configuration icon image:icon-gear-10px.png[chart configuration icon], select the tile for the axis name, and enter the new name in the text box.
 
+== Rename a column in a chart
+
+You can rename a column in a chart in a similar way.
+
+To rename a column, follow these steps.
+
+. While viewing your Answer as a chart, click the chart configuration icon image:icon-gear-10px.png[chart configuration icon] and click the name of the column you want to rename.
+. Enter the new name in the text box below the column name.
+
+. Click *Enter*.
 
 [#column-rename]
 == Rename a table column
