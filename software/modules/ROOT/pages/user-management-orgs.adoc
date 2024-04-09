@@ -42,14 +42,14 @@ To create a new user and assign that user to groups or Orgs, follow these steps:
 .  If you are a cluster administrator in the Primary Org, select *All orgs* from the side navigation bar.
 . Select *Users* from the side navigation bar that appears.
 +
-image::admin-portal-users-orgs.png[Admin Console - Users]
+//image::admin-portal-users-orgs.png[Admin Console - Users]- waiting for sw cluster with orgs enabled for sw specific image
 
 . Select the *+ Add User* button on the upper-left side of the list of users.
 . In the *Add a new user* interface, enter the details for the new user.
 +
 NOTE: You see a different interface, depending on whether you are adding the new user from the *All orgs* section of the Admin Console, or from a specific Org. From *All orgs*, you can add the new user to multiple Orgs. From the specific Org, you can add the new user to groups.
 +
-image::add-user-orgs.png[Add a new User]
+//image::add-user-orgs.png[Add a new User]- waiting for sw cluster with orgs enabled for sw specific image
 +
 [#username]
 Username::
@@ -120,7 +120,7 @@ To edit an existing user, follow these steps:
 .  If you are a cluster administrator in the Primary Org, select *All orgs* from the side navigation bar.
 . Select *Users* from the side navigation bar that appears.
 +
-image::admin-portal-users-orgs.png[Admin Console - Users]
+//image::admin-portal-users-orgs.png[Admin Console - Users]- waiting for sw cluster with orgs enabled for sw specific image
 
 . Select the username in the list to open the *Edit User* interface.
 +
@@ -206,7 +206,7 @@ To delete users, follow these steps:
 . Navigate to the Admin Console by selecting on the *Admin* tab from the top navigation bar.
 . Select *Users* from the side navigation bar that appears.
 +
-image::admin-portal-users-orgs.png[Admin Console - Users]
+//image::admin-portal-users-orgs.png[Admin Console - Users]- waiting for sw cluster with orgs enabled for sw specific image
 
 . Select the users you plan to delete by clicking the box next to the username.
 +

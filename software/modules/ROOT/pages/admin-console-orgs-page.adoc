@@ -8,7 +8,7 @@ include::partial$org-intro.adoc[]
 
 The cluster administrator can create, edit, and delete Orgs from the Admin Console in the Primary Org. You must be in the Primary Org, in the *All orgs* section of the Admin Console.
 
-image::orgs-admin-console.png[Org management in the Admin Console]
+//image::orgs-admin-console.png[Org management in the Admin Console]- waiting for sw cluster with orgs enabled for sw specific image
 
 include::partial$org-create-manage.adoc[]
 

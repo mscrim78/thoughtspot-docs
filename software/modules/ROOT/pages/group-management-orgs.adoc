@@ -25,7 +25,7 @@ To create a group and add privileges for the group, follow these steps:
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Groups* from the left navigation bar that appears. If you do not see *Groups*, you may be in the *All orgs* section of the *Admin Console*. Instead, select *Primary org* from the left navigation bar. Then, select *Groups*.
 +
-image::admin-portal-groups-orgs.png[Admin Console - Groups]
+//image::admin-portal-groups-orgs.png[Admin Console - Groups]- waiting for sw cluster with orgs enabled for sw specific image
 
 . Select the *+ Add Group* button on the upper-left side of the screen.
 . In the *Add a new group* modal, enter the details for the new group:
@@ -86,7 +86,7 @@ To edit an existing group, follow these steps:
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Groups* from the left navigation bar that appears. If you do not see *Groups*, you may be in the *All orgs* section of the *Admin Console*. Instead, select *Primary org* from the left navigation bar. Then, select *Groups*.
 +
-image::admin-portal-groups-orgs.png[Admin Console - Groups]
+//image::admin-portal-groups-orgs.png[Admin Console - Groups]- waiting for sw cluster with orgs enabled for sw specific image
 
 . Find the group you want to edit in the list, and select its name.
 +
@@ -153,7 +153,7 @@ To delete existing groups, follow these steps:
 . Navigate to the Admin Console by selecting on the *Admin* tab from the top navigation bar.
 . Select *Groups* from the left navigation bar that appears. If you do not see *Groups*, you may be in the *All orgs* section of the *Admin Console*. Instead, select *Primary org* from the left navigation bar. Then, select *Groups*.
 +
-image::admin-portal-groups-orgs.png[Admin Console - Groups]
+//image::admin-portal-groups-orgs.png[Admin Console - Groups]- waiting for sw cluster with orgs enabled for sw specific image
 
 . Select the groups you plan to delete by clicking the box next to the group name.
 +
@@ -177,7 +177,7 @@ Follow these steps:
 . Navigate to the Admin Console by selecting on the *Admin* tab from the top navigation bar.
 . Select *Users* from the side navigation bar that appears.
 +
-image::admin-portal-users-orgs.png[Admin Console - Users]
+//image::admin-portal-users-orgs.png[Admin Console - Users]- waiting for sw cluster with orgs enabled for sw specific image
 
 . Select the names of users you plan to add to groups by clicking the box next to the user name.
 +

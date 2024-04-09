@@ -68,13 +68,13 @@ To create Orgs using the REST v1 API endpoints, refer to https://developers.thou
 
 Any user with access to multiple Orgs can use the *Org switcher* in the top navigation bar, next to the help icon, to switch between the Orgs they belong to. The *Org switcher* also identifies the Org the user is currently in. For example, in the following image, the user is in the Primary Org.
 
-image::org-switcher.png[Org switcher]
+//image::org-switcher.png[Org switcher] - waiting for sw cluster with orgs enabled for sw specific image
 
 A user only sees the Orgs they belong to in the Org switcher. If a user is only part of one Org, they do not have the option to switch between Orgs. They only see the one Org that they belong to.
 
 A cluster administrator can access several Org objects and apply configuration changes. Before performing any operation on the objects in an Org, the administrator must specify the correct Org to ensure that configuration changes are applied in the relevant Org context.
 
-image::org-switcher-gif.gif[Switch the Org]
+//image::org-switcher-gif.gif[Switch the Org]- waiting for sw cluster with orgs enabled for sw specific image
 
 include::partial$all-org-scope.adoc[]
 
