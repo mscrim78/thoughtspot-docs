@@ -17,7 +17,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 === For the Analyst
 
 
-=======
+
 // Naomi -- scal-182100, documentation JIRA scal-201040
 Renaming columns::
 You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet. For more information, see xref:chart-column-axis-rename.adoc#column-rename[Rename a table column].
