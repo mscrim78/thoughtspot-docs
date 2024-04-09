@@ -141,7 +141,7 @@ Collibra integration is now available to all users and on by default. You can no
 [discrete]
 === Email digest
 ThoughtSpot delivers an email digest to users to provide updates about new and trending Liveboards, favorites, and noteworthy community articles. All users who sign in to ThoughtSpot are automatically subscribed to email digests. Users can manage their preferences for email digests. Administrators can turn this feature on and off, or change the default frequency to weekly, monthly, or quarterly.
-// Mary – SCAL-179683. move lower possibly? more details on whether email digest is generic (trending liveboards), or specific to user.
+// Mary – SCAL-179683. move lower possibly? more details on whether email digest is generic (trending liveboards), or specific to user. - waiting for reply from Mohil
 // PM: Adi. new PM Mohil
 
 ////
@@ -162,16 +162,17 @@ ThoughtSpot delivers an email digest to users to provide updates about new and t
 
 [#9-12-0-cl-worksheet]
 [discrete]
-=== Show underlying worksheets
-ThoughtSpot now shows which data sources are used in a Liveboard. A Liveboard may contain visualizations from many data sources. The data sources and links appear in the *Show Liveboard details* modal under *Underlying data source*. Users can click the link to open the data source in a new tab. If a data source is unavailable due to permissions, a message will appear to indicate this in place of the data source name.
-// Mary – SCAL-190726. add an image. is Underlying data source a menu item or a button? what is the use case?
+=== Show underlying data sources
+ThoughtSpot now shows which data sources are used in a Liveboard. A Liveboard may contain visualizations from many data sources. The data sources and links appear in the *Show Liveboard details* modal under *Data source*. Users can click the link to open the data source in a new tab. If a data source is unavailable due to permissions, a message will appear to indicate this in place of the data source name.
+//image to be added when cluster shows linked data sources - waiting for confirmation from Arpit.
+// Mary – SCAL-190726. Waiting for clarification on the use case from Arpit.
 // PM: Vanshree. new pm Arpit?
 
 [#9-12-0-cl-xlsx]
 [discrete]
-=== [Customer Commit] Add support for XLSX in Liveboard schedule
-ThoughtSpot introduces support for scheduling Liveboards with XLSX attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files.
-// Mary – SCAL-140254. call out Excel explicitly. fix title.
+=== Support for Excel attachments in Scheduled Liveboards
+ThoughtSpot introduces support for scheduling Liveboards with Excel (XLSX) attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files.
+// Mary – SCAL-140254. call out Excel explicitly.
 // PM: Vanshree. new PM Arpit?
 
 //[#9-12-0-cl-data-panel]
@@ -183,10 +184,10 @@ ThoughtSpot introduces support for scheduling Liveboards with XLSX attachments, 
 
 [#9-12-0-cl-filters]
 [discrete]
-=== [Customer commit] Allow users to apply filters on Liveboards even if hidden objects are included in a visualization within the Liveboard
+=== Apply filters to Liveboards with hidden objects included in a visualization
 If a Liveboard has at least one visualization that uses a hidden field, or a formula created from a hidden field, the Liveboard filters are now accessible to all users who have view or edit permissions to the underlying data source. These fields remain hidden in Sage search.
 // Mary – SCAL-157372
-//Need more information from Vanshree to clarify the use case(s) supported in 9.12.0.cl. will it be called Sage search? rename the title. is it that you couldn't use any filters on a visualization that had a hidden field? Or is it that you can now filter on the hidden field?
+//Awaiting clarification about use case, Sage search terminology, and if it is that you couldn't use any filters on a visualization that had a hidden field? Or is it that you can now filter on the hidden field?
 // PM: Vanshree. new pm Arpit?
 
 
@@ -340,9 +341,10 @@ endif::[]
 
 [#9-12-0-cl-configuration]
 [discrete]
-=== Configuration related to onboarding should be at Org level in Admin panel
-ThoughtSpot introduces onboarding configuration at the Org level. Now an Org administrator can update their onboarding configuration in the Admin panel without the need to contact the tenant administrator. This feature helps to reduce possible service interruptions.
-// Mary – SCAL-145362. maybe add image of Admin panel with red box around new bit. Allows you to do it per org rather than doing it for the whole cluster/taking the orgs down. fix title.
+=== Manage onboarding configuration at the Org level
+You can now manage onboarding configuration at the Org level. Now an Org administrator can update their onboarding configuration in the Admin panel without the need to contact the tenant administrator. This feature helps to reduce possible service interruptions by allowing you to make configuration changes per Org instead of taking the whole cluster down.
+//image for Org level admin panel is pending a cluster with Org enabled.
+// Mary – SCAL-145362.
 //Need more information (PRD link is missing information)
 // PM: Adi Chand. new PM Mohil?
 
@@ -376,6 +378,7 @@ You can now use the Sage Adoption Liveboard, previously named the How users are 
 // PM: Samridh
 ////
 
+////
 [#9-12-0-cl-tml]
 [discrete]
 === Export/import of users/groups/roles/privileges using TML
@@ -383,6 +386,8 @@ You can now use the Sage Adoption Liveboard, previously named the How users are 
 //Need clarification from PM. The same PRD as was linked for all other RBAC related features since 9.5.0.cl with no updates since last summer. Need clarification about what this update is for 9.12.0.cl.
 // PM: Vijay/Aashica
 
+////
+////
 [#9-12-0-cl-oidc]
 [discrete]
 === Implement OIDC - Org + Groups on IAMv2 for Orgs Clusters
@@ -390,12 +395,15 @@ You can now use the Sage Adoption Liveboard, previously named the How users are 
 //Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl.
 // PM: Vijay/Aashica
 
+////
+////
 [#9-12-0-cl-sharing]
 [discrete]
 === Orgs 1.5: Per Org URL (Enterprise) - For sharing links
 // Mary – SCAL-164989
 //Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl.
 // PM: Vijay
+////
 
 ////
 ifndef::free-trial-feature[]
@@ -470,16 +478,18 @@ endif::free-trial-feature[]
 // Mary – SCAL-180884
 // PM: ?
 
+////
 [#9-12-0-cl-demo]
 [discrete]
 === Demo data publishing on Enterprise Orgs
 // Mary – SCAL-180008
 //No PRD. Have requested access to Eng Design doc.
 // PM: ?
+////
 
 [#9-12-0-cl-org]
 [discrete]
-=== Org Deletion - Default enablement
+=== Support for Org deletion
 ThoughtSpot introduces support for deleting Orgs. You can now delete an Org without first manually deleting all users, connections, and objects.
 // Mary – SCAL-179795, SCAL-134057. title fix.
 // PM: Vijay/Aashica
