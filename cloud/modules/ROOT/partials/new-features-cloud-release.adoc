@@ -34,9 +34,9 @@ For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 ThoughtSpot Sync from unsaved Answers:: You can now create syncs from Answers without saving first.
 
 //Mary -- scal-143396, scal-163885, Doc JIRA scal-201631
-Tooltip customization
-Customize tooltips to make charts easier to read and reduce the time to insights for business users. Use customized tooltips to add measures, attributes, and formulas that are not visualized in the chart. You can also customize tooltips to remove certain fields from the tooltips in a complex chart so that you are not overwhelmed with irrelevant information.
-Configure the tooltip by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Settings*. By default, fields visualized in charts are included in the tooltip. You can remove fields or add fields that are not visualized.
+Tooltip customization::
+Customize tooltips to make charts easier to read and reduce the time to insights for business users. Use customized tooltips to add measures, attributes, and formulas that are not visualized in the chart. You can also customize tooltips to remove certain fields from the tooltips in a complex chart so that users are not overwhelmed with irrelevant information.
+Configure tooltips by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Settings*. Under *Tooltip* click *Edit tooltip*. By default, fields visualized in charts are included in the tooltip. You can remove, add, or rearrange fields. For more information, see xref:chart-tooltip-customize.adoc[Customize tooltips].
 
 
 ////
