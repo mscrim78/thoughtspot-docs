@@ -16,7 +16,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#9-11-0-cl-analyst]
 === For the Analyst
 
-<<<<<<< HEAD
+
 =======
 // Naomi -- scal-182100, documentation JIRA scal-201040
 Renaming columns::
@@ -41,7 +41,7 @@ Customize tooltips to make charts easier to read and reduce the time to insights
 Configure tooltips by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Settings*. Under *Tooltip* click *Edit tooltip*. By default, fields visualized in charts are included in the tooltip. You can remove, add, or rearrange fields. For more information, see xref:chart-tooltip-customize.adoc[Customize tooltips].
 
 
->>>>>>> 67361b537 (tooltip customize, fix nav and topic)
+
 ////
 // Naomi -- scal-177005
 Advanced conditional formatting [.badge.badge-early-access-relnotes]#Early Access#::
