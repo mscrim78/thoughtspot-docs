@@ -174,14 +174,6 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 // Naomi -- scal-137306
 ////
 
-// [#9-8-0-sw-looker]
-// [discrete]
-// === [EA] Looker: Query Gen and Search Data changes
-
-// Mark -- scal-154758
-
-
-
 [#9-8-0-sw-filter]
 [discrete]
 === Request access to view-only filters
