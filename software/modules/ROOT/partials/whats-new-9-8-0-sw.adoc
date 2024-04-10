@@ -1,8 +1,8 @@
 ifndef::pendo-links[]
-November 2023 [label label-dep]#9.8.0.sw#
+April 2024 [label label-dep]#9.8.0.sw#
 endif::[]
 ifdef::pendo-links[]
-[month-year-whats-new]#November 2023#
+[month-year-whats-new]#April 2024#
 [label label-dep-whats-new]#9.8.0.sw#
 endif::[]
 
@@ -158,13 +158,6 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 // Mary -- scal-112787
 
-[#9-8-0-sw-accessibility]
-[discrete]
-=== Accessibility improvements
-
-// Mark -- scal-161954, scal-161429, scal-159842
-
-
 ////
 [#9-8-0-sw-api]
 [discrete]
@@ -181,9 +174,9 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 // Naomi -- scal-137306
 ////
 
-[#9-8-0-sw-looker]
-[discrete]
-=== [EA] Looker: Query Gen and Search Data changes
+// [#9-8-0-sw-looker]
+// [discrete]
+// === [EA] Looker: Query Gen and Search Data changes
 
 // Mark -- scal-154758
 
@@ -313,19 +306,6 @@ ThoughtSpot now supports dbt version 1.6.
 
 // Mary -- scal-138194
 
-
-
-[#9-8-0-sw-hadoop]
-[discrete]
-=== Upgrade Hadoop 2 to Hadoop 3
-
-// Mark -- scal-151004
-
-[#9-8-0-sw-nav]
-[discrete]
-=== [EA] Global navigation redesign
-
-// Mark -- scal-146972
 
 [#tse]
 [discrete]
