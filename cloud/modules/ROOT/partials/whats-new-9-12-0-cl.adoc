@@ -124,8 +124,8 @@ endif::free-trial-feature[]
 [#9-12-0-cl-sage-coach]
 [discrete]
 === Sage Coach
-// Naomi – SCAL-179981. waiting on confirmation.
-// PM: Santiago. new pm ?
+// Naomi – SCAL-179981. documentation jira SCAL-202909 (approved). waiting on confirmation.
+// PM: Santiago. new pm Alok
 We made the following enhancements to Sage Coach:
 
 * Added title and labels to the Sage Coach page.
