@@ -5,6 +5,7 @@
 :page-partial:
 :page-aliases: /complex-search/about-pinned-measures.adoc
 :description: Learn about group aggregation functions, or pinned measures.
+:jira: SCAL-188030
 
 Learn about group aggregation functions, or pinned measures.
 
@@ -87,5 +88,5 @@ Group aggregation functions have the following limitations:
 
 * You can't run a `vs` query that also contains a group aggregation function.
 
-* You can't run a group aggregation function on a group aggregation function.
+* You can't run a group aggregation function on a group aggregation function. If you would like to create a nested group aggregation function, you can do so by first saving the answer with the first level of the group function as a View, then using the View as the data source for a second answer with the second level of the group function.
 
