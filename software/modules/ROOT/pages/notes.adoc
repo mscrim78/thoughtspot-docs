@@ -135,6 +135,12 @@ xref:parameters-use.adoc#runtime-overrides[Runtime overrides for Parameters]
 and
 link:https://developers.thoughtspot.com/docs/?pageid=runtime-params[Runtime Parameters,window=_blank].
 
+//Mary - SCAL-181444 Doc JIRA SCAL-188796
+Multi-tenancy with Orgs::
+This release introduces ThoughtSpot’s multi-tenancy feature, which allows a ThoughtSpot software instance to be logically partitioned into multiple environments called Orgs.
+
+This feature is off by default. To enable it, contact ThoughtSpot Support. For more information, see xref:orgs-overview.adoc[Multi-tenancy with Orgs].
+
 
 [#developer-9-8-0-sw]
 === For the Developer

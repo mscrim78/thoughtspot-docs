@@ -68,7 +68,7 @@ To create Orgs using the REST v1 API endpoints, refer to https://developers.thou
 
 Any user with access to multiple Orgs can use the *Org switcher* in the top navigation bar, next to the help icon, to switch between the Orgs they belong to. The *Org switcher* also identifies the Org the user is currently in. For example, in the following image, the user is in the Primary Org.
 
-//image::org-switcher.png[Org switcher] - waiting for sw cluster with orgs enabled for sw specific image
+image::org-switcher.png[Org switcher] - waiting for sw cluster with orgs enabled for sw specific image
 
 A user only sees the Orgs they belong to in the Org switcher. If a user is only part of one Org, they do not have the option to switch between Orgs. They only see the one Org that they belong to.
 
@@ -98,7 +98,7 @@ If you decide not to take advantage of multi-tenancy after enabling Orgs, your T
 == Limitations
 
 * You can have a maximum of 400 Orgs.
-* xref:oidc-configure.adoc[] is not available as an authentication method in an Orgs environment. See xref:orgs-administration-overview.adoc#authentication[User authentication].
+//* xref:oidc-configure.adoc[] is not available as an authentication method in an Orgs environment. See xref:orgs-administration-overview.adoc#authentication[User authentication].
 * You can't have two different Orgs open in two different tabs or windows. After you open another tab or window in a different Org, the content in the first tab or window automatically switches to the Org you opened most recently.
 
 '''
