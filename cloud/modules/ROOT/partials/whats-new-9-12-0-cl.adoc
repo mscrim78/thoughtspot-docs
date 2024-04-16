@@ -177,7 +177,7 @@ Administrators can turn this feature on and off, or change the default frequency
 [#9-12-0-cl-worksheet]
 [discrete]
 === Show underlying data sources
-ThoughtSpot now shows you which data sources are used in a Liveboard. A Liveboard may contain visualizations from many data sources. Authors may choose to use this feature to provide other Liveboard editors with access to the underlying data sources.
+ThoughtSpot now shows you which data sources are used in a Liveboard. A Liveboard may contain visualizations from many data sources.
 
 The data sources appear in the *Show Liveboard details* modal under *Data source*.
 
@@ -207,7 +207,6 @@ ThoughtSpot introduces support for scheduling Liveboards with Excel (XLSX) attac
 === Filters are now available for Liveboards with hidden columns included in a visualization
 You can now interact with filters on Liveboards  that have visualizations that include hidden columns, or a formula created from a hidden column.
 
-Liveboard filters are now accessible to all users who have view or edit permissions to the underlying data source.
 // Mary – SCAL-157372
 // PM:Arpit
 
