@@ -503,12 +503,14 @@ endif::free-trial-feature[]
 // PM: ?
 ////
 
+////
 [#9-12-0-cl-org]
 [discrete]
 === Support for Org deletion
 ThoughtSpot introduces support for deleting Orgs. You can now delete an Org without first manually deleting all users, connections, and objects.
-// Mary – SCAL-179795, SCAL-134057. title fix.
+// Mary – SCAL-179795, SCAL-134057. title fix. Aashica said to remove this feature.
 // PM: Vijay/Aashica
+////
 
 ifndef::free-trial-feature[]
 [discrete]
