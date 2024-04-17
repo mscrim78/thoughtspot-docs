@@ -43,17 +43,14 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 Updated Network ports:: We have updated the static ports used to communicate between services within a cluster. To see the updated list, refer to xref:ports.adoc#intracluster[Network ports].
 
 
-// Naomi -- scal-157152
+// Naomi -- scal-157152, scal-149212, scal-119947, scal-132902
 
-dbt Worksheet join rule:: Previously, when a Worksheet was created from a dbt model, the default worksheet join rule was "apply all joins". Now, "apply joins progressively" is the default. This means that when a Search is done on the Worksheet, joins are applied as each search term is added, rather than applying all joins to every Search.
+dbt:: We made the following changes to dbt:
 
-// Naomi -- scal-149212
-
-dbt sync:: In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, ThoughtSpot maintains a persistent connection with dbt and provides realtime updates. Users can update an object, update an object and create a new object, or simply create a new object.
+* Previously, when a Worksheet was created from a dbt model, the default worksheet join rule was "apply all joins". Now, "apply joins progressively" is the default. This means that when a Search is done on the Worksheet, joins are applied as each search term is added, rather than applying all joins to every Search.
+* In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, ThoughtSpot maintains a persistent connection with dbt and provides realtime updates. Users can update an object, update an object and create a new object, or simply create a new object.
 For more information, see xref:dbt-integration.adoc[].
-
-// Naomi -- scal-119947, scal-132902
-dbt:: ThoughtSpot now supports dbt version 1.6.
+* ThoughtSpot now supports dbt version 1.6.
 
 //Mary -- scal-165262
 Embedding in note tiles::
@@ -64,9 +61,29 @@ Personalized Liveboard Views::
 Personalized Liveboard views allow you to save your own set of values for filters and parameters in a Liveboard without creating a copy of the Liveboard. When you change the values of the already present filters in a Liveboard, you can save the personalized view for future use. The personalized Liveboard view inherits any changes made to the master Liveboard, including changes made to pinned visualizations, tabs, filter chips, and re-ordering.
 For more information, see xref:personalized-liveboard-views.adoc[Personalized Liveboard views].
 
+// Mary -- scal-140692
+Request access to view-only filters::
+ThoughtSpot introduces a request access function for view-only filters. You can now request access to underlying data sources by clicking *Request access*  in the filter modal. When you click *Request access* a request to access all the underlying data sources is sent.
+
+
 
 [#business-user-9-8-0-sw]
 === For the Business User
+
+// Mary -- scal-138404
+Commenting on Liveboards::
+You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. Users can point out insights or reach out for clarification without leaving ThoughtSpot. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on. For more information, see
+xref:liveboard-comment.adoc[Collaborative Liveboards].
+
+// Mary -- scal-158463
+Atlan [.badge.badge-beta]#Beta#:: You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+
+// Mary -- scal-154154, scal-174031
+Multi-date bucketing::
+Previously, when adding multiple date keywords to a Search, ThoughtSpot accepted the last entered date keyword as the bucket. For example, if you searched for `revenue` `monthly` `yearly`, ThoughtSpot would interpret `monthly` as `month of year`, rather than using the `monthly` bucket.
++
+Now, when you add multiple date keywords to a Search, ThoughtSpot preserves the date bucketing implied by the first date keyword. If you would like to change the default date bucket, you can use the *more options* menu for the column and select *Time Bucket* for more options. For more information, see
+xref:chart-table-change.adoc#multi-bucket[Multi-date bucketing].
 
 // Naomi -- scal-161857, SCAL-160779
 Verified Liveboards::
@@ -75,6 +92,8 @@ We made the following enhancements to verified Liveboards:
 - When you request verification, you can now see the underlying data sources that will be shared with the verifier.
 - The name of the Liveboard now appears in verification request emails.
 - When editing an Answer on or pinning an Answer to a verified Liveboard, a warning banner appears indicating it may need to be verified again.
+- You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are identified with a tag visible in all screens. You can also cancel verification requests when needed.
+
 
 //Naomi -- scal-150635
 Improved error messaging for Liveboard visualizations:: Previously, ThoughtSpot displayed generic error messages for connection errors on Liveboards. Now, you can see the error message received from the underlying Cloud data warehouse.
@@ -133,6 +152,9 @@ We added support for the following connections:
 
 //Naomi -- scal-136661
 OAuth for Databricks using Proof Key for Code Exchange (PKCE):: We now support xref:connections-databricks-add.adoc[OAuth with PKCE for Databricks].
+
+// Mary -- scal-158463
+Atlan catalog integration [.badge.badge-beta]#Beta#:: You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status.
 
 [#it-ops-engineer-9-8-0-sw]
 === For the IT Ops Engineer
