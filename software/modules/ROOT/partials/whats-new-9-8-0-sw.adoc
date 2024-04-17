@@ -138,7 +138,7 @@ image::hidden-column.png[Hidden column section]
 [discrete]
 === Render HTML on viz/LB titles and descriptions
 
-// Mary -- scal-159708
+// Mary -- scal-159708 no doc needed (mobile only)
 ////
 
 [#9-8-0-sw-custom]
@@ -206,12 +206,15 @@ endif::[]
 
 Personalized views are now available to all users and on by default. Personalized views allow you to save your own set of values for filters and parameters in a Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save the view for future use. Any changes made to the master Liveboard are carried over to the view, including changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the view are not pushed to the master Liveboard. This eliminates the need to make multiple copies of a Liveboard with your preferred filter values, that can fall out of sync with the original.
 
+////
 [#9-8-0-sw-pivot]
 [discrete]
 === Pivot table issues
 
 
-// Mary -- scal-112787, scal-195868
+// Mary -- scal-112787, scal-195868 - pending clarification from Donko/Damian
+////
+
 
 ////
 [#9-8-0-sw-api]
@@ -229,10 +232,11 @@ Personalized views are now available to all users and on by default. Personalize
 // Naomi -- scal-137306
 ////
 
+
 [#9-8-0-sw-filter]
 [discrete]
 === Request access to view-only filters
-
+ThoughtSpot introduces a request access function for view-only filters. You can now request access to underlying data sources by clicking *Request access*  in the filter modal. When you click *Request access* a request to access all the underlying data sources is sent.
 // Mary -- scal-140692
 
 
@@ -350,18 +354,20 @@ ThoughtSpot now supports dbt version 1.6.
 // Naomi -- scal-161589
 ////
 
+////
 [#9-8-0-sw-oel8]
 [discrete]
 === Qualify OEL8 for ThoughtSpot
 
-// Mary -- scal-153296
+// Mary -- scal-153296 - Pending response from @praveen.illa
+////
 
 ////
 [#9-8-0-sw-activation]
 [discrete]
 === Admin user resend activation email in IAM v2
 
-// Mary -- scal-148215
+// Mary -- scal-148215 no doc needed
 ////
 
 ////
@@ -369,7 +375,7 @@ ThoughtSpot now supports dbt version 1.6.
 [discrete]
 === [Orgs 1.5] Billing and usage metrics for Admin portal to be Orgs aware
 
-// Mary -- scal-141740
+// Mary -- scal-141740 no doc needed
 ////
 
 ////
@@ -377,7 +383,7 @@ ThoughtSpot now supports dbt version 1.6.
 [discrete]
 === Org aware snapshot and Org statistics
 
-// Mary -- scal-138194
+// Mary -- scal-138194 no doc needed
 ////
 
 [#tse]
