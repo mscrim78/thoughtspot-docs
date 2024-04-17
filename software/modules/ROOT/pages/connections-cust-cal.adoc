@@ -44,7 +44,6 @@ Custom calendar is supported on all cloud data warehouses except:
 
 - Dremio
 - Denodo
-- Looker Modeler
 
 == Search features
 
