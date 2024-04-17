@@ -278,7 +278,7 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-8-0-sw-atlan-catalog]
 [discrete]
-=== Atlan catalog integration[.badge.badge-beta]#Beta#
+=== Atlan catalog integration [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-8-0-sw-atlan-catalog]
