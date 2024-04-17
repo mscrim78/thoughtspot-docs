@@ -133,12 +133,13 @@ image::hidden-column.png[Hidden column section]
 // Mary -- scal-159709. marked as no customer documentation needed on JIRA.
 ////
 
-
+////
 [#9-8-0-sw-html]
 [discrete]
 === Render HTML on viz/LB titles and descriptions
 
 // Mary -- scal-159708
+////
 
 [#9-8-0-sw-custom]
 [discrete]
@@ -208,6 +209,7 @@ Personalized views are now available to all users and on by default. Personalize
 [#9-8-0-sw-pivot]
 [discrete]
 === Pivot table issues
+
 
 // Mary -- scal-112787, scal-195868
 
@@ -354,24 +356,29 @@ ThoughtSpot now supports dbt version 1.6.
 
 // Mary -- scal-153296
 
+////
 [#9-8-0-sw-activation]
 [discrete]
 === Admin user resend activation email in IAM v2
 
 // Mary -- scal-148215
+////
 
+////
 [#9-8-0-sw-orgs]
 [discrete]
 === [Orgs 1.5] Billing and usage metrics for Admin portal to be Orgs aware
 
 // Mary -- scal-141740
+////
 
+////
 [#9-8-0-sw-snapshot]
 [discrete]
 === Org aware snapshot and Org statistics
 
 // Mary -- scal-138194
-
+////
 
 [#tse]
 [discrete]
