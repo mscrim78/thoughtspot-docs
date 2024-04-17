@@ -66,9 +66,19 @@ endif::free-trial-feature[]
 
 [#9-8-0-sw-literacy]
 [discrete]
-=== Literacy: remove multiple date bucketing on the same column logic
+=== Multi-date bucketing
 
 // Mary -- scal-154154, scal-174031
+
+Previously, when adding multiple date keywords to a Search, ThoughtSpot accepted the last entered date keyword as the bucket. For example, if you searched for `revenue` `monthly` `yearly`, ThoughtSpot would interpret `monthly` as `month of year`, rather than using the `monthly` bucket.
+
+Now, when you add multiple date keywords to a Search, ThoughtSpot preserves the date bucketing implied by the first date keyword. If you would like to change the default date bucket, you can use the *more options* menu for the column and select *Time Bucket* for more options. For more information, see
+ifndef::pendo-links[]
+xref:chart-table-change.adoc#multi-bucket[Multi-date bucketing].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-table-change.adoc#multi-bucket[Multi-date bucketing].
+endif::[]
 
 [#9-8-0-sw-tag]
 [discrete]
@@ -199,7 +209,7 @@ Personalized views are now available to all users and on by default. Personalize
 [discrete]
 === Pivot table issues
 
-// Mary -- scal-112787
+// Mary -- scal-112787, scal-195868
 
 ////
 [#9-8-0-sw-api]
