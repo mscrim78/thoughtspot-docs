@@ -3,6 +3,7 @@
 :author: Naomi
 :linkattrs:
 :page-aliases:
+:page-layout: default-early-access
 :experimental:
 :connection: SingleStore
 :description: You can easily add a connection to a Singlestore database, and perform live queries to create answers and Liveboards.
