@@ -306,6 +306,14 @@ endif::[]
 
 You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status.
 
+For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration,window=_blank].
+endif::[]
+
 image::atlan-data-governance.png[Atlan data governance]
 
 
