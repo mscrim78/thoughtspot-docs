@@ -63,7 +63,7 @@ For more information, see xref:personalized-liveboard-views.adoc[Personalized Li
 
 // Mary -- scal-140692
 Request access to view-only filters::
-ThoughtSpot introduces a request access function for view-only filters. You can now request access to underlying data sources by clicking *Request access*  in the filter modal. When you click *Request access* a request to access all the underlying data sources is sent.
+ThoughtSpot introduces a request access function for view-only filters. You can now request access to underlying data sources by clicking *Request access*  in the filter modal. When you click *Request access* a request to access all the underlying data sources is sent. For more information, see xref:share-request-access.adoc[Request object access].
 
 
 
@@ -95,6 +95,7 @@ We made the following enhancements to verified Liveboards:
 - You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are identified with a tag visible in all screens. You can also cancel verification requests when needed.
 
 
+
 //Naomi -- scal-150635
 Improved error messaging for Liveboard visualizations:: Previously, ThoughtSpot displayed generic error messages for connection errors on Liveboards. Now, you can see the error message received from the underlying Cloud data warehouse.
 
@@ -121,11 +122,11 @@ For more information, see xref:connections-cust-cal.adoc[Custom calendar overvie
 
 //Mary -- scal-172513
 Change analysis: More insights::
-When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window.
+When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window. For more information, see xref:spotiq-change.adoc[Change analysis].
 
 //Mary -- scal-158469
 Functional enhancements for verified Liveboards::
-Easily find verified Liveboards marked with banners, and icons. Sort search results to view content tagged as verified. Request verification of Liveboards and cancel requests when needed. For more information, see Verify Liveboards.
+Easily find verified Liveboards marked with banners, and icons. Sort search results to view content tagged as verified. Request verification of Liveboards and cancel requests when needed. For more information, see Verify Liveboards. For more information, see xref:liveboard-verify.adoc[Verify Liveboards].
 
 //Mary -- scal-112787
 Pivot table improvements::
@@ -154,7 +155,7 @@ We added support for the following connections:
 OAuth for Databricks using Proof Key for Code Exchange (PKCE):: We now support xref:connections-databricks-add.adoc[OAuth with PKCE for Databricks].
 
 // Mary -- scal-158463
-Atlan catalog integration [.badge.badge-beta]#Beta#:: You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see xref:catalog-integration-atlan.adoc[].
+Atlan catalog integration [.badge.badge-beta]#Beta#:: You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
 [#it-ops-engineer-9-8-0-sw]
 === For the IT Ops Engineer
@@ -171,9 +172,7 @@ link:https://developers.thoughtspot.com/docs/?pageid=runtime-params[Runtime Para
 
 //Mary - SCAL-181444 Doc JIRA SCAL-188796
 Multi-tenancy with Orgs::
-This release introduces ThoughtSpot’s multi-tenancy feature, which allows a ThoughtSpot software instance to be logically partitioned into multiple environments called Orgs.
-
-This feature is off by default. To enable it, contact ThoughtSpot Support. For more information, see xref:orgs-overview.adoc[Multi-tenancy with Orgs].
+This release introduces ThoughtSpot’s multi-tenancy feature, which allows a ThoughtSpot software instance to be logically partitioned into multiple environments called Orgs. This feature is off by default. To enable it, contact ThoughtSpot Support. For more information, see xref:orgs-overview.adoc[Multi-tenancy with Orgs].
 
 
 [#developer-9-8-0-sw]

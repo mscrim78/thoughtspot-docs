@@ -40,12 +40,14 @@ image::comment-liveboard.gif[Liveboard comment]
 
 // Mary -- scal-172513, scal-152750
 
-When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window. Note that insights do not appear for measures of type `unique counts` and `ratios`.
+When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window. Note that insights do not appear for measures of type `unique counts` and `ratios`. For more information, see xref:spotiq-change.adoc[Change analysis].
 
 image::additional-insight.png[More insights]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
+
+
 [#9-8-0-sw-atlan]
 [discrete]
 === Atlan [.badge.badge-beta]#Beta#
@@ -58,7 +60,7 @@ endif::[]
 
 // Mary -- scal-158463 (generally, we split this announcement into two: one business user version on the metadata you can see in  Search Data, and a data engineer version showing the way admin users can connect to Atlan)
 
-You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
+You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
 image::catalog-integration.png[Catalog integration]
 endif::free-trial-feature[]
@@ -106,7 +108,7 @@ We made the following enhancements to verified Liveboards:
 
 // Mary -- scal-158469
 
-You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are identified with a tag visible in all screens. You can also cancel verification requests when needed.
+You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are identified with a tag visible in all screens. You can also cancel verification requests when needed. For more information, see xref:liveboard-verify.adoc[Verify Liveboards].
 
 [#9-8-0-sw-hidden]
 [discrete]
@@ -194,9 +196,9 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 // Mary -- scal-165262, scal-158410
 
-Embedding in note tiles is now available to all users and is on by default. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website.
+Embedding in note tiles is now available to all users and is on by default. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website. For more information, see xref:liveboard-notes.adoc[Liveboard note tiles].
 
-c
+
 
 [#9-8-0-sw-personalized]
 [discrete]
@@ -204,7 +206,7 @@ c
 
 // Mary -- scal-66335, scal-163617
 
-Personalized views are now available to all users and on by default. Personalized views allow you to save your own set of values for filters and parameters in a Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save the view for future use. Any changes made to the master Liveboard are carried over to the view, including changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the view are not pushed to the master Liveboard. This eliminates the need to make multiple copies of a Liveboard with your preferred filter values, that can fall out of sync with the original.
+Personalized views are now available to all users and on by default. Personalized views allow you to save your own set of values for filters and parameters in a Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save the view for future use. Any changes made to the master Liveboard are carried over to the view, including changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the view are not pushed to the master Liveboard. This eliminates the need to make multiple copies of a Liveboard with your preferred filter values, that can fall out of sync with the original. For more information, see xref:personalized-liveboard-views.adoc[Personalized Liveboards].
 
 ////
 [#9-8-0-sw-pivot]
@@ -236,7 +238,7 @@ Personalized views are now available to all users and on by default. Personalize
 [#9-8-0-sw-filter]
 [discrete]
 === Request access to view-only filters
-ThoughtSpot introduces a request access function for view-only filters. You can now request access to underlying data sources by clicking *Request access*  in the filter modal. When you click *Request access* a request to access all the underlying data sources is sent.
+ThoughtSpot introduces a request access function for view-only filters. You can now request access to underlying data sources by clicking *Request access*  in the filter modal. When you click *Request access* a request to access all the underlying data sources is sent. For more information, see xref:share-request-access.adoc[Request object access].
 // Mary -- scal-140692
 
 
