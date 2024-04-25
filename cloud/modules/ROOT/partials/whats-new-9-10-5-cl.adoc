@@ -660,7 +660,7 @@ endif::[]
 ifndef::free-trial-feature[]
 // Mark -- scal-171984, scal-67410.  doc jira: SCAL-179003
 endif::free-trial-feature[]
-
+[#next-release]
 ifndef::free-trial-feature[]
 [discrete]
 === For the Developer
