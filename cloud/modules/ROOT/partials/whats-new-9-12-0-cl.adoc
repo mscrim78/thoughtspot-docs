@@ -155,7 +155,7 @@ ThoughtSpot delivers an email digest to users to provide updates about new and t
 Users can manage their preferences for email digests.
 
 Administrators can turn this feature on and off, or change the default frequency to weekly, monthly, or quarterly.
-// Mary – SCAL-179683. move lower possibly? more details on whether email digest is generic (trending liveboards), or specific to user. - waiting for reply from Mohil
+// Mary – SCAL-179683. doc jira: SCAL-201820. move lower possibly? more details on whether email digest is generic (trending liveboards), or specific to user. - waiting for reply from Mohil
 // PM: Mohil
 
 ////
@@ -185,7 +185,7 @@ image::data-source.png[Data source]
 
 NOTE: If a data source is unavailable due to permissions, a message appears to indicate that in place of the data source name.
 
-// Mary – SCAL-190726
+// Mary – SCAL-190726. doc jira: SCAL-201822
 // PM: Arpit
 
 [#9-12-0-cl-xlsx]
@@ -207,7 +207,7 @@ ThoughtSpot introduces support for scheduling Liveboards with Excel (XLSX) attac
 === Filters are now available for Liveboards with hidden columns included in a visualization
 You can now interact with filters on Liveboards  that have visualizations that include hidden columns, or a formula created from a hidden column.
 
-// Mary – SCAL-157372
+// Mary – SCAL-157372. doc jira: SCAL-201823
 // PM:Arpit
 
 
@@ -218,7 +218,7 @@ You can now interact with filters on Liveboards  that have visualizations that i
 [#9-12-0-cl-change-analysis]
 [discrete]
 === Remember personalized columns in change analysis
-// Naomi – SCAL-181312. documentation JIRA scal-201645.
+// Naomi – SCAL-181312. documentation JIRA: scal-201645.
 // PM: Vikas
 
 Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations.
@@ -357,7 +357,7 @@ You can now create multiple configurations for each Snowflake connection. This a
 === Manage onboarding configuration at the Org level
 You can now manage onboarding configuration at the Org level. Now an Org administrator can update their onboarding configuration in the Admin panel without the need to contact the tenant administrator. This feature helps to reduce possible service interruptions by allowing you to make configuration changes per Org instead of taking the whole cluster down.
 //image for Org level admin panel is pending a cluster with Org enabled.
-// Mary – SCAL-145362.
+// Mary – SCAL-145362. doc jira: SCAL-203550
 //Need more information (PRD link is missing information)
 // PM: Aashica
 
@@ -432,7 +432,7 @@ ifdef::pendo-links[]
 [discrete]
 === Semi-additive measures with first and last values [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – SCAL-180544
+// Naomi – SCAL-180544 doc jira: SCAL-204538
 // PM: Damian
 
 A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month. To enable this feature, contact your administrator.
@@ -511,7 +511,7 @@ ThoughtSpot introduces support for deleting Orgs. You can now delete an Org with
 // Mary – SCAL-179795, SCAL-134057. title fix. Aashica said to remove this feature.
 // PM: Vijay/Aashica
 ////
-
+[#next-release]
 ifndef::free-trial-feature[]
 [discrete]
 === For the Developer
