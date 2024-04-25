@@ -99,6 +99,9 @@ ThoughtSpot Cloud offers multiple advantages over deployment form factors that y
 
 include::partial$cloud-coming-soon.adoc[]
 
+IMPORTANT: We are moving this site to a new web hosting provider starting *Friday, April 26 at 2:30 PM Pacific Time*. During that time, the site may be down for a period of time. The site should be available again worldwide in no more than 24-48 hours. We appreciate your patience and apologize for any inconvenience during this time.
+
+
 Find topics for the common types of ThoughtSpot users.
 
 [.conceal-title]
