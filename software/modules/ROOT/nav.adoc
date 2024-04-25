@@ -321,6 +321,7 @@ span.badge.badge-new {
 *** xref:cluster-manager.adoc[Cluster manager board]
 *** xref:system-alerts-events.adoc[Alerts and events board]
 *** xref:system-worksheet.adoc[System worksheets]
+**** xref:ts-bi-server.adoc[TS:BI Server worksheet]
 *** xref:system-liveboards.adoc[System Liveboards]
 *** xref:falcon-monitor.adoc[Falcon monitoring Liveboards]
 *** xref:object-usage-liveboard.adoc[Object usage Liveboard]
