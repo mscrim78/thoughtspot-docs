@@ -59,7 +59,7 @@ The User Adoption Liveboard contains valuable information you can use to monitor
 > * xref:admin-portal-users-orgs.adoc[]
 > * xref:admin-portal-groups-orgs.adoc[]
 > * xref:authentication-local.adoc[]
-> * xref:authentication-saml.adoc[]
+> * xref:saml.adoc[]
 > * xref:performance-tracking.adoc[]
 > * xref:search-spotiq-settings.adoc[]
 > * xref:onboarding-email-settings.adoc[]

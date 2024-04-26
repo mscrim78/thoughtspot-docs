@@ -26,7 +26,7 @@ When ThoughtSpot is under maintenance, you are not able to use the application.
 > * xref:admin-portal-users-orgs.adoc[]
 > * xref:admin-portal-groups-orgs.adoc[]
 > * xref:authentication-local.adoc[]
-> * xref:authentication-saml.adoc[]
+> * xref:saml.adoc[]
 > * xref:user-adoption.adoc[]
 > * xref:performance-tracking.adoc[]
 > * xref:search-spotiq-settings.adoc[]

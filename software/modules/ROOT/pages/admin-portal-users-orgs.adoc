@@ -39,7 +39,7 @@ Refer to xref:user-management-orgs.adoc[Create, edit, or delete a user] for more
 > * xref:admin-console-orgs-page.adoc[]
 > * xref:admin-portal-groups-orgs.adoc[]
 > * xref:authentication-local.adoc[]
-> * xref:authentication-saml.adoc[]
+> * xref:saml.adoc[]
 > * xref:user-adoption.adoc[]
 > * xref:performance-tracking.adoc[]
 > * xref:search-spotiq-settings.adoc[]
