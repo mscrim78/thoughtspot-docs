@@ -68,37 +68,6 @@ endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-10-0-cl-conditional]
-[discrete]
-=== Advanced conditional formatting [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-10-0-cl-conditional]
-[discrete]
-=== Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Naomi -- scal-177005. documentation JIRA scal- (approved). is it visualization as well as table? moved to 9.12.0.cl. change "compare" to "visually highlight the differences/ threshold..." in the first sentence.
-
-// PM: Manan
-
-In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
-////
-For more information, see
-ifndef::pendo-links[]
-xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
-endif::[]
-ifdef::pendo-links[]
-xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting,window=_blank].
-endif::[]
-////
-image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
-endif::free-trial-feature[]
-
-
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
 [#9-12-0-cl-forecasting]
 [discrete]
 === Forecasting [.badge.badge-beta]#Beta#
@@ -116,10 +85,6 @@ You can now use SpotIQ analysis to forecast future trends for your KPIs. Thought
 image::forecasting-zoom.gif[Forecasting]
 
 endif::free-trial-feature[]
-
-
-
-
 
 [#9-12-0-cl-sage-coach]
 [discrete]
