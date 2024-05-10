@@ -52,7 +52,7 @@ This page provides the end-of-service dates for each ThoughtSpot Software releas
 |January 24, 2023
 
 |7.2.1.CU1
-|June, 2022
+|June 2022
 |January 24, 2023
 
 |8.4.1.sw
@@ -68,14 +68,18 @@ This page provides the end-of-service dates for each ThoughtSpot Software releas
 |March 2024 (planned)
 
 |9.0.1.sw.CU1
-|July, 2023
+|July 2023
 |March 2024 (planned)
 
 |9.0.1.sw.CU2
-|August, 2023
+|August 2023
 |October 2024
 
 |9.5.0.sw.CU1
 |December 21, 2023
-|January, 2025
+|January 2025
+
+|9.8.0.sw
+|April 2024
+|October 2025
 |===
