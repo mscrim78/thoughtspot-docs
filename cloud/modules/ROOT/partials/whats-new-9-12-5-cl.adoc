@@ -14,6 +14,44 @@ endif::free-trial-feature[]
 
 // Business User
 
+ifndef::pendo-links[]
+[#9-7-0-cl-redesign]
+[discrete]
+// doc jira: SCAL-151210
+=== Redesigned home page [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-redesign]
+=== Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+In this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
+
+image::scroll_homepage.gif[]
+
+This new home page experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
+
+
+ifndef::pendo-links[]
+[#9-7-0-cl-nav]
+[discrete]
+// Doc jira: SCAL-175398
+=== New persona-based navigation [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-7-0-cl-nav]
+[discrete]
+=== New persona-based navigation [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps. When you switch to a different app, that app opens in a new browser tab. The redesigned home page is part of the new persona-based navigation, in this release.
+
+image::app-switcher.png[]
+
+This new navigation experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
+
+NOTE: The admin can disable the new navigation and home page for the cluster, in the _Early access features_ section of the Admin page.
+
 [#9-12-5-cl-home]
 [discrete]
 === [Modular home page] Phase 1 support KPI charts functions
