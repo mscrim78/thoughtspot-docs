@@ -7,7 +7,7 @@
 :jira: SCAL-150356
 :description: You can now create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses.
 
-You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Worksheet, formulas and parameters are generally available only when in use on an Answer, and must be remade if you navigate away from the Answer without saving. Custom sets are community objects which remain when you navigate away from the *Search Data* page and can be viewed by any user with view access to the underlying Worksheet.
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Worksheet, formulas and parameters are generally available only when in use in an Answer, and must be remade if you navigate away from the Answer without saving. Custom sets are community objects which remain when you navigate away from the *Search Data* page. When a set is initially created it is only available to the creator. When a set is used in an Answer or Liveboard, and this Answer or Liveboard is shared with specific users or groups of users, the set is then available for use as a community object.
 
 == Column Sets
 
