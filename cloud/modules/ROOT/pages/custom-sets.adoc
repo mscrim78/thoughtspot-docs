@@ -7,11 +7,15 @@
 :jira: SCAL-150356
 :description: You can now create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses.
 
-You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot now supports custom column sets. A column set is a custom group of values from a single column. Custom sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet.
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Worksheet, formulas and parameters are generally available only when in use on an Answer, and must be remade if you navigate away from the Answer without saving. Custom sets are community objects which remain when you navigate away from the *Search Data* page and can be viewed by any user with view access to the underlying Worksheet.
 
-NOTE: Custom column sets are in early access and off by default. To enable this feature, contact {support-url}.
+== Column Sets
 
-To create a custom column set, first define the business question you wish to answer. For example, you can use custom column sets to define regions with specific countries included or excluded. To create a custom column set showcasing this defined list of values, follow these steps:
+ThoughtSpot now supports custom column sets. A column set is a custom group of values from a single column.
+
+NOTE: Column sets are in early access and off by default. To enable this feature, contact {support-url}.
+
+To create a column set, first define the business question you wish to answer. For example, you can use column sets to define regions with specific countries included or excluded. To create a column set showcasing this defined list of values, follow these steps:
 
 . Navigate to the *Search Data* page by clicking the *Search data* button in the top navigation bar.
 
@@ -23,7 +27,7 @@ image::add-column-set1.png[Add column set]
 
 . Select either *Conditions* or *Bins* under *Define groups*.
 +
-Conditions allow you to create groups usin operators.
+Conditions allow you to create groups using operators.
 +
 Bins allow you to create groups based on bins of specified sizes with a minimum and maximum values.
 
