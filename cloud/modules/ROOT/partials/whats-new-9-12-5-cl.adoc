@@ -52,13 +52,6 @@ This new navigation experience is disabled by default. To enable it, open your u
 
 NOTE: The admin can disable the new navigation and home page for the cluster, in the _Early access features_ section of the Admin page.
 
-[#9-12-5-cl-home]
-[discrete]
-=== [Modular home page] Phase 1 support KPI charts functions
-
-// Mark. epic: SCAL-169016. doc: SCAL-?
-// PM: Rahul P J P
-
 
 [#9-12-5-cl-iterative]
 [discrete]
@@ -106,6 +99,8 @@ endif::free-trial-feature[]
 // Mark. epic: SCAL-180913. doc: SCAL-?
 // PM: Manan
 
+AI highlights for Liveboards is now available to all customers and is enabled by default.
+
 [#9-12-5-cl-i18n]
 [discrete]
 === Korean language keywords
@@ -148,13 +143,6 @@ We have improved the keyword synonyms for German and French.
 
 // Analyst
 
-[#9-12-5-cl-model]
-[discrete]
-=== Data Modeling: Worksheet rename to Model
-
-// Mark. epic: SCAL-184056. doc: SCAL-?
-// PM: Samridh
-
 [#9-12-5-cl-note]
 [discrete]
 === Note tile enhancements
@@ -162,9 +150,9 @@ ThoughtSpot introduces the ability to customize note tiles. You can now customiz
 // Mary. epic: SCAL-142949. doc: SCAL-SCAL-205501
 // PM: Arpit
 
-[#9-12-5-cl-joins]
-[discrete]
-=== Allow joins with columns of compatible data types
+// [#9-12-5-cl-joins]
+// [discrete]
+// === Allow joins with columns of compatible data types
 
 // Mark. epic: SCAL-154405. doc: SCAL-?
 // PM: Samridh
@@ -195,9 +183,9 @@ ThoughtSpot introduces the ability to save table layouts in the schema editor. T
 
 
 
-[#9-12-5-cl-dependency]
-[discrete]
-=== Dependency management Phase 1
+// [#9-12-5-cl-dependency]
+// [discrete]
+// === Dependency management Phase 1
 
 // Mark. epic: SCAL-147696. doc: SCAL-?
 // PM: Samridh
@@ -256,35 +244,28 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 // Mary. epic: SCAL-133208. doc: SCAL-199958
 // PM: Samridh
 
-[#9-12-5-cl-join-ui]
-[discrete]
-=== Standardize join UI across the product
+// [#9-12-5-cl-join-ui]
+// [discrete]
+// === Standardize join UI across the product
 
 // Mark. epic: SCAL-150457. doc: SCAL-?
 // PM: Samridh
 
 // IT/ Ops Engineer
 
-[#9-12-5-cl-models]
-[discrete]
-=== Worksheet v2
-
-// Mark. epic: SCAL-181655. doc: SCAL-?
-// PM: Samridh
-
-[#9-12-5-cl-models-pre-ga]
-[discrete]
-=== Worksheet v2 pre-GA items
+// [#9-12-5-cl-models-pre-ga]
+// [discrete]
+// === Worksheet v2 pre-GA items
 
 // Mark. epic: SCAL-164865. doc: SCAL-?
 // PM: Samridh
 
-[#9-12-5-cl-questions]
-[discrete]
-=== Suggested questions
+// [#9-12-5-cl-questions]
+// [discrete]
+// === Suggested questions
 
 // Mark. epic: SCAL-186893. doc: SCAL-?
-// PM: Akshay
+// PM: Alok
 
 [#9-12-5-cl-org]
 [discrete]
@@ -301,7 +282,7 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 === Enhancements for JWT (TSE) integration
 ThoughtSpot introduces the ability to hide a parameter in UI to support JWT integration. This allows administrators to define user properties in their IDP and pass those credentials to ThoughtSpot for authentication without any user input.
 // Mary. epic: SCAL-157950. doc: SCAL-205419
-//Need clarification: Doc JIRA is currently assigned to Mark and noted as TSE.
+//Need clarification: Doc JIRA is currently assigned to Mark and noted as TSE. Mark reassigned it to Shashi. I suggest we remove this from the what's new.
 // PM: Damian
 
 ////
