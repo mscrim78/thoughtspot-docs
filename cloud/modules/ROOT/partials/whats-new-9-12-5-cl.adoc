@@ -129,7 +129,8 @@ We have improved the keyword synonyms for German and French.
 === Create shortcuts for data source connection onboarding flow
 
 // Mary. epic: SCAL-197160. doc: SCAL-?
-// PM: Samuel Weick?
+//Blocked: Requested doc JIRA & access to Miro board with no response. Reminder sent.
+// PM: Samuel Weick
 
 [#9-12-5-cl-sage-coach]
 [discrete]
@@ -156,10 +157,10 @@ We have improved the keyword synonyms for German and French.
 
 [#9-12-5-cl-note]
 [discrete]
-=== Note tiles 2.0
-
-// Mary. epic: SCAL-142949. doc: SCAL-?
-// PM: ?
+=== Note tiles enhancements
+ThoughtSpot introduces the ability to customize note tiles. You can now customize the appearance of note tiles by changing the background and text colours, adjusting the heading size and text indentation, and inserting horizontal dividers within note tiles. You can also edit hyperlinks and iFrames that previously had to be deleted and replaced to make changes. Images within note tiles are now responsive to screen size.
+// Mary. epic: SCAL-142949. doc: SCAL-SCAL-205501
+// PM: Arpit
 
 [#9-12-5-cl-joins]
 [discrete]
@@ -177,18 +178,19 @@ endif::[]
 ifdef::pendo-links[]
 [#9-12-5-cl-cohorts]
 [discrete]
-=== Advanced Cohorts without grouping and binning [.badge.badge-early-access-whats-new]#Early Access#
+=== Custom sets: Query sets [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-
-// Mary. epic: SCAL-164083. doc: SCAL-?
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces query sets in this release. A query set is a custom group of values from a collection of objects in your database.
+Custom sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact ThoughtSpot Support. For more information, see xref:custom-sets.adoc[Custom sets].
+// Mary. epic: SCAL-164083. doc: SCAL-203599
 // PM: Damian
 
 
 [#9-12-5-cl-schema]
 [discrete]
 === Save the table layout on schema editor
-
-// Mary. epic: SCAL-180590. doc: SCAL-?
+ThoughtSpot introduces the ability to save table layouts on the schema editor. Table location and size are now maintained and saved in the schema editor.
+// Mary. epic: SCAL-180590. doc: SCAL-202068
 // PM: Samridh
 
 
@@ -250,8 +252,8 @@ endif::free-trial-feature[]
 [#9-12-5-cl-tml]
 [discrete]
 === Rules to order TML
-
-// Mary. epic: SCAL-133208. doc: SCAL-?
+ThoughtSpot introduces a consistent sort order when exporting the TML of an object. This ensures that unnecessary differences don’t show up between TML files when the objects haven't really changed, and makes it easier to compare TML files.
+// Mary. epic: SCAL-133208. doc: SCAL-199958
 // PM: Samridh
 
 [#9-12-5-cl-join-ui]
@@ -289,23 +291,26 @@ endif::free-trial-feature[]
 === Default org enablement on TS clusters
 
 // Mary. epic: SCAL-179781. doc: SCAL-?
-// PM: ?
+//Blocked: Requested Doc JIRA April 25 - no response. Followed up but Aashica is OOO until May 19.
+// PM: Aashica
 
 
 
 [#9-12-5-cl-parameters]
 [discrete]
 === Parameters: Hide/show & enhancements for JWT (TSE) integration
-
-// Mary. epic: SCAL-157950. doc: SCAL-?
+ThoughtSpot introduces the ability to hide a parameter in UI to support JWT integration. This allows administrators to define user properties in their IDP and pass those credentials to ThoughtSpot for authentication without any user input.
+// Mary. epic: SCAL-157950. doc: SCAL-205419
+//Need clarification: Doc JIRA is currently assigned to Mark and noted as TSE.
 // PM: Damian
 
+////
 [#9-12-5-cl-password]
 [discrete]
 === Default password change for SW clusters - script change required for FE-infra
 
-// Mary. epic: SCAL-180871. doc: SCAL-?
-// PM: ?
+// Mary. epic: SCAL-180871. doc: No doc needed
+////
 
 ifndef::free-trial-feature[]
 [discrete]
