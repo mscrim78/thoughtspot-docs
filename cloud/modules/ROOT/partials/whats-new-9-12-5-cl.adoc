@@ -17,15 +17,16 @@ endif::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-redesign]
 [discrete]
-// doc jira: SCAL-151210
 === Redesigned home page [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-7-0-cl-redesign]
 === Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
+// needs new gif. downplay slightly. homepage is being redesigned based on feedback, here's what's been done/ it's a work in progress. There's going to be a button added at the bottom to add feedback?
+// Mark. doc jira: SCAL-151210
 
-In this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
+In this release, we completely redesigned the home page, where you can ask natural-language questions with Sage, and view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
 
 image::scroll_homepage.gif[]
 
@@ -33,20 +34,22 @@ This new home page experience is disabled by default. To enable it, open your us
 
 
 ifndef::pendo-links[]
-[#9-7-0-cl-nav]
+[#9-12-5-cl-nav]
 [discrete]
-// Doc jira: SCAL-175398
 === New persona-based navigation [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-7-0-cl-nav]
+[#9-12-5-cl-nav]
 [discrete]
 === New persona-based navigation [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
+// Mark. Doc jira: SCAL-175398
+// update image. Clarify whether admin have to turn it on for the cluster.
 
-In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps. When you switch to a different app, that app opens in a new browser tab. The redesigned home page is part of the new persona-based navigation, in this release.
 
-image::app-switcher.png[]
+In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
+
+image::app-switcher.png[Persona-based navigation]
 
 This new navigation experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
 
@@ -86,9 +89,12 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi. epic: SCAL-188788. doc: SCAL-?
+// add gif?
 // PM: Vikas
 
 You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. To enable this feature, contact your administrator.
+
+image::forecasting-zoom.gif[Forecasting]
 
 endif::free-trial-feature[]
 
@@ -98,26 +104,18 @@ endif::free-trial-feature[]
 
 // Mark. epic: SCAL-180913. doc: SCAL-?
 // PM: Manan
+// add gif/image from original blurb?
 
 AI highlights for Liveboards is now available to all customers and is enabled by default.
 
 [#9-12-5-cl-i18n]
 [discrete]
-=== Korean language keywords
+=== Language keywords
 
-// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved)
+// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-?
 // PM: Aashna
 
-ThoughtSpot now supports keywords in Korean.
-
-[#9-12-5-cl-i18n-synonyms]
-[discrete]
-=== German and French keyword synonyms
-
-// Naomi. epic: SCAL-159833. doc: SCAL-?
-// PM: Aashna
-
-We have improved the keyword synonyms for German and French.
+ThoughtSpot now supports keywords in Korean and we have added new translated keyword synonyms for German and French.
 
 [#9-12-5-cl-shortcuts]
 [discrete]
@@ -126,6 +124,7 @@ We have improved the keyword synonyms for German and French.
 // Mary. epic: SCAL-197160. doc: SCAL-?
 //Blocked: Requested doc JIRA & access to Miro board with no response. Reminder sent.
 // PM: Samuel Weick
+
 
 [#9-12-5-cl-sage-coach]
 [discrete]
@@ -141,13 +140,14 @@ We have improved the keyword synonyms for German and French.
 // Naomi. epic: SCAL-194063. doc: SCAL-?
 // PM: Alok
 
+
 // Analyst
 
 [#9-12-5-cl-note]
 [discrete]
 === Note tile enhancements
-ThoughtSpot introduces the ability to customize note tiles. You can now customize the appearance of note tiles by changing the background and text colours, adjusting the heading size and text indentation, and inserting horizontal dividers within note tiles. You can also edit hyperlinks and iFrames that previously had to be deleted and replaced to make changes. Images within note tiles are now responsive to screen size.
-// Mary. epic: SCAL-142949. doc: SCAL-SCAL-205501
+ThoughtSpot introduces the ability to customize note tiles. You can now customize the appearance of note tiles by changing the background and text colors, adjusting the heading size and text indentation, and inserting horizontal dividers within note tiles. You can also edit hyperlinks and iFrames that previously had to be deleted and replaced to make changes. Images within note tiles are now responsive to screen size.
+// Mary. epic: SCAL-142949. doc: SCAL-SCAL-205501. include less words about what you can do and add a gif.
 // PM: Arpit
 
 // [#9-12-5-cl-joins]
@@ -161,7 +161,7 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-5-cl-cohorts]
 [discrete]
-=== Advanced Cohorts without grouping and binning [.badge.badge-early-access]#Early Access#
+=== Custom sets: Query sets [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-12-5-cl-cohorts]
@@ -169,16 +169,26 @@ ifdef::pendo-links[]
 === Custom sets: Query sets [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces query sets in this release. A query set is a custom group of values from a collection of objects in your database.
-Custom sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact ThoughtSpot Support. For more information, see xref:custom-sets.adoc[Custom sets].
-// Mary. epic: SCAL-164083. doc: SCAL-203599
+Custom sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
+
+////
+For more information, see
+ifndef::pendo-links[]
+xref:custom-sets.adoc[Custom sets].
+endif::[]
+ifdef::pendo-links[]
+xref:custom-sets.adoc[Custom sets, window=_blank].
+endif::[]
+////
+// Mary. epic: SCAL-164083. doc: SCAL-203599. add in that the only part that has changed is that now you can create query sets. Add in an example use case. add an image or gif?
 // PM: Damian
 
 
 [#9-12-5-cl-schema]
 [discrete]
-=== Save table layouts in the schema editor
-ThoughtSpot introduces the ability to save table layouts in the schema editor. Table location and size are now maintained and saved in the schema editor.
-// Mary. epic: SCAL-180590. doc: SCAL-202068
+=== Save table layouts in the schema viewer
+ThoughtSpot introduces the ability to save table layouts in the schema viewer. Table location and size are now maintained and saved in the schema viewer.
+// Mary. epic: SCAL-180590. doc: SCAL-202068. clarify whether it's the schema editor or schema viewer.
 // PM: Samridh
 
 
@@ -208,7 +218,7 @@ ifdef::pendo-links[]
 [discrete]
 === Falcon Connection [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – SCAL-149828. documentation JIRA scal-201648. move below the fold. Check in with Aaghran if we want this in the What's New at all. see if it needs to be mentioned on all articles with other connections (getting-started, etc.)
+// Naomi – SCAL-149828. documentation JIRA scal-201648. move lower? Check in with Aaghran if we want this in the What's New at all. see if it needs to be mentioned on all articles with other connections (getting-started, etc.)
 // PM: Aaghran
 
 ThoughtSpot now supports connections to Falcon. You can use the Falcon connection to easily migrate data from ThoughtSpot Software to ThoughtSpot Cloud. To enable this feature, contact your administrator.
@@ -237,11 +247,12 @@ endif::free-trial-feature[]
 // Naomi. epic: SCAL-181350. doc: SCAL-?
 // PM: Shruthi?
 
+
 [#9-12-5-cl-tml]
 [discrete]
 === Rules to sort TML
 ThoughtSpot introduces a consistent sort order when exporting the TML of an object. This ensures that unnecessary differences don’t show up between TML files when the objects haven't really changed, and makes it easier to compare TML files.
-// Mary. epic: SCAL-133208. doc: SCAL-199958
+// Mary. epic: SCAL-133208. doc: SCAL-199958. does this need to be in the what's new? sounds like a fix, not a feature.
 // PM: Samridh
 
 // [#9-12-5-cl-join-ui]
@@ -277,13 +288,7 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 
 
 
-[#9-12-5-cl-parameters]
-[discrete]
-=== Enhancements for JWT (TSE) integration
-ThoughtSpot introduces the ability to hide a parameter in UI to support JWT integration. This allows administrators to define user properties in their IDP and pass those credentials to ThoughtSpot for authentication without any user input.
-// Mary. epic: SCAL-157950. doc: SCAL-205419
-//Need clarification: Doc JIRA is currently assigned to Mark and noted as TSE. Mark reassigned it to Shashi. I suggest we remove this from the what's new.
-// PM: Damian
+
 
 ////
 [#9-12-5-cl-password]
