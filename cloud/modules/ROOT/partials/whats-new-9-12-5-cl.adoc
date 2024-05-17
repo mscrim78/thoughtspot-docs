@@ -23,7 +23,7 @@ ifdef::pendo-links[]
 [#9-7-0-cl-redesign]
 === Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// needs new gif. downplay slightly. homepage is being redesigned based on feedback, here's what's been done/ it's a work in progress. There's going to be a button added at the bottom to add feedback?
+//21     downplay slightly. homepage is being redesigned based on feedback, here's what's been done/ it's a work in progress. There's going to be a button added at the bottom to add feedback?
 // Mark. doc jira: SCAL-151210
 
 In this release, we completely redesigned the home page, where you can ask natural-language questions with Sage, and view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
