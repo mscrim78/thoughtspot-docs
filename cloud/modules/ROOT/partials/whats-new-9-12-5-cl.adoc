@@ -26,11 +26,11 @@ endif::[]
 // needs new gif. downplay slightly. homepage is being redesigned based on feedback, here's what's been done/ it's a work in progress. There's going to be a button added at the bottom to add feedback?
 // Mark. doc jira: SCAL-151210
 
-In this release, we completely redesigned the home page, where you can ask natural-language questions with Sage, and view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
+In this release, you can try our redesigned home page, where you can ask natural-language questions with Sage, and view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
 
 image::scroll_homepage.gif[New homepage design]
 
-This new home page experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
+This new home page experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
 
 
 ifndef::pendo-links[]
@@ -47,14 +47,11 @@ endif::[]
 // update image. Clarify whether admin have to turn it on for the cluster.
 
 
-In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
+In this release, you can try our completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
 
 image::app-switcher.png[Persona-based navigation]
 
-This new navigation experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
-
-NOTE: The admin can disable the new navigation and home page for the cluster, in the _Early access features_ section of the Admin page.
-
+This new navigation experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
 
 [#9-12-5-cl-iterative]
 [discrete]
@@ -106,7 +103,7 @@ endif::free-trial-feature[]
 // PM: Manan
 // add gif/image from original blurb?
 
-AI highlights for Liveboards is now available to all customers and is enabled by default.
+ AI Highlights for Liveboards is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
 
 [#9-12-5-cl-i18n]
 [discrete]
@@ -270,13 +267,6 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 
 // Mark. epic: SCAL-164865. doc: SCAL-?
 // PM: Samridh
-
-// [#9-12-5-cl-questions]
-// [discrete]
-// === Suggested questions
-
-// Mark. epic: SCAL-186893. doc: SCAL-?
-// PM: Alok
 
 [#9-12-5-cl-org]
 [discrete]
