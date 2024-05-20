@@ -57,7 +57,7 @@ This new navigation experience is disabled by default. Contact your ThoughtSpot 
 [discrete]
 === Drill down in change analysis
 
-// Naomi – SCAL-180942. doc: SCAL-?
+// Naomi – SCAL-180942. doc: SCAL-205576 (approved)
 // PM: Vikas
 
 Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales.
@@ -85,7 +85,7 @@ ifdef::pendo-links[]
 === Forecasting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi. epic: SCAL-188788. doc: SCAL-?
+// Naomi. epic: SCAL-188788. doc: SCAL-205575 (approved)
 // add gif?
 // PM: Vikas
 
@@ -109,7 +109,7 @@ endif::free-trial-feature[]
 [discrete]
 === Language keywords
 
-// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-?
+// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
 // PM: Aashna
 
 ThoughtSpot now supports keywords in Korean and we have added new translated keyword synonyms for German and French.
