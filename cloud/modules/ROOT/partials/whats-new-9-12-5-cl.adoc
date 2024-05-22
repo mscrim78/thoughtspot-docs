@@ -114,14 +114,16 @@ AI Highlights for Liveboards is now on by default and available to all users. Wi
 
 ThoughtSpot now supports keywords in Korean and we have added new translated keyword synonyms for German and French.
 
+
+////
 [#9-12-5-cl-shortcuts]
 [discrete]
 === Create shortcuts for data source connection onboarding flow
 
 // Mary. epic: SCAL-197160. doc: SCAL-?
-//Blocked: Requested doc JIRA & access to Miro board with no response. Reminder sent.
-// PM: Samuel Weick
-
+//Blocked: Requested doc JIRA & access to Miro board with no response. Reminder sent. Neerav advised this is being moved to 10.1.0.cl.
+// PM: Neerav Parekh
+////
 
 [#9-12-5-cl-sage-coach]
 [discrete]
