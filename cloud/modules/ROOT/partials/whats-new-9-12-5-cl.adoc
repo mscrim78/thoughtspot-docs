@@ -103,7 +103,7 @@ endif::free-trial-feature[]
 // PM: Manan
 // add gif/image from original blurb?
 
- AI Highlights for Liveboards is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
+AI Highlights for Liveboards is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
 
 [#9-12-5-cl-i18n]
 [discrete]
@@ -125,14 +125,18 @@ ThoughtSpot now supports keywords in Korean and we have added new translated key
 
 [#9-12-5-cl-sage-coach]
 [discrete]
-=== Sage coach improvements for 9.12.5
+=== Sage Coach enhancements
 
 // Naomi. epic: SCAL-194540. doc: SCAL-?
 // PM: Alok?
 
+We made the following changes to Sage Coach:
+
+* Only users with edit access to a given Worksheet can edit feedback on that Worksheet. Only Worksheet editors can promote feedback on a Worksheet to global. While users are able to delete or edit their own feedback when it is at user-level, they cannot edit or delete their feedback when it is at global-level.
+
 [#9-12-5-cl-copilot]
 [discrete]
-=== Ask Sage improvements for 9.12.5
+=== Ask Sage enhancements
 
 // Naomi. epic: SCAL-194063. doc: SCAL-?
 // PM: Alok
