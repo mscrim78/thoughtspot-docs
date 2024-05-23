@@ -14,10 +14,11 @@ endif::free-trial-feature[]
 video::scroll_homepage_test.mp4[width=800,opts="autoplay,loop,nofullscreen"]
 --
 +++
-<video controls controlslist="nofullscreen autoplay" width="800">
+<video controls controlslist="nofullscreen" width="800" loop autoplay>
 <source src="https://docs.thoughtspot.com/cloud/latest/_images/scroll_homepage_test.mp4" type="video/mp4">
 </video>
 +++
+
 
 [#primary-9-6-0-cl]
 
