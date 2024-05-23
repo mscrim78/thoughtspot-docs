@@ -32,6 +32,8 @@ image::scroll_homepage.gif[New homepage design]
 
 This new home page experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
 
+ThoughtSpot welcomes your feedback on this new experience. To give feedback, click the feedback link at the bottom of the home page.
+
 
 ifndef::pendo-links[]
 [#9-12-5-cl-nav]
