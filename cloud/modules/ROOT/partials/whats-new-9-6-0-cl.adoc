@@ -10,10 +10,8 @@ ifndef::free-trial-feature[]
 NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
 endif::free-trial-feature[]
 
-video::scroll_homepage_test.mp4[width=800,options="autoplay,loop,nofullscreen"]
-
 --
-video::scroll_homepage_test.mp4[width=800,options="autoplay,loop,nofullscreen"]
+video::scroll_homepage_test.mp4[width=800,opts="autoplay,loop,nofullscreen"]
 --
 
 [#primary-9-6-0-cl]
