@@ -11,7 +11,7 @@ Contact {support-url} to enable the following flags for common scenarios you may
 
 == Query generation and auto complete flags
 
-[width="100%",cols="5%,15%,40%,40%"]
+[width="100%",cols="5%,25%,30%,40%"]
 |===
 |Category |Flag |Details |Example
 
