@@ -23,7 +23,7 @@ ifdef::pendo-links[]
 [#9-7-0-cl-redesign]
 === Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// needs new gif. downplay slightly. homepage is being redesigned based on feedback, here's what's been done/ it's a work in progress. There's going to be a button added at the bottom to add feedback?
+// needs new gif. downplay slightly. homepage is being redesigned based on feedback, here's what's been done/ it's a work in progress. There's going to be a button added at the bottom to add feedback.
 // Mark. doc jira: SCAL-151210
 
 In this release, you can try our redesigned home page, where you can ask natural-language questions with Sage, and view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
@@ -32,7 +32,7 @@ image::scroll_homepage.gif[New homepage design]
 
 This new home page experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
 
-ThoughtSpot welcomes your feedback on this new experience. To give feedback, click the feedback link at the bottom of the home page.
+ThoughtSpot welcomes your feedback on this new experience. To give feedback, click the *Send feedback* link at the bottom of the home page.
 
 
 ifndef::pendo-links[]
@@ -49,7 +49,7 @@ endif::[]
 // update image. Clarify whether admin have to turn it on for the cluster.
 
 
-In this release, you can try our completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
+In this release, you can try our completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, administrators, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
 
 image::app-switcher.png[Persona-based navigation]
 
@@ -99,13 +99,14 @@ endif::free-trial-feature[]
 
 [#9-12-5-cl-ai]
 [discrete]
-=== AI highlights for Liveboards
+=== AI Highlights for Liveboards
 
 // Mark. epic: SCAL-180913. doc: SCAL-?
 // PM: Manan
-// add gif/image from original blurb?
 
-AI Highlights for Liveboards is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
+AI Highlights for Liveboards is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs.
+
+image::ai-highlight.gif[AI Highlights]
 
 [#9-12-5-cl-i18n]
 [discrete]
@@ -127,25 +128,7 @@ ThoughtSpot now supports keywords in Korean and we have added new translated key
 // PM: Neerav Parekh
 ////
 
-[#9-12-5-cl-sage-coach]
-[discrete]
-=== Sage Coach enhancements
 
-// Naomi. epic: SCAL-194540. doc: SCAL-?
-// PM: Alok?
-
-We made the following changes to Sage Coach:
-
-* Only users with edit access to a given Worksheet can edit feedback on that Worksheet. Only Worksheet editors can promote feedback on a Worksheet to global. While users are able to delete or edit their own feedback when it is at user-level, they cannot edit or delete their feedback when it is at global-level.
-
-////
-[#9-12-5-cl-copilot]
-[discrete]
-=== Ask Sage enhancements
-
-// Naomi. epic: SCAL-194063. doc: SCAL-?
-// PM: Alok
-////
 
 // Analyst
 
@@ -194,6 +177,28 @@ endif::[]
 //add an image or gif - pending example
 // PM: Damian
 
+[#9-12-5-cl-sage-coach]
+[discrete]
+=== Sage Coach enhancements
+
+// Naomi. epic: SCAL-194540. doc: SCAL-?
+// PM: Alok?
+
+We made the following changes to Sage Coach:
+
+* Only users with edit access to a given Worksheet can edit feedback on that Worksheet.
+* Only Worksheet editors can promote feedback on a Worksheet to global.
+* While users can delete or edit their own feedback when it is at user-level, they cannot edit or delete their feedback when it is at global-level.
+
+////
+[#9-12-5-cl-copilot]
+[discrete]
+=== Ask Sage enhancements
+
+// Naomi. epic: SCAL-194063. doc: SCAL-?
+// PM: Alok
+////
+
 
 [#9-12-5-cl-schema]
 [discrete]
@@ -223,12 +228,12 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-5-cl-falcon]
 [discrete]
-=== Falcon Connection [.badge.badge-early-access]#Early Access#
+=== Falcon connection [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-12-5-cl-falcon]
 [discrete]
-=== Falcon Connection [.badge.badge-early-access-whats-new]#Early Access#
+=== Falcon connection [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Naomi – SCAL-149828. documentation JIRA scal-201648. move lower? Check in with Aaghran if we want this in the What's New at all. see if it needs to be mentioned on all articles with other connections (getting-started, etc.)
 // PM: Aaghran
@@ -253,7 +258,7 @@ endif::free-trial-feature[]
 [#9-12-5-cl-tml]
 [discrete]
 === Rules to sort TML
-ThoughtSpot introduces a consistent sort order when exporting the TML of an object. This ensures that unnecessary differences don’t show up between TML files when the objects haven't really changed, and makes it easier to compare TML files.
+ThoughtSpot introduces a consistent sort order when exporting the TML of an object (table, SQL view, Liveboard, etc.). This ensures that unnecessary differences don’t show up between TML files when the objects haven't really changed, and makes it easier to compare TML files.
 // Mary. epic: SCAL-133208. doc: SCAL-199958.
 //does this need to be in the what's new? sounds like a fix, not a feature. - awaiting confirmation from Samridh
 //https://docs.thoughtspot.com/cloud/latest/tml-liveboards
