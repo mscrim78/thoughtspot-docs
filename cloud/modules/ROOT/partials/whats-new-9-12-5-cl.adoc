@@ -1,8 +1,8 @@
 ifndef::pendo-links[]
-May 2024 [label label-dep]#9.12.5.cl#
+June 2024 [label label-dep]#9.12.5.cl#
 endif::[]
 ifdef::pendo-links[]
-[month-year-whats-new]#May 2024#
+[month-year-whats-new]#June 2024#
 [label label-dep-whats-new]#9.12.5.cl#
 endif::[]
 
@@ -136,13 +136,14 @@ We made the following changes to Sage Coach:
 
 * Only users with edit access to a given Worksheet can edit feedback on that Worksheet. Only Worksheet editors can promote feedback on a Worksheet to global. While users are able to delete or edit their own feedback when it is at user-level, they cannot edit or delete their feedback when it is at global-level.
 
+////
 [#9-12-5-cl-copilot]
 [discrete]
 === Ask Sage enhancements
 
 // Naomi. epic: SCAL-194063. doc: SCAL-?
 // PM: Alok
-
+////
 
 // Analyst
 
@@ -236,14 +237,14 @@ endif::free-trial-feature[]
 
 
 
-
+////
 [#9-12-5-cl-dbt-integration]
 [discrete]
 === dbt metricflow integration
 
 // Naomi. epic: SCAL-177118. doc: SCAL-?
 // PM: Shruthi
-
+////
 
 
 
