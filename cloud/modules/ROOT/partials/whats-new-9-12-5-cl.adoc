@@ -165,15 +165,15 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-5-cl-cohorts]
 [discrete]
-=== Custom sets: Query sets [.badge.badge-early-access]#Early Access#
+=== Query sets [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-12-5-cl-cohorts]
 [discrete]
-=== Custom sets: Query sets [.badge.badge-early-access-whats-new]#Early Access#
+=== Query sets [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces query sets in this release. A query set is a custom group of values from a collection of objects in your database.
-Custom sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
+You can create query sets, which can be used to classify values in a list that you can then reuse across multiple analyses. A query set is a custom group of values from a collection of objects in your database.
+Query sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
 
 ////
 For more information, see
@@ -184,7 +184,9 @@ ifdef::pendo-links[]
 xref:custom-sets.adoc[Custom sets, window=_blank].
 endif::[]
 ////
-// Mary. epic: SCAL-164083. doc: SCAL-203599. add in that the only part that has changed is that now you can create query sets. Add in an example use case. add an image or gif?
+// Mary. epic: SCAL-164083. doc: SCAL-203599.
+//Add in an example use case. - pending response from Damian
+//add an image or gif - pending example
 // PM: Damian
 
 
@@ -192,7 +194,8 @@ endif::[]
 [discrete]
 === Save table layouts in the schema viewer
 ThoughtSpot introduces the ability to save table layouts in the schema viewer. Table location and size are now maintained and saved in the schema viewer.
-// Mary. epic: SCAL-180590. doc: SCAL-202068. clarify whether it's the schema editor or schema viewer.
+// Mary. epic: SCAL-180590. doc: SCAL-202068.
+//https://docs.thoughtspot.com/cloud/latest/schema-viewer - steps to access the schema viewer have changed
 // PM: Samridh
 
 
@@ -246,7 +249,9 @@ endif::free-trial-feature[]
 [discrete]
 === Rules to sort TML
 ThoughtSpot introduces a consistent sort order when exporting the TML of an object. This ensures that unnecessary differences don’t show up between TML files when the objects haven't really changed, and makes it easier to compare TML files.
-// Mary. epic: SCAL-133208. doc: SCAL-199958. does this need to be in the what's new? sounds like a fix, not a feature.
+// Mary. epic: SCAL-133208. doc: SCAL-199958.
+//does this need to be in the what's new? sounds like a fix, not a feature. - awaiting confirmation from Samridh
+//https://docs.thoughtspot.com/cloud/latest/tml-liveboards
 // PM: Samridh
 
 // [#9-12-5-cl-join-ui]
@@ -265,14 +270,16 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 // Mark. epic: SCAL-164865. doc: SCAL-?
 // PM: Samridh
 
+
+////
 [#9-12-5-cl-org]
 [discrete]
 === Default Org enablement on TS clusters
 
 // Mary. epic: SCAL-179781. doc: SCAL-?
-//Blocked: Requested Doc JIRA April 25 - no response. Followed up but Aashica is OOO until May 19.
+//Blocked: Requested Doc JIRA April 25 - no response. Followed up but Aashica is OOO until May 19. Still awaiting confirmation of doc req and doc JIRA from Aashica (May 24) as well as clarification about the feature.
 // PM: Aashica
-
+////
 
 
 
