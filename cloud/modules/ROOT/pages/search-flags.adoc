@@ -89,7 +89,7 @@ a|For more details about when this setting is FALSE, see:
 When TRUE, if a column is selected from dimension1 then a join to fact1 is include. For example: the RLS rule is applied, and only the values from dimension1 which meet the rule on fact1 are returned.
 
 When FALSE, if a column is selected from dimension1 then *no* RLS rule is applied. For example: all the values are returned as the results of the query.
-a|For more information about row level security, see:
+a|For more information, see:
 
 - https://youtu.be/dK5hOnPdwLA?si=GERTXA50_GE6lKFD[Row-level security design patterns^]
 
