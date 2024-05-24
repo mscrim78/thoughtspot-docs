@@ -12,7 +12,7 @@ Contact {support-url} to enable the following flags for common scenarios you may
 
 == Query generation and auto complete flags
 
-[width="100%",cols="5%,25%,30%,40%"]
+[width="100%",cols="10%,20%,30%,40%"]
 |===
 |Category |Flag |Details |Example
 
@@ -42,7 +42,7 @@ Saved formula =
 `if(city_name = “New York”) then ‘YES’ else ‘NO’`
 
 |Query Generation
-|Wrap all measure in a case statement to consider NULL as ZERO
+|Wrap all measures in a case statement to consider NULL as ZERO
 a|The default setting is TRUE. When TRUE all measures are wrapped in a case statement to consider NULL as ZERO. When FALSE the underlying query is simplified.
 a|*Example when true:*
 
@@ -112,7 +112,8 @@ a|For more information, see:
 - xref:security-data-object.adoc#object_security[Object security]
 - https://youtu.be/exNqEoKsQ6A?si=MiORIJgNiTeCCNHP[Group design, privileges and sharing^]
 
-|Column-level security - UI controls
+|Column-level security
+- UI controls
 |Hide one-to-one tables
 |The default setting is FALSE.
 
