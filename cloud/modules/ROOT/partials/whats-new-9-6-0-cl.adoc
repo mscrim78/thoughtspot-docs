@@ -11,12 +11,12 @@ NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To
 endif::free-trial-feature[]
 
 +++
-<video controls="controls" loop="loop" autoplay="autoplay" controlsList="nofullscreen nodownload" width="800">
+<video autoplay loop width="800" controlsList="nofullscreen nodownload">
 <source src="https://docs.thoughtspot.com/cloud/latest/_images/scroll_homepage_test.mp4" type="video/mp4">
 </video>
 +++
 
-video::scroll_homepage_test.mp4[width=800, opts=autoplay]
+video::scroll_homepage_test.mp4[width=800, opts=autoplay,loop]
 
 [#primary-9-6-0-cl]
 
