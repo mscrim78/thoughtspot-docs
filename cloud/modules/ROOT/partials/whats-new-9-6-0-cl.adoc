@@ -10,11 +10,8 @@ ifndef::free-trial-feature[]
 NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
 endif::free-trial-feature[]
 
---
-video::scroll_homepage_test.mp4[width=800,opts="autoplay,loop,nofullscreen"]
---
 +++
-<video controls controlslist="nofullscreen" width="800" loop autoplay>
+<video controls autoplay loop controlsList="nofullscreen nodownload" width="800">
 <source src="https://docs.thoughtspot.com/cloud/latest/_images/scroll_homepage_test.mp4" type="video/mp4">
 </video>
 +++
