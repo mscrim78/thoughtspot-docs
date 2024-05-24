@@ -26,7 +26,7 @@ endif::free-trial-feature[]
 </video>
 +++
 
-*Simple embed looped, no autoplay*
+*Controls, no autoplay*
 
 video::scroll_homepage_test.mp4[width=800,opts=loop]
 
