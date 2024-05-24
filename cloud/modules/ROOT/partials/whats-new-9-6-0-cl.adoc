@@ -10,13 +10,23 @@ ifndef::free-trial-feature[]
 NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
 endif::free-trial-feature[]
 
+*No controls, looped autoplay*
 +++
 <video autoplay loop muted width="800" controlsList="nofullscreen nodownload">
 <source src="https://docs.thoughtspot.com/cloud/latest/_images/scroll_homepage_test.mp4" type="video/mp4">
 </video>
 +++
 
-video::scroll_homepage_test.mp4[width=800, opts=autoplay,loop]
+*No controls, looped autoplay with controls*
++++
+<video autoplay loop muted controls width="800" controlsList="nofullscreen nodownload">
+<source src="https://docs.thoughtspot.com/cloud/latest/_images/scroll_homepage_test.mp4" type="video/mp4">
+</video>
++++
+
+*Simple embed looping, no autoplay*
+
+video::scroll_homepage_test.mp4[width=800,opts=autoplay,loop]
 
 [#primary-9-6-0-cl]
 
