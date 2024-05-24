@@ -11,7 +11,7 @@ NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To
 endif::free-trial-feature[]
 
 +++
-<video autoplay loop width="800" controlsList="nofullscreen nodownload">
+<video autoplay loop muted width="800" controlsList="nofullscreen nodownload">
 <source src="https://docs.thoughtspot.com/cloud/latest/_images/scroll_homepage_test.mp4" type="video/mp4">
 </video>
 +++
