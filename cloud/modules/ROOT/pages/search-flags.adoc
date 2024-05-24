@@ -18,9 +18,9 @@ Contact {support-url} to enable the following flags for common scenarios you may
 
 |Formulas
 |Formula case-sensitive quotes
-a|The default setting is TRUE. When TRUE, the string case for formula definitions is saved as lower case. When FALSE the case entered in the formula definition is respected.
+a|The default setting is TRUE. When TRUE, the string case for formula definitions is saved as lower case. When FALSE, the case you enter in the formula definition is respected.
 
-The ability to respect the case is important when leveraging pass through functions. This is because functions defined in the underlying data platforms are often case sensitive.
+The ability to respect the case is important when leveraging pass-through functions. This is because functions defined in the underlying data platforms are often case sensitive.
 a|*Example when true:*
 
 Entered formula =
@@ -43,7 +43,7 @@ Saved formula =
 
 |Query Generation
 |Wrap all measures in a case statement to consider NULL as ZERO
-a|The default setting is TRUE. When TRUE all measures are wrapped in a case statement to consider NULL as ZERO. When FALSE the underlying query is simplified.
+a|The default setting is TRUE. When TRUE, all measures are wrapped in a case statement to consider NULL as ZERO. When FALSE, the underlying query is simplified.
 a|*Example when true:*
 
 ```
@@ -69,7 +69,7 @@ FROM "HO_RETAIL"."PUBLIC"."HO_RETAIL_SALES_FACT" "ta_1"
 
 |Query Generation
 |Enforce full outer join for chasm traps
-|This setting affects how non-shared filters are applied in a chasm trap model.
+a|This setting affects how non-shared filters are applied in a chasm trap model.
 
 *The default setting is FALSE*:
 
@@ -84,7 +84,7 @@ a|For more details about when this setting is FALSE, see:
 
 |Row-level security
 |Include all secured tables
-|The default setting is TRUE. Assume a model where fact1 joins to dimension1 and an RLS rule is applied to fact.
+a|The default setting is TRUE. Assume a model where fact1 joins to dimension1 and an RLS rule is applied to fact.
 
 When TRUE, if a column is selected from dimension1 then a join to fact1 is include. For example: the RLS rule is applied, and only the values from dimension1 which meet the rule on fact1 are returned.
 
@@ -95,7 +95,7 @@ a|For more information, see:
 
 |Pivot table
 |Fetch pivot summary from backend
-|The default setting is TRUE.
+a|The default setting is TRUE.
 
 When FALSE, the pivot table calculations are calculated in the front end. These results are limited to a SUM of the numbers displayed in the pivot table. This is also limited to 100,000 rows of data.
 
@@ -104,7 +104,7 @@ When TRUE, the summaries are calculated as separate SQL queries. This supports t
 
 |Column-level security
 |Enable strict CLS
-|The default setting is FALSE.
+a|The default setting is FALSE.
 
 To implement column-level security, this must be set to TRUE. This results in a stricter object security model. In short, all data objects must be shared with consumers rather than just worksheets.
 a|For more information, see:
@@ -112,14 +112,14 @@ a|For more information, see:
 - xref:security-data-object.adoc#object_security[Object security]
 - https://youtu.be/exNqEoKsQ6A?si=MiORIJgNiTeCCNHP[Group design, privileges and sharing^]
 
-|Column-level security
+a|Column-level security
 
 UI controls
 |Hide one-to-one tables
-|The default setting is FALSE.
+a|The default setting is FALSE.
 
 This setting is used in conjunction with the setting for Column Level Security. I.e. with Column Level Security the underlying tables must be shared with consumers.
 
-When TRUE this ensures that the underlying tables are not available as data sources from the search data, source selection. I.e. consumers are limited to select worksheets or views.
+When TRUE this ensures that the underlying tables are not available as data sources from the search data, source selection. For example, consumers are limited to select Worksheets or views.
 |
 |===
