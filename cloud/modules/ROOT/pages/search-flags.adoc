@@ -78,9 +78,9 @@ The filter is only applied to one side of the chasm trap. Assume a filter is app
 *When TRUE the query is a FULL OUTER JOIN*:
 
 When FALSE the resulting query is a LEFT OUTER JOIN. This is normally a much more performance query. Note where multiple filters are applied from both sides of the chasm trap, then ThoughtSpot will intelligently determine the join type.
-|This article provides further details when this setting is FALSE:
+a|For more details about when this setting is FALSE, see:
 
-https://community.thoughtspot.com/customers/s/article/What-is-Attribution-and-Chasm-Traps[What is Attribution and Chasm Traps^]
+- https://community.thoughtspot.com/customers/s/article/What-is-Attribution-and-Chasm-Traps[What is Attribution and Chasm Traps^]
 
 |Row-level security
 |Include all secured tables
@@ -89,9 +89,9 @@ https://community.thoughtspot.com/customers/s/article/What-is-Attribution-and-Ch
 When TRUE, if a column is selected from dimension1 then a join to fact1 is include. For example: the RLS rule is applied, and only the values from dimension1 which meet the rule on fact1 are returned.
 
 When FALSE, if a column is selected from dimension1 then *no* RLS rule is applied. For example: all the values are returned as the results of the query.
-|Refer to this video for further information regarding row level security:
+a|For more information about row level security, see:
 
-https://youtu.be/dK5hOnPdwLA?si=GERTXA50_GE6lKFD[Row-level security design patterns^]
+- https://youtu.be/dK5hOnPdwLA?si=GERTXA50_GE6lKFD[Row-level security design patterns^]
 
 |Pivot table
 |Fetch pivot summary from backend
