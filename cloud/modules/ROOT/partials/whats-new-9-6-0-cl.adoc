@@ -16,7 +16,7 @@ endif::free-trial-feature[]
 </video>
 +++
 
-video::scroll_homepage_test.mp4[width=800, opts="autoplay,loop"]
+video::scroll_homepage_test.mp4[width=800, opts=autoplay]
 
 [#primary-9-6-0-cl]
 
