@@ -112,9 +112,9 @@ a|For more information, see:
 - xref:security-data-object.adoc#object_security[Object security]
 - https://youtu.be/exNqEoKsQ6A?si=MiORIJgNiTeCCNHP[Group design, privileges and sharing^]
 
-|Column-level
-security
-- UI controls
+|Column-level security
+
+UI controls
 |Hide one-to-one tables
 |The default setting is FALSE.
 
