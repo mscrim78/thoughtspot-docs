@@ -28,7 +28,7 @@ endif::[]
 
 In this release, you can try our redesigned home page, where you can ask natural-language questions with Sage, and view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
 
-image::scroll_homepage.gif[New homepage design]
+image::scroll-homepage.gif[New homepage design]
 
 This new home page experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
 
