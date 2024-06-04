@@ -175,7 +175,6 @@ Find topics for the common types of ThoughtSpot users.
           <li><a href="https://docs.thoughtspot.com/cloud/9.12.0.cl/performance-tracking">Performance tracking Liveboard</a></li>
           <li><a href="preview-thoughtspot.netlify.app/cloud/9.12.0.cl/consumption-pricing">Consumption-based pricing</a></li>
         </ul>
-        </div><h3 id="next-release"><a class="anchor" href="#next-release"></a></h3>
  </div>
  <!-- 2nd row of 3-column layout -->
  <!-- <div class="columns">
@@ -227,7 +226,8 @@ Find topics for the common types of ThoughtSpot users.
 == What's new in ThoughtSpot Cloud
 
 include::partial$whats-new-9-12-0-cl.adoc[]
-
++++ </div><h3 id="next-release"><a class="anchor" href="#next-release"></a></h3> +++
+    
 == What's coming in the next release
 
 include::partial$whats-new-9-12-5-cl.adoc[What's new in 9.12.5.cl]
