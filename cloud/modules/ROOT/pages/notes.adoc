@@ -1,11 +1,13 @@
 = 9.12.0.cl Release Notes
 :experimental:
-:last_updated: 10/23/2023
+:last_updated: 6/4/2024
 :linkattrs:
 :page-toclevels: 1
 :page-aliases: /release/notes.adoc
 :page-layout: default-cloud
 :description: These release notes include information about new and enhanced features.
+
+include::partial$cloud-coming-soon-release-notes.adoc[]
 
 ThoughtSpot Cloud 9.12.0.cl is now available.
 
