@@ -620,7 +620,7 @@ ThoughtSpot introduces support for deleting Orgs. You can now delete an Org with
 // Mary – SCAL-179795, SCAL-134057. title fix. Aashica requested to remove this feature.
 // PM: Vijay/Aashica
 ////
-
++++ </div><h3 id="next-release"><a class="anchor" href="#next-release"></a></h3> +++
 ifndef::free-trial-feature[]
 [discrete]
 === For the Developer
