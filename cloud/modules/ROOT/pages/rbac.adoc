@@ -62,7 +62,7 @@ Can upload user data
 |===
 
 
-Previously, administrators were part of the administrator group, and data mangers were part of the can manage data group. Members of the groups would have view and edit access to all data. In some organizations these functions are broken out in a more granular way between different users. Roles allow you to assign the specific roles and privileges required without including those that are not needed.
+Previously, administrators were part of the administrator group, and data managers were part of the can manage data group. Members of the groups would have view and edit access to all data. In some organizations these functions are broken out in a more granular way between different users. Roles allow you to assign the specific roles and privileges required without including those that are not needed.
 
 NOTE: ThoughtSpot RBAC includes a Super Admin role that includes all of the privileges previously included in the Administrator group to help you migrate to RBAC. Users with this privilege can access all cluster data. This privilege should only be granted in exceptional circumstances.
 
