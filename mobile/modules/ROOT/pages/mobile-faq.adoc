@@ -2,7 +2,6 @@
 :last_updated: 6/6/2024
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
 :page-aliases: /admin/mobile/faq-mobile.adoc
 :description: These are a few frequently asked questions about ThoughtSpot mobile.
 

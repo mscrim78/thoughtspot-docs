@@ -1,5 +1,5 @@
 = ThoughtSpot Mobile Documentation
-:page-layout: home-branch-cloud
+:page-layout: home-branch-mobile
 
 ++++
 <style>
