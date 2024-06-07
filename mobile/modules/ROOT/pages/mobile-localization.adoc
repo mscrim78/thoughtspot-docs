@@ -2,7 +2,6 @@
 :last_updated: 6/6/2024
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
 :page-aliases:
 :description: ThoughtSpot mobile internationalization and localization
 

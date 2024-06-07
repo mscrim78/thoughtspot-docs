@@ -4,6 +4,6 @@ version: '3.0.0'
 display_version:
 nav:
 - modules/ROOT/nav.adoc
-#asciidoc:
-  #attributes:
-    #page-layout: default-cloud
+asciidoc:
+  attributes:
+    page-layout: default-mobile
