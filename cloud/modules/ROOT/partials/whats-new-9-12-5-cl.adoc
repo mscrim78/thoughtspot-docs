@@ -60,7 +60,7 @@ image::app-switcher.png[Persona-based navigation]
 
 Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales.
 
-////
+
 For more information, see
 ifndef::pendo-links[]
 xref:spotiq-change.adoc#iterative[Iterative change analysis].
@@ -68,7 +68,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:spotiq-change.adoc#iterative[Iterative change analysis,window=_blank].
 endif::[]
-////
+
 image::iterative-analysis.gif[Iterative change analysis]
 
 ifndef::free-trial-feature[]
@@ -88,6 +88,14 @@ endif::[]
 // PM: Vikas
 
 You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. To enable this feature, contact your administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-forecasting.adoc[Forecasting].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-forecasting.adoc[Forecasting,window=_blank].
+endif::[]
 
 image::forecasting-zoom.gif[Forecasting]
 
