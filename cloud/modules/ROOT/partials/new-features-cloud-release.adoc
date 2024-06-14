@@ -91,6 +91,17 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 //https://docs.thoughtspot.com/cloud/latest/tml-liveboards
 // PM: Samridh
 
+
+Role-based access control [.badge.badge-early-access]#Early Access#::
+Role-based access control (RBAC) is now available to all users. RBAC allows for more granular access privileges. Use RBAC to apply privileges customized for your organizational needs.
+
+NOTE: Once you enable RBAC it cannot be disabled.
+
+To enable RBAC, contact {support-url}.
+
+
+
+
 [#9-12-5-cl-developer]
 === For the Developer
 
