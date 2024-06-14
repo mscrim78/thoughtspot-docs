@@ -146,15 +146,14 @@ endif::[]
 You can create query sets, which can be used to classify values in a list that you can then reuse across multiple analyses. A query set is a custom group of values from a collection of objects in your database.
 Query sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
 
-////
 For more information, see
 ifndef::pendo-links[]
-xref:custom-sets.adoc[Custom sets].
+xref:custom-groups.adoc[Query sets].
 endif::[]
 ifdef::pendo-links[]
-xref:custom-sets.adoc[Custom sets, window=_blank].
+xref:custom-groups.adoc[Query sets, window=_blank].
 endif::[]
-////
+
 // Mary. epic: SCAL-164083. doc: SCAL-203599.
 //Add in an example use case. - pending response from Damian
 //add an image or gif - pending example
