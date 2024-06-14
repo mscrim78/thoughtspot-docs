@@ -32,4 +32,17 @@ Only rows are updated accordingly when sorting by measure on a pivot table.
 None.
 
 Only row-level sorting is used when applying default-sorting by measure on a pivot table.
+|SCAL-206079
+|"Generating AI synonyms" message appears when AI-generated synonyms feature is not enabled.
+a|*Symptoms*:
+
+"Generating AI synonyms" message appears.
+
+*Conditions*:
+
+Saving a Worksheet when AI-generated synonyms feature is *not* enabled.
+
+*Workaround*:
+
+None.
 |===
