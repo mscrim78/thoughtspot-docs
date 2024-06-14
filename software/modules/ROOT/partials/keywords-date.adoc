@@ -18,9 +18,15 @@ include::partial$keywords/daily_year_over_year.adoc[]
 
 include::partial$keywords/day_name.adoc[]
 
+include::partial$keywords/day_of_month.adoc[]
+
+include::partial$keywords/day_of_quarter.adoc[]
+
 include::partial$keywords/day_of_week.adoc[]
 
 include::partial$keywords/day_of_week_name.adoc[]
+
+include::partial$keywords/day_of_year.adoc[]
 
 include::partial$keywords/december.adoc[]
 
@@ -56,11 +62,33 @@ include::partial$keywords/last_month_by.adoc[]
 
 include::partial$keywords/last_n_days.adoc[]
 
+include::partial$keywords/last_n_days_for_each_month.adoc[]
+
+include::partial$keywords/last_n_days_for_each_quarter.adoc[]
+
+include::partial$keywords/last_n_days_for_each_week.adoc[]
+
+include::partial$keywords/last_n_days_for_each_year.adoc[]
+
+include::partial$keywords/last_n_hours_for_each_day.adoc[]
+
 include::partial$keywords/last_n_months.adoc[]
+
+include::partial$keywords/last_n_months_for_each_quarter.adoc[]
+
+include::partial$keywords/last_n_months_for_each_year.adoc[]
 
 include::partial$keywords/last_n_quarters.adoc[]
 
+include::partial$keywords/last_n_quarters_for_each_year.adoc[]
+
 include::partial$keywords/last_n_weeks.adoc[]
+
+include::partial$keywords/last_n_weeks_for_each_month.adoc[]
+
+include::partial$keywords/last_n_weeks_for_each_quarter.adoc[]
+
+include::partial$keywords/last_n_weeks_for_each_year.adoc[]
 
 include::partial$keywords/last_n_years.adoc[]
 
@@ -73,6 +101,8 @@ include::partial$keywords/last_year.adoc[]
 include::partial$keywords/march.adoc[]
 
 include::partial$keywords/may.adoc[]
+
+include::partial$keywords/monday.adoc[]
 
 include::partial$keywords/month.adoc[]
 
@@ -88,35 +118,17 @@ include::partial$keywords/monthly_year_over_year.adoc[]
 
 include::partial$keywords/n_days_ago.adoc[]
 
-include::partial$keywords/last_n_days_for_each_month.adoc[]
-
-include::partial$keywords/last_n_days_for_each_quarter.adoc[]
-
-include::partial$keywords/last_n_days_for_each_week.adoc[]
-
-include::partial$keywords/last_n_days_for_each_year.adoc[]
-
-include::partial$keywords/last_n_hours_for_each_day.adoc[]
-
 include::partial$keywords/n_months.adoc[]
 
 include::partial$keywords/n_months_ago.adoc[]
 
-include::partial$keywords/last_n_months_for_each_quarter.adoc[]
-
-include::partial$keywords/last_n_months_for_each_year.adoc[]
+include::partial$keywords/n_quarters.adoc[]
 
 include::partial$keywords/n_quarters_ago.adoc[]
 
-include::partial$keywords/last_n_quarters_for_each_year.adoc[]
+include::partial$keywords/n_weeks.adoc[]
 
 include::partial$keywords/n_weeks_ago.adoc[]
-
-include::partial$keywords/last_n_weeks_for_each_month.adoc[]
-
-include::partial$keywords/last_n_weeks_for_each_quarter.adoc[]
-
-include::partial$keywords/last_n_weeks_for_each_year.adoc[]
 
 include::partial$keywords/n_years.adoc[]
 
@@ -128,11 +140,31 @@ include::partial$keywords/next_month.adoc[]
 
 include::partial$keywords/next_n_days.adoc[]
 
+include::partial$keywords/next_n_days_for_each_month.adoc[]
+
+include::partial$keywords/next_n_days_for_each_quarter.adoc[]
+
+include::partial$keywords/next_n_days_for_each_week.adoc[]
+
+include::partial$keywords/next_n_days_for_each_year.adoc[]
+
 include::partial$keywords/next_n_months.adoc[]
+
+include::partial$keywords/next_n_months_for_each_quarter.adoc[]
+
+include::partial$keywords/next_n_months_for_each_year.adoc[]
 
 include::partial$keywords/next_n_quarters.adoc[]
 
+include::partial$keywords/next_n_quarters_for_each_year.adoc[]
+
 include::partial$keywords/next_n_weeks.adoc[]
+
+include::partial$keywords/next_n_weeks_for_each_month.adoc[]
+
+include::partial$keywords/next_n_weeks_for_each_quarter.adoc[]
+
+include::partial$keywords/next_n_weeks_for_each_year.adoc[]
 
 include::partial$keywords/next_n_years.adoc[]
 
