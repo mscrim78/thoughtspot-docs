@@ -47,9 +47,7 @@ a|
 - SpotIQ analysis
 - Monitor subscriptions
 
-|Data models
-
-(Data workspace)
+|Data workspace
 
 |Data engineer
 a|- Worksheets and Models
