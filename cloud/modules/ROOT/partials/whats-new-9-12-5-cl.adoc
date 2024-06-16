@@ -223,10 +223,9 @@ image:sage-coach-edit.png[Edit feedback]
 
 [#9-12-5-cl-schema]
 [discrete]
-=== Save table layouts in the schema viewer
-ThoughtSpot introduces the ability to save table layouts in the schema viewer. Table location and size are now maintained and saved in the schema viewer.
+=== Save table layouts in models
+ThoughtSpot introduces the ability to save table layouts in the model. Table location and size are now maintained and saved in the model.
 // Mary. epic: SCAL-180590. doc: SCAL-202068.
-//https://docs.thoughtspot.com/cloud/latest/schema-viewer - steps to access the schema viewer have changed
 // PM: Samridh
 
 [#9-12-5-cl-i18n]
