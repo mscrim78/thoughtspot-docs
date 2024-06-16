@@ -61,7 +61,7 @@ see xref:join-add.adoc#join-cardinality[Cardinality].
 
 You can now see the updated view of the schema.
 You can also see the detailed information about all *Joins*.
-Note that after creating the join, you may change its name, type, or cardinality by selecting the edit icon.
+Note that after creating the join, you may change its name, type, or cardinality by selecting the edit icon. You can also change the location and size of tables and joins in the model. You can move or resize tables and joins to display the best visual representation of the model.
 If you want to change the data source or column being joined, you must delete the join and create a new one.
 
 Proceed to create all necessary table joins, to support your data requirements.

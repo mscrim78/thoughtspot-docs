@@ -142,6 +142,8 @@ The join is created.
 image::model_tables_joined.png[]
 
 . Add additional tables and joins, as needed.
++
+NOTE: The location and size of the tables and joins are saved. You can move or resize tables and joins to display the best visual representation of the model.
 . (Recommended) Name your {model} by clicking *Add name* and entering a name.
 . (Optional) Add a description of your {model} by clicking *Add description* and entering a description.
 . When you are finished adding tables and joins to your {model}, the next step is to add columns.
