@@ -74,7 +74,8 @@ endif::free-trial-feature[]
 
 [#10-0-0-cl-measures]
 [discrete]
-=== Support 'measure' construct on pivot tables to group them and configure the view of pivot
+=== Blend axes for multiple measures in pivot tables
+ThoughtSpot now supports blending axes for multiple measures in pivot tables. This allows users to move measures, and position them where they want in rows and columns.
 // Mary. SCAL-181678. docs JIRA: SCAL-?
 // PM: Manan
 
@@ -108,9 +109,12 @@ endif::free-trial-feature[]
 [#10-0-0-cl-orgs]
 [discrete]
 === Org deletion - Default enablement
-// Mary. SCAL-179795. docs JIRA: SCAL-?
-// PM: Kiran, Vijay
+You can now delete an Org without first manually deleting the data objects, connections, groups, and users within the Org. Contact {support-url} to enable Org deletion.
+// Mary. SCAL-179795. docs JIRA: SCAL-201819
+// PM: Kiran, Vijay, Aashica
+// Waiting for confirmation from Aashica as to whether or not they will actually need to contact support to enable this since the title was changed to "Default enablement".
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-0-0-cl-iam]
@@ -123,7 +127,9 @@ ifdef::pendo-links[]
 === Automation for IAM v2 migration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 // Mary. SCAL-191815. docs JIRA: SCAL-?
-// PM: ?
+// PM: Aashica
+// Waiting for doc JIRA and access to the PRD from Aashica.
+////
 
 ifndef::free-trial-feature[]
 [discrete]
