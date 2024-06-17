@@ -1,21 +1,21 @@
-= New home page and persona-based navigation
-:last_updated: 6/4/2024
+= New homepage and persona-based navigation
+:last_updated: 6/17/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud-early-access
 :page-aliases: 
-:description: Learn about the redesigned navigation and home page of ThoughtSpot.
+:description: Learn about the redesigned navigation and homepage of ThoughtSpot.
 :jira: SCAL-151210, SCAL-175398
 
-The home page and navigation of the ThoughtSpot app have been entirely redesigned. These features are disabled by default. To enable them, open your user profile, and in the Experience section, set the _Navigation and Homepage_ to *New experience*. If you don't see this option, it means it has been disabled for your cluster.
+The homepage and navigation of the ThoughtSpot app have been entirely redesigned. These features are disabled by default. To enable them, open your user profile, and in the Experience section, set the _Navigation and Homepage_ to *New experience*. If you don't see this option, it means it has been disabled for your cluster.
 
-Your ThoughtSpot admin can enable the new navigation and home page for the cluster, in the xref:early-access-enable.adoc[Early access features] section of the Admin page.
+Your ThoughtSpot admin can enable the new navigation and homepage for the cluster, in the xref:early-access-enable.adoc[Early access features] section of the Admin page.
 
-== New home page
+== New homepage
 
-On the new home page, you can ask natural-language questions with Sage, track KPIs in your watchlist, access favorites, your library of Answers and Liveboards, and more.
+On the new homepage, you can ask natural-language questions with Sage, track KPIs in your watchlist, access favorites, your library of Answers and Liveboards, and more.
 
-With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. You can also access tutorials, and the ThoughtSpot documentation, and support directly from the home page.
+With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. You can also access tutorials, and the ThoughtSpot documentation, and support directly from the homepage.
 
 image::scroll_homepage.gif[]
 
@@ -100,7 +100,7 @@ Here's a quick reference which compares where things were in the previous naviga
 |Insights > Monitor Subscriptions
 
 |Data
-|Data models (Data workspace)
+|Data workspace
 
 |Admin
 |Admin
@@ -110,7 +110,30 @@ Here's a quick reference which compares where things were in the previous naviga
 
 |===
 
+== Customizing the homepage
 
+You can customize the homepage in the following ways:
+
+- Hide sections
+- Change the order of sections
++
+image::custom_home.png[]
+
+=== Hiding a section on the homepage
+To hide a section, do the following:
+
+. Scroll to the bottom of the homepage.
+. Click *Customize homepage*.
+. Click the visibility slider to set the feature to image:icon-slider-toggle-disable-20px.png[Show/hide homepage features toggle] hidden.
+. Click *Done*.
+
+=== Changing the order of the section on the homepage
+To change the order of a section, do the following:
+
+. Scroll to the bottom of the homepage.
+. Click *Customize homepage*.
+. Click and drag the section up or down the list to where you want it to appear on the homepage.
+. Click *Done*.
 
 
 
