@@ -65,12 +65,15 @@ endif::[]
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 endif::free-trial-feature[]
 
+////
 [#10-0-0-cl-custom]
 [discrete]
 === Support user profile customization for number, currency, and date formats
 // Naomi. SCAL-196154, SCAL-204442. docs JIRA: SCAL-?
 // PM: Manan
 
+NOTE: Only controllable by developers, Mana requested developer docs take this on.
+////
 
 [#10-0-0-cl-measures]
 [discrete]
@@ -100,11 +103,14 @@ ThoughtSpot now supports blending axes for multiple measures in pivot tables. Th
 
 // IT/ Ops Engineer
 
+////
 [#10-0-0-cl-semi-additive]
 [discrete]
 === Fix known limitations for FIRST/ LAST for the semi-additive use case
 // Naomi. SCAL-195856. docs JIRA: SCAL-?
 // PM: Damian
+not fully customer-facing, moved to 10.1.0.cl
+////
 
 [#10-0-0-cl-orgs]
 [discrete]
