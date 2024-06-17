@@ -6,7 +6,7 @@
 :page-aliases: /admin/ts-cloud/tables-join.adoc
 :description: Learn which types of joins are supported in ThoughtSpot.
 
-ThoughtSpot supports joining columns with the following compatible data types:
+ThoughtSpot supports joins with columns of the following compatible data types:
 
 |===
 ^.^|*Type* ^.^|bool ^.^|char ^.^|date ^.^|datetime ^.^|double ^.^|float ^.^|int32 ^.^|int64 ^.^|time ^.^|varchar
