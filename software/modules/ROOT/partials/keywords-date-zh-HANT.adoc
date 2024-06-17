@@ -69,6 +69,9 @@ include::partial$keywords/growth_of_by_weekly.adoc[]
 include::partial$keywords/growth_of_by_yearly.adoc[]
 中文 (繁體);; 的增長 … 根据 每年
 
+include::partial$keywords/hourly.adoc[]
+中文 (繁體);; 每小時
+
 include::partial$keywords/january.adoc[]
 中文 (繁體);; 一月
 
@@ -180,8 +183,14 @@ include::partial$keywords/n_months.adoc[]
 include::partial$keywords/n_months_ago.adoc[]
 中文 (繁體);; _n_ 月 以前
 
+include::partial$keywords/n_quarters.adoc[]
+中文 (繁體);; _n_ 季度
+
 include::partial$keywords/n_quarters_ago.adoc[]
 中文 (繁體);; _n_ 季度 以前
+
+include::partial$keywords/n_weeks.adoc[]
+中文 (繁體);; _n_ 星期
 
 include::partial$keywords/n_weeks_ago.adoc[]
 中文 (繁體);; _n_ 星期 以前
@@ -239,6 +248,9 @@ include::partial$keywords/next_n_weeks_for_each_quarter.adoc[]
 
 include::partial$keywords/next_n_weeks_for_each_year.adoc[]
 中文 (繁體);; 下一個 _n_ 星期 對於每個 年
+
+include::partial$keywords/next_n_years.adoc[]
+中文 (繁體);; 下一個 _n_ 年
 
 include::partial$keywords/next_quarter.adoc[]
 中文 (繁體);; 下一個 季度
