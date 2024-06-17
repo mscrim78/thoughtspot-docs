@@ -3,7 +3,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
-:page-aliases: 
+:page-aliases:
 :description: Learn which types of joins are supported in ThoughtSpot.
 :jira: SCAL-190248
 

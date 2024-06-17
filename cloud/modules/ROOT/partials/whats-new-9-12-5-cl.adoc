@@ -42,7 +42,7 @@ ifdef::pendo-links[]
 === New persona-based navigation [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Mark. Doc jira: SCAL-175398
-// update image. Clarify whether admin have to turn it on for the cluster.
+// update image. 
 
 
 In this release, you can try our completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, administrators, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
@@ -129,7 +129,7 @@ image::note-tile-enhancement.gif[Note tile new features]
 // [discrete]
 // === Allow joins with columns of compatible data types
 
-// Mark. epic: SCAL-154405. doc: SCAL-?
+// Mark. epic: SCAL-154405. doc: SCAL-190248
 // PM: Samridh
 
 ifndef::free-trial-feature[]
@@ -258,13 +258,6 @@ xref:keywords-fr-FR.adoc[French,window=_blank]
 endif::[]
 for a more accurate experience.
 
-// [#9-12-5-cl-dependency]
-// [discrete]
-// === Dependency management Phase 1
-
-// Mark. epic: SCAL-147696. doc: SCAL-?
-// PM: Samridh
-
 '''
 [#secondary-9-12-5-cl]
 [discrete]
@@ -317,18 +310,10 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 // [discrete]
 // === Standardize join UI across the product
 
-// Mark. epic: SCAL-150457. doc: SCAL-?
+// Mark. epic: SCAL-150457. doc: SCAL-200326
 // PM: Samridh
 
 // IT/ Ops Engineer
-
-// [#9-12-5-cl-models-pre-ga]
-// [discrete]
-// === Worksheet v2 pre-GA items
-
-// Mark. epic: SCAL-164865. doc: SCAL-?
-// PM: Samridh
-
 
 ////
 [#9-12-5-cl-org]
@@ -342,7 +327,7 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 
 [#9-12-5-cl-rbac]
 [discrete]
-=== Role-based access control [.badge.badge-early-access]#Early Access#
+=== Role-based access control
 Role-based access control (RBAC) is now available to all users. RBAC allows for more granular access privileges. Use RBAC to apply privileges customized for your organizational needs.
 
 To enable RBAC, contact {support-url}.
