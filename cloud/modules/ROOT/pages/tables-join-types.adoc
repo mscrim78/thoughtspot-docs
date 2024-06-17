@@ -134,5 +134,9 @@ ThoughtSpot supports joins with columns of the following compatible data types:
 
 |===
 
-
+'''
+> **Related information**
+>
+> * xref:tables-join.adoc[Join tables]
+> * xref:models.adoc[Create models]
 
