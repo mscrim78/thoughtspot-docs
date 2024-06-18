@@ -14,23 +14,23 @@ endif::free-trial-feature[]
 
 // Business User
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-0-0-cl-homepage]
-[discrete]
-=== Home page 2.0 [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-0-0-cl-homepage]
-[discrete]
-=== Home page 2.0 [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
+// ifndef::free-trial-feature[]
+// ifndef::pendo-links[]
+// [#10-0-0-cl-homepage]
+// [discrete]
+// === Home page 2.0 [.badge.badge-early-access]#Early Access#
+// endif::[]
+// ifdef::pendo-links[]
+// [#10-0-0-cl-homepage]
+// [discrete]
+// === Home page 2.0 [.badge.badge-early-access-whats-new]#Early Access#
+// endif::[]
 // Mark. SCAL-201198. docs JIRA: SCAL-?
 // PM: Adi?
 
-[#10-0-0-cl-git]
-[discrete]
-=== GIT integration - feature hardening
+// [#10-0-0-cl-git]
+// [discrete]
+// === GIT integration - feature hardening
 // Mark. SCAL-202389. docs JIRA: SCAL-?
 // PM: Nico
 
@@ -85,21 +85,15 @@ ThoughtSpot now supports blending axes for multiple measures in pivot tables. Th
 [#10-0-0-cl-ws-v2]
 [discrete]
 === Modeling improvements for 10.0.0.cl - Worksheet v2
-// Mark. SCAL-192493. docs JIRA: SCAL-?
+// Mark. SCAL-192493. docs JIRA: SCAL-206010
 // PM: Samridh
-
+// Per Anupama, may get pushed to 10.1
 '''
 [#secondary-10-0-0-cl]
 [discrete]
 === _Other features and enhancements_
 
 // Data Engineer
-
-[#10-0-0-cl-trino]
-[discrete]
-=== Upgrade Trino Driver
-// Mark. SCAL-198621. docs JIRA: SCAL-?
-// PM: Aaghran
 
 // IT/ Ops Engineer
 
