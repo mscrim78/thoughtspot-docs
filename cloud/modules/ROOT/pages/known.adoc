@@ -49,7 +49,7 @@ None.
 |Updating fonts in *Admin* > *Style customization* page does not work.
 a|*Symptoms*:
 
-Updating fonts in *Admin* > *Style customization* page fails for non-primary Org Admin users.
+Updating fonts by selecting ones from the default list in *Admin* > *Style customization* page fails for non-primary Org Admin users.
 
 *Conditions*:
 
