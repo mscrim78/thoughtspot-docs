@@ -48,7 +48,7 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. documentation JIRA scal-201639 (approved).
+// Naomi -- scal-177005. documentation JIRA scal-201639 (approved). tell Manan what the permanent link will be.
 // PM: Manan
 
 In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
@@ -65,21 +65,13 @@ endif::[]
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 endif::free-trial-feature[]
 
-////
-[#10-0-0-cl-custom]
-[discrete]
-=== Support user profile customization for number, currency, and date formats
-// Naomi. SCAL-196154, SCAL-204442. docs JIRA: SCAL-?
-// PM: Manan
-
-NOTE: Only controllable by developers, Mana requested developer docs take this on.
-////
 
 [#10-0-0-cl-measures]
 [discrete]
 === Blend axes for multiple measures in pivot tables
-ThoughtSpot now supports blending axes for multiple measures in pivot tables. This allows users to move measures, and position them where they want in rows and columns.
+ThoughtSpot now supports blending axes for multiple measures in pivot tables. You can now move measures, and position them where you want in rows and columns.
 // Mary. SCAL-181678. docs JIRA: SCAL-?
+// add gif or image. beta in 10.0.0.cl
 // PM: Manan
 
 [#10-0-0-cl-ws-v2]
