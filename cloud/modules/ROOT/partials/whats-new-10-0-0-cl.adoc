@@ -14,23 +14,23 @@ endif::free-trial-feature[]
 
 // Business User
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-0-0-cl-homepage]
-[discrete]
-=== Home page 2.0 [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-0-0-cl-homepage]
-[discrete]
-=== Home page 2.0 [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
+// ifndef::free-trial-feature[]
+// ifndef::pendo-links[]
+// [#10-0-0-cl-homepage]
+// [discrete]
+// === Home page 2.0 [.badge.badge-early-access]#Early Access#
+// endif::[]
+// ifdef::pendo-links[]
+// [#10-0-0-cl-homepage]
+// [discrete]
+// === Home page 2.0 [.badge.badge-early-access-whats-new]#Early Access#
+// endif::[]
 // Mark. SCAL-201198. docs JIRA: SCAL-?
 // PM: Adi?
 
-[#10-0-0-cl-git]
-[discrete]
-=== GIT integration - feature hardening
+// [#10-0-0-cl-git]
+// [discrete]
+// === GIT integration - feature hardening
 // Mark. SCAL-202389. docs JIRA: SCAL-?
 // PM: Nico
 
@@ -48,7 +48,7 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. documentation JIRA scal-201639 (approved).
+// Naomi -- scal-177005. documentation JIRA scal-201639 (approved). tell Manan what the permanent link will be.
 // PM: Manan
 
 In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
@@ -65,26 +65,15 @@ endif::[]
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 endif::free-trial-feature[]
 
-[#10-0-0-cl-custom]
-[discrete]
-=== Support user profile customization for number, currency, and date formats
-// Naomi. SCAL-196154, SCAL-204442. docs JIRA: SCAL-?
-// PM: Manan
-
 
 [#10-0-0-cl-measures]
 [discrete]
 === Blend axes for multiple measures in pivot tables
-ThoughtSpot now supports blending axes for multiple measures in pivot tables. This allows users to move measures, and position them where they want in rows and columns.
+ThoughtSpot now supports blending axes for multiple measures in pivot tables. You can now move measures, and position them where you want in rows and columns.
 // Mary. SCAL-181678. docs JIRA: SCAL-211771
+// add gif or image. beta in 10.0.0.cl
 // PM: Manan
 //The feature will remain disabled and behind a flag. Only specific customers would enable it using tscli commads. Beta for 10.0.cl.
-
-[#10-0-0-cl-ws-v2]
-[discrete]
-=== Modeling improvements for 10.0.0.cl - Worksheet v2
-// Mark. SCAL-192493. docs JIRA: SCAL-?
-// PM: Samridh
 
 '''
 [#secondary-10-0-0-cl]
@@ -93,19 +82,16 @@ ThoughtSpot now supports blending axes for multiple measures in pivot tables. Th
 
 // Data Engineer
 
-[#10-0-0-cl-trino]
-[discrete]
-=== Upgrade Trino Driver
-// Mark. SCAL-198621. docs JIRA: SCAL-?
-// PM: Aaghran
-
 // IT/ Ops Engineer
 
+////
 [#10-0-0-cl-semi-additive]
 [discrete]
 === Fix known limitations for FIRST/ LAST for the semi-additive use case
 // Naomi. SCAL-195856. docs JIRA: SCAL-?
 // PM: Damian
+not fully customer-facing, moved to 10.1.0.cl
+////
 
 [#10-0-0-cl-orgs]
 [discrete]

@@ -16,18 +16,27 @@ endif::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-redesign]
 [discrete]
-=== Redesigned home page [.badge.badge-early-access]#Early Access#
+=== Redesigned homepage [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-7-0-cl-redesign]
-=== Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
+=== Redesigned homepage [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // needs new gif. downplay slightly. homepage is being redesigned based on feedback, here's what's been done/ it's a work in progress. There's going to be a button added at the bottom to add feedback.
 // Mark. doc jira: SCAL-151210
 
-In this release, you can try our redesigned and customizable home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
+In this release, you can try our redesigned and customizable homepage, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
 
-This new home page experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables persona-based navigation.
+This new homepage experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables persona-based navigation.
+For more information, see
+ifndef::pendo-links[]
+xref:thoughtspot-homepage.adoc[New homepage].
+endif::[]
+ifdef::pendo-links[]
+xref:thoughtspot-homepage.adoc[New homepage,window=_blank].
+endif::[]
+
+endif::free-trial-feature[]
 
 image::scroll-homepage.gif[New homepage design]
 
@@ -42,12 +51,20 @@ ifdef::pendo-links[]
 === New persona-based navigation [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Mark. Doc jira: SCAL-175398
-// update image. Clarify whether admin have to turn it on for the cluster.
+// update image.
 
 
 In this release, you can try our completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, administrators, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
 
-This new navigation experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables the redesigned home page.
+This new navigation experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables the redesigned homepage. For more information, see
+ifndef::pendo-links[]
+xref:thoughtspot-homepage.adoc[Persona-based navigation].
+endif::[]
+ifdef::pendo-links[]
+xref:thoughtspot-homepage.adoc[Persona-based navigation,window=_blank].
+endif::[]
+
+endif::free-trial-feature[]
 
 image::app-switcher.png[Persona-based navigation]
 
@@ -129,7 +146,7 @@ image::note-tile-enhancement.gif[Note tile new features]
 // [discrete]
 // === Allow joins with columns of compatible data types
 
-// Mark. epic: SCAL-154405. doc: SCAL-?
+// Mark. epic: SCAL-154405. doc: SCAL-190248
 // PM: Samridh
 
 ifndef::free-trial-feature[]
@@ -258,13 +275,6 @@ xref:keywords-fr-FR.adoc[French,window=_blank]
 endif::[]
 for a more accurate experience.
 
-// [#9-12-5-cl-dependency]
-// [discrete]
-// === Dependency management Phase 1
-
-// Mark. epic: SCAL-147696. doc: SCAL-?
-// PM: Samridh
-
 '''
 [#secondary-9-12-5-cl]
 [discrete]
@@ -317,18 +327,10 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 // [discrete]
 // === Standardize join UI across the product
 
-// Mark. epic: SCAL-150457. doc: SCAL-?
+// Mark. epic: SCAL-150457. doc: SCAL-200326
 // PM: Samridh
 
 // IT/ Ops Engineer
-
-// [#9-12-5-cl-models-pre-ga]
-// [discrete]
-// === Worksheet v2 pre-GA items
-
-// Mark. epic: SCAL-164865. doc: SCAL-?
-// PM: Samridh
-
 
 ////
 [#9-12-5-cl-org]
@@ -342,7 +344,7 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 
 [#9-12-5-cl-rbac]
 [discrete]
-=== Role-based access control [.badge.badge-early-access]#Early Access#
+=== Role-based access control
 Role-based access control (RBAC) is now available to all users. RBAC allows for more granular access privileges. Use RBAC to apply privileges customized for your organizational needs.
 
 To enable RBAC, contact {support-url}.
