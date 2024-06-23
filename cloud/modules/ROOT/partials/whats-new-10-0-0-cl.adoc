@@ -70,9 +70,10 @@ endif::free-trial-feature[]
 [discrete]
 === Blend axes for multiple measures in pivot tables
 ThoughtSpot now supports blending axes for multiple measures in pivot tables. You can now move measures, and position them where you want in rows and columns.
-// Mary. SCAL-181678. docs JIRA: SCAL-?
+// Mary. SCAL-181678. docs JIRA: SCAL-211771
 // add gif or image. beta in 10.0.0.cl
 // PM: Manan
+//The feature will remain disabled and behind a flag. Only specific customers would enable it using tscli commads. Beta for 10.0.cl.
 
 '''
 [#secondary-10-0-0-cl]
@@ -114,7 +115,7 @@ ifdef::pendo-links[]
 endif::[]
 // Mary. SCAL-191815. docs JIRA: SCAL-?
 // PM: Aashica
-// Waiting for doc JIRA and access to the PRD from Aashica.
+// Waiting for doc JIRA and access to the PRD from Aashica. Beta for 10.0.cl
 ////
 
 ifndef::free-trial-feature[]
