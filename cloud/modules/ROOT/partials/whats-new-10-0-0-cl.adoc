@@ -68,7 +68,7 @@ endif::free-trial-feature[]
 
 [#10-0-0-cl-measures]
 [discrete]
-=== Blend axes for multiple measures in pivot tables
+=== Blend axes for multiple measures in pivot tables [.badge.badge-beta-whats-new]#Beta#
 ThoughtSpot now supports blending axes for multiple measures in pivot tables. You can now move measures, and position them where you want in rows and columns.
 // Mary. SCAL-181678. docs JIRA: SCAL-211771
 // add gif or image. beta in 10.0.0.cl
@@ -95,7 +95,7 @@ not fully customer-facing, moved to 10.1.0.cl
 
 [#10-0-0-cl-orgs]
 [discrete]
-=== Org deletion - Default enablement
+=== Org deletion
 You can now delete an Org without first manually deleting the data objects, connections, groups, and users within the Org. Contact {support-url} to enable Org deletion.
 // Mary. SCAL-179795. docs JIRA: SCAL-201819
 // PM: Kiran, Vijay, Aashica
@@ -115,7 +115,7 @@ ifdef::pendo-links[]
 endif::[]
 // Mary. SCAL-191815. docs JIRA: SCAL-?
 // PM: Aashica
-// Waiting for doc JIRA and access to the PRD from Aashica. Beta for 10.0.cl
+// Waiting for doc JIRA and access to the PRD from Aashica. Beta for 10.0.cl - Aashica has advised to not expose this for customers.
 ////
 
 ifndef::free-trial-feature[]
