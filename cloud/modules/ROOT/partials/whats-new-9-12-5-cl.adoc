@@ -162,7 +162,6 @@ ifdef::pendo-links[]
 endif::[]
 You can create query sets, which can be used to classify values in a list that you can then reuse across multiple analyses. A query set is a custom group of values from a collection of objects in your database.
 Query sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
-
 For more information, see
 ifndef::pendo-links[]
 xref:custom-groups.adoc[Query sets].
