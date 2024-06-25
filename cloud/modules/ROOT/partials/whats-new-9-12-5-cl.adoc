@@ -13,6 +13,7 @@ endif::free-trial-feature[]
 [#primary-9-12-5-cl]
 
 // Business User
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-redesign]
 [discrete]
@@ -37,10 +38,10 @@ ifdef::pendo-links[]
 xref:thoughtspot-homepage.adoc[New homepage,window=_blank].
 endif::[]
 
+image::scroll-homepage.gif[New homepage design]
 endif::free-trial-feature[]
 
-image::scroll-homepage.gif[New homepage design]
-
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-5-cl-nav]
 [discrete]
@@ -65,9 +66,8 @@ ifdef::pendo-links[]
 xref:thoughtspot-homepage.adoc[Persona-based navigation,window=_blank].
 endif::[]
 
-endif::free-trial-feature[]
-
 image::app-switcher.png[Persona-based navigation]
+endif::free-trial-feature[]
 
 [#9-12-5-cl-iterative]
 [discrete]

@@ -269,8 +269,6 @@ RBAC is disabled by default. To enable this feature, contact {support-url}.
 // Mary -- SCAL-139496
 
 
-endif::free-trial-feature[]
-
 
 // Naomi -- SCAL-154204, SCAL-201299
 Feedback review::
