@@ -1,0 +1,19 @@
+= Search Liveboards
+:last_updated: 6/26/2024
+:linkattrs:
+:experimental:
+:page-aliases:
+:description: Search ThoughtSpot mobile Liveboards.
+
+
+ThoughtSpot mobile allow you to search Liveboards that have been shared with you to ge the information that you need. Search Liveboards supports users who are not yet familiar with the data in their organization.
+
+How to search Liveboards::
+. To search Liveboards, select the *Liveboards* tab.
+. You can choose to search:
+.. Only the Liveboards that you have marked as favorites by selecting *Favorites*.
+.. All Liveboards that you have access to by selecting *All*.
+.. Only your own Liveboards by selecting *Yours*.
+. Enter your search terms in the *Search Liveboards* field, and click *Return*.
+
+The Liveboards matching your search criteria are displayed in the app.
