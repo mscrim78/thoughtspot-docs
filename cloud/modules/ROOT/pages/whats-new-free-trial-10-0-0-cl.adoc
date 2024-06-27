@@ -1,8 +1,8 @@
-[#next-release]
-[.conceal-title]
++++<a name="next-release"></a>+++
 = {empty}
 :page-layout: snippet
 :pendo-links:
+:free-trial-feature:
 :page-noindex:
 
 include::partial$whats-new-10-0-0-cl.adoc[]
@@ -90,7 +90,6 @@ include::partial$whats-new-9-3-0-cl.adoc[]
 --
 ====
 
-
 [%collapsible]
 .9.2.0.cl
 ====
@@ -162,6 +161,7 @@ include::partial$whats-new-8-5-0-cl.adoc[]
 include::partial$whats-new-8-4-0-cl.adoc[]
 --
 ====
+
 [%collapsible]
 .8.3.0.cl
 ====
@@ -169,6 +169,7 @@ include::partial$whats-new-8-4-0-cl.adoc[]
 include::partial$whats-new-8-3-0-cl.adoc[]
 --
 ====
+
 [%collapsible]
 .8.2.0.cl
 ====
@@ -176,6 +177,7 @@ include::partial$whats-new-8-3-0-cl.adoc[]
 include::partial$whats-new-8-2-0-cl.adoc[]
 --
 ====
+
 [%collapsible]
 .8.1.0.cl
 ====
@@ -183,4 +185,5 @@ include::partial$whats-new-8-2-0-cl.adoc[]
 include::partial$whats-new-8-1-0-cl.adoc[]
 --
 ====
+
 '''
