@@ -114,6 +114,8 @@ ThoughtSpot is upgrading our Identity and Access Management (IAM) capabilities t
 // PM: Aashica
 // Waiting for doc JIRA and access to the PRD from Aashica. Beta for 10.0.cl - Aashica has advised to not expose this for customers.
 
+endif::free-trial-feature[]
+
 
 ifndef::free-trial-feature[]
 [discrete]

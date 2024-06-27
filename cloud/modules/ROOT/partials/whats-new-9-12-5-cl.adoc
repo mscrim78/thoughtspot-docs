@@ -176,6 +176,8 @@ endif::[]
 //add an image or gif - pending example
 // PM: Damian
 
+endif::free-trial-feature[]
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-byoc]
