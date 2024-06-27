@@ -9,15 +9,3 @@ ThoughtSpot Search results generate tables and charts. When you save them for fu
 
 NOTE: ThoughtSpot mobile users can view but not edit Answers in the mobile app.
 
-Search Answers::
-ThoughtSpot mobile allow you to search Answers that have been shared with you to ge the information that you need. Search Answers supports users who are not yet familiar with the data in their organization.
-
-How to search Answers::
-. To search Answers, select the *Answers* tab.
-. You can choose to search:
-.. Only the Answers that you have marked as favorites by selecting *Favorites*.
-.. All Answers that you have access to by selecting *All*.
-.. Only your own Answers by selecting *Yours*.
-. Enter your search terms in the *Search Answers* field, and click *Return*.
-
-The Answers matching your search criteria are displayed in the app.
