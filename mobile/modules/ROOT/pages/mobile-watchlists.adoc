@@ -1,0 +1,9 @@
+= ThoughtSpot mobile Watchlist
+:last_updated: 6/26/2024
+:linkattrs:
+:experimental:
+:page-aliases:
+:description: ThoughtSpot mobile Watchlist.
+
+You can create personalized Watchlists in ThoughtSpot mobile to monitor critical changes to KPIs.
+
