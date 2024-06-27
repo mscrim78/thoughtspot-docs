@@ -1,4 +1,3 @@
-[#next-release]
 [.conceal-title]
 = {empty}
 :page-layout: snippet
