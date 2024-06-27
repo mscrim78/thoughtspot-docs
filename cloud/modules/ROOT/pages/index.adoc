@@ -97,8 +97,6 @@ ThoughtSpot Cloud™ is our hosted and managed Software as a Service (SaaS) offe
 
 ThoughtSpot Cloud offers multiple advantages over deployment form factors that you have to manage and maintain within your own organization.
 
-include::partial$cloud-coming-soon.adoc[]
-
 Find topics for the common types of ThoughtSpot users.
 
 [.conceal-title]
@@ -174,7 +172,7 @@ Find topics for the common types of ThoughtSpot users.
           <li><a href="https://docs.thoughtspot.com/cloud/9.12.5.cl/style-customization">Style customization</a></li>
           <li><a href="https://docs.thoughtspot.com/cloud/9.12.5.cl/use-agreement">Use agreement</a></li>
           <li><a href="https://docs.thoughtspot.com/cloud/9.12.5.cl/performance-tracking">Performance tracking Liveboard</a></li>
-          <li><a href="https:://docs.thoughtspot.com/cloud/9.12.5.cl/consumption-pricing">Consumption-based pricing</a></li></div>
+          <li><a href="https:://docs.thoughtspot.com/cloud/9.12.5.cl/consumption-pricing">Consumption-based pricing</a></li>
         </ul>
         </div>
  </div>
@@ -225,10 +223,7 @@ Find topics for the common types of ThoughtSpot users.
      </div>
   </div>  -->
 ++++
+
 == What's new in ThoughtSpot Cloud
 
 include::partial$whats-new-9-12-5-cl.adoc[]
-
-== What's coming in the next release
-
-include::partial$whats-new-10-0-0-cl.adoc[What's new in 10.0.0.cl]
