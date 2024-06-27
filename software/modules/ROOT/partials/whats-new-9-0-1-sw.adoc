@@ -263,6 +263,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:connections-synapse-add.adoc[Add an Azure Synapse connection,window=_blank].
 endif::[]
+
 [#9-0-0-sw-tags]
 [discrete]
 === Tag enhancements
@@ -362,7 +363,7 @@ ifdef::pendo-links[]
 xref:customer-os-ansible-configure.adoc#remote_user_management[Configure and run the ansible playbook,window=_blank].
 endif::[]
 
-ifndef::free-trial-feature[]
+
 [#9-0-0-sw-early-access]
 [discrete]
 === Early Access features
@@ -381,7 +382,7 @@ ifdef::pendo-links[]
 xref:release-lifecycle.adoc[ThoughtSpot Software release life cycle,window=_blank].
 endif::[]
 Early Access features are disabled by default.
-endif::free-trial-feature[]
+
 
 [#tse]
 [discrete]

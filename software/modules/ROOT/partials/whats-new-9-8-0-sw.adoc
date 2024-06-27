@@ -44,10 +44,8 @@ When running change analysis, you can now see additional insights. For example, 
 
 image::additional-insight.png[More insights]
 
-ifndef::free-trial-feature[]
+
 ifndef::pendo-links[]
-
-
 [#9-8-0-sw-atlan]
 [discrete]
 === Atlan [.badge.badge-beta]#Beta#
@@ -63,7 +61,7 @@ endif::[]
 You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
 image::catalog-integration.png[Catalog integration]
-endif::free-trial-feature[]
+
 
 
 [#9-8-0-sw-literacy]
@@ -206,7 +204,13 @@ Embedding in note tiles is now available to all users and is on by default. You 
 
 // Mary -- scal-66335, scal-163617
 
-Personalized views are now available to all users and on by default. Personalized views allow you to save your own set of values for filters and parameters in a Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save the view for future use. Any changes made to the master Liveboard are carried over to the view, including changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the view are not pushed to the master Liveboard. This eliminates the need to make multiple copies of a Liveboard with your preferred filter values, that can fall out of sync with the original. For more information, see xref:personalized-liveboard-views.adoc[Personalized Liveboards].
+Personalized views are now available to all users and on by default. Personalized views allow you to save your own set of values for filters and parameters in a Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save the view for future use. Any changes made to the master Liveboard are carried over to the view, including changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the view are not pushed to the master Liveboard. This eliminates the need to make multiple copies of a Liveboard with your preferred filter values, that can fall out of sync with the original. For more information, see
+ifndef::pendo-links[]
+xref:personalized-liveboard-views.adoc[Personalized Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:personalized-liveboard-views.adoc[Personalized Liveboards,window=_blank].
+endif::[]
 
 ////
 [#9-8-0-sw-pivot]
@@ -238,7 +242,13 @@ Personalized views are now available to all users and on by default. Personalize
 [#9-8-0-sw-filter]
 [discrete]
 === Request access to view-only filters
-ThoughtSpot introduces a request access function for view-only filters. You can now request access to underlying data sources by clicking *Request access*  in the filter modal. When you click *Request access* a request to access all the underlying data sources is sent. For more information, see xref:share-request-access.adoc[Request object access].
+ThoughtSpot introduces a request access function for view-only filters. You can now request access to underlying data sources by clicking *Request access*  in the filter modal. When you click *Request access* a request to access all the underlying data sources is sent. For more information, see
+ifndef::pendo-links[]
+xref:share-request-access.adoc[Request object access].
+endif::[]
+ifdef::pendo-links[]
+xref:share-request-access.adoc[Request object access,window=_blank].
+endif::[]
 // Mary -- scal-140692
 
 
@@ -292,7 +302,7 @@ ifdef::pendo-links[]
 xref:connections-databricks-add.adoc[OAuth with PKCE for Databricks,window=_blank].
 endif::[]
 
-ifndef::free-trial-feature[]
+
 ifndef::pendo-links[]
 [#9-8-0-sw-atlan-catalog]
 [discrete]
@@ -318,8 +328,6 @@ endif::[]
 
 image::atlan-data-governance.png[Atlan data governance]
 
-
-endif::free-trial-feature[]
 
 
 [#9-8-0-sw-dbt]

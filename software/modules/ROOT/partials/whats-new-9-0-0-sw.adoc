@@ -251,11 +251,13 @@ ifdef::pendo-links[]
 xref:dbt-integration-metadata-tags.adoc[Metadata tags for dbt,window=_blank].
 endif::[]
 
+////
 [#9-0-0-sw-sql-server]
 [discrete]
 === Certify SQL Server with Embrace Synapse connection
 
 // Mark
+////
 
 [#9-0-0-sw-tags]
 [discrete]
@@ -276,7 +278,7 @@ endif::[]
 
 image::tags-data-workspace.gif[Data workspace tags gif]
 
-
+////
 [#9-0-0-sw-snowflake]
 [discrete]
 === Snowflake for session pricing
@@ -288,6 +290,7 @@ image::tags-data-workspace.gif[Data workspace tags gif]
 === CSV Upload For Snowflake - GA Epic
 
 // Mark
+////
 
 [#9-0-0-sw-fqn]
 [discrete]
@@ -363,7 +366,7 @@ ifdef::pendo-links[]
 xref:customer-os-ansible-configure.adoc#remote_user_management[Configure and run the ansible playbook,window=_blank].
 endif::[]
 
-ifndef::free-trial-feature[]
+
 [#9-0-0-sw-early-access]
 [discrete]
 === Early Access features
@@ -382,7 +385,7 @@ ifdef::pendo-links[]
 xref:release-lifecycle.adoc[ThoughtSpot Software release life cycle,window=_blank].
 endif::[]
 Early Access features are disabled by default.
-endif::free-trial-feature[]
+
 
 [#tse]
 [discrete]
