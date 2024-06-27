@@ -360,11 +360,11 @@ NOTE: Once you enable RBAC it cannot be disabled.
 
 // Mary. epic: SCAL-180871. doc: No doc needed
 ////
-
++++<div id="next-release" class="paragraph">+++
 ifndef::free-trial-feature[]
 [discrete]
 === For the Developer
-+++<div id="next-release" class="paragraph">+++
+
 For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 endif::[]
 +++<div id="next-release" class="paragraph">+++
