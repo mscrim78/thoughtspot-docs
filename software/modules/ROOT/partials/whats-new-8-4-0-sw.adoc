@@ -90,9 +90,23 @@ image::spotiq-v2-ui.png[New SpotIQ experience]
 [discrete]
 === Date interval functions
 
-We introduced new functions for computing time intervals between two dates. In addition to the existing xref:formula-reference.adoc#diff_days[diff_days] and xref:formula-reference.adoc#diff_time[diff_time] functions, you can now use `diff_years`, `diff_quarters`, `diff_months` `diff_weeks`, `diff_hours`, and `diff_minutes` to calculate time intervals.
+We introduced new functions for computing time intervals between two dates. In addition to the existing
+ifndef::pendo-links[]
+xref:formula-reference.adoc#diff_days[diff_days] and xref:formula-reference.adoc#diff_time[diff_time] functions,
+endif::[]
+ifdef::pendo-links[]
+xref:formula-reference.adoc#diff_days[diff_days,window=_blank] and xref:formula-reference.adoc#diff_time[diff_time,window=_blank] functions,
+endif::[]
+you can now use `diff_years`, `diff_quarters`, `diff_months` `diff_weeks`, `diff_hours`, and `diff_minutes` to calculate time intervals.
 
-If your organization uses a xref:connections-cust-cal.adoc[custom calendar] for your fiscal year, use the optional custom calendar argument with these functions to calculate the difference between the two dates. [.show-hide]#See xref:formula-reference.adoc[].#
+If your organization uses a
+ifndef::pendo-links[]
+xref:connections-cust-cal.adoc[custom calendar]
+endif::[]
+ifdef::pendo-links[]
+xref:connections-cust-cal.adoc[custom calendar,window=_blank]
+endif::[]
+for your fiscal year, use the optional custom calendar argument with these functions to calculate the difference between the two dates. [.show-hide]#See xref:formula-reference.adoc[].#
 
 [#8-4-0-sw-streamlined-analyst]
 [discrete]
@@ -100,9 +114,14 @@ If your organization uses a xref:connections-cust-cal.adoc[custom calendar] for 
 
 // Naomi
 
+ifndef::pendo-links[]
 We simplified the steps to set up an analyst account on ThoughtSpot. Now, you can create a connection, xref:worksheet-create-setup.adoc[create a worksheet] to model your business use cases, immediately search your data, and automatically xref:automated-answer-creation.adoc[create Search visualizations]. See xref:analyst-onboarding.adoc[Analyst Onboarding] for further details. +
 This feature is specific to clusters based on connections to external data warehouses, not imported data (Falcon). To enable this feature for your cluster, contact {support-url}.
-
+endif::[]
+ifdef::pendo-links[]
+We simplified the steps to set up an analyst account on ThoughtSpot. Now, you can create a connection, xref:worksheet-create-setup.adoc[create a worksheet,window=_blank] to model your business use cases, immediately search your data, and automatically xref:automated-answer-creation.adoc[create Search visualizations,window=_blank]. See xref:analyst-onboarding.adoc[Analyst Onboarding,window=_blank] for further details. +
+This feature is specific to clusters based on connections to external data warehouses, not imported data (Falcon). To enable this feature for your cluster, contact {support-url}.
+endif::[]
 // image
 
 [#8-4-0-sw-data-workspace]
@@ -148,7 +167,13 @@ image::dbt-integration.png[dbt Integration option in Data > Utilities]
 [discrete]
 === OAuth for Databricks
 
-Databricks connections now support OAuth. See xref:connections-databricks-oauth.adoc[Configure OAuth for a Databricks connection].
+Databricks connections now support OAuth. See
+ifndef::pendo-links[]
+xref:connections-databricks-oauth.adoc[Configure OAuth for a Databricks connection].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-databricks-oauth.adoc[Configure OAuth for a Databricks connection,window=_blank].
+endif::[]
 
 // image
 [discrete]
