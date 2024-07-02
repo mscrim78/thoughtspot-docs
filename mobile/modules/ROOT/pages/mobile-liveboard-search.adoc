@@ -14,6 +14,8 @@ How to search Liveboards::
 .. Only the Liveboards that you have marked as favorites by selecting *Favorites*.
 .. All Liveboards that you have access to by selecting *All*.
 .. Only your own Liveboards by selecting *Yours*.
++
+image::mobile-liveboards.png[Mobile Liveboards tab]
 . Enter your search terms in the *Search Liveboards* field, and click *Return*.
 
 The Liveboards matching your search criteria are displayed in the app.
