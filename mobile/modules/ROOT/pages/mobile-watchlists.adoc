@@ -7,3 +7,4 @@
 
 You can create personalized Watchlists in ThoughtSpot mobile to monitor critical changes to KPIs.
 
+image::mobile-watchlist.png[Mobile watchlist]
