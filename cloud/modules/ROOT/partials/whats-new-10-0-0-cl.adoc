@@ -58,6 +58,7 @@ endif::[]
 ThoughtSpot now supports blending axes for multiple measures in pivot tables. You can now move measures, and position them where you want in rows and columns.
 
 image::blended-axes.png[Blended axes]
+
 // Mary. SCAL-181678. docs JIRA: SCAL-211771
 //The feature will remain disabled and behind a flag. Only specific customers would enable it using tscli commads. Beta for 10.0.cl.
 
@@ -112,7 +113,7 @@ endif::[]
 ThoughtSpot is upgrading our Identity and Access Management (IAM) capabilities to provide a more secure login and authentication experience. This experience has been improved to ensure that you can upgrade to IAM v2 easily and with minimal downtime.
 // Mary. SCAL-191815. docs JIRA: SCAL-?
 // PM: Aashica
-// Waiting for doc JIRA and access to the PRD from Aashica. Beta for 10.0.cl - Aashica has advised to not expose this for customers.
+// Waiting for doc JIRA and access to the PRD from Aashica. Beta for 10.0.cl - Aashica has advised to not expose this for customers. - Aashica has reversed the decision not to expose this to customers.
 
 endif::free-trial-feature[]
 
