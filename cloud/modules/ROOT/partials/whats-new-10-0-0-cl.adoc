@@ -48,16 +48,16 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-0-0-cl-measures]
 [discrete]
-=== Blend axes for multiple measures in pivot tables  [.badge.badge-beta]#Beta#
+=== Grouping measures in pivot tables  [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-0-0-cl-measures]
 [discrete]
-=== Blend axes for multiple measures in pivot tables [.badge.badge-beta-whats-new]#Beta#
+=== Grouping measures in pivot tables [.badge.badge-beta-whats-new]#Beta#
 endif::[]
-ThoughtSpot now supports blending axes for multiple measures in pivot tables. You can now move measures, and position them where you want in rows and columns.
+ThoughtSpot now supports grouping measure in pivot tables. You can now move measures, and position them where you want in rows and columns.
 
-image::blended-axes.png[Blended axes]
+image::blended-axes.png[Grouping measures]
 
 // Mary. SCAL-181678. docs JIRA: SCAL-211771
 //The feature will remain disabled and behind a flag. Only specific customers would enable it using tscli commads. Beta for 10.0.cl.
