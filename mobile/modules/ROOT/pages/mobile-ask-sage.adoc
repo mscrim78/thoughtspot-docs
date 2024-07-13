@@ -8,7 +8,11 @@
 
 [#mobile-ask-sage,Ask Sage]
 
-You can now use Ask Sage on mobile. Ask Sage is a conversational experience that allows you to ask simple follow-up questions on visualizations in a Liveboard using natural language. You can effortlessly gain deeper insights about your metrics.
+You can now use Ask Sage on mobile. Ask Sage allows you to ask questions about your data in natural language and get instant AI-generated answers. You can ask your questions using text or voice, using microphone enabled on your keyboard.
+
+If you have access to Ask Sage on the web you are able to access the *Ask Sage* tab on mobile.
+
+NOTE: Ask Sage on mobile does not support follow-up questions.
 
 image::mobile-ask-sage2.png[Mobile Ask Sage tab]
 
