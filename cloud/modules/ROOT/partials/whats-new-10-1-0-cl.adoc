@@ -85,11 +85,13 @@ endif::[]
 
 [#10-1-0-cl-coach]
 [discrete]
-=== Sort and filter Fragment and Query feedback
+=== Sort and filter fragment and query feedback
 // Naomi. JIRA: SCAL-202878. docs JIRA: SCAL-?
-// PM: Alok
+// PM: Alok. add gif.
 
-You can now sort and filter columns in the Sage Coach Fragment and Query feedback pages. ThoughtSpot supports sorting by the following columns: `original query`, `rating`, `access`, `worksheet`, `last changed`, `chart`, and `fragment`. Filtering is supported on the following columns: `rating`, `access`, `worksheet`, `feedback provider`, `edited by`, and `chart`. You can also search for specific values for `worksheet`, `feedback provider`, and `edited by` to further narrow your selection.
+You can now sort and filter columns in the Sage Coach fragment and query feedback pages.
+//ThoughtSpot supports sorting by the following columns: `original query`, `rating`, `access`, `worksheet`, `last changed`, `chart`, and `fragment`. Filtering is supported on the following columns: `rating`, `access`, `worksheet`, `feedback provider`, `edited by`, and `chart`.
+You can also search for specific values for `worksheet`, `feedback provider`, and `edited by` to further narrow your selection.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -153,7 +155,7 @@ ifdef::pendo-links[]
 === Grouping measures in pivot tables [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-ThoughtSpot now supports grouping measure in pivot tables. You can now move measures, and position them where you want in rows and columns.
+ThoughtSpot now supports grouping measures in pivot tables. You can now move measures, and position them where you want in rows and columns.
 
 image::blended-axes.png[Grouping measures]
 
@@ -179,7 +181,7 @@ endif::free-trial-feature[]
 
 [#10-1-0-cl-column]
 [discrete]
-=== Data Panel: Custom Column Categorisation
+=== Data Panel: Custom Column Categorization
 // Mark. JIRA: SCAL-202382. docs JIRA: SCAL-?
 // PM: Damian
 
@@ -197,7 +199,7 @@ endif::[]
 
 You can now use TML to import and export column sets and query sets in ThoughtSpot.
 // Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
-// PM: Damian
+// PM: Damian. Is it part of one of the TML types like Answer TML or Worksheet TML?
 
 endif::free-trial-feature[]
 
@@ -215,7 +217,7 @@ endif::free-trial-feature[]
 // Naomi. JIRA: SCAL-197831. docs JIRA: SCAL-209029
 // PM: Aaghran
 
-We now support OAuth with PKCE for Starburst.
+We now support OAuth with PKCE for Starburst connections.
 ////
 ifndef::pendo-links[]
 xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst].
@@ -273,7 +275,7 @@ ThoughtSpot introduces support for multiple SAML connections configured in a clu
 
 [#10-1-0-cl-users]
 [discrete]
-=== Updated User Interface (UI) for Users and Groups
+=== Updated UI for Users and Groups
 ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to easily create, update, and delete users.
 
 // Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?- awaiting confirmation if we should use SCAL-203421 that is currently in cancelled state.
@@ -291,12 +293,14 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 // Mary. JIRA: SCAL-202402. docs JIRA: SCAL-?
 // PM: Aashica - Awaiting doc JIRA and confirmation of what changes are related to 10.1.0.cl as the PRD is the same for multiple JIRAs dating back to 9.8.0.cl
 
+////
 [#10-1-0-cl-query]
 [discrete]
 === Better mechanism to inform users of unsupported queries
 
 // Mary. JIRA: SCAL-200386. docs JIRA: SCAL-214766 and SCAL-214767 are both open and assigned to Mark. Need to clarify with Mark when he's back from PTO.
 // PM: Naman
+////
 
 [#10-1-0-cl-neighbor]
 [discrete]
@@ -304,7 +308,7 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 
 // Mary. JIRA: SCAL-154107. docs JIRA: SCAL-?
 // PM: Aashica -
-//Same Org 1.5 PRD is linked, need clarification about doc impact, Doc JIRA from PM.
+//Same Org 1.5 PRD is linked, need clarification about doc impact, Doc JIRA from PM. Might take out after confirmation.
 
 ifndef::free-trial-feature[]
 [discrete]
