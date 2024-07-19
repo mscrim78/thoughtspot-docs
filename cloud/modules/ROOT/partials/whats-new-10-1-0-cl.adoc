@@ -273,6 +273,7 @@ ThoughtSpot introduces support for multiple SAML connections configured in a clu
 // Mary. JIRA: SCAL-197810. docs JIRA: SCAL-?
 // PM: Aashica - Awaiting Doc JIRA and access to PRD and release status
 
+////
 [#10-1-0-cl-users]
 [discrete]
 === Updated UI for Users and Groups
@@ -285,6 +286,8 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 // Need clarification from Aashica regarding impact to Orgs.
 //This is a change from Angular to React
 // PM: Aashica
+//REMOVED from 10.1.0.cl per Aashica - will not be released in 10.1 or 10.2.
+////
 
 [#10-1-0-cl-orgs]
 [discrete]
@@ -300,8 +303,10 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 
 // Mary. JIRA: SCAL-200386. docs JIRA: SCAL-214766 and SCAL-214767 are both open and assigned to Mark. Need to clarify with Mark when he's back from PTO.
 // PM: Naman
+//Error message improvements, no doc required.
 ////
 
+////
 [#10-1-0-cl-neighbor]
 [discrete]
 === Handling noisy neighbor problems in shared clusters (essentials/ pro edition)
@@ -309,6 +314,8 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 // Mary. JIRA: SCAL-154107. docs JIRA: SCAL-?
 // PM: Aashica -
 //Same Org 1.5 PRD is linked, need clarification about doc impact, Doc JIRA from PM. Might take out after confirmation.
+//Aashica confirmed no doc needed.
+////
 
 ifndef::free-trial-feature[]
 [discrete]
