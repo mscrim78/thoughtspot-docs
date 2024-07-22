@@ -241,7 +241,7 @@ endif::[]
 // Naomi. JIRA: SCAL-194229. docs JIRA: SCAL-212095
 // PM: Rahul Mani
 
-Bridge provides options to securely connect your data source with the ThoughtSpot Cloud, as a alternative to PrivateLink, VPC Peering or VPN tunnels. We support Bridge for the following Connectors:
+Bridge provides options to securely connect your data source with the ThoughtSpot Cloud, as an alternative to PrivateLink, VPC Peering or VPN tunnels. We support Bridge for the following Connectors:
 
 * Amazon Athena
 * Amazon Redshift
