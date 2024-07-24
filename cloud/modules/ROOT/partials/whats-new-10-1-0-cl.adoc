@@ -143,6 +143,7 @@ endif::pendo-links[]
 // Mark. JIRA: SCAL-202873. docs JIRA: SCAL-?
 // PM: Samridh
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-cl-pivot]
@@ -160,8 +161,9 @@ ThoughtSpot now supports grouping measures in pivot tables. You can now move mea
 image::blended-axes.png[Grouping measures]
 
 // Mary. JIRA: SCAL-181678. docs JIRA: SCAL-211771. get an instance and make a gif - still waiting on help with an example from Manan (July 18)
-// PM: Manan
+// PM: Manan - removed from 10.1 WN as it remains beta in 10.1 per Manan
 endif::free-trial-feature[]
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -199,7 +201,7 @@ endif::[]
 
 You can now use TML to import and export column sets and query sets in ThoughtSpot.
 // Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
-// PM: Damian. Is it part of one of the TML types like Answer TML or Worksheet TML?
+// PM: Damian. Is it part of one of the TML types like Answer TML or Worksheet TML? A: Sets are an independent object. In some ways similar to an answer. i.e. they are built on a worksheet.
 
 endif::free-trial-feature[]
 
@@ -259,18 +261,20 @@ Bridge provides options to securely connect your data source with the ThoughtSpo
 // PM: Alok
 ////
 
+////
 [#10-1-0-cl-iam]
 [discrete]
 === Support for multiple Identity Providers (IDPs) with IAMv2
 ThoughtSpot introduces support for multiple SAML connections configured in a cluster. This allows users to log in with any of the configured SAML connections.
 // Mary. JIRA: SCAL-115281. docs JIRA: SCAL-?
-// PM: Aashica - awaiting doc JIRA and release status
+// PM: Aashica - awaiting doc JIRA and release status - Removed July 25 per Aashica
+////
 
 [#10-1-0-cl-auth]
 [discrete]
 === Local auth support with IAMv2
 
-// Mary. JIRA: SCAL-197810. docs JIRA: SCAL-?
+// Mary. JIRA: SCAL-197810. docs JIRA: SCAL-216615
 // PM: Aashica - Awaiting Doc JIRA and access to PRD and release status
 
 ////
@@ -293,8 +297,8 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 [discrete]
 === Orgs 1.5: Per Org URL (Enterprise) - for sharing links
 
-// Mary. JIRA: SCAL-202402. docs JIRA: SCAL-?
-// PM: Aashica - Awaiting doc JIRA and confirmation of what changes are related to 10.1.0.cl as the PRD is the same for multiple JIRAs dating back to 9.8.0.cl
+// Mary. JIRA: SCAL-202402. docs JIRA: SCAL-212285
+// PM: Aashica - Awaiting more info from Aashica
 
 ////
 [#10-1-0-cl-query]
