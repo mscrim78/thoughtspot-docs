@@ -71,7 +71,7 @@ endif::free-trial-feature[]
 // PM: Damian
 
 
-The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as, "What is the share of a certain store’s sales as a percentage of the regional whole?" To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
+The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as, "What is the share of a certain store’s sales as a percentage of the regional whole?" To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`.
 
 ////
 For more information, see
@@ -97,12 +97,12 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-cl-data-panel]
 [discrete]
-=== Data Panel V2 - Hide A-Z view in Data Panel [.badge.badge-early-access]#Early Access#
+// === Hide A-Z view in Data Panel [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#10-1-0-cl-data-panel]
 [discrete]
-=== Data Panel V2 - Hide A-Z view in Data Panel [.badge.badge-early-access-whats-new]#Early Access#
+// === Data Panel V2 - Hide A-Z view in Data Panel [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Mark – Jira: SCAL-179807. docs JIRA: SCAL-?
 // PM: Alok
@@ -137,12 +137,6 @@ endif::pendo-links[]
 
 // Analyst
 
-[#10-1-0-cl-data]
-[discrete]
-=== Data panel column groups (TML)
-// Mark. JIRA: SCAL-202873. docs JIRA: SCAL-?
-// PM: Samridh
-
 ////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -164,40 +158,6 @@ image::blended-axes.png[Grouping measures]
 // PM: Manan - removed from 10.1 WN as it remains beta in 10.1 per Manan
 endif::free-trial-feature[]
 ////
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-1-0-cl-modeling]
-[discrete]
-=== Modeling improvements for 10.1 [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-1-0-cl-modeling]
-[discrete]
-=== Modeling improvements for 10.1 [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-// Mark – Jira: SCAL-201887. docs JIRA: SCAL-?
-// PM: Samridh
-
-endif::free-trial-feature[]
-
-[#10-1-0-cl-column]
-[discrete]
-=== Data Panel: Custom Column Categorization
-// Mark. JIRA: SCAL-202382. docs JIRA: SCAL-?
-// PM: Damian
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-1-0-cl-cohorts]
-[discrete]
-=== Import and export sets using TML [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#10-1-0-cl-cohorts]
-[discrete]
-=== Import and export sets using TML [.badge.badge-beta-whats-new]#Beta#
-endif::[]
 
 You can now use TML to import and export column sets and query sets in ThoughtSpot.
 // Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
@@ -228,12 +188,6 @@ ifdef::pendo-links[]
 xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst,window=_blank].
 endif::[]
 ////
-
-[#10-1-0-cl-column-groups]
-[discrete]
-=== Data panel V2 - Column groups
-// Mark. JIRA: SCAL-205579. docs JIRA: SCAL-?
-// PM: Damian
 
 // IT/ Ops Engineer
 
@@ -298,8 +252,8 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 
 [#10-1-0-cl-orgs]
 [discrete]
-=== Per Orgs URLs [.badge.badge-beta]#Beta#
-ThoughtSpot introduces Org specific URLs. With per Org URLs, the UI will maintain the Org that the user is logged into. When a user switches Orgs using the Org switcher, they are directed to the subdomain of the new Org.
+=== Org-specific URLs [.badge.badge-beta]#Beta#
+ThoughtSpot introduces Org-specific URLs. With Org-specific URLs, the UI maintains the Org that the user is logged into. When a user switches Orgs using the Org switcher, they are directed to the subdomain of the new Org.
 // Mary. JIRA: SCAL-202402. docs JIRA: SCAL-212285
 // PM: Aashica - Awaiting more info from Aashica
 
