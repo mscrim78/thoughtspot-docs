@@ -161,7 +161,17 @@ image::blended-axes.png[Grouping measures]
 endif::free-trial-feature[]
 ////
 
-
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-cohorts]
+[discrete]
+=== Import and export sets using TML [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-cohorts]
+[discrete]
+=== Import and export sets using TML [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 You can now use TML to import and export column sets and query sets in ThoughtSpot.
 // Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
