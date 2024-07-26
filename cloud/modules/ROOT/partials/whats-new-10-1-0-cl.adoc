@@ -42,6 +42,8 @@ xref:monitor.adoc#_create_an_anomaly_alert[Create an anomaly alert,window=_blank
 endif::pendo-links[]
 ////
 
+image::anomaly-alert.gif[Create an anomaly alert]
+
 endif::free-trial-feature[]
 
 ////
@@ -158,6 +160,18 @@ image::blended-axes.png[Grouping measures]
 // PM: Manan - removed from 10.1 WN as it remains beta in 10.1 per Manan
 endif::free-trial-feature[]
 ////
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-cohorts]
+[discrete]
+=== Import and export sets using TML [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-cohorts]
+[discrete]
+=== Import and export sets using TML [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 You can now use TML to import and export column sets and query sets in ThoughtSpot.
 // Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
