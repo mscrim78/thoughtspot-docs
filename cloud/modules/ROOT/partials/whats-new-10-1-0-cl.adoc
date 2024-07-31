@@ -267,12 +267,23 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 //REMOVED from 10.1.0.cl per Aashica - will not be released in 10.1 or 10.2.
 ////
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-1-0-cl-orgs]
 [discrete]
 === Org-specific URLs [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-orgs]
+[discrete]
+=== Org-specific URLs [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
 ThoughtSpot introduces Org-specific URLs. With Org-specific URLs, the UI maintains the Org that the user is logged into. When a user switches Orgs using the Org switcher, they are directed to the subdomain of the new Org.
 // Mary. JIRA: SCAL-202402. docs JIRA: SCAL-212285
 // PM: Aashica - Awaiting more info from Aashica
+
+endif::free-trial-feature[]
 
 ////
 [#10-1-0-cl-query]
