@@ -1,9 +1,10 @@
 = Third-party software
-:last_updated: 2/1/2023
-:author: Teresa Killmond
+:last_updated: 7/31/2024
+:author: Teresa Killmond, Mark
 :linkattrs:
 :experimental:
 :description: ThoughtSpot uses the following third-party software packages.
+:jira: SCAL-218231 (node in 9.8.0.sw.cu1)
 
 ThoughtSpot uses the following third-party software packages.
 
