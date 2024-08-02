@@ -100,7 +100,6 @@ Alternatively, you can *Reset to default*.
 > * xref:admin-portal-users-orgs.adoc[]
 > * xref:admin-portal-groups-orgs.adoc[]
 > * xref:authentication-local.adoc[]
-> * xref:authentication-saml.adoc[]
 > * xref:user-adoption.adoc[]
 > * xref:performance-tracking.adoc[]
 > * xref:search-spotiq-settings.adoc[]
