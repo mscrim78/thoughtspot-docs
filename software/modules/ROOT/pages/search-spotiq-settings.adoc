@@ -143,7 +143,6 @@ Liveboard PDF:: Text appears at the bottom of every page in the PDF.
 > * xref:admin-portal-users-orgs.adoc[]
 > * xref:admin-portal-groups-orgs.adoc[]
 > * xref:authentication-local.adoc[]
-> * xref:authentication-saml.adoc[]
 > * xref:user-adoption.adoc[]
 > * xref:performance-tracking.adoc[]
 > * xref:onboarding-email-settings.adoc[]
