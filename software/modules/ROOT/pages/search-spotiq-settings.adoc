@@ -51,16 +51,17 @@ By default, ThoughtSpot indexes new columns at a frequency of 24 hours, and enab
 [#spotiq]
 == SpotIQ settings
 
-Under *SpotIQ settings*, you can enable or disable xref:spotiq-custom.adoc[SpotIQ analyze] or xref:monitor.adoc[Monitor], as well as define the upper limit frequency for monitoring KPIs.
+Under *SpotIQ settings*, you can enable or disable xref:spotiq-custom.adoc[SpotIQ analyze].
 
-To enable or disable SpotIQ Analyze or Monitor, follow these steps:
+To enable or disable SpotIQ Analyze, follow these steps:
 
 . Select the *Edit* button in the *SpotIQ Settings* section.
 . Select the toggle to enable or disable the feature.
 . Select *Save*.
 Alternatively, you can select *Reset configuration* to reset to the default.
-By default, SpotIQ and Monitor are both enabled.
+By default, SpotIQ is enabled.
 
+////
 === KPI monitoring frequency
 
 Use the *shortest time period to check alerts* option to define the upper-limit frequency for monitoring KPIs. For example, if you define the upper-limit frequency as "weekly", users in your organization will not see "hourly" or "daily" options when they create KPI alerts.
@@ -76,6 +77,7 @@ To change the shortest time period to check alerts for your cluster, follow thes
 * monthly
 . Select *Save changes*.
 Alternatively, you can *Reset to default*. The default frequency is "hourly".
+////
 
 [#thoughtspot-experience]
 == ThoughtSpot experience settings
