@@ -40,10 +40,10 @@ endif::[]
 
 When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window. Note that insights do not appear for measures of type `unique counts` and `ratios`. For more information, see
 ifndef::pendo-links[]
-xref:xref:spotiq-change.adoc[Change analysis].
+xref:spotiq-change.adoc[Change analysis].
 endif::[]
 ifdef::pendo-links[]
-xref:xref:spotiq-change.adoc[Change analysis,window=_blank].
+xref:spotiq-change.adoc[Change analysis,window=_blank].
 endif::[]
 
 image::additional-insight.png[More insights]
