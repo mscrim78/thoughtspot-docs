@@ -32,8 +32,6 @@ ifdef::pendo-links[]
 xref:liveboard-comment.adoc[Collaborative Liveboards,window=_blank].
 endif::[]
 
-image::comment-liveboard.gif[Liveboard comment]
-
 [#9-8-0-sw-cca]
 [discrete]
 === Contextual change analysis: More insights
