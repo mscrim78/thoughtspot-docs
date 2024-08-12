@@ -40,7 +40,13 @@ image::comment-liveboard.gif[Liveboard comment]
 
 // Mary -- scal-172513, scal-152750
 
-When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window. Note that insights do not appear for measures of type `unique counts` and `ratios`. For more information, see xref:spotiq-change.adoc[Change analysis].
+When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window. Note that insights do not appear for measures of type `unique counts` and `ratios`. For more information, see
+ifndef::pendo-links[]
+xref:xref:spotiq-change.adoc[Change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:xref:spotiq-change.adoc[Change analysis,window=_blank].
+endif::[]
 
 image::additional-insight.png[More insights]
 
@@ -58,7 +64,13 @@ endif::[]
 
 // Mary -- scal-158463 (generally, we split this announcement into two: one business user version on the metadata you can see in  Search Data, and a data engineer version showing the way admin users can connect to Atlan)
 
-You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration,window=_blank].
+endif::[]
 
 image::catalog-integration.png[Catalog integration]
 
@@ -77,7 +89,7 @@ ifndef::pendo-links[]
 xref:chart-table-change.adoc#multi-bucket[Multi-date bucketing].
 endif::[]
 ifdef::pendo-links[]
-xref:chart-table-change.adoc#multi-bucket[Multi-date bucketing].
+xref:chart-table-change.adoc#multi-bucket[Multi-date bucketing,window=_blank].
 endif::[]
 
 [#9-8-0-sw-tag]
@@ -106,8 +118,13 @@ We made the following enhancements to verified Liveboards:
 
 // Mary -- scal-158469
 
-You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are identified with a tag visible in all screens. You can also cancel verification requests when needed. For more information, see xref:liveboard-verify.adoc[Verify Liveboards].
-
+You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are identified with a tag visible in all screens. You can also cancel verification requests when needed. For more information, see
+ifndef::pendo-links[]
+xref:liveboard-verify.adoc[Verify Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-verify.adoc[Verify Liveboards,window=_blank].
+endif::[]
 [#9-8-0-sw-hidden]
 [discrete]
 === Hidden columns in tables
@@ -194,8 +211,13 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 // Mary -- scal-165262, scal-158410
 
-Embedding in note tiles is now available to all users and is on by default. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website. For more information, see xref:liveboard-notes.adoc[Liveboard note tiles].
-
+Embedding in note tiles is now available to all users and is on by default. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website. For more information, see
+ifndef::pendo-links[]
+xref:liveboard-notes.adoc[Liveboard note tiles].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-notes.adoc[Liveboard note tiles,window=_blank].
+endif::[]
 
 
 [#9-8-0-sw-personalized]
