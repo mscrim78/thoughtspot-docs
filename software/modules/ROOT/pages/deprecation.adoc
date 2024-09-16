@@ -31,9 +31,9 @@ Search Assist:: ThoughtSpot will remove the Search Assist feature from the Data 
 [#deprecated-10-1-0-sw]
 == Deprecated in 10.1.0.sw
 
-The 10.6.0.sw release of ThoughtSpot Software, targeted for October 2024 (GA), will drop support for the following feature:
+The 10.1.0.sw release of ThoughtSpot Software, targeted for October 2024 (GA), will drop support for the following feature:
 
-Search Assist:: Located on the Data Workspace page.
+Search Assist:: ThoughtSpot will no longer support the Search Assist feature on the Data Workspace page, and plans to remove it in a future release. Until it is removed, you can still use it.
 
 [#removed-9-0-0-sw]
 == Removed in 9.0.0.sw
@@ -44,7 +44,7 @@ In Instant Search, the system triggers a query every time you add an item to the
 
 [#deprecated-8-8-0-sw]
 == Deprecated in 8.8.0.sw
-The 8.8.0.sw release of ThoughtSpot Software, targeted for October 2022, will *deprecate* the following features. ThoughtSpot will drop support for these features in a later release.
+The 8.8.0.sw release of ThoughtSpot Software, targeted for October 2022, will *deprecate* the following features. ThoughtSpot will remove these features in a later release.
 
 === New Liveboard experience deprecations
 
@@ -65,7 +65,7 @@ If you followed a Liveboard in releases earlier than 8.4.0.sw [LA], you will see
 
 [#deprecated-8-4-0-sw]
 == Deprecated in 8.4.0.sw [LA]
-The 8.4.0.sw [LA] release of ThoughtSpot Software, targeted for May 2022 (LA) and August 2022 (GA), will *deprecate* the following features. ThoughtSpot will drop support for these features in a later release.
+The 8.4.0.sw [LA] release of ThoughtSpot Software, targeted for May 2022 (LA) and August 2022 (GA), will *deprecate* the following features. ThoughtSpot will remove these features in a later release.
 
 === New answer experience deprecations
 
