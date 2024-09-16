@@ -1,8 +1,9 @@
 = Deprecation announcements
-:last_updated: 09/15/2021
+:last_updated: 09/16/2024
 :linkattrs:
 :experimental:
 :description: In this article, we give you advance notice of features we are discontinuing in future releases.
+:jira: SCAL-224007
 
 
 ThoughtSpot sometimes deprecates and then removes existing features, replacing them with new and more effective means to use our products.
@@ -20,12 +21,19 @@ We recommend that you stop using deprecated features as soon as possible, and ch
 Removed::
 A removed feature no longer exists in the product. When you upgrade to a newer release, any workflows that rely on a removed feature no longer work.
 
-[#deprecated-9-0-0-sw]
-== Deprecated in 9.0.0.sw
+[#removed-10-6-0-sw]
+== Removed in 10.6.0.sw
 
-The 9.0.0.sw release of ThoughtSpot Software, targeted for February 2023 (LA) and May 2023 (GA), will drop support for the following feature:
+The 10.6.0.sw release of ThoughtSpot Software, targeted for March 2025 (GA), will *remove* the following feature:
 
-Pin Headlines:: ThoughtSpot will deprecate the pin Headline to Liveboard feature. Beginning in the 9.0.0.sw Software release, users will no longer see the pin icon when they select table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, we recommend creating xref:chart-kpi.adoc[KPI charts]. Existing Headlines pinned to Liveboards will not be affected in this release.
+Search Assist:: ThoughtSpot will remove the Search Assist feature from the Data Workspace page.
+
+[#deprecated-10-1-0-sw]
+== Deprecated in 10.1.0.sw
+
+The 10.6.0.sw release of ThoughtSpot Software, targeted for October 2024 (GA), will drop support for the following feature:
+
+Search Assist:: Located on the Data Workspace page.
 
 [#removed-9-0-0-sw]
 == Removed in 9.0.0.sw
