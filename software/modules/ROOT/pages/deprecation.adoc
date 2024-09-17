@@ -33,7 +33,7 @@ Search Assist:: ThoughtSpot will remove the Search Assist feature from the Data 
 
 The 10.1.0.sw release of ThoughtSpot Software, targeted for October 2024 (GA), will drop support for the following feature:
 
-Search Assist:: ThoughtSpot will no longer support the Search Assist feature on the Data Workspace page, and plans to remove it in a future release. Until it is removed, you can still use it.
+Search Assist:: ThoughtSpot will no longer support the Search Assist feature on the Data Workspace page, and will remove it in a future release.
 
 [#removed-9-0-0-sw]
 == Removed in 9.0.0.sw
