@@ -1,4 +1,4 @@
-= Sharing with deep linking
+= Sharing
 :last_updated: 6/6/2024
 :linkattrs:
 :experimental:
@@ -7,9 +7,7 @@
 
 [#deep-linking]
 
-You can share a link to objects in ThoughtSpot using instant messaging or email and the recipient can open the link in the mobile app or the web.
-If a user has the mobile app, the link will open directly in the mobile app.
-If they don't have the mobile app, they are presented with the option to download it or to view it on the web.
+You can share a link to objects in ThoughtSpot using instant messaging or email and the recipient can open the link in the ThoughtSpot Mobile app or the ThoughtSpot web app. If a user has ThoughtSpot Mobile, the link opens directly in ThoughtSpot Mobile. If they don’t have ThoughtSpot Mobile, they are presented with the option to download it or to view it in the ThoughtSpot web app.
 
 == Shareable objects
 

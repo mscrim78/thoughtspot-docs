@@ -3,7 +3,7 @@
 :linkattrs:
 :experimental:
 :page-aliases:
-:description: ThoughtSpot mobile KPI change analysis
+:description: ThoughtSpot Mobile KPI change analysis
 
 [#kpi-change-analysis]
 
@@ -12,3 +12,9 @@ You can now use SpotIQ analysis to directly identify the key drivers for recent 
 To access this feature, go to your KPI chart and select the caret icon to the right of the percent change label. The *Run change analysis* pop-up allows you to customize the columns ThoughtSpot analyzes.
 
 NOTE: ThoughtSpot runs change analysis between the two most recent data points defined by the KPI’s time bucket (for example, `daily` or `weekly`).
+
+////
+add two screeen shots:
+* first one of the end result
+* second one of the Run change analysis pop-up (or perhaps an animated gif/video that shows the flow from selecting the caret, to customizing columns in the pop-up to running the change analysis.
+////

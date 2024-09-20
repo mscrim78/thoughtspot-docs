@@ -1,10 +1,14 @@
-= Internationalization and localization
+= Supported languages
 :last_updated: 6/6/2024
 :linkattrs:
 :experimental:
 :page-aliases:
-:description: ThoughtSpot mobile internationalization and localization
+:description: ThoughtSpot Mobile Supported languages
 
 [#localization]
 
-You can now change your ThoughtSpot locale through the Mobile app. When your locale is updated, ThoughtSpot translates labels, date formats and number formats to match the default for your country and language.
+You can now change your ThoughtSpot locale in ThoughtSpot Mobile. When your locale is updated, ThoughtSpot translates labels, date formats and number formats to match the default for your country and language.
+
+////
+It would be great to provide the steps to do this or at least a simple screenshot to show people where/how they can change it.
+////

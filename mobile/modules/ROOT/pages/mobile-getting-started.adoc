@@ -3,14 +3,14 @@
 :linkattrs:
 :experimental:
 :page-aliases:
-:description: Getting Started with ThoughtSpot mobile.
+:description: Getting Started with ThoughtSpot Mobile.
 
 
 
 == For administrators
 
-* To deploy the app to users in your company, see xref:mobile-deploy.adoc[Deploy mobile app].
+* To deploy the app to users in your company, see xref:mobile-deploy.adoc[Deploy ThoughtSpot Mobile].
 
 == For users
 
-* To install and set up the app, see xref:mobile-install.adoc[Install and set up mobile app].
+* To install and set up the app, see xref:mobile-install.adoc[Install and set up ThoughtSpot Mobile].

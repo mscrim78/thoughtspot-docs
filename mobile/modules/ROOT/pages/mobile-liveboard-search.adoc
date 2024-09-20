@@ -3,10 +3,10 @@
 :linkattrs:
 :experimental:
 :page-aliases:
-:description: Search ThoughtSpot mobile Liveboards.
+:description: Search ThoughtSpot Mobile Liveboards.
 
 
-ThoughtSpot mobile allow you to search Liveboards that have been shared with you to ge the information that you need. Search Liveboards supports users who are not yet familiar with the data in their organization.
+ThoughtSpot Mobile allows you to search Liveboards that have been shared with you to ge the information that you need. You can search Liveboards even if you are not yet familiar with the data in your organization.
 
 How to search Liveboards::
 . To search Liveboards, select the *Liveboards* tab.
@@ -16,6 +16,8 @@ How to search Liveboards::
 .. Only your own Liveboards by selecting *Yours*.
 +
 image::mobile-liveboards.png[Mobile Liveboards tab]
-. Enter your search terms in the *Search Liveboards* field, and click *Return*.
+. Enter your search terms in the *Search Liveboards* field, and tap *Return*.
+
+//Note: Mark questions Return button...Return is on the mobile keyboard not the product UI. Should this be included? or removed entirely?
 
 The Liveboards matching your search criteria are displayed in the app.

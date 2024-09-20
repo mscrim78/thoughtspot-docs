@@ -1,23 +1,23 @@
-= Deploy mobile app
+= Deploy ThoughtSpot Mobile
 :last_updated: 6/6/2024
 :linkattrs:
 :experimental:
 :page-aliases: /admin/mobile/deploy-mobile.adoc
-:description: You can deploy the ThoughtSpot mobile app through the iOS app store, or your MDM or MAM platform.
+:description: You can deploy ThoughtSpot Mobile through the iOS app store, or your MDM or MAM platform.
 
 
-The following are the requirements to deploy ThoughtSpot mobile
+The following are the requirements to deploy ThoughtSpot Mobile
 
 * User account on a ThoughtSpot cluster
 * Apple iOS version 9.0 or later (iPad and iPhone)
 * Android 6.0 or later
 
-Deploying the ThoughtSpot mobile app to your users allows them to access their data and make decisions remotely from their mobile device.
-For more information about features in the mobile app, refer to xref:mobile.adoc#[ThoughtSpot mobile overview].
+Deploying ThoughtSpot Mobile to your users allows them to access their data and make decisions remotely from their mobile device.
+For more information about features in ThoughtSpot Mobile, refer to xref:mobile.adoc#[ThoughtSpot Mobile overview].
 
 == Deployment options
 
-There are two options for your users to download the ThoughtSpot mobile app:
+There are two options for your users to download ThoughtSpot Mobile:
 
 * App Store for iOS or Google Play for Android
 * Your MDM platform
@@ -63,7 +63,7 @@ To upload the ThoughtSpot .ipa/.apk file to your management platform, refer to t
 
 ==== AppConfig support
 
-The ThoughtSpot mobile app conforms to the industry standard AppConfig community and version 1.1 of the app supports the following keys.
+ThoughtSpot Mobile conforms to the industry standard AppConfig community and version 1.1 of the app supports the following keys.
 You can add these keys while deploying through your MDM platform.
 
 |===
@@ -84,18 +84,18 @@ customized using this key.
 |===
 
 ////
-== Log in to ThoughtSpot mobile
+== Log in to ThoughtSpot Mobile
 === Log in to a SaaS cluster
 === Log in to a software cluster
 ////
 
 ////
 [#try-the-mobile-app]
-== Try the mobile app
+== Try ThoughtSpot Mobile
 
-If you want to try the mobile app before you deploy it to ThoughtSpot users in your company, do the following:
+If you want to try ThoughtSpot Mobile before you deploy it to ThoughtSpot users in your company, do the following:
 
-. Install and set up the app, following the steps in xref:mobile-install.adoc#[Install and set up the mobile app].
+. Install and set up the app, following the steps in xref:mobile-install.adoc#[Install and set up ThoughtSpot Mobile].
 . Use the following credentials to connect to ThoughtSpot's testing environment and try out the app: +
 *Server URL*: https://try.thoughtspot.com
 +
@@ -113,3 +113,12 @@ Feel free to contact us at link:mailto:mobile@thoughtspot.com?subject=ThoughtSpo
 > * xref:mobile-install.adoc[Install and set up]
 > * xref:mobile-faq.adoc[FAQ]
 > * xref:notes-mobile.adoc[Release notes]
+
+////
+Suggestions to possibly make things more clear:
+
+Move the requirements section to it's own page called ThoughtSpot Mobile requirements
+On that page call which persona should go to the deploy and install pages and link to them. Examples:
+If you are administrator who needs to deploy ThoughtSpot Mobile in your organization, refer to Deploy ThoughtSpot Mobile.
+If you are a user who needs to install ThoughtSpot Mobile on your mobile device, refer to Install and set up ThoughtSpot Mobile.
+////
