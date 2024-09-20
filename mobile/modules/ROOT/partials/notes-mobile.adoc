@@ -1,18 +1,18 @@
 
 
-ThoughtSpot mobile 3.0.0 is now available.
+ThoughtSpot Mobile 3.0.0 is now available.
 These release notes include information about new features, fixed issues from the previous releases, and any known issues.
 
 [#3-0-0-new]
 == 3.0.0 New Features and Functionality
 
-* You can now use ThoughtSpot Sage on mobile version 3.0.0. You can ask a single natural language question on any AI enabled data source to get instant AI generated answers. You can ask by typing the question or use voice commands. You can save and share answers to facilitate collaboration.
+* You can now use ThoughtSpot Sage on ThoughtSpot Mobile version 3.0.0. You can ask a single natural language question on any AI enabled data source to get instant AI generated answers. You can ask by typing the question or use voice commands. You can save and share answers to facilitate collaboration.
 
 [#2-9-0-new]
 == 2.9.0 New Features and Functionality
 
-* You can now view note tiles for Liveboards in the mobile app.
-* Improved loading of priority information when opening Liveboards and Answers in ThoughtSpot mobile.
+* You can now view note tiles for Liveboards in ThoughtSpot Mobile.
+* Improved loading of priority information when opening Liveboards and Answers in ThoughtSpot Mobile.
 
 
 [#2-8-1-new]
@@ -20,7 +20,7 @@ These release notes include information about new features, fixed issues from th
 
 * Support for SpotIQ analysis to directly identify the key drivers for recent change in your KPIs.
 * Support for IAMv2 login on ThoughtSpot Mobile.
-* Introduction of ThoughtSpot mobile push notifications.
+* Introduction of ThoughtSpot Mobile push notifications.
 
 
 [#2-8-new]
@@ -50,7 +50,7 @@ These release notes include information about new features, fixed issues from th
 [#2-5-new]
 == 2.5 New Features and Functionality
 
-We have moved Liveboards to the new Answer experience on mobile in this release. This change also includes showing KPI charts on Liveboards and bug fixes.
+We have moved Liveboards to the new Answer experience on ThoughtSpot Mobile in this release. This change also includes showing KPI charts on Liveboards and bug fixes.
 
 [#2-4-new]
 == 2.4 New Features and Functionality
@@ -71,9 +71,9 @@ Version 2.0 supports more features that were previously available only through t
 
 === Deep linking
 
-You can now share a link to objects in ThoughtSpot and a user can open the link in the mobile app or the web.
-If a user has the mobile app, the link will open directly in the mobile app.
-If they don't have the mobile app, the are presented with the option to download it or to view it on the web.
+You can now share a link to objects in ThoughtSpot and a user can open the link in ThoughtSpot Mobile or the ThoughtSpot web app.
+If a user has ThoughtSpot Mobile, the link will open directly in ThoughtSpot Mobile.
+If they don't have ThoughtSpot Mobile, the are presented with the option to download it or to view it on the ThoughtSpot web app.
 For details, see xref:mobile.adoc#[ThoughtSpot Mobile overview].
 
 === Drill down
@@ -89,7 +89,7 @@ For details, see xref:mobile.adoc#[ThoughtSpot Mobile overview].
 * Grouping of axes, and axis renaming.
 * Improved performance.
 
-NOTE: If upgrading your cluster to ThoughtSpot 6.2, all mobile users *MUST* update their ThoughtSpot app to 1.5.
+NOTE: If upgrading your cluster to ThoughtSpot 6.2, all ThoughtSpot Mobile users *MUST* update their ThoughtSpot app to 1.5.
 If they do not, they will not be able to sign in.
 
 [#1-4-new]
@@ -117,7 +117,7 @@ The following issues are fixed in the 1.4 release:
 * R charts are now supported.
 * Data labels are now available on the iPad version for enhanced chart viewing.
 * Quick support.
-If you have any issues, you can now share debug logs with the ThoughtSpot mobile team, from the profile page.
+If you have any issues, you can now share debug logs with the ThoughtSpot Mobile team, from the profile page.
 
 [#1-2-fixed]
 == 1.2 Fixed Issues
@@ -140,7 +140,7 @@ The following issues are fixed in the 1.1.2 release:
 * Dates appear as invalid on visualizations.
 * Last updated time is sometimes one day later than it actually is.
 * The home Liveboard refreshes randomly and does not follow the 30 minutes background to foreground logic.
-* The "`Excluded`" filters applied in the ThoughtSpot web user interface appear in the "`Included`" list in the Mobile app.
+* The "`Excluded`" filters applied in the ThoughtSpot web app user interface appear in the "`Included`" list in ThoughtSpot Mobile.
 * Cached data disappears even before new data loads.
 * Clickable area for the close button on the Filters page is too small.
 * "`Login with SSO`" on iPad is misaligned.

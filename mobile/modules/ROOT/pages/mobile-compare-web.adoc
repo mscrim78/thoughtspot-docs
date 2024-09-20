@@ -1,13 +1,13 @@
-= Comparing ThoughtSpot mobile and web
+= Comparing ThoughtSpot Mobile and the ThoughtSpot web app
 :last_updated: 6/6/2024
 :linkattrs:
 :experimental:
 :page-aliases:
-:description: Comparing ThoughtSpot mobile and web.
+:description: Comparing ThoughtSpot Mobile and the ThoughtSpot web app.
 
 
 
-The following section compares the features available in the ThoughtSpot mobile and web apps.
+The following section compares the features available in the ThoughtSpot Mobile and the ThoughtSpot web app apps.
 
 === Consumption features
 
@@ -158,7 +158,7 @@ The following section compares the features available in the ThoughtSpot mobile 
 |===
 
 == Important limitations
-The ThoughtSpot mobile app has the following limitations:
+ThoughtSpot Mobile has the following limitations:
 
 * No support for pivot tables, geo maps, or sankey charts
 

@@ -3,7 +3,7 @@
 :linkattrs:
 :experimental:
 :page-aliases: /admin/mobile/faq-mobile.adoc
-:description: These are a few frequently asked questions about ThoughtSpot mobile.
+:description: These are a few frequently asked questions about ThoughtSpot Mobile.
 
 
 
@@ -22,7 +22,7 @@ For more information, refer to Google's Android documentation on https://develop
 *iOS*: Authentication data for iOS is stored in an encrypted database, called a keychain.
 For more information, refer to Apple's documentation on https://developer.apple.com/documentation/security/keychain_services[Keychain Services^].
 
-NOTE: You cannot access the data saved by the ThoughtSpot mobile app from any other app.
+NOTE: You cannot access the data saved by ThoughtSpot Mobile from any other app.
 
 == Deleting data saved on the mobile device, and restricting sharing
 

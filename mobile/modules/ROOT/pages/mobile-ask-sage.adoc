@@ -1,28 +1,28 @@
-= Ask Sage on mobile
+= Ask Sage on ThoughtSpot Mobile
 :last_updated: 6/6/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
 :page-aliases:
-:description: Ask Sage on mobile
+:description: Ask Sage on ThoughtSpot Mobile
 
 [#mobile-ask-sage,Ask Sage]
 
-You can now use Ask Sage on mobile. Ask Sage allows you to ask questions about your data in natural language and get instant AI-generated answers. You can ask your questions using text or voice, using microphone enabled on your keyboard.
+You can now use Ask Sage on ThoughtSpot Mobile. Ask Sage allows you to ask questions about your data in natural language and get instant AI-generated answers. You can ask your questions by typing or speaking, using the microphone on your mobile device.
 
-If you have access to Ask Sage on the web you are able to access the *Ask Sage* tab on mobile.
+If you have access to Ask Sage on the ThoughtSpot web app you are able to access the *Ask Sage* tab on ThoughtSpot Mobile.
 
-NOTE: Ask Sage on mobile does not support follow-up questions.
+NOTE: Ask Sage on ThoughtSpot Mobile does not support follow-up questions.
 
 image::mobile-ask-sage2.png[Mobile Ask Sage tab]
 
 
 
-== Use Ask Sage on mobile
+== Use Ask Sage on ThoughtSpot Mobile
 
-To use Ask Sage on mobile, follow these steps:
+To use Ask Sage on ThoughtSpot Mobile, follow these steps:
 
-. Navigate to the Ask Sage tab in ThoughtSpot mobile.
+. Navigate to the Ask Sage tab in ThoughtSpot Mobile.
 
 . Type a question or select a popular question from the suggested questions.
 
@@ -57,7 +57,7 @@ image::moible-ask-sage-feedback.png[Ask Sage feedback]
 
 == Enable Ask Sage
 
-Ask Sage is enabled by default on mobile when it is enabled on your ThoughtSpot cluster.
+Ask Sage is enabled by default on ThoughtSpot Mobile when it is enabled on your ThoughtSpot cluster.
 
 Admins can enable Ask Sage.
 

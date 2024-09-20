@@ -1,11 +1,11 @@
-= ThoughtSpot mobile features
+= ThoughtSpot Mobile features
 :last_updated: 6/6/2024
 :linkattrs:
 :experimental:
 :page-aliases:
-:description: ThoughtSpot mobile features.
+:description: ThoughtSpot Mobile features.
 
-
+////
 [cols="40%,60%"]
 |===
 a| image:v1_mobile.gif[Gif of the basic mobile experience]
@@ -17,4 +17,4 @@ Filter to pinpoint relevant insights.
 Favorites:: Tag your favorite Liveboards and Answers for quick access.
 |===
 
-
+////

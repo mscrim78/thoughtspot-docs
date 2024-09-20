@@ -1,11 +1,18 @@
-= ThoughtSpot mobile Answers
+= ThoughtSpot Mobile Answers
 :last_updated: 6/26/2024
 :linkattrs:
 :experimental:
 :page-aliases:
-:description: ThoughtSpot mobile Answers.
+:description: ThoughtSpot Mobile Answers.
 
 ThoughtSpot Search results generate tables and charts. When you save them for future use, we call these saved searches Answers.
 
-NOTE: ThoughtSpot mobile users can view but not edit Answers in the mobile app.
+////
+At the end of the first paragraph (before the note), I suggest you describe briefly what you can do with Answers in ThoughtSpot mobile. If it is only to search Answers, you can say that and then have it link to the Search Answers article.
+If users cannot create answers in ThoughtSpot Mobile, we should indicate that and provide a link to an article on how to create an Answer in the ThoughtSpot web app.
+
+Adding a screenshot to show what an Answer looks like in ThoughtSpot Mobile.
+////
+
+NOTE: ThoughtSpot Mobile users can view but not edit Answers in ThoughtSpot Mobile.
 
