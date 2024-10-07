@@ -9,6 +9,8 @@ Prepare to install your ThoughtSpot cluster by configuring nodes.
 
 Before you can install a ThoughtSpot cluster in Azure, you must configure your nodes.
 
+NOTE: ThoughtSpot has stopped selling and renewing hardware appliance contracts. See xref:end-of-service-centos.adoc#hardware-impact[CentOS end-of-life announcement] for more information, and alternative deployment options.
+
 '''
 > **ThoughtSpot Training**
 >

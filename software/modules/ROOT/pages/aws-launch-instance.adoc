@@ -6,6 +6,8 @@
 
 After you determine your configuration options, you must set up your virtual machines (VMs) in AWS using a ThoughtSpot Amazon Machine Image (AMI).
 
+NOTE: ThoughtSpot has stopped selling and renewing hardware appliance contracts. See xref:end-of-service-centos.adoc#hardware-impact[CentOS end-of-life announcement] for more information, and alternative deployment options.
+
 '''
 > **ThoughtSpot Training**
 >
