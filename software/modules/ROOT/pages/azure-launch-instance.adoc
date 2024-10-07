@@ -21,14 +21,13 @@ The ThoughtSpot Virtual Machine comes provisioned with the custom ThoughtSpot im
 A virtual machine is a preconfigured template that provides the information required to launch an instance of ThoughtSpot.
 It includes a root disk for the instance, which contains an operating system, application server, and other necessary software.
 
-The ThoughtSpot Virtual Machine has the ThoughtSpot software installed and configured, on a CentOS-based image.
+The ThoughtSpot Virtual Machine has the ThoughtSpot software installed and configured.
 Check with your ThoughtSpot contact to learn about the latest version of the ThoughtSpot Virtual Machine.
 
 Due to security restrictions, the ThoughtSpot Virtual Machine does not have default passwords for the administrator users.
 When you are ready to obtain the password, contact {support-url}.
 
-This guide explains how to deploy ThoughtSpot on Microsoft Azure, using ThoughtSpot's CentOS-based image.
-You can also deploy ThoughtSpot on Azure using Red Hat Enterprise Linux (RHEL), allowing you to run ThoughtSpot on an RHEL 7.8, 7.9, 8.1, 8.2, 8.3, 8.4, 8.5, 8.6, 8.7, or 8.8 image that your organization manages internally.
+This guide explains how to deploy ThoughtSpot on Microsoft Azure on Red Hat Enterprise Linux (RHEL), allowing you to run ThoughtSpot on an RHEL 7.8, 7.9, 8.1, 8.2, 8.3, 8.4, 8.5, 8.6, 8.7, or 8.8 image that your organization manages internally.
 To install ThoughtSpot using RHEL, refer to the xref:customer-os.adoc[Deploying ThoughtSpot on your own OS guide] after you launch your virtual machines.
 
 == Set up ThoughtSpot in Azure
