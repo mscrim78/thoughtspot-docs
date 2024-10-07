@@ -7,6 +7,8 @@
 
 This topic covers security processes for the entire lifecycle of a ThoughtSpot deployment from development, release, installation, upgrades, to software patching.
 
+NOTE: ThoughtSpot has stopped selling and renewing hardware appliance contracts. See xref:end-of-service-centos.adoc#hardware-impact[CentOS end-of-life announcement] for more information, and alternative deployment options.
+
 == Overview
 
 A ThoughtSpot deployment consists of the following high-level software systems:

@@ -6,6 +6,8 @@
 
 Learn how to install a ThoughtSpot cluster in a VMware environment.
 
+NOTE: ThoughtSpot has stopped selling and renewing hardware appliance contracts. See xref:end-of-service-centos.adoc#hardware-impact[CentOS end-of-life announcement] for more information, and alternative deployment options.
+
 '''
 > **ThoughtSpot Training**
 >
