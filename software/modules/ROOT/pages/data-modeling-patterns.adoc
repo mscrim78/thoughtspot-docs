@@ -1,10 +1,11 @@
 = Set number, date, and currency formats
-:last_updated: 10/12/2021
+:last_updated: 10/08/2024
 :linkattrs:
 :experimental:
 :page-partial:
 :page-aliases: /admin/data-modeling/set-format-pattern-numbers.adoc
 :description: Learn how to set key formats for column values.
+:jira: SCAL-204199
 
 Learn how to set key formats for column values.  You can set number, date, and currency display formats.
 
@@ -147,6 +148,14 @@ Specify ISO Code:: Your currency data will be modeled upon your selection from t
 
 
 . Select *Ok* to save your changes.
+
+=== Limitations
+
+If you use the *From a column* setup to specify the currency format, ThoughtSpot has the following limitations:
+
+* The currency column is automatically selected in every query that uses its linked column, and you cannot remove it.
+
+* In charts, the numbers in axes, data labels, and tooltips do not append the currency symbol. The currency symbol or ISO code is appended in the table view.
 
 '''
 > **Related information**
