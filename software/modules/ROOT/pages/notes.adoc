@@ -1,4 +1,4 @@
-= 9.8.0.sw Release Notes
+= 10.1.0.sw Release Notes
 :experimental:
 :last_updated: 10/26/23
 :linkattrs:
@@ -15,7 +15,7 @@
 </style>
 ++++
 
-ThoughtSpot version 9.8.0.sw is now available.
+ThoughtSpot version 10.1.0.sw is now available.
 
 These release notes include information about new and enhanced features.
 
@@ -26,17 +26,17 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 * <<new-9-8-0,9.8.0.sw New Features and Functionality>>
 * <<upgrade-paths,Supported Upgrade Paths>>
 
-[#new-9-8-0]
-== 9.8.0.sw New Features and Functionality
+[#new-10-1-0]
+== 10.1.0.sw New Features and Functionality
 
 
-* <<analyst-9-8-0-sw,For the Analyst>>
-* <<business-user-9-8-0-sw,For the Business User>>
-* <<data-engineer-9-8-0-sw,For the Data Engineer>>
-* <<it-ops-engineer-9-8-0-sw,For the IT Ops Engineer>>
-* <<developer-9-8-0-sw,For the Developer>>
+* <<analyst-10-1-0-sw,For the Analyst>>
+* <<business-user-10-1-0-sw,For the Business User>>
+* <<data-engineer-10-1-0-sw,For the Data Engineer>>
+* <<it-ops-engineer-10-1-0-sw,For the IT Ops Engineer>>
+* <<developer-10-1-0-sw,For the Developer>>
 
-[#analyst-9-8-0-sw]
+[#analyst-10-1-0-sw]
 === For the Analyst
 
 //Naomi-- scal-174354. Hadoop 3
@@ -67,7 +67,7 @@ ThoughtSpot introduces a request access function for view-only filters. You can 
 
 
 
-[#business-user-9-8-0-sw]
+[#business-user-10-1-0-sw]
 === For the Business User
 
 // Mary -- scal-158463
@@ -133,7 +133,7 @@ The new data panel experience is available for all customers in this release, an
 +
 For more information, see xref:search-start.adoc[Start a new search].
 
-[#data-engineer-9-8-0-sw]
+[#data-engineer-10-1-0-sw]
 === For the Data Engineer
 
 // Naomi -- scal-79850, scal-164909, scal-166159, scal-166160,scal-166161
@@ -152,7 +152,7 @@ OAuth for Databricks using Proof Key for Code Exchange (PKCE):: We now support x
 // Mary -- scal-158463
 Atlan catalog integration [.badge.badge-beta]#Beta#:: You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
-[#it-ops-engineer-9-8-0-sw]
+[#it-ops-engineer-10-1-0-sw]
 === For the IT Ops Engineer
 
 // scal-159716
@@ -170,7 +170,7 @@ Multi-tenancy with Orgs::
 This release introduces ThoughtSpot’s multi-tenancy feature, which allows a ThoughtSpot software instance to be logically partitioned into multiple environments called Orgs. This feature is off by default. To enable it, contact ThoughtSpot Support. For more information, see xref:orgs-overview.adoc[Multi-tenancy with Orgs].
 
 
-[#developer-9-8-0-sw]
+[#developer-10-1-0-sw]
 === For the Developer
 
 Customers licensed to embed ThoughtSpot can use ThoughtSpot Embedded features and Visual Embed SDK.
@@ -182,15 +182,15 @@ For information about ThoughtSpot Embedded, refer to  link:https://developers.th
 [#upgrade-paths]
 == Supported Upgrade Paths
 
-If you are running one of the following versions, you can upgrade to the 9.8.0.sw release directly:
+If you are running one of the following versions, you can upgrade to the 10.1.0.sw release directly:
 
-* 9.5.0.sw to 9.8.0.sw
-* 9.0.1.sw to 9.8.0.sw
+* 9.8.0.sw to 10.1.0.sw
+* 9.5.0.sw to 10.1.0.sw
 
 This includes any hotfixes or customer patches on these branches.
 
 If you are running a different version, you must do a multiple pass upgrade.
 
-First, upgrade to version 9.5.0.sw or 9.0.1.x, and then to the 9.8.0.sw release.
+First, upgrade to version 9.8.0.sw or 9.5.0.sw, and then to the 10.1.0.sw release.
 
 NOTE: To successfully upgrade your ThoughtSpot cluster, all user profiles must include a valid email address. Without valid email addresses, the upgrade is blocked.
