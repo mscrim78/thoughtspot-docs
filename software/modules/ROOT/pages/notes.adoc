@@ -68,7 +68,7 @@ xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
 
 // Naomi -- SCAL-164290, SCAL-201306
 Ts_Groups system variable::
-ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership.
+ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership. For more information, see xref:data-masking.adoc[].
 
 Language updates::
 // Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)

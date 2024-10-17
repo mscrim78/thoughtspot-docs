@@ -83,6 +83,9 @@ _zh-HANT_::
 _ja-JP_::
  日本語
 
+_ko-KR_::
+한국어
+
 ThoughtSpot translates keywords, operators, and error messages.
 See the xref:keywords.adoc[Keyword reference] for all supported languages.
 

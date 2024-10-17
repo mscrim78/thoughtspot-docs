@@ -417,6 +417,7 @@ span.badge.badge-new {
 *** xref:security-rls.adoc[Row-level security (RLS)]
 **** xref:security-rls-concept.adoc[How rule-based RLS works]
 **** xref:security-rls-implement.adoc[Set rule-based RLS]
+*** xref:data-masking.adoc[]
 *** xref:security-data-encryption.adoc[Encryption of data in transit]
 
 * xref:mobile.adoc[Mobile]
