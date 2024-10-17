@@ -4,7 +4,7 @@
 :experimental:
 :linkattrs:
 :description: With SpotIQ change analysis, you can compare two data points for change and identify key change drivers from the underlying attribute columns
-:jira: SCAL-175535, SCAL-175265, SCAL-172513, SCAL-141936, SCAL-147558, SCAL-176265, SCAL-178860, SCAL-201036, SCAL-205576
+:jira: SCAL-175535, SCAL-175265, SCAL-172513, SCAL-141936, SCAL-147558, SCAL-176265, SCAL-178860, SCAL-201036, SCAL-205576, SCAL-201645
 
 With SpotIQ change analysis, you can compare any two data points in a visualization for change and identify key change drivers from the underlying attribute columns.
 
@@ -77,9 +77,9 @@ When you run SpotIQ change analysis, ThoughtSpot detects additional insights and
 image::additional-insight.png[SpotIQ additional insights]
 
 [#remember-personalized]
-=== Remember personalized columns [.badge.badge-early-access]#Early Access#
+=== Remember personalized columns
 
-Admin users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select to keep those selections for any subsequent change analysis calculations on that Liveboard.
+Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select to keep those selections for any subsequent change analysis calculations on that Liveboard.
 
 To set personalized attribute columns that will persist on the Liveboard, follow these steps:
 
