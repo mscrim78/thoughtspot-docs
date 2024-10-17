@@ -81,7 +81,7 @@ Error message improvements:: We have improved the error messages for CSV upload 
 [#data-engineer-10-1-0-sw]
 === For the Data Engineer
 
-// Naomi - JIRA: SCAL-209029
+// Naomi - JIRA: SCAL-209029. Confirm if we support OAuth for Starburst in Software
 OAuth for Starburst using Proof Key for Code Exchange (PKCE):: We now support xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst].
 
 // Naomi – SCAL-191462, documentation jira scal-196178
