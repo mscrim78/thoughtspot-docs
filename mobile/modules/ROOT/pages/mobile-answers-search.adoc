@@ -17,3 +17,5 @@ How to search Answers::
 . Enter your search terms in the *Search Answers* field, and tap *Return*.
 
 The Answers matching your search criteria are displayed in the app.
+
+//insert screen cap

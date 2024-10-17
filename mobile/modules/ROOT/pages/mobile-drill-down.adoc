@@ -8,7 +8,7 @@
 
 [#drill-down]
 
-You can seamlessly and intuitively select data point(s) and drill down for more detailed information.
+You can seamlessly and intuitively select data point(s) in an Answer or Liveboard and drill down for more detailed information.
 You can also trace the drill path back and reset to the initial state.
 
 To drill down:
@@ -30,6 +30,3 @@ To go back to the top level where you started your drill down:
 
 * Tap the Reset icon image:reset.png[reset icon].
 
-////
-does it work with both Answers and Liveboards in the mobile app. If so, I think that should be called out here.
-////
