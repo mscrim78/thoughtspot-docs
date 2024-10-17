@@ -7,7 +7,7 @@
 
 
 
-The following section compares the features available in the ThoughtSpot Mobile and the ThoughtSpot web app apps.
+The following section compares the features available in the ThoughtSpot Mobile and the ThoughtSpot web app.
 
 === Consumption features
 
@@ -41,7 +41,7 @@ The following section compares the features available in the ThoughtSpot Mobile 
 |
 
 ^.^|image:checkmark_black.svg[Yes,15]
-|Download as PDF
+|Download
 |
 
 ^.^|image:checkmark_black.svg[Yes,15]
