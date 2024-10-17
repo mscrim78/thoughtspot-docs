@@ -4,6 +4,7 @@
 :page-partial:
 :page-aliases: /end-user/introduction/about-user.adoc
 :description: Use the user icon to adjust language options, choose notification preferences, manage your answer experience, or sign out of ThoughtSpot.
+:jira: SCAL-199383
 
 The user icon lets you view your profile, adjust language options, specify notification preferences, revisit onboarding, manage your answer experience, or sign out of ThoughtSpot.
 

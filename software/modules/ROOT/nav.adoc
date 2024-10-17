@@ -154,6 +154,8 @@ span.badge.badge-new {
 ** xref:formulas.adoc[Formulas]
 *** xref:formula-add.adoc[Add a formula to search]
 *** xref:formula-answer-edit.adoc[View or edit a formula in a search]
+*** xref:semi-additive-measures.adoc[]
+**** xref:semi-additive-modeling.adoc[]
 
 *** xref:formulas-aggregation.adoc[Aggregate formulas]
 **** xref:formulas-cumulative.adoc[Cumulative functions]
@@ -415,6 +417,7 @@ span.badge.badge-new {
 *** xref:security-rls.adoc[Row-level security (RLS)]
 **** xref:security-rls-concept.adoc[How rule-based RLS works]
 **** xref:security-rls-implement.adoc[Set rule-based RLS]
+*** xref:data-masking.adoc[]
 *** xref:security-data-encryption.adoc[Encryption of data in transit]
 
 * xref:mobile.adoc[Mobile]

@@ -44,9 +44,51 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 [#business-user-10-1-0-sw]
 === For the Business User
 
+// Naomi – JIRA SCAL-214756
+Semi-additive measures with first and last values:: Semi-additive measures with first and last values are now available to all users and on by default. A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month.
++
+For more information, see
+xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions] and xref:semi-additive-modeling.adoc[Modeling data for semi-additive measures].
+
+// Naomi -- JIRA SCAL-201298
+Keywords "of" and "percentage of":: The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as, "What is the share of a certain store’s sales as a percentage of the regional whole?" To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
++
+For more information, see xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
+
+Drill down in change analysis::
+// Naomi – SCAL-180942. doc: SCAL-205576 (approved)
+// PM: Vikas, Rahul PJP
+Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
+
+// Naomi – SCAL-181312. documentation JIRA scal-201645.
+Remember personalized columns in change analysis::
+Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. +
+For more information, see
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
+
+// Naomi -- SCAL-164290, SCAL-201306
+Ts_Groups system variable::
+ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership. For more information, see xref:data-masking.adoc[].
+
+Language updates::
+// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
+// PM: Aashna
+ThoughtSpot now supports xref:keywords-ko-KR.adoc[Korean], and we've also added synonyms for date and time based keywords in xref:keywords-de-DE.adoc[German] and xref:keywords-fr-FR.adoc[French] for a more accurate experience.
+
+// Naomi. SCAL-178764. docs JIRA SCAL-204357
+Error message improvements:: We have improved the error messages for CSV upload and custom calendar.
 
 [#data-engineer-10-1-0-sw]
 === For the Data Engineer
+
+// Naomi - JIRA: SCAL-209029. Confirm if we support OAuth for Starburst in Software
+OAuth for Starburst using Proof Key for Code Exchange (PKCE):: We now support xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst].
+
+// Naomi – SCAL-191462, documentation jira scal-196178
+Snowflake secondary role configuration for External OAuth::
+ThoughtSpot now supports secondary role configuration when you create a Snowflake connection using External OAuth. When you set secondary roles to `ALL`, you can access all tables that any single role has access to and combine them in a single SQL query without having to switch roles.
++
+For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles^] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 
 [#it-ops-engineer-10-1-0-sw]
 === For the IT Ops Engineer
