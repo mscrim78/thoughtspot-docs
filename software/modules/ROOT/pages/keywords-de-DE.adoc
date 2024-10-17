@@ -4,7 +4,7 @@
 :linkattrs:
 :page-partial:
 :locale: Deutsch
-:jira: SCAL-199692
+:jira: SCAL-199692, SCAL-208059
 
 include::partial$keywords-note.adoc[]
 
