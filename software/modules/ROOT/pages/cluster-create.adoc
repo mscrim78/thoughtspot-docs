@@ -19,7 +19,7 @@ Refer to your welcome letter to find a link to download the release tarball.
 If you don't have a download link, open a support ticket with {support-url} to access the release tarball.
 . *Copy the release tarball*
 +
-In your Terminal (Apple) or using https://winscp.net/eng/index.php[Winscp] (Windows application), copy the downloaded release tarball to `/home/admin/` and run the cluster installer.
+In your Terminal (Apple) or using https://winscp.net/eng/index.php[Winscp^] (Windows application), copy the downloaded release tarball to `/home/admin/` and run the cluster installer.
 +
 Run the secure copy command:
 +
@@ -35,7 +35,7 @@ For example:
 $ scp 6.0.tar.gz admin@ThoughtSpot:/home/admin/TS-tarball
 ----
 +
-ThoughtSpot recommends that you start the session using https://linux.die.net/man/1/screen[screen], so you don't lose your progress if you lose your connection at any point.
+ThoughtSpot recommends that you start the session using https://linux.die.net/man/1/screen[screen^], so you don't lose your progress if you lose your connection at any point.
 +
 [source,console]
 ----

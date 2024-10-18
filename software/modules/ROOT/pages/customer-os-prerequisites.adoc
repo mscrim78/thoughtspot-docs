@@ -174,11 +174,11 @@ You must enable the following Yum repositories in your cluster: +
 
 [#python-repository]
 Python repository::
-For Python, ensure the machine is able to reach the `PyPI` repository located at https://pypi.python.org/.
+For Python, ensure the machine is able to reach the `PyPI` repository located at link:https://pypi.python.org/[https://pypi.python.org/^].
 
 [#r-repository]
 R repository::
-For R, ensure the machine is able to reach the `CRAN` repository located at https://cran.rstudio.com/.
+For R, ensure the machine is able to reach the `CRAN` repository located at link:https://cran.rstudio.com/[https://cran.rstudio.com/^].
 
 [#official-repositories]
 *Official package repositories*

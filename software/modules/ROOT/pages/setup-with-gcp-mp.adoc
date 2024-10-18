@@ -8,7 +8,7 @@ Launching a ThoughtSpot instance from GCP Marketplace is fast and easy.
 
 == Setting up ThoughtSpot using GCP Marketplace
 
-. Go to the https://console.cloud.google.com/marketplace[GCP Marketplace], search for *ThoughtSpot BYOL*, and then select it.
+. Go to the https://console.cloud.google.com/marketplace[GCP Marketplace^], search for *ThoughtSpot BYOL*, and then select it.
 +
 The ThoughtSpot launch page appears.
 image:gcp-mp-launch.png[ThoughtSpot launch page within the GCP marketplace]

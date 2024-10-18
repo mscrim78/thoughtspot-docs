@@ -12,7 +12,7 @@ NOTE: ThoughtSpot has stopped selling and renewing hardware appliance contracts.
 
 Input your specific network information to configure the management settings for your Dell appliance.
 Refer to <<dell-idrac-config,Dell management configuration>>.
-If you need additional guidance, view https://www.dell.com/support/home/us/en/04/product-support/product/dell-xc6420/overview[Dell Support] for this product.
+If you need additional guidance, view https://www.dell.com/support/home/us/en/04/product-support/product/dell-xc6420/overview[Dell Support^] for this product.
 
 . *Open the iDRAC settings modal* Before the node boots, a screen appears on your monitor with several options.
 Select F2 to open the Bios setup menu.

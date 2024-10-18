@@ -18,7 +18,7 @@ Additionally, the system administrator should have available both the proper Pri
 
 IMPORTANT: Portions of this procedure require that you work with {support-url}.
 
-The https://www.simba.com/products/SEN/doc/Client-Server_user_guide/content/clientserver/configuringsimbaserver/configurationoptions.htm[SimbaServer Configuration Properties reference] includes full details on https://www.simba.com/products/SEN/doc/Client-Server_user_guide/content/clientserver/configuringsimbaserver/configurationoptions.htm#SSL_Server[SSL Configuration Properties].
+The https://www.simba.com/products/SEN/doc/Client-Server_user_guide/content/clientserver/configuringsimbaserver/configurationoptions.htm[SimbaServer Configuration Properties reference^] includes full details on https://www.simba.com/products/SEN/doc/Client-Server_user_guide/content/clientserver/configuringsimbaserver/configurationoptions.htm#SSL_Server[SSL Configuration Properties^].
 
 Before you change your ODBC configuration, decide on a path where you will store the Private Key and Server Certificate, for example, you could decide to use `/home/admin/Simba_SSL/` as the path.
 
@@ -44,8 +44,8 @@ You must work with your ThoughtSpot Customer Success or Support Engineer to do t
 
 Please note that the SSL settings on the server and client are interdependent.
 
-The https://www.simba.com/products/SEN/doc/Client-Server_user_guide/content/clientserver/configuringsimbaclientodbc/simbaclientodbcconfigurationoptions.htm[SimbaClient for ODBC Configuration Properties] reference describes how to set parameters on the client to use SSL (scroll down to useSsl section at the end).
-The Simba documentation also provides a chart showing https://www.simba.com/products/SEN/doc/Client-Server_user_guide/content/clientserver/configuringssl/configcombinations.htm[configuration properties for SSL] where you can see how different combinations of SSL settings on client and server will behave.
+The https://www.simba.com/products/SEN/doc/Client-Server_user_guide/content/clientserver/configuringsimbaclientodbc/simbaclientodbcconfigurationoptions.htm[SimbaClient for ODBC Configuration Properties^] reference describes how to set parameters on the client to use SSL (scroll down to useSsl section at the end).
+The Simba documentation also provides a chart showing https://www.simba.com/products/SEN/doc/Client-Server_user_guide/content/clientserver/configuringssl/configcombinations.htm[configuration properties for SSL^] where you can see how different combinations of SSL settings on client and server will behave.
 For example:
 
 * Setting both server and client to `UseSsl=Enabled` provides the ability for clients to connect with or without SSL.

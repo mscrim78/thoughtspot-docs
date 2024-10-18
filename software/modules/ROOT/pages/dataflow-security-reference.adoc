@@ -48,10 +48,10 @@ securityLevel=onlySecured;CaCertFile=file:///root/work/netezza-ssl/nz_cert_key/c
 sslConnection=true;trustStore=/root/work/db2-ssl/db2_cert/db2_trust.jks;trustStorePassword=password123
 ----
 | Snowflake | JDBC | Yes | No configuration is required, by default Snowflake encrypts the data in transit. |
-| Amazon Redshift | JDBC | No | Configuration is same as for PostgreSQL. If the server's certificate is CA signed and the CA is already in trusted list, then no need to explicitly set a truststore, just `ssl=true` will do   https://docs.aws.amazon.com/redshift/latest/mgmt/connecting-ssl-support.html |
-| Google BigQuery | Native Java Driver | Yes |  | https://cloud.google.com/security/encryption-in-transit#end_user_internet_to_a_google_cloud_service   https://cloud.google.com/security/encryption-in-transit#encryption_in_transit_by_default
-| Azure Synapse | JDBC | Yes | | https://docs.microsoft.com/en-us/azure/synapse-analytics/security-baseline#44-encrypt-all-sensitive-information-in-transit
-| Teradata | JDBC | No | EncryptData property has to be set to true as suggested here:    https://teradata-docs.s3.amazonaws.com/doc/connectivity/jdbc/reference/current/jdbcug_chapter_2.html#URL_ENCRYPTDATA a| `ENCRYPTDATA=ON`
+| Amazon Redshift | JDBC | No | Configuration is same as for PostgreSQL. If the server's certificate is CA signed and the CA is already in trusted list, then no need to explicitly set a truststore, just `ssl=true` will do   link:https://docs.aws.amazon.com/redshift/latest/mgmt/connecting-ssl-support.html[https://docs.aws.amazon.com/redshift/latest/mgmt/connecting-ssl-support.html^] |
+| Google BigQuery | Native Java Driver | Yes |  | link:https://cloud.google.com/security/encryption-in-transit#end_user_internet_to_a_google_cloud_service[https://cloud.google.com/security/encryption-in-transit#end_user_internet_to_a_google_cloud_service^]   link:https://cloud.google.com/security/encryption-in-transit#encryption_in_transit_by_default[https://cloud.google.com/security/encryption-in-transit#encryption_in_transit_by_default^]
+| Azure Synapse | JDBC | Yes | | link:https://docs.microsoft.com/en-us/azure/synapse-analytics/security-baseline#44-encrypt-all-sensitive-information-in-transit[https://docs.microsoft.com/en-us/azure/synapse-analytics/security-baseline#44-encrypt-all-sensitive-information-in-transit^]
+| Teradata | JDBC | No | EncryptData property has to be set to true as suggested here:    link:https://teradata-docs.s3.amazonaws.com/doc/connectivity/jdbc/reference/current/jdbcug_chapter_2.html#URL_ENCRYPTDATA[https://teradata-docs.s3.amazonaws.com/doc/connectivity/jdbc/reference/current/jdbcug_chapter_2.html#URL_ENCRYPTDATA^] a| `ENCRYPTDATA=ON`
 | SAP HANA | JDBC | No | Can be configured through JDBC options a| ----
 encrypt=true;trustStore=/<path>/<to>/truststore.jks;trustStoreType=JKS;trustStorePassword=<password of the JKS file>;hostNameInCertificate=<FQDN in the server certificate>
 ----
