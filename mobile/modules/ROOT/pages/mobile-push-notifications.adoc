@@ -9,7 +9,7 @@
 
 You can now receive push notifications from ThoughtSpot Mobile, when a Liveboard or Answer is shared with you. You can also monitor scheduled and threshold alerts using push notifications.
 
-For more information about enabling or disabling notifications in the ThoughtSpot web app, see https://docs.thoughtspot.com/cloud/latest/web-notifications.
+For more information about enabling or disabling notifications in the ThoughtSpot web app, see link:https://docs.thoughtspot.com/cloud/latest/web-notifications[Notifications].
 
 NOTE: You will also need to enable notifications for the ThoughtSpot Mobile app on your mobile device to ensure that you receive push notifications.
 

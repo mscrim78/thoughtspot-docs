@@ -14,7 +14,7 @@ Notes are added to Liveboards, so that viewers of the Liveboards can quickly und
 
 Note tiles can provide an overview of a Liveboard or visualization, company branding through images, definitions of terms used in the Liveboard, descriptions of how to best use the data in the Liveboard or visualization, and so on. Note tiles can appear anywhere in the Liveboard, unlike the Liveboard description, which is only at the top of the Liveboard.
 
-NOTE: For more information about creating note tikles in the ThoughtSpot web app, see https://docs.thoughtspot.com/cloud/latest/liveboard-notes.
+NOTE: For more information about creating note tiles in the ThoughtSpot web app, see link:https://docs.thoughtspot.com/cloud/latest/liveboard-notes[Note tiles].
 
 ////
 No user action to view note tiles.
