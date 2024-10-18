@@ -37,7 +37,7 @@ This means that you must not offer managed services to third parties that are ba
 You may not disable this survey.
 +
 If you are using either the *_Visualization Embedding_* or *_Liveboard Embedding_* in your application, it is okay to disable the NPS survey.
-. Deployments of ThoughtSpot Extended Enterprise must conform to https://brand.thoughtspot.com/d/Vtg4Zg2mqTbE/brand-guidelines[logo restrictions].
+. Deployments of ThoughtSpot Extended Enterprise must conform to https://brand.thoughtspot.com/d/Vtg4Zg2mqTbE/brand-guidelines[logo restrictions^].
 +
 These are the branding elements you can change in ThoughtSpot Extended Enterprise:
 

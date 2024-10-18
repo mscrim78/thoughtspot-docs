@@ -13,7 +13,7 @@ To install your appliance, you must install the cluster.
 
 . *Copy the release tarball*
 +
-In your Terminal (Apple) or using https://winscp.net/eng/index.php[Winscp] (Windows application), copy the downloaded release tarball to /home/admin/ and run the cluster installer.
+In your Terminal (Apple) or using https://winscp.net/eng/index.php[Winscp^] (Windows application), copy the downloaded release tarball to /home/admin/ and run the cluster installer.
 +
 Run the secure copy command:
 +
@@ -29,7 +29,7 @@ For example:
 $ scp 6.0.tar.gz admin@ThoughtSpot:/home/admin/TS-tarball.
 ----
 +
-ThoughtSpot recommends that you start the session using https://linux.die.net/man/1/screen[screen], so you do not lose your progress if you lose your connection at any point.
+ThoughtSpot recommends that you start the session using https://linux.die.net/man/1/screen[screen^], so you do not lose your progress if you lose your connection at any point.
 +
 Note the following parameters:
 +

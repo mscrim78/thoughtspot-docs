@@ -16,14 +16,14 @@ This workstation is the same machine where you plan to run your ETL activities.
 == Prerequisites
 
 These instructions include directions to use the `ssh` command.
-Make sure your Windows workstation is equipped with a tool https://www.putty.org/[such as Putty] for making `ssh` connections to your ThoughtSpot server.
+Make sure your Windows workstation is equipped with a tool https://www.putty.org/[such as Putty^] for making `ssh` connections to your ThoughtSpot server.
 
 The ODBC driver for Windows requires Visual C{pp} Redistributable for Visual Studio 2013.
 You are prompted to install it during installation of the driver if it isn't already installed.
 
 To check if this Microsoft tool is already installed, search for it on your computer.
 
-If it isn't installed, make sure you https://www.microsoft.com/en-us/download/details.aspx?id=40784[download and install it] before continuing.
+If it isn't installed, make sure you https://www.microsoft.com/en-us/download/details.aspx?id=40784[download and install it^] before continuing.
 
 == Check the ThoughtSpot IP and the simba_server status
 

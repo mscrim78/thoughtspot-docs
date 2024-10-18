@@ -13,7 +13,7 @@
 
 In order to use ThoughtSpot to connect to, and query your GBQ database, you must create a custom role with specific permissions and then assign it to  your service account.
 
-. Navigate to https://console.cloud.google.com[console.cloud.google.com], sign in, and select your project.
+. Navigate to https://console.cloud.google.com[console.cloud.google.com^], sign in, and select your project.
 . Hover over *IAM & admin*.
 . Select *Roles*.
 . Select *+CREATE ROLE*.
@@ -46,7 +46,7 @@ image::gbq-role-permissions.png[Add permissions window with the permissions list
 You may already have a service account for GBQ with the proper permissions in place.
 If not, follow these steps to create a service account.
 
-. Navigate to https://console.cloud.google.com[console.cloud.google.com], sign in, and select your project.
+. Navigate to https://console.cloud.google.com[console.cloud.google.com^], sign in, and select your project.
 . Select the navigation menu in the upper left, if it is not already open.
 . Hover over *IAM & Admin*.
 . Select *Service Accounts*.
@@ -77,7 +77,7 @@ The key downloads to your computer. +
 
 To make your dataset available for your Google BigQuery connection in ThoughtSpot, you must share it with your service account in Google BigQuery in an owner role.
 
-. Navigate to https://console.cloud.google.com[console.cloud.google.com], sign in, and select your project.
+. Navigate to https://console.cloud.google.com[console.cloud.google.com^], sign in, and select your project.
 . Select the navigation menu in the upper left, if it is not already open.
 . Scroll down in the navigation menu into the BIG DATA section, and select *BigQuery*. +
  Your project should be listed on the left side of the page under the search box.

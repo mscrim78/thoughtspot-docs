@@ -19,7 +19,7 @@ Upload up to 50 custom map files. To increase this limit, contact {support-url}.
 * To upload custom maps, you must have admin privileges.
 * Your custom map must be a `TopoJSON` file. It can't be more than 100 MB.
 * In 9.0.1.sw, this feature is xref:release-lifecycle.adoc#early-access[Early Access]. Your ThoughtSpot administrator must enable it.
-* If you use a remote URL to upload your custom map, you must add the base URL of the custom map to your CSP override list. For example, if the remote URL for your custom map is https://raw.githubusercontent.com/bmesuere/belgium-topojson/master/belgium.json, you must add https://raw.githubusercontent.com to your CSP override list. See <<remote-url,Add the remote URL to your CSP override list>>.
+* If you use a remote URL to upload your custom map, you must add the base URL of the custom map to your CSP override list. For example, if the remote URL for your custom map is link:https://raw.githubusercontent.com/bmesuere/belgium-topojson/master/belgium.json[https://raw.githubusercontent.com/bmesuere/belgium-topojson/master/belgium.json^], you must add link:https://raw.githubusercontent.com[https://raw.githubusercontent.com^] to your CSP override list. See <<remote-url,Add the remote URL to your CSP override list>>.
 
 == Upload your own custom maps
 
@@ -64,7 +64,7 @@ ssh admin@<IP-address>
 tscli csp add-override -source 'connect-src' --url <base-url>
 ----
 +
-Replace `<base-url>` with your remote URL's base URL. For example, if the remote URL for your custom map is https://raw.githubusercontent.com/bmesuere/belgium-topojson/master/belgium.json, your base URL is https://raw.githubusercontent.com.
+Replace `<base-url>` with your remote URL's base URL. For example, if the remote URL for your custom map is link:https://raw.githubusercontent.com/bmesuere/belgium-topojson/master/belgium.json[https://raw.githubusercontent.com/bmesuere/belgium-topojson/master/belgium.json^], your base URL is link:https://raw.githubusercontent.com[https://raw.githubusercontent.com^].
 +
 [source,bash]
 ----

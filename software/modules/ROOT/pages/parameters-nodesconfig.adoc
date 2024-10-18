@@ -60,7 +60,7 @@ For example, 192.168.4.1.
 
 *Timezone*::	The timezone the majority of your ThoughtSpot users are in, in the form Country/City.
 For example, America/Los_Angeles.
-To find your timezone and a city you can use to identify it, use https://en.wikipedia.org/wiki/List_of_tz_database_time_zones[this timezone list].
+To find your timezone and a city you can use to identify it, use https://en.wikipedia.org/wiki/List_of_tz_database_time_zones[this timezone list^].
 
 *NTPServers*::	The address of your company's Network Time Protocol (NTP) server.
 If your company does not have an NTP server, you can use one of ThoughtSpot's, as listed in xref:nodesconfig-example.adoc#autodiscovery-of-one-node-example[the nodes.config] example under NTPServers.

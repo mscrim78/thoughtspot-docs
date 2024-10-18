@@ -53,10 +53,10 @@ Extra cores help performance.
 | &#10063; a| As a best practice, and for better performance, ThoughtSpot recommends that you install the operating system on a solid-state drive, or SSD.
 
 For data storage, you can use solid-state drives, local hard drives, or storage as a network (SAN) drives.
-| &#10063; a| Ensure that you do not enable the https://www.vmware.com/products/vsphere/drs-dpm.html[VMware DRS workload manager].
+| &#10063; a| Ensure that you do not enable the https://www.vmware.com/products/vsphere/drs-dpm.html[VMware DRS workload manager^].
 It may cause outages for your ThoughtSpot servers.
 Your VMware administrator must disable VMware DRS.
-| &#10063; | Install https://my.vmware.com/web/vmware/downloads/details?downloadGroup=VMTOOLS1106&productId=974[VMware tools] on each virtual machine, to increase hardware speed and performance.
+| &#10063; | Install https://my.vmware.com/web/vmware/downloads/details?downloadGroup=VMTOOLS1106&productId=974[VMware tools^] on each virtual machine, to increase hardware speed and performance.
 | &#10063; | A ThoughtSpot cluster requires 10 Gb/s bandwidth (or better) between any two nodes. You must ensure this _before_ creating a new cluster.
 | &#10063; a| Download and fill out the ThoughtSpot link:{attachmentsdir}/site-survey.pdf[site survey^] to have a quick reference for any networking information you may need to fill out as you install ThoughtSpot.
 

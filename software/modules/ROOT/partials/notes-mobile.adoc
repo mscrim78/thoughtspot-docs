@@ -23,7 +23,7 @@ We have moved Liveboards to the new Answer experience on mobile in this release.
 [#2-4-new]
 == 2.4 New Features and Functionality
 * Provided support for trust certificates signed by user-added CAs.
-* Check out the new Answer experience on ThoughtSpot Mobile. For more information on the new Answer experience, see link:https://docs.thoughtspot.com/software/latest/answer-experience-new[New Answer experience].
+* Check out the new Answer experience on ThoughtSpot Mobile. For more information on the new Answer experience, see link:https://docs.thoughtspot.com/software/latest/answer-experience-new[New Answer experience^].
 * KPI charts are now supported on the Answer page.
 +
 NOTE: KPI charts are not available on Liveboards at this time.

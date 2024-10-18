@@ -9,7 +9,7 @@ An administrator must sign the ThoughtSpot use agreement in the application to a
 
 Prior to ThoughtSpot release 6.2, administrators signed a paper use agreement to allow their users to use ThoughtSpot.
 Starting with release 6.2, you can easily sign the use agreement from the application itself.
-You can view a copy of this agreement at https://www.thoughtspot.com/legal[ThoughtSpot Legal].
+You can view a copy of this agreement at https://www.thoughtspot.com/legal[ThoughtSpot Legal^].
 
 NOTE: Even if you previously signed a paper copy of the use agreement, an admin *_must_* sign the agreement in the application, within 30 days of your upgrade to release 6.2 or later.
 
@@ -48,7 +48,7 @@ You do not need internet access to sign the agreement, since it is bundled with 
 . Ensure that you have administrator privileges.
 . Select *Accept* from the yellow notification bar.
 . Read the use agreement in full before accepting.
-You can view a copy of the agreement at https://www.thoughtspot.com/legal[ThoughtSpot Legal].
+You can view a copy of the agreement at https://www.thoughtspot.com/legal[ThoughtSpot Legal^].
 . If your ThoughtSpot account does not have an associated email, you must enter your email before you can sign the agreement.
 If your ThoughtSpot account has an associated email, you do not need to enter it in this window.
 The email text box does not appear if you already have an email associated with your account.
