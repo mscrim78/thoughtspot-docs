@@ -13,7 +13,7 @@
 * xref:mobile-answers.adoc[Answers]
 ** xref:mobile-answers-search.adoc[Search Answers]
 * xref:mobile-ask-sage.adoc[ThoughtSpot Sage on mobile]
-* xref:mobile-features.adoc[Other features]
+* Other features
 ** xref:mobile-localization.adoc[Supported languages]
 ** xref:mobile-push-notifications.adoc[Push notifications]
 ** xref:mobile-deep-linking.adoc[Sharing]
