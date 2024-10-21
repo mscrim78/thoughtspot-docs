@@ -99,10 +99,10 @@ You can access your ThoughtSpot cluster to search Answers and Liveboards.
 
 == Who uses ThoughtSpot Mobile
 ThoughtSpot Mobile can be used by anyone who wants to connect to their ThoughtSpot cluster from a ThoughtSpot Mobile client.
-
+////
 == Use cases
 Use ThoughtSpot Mobile to access Answers and create or filter Liveboards.
-
+////
 == Latest updates
 
 Version 2.9.0 supports more features that were previously available only through the ThoughtSpot web app, including:
