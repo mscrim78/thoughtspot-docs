@@ -44,6 +44,11 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 [#business-user-10-1-0-sw]
 === For the Business User
 
+// Naomi -- scal-201035
+Null and missing values in charts::
+You can now choose how null and missing values appear in line, column, and bar charts in ThoughtSpot. Null and missing values appear as bars of 1 pixel width on bar and column charts. You can choose whether to display null date values as zero values, line breaks, or an average of proximate values on a line chart. Rather than showing a sharp decline to zero every time there is null or missing data on your line chart, you can see the missing values represented as line breaks or averages of the closest values instead. For more information, see
+xref:chart-null-missing.adoc[Null and missing values in charts].
+
 // Naomi – JIRA SCAL-214756
 Semi-additive measures with first and last values:: Semi-additive measures with first and last values are now available to all users and on by default. A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month.
 +
@@ -97,6 +102,9 @@ For more information on primary and secondary roles, see link:https://docs.snowf
 [#it-ops-engineer-10-1-0-sw]
 === For the IT Ops Engineer
 
+// Naomi -- scal-201040
+Renaming columns::
+You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet. For more information, see xref:chart-column-axis-rename.adoc#column-rename[Rename a table column].
 
 [#developer-10-1-0-sw]
 === For the Developer
