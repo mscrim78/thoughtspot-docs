@@ -82,10 +82,6 @@ Drill down in change analysis is now on by default and available to all users. Y
 // Naomi. SCAL-178764. docs JIRA SCAL-204357. release notes only.
 Error message improvements:: We have improved the error messages for CSV upload and custom calendar.
 
-// Mark. SCAL-180913
-
-AI Highlights:: With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator. For more information, see xref:liveboard-ai-highlights.adoc[AI Highlights].
-
 [#data-engineer-10-1-0-sw]
 === For the Data Engineer
 
