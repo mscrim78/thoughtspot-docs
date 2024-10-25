@@ -21,9 +21,9 @@ These release notes include information about new and enhanced features.
 
 To see our feature deprecation plans, please see xref:deprecation.adoc[].
 
-For a complete list of issues that we fixed in this release, see xref:fixed.adoc#releases-9-8-x[Fixed issues].
+For a complete list of issues that we fixed in this release, see xref:fixed.adoc#releases-10-1-x[Fixed issues].
 
-* <<new-9-8-0,9.8.0.sw New Features and Functionality>>
+* <<new-10-1-0,10.1.0.sw New Features and Functionality>>
 * <<upgrade-paths,Supported Upgrade Paths>>
 
 [#new-10-1-0]
@@ -39,7 +39,20 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 [#analyst-10-1-0-sw]
 === For the Analyst
 
+// Naomi – SCAL-181312. documentation JIRA scal-201645.
+Remember personalized columns in change analysis::
+Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. +
+For more information, see
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
 
+// Naomi -- scal-201040
+Renaming columns::
+You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet. For more information, see xref:chart-column-axis-rename.adoc#column-rename[Rename a table column].
+
+Language updates::
+// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
+// PM: Aashna
+ThoughtSpot now supports xref:keywords-ko-KR.adoc[Korean], and we've also added synonyms for date and time based keywords in xref:keywords-de-DE.adoc[German] and xref:keywords-fr-FR.adoc[French] for a more accurate experience.
 
 [#business-user-10-1-0-sw]
 === For the Business User
@@ -65,22 +78,8 @@ Drill down in change analysis::
 // PM: Vikas, Rahul PJP
 Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
-// Naomi – SCAL-181312. documentation JIRA scal-201645.
-Remember personalized columns in change analysis::
-Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. +
-For more information, see
-xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
 
-// Naomi -- SCAL-164290, SCAL-201306
-Ts_Groups system variable::
-ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership. For more information, see xref:data-masking.adoc[].
-
-Language updates::
-// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
-// PM: Aashna
-ThoughtSpot now supports xref:keywords-ko-KR.adoc[Korean], and we've also added synonyms for date and time based keywords in xref:keywords-de-DE.adoc[German] and xref:keywords-fr-FR.adoc[French] for a more accurate experience.
-
-// Naomi. SCAL-178764. docs JIRA SCAL-204357
+// Naomi. SCAL-178764. docs JIRA SCAL-204357. release notes only.
 Error message improvements:: We have improved the error messages for CSV upload and custom calendar.
 
 // Mark. SCAL-180913
@@ -89,6 +88,10 @@ AI Highlights:: With AI Highlights, you get quick insights on how top metrics ha
 
 [#data-engineer-10-1-0-sw]
 === For the Data Engineer
+
+// Naomi -- SCAL-164290, SCAL-201306
+Ts_Groups system variable::
+ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership. For more information, see xref:data-masking.adoc[].
 
 // Naomi - JIRA: SCAL-209029. Confirm if we support OAuth for Starburst in Software
 OAuth for Starburst using Proof Key for Code Exchange (PKCE):: We now support xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst].
@@ -102,9 +105,6 @@ For more information on primary and secondary roles, see link:https://docs.snowf
 [#it-ops-engineer-10-1-0-sw]
 === For the IT Ops Engineer
 
-// Naomi -- scal-201040
-Renaming columns::
-You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet. For more information, see xref:chart-column-axis-rename.adoc#column-rename[Rename a table column].
 
 [#developer-10-1-0-sw]
 === For the Developer
