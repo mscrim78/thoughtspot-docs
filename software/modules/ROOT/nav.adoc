@@ -212,7 +212,7 @@ span.badge.badge-new {
 *** xref:worksheet-delete.adoc[Delete a worksheet or table]
 *** xref:tml-worksheets.adoc[Model, migrate, or restore a worksheet]
 ** xref:models.adoc[Work with Models]
-
+** xref:table-joins-compatible[Supported join types]
 ** xref:views.adoc[Work with views]
 *** xref:sql-views.adoc[SQL views]
 *** xref:searches-views.adoc[Save a search as a view]
