@@ -110,6 +110,11 @@ ThoughtSpot now supports secondary role configuration when you create a Snowflak
 +
 For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles^] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 
+// Mark - SCAL-205579
+
+Answer data panel enhancements::
+Now in the new Answer data panel, you can filter as you hover on a column, _By category_ grouping by default, and display the information panel when you click a column.
+
 [#it-ops-engineer-10-1-0-sw]
 === For the IT Ops Engineer
 
