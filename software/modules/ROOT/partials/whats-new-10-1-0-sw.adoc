@@ -18,6 +18,60 @@ endif::[]
 
 // Business User
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-sw-redesign]
+[discrete]
+=== Redesigned homepage [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-sw-redesign]
+[discrete]
+=== Redesigned homepage [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// needs new gif. downplay slightly. homepage is being redesigned based on feedback, here's what's been done/ it's a work in progress. There's going to be a button added at the bottom to add feedback.
+// Mark. doc jira: SCAL-151210
+
+In this release, you can try our redesigned and customizable homepage, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
+
+This new homepage experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables persona-based navigation.
+For more information, see
+ifndef::pendo-links[]
+xref:thoughtspot-homepage.adoc[New homepage].
+endif::[]
+ifdef::pendo-links[]
+xref:thoughtspot-homepage.adoc[New homepage,window=_blank].
+endif::[]
+
+image::scroll-homepage.gif[New homepage design]
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-sw-nav]
+[discrete]
+=== New persona-based navigation [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-sw-nav]
+[discrete]
+=== New persona-based navigation [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Mark. Doc jira: SCAL-175398
+
+In this release, you can try our completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, administrators, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
+
+This new navigation experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables the redesigned homepage. For more information, see
+ifndef::pendo-links[]
+xref:thoughtspot-homepage.adoc[Persona-based navigation].
+endif::[]
+ifdef::pendo-links[]
+xref:thoughtspot-homepage.adoc[Persona-based navigation,window=_blank].
+endif::[]
+
+image::app-switcher.png[Persona-based navigation]
+endif::free-trial-feature[]
+
 [#10-1-0-sw-null]
 [discrete]
 === Null and missing values in charts

@@ -57,6 +57,18 @@ ThoughtSpot now supports xref:keywords-ko-KR.adoc[Korean], and we've also added 
 [#business-user-10-1-0-sw]
 === For the Business User
 
+Redesigned home page [.badge.badge-early-access-relnotes]#Early Access#::
+// Mark. doc jira: SCAL-151210
+In this release, you can try our redesigned and customizable home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
++
+This new home page experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables persona-based navigation. For more information, see xref:thoughtspot-homepage.adoc[].
+
+New persona-based navigation [.badge.badge-early-access-relnotes]#Early Access#::
+// Mark. Doc jira: SCAL-175398
+In this release, you can try our completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, administrators, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
++
+This new navigation experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables the redesigned home page. For more information, see xref:thoughtspot-homepage.adoc[].
+
 // Naomi -- scal-201035
 Null and missing values in charts::
 You can now choose how null and missing values appear in line, column, and bar charts in ThoughtSpot. Null and missing values appear as bars of 1 pixel width on bar and column charts. You can choose whether to display null date values as zero values, line breaks, or an average of proximate values on a line chart. Rather than showing a sharp decline to zero every time there is null or missing data on your line chart, you can see the missing values represented as line breaks or averages of the closest values instead. For more information, see
