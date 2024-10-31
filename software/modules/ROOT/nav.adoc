@@ -389,7 +389,7 @@ span.badge.badge-new {
 *** xref:group-management.adoc[Create, edit, or delete a group]
 *** xref:user-management.adoc[Create, edit, or delete a user]
 *** xref:user-sign-up.adoc[Allow users to sign up]
-
+** xref:git-version-control.adoc[Version control]
 ** xref:orgs-overview.adoc[Multi-tenancy with Orgs]
 *** xref:orgs-administration-overview.adoc[Orgs administration]
 *** xref:user-management-orgs.adoc[Create, edit, or delete a user in a multi-tenant environment]
