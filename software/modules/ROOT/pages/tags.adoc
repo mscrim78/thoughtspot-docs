@@ -1,12 +1,9 @@
 = Use tags to organize
-:last_updated: 12/31/2020
+:last_updated: 11/04/2021
 :linkattrs:
 :experimental:
-:page-partial:
-:page-aliases: /admin/data-modeling/tags-concept.adoc
-:description: Tags enable you to create categories for classification of objects, including Liveboards, answers, data sources, and worksheets.
-
-
-Tags enable you to create categories for classification of objects, including Liveboards, answers, data sources, and worksheets.
+:page-aliases: /end-user/tags.adoc, /admin/data-modeling/tags.adoc
+:description: Tags enable you to create categories for classification of objects, including Liveboards, Answers, data sources, and Worksheets.
+:jira: SCAL-223133,  SCAL-216792
 
 include::partial$tags.adoc[]
