@@ -128,6 +128,25 @@ ThoughtSpot now supports secondary role configuration when you create a Snowflak
 +
 For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles^] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 
+// Naomi -- SCAL-126451. documentation JIRA SCAL-201301
+Sharing dbt connections::
+You can now select a dbt connection and click *Share* to share the connection with other users or groups. By default, the underlying Cloud data warehouse connection is shared. Note that you need *Can manage data* privileges to access and share dbt connections.
+For more information, see
+xref:dbt-integration.adoc#share[Share a dbt connection].
+
+// Naomi -- SCAL-126453, SCAL-201305
+dbt connections join enhancement::
+When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. Now, joins between the tables will be created local to the Worksheet instead of creating a global join between the tables.
+
+// Naomi -- SCAL-180960. documentation JIRA SCAL-201304.
+dbt error message handling::
+ThoughtSpot displays dbt error messages that clearly describe whether the error originated in dbt or in ThoughtSpot, where the error was encountered, and what steps users should take to resolve the issue. For a list of the error messages ThoughtSpot supports, see
+xref:dbt-integration.adoc#error[dbt error messages].
+
+
+// Naomi -- scal-169614, documentation JIRA scal-201047
+dbt version 1.7:: ThoughtSpot now supports dbt version 1.7.
+
 // Mark - SCAL-205579
 
 Answer data panel enhancements::
