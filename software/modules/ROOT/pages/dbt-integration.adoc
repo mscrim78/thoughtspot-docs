@@ -3,7 +3,7 @@
 :linkattrs:
 :experimental:
 :author: Teresa Killmond, Naomi
-:jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947, SCAL-182271, SCAL-182987
+:jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947, SCAL-182271, SCAL-182987, SCAL-201301, SCAL-201047
 :description: ThoughtSpot's dbt integration allows you to provide your existing dbt models and create ThoughtSpot Worksheets, which you can use to search your data.
 
 
@@ -79,7 +79,7 @@ Unable to connect to dbt project. Please verify API key and retry
 +
 image::dbt-error-message.png[Error message saying "Unable to connect to dbt project. Please verify API key and retry"]
 
-. If you receive the following error, you may need to switch to an older version of dbt. ThoughtSpot supports dbt for versions 1.6 and earlier. Navigate to dbt and go to *Deploy > Environments > Environment_Name > Settings*. Click the dbt Version menu and scroll down to select 1.6.
+. If you receive the following error, you may need to switch to an older version of dbt. ThoughtSpot supports dbt for versions 1.7 and earlier. Navigate to dbt and go to *Deploy > Environments > Environment_Name > Settings*. Click the dbt Version menu and scroll down to select 1.7.
 +
 ----
 Unable to fetch dbt models
@@ -208,6 +208,26 @@ NOTE: When you edit a dbt integration, you often add columns and descriptions to
 +
 NOTE: You may generate an error if you have removed or renamed a column in dbt before re-syncing to ThoughtSpot. To handle this error, check your dbt models and tables to ensure every column maps correctly to the tables and models in ThoughtSpot.
 
+[#share]
+== Share a dbt connection
+
+You can now select a dbt connection and click *Share* to share the connection with other users or groups. To share a dbt connection, follow these steps:
+
+. Navigate to the *Data* tab and select *dbt* from the left menu.
+
+. From the list of dbt connections, select the checkbox next to the connection you want to share.
+
+. Click *Share*. The Share dialog box appears.
+
+. Enter the name(s) of the users or groups you'd like to share with in the search bar.
++
+Once selected, access will automatically be granted to the user or group. To remove access from a user or group, click the *Remove dbt access* option to the right of their name.
+
+. Users or groups you select automatically receive edit access to the dbt connection. To remove edit access, de-select the *Grant edit access to <connection_name>* option at the bottom of the dialog box.
+
+. Click *Done*.
+
+
 
 == Limitations
 
@@ -226,6 +246,45 @@ NOTE: You may generate an error if you have removed or renamed a column in dbt b
 == Troubleshooting
 
 For help troubleshooting issues with your dbt integration, see https://community.thoughtspot.com/s/article/Common-errors-encountered-during-dbt-Integration[Common errors encountered during dbt integration^].
+
+[#error]
+For a full list of dbt errors, see the following table:
+
+[options="header"]
+|===
+| Error ID | Error message
+
+| ZIP_ERROR | "manifest/catalog json files not found. Please verify " + "zip file and retry."
+
+| SESSION_ERROR | "Session expired, please re-import the json files."
+
+| DBT_API_ERROR | "Unable to connect to dbt project. Please verify the details."
+
+| INVALID_CONNECTION_ERROR | "Unable to fetch connection details, " + "please check the connection."
+
+| DBT_JSON_MISMATCH_MESSAGE | "Unable to import objects into " + "ThoughtSpot, missing table in catalog:"
+
+| WORKSHEET_ERROR | "Error occurred while generating Worksheet TML's."
+
+| TABLE_ERROR | "Error occurred while generating Table TML's."
+
+| TML_ERROR | "Error occurred while generating TML's."
+
+| TABLE_DETAILS_ERROR | "Error while getting Table details."
+
+| REQUEST_TIMEOUT | "Request timeout."
+
+| TML_IMPORT_ERROR | "Error occurred during TML import."
+
+| ZIP_FILE_ERROR | "Error with the uploaded ZIP file."
+
+//| Common error - either with the connection details/ zip file. | "Invalid request. Please verify the given details."
+
+| CONNECTIONLIST_ERROR | "Error while fetching dbt connections list."
+
+| CONNECTIONDELETE_ERROR | "Failed to delete dbt connection."
+
+|===
 
 '''
 > **Related information**
