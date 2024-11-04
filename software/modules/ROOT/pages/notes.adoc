@@ -138,6 +138,11 @@ Now in the new Answer data panel, you can filter as you hover on a column, _By c
 Enabling GIT integration for version control of Liveboards and Answers::
 Administrators can now enable version control of Liveboards and Answers. You enable version control for your ThoughtSpot Org by connecting it to a Github repository. Once enabled for the Org, version control can be enabled individually for any Liveboard or Answer. Each time a user saves changes, a new version of the Liveboard or Answer is created and stored in your Github repository. Users can easily browse and restore an older version from the Liveboard or Answer itself. For more information, see xref:git-version-control.adoc[Version control for Liveboards and Answers].
 
+// Mark -- Jira: SCAL-136317
+
+Multiple configurations for Snowflake connections [.badge.badge-early-access-relnotes]#Early Access#::
+You can now create multiple configurations for each Snowflake connection. This allows you to allocate a separate Snowflake warehouse for different ThoughtSpot users or groups, eliminating the need to duplicate Liveboards and configure multiple Snowflake connections and helping you with cost tracking and chargeback. You can also use this for your search indexing so that you can control and balance the computing load. In addition, this allows you to easily test a set of Liveboards against different environments (dev, qa, prod), and configure different databases for multi-tenancy / multi-org deployments. For more information, see xref:connections-snowflake-add.adoc#additional-configurations-create[additional configurations for your Snowflake connection].
+
 [#it-ops-engineer-10-1-0-sw]
 === For the IT Ops Engineer
 

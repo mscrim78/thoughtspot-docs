@@ -1,25 +1,55 @@
-= Edit a Snowflake connection
-:last_updated: 08/27/2021
-:linkattrs:
+////
+:doctype: book
+////include::7.1@software:ROOT:connections-snowflake-edit.adoc[]
+////
+= Edit a {connection} connection
+:last_updated: 10/08/2024
 :experimental:
+:linkattrs:
 :page-partial:
 :connection: Snowflake
-:page-aliases: /7.1.0.aug.sw/data-integrate/embrace/snowflake-edit.adoc
-:description: You can edit a Snowflake connection to add tables and columns, as well as invalidate refresh tokens from Snowflake for users with expired refresh tokens.
+:description: You can edit a Snowflake connection to add tables and columns, as well as manually invalidate refresh tokens for users with expired refresh tokens.
+:jira: SCAL-118895, SCAL-201045, SCAL-136317 (multiple confiurations for snowflake)
 
 You can edit a {connection} connection to add tables and columns, as well as manually invalidate refresh tokens from Snowflake for users who have refresh tokens that expired.
 
-== Editing a {connection} connection
+== Editing a Snowflake connection
 
-To edit a {connection} connection:
+To edit a Snowflake connection:
 
-include::partial$connection-edit-initial-steps.adoc[]
+ifndef::spotter[]
+. Select *Data* in the top navigation bar.
+. Open the *Connections* tab in the left navigation bar.
+endif::[]
 
-include::partial$connection-edit-final-steps.adoc[]
+ifdef::spotter[]
+. Click the app switcher menu image:spotter-app-switcher.png[Spotter app switcher] and then click *{form-factor}*.
+. On the left side of the screen, select *Manage data > Manage data sources*.
+. On the _Data workspace_ page, click *Connections*.
+endif::[]
+. Select the name of the connection you want to edit.
 
+. Select *Edit connection* at the upper-right side of the page.
++
+image::snowflake-editconnection.png[Edit connection]
+
+. On the Choose connection type page, change the connection name or description (if needed), and then select *Continue*.
+. On the {connection} connection details page, make any changes needed, and then select *Continue*.
+. Expand the database table dropdown menu, and select the tables and columns you want to add.
++
+image::redshift-edittables.png[Select tables and columns]
+
+. Click *Update*, and then select *Confirm* to save the updated connection detail.
+
+To remove a table from a connection, delete it from the connection details page.
+For more information, see: xref:connections-snowflake-delete.adoc[Delete a {connection} connection].
+
+See the xref:connections-snowflake-reference.adoc[Connection reference] for details of connection parameters.
+
+We also recommend that you review xref:connections-snowflake-best.adoc[Best Practices for {connection} connections].
 
 [#invalidate-tokens]
-=== Invalidating refresh tokens of a Snowflake connection configured with Snowflake OAuth
+== Invalidating refresh tokens of a Snowflake connection configured with Snowflake OAuth or OAuth with PKCE
 
 If a Snowflake user's refresh token has been invalidated, the user will not be able to access insights from a Snowflake connection, or the connection itself. This can happen for the following reasons:
 
@@ -36,27 +66,66 @@ This can be done in two ways:
 To invalidate refresh tokens of a Snowflake connection:
 
 . Select *Data* in the top navigation bar.
-. Select the *Connections* tab in the left navigation bar.
+. Open the *Connections* tab in the left navigation bar.
 . Select the name of the Snowflake connection you want to edit.
-. Select the more menu image:icon-more-10px.png[more menu icon], and select *Invalidate Tokens*
+. Click the *More* menu image:icon-more-10px.png[more menu icon], and select *Invalidate Tokens*
 
 After running the Invalidate Tokens command, logged-in users of the connection will have to re-authenticate to regain access to the connection.
 
 IMPORTANT: Invalidating tokens for a connection, invalidates the refresh tokens for all users of a connection, except the author.
 
+[#validate-metadata]
+== Validate metadata
+
+You can now validate connections to discover any changes in metadata after the connection was created. When you validate a connection, ThoughtSpot provides a JSON file containing details on any metadata changes. Once alerted to a metadata change, you can use TML to update the connection.
+
+To validate your connection:
+
+ifndef::spotter[]
+. Select *Data* in the top navigation bar.
+
+. Open the *Connections* tab in the left navigation bar.
+endif::[]
+ifdef::spotter[]
+. Click the app switcher menu image:spotter-app-switcher.png[Spotter app switcher] and then click *{form-factor}*.
+. On the left side of the screen, select *Manage data > Manage data sources*.
+. On the _Data workspace_ page, click *Connections*.
+endif::[]
+. Select the name of the connection you want to validate.
+
+. Select the *more options* menu icon image:icon-more-10px.png[ellipsis icon] and click *Validate*.
+
+. If ThoughtSpot detects any changes to the connection's metadata, the following message appears: "Your connection is not valid and requires metadata changes. You can download the list of changes affecting this connection by clicking on the button below."
++
+To download the change log, click *Download metadata change log*. The change log automatically downloads to your browser's Downloads folder in JSON format.
+
+[#edit-additional-connections]
+
+include::partial$connection-edit-additional-config.adoc[]
++
+TIP: To edit the *Default* configuration of your {connection} connection, see xref:connections-snowflake-edit.adoc[].
+
+include::partial$connection-disable-additional-config.adoc[]
+
+include::partial$connection-delete-additional-config.adoc[]
+
+For information about how to create additional configurations for your {connection} connection, see xref:connections-snowflake-add.adoc#additional-configurations-create[Creating additional configurations for your {connection} connection]
+
 '''
 > **Related information**
 >
-> * xref:connections-snowflake-add.adoc[Add a connection]
-> * xref:connections-snowflake-remap.adoc[]
-> * xref:connections-snowflake-external-tables.adoc[]
-> * xref:connections-snowflake-delete-table.adoc[]
-> * xref:connections-snowflake-delete-table-dependencies.adoc[]
-> * xref:connections-snowflake-delete.adoc[]
-> * xref:connections-snowflake-oauth.adoc[]
-> * xref:connections-snowflake-okta-oauth.adoc[]
-> * xref:connections-snowflake-azure-ad-oauth.adoc[]
-> * xref:connections-snowflake-best.adoc[Best practices]
-> * xref:connections-snowflake-reference.adoc[Reference]
-> * xref:connections-query-tags.adoc#tag-snowflake[ThoughtSpot query tags in Snowflake]
-> * xref:connections-snowflake-partner.adoc[Partner Connect], with an accompanying xref:connections-snowflake-tutorial.adoc[Tutorial]
+> * xref:connections-snowflake-add.adoc[Add a {connection} connection]
+> * xref:connections-snowflake-remap.adoc[Remap a {connection} connection]
+> * xref:connections-snowflake-external-tables.adoc[Query external tables from your {connection} connection]
+> * xref:connections-snowflake-delete-table.adoc[Delete a table from a {connection} connection]
+> * xref:connections-snowflake-delete-table-dependencies.adoc[Delete a table with dependent objects]
+> * xref:connections-snowflake-delete.adoc[Delete a {connection} connection]
+> * xref:connections-snowflake-oauth.adoc[Configure OAuth]
+> * xref:connections-snowflake-azure-ad-oauth.adoc[Configure Azure AD OAuth]
+> * xref:connections-snowflake-best.adoc[Best practices for {connection} connections]
+> * xref:connections-snowflake-private-link.adoc[]
+> * xref:connections-snowflake-psc.adoc[]
+> * xref:connections-snowflake-reference.adoc[Connection reference for {connection}]
+> * xref:10.1.0.cl@cloud:ROOT:connections-query-tags.adoc#tag-snowflake[ThoughtSpot query tags in Snowflake]
+> * xref:connections-snowflake-passthrough.adoc[]
+////
