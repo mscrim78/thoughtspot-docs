@@ -271,6 +271,7 @@ span.badge.badge-new {
 *** xref:scriptability.adoc[Import and export TML files]
 *** xref:tml-import-export-multiple.adoc[Migrate multiple TML files]
 *** xref:tml-answers.adoc[TML for Answers]
+*** xref:tml-connections.adoc[TML for connections]
 *** xref:tml-joins.adoc[TML for joins]
 *** xref:tml-liveboards.adoc[TML for Liveboards]
 *** xref:tml-sql-views.adoc[TML for SQL views]

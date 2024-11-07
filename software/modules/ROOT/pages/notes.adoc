@@ -128,6 +128,10 @@ ThoughtSpot now supports secondary role configuration when you create a Snowflak
 +
 For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles^] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 
+// Naomi – SCAL-148626. documentation jira SCAL-202207 (approved). SCAL-132544. documentation jira SCAL-202209 (approved)
+Connection TML::
+You can now use the table TML file to make changes to connection details like remapping columns and changing data type, rather than using the connection.yaml file. This allows you to make small changes to a Connection without the need to resolve all possible errors first. You can also edit or export the Connection TML file from the Data workspace.  For more information, see xref:tml-connections.adoc[TML for connections].
+
 // Naomi -- SCAL-126451. documentation JIRA SCAL-201301
 Sharing dbt connections::
 You can now select a dbt connection and click *Share* to share the connection with other users or groups. By default, the underlying Cloud data warehouse connection is shared. Note that you need *Can manage data* privileges to access and share dbt connections.
