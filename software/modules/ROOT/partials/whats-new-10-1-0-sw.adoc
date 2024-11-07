@@ -265,6 +265,20 @@ ifdef::pendo-links[]
 link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles,window=_blank] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection,window=_blank].
 endif::[]
 
+[#10-1-0-sw-connection-tml]
+[discrete]
+=== Connection TML
+// Naomi – SCAL-148626. documentation jira SCAL-202207 (approved). SCAL-132544. documentation jira SCAL-202209 (approved) waiting on info
+// PM: Samridh
+
+You can now use the table TML file to make changes to connection details like remapping columns and changing data type, rather than using the connection.yaml file. This allows you to make small changes to a Connection without the need to resolve all possible errors first. You can also edit or export the Connection TML file from the Data workspace. For more information, see
+ifndef::pendo-links[]
+xref:tml-connections.adoc[TML for connections].
+endif::[]
+ifdef::pendo-links[]
+xref:tml-connections.adoc[TML for connections,window=_blank].
+endif::[]
+
 [#10-1-0-sw-dbt-share]
 [discrete]
 === Sharing dbt connections

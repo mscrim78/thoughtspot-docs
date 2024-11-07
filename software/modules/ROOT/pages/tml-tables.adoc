@@ -6,8 +6,18 @@
 :page-aliases: /admin/scriptability/tsl-table.adoc, /admin/scriptability/tml-table.adoc, /admin/ts-cloud/tsl-table.adoc
 :description: Use TML to modify tables in a flat-file format. Then, migrate the table to a different cluster, or restore it to the same cluster.
 :object: tables
+:jira: SCAL-202209
 
 include::partial$tml-intro.adoc[]
+
+You can now change the following fields in the table TML file when editing:
+
+* `db`
+* `schema`
+* `db_table`
+* a column's `data_type`
+* a column's `db_column_name`
+* a column's `db_column_properties`
 
 [#syntax-tables]
 include::partial$tml-syntax-table.adoc[]
