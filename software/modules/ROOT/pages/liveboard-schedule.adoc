@@ -81,6 +81,12 @@ If you experience problems with sending email, your cluster may not have SMTP en
 +
 NOTE: You must have the *Can schedule for others* privilege to add other recipients to your Liveboard schedule.
 
+Views::
+You can select a view to be scheduled instead of the standard Liveboard. When selected, the filters and parameters are updated to reflect the values set in the view.
+
+include::partial$date-column-download.adoc[]
+
+[start=4]
 
 . Select *Save* to schedule your Liveboard.
 
