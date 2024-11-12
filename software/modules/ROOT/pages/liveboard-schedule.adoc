@@ -28,7 +28,7 @@ Attached is your scheduled update with the latest data from the <Liveboard name>
 +
 *View Liveboard* button
 Attachment(s)::
-CSVs (one for each table in the Liveboard) or 1 PDF
+One PDF, CSVs (one for each table in the Liveboard), or Excel (XLSX) (one for each table in the Liveboard).
 
 image::liveboard-schedule-email.png[Liveboard schedule email]
 
@@ -51,11 +51,20 @@ If you schedule a Liveboard hourly or every _n_ minutes, ThoughtSpot bases the s
 +
 Make sure to note the *Server time zone*.
 Type::
-  * *CSV files* provide all data for tables, with one attachment for each table. If your Liveboard has 3 tables and 4 charts, the Liveboard schedule email contains 3 CSVs, one for each table, and no content on the charts in the Liveboard. Use CSV files to perform further analysis offline.
   * *PDF files* show all visualizations in the Liveboard. Each chart uses a page in the file; tables show only the first 100 rows of a table. Use PDF files to skim the data. The Liveboard schedule email contains 1 PDF with the entire Liveboard.
-* *Show advanced PDF settings* allows you to specify the Liveboard layout, after you choose either *CSV* or *PDF*. For more details about the layout options, refer to xref:liveboard-download-pdf.adoc[].
+  ** *Show advanced PDF settings* allows you to specify the Liveboard layout in PDF format, and which visualizations and tabs to include. For more details about the layout options, refer to xref:liveboard-download-pdf.adoc[Download a Liveboard as a PDF].
+
+  * *CSV files* provide all data for tables, with one attachment for each table. If your Liveboard has 3 tables and 4 charts, the Liveboard schedule email contains 3 CSVs, one for each table, and no content on the charts in the Liveboard. Use CSV files to perform further analysis offline.
+  ** Refer to xref:schedule-liveboards.adoc#format[Format of scheduled Liveboards] for more information about the differences between CSV and PDF attachments in a scheduled Liveboard email.
+
+  * *XLSX files* provide all data for tables, with an Excel attachment for each table. If your Liveboard has 3 tables and 4 charts, the Liveboard schedule email contains 3 XLSX files, one for each table, and no content on the charts in the Liveboard. Use XLSX files to share information and perform further analysis offline in Excel.
+  ** Refer to xref:schedule-liveboards.adoc#format[Format of scheduled Liveboards] for more information about the differences between CSV and PDF attachments in a scheduled Liveboard email.
+
 +
-Refer to xref:schedule-liveboards.adoc#format[Format of scheduled Liveboards] for more information about the differences between CSV and PDF attachments in a scheduled Liveboard email.
+NOTE: Liveboard schedule pdf/csv/xlsx files sent via email are stored in the cluster until either, the cluster is restarted, or another scheduled run for a Liveboard occurs. All pdfs older than 24 hrs for that Liveboard are cleared.
+
+
+
 Gating condition::
 Write a statement that returns a single boolean value (`true` or `false`). For example, `sum (revenue) > 100` is a valid condition, but `is_weekend (commit_date)` is not, since it returns a result per row of data. Use any data source (table, worksheet, or view) that you have access to for the gating condition. However, note that for reports sent to ThoughtSpot users, ThoughtSpot executes the query as that specific user so that it respects row-level security (RLS) and ensures data security. If you schedule the Liveboard for 3 users, and 1 user does not have access to the data source in the gating condition, the gating condition fails and ThoughtSpot does not send the Liveboard to that 1 user. It does send the Liveboard to the 2 users who do have data access. For reports sent to people who are not ThoughtSpot users, ThoughtSpot executes the query as the author of the Liveboard schedule. The gating condition will still work if you are using passthrough security for your external data warehouse connection. The gating condition formula and any tables you use in it do not need to be related to the Liveboard the gating condition is for. You can use any valid formula in your statement. ThoughtSpot checks the formula syntax, but does not validate if the formula returns a valid single boolean.
 +
@@ -71,6 +80,8 @@ Recipients::
 If you experience problems with sending email, your cluster may not have SMTP enabled. Contact your system administrator to resolve this issue.
 +
 NOTE: You must have the *Can schedule for others* privilege to add other recipients to your Liveboard schedule.
+
+
 . Select *Save* to schedule your Liveboard.
 
 [#pdf-width]
