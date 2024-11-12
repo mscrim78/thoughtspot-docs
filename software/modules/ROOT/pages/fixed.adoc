@@ -1,12 +1,12 @@
 = Fixed issues
 :keywords: fixed issues
-:last_updated: 10/15/2024
+:last_updated: 11/12/2024
 :experimental:
 :linkattrs:
-:description: These are the issues we fixed in recent ThoughtSpot Software releases.
-:jira:
+:description: These are the issues we fixed in the 10.1.0.sw ThoughtSpot Software release.
+:jira: SCAL-232281
 
-These are the issues we fixed in recent ThoughtSpot Software releases.
+These are the issues we fixed in this ThoughtSpot Software release.
 
 [#releases-10-1-x]
 == 10.1.0.sw release fixed issues
@@ -15,8 +15,158 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |===
 |Issue ID |Description
 
-|SCAL-XXXXXX
+|SCAL-222348
 |TBD
 
-|SCAL-XXXXXX
+|SCAL-219492
+|TBD.
+
+|SCAL-218844
+|TBD.
+
+|SCAL-217403
+|TBD.
+
+|SCAL-217035
+|TBD.
+
+|SCAL-213964
+|TBD.
+
+|SCAL-213952
+|TBD.
+
+|SCAL-212830
+|TBD.
+
+|SCAL-211853
+|TBD.
+
+|SCAL-211166
+|TBD.
+
+|SCAL-209272
+|TBD.
+
+|SCAL-208640
+|TBD.
+
+|SCAL-207935
+|TBD.
+
+|SCAL-207560
+|TBD.
+
+|SCAL-206830
+|TBD.
+
+|SCAL-206629
+|TBD.
+
+|SCAL-205907
+|TBD.
+
+|SCAL-205710
+|TBD.
+
+|SCAL-203141
+|TBD.
+
+|SCAL-202151
+|TBD
+
+|SCAL-198889
+|TBD.
+
+|SCAL-198611
+|TBD.
+
+|SCAL-197645
+|TBD.
+
+|SCAL-197530
+|TBD.
+
+|SCAL-196524
+|TBD.
+
+|SCAL-194503
+|TBD.
+
+|SCAL-194224
+|TBD.
+
+|SCAL-193868
+|TBD.
+
+|SCAL-192407
+|TBD.
+
+|SCAL-192170
+|TBD.
+
+|SCAL-191717
+|TBD.
+
+|SCAL-191512
+|TBD.
+
+|SCAL-190895
+|TBD.
+
+|SCAL-188172
+|TBD.
+
+|SCAL-187943
+|TBD.
+
+|SCAL-187622
+|TBD.
+
+|SCAL-187535
+|TBD.
+
+|SCAL-187096
+|TBD.
+
+|SCAL-186191
+|TBD.
+
+|SCAL-185567
+|TBD.
+
+|SCAL-183845
+|TBD.
+
+|SCAL-183160
+|TBD.
+
+|SCAL-182743
+|TBD.
+
+|SCAL-182316
+|TBD.
+
+|SCAL-180968
+|TBD.
+
+|SCAL-180280
+|TBD.
+
+|SCAL-177801
+|TBD.
+
+|SCAL-175428
+|TBD.
+
+|SCAL-175240
+|TBD.
+
+|SCAL-174937
+|TBD.
+
+|SCAL-163806
+|TBD.
+
+|SCAL-139139
 |TBD.

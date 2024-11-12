@@ -1,11 +1,11 @@
 = Known issues
 :keywords: known issues
-:last_updated: 10/15/2024
+:last_updated: 11/12/2024
 :experimental:
 :page-layout:
 :linkattrs:
 :description: These are the known issues in recent ThoughtSpot Software releases.
-:jira:
+:jira: SCAL-232281
 
 These are the known issues in this release of ThoughtSpot Software.
 
@@ -16,17 +16,65 @@ These are the known issues in this release of ThoughtSpot Software.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-XXXXXX
-|TBD
+|SCAL-220290
+|Filter chips overlap on a chart after clicking the downward-facing arrow to display all filters in Explore mode.
 a|*Symptoms*:
 
-*TBD
+Filter chips overlap on a chart.
 
 
 *Conditions*:
 
-TBD.
+Using Explore mode on a visualisation with more filters than can be displayed on one line and clicking the downward-facing arrow to display all filters.
 
 *Workaround*:
 
-TBD.
+Manually collapse the filter by clicking the upward-facing arrow.
+
+|SCAL-178756
+|Red banner error is displayed without any proper error message when the original verifier of the Liveboard is deleted from the system.
+a|*Symptoms*:
+
+Red banner displayed without error message.
+
+
+*Conditions*:
+
+When the requester or verifier of a Liveboard is deleted.
+
+*Workaround*:
+
+For a verified Liveboard, there’s no impact on functionality. The user can close the error banner. For a pending request, and the requester is deleted, the user must contact {support-url} to delete the request.
+
+|SCAL-217451
+|'ThoughtSpot Cloud Answer Not Deletable'
+a|*Symptoms*:
+
+Unable to delete or update any unused formula.
+
+
+*Conditions*:
+
+Tables with specific columns exist with joins between them. An answer was generated using columns from these tables, including a formula that referred to a column in one of the tables. When later deleting the table containing that column, the attempt to remove the formula failed because it referenced a column that no longer exists.
+
+*Workaround*:
+
+. Make a copy of the answer, as all unused formulas will be permanently deleted.
+. Export the TML of the answer using ‘Export Answer & Associated Objects (models, etc.)’.
+. Delete the current answer.
+. Import the answer TML zip file. All unused formulas will be removed from the answers.
+
+|SCAL-220182
+|Error creating a user in an Org when a user of the same name existed in a deleted Org.
+a|*Symptoms*:
+
+The following message appears: 'The user could not be created. User with this username already exists. Please choose a different username.'
+
+
+*Conditions*:
+
+IAMv2 and Orgs-enabled cluster. Trying to create a user with same name as a user in a deleted Org.
+
+*Workaround*:
+
+Manually delete users before deleting the org or contact {support-url} if you are facing this issue for an Org that is already deleted.
