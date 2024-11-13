@@ -16,64 +16,64 @@ These are the issues we fixed in this ThoughtSpot Software release.
 |Issue ID |Description
 
 |SCAL-222348
-|TBD
+|Liveboard does not load when ThoughtSpot is embedded.
 
 |SCAL-219492
-|TBD.
+|User sees "request access" page when trying to view a Liveboard, even though the URL to the Liveboard is already shared with them.
 
 |SCAL-218844
-|TBD.
+|Default system language is not set which causes 'couldn’t complete your request' errors.
 
 |SCAL-217403
-|TBD.
+|When navigating between certain pages in ThoughtSpot, the URL sometimes doesn’t update accurately.
 
 |SCAL-217035
-|TBD.
+|Updating TML causes a 'System error has occurred' error.
 
 |SCAL-213964
-|TBD.
+|User is unable to sign in to ThoughtSpot after SAML authentication.
 
 |SCAL-213952
-|TBD.
+|ThoughtSpot application is unresponsive.
 
 |SCAL-212830
-|TBD.
+|Spring framework vulnerabilities in DataFlow.
 
 |SCAL-211853
-|TBD.
+|After upgrade, data is missing in a Liveboard which contains a date filter.
 
 |SCAL-211166
-|TBD.
+|Endpoint returns data related to users that are not in the current Org.
 
 |SCAL-209272
-|TBD.
+|User cannot sign in to ThoughtSpot using Safari 2.9.2 on an iPad running iOS 9.12.
 
 |SCAL-208640
-|TBD.
+|ThoughtSpot Embedded events do not work with HTTP parent.
 
 |SCAL-207935
-|TBD.
+|Object Usage system Liveboard data is not available.
 
 |SCAL-207560
-|TBD.
+|Object Usage Liveboard shows 0 count for Liveboards, Tables, Answers.
 
 |SCAL-206830
-|TBD.
+|Sage auto_complete fails with segmentation error.
 
 |SCAL-206629
-|TBD.
+|Unable to export Liveboard as PDF.
 
 |SCAL-205907
-|TBD.
+|loadAnswer has the translate date format used during answer creation.
 
 |SCAL-205710
-|TBD.
+|Sage auto complete crashes.
 
 |SCAL-203141
-|TBD.
+|User can see Liveboards that are not shared with them when searching using the "Search Answers and Liveboards" search box.
 
 |SCAL-202151
-|TBD
+|Browser and visualization errors on Liveboards which are large and when scrolling fast and changing tabs.
 
 |SCAL-198889
 |TBD.
