@@ -2,7 +2,8 @@
 :last_updated: 4/5/2023
 :linkattrs:
 :experimental:
-:author: Teresa Killmond
+:author: Mary Scrim
+:page-layout: default-cloud
 :description: Easily add notes to your Liveboard so that viewers of your Liveboard can quickly understand its value and how to use it.
 
 Add notes to your Liveboards, so that viewers of your Liveboards can quickly understand how to use the data and visualizations you gathered.
