@@ -147,6 +147,16 @@ endif::[]
 
 image::iterative-analysis.gif[Iterative change analysis]
 
+[#10-1-0-sw-XLSX-LB-attachment]
+[discrete]
+=== Support for Excel (XLSX) attachments in Scheduled Liveboards
+
+// Mary – SCAL-140254. doc: SCAL-201825
+// PM: Arpit
+
+ThoughtSpot introduces support for scheduling Liveboards with Excel (XLSX) attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files. For more information, see xref:liveboard-schedule.adoc[Schedule a Liveboard job].
+
+
 // Analyst
 
 [#10-1-0-sw-renaming]
@@ -181,6 +191,13 @@ xref:spotiq-change.adoc#remember-personalized[Remember personalized columns,wind
 endif::[]
 
 image::personalized-column.png[Personalized columns]
+
+[#10-1-0-sw-note-tiles]
+=== Note tile enhancements
+//Mary. epic: SCAL-142949. doc: SCAL-205501
+//PM: Arpit
+ThoughtSpot introduces the ability to customize note tiles. You can now customize the appearance of note tiles. You can also edit hyperlinks and iFrames that previously had to be deleted and replaced to make changes. Images within note tiles are now responsive to screen size. For more information, see xref:liveboard-notes.adoc [Liveboard note tiles].
+
 
 [#10-1-0-sw-i18n]
 [discrete]
@@ -278,6 +295,15 @@ endif::[]
 ifdef::pendo-links[]
 xref:tml-connections.adoc[TML for connections,window=_blank].
 endif::[]
+
+[#10-1-0-sw--tml-sort-order]
+[discrete]
+=== Rules to sort TML
+// Mary – SCAL-133208. documentation jira SCAL-199958
+// PM: Samridh
+
+ThoughtSpot introduces a consistent sort order when exporting the TML of an object (table, SQL view, Liveboard, etc.). This ensures that unnecessary differences don’t show up between TML files when the objects haven’t really changed, and makes it easier to compare TML files.
+
 
 [#10-1-0-sw-dbt-share]
 [discrete]
