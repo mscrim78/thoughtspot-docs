@@ -76,46 +76,46 @@ These are the issues we fixed in this ThoughtSpot Software release.
 |Browser and visualization errors on Liveboards which are large and when scrolling fast and changing tabs.
 
 |SCAL-198889
-|TBD.
+|All prism apis are asking for cookie even in cookieless auth flow with ThoughtSpot Embedded.
 
 |SCAL-198611
-|TBD.
+|latest vulnerabilities reported in Tomcat for DataFlow.
 
 |SCAL-197645
-|TBD.
+|Liveboards do not load and a 'Cannot query field "type" on type "Customer"' error appears when using ThoughtSpot Mobile (version: 2.9).
 
 |SCAL-197530
-|TBD.
+|'We couldn't complete your request' error appears when clicking a Liveboard.
 
 |SCAL-196524
-|TBD.
+|Timed out queries of Azure Synapse are reported with a status of ERROR, instead of TIMEOUT.
 
 |SCAL-194503
-|TBD.
+|Embedded waterfall chart data labels are not visible in dark mode even when using the appropriate css variable.
 
 |SCAL-194224
-|TBD.
+|Trying to download a report in CSV, PDF, or XLSX format fails and displays an error.
 
 |SCAL-193868
-|TBD.
+|Answers downloaded in CSV or XLSX format are blank.
 
 |SCAL-192407
-|TBD.
+|Scheduled Liveboards under `/tmp` consume more than 80 GB.
 
 |SCAL-192170
-|TBD.
+|RLS users are unable to select or change global filters.
 
 |SCAL-191717
-|TBD.
+|`Host Event.Data` event fires multiple times for a single search query.
 
 |SCAL-191512
-|TBD.
+|Snowflake connections do not work.
 
 |SCAL-190895
-|TBD.
+|ThoughtSpot Embedded: Liveboards do not load and 'Pinboard has failed to load' error is displayed.
 
 |SCAL-188172
-|TBD.
+|Users cannot sign in to ThoughtSpot after authenticating .
 
 |SCAL-187943
 |TBD.
