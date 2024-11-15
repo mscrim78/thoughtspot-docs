@@ -70,6 +70,9 @@ ThoughtSpot now supports xref:keywords-ko-KR.adoc[Korean], and we've also added 
 Custom charts [.badge.badge-beta-relnotes]#Beta#::
 You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-custom.adoc[Custom charts].
 
+Models [.badge.badge-early-access-relnotes]#Early Access#::
+Introducing Models. Models are a new, easier way of creating what previously were called Worksheets. You can create Models from the *Data* tab, just like Worksheets. You can still create and use Worksheets, but ThoughtSpot plans to deprecate and remove Worksheets in a future release. For more information, see xref:models.adoc[Models].
+
 [#business-user-10-1-0-sw]
 === For the Business User
 
