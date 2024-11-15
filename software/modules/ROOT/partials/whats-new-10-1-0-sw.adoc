@@ -226,6 +226,12 @@ You can now use TML to import and export column sets and query sets in ThoughtSp
 //PM: Samridh
 ThoughtSpot introduces the ability to save table layouts in the schema viewer. Table location and size are now maintained and saved in the schema viewer. For more information, see xref:schema-viewer.adoc [How to view a data schema].
 
+[#10-1-0-sw-group-measures]
+=== Grouping measures in pivot tables [.badge.badge-update-whats-new-beta-note]#Beta#
+//Mary. epic: SCAL-181678. doc: SCAL-211771
+//PM: Manan
+ThoughtSpot now supports grouping measures in pivot tables. You can now move measures, and position them where you want in rows and columns. For more information, see xref:chart-pivot-table.adoc[Pivot tables].
+
 
 [#10-1-0-sw-i18n]
 [discrete]
