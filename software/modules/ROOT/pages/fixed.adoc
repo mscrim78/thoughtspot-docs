@@ -115,58 +115,58 @@ These are the issues we fixed in this ThoughtSpot Software release.
 |ThoughtSpot Embedded: Liveboards do not load and 'Pinboard has failed to load' error is displayed.
 
 |SCAL-188172
-|Users cannot sign in to ThoughtSpot after authenticating .
+|Users cannot sign in to ThoughtSpot.
 
 |SCAL-187943
-|TBD.
+|Upgrade or installation of ThoughtSpot fails due to yum command failure.
 
 |SCAL-187622
-|TBD.
+|Users and groups are not accessible on the *Admin* page.
 
 |SCAL-187535
-|TBD.
+|Pivot table with formula applied does not display accurate summaries.
 
 |SCAL-187096
-|TBD.
+|Certain visualizations in Liveboards do not load and display an error.
 
 |SCAL-186191
-|TBD.
+|Unable to download Answers and Liveboards, and subsequent download attempts are very slow.
 
 |SCAL-185567
-|TBD.
+|When adding a restricted column as a filter, the group that doesn't have access can't see the Liveboard anymore.
 
 |SCAL-183845
-|TBD.
+|Signing in to ThoughtSpot fails even though SAML authentication is successful.
 
 |SCAL-183160
-|TBD.
+|`IN` query filters are not supported on custom calendar date columns.
 
 |SCAL-182743
-|TBD.
+|Updates to runtime filters are not reflected in downloaded Liveboard.
 
 |SCAL-182316
-|TBD.
+|Extra page and distorted footer in exported PDF.
 
 |SCAL-180968
-|TBD.
+|Incorrect Y-Axis is plotted for the line chart when resized.
 
 |SCAL-180280
-|TBD.
+|R Liveboards do not load in the new Liveboard experience.
 
 |SCAL-177801
-|TBD.
+|Tomcat, Atlas, and Postgres are terminating.
 
 |SCAL-175428
-|TBD.
+|CVE-2023-41064, CVE-2023-4863, CVE-2023-5129 vulnerabilities in WebP.
 
 |SCAL-175240
-|TBD.
+|PDF downloads unsuccessful after 9.3.0.cl patch.
 
 |SCAL-174937
-|TBD.
+|Using *VS* keyword displays incorrect results.
 
 |SCAL-163806
-|TBD.
+|Snowflake query is incorrectly translated to `AggregateDistinct`.
 
 |SCAL-139139
-|TBD.
+|Count quantity incorrect when multiple tables are joined.
