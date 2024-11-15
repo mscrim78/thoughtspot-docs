@@ -215,7 +215,7 @@ ThoughtSpot introduces the ability to customize note tiles. You can now customiz
 You can create sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Sets can be query sets or column sets. A query set is a custom group of values from a collection of objects in your database. A column set is a custom group of values from a single column. Sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact ThoughtSpot Support. For more information, see xref:custom-groups.adoc[Query sets] and xref:custom-sets.adoc[Column sets].
 
 [#10-1-0-sw-sets-TML]
-=== Import and export sets using TML [.badge.badge-update-whats-new-beta-note]#Beta#
+=== Import and export sets using TML [.badge.badge-beta]#Beta#
 //Mary. epic: SCAL-158900. doc: SCAL-212555
 //PM: Damian
 You can now use TML to import and export column sets and query sets in ThoughtSpot. For more information, see xref:tml-sets.adoc [TML for Sets].
@@ -227,10 +227,16 @@ You can now use TML to import and export column sets and query sets in ThoughtSp
 ThoughtSpot introduces the ability to save table layouts in the schema viewer. Table location and size are now maintained and saved in the schema viewer. For more information, see xref:schema-viewer.adoc [How to view a data schema].
 
 [#10-1-0-sw-group-measures]
-=== Grouping measures in pivot tables [.badge.badge-update-whats-new-beta-note]#Beta#
+=== Grouping measures in pivot tables [.badge.badge-beta]#Beta#
 //Mary. epic: SCAL-181678. doc: SCAL-211771
 //PM: Manan
 ThoughtSpot now supports grouping measures in pivot tables. You can now move measures, and position them where you want in rows and columns. For more information, see xref:chart-pivot-table.adoc[Pivot tables].
+
+[#10-1-0-sw-custom-sorting]
+=== Custom Sorting [.badge.badge-early-access]#Early Access#
+//Mary. epic: SCAL-181962. doc: SCAL-201629.
+//PM: Manan
+ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. Previously custom sorting could only be applied to an Answer using custom columns and the search bar, and could not be applied to some chart types. You can now sort on any column in a chart, in ascending or descending order, from the column heading menu. To enable this feature, contact your administrator. For more information, see xref:worksheet-custom-sort.adoc[Define a custom sort order for a Worksheet]
 
 
 [#10-1-0-sw-i18n]
