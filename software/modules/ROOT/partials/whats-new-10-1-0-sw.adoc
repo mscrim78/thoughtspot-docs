@@ -198,6 +198,13 @@ image::personalized-column.png[Personalized columns]
 //PM: Arpit
 ThoughtSpot introduces the ability to customize note tiles. You can now customize the appearance of note tiles. You can also edit hyperlinks and iFrames that previously had to be deleted and replaced to make changes. Images within note tiles are now responsive to screen size. For more information, see xref:liveboard-notes.adoc [Liveboard note tiles].
 
+[#10-1-0-sw-sets]
+=== Query sets and Column sets [.badge.badge-early-access]#Early Access#
+//Mary. epic: SCAL-150356. doc: SCAL-212555
+//PM: Damian
+You can create sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Sets can be query sets or column sets. A query set is a custom group of values from a collection of objects in your database. A column set is a custom group of values from a single column. Sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact ThoughtSpot Support. For more information, see xref:custom-groups.adoc[Query sets] and xref:custom-sets.adoc[Column sets].
+
+
 
 [#10-1-0-sw-i18n]
 [discrete]
