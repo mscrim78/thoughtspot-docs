@@ -204,6 +204,7 @@ span.badge.badge-new {
 *** xref:parameters-create.adoc[Create parameters]
 *** xref:custom-sets.adoc[Column sets]
 *** xref:custom-groups.adoc[Query sets]
+*** xref:tml-sets.adoc[TML for sets]
 *** xref:worksheet-formula.adoc[]
 *** xref:worksheet-filter.adoc[Add a filter to a worksheet]
 *** xref:worksheet-progressive-joins.adoc[How the worksheet join rule works]

@@ -214,6 +214,11 @@ ThoughtSpot introduces the ability to customize note tiles. You can now customiz
 //PM: Damian
 You can create sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Sets can be query sets or column sets. A query set is a custom group of values from a collection of objects in your database. A column set is a custom group of values from a single column. Sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact ThoughtSpot Support. For more information, see xref:custom-groups.adoc[Query sets] and xref:custom-sets.adoc[Column sets].
 
+[#10-1-0-sw-sets-TML]
+=== Import and export sets using TML [.badge.badge-update-whats-new-beta-note]#Beta#
+//Mary. epic: SCAL-158900. doc: SCAL-212555
+//PM: Damian
+You can now use TML to import and export column sets and query sets in ThoughtSpot. For more information, see xref:tml-sets.adoc [TML for Sets].
 
 
 [#10-1-0-sw-i18n]
@@ -371,7 +376,7 @@ ThoughtSpot now supports dbt version 1.7.
 
 ////
 [#10-1-0-sw-rbac-data-management]
-=== Granular privileges for can-manage-data Beta
+=== Granular privileges for can-manage-data
 //Mary. epic: SCAL-154299. doc:SCAL-194036
 //PM: Aashica/Reshma - awaiting confirmation if rbac should be included in 10.1.0.sw
 ThoughtSpot Role-Based Access Control (RBAC) enhances the granularity of permissions with the addition of new data management privileges. The following data control privileges have been added:
