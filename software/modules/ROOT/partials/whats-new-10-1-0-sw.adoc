@@ -157,7 +157,9 @@ image::iterative-analysis.gif[Iterative change analysis]
 ThoughtSpot introduces support for scheduling Liveboards with Excel (XLSX) attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files. For more information, see xref:liveboard-schedule.adoc[Schedule a Liveboard job].
 
 [#10-1-0-sw-liveboard-filters]
+[discrete]
 === Filters available for Liveboards with hidden columns included in a visualization
+
 //Mary. epic: SCAL-157372. doc: SCAL-201823
 You can now change the filter values on Liveboards that have visualizations that include hidden columns, or a formula created from a hidden column.
 Liveboard filters are now accessible to all users who have view or edit permissions to the underlying data source.
@@ -209,6 +211,7 @@ endif::[]
 image::personalized-column.png[Personalized columns]
 
 [#10-1-0-sw-note-tiles]
+[discrete]
 === Note tile enhancements
 //Mary. epic: SCAL-142949. doc: SCAL-205501
 //PM: Arpit
@@ -221,6 +224,7 @@ xref:liveboard-notes.adoc [Liveboard note tiles,window=_blank].
 endif::[]
 
 [#10-1-0-sw-sets]
+[discrete]
 === Query sets and Column sets [.badge.badge-early-access]#Early Access#
 //Mary. epic: SCAL-150356. doc: SCAL-212555
 //PM: Damian
@@ -235,10 +239,12 @@ endif::[]
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-sw-sets-TML]
+[discrete]
 === Import and export sets using TML [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-1-0-sw-sets-TML]
+[discrete]
 === Import and export sets using TML [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
@@ -254,6 +260,7 @@ endif::[]
 endif::free-trial-feature[]
 
 [#10-1-0-sw-table-layouts]
+[discrete]
 === Save table layouts in the schema viewer
 //Mary. epic: SCAL-180590. doc: SCAL-202068
 //PM: Samridh
@@ -268,10 +275,12 @@ endif::[]
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-sw-group-measures]
+[discrete]
 === Grouping measures in pivot tables [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-1-0-sw-group-measures]
+[discrete]
 === Grouping measures in pivot tables [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
@@ -289,10 +298,12 @@ endif::free-trial-feature[]
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-sw-custom-sorting]
+[discrete]
 === Custom Sorting [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#10-1-0-sw-custom-sorting]
+[discrete]
 === Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 //Mary. epic: SCAL-181962. doc: SCAL-201629.
@@ -336,12 +347,69 @@ xref:keywords-fr-FR.adoc[French,window=_blank]
 endif::[]
 for a more accurate experience.
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-sw-custom]
+[discrete]
+=== Custom charts [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-sw-custom]
+[discrete]
+=== Custom charts [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Mark
+You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see
+ifndef::pendo-links[]
+xref:chart-custom.adoc[Custom charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-custom.adoc[Custom charts,window=_blank].
+endif::[]
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-sw-models]
+[discrete]
+=== Models [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-sw-models]
+[discrete]
+=== Models [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+Introducing Models. Models are an easier way of creating what previously were called Worksheets. You can create Models from the *Data* tab, just like Worksheets. You can still create and use Worksheets, but ThoughtSpot plans to deprecate and remove Worksheets in a future release. For more information, see
+ifndef::pendo-links[]
+xref:models.adoc[Models].
+endif::[]
+ifdef::pendo-links[]
+xref:models.adoc[Models,window=_blank].
+endif::[]
+endif::free-trial-feature[]
+
 '''
 [#secondary-10-1-0-sw]
 [discrete]
 === _Other features and enhancements_
 
 // Data engineer
+
+
+[#10-1-0-sw-version]
+[discrete]
+=== Version control for Liveboards and Answers
+
+// Mark -- Jira: SCAL-196890
+Version control for Liveboards and Answers is available to all users. Now teams of analysts can more easily collaborate on content development of Liveboards and Answers. You can enable version control on specific Liveboards and Answers. With version control enabled, every time you save the Liveboard or Answer, a new version is created and stored. You can browse the version history in ThoughtSpot and restore any saved versions whenever you need to. To enable this feature, contact your administrator. For more information, see
+ifndef::pendo-links[]
+xref:liveboards.adoc#version-history[Liveboards] and xref:answers.adoc#version-history[Answers].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboards.adoc#version-history[Liveboards,window=_blank] and xref:answers.adoc#version-history[Answers,window=_blank].
+endif::[]
 
 [#10-1-0-sw-ts-groups]
 [discrete]
@@ -458,6 +526,50 @@ endif::[]
 // Naomi -- scal-169614, documentation JIRA scal-201047
 
 ThoughtSpot now supports dbt version 1.7.
+
+
+[#10-1-0-sw-answer-panel]
+[discrete]
+=== Answer data panel enhancements
+// Mark - SCAL-205579
+
+Now in the new Answer data panel, you can filter as you hover on a column, _By category_ grouping by default, and display the information panel when you click a column.
+
+
+[#10-1-0-sw-git]
+[discrete]
+=== Enabling GIT integration for version control of Liveboards and Answers
+
+// Mark -- Jira: SCAL-196890
+Administrators can now enable version control of Liveboards and Answers. You enable version control for your ThoughtSpot Org by connecting it to a Github repository. Once enabled for the Org, version control can be enabled individually for any Liveboard or Answer. Each time a user saves changes, a new version of the Liveboard or Answer is created and stored in your Github repository. Users can easily browse and restore an older version from the Liveboard or Answer itself. For more information, see
+ifndef::pendo-links[]
+xref:git-version-control.adoc[Version control for Liveboards and Answers].
+endif::[]
+ifdef::pendo-links[]
+xref:git-version-control.adoc[Version control for Liveboards and Answers,window=_blank].
+endif::[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-sw-multiple-config]
+[discrete]
+=== Multiple configurations for Snowflake connections [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-sw-multiple-config]
+[discrete]
+=== Multiple configurations for Snowflake connections [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark -- Jira: SCAL-136317
+You can now create multiple configurations for each Snowflake connection. This allows you to allocate a separate Snowflake warehouse for different ThoughtSpot users or groups, eliminating the need to duplicate Liveboards and configure multiple Snowflake connections and helping you with cost tracking and chargeback. You can also use this for your search indexing so that you can control and balance the computing load. In addition, this allows you to easily test a set of Liveboards against different environments (dev, qa, prod), and configure different databases for multi-tenancy / multi-org deployments. For more information, see
+ifndef::pendo-links[]
+xref:connections-snowflake-add.adoc#additional-configurations-create[additional configurations for your Snowflake connection].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-snowflake-add.adoc#additional-configurations-create[additional configurations for your Snowflake connection,window=_blank].
+endif::[]
+endif::free-trial-feature[]
 
 ////
 [#10-1-0-sw-rbac-data-management]
