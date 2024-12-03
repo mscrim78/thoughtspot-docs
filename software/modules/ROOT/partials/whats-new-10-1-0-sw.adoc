@@ -164,7 +164,13 @@ Liveboard filters are now accessible to all users who have view or edit permissi
 
 NOTE: Previously, users who did not have edit access to the underlying worksheet of a Liveboard with filters, could not update the Liveboard filters if the Liveboard used a hidden column. This was the case even if the user had view access to the underlying worksheets. While you can now change filter values on the visualizations, you cannot change filters created directly on the hidden column. To get hidden column filter access, you must have edit access to the data source and the Can manage data privilege.
 
-For more information, see xref:liveboard-filters.adoc [Liveboard filters].
+For more information, see
+ifndef::pendo-links[]
+xref:liveboard-filters.adoc [Liveboard filters].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-filters.adoc [Liveboard filters,window=_blank].
+endif::[]
 
 
 // Analyst
@@ -206,38 +212,99 @@ image::personalized-column.png[Personalized columns]
 === Note tile enhancements
 //Mary. epic: SCAL-142949. doc: SCAL-205501
 //PM: Arpit
-ThoughtSpot introduces the ability to customize note tiles. You can now customize the appearance of note tiles. You can also edit hyperlinks and iFrames that previously had to be deleted and replaced to make changes. Images within note tiles are now responsive to screen size. For more information, see xref:liveboard-notes.adoc [Liveboard note tiles].
+ThoughtSpot introduces the ability to customize note tiles. You can now customize the appearance of note tiles. You can also edit hyperlinks and iFrames that previously had to be deleted and replaced to make changes. Images within note tiles are now responsive to screen size. For more information, see
+ifndef::pendo-links[]
+xref:liveboard-notes.adoc [Liveboard note tiles].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-notes.adoc [Liveboard note tiles,window=_blank].
+endif::[]
 
 [#10-1-0-sw-sets]
 === Query sets and Column sets [.badge.badge-early-access]#Early Access#
 //Mary. epic: SCAL-150356. doc: SCAL-212555
 //PM: Damian
-You can create sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Sets can be query sets or column sets. A query set is a custom group of values from a collection of objects in your database. A column set is a custom group of values from a single column. Sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact ThoughtSpot Support. For more information, see xref:custom-groups.adoc[Query sets] and xref:custom-sets.adoc[Column sets].
+You can create sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Sets can be query sets or column sets. A query set is a custom group of values from a collection of objects in your database. A column set is a custom group of values from a single column. Sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact ThoughtSpot Support. For more information, see
+ifndef::pendo-links[]
+xref:custom-groups.adoc[Query sets] and xref:custom-sets.adoc[Column sets].
+endif::[]
+ifdef::pendo-links[]
+xref:custom-groups.adoc[Query sets,window=_blank] and xref:custom-sets.adoc[Column sets,window=_blank].
+endif::[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-1-0-sw-sets-TML]
 === Import and export sets using TML [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-sw-sets-TML]
+=== Import and export sets using TML [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
 //Mary. epic: SCAL-158900. doc: SCAL-212555
 //PM: Damian
-You can now use TML to import and export column sets and query sets in ThoughtSpot. For more information, see xref:tml-sets.adoc [TML for Sets].
+You can now use TML to import and export column sets and query sets in ThoughtSpot. For more information, see
+ifndef::pendo-links[]
+xref:tml-sets.adoc [TML for Sets].
+endif::[]
+ifdef::pendo-links[]
+xref:tml-sets.adoc [TML for Sets,window=_blank].
+endif::[]
+endif::free-trial-feature[]
 
 [#10-1-0-sw-table-layouts]
 === Save table layouts in the schema viewer
 //Mary. epic: SCAL-180590. doc: SCAL-202068
 //PM: Samridh
-ThoughtSpot introduces the ability to save table layouts in the schema viewer. Table location and size are now maintained and saved in the schema viewer. For more information, see xref:schema-viewer.adoc [How to view a data schema].
+ThoughtSpot introduces the ability to save table layouts in the schema viewer. Table location and size are now maintained and saved in the schema viewer. For more information, see
+ifndef::pendo-links[]
+xref:schema-viewer.adoc [How to view a data schema].
+endif::[]
+ifdef::pendo-links[]
+xref:schema-viewer.adoc [How to view a data schema,window=_blank].
+endif::[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-1-0-sw-group-measures]
 === Grouping measures in pivot tables [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-sw-group-measures]
+=== Grouping measures in pivot tables [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
 //Mary. epic: SCAL-181678. doc: SCAL-211771
 //PM: Manan
-ThoughtSpot now supports grouping measures in pivot tables. You can now move measures, and position them where you want in rows and columns. For more information, see xref:chart-pivot-table.adoc[Pivot tables].
+ThoughtSpot now supports grouping measures in pivot tables. You can now move measures, and position them where you want in rows and columns. For more information, see
+ifndef::pendo-links[]
+xref:chart-pivot-table.adoc[Pivot tables].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-pivot-table.adoc[Pivot tables,window=_blank].
+endif::[]
+endif::free-trial-feature[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-1-0-sw-custom-sorting]
 === Custom Sorting [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-sw-custom-sorting]
+=== Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 //Mary. epic: SCAL-181962. doc: SCAL-201629.
 //PM: Manan
-ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. Previously custom sorting could only be applied to an Answer using custom columns and the search bar, and could not be applied to some chart types. You can now sort on any column in a chart, in ascending or descending order, from the column heading menu. To enable this feature, contact your administrator. For more information, see xref:worksheet-custom-sort.adoc[Define a custom sort order for a Worksheet]
-
+ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. Previously custom sorting could only be applied to an Answer using custom columns and the search bar, and could not be applied to some chart types. You can now sort on any column in a chart, in ascending or descending order, from the column heading menu. To enable this feature, contact your administrator. For more information, see
+ifndef::pendo-links[]
+xref:worksheet-custom-sort.adoc[Define a custom sort order for a Worksheet].
+endif::[]
+ifdef::pendo-links[]
+xref:worksheet-custom-sort.adoc[Define a custom sort order for a Worksheet,window=_blank].
+endif::[]
+endif::free-trial-feature[]
 
 [#10-1-0-sw-i18n]
 [discrete]
