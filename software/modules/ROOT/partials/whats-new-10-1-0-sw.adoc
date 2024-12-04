@@ -168,10 +168,10 @@ NOTE: Previously, users who did not have edit access to the underlying worksheet
 
 For more information, see
 ifndef::pendo-links[]
-xref:liveboard-filters.adoc [Liveboard filters].
+xref:liveboard-filters.adoc[Liveboard filters].
 endif::[]
 ifdef::pendo-links[]
-xref:liveboard-filters.adoc [Liveboard filters,window=_blank].
+xref:liveboard-filters.adoc[Liveboard filters,window=_blank].
 endif::[]
 
 
@@ -217,10 +217,10 @@ image::personalized-column.png[Personalized columns]
 //PM: Arpit
 ThoughtSpot introduces the ability to customize note tiles. You can now customize the appearance of note tiles. You can also edit hyperlinks and iFrames that previously had to be deleted and replaced to make changes. Images within note tiles are now responsive to screen size. For more information, see
 ifndef::pendo-links[]
-xref:liveboard-notes.adoc [Liveboard note tiles].
+xref:liveboard-notes.adoc[Liveboard note tiles].
 endif::[]
 ifdef::pendo-links[]
-xref:liveboard-notes.adoc [Liveboard note tiles,window=_blank].
+xref:liveboard-notes.adoc[Liveboard note tiles,window=_blank].
 endif::[]
 
 [#10-1-0-sw-sets]
@@ -252,10 +252,10 @@ endif::[]
 //PM: Damian
 You can now use TML to import and export column sets and query sets in ThoughtSpot. For more information, see
 ifndef::pendo-links[]
-xref:tml-sets.adoc [TML for Sets].
+xref:tml-sets.adoc[TML for Sets].
 endif::[]
 ifdef::pendo-links[]
-xref:tml-sets.adoc [TML for Sets,window=_blank].
+xref:tml-sets.adoc[TML for Sets,window=_blank].
 endif::[]
 endif::free-trial-feature[]
 
@@ -266,10 +266,10 @@ endif::free-trial-feature[]
 //PM: Samridh
 ThoughtSpot introduces the ability to save table layouts in the schema viewer. Table location and size are now maintained and saved in the schema viewer. For more information, see
 ifndef::pendo-links[]
-xref:schema-viewer.adoc [How to view a data schema].
+xref:schema-viewer.adoc[How to view a data schema].
 endif::[]
 ifdef::pendo-links[]
-xref:schema-viewer.adoc [How to view a data schema,window=_blank].
+xref:schema-viewer.adoc[How to view a data schema,window=_blank].
 endif::[]
 
 ifndef::free-trial-feature[]
