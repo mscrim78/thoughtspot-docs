@@ -33,9 +33,21 @@ endif::[]
 endif::free-trial-feature[]
 ////
 
+[#10-5-0-cl-spotter]
+[discrete]
+=== Spotter suggested questions
+
+// Naomi. jira: SCAL-?
+// PM: Samuel Weick. Ask if he wants release notes things in what's new
+
+To increase relevance to your search, Spotter now surfaces past global reference questions as sample questions below the search bar in the home page.
+
+[.bordered]
+image::spotter-reference.png[Spotter sample questions]
+
 [#10-5-0-cl-connected-sheets]
 [discrete]
-=== Enhanced Google Sheets add-on
+=== Data update for Google Sheets add-on
 
 With ThoughtSpot Connected Sheets, a free add-on for Google Sheets, you can now update your existing search results to get the latest data without having to enter the search query again. You can do this for the current sheet or all sheets.
 
@@ -76,17 +88,7 @@ endif::pendo-links[]
 // PM: Sam Weick. developer docs only.
 ////
 
-[#10-5-0-cl-spotter]
-[discrete]
-=== Spotter suggested questions
 
-// Naomi. jira: SCAL-?
-// PM: Samuel Weick
-
-To increase relevance to your search, Spotter now surfaces past global reference questions as sample questions below the search bar in the home page.
-
-[.bordered]
-image::spotter-reference.png[Spotter sample questions]
 
 // Analyst
 
@@ -103,9 +105,10 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi. jira: SCAL-215669. docs jira: SCAL-?
-// PM: Rahul PJP
+// PM: Rahul PJP. add red box around overview.
 
-Now with change analysis, you get a snapshot view of all the factors/attributes that have changed in a single view, to get an overview of your changes in the chart. You can click *View details* to see the changes by attribute, or select *Customize* to change which measures or attributes to analyze. Note that when you run change analysis on a chart created with ratio keywords like `average`, you see the previous change analysis interface, one attribute at a time.
+Now with change analysis, you get a snapshot view of all the factors/attributes that have changed in a single view, to get an overview of your changes in the chart. You can click *View details* to see the changes by attribute, or select *Customize* to change which measures or attributes to analyze.
+//Note that when you run change analysis on a chart created with ratio keywords like `average`, the overview tab does not appear and you instead see the previous change analysis interface, one attribute at a time.
 
 [.bordered]
 image::summary-tab.png[Change analysis summary tab]
@@ -127,7 +130,7 @@ endif::[]
 // Naomi. jira: SCAL-224933. docs jira: SCAL-228737. check if it persists for every user who checks the KPI on the Liveboard. make an mp4?
 // PM: Rahul PJP
 
-Previously, time-series KPI charts had limited options when comparing to past periods. A weekly KPI could be compared against the previous week, the previous month's same week, the previous quarter's same week, or the previous year's same week. Now, you can set a custom point in data against which ThoughtSpot compares the most recent data point, any number of weeks ago. Your chosen comparison point persists for all viewers of the Liveboard. To enable this feature, contact your administrator.
+Previously, time-series KPI charts had limited options when comparing to past periods. For example, a weekly KPI could be compared against the previous week, the previous month's same week, the previous quarter's same week, or the previous year's same week. Now, you can set a custom point in data against which ThoughtSpot compares the most recent data point, any number of weeks ago. This feature is applicable to all KPIs including time keywords like `weekly`, `monthly`, or `quarterly`. Your chosen comparison point persists for all viewers of the KPI. To enable this feature, contact your administrator.
 
 [.bordered]
 image::custom-comparison.png[Add custom comparison point]
@@ -150,9 +153,10 @@ ifdef::pendo-links[]
 === Query set groups [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 ThoughtSpot users can now create, edit, and manage groups within Query sets. To enable this feature, contact your administrator.
+
 [.bordered]
 image::query-set-groups.png[Query set groups]
-// Mary. jira: SCAL-194093. docs jira: SCAL-226615. give a sample use case.
+// Mary. jira: SCAL-194093. docs jira: SCAL-226615. give a sample use case. Use screenshot from Demo Day presentation.
 // PM: Damian
 
 endif::free-trial-feature[]
@@ -215,7 +219,7 @@ endif::free-trial-feature[]
 // Naomi – jira: SCAL-220304. docs jira: SCAL-?
 // PM: Dilip. still marked Commit. go to training instance and take an image with fewer tabs.
 
-We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen.
+We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. Tabs have been moved to the top line of the header, next to the title.
 ////
 For more information, see
 ifndef::pendo-links[]
@@ -363,6 +367,10 @@ endif::free-trial-feature[]
 ThoughtSpot's schema viewer connection picker is now on by default and available to all users. You can now use the dropdown or search to select your connection in the schema viewer.
 
 NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
+
+[.bordered]
+image:schema-viewer.png[Change connection]
+
 ////
 For more information, see
 ifndef::pendo-links[]
@@ -372,7 +380,7 @@ ifdef::pendo-links[]
 xref:schema-viewer.adoc[Schema viewer connection picker,window=blank].
 endif::[]
 ////
-// Mary. jira: SCAL-224758. docs jira: SCAL-?
+// Mary. jira: SCAL-224758. docs jira: SCAL-?. add screenshot
 // PM: Samridh
 
 ifndef::free-trial-feature[]
