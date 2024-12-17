@@ -169,7 +169,7 @@ We made the following enhancements to pivot table charts:
 * You can now adjust column widths.
 * You can now slice with measures and attributes.
 * You can now use measure names and values for more granular control in configurations.
-* We now support native ThoughtSpot capabilities including, conditional formatting, and number formatting.
+* We now support native ThoughtSpot capabilities including conditional formatting, and number formatting.
 * We now support formatting for cells, headers and totals.
 
 // Mary. jira: SCAL-220512. docs jira:
