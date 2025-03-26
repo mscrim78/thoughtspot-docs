@@ -10,6 +10,54 @@ ifndef::free-trial-feature[]
 NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
 endif::free-trial-feature[]
 
+[#primary-10-8-0-cl]
+
+.[.badge .badge-outlined.badge-secondary]#Help and support features#
+****
+This release introduces important enhancements to help and support for ThoughtSpot users.
+
+[#10-8-0-cl-help]
+[discrete]
+=== ThoughtSpot help and support menu changes
+
+In this release we introduce a unified help and support experience in the ThoughtSpot.
+
+To open help and support, click the question mark icon image:icon-question-mark.png[Question Mark icon].
+
+Just like the original information center, you can access the help, getting started, and what's new. Now, you can also access support, and see the version of ThoughtSpot that you are currently using. The original support icon which appeared in the bottom right corner of ThoughtSpot has been removed.
+
+In addition to these features, your ThoughtSpot administrator can add custom links, which appear under the Contact support menu item.
+
+[.bordered]
+image::help-support-menu-v2.png[]
+
+IMPORTANT: We are gradually making this available customers, so if you don't see it immediately after your instance is upgraded, it should appear within one month.
+
+[#10-8-0-cl-support]
+[discrete]
+=== AI-assisted chat support changes
+
+With support, you can still send a message, book a call with a product specialist, or search for answers in our documentation, training and community sites, but you use the help and support menu to open the support window instead. You now also have the option of sharing a recording of your screen (without audio) if requested by a support agent, which can help them identify and resolve your issue more quickly.
+
+To use the chat-based support, do the following:
+
+. In the help and support menu, click *Contact support*.
++
+//[.bordered]
+//image::contact-support-v2.png[]
++
+The support window appears in the bottom-right corner of ThoughtSpot
++
+image::support-window-v2.png[]
+
+. Click *Send us a message*.
+
+NOTE: If you currently have your in-product support feature disabled, the *Contact support* menu option will display *Report a problem* instead.
+****
+// Mark – docs jira: SCAL-248448
+// PM: Jordan
+
+
 [#primary-10-7-0-cl]
 
 // Business User
