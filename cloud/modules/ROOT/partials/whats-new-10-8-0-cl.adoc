@@ -172,12 +172,22 @@ endif::free-trial-feature[]
 
 ThoughtSpot now supports bilingual keywords for the Japanese locale. When your system language is set as Japanese, you can now enter keywords in either English or Japanese while searching.
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-7-0-cl-decimal]
 [discrete]
-=== Currency formatting for Japanese
-ThoughtSpot introduces whole number formatting for Japanese Yen (JPY) currency.
+=== Currency formatting for Japanese [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-7-0-cl-decimal]
+[discrete]
+=== Currency formatting for Japanese [.badge.badge-beta]#Beta#
+endif::[]
+ThoughtSpot introduces whole number formatting for Japanese Yen (JPY) currency. To enable this feature, contact {support-url}.
+//For more information, see xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
 // Mary. jira: SCAL-235114. docs jira: SCAL-242800
-// PM: Vaibhav. Waiting for confirmation of enablement method from PM.
+// PM: Vaibhav.
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -217,8 +227,105 @@ You can now migrate feedback between Models using the feedback TML file. Select 
 
 [.bordered]
 image::feedback-migration.png[Export Spotter feedback]
-
 endif::free-trial-feature[]
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-8-0-cl-pivot-table-2]
+[discrete]
+=== Pivot table charts [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-8-0-cl-pivot-table-2]
+[discrete]
+=== Pivot table charts [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ThoughtSpot introduces a brand new pivot table chart. The new pivot table charts have the following features:
+
+* Faster load times with pagination.
+//* You can now expand and collapse all in pivot tables.
+* We now support custom sort order.
+* You can now adjust column widths.
+* You can now slice with measures and attributes.
+* You can now use values for more granular control in configurations.
+
+To enable this feature, contact your administrator.
+
+//For more information, see
+//ifndef::pendo-links[]
+//xref:chart-pivot-table.adoc#pivot-table-2-0[Pivot table charts].
+//endif::[]
+//ifdef::pendo-links[]
+//xref:chart-pivot-table.adoc#pivot-table-2-0[Pivot table charts,window=_blank].
+//endif::[]
+// Mary. jira: SCAL-224447. doc jira: SCAL-236449
+// PM: Manan
+// Enabled in Early Access page.
+endif::free-trial-feature[]
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-8-0-cl-cohorts]
+[discrete]
+=== Query set groups [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-8-0-cl-cohorts]
+[discrete]
+=== Query set groups [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ThoughtSpot users can now define groups for included query values using conditions in query sets. Conditions allow you to create groups using operators, to specify the parameters of the group.
+
+For example, you could create a query set that list each customer, their sales dollar amount, and then add a formula that ranks the amount in descending order. You could then add groups to define Gold, Silver, and Bronze levels where Gold is ranked 1-10, Silver 11-50, and Bronze every other value.
+
+To enable this feature, contact your administrator.
+//For more information, see
+//ifndef::pendo-links[]
+//xref:query-sets.adoc[Query sets].
+//endif::[]
+//ifdef::pendo-links[]
+//xref:query-sets.adoc[Query sets,window=_blank].
+//endif::[]
+[.bordered]
+image::query-sets-example.png[Query sets example]
+
+//[.bordered]
+//image::query-set-groups.png[Query set groups]
+// Mary. jira: SCAL-194093. docs jira: SCAL-226615
+// PM: Damian
+endif::free-trial-feature[]
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-8-0-cl-simple-cohorts]
+[discrete]
+=== Custom sets [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-8-0-cl-simple-cohorts]
+[discrete]
+=== Custom sets [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. A column set is a custom group of values from a single column. For example, you can use custom sets to define regions with specific countries included or excluded. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
+
+//For more information, see
+//ifndef::pendo-links[]
+//xref:column-sets.adoc[Custom sets].
+//endif::[]
+//ifdef::pendo-links[]
+//xref:column-sets.adoc[Custom sets,window=_blank].
+//endif::[]
+
+image::column-set.gif[Column set creation process]
+// Mary -- SCAL-150356
+// PM: Damian.
+endif::free-trial-feature[]
+
+
 
 
 [#10-7-0-cl-eula]
@@ -226,7 +333,7 @@ endif::free-trial-feature[]
 === Security update to end-user license agreement
 With the introduction of multifactor authentication (MFA) in ThoughtSpot, customers are prompted to review and acknowledge a new end-user license agreement (EULA). This EULA includes information about the risks associated with disabling MFA. You are prompted to review this EULA when ThoughtSpot introduces MFA support to your cluster. You are also prompted to review this EULA if you disable MFA on an existing cluster.
 // Mary. jira: SCAL-227896. docs jira: SCAL-?
-// PM: Aashica - Confirmed needs documentation for 10.7.0.cl. Awaiting doc JIRA and confirmation of release status for 10.7.0.cl. from Reshma. Hyphenate end-user? - confirmed that it is hyphenated for EULA.
+// PM: Aashica - Confirmed needs documentation for 10.7.0.cl. Awaiting doc JIRA and confirmation of release status for 10.7.0.cl. from Reshma. Hyphenate end-user? - confirmed that it is hyphenated for EULA. Announcement vs. new feature?
 
 
 ifndef::free-trial-feature[]
@@ -278,21 +385,14 @@ image::muze-studio-code-editor.png[]
 
 endif::free-trial-feature[]
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
+
 [#10-7-0-cl-cookie]
 [discrete]
-=== Support cookieless authentication flow for OAuth [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-7-0-cl-cookie]
-[discrete]
-=== Support cookieless authentication flow for OAuth [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-ThoughtSpot introduces support for authenticating your cloud data warehouse (CDW) with cookies disabled. Previously, you would encounter a 404 error and be unable to connect if cookies were disabled.
+=== Support cookieless authentication flow for OAuth
+Authenticating your cloud data warehouse (CDW) with cookies disabled is now available for all users and enabled by default. Previously, you would encounter a 404 error and be unable to connect if cookies were disabled.
 // Mary. jira: SCAL-231977. docs jira: SCAL-243142
-// PM: Prayansh - Waiting for confirmation about how this enabled from PM.
-endif::free-trial-feature[]
+// PM: Prayansh
+
 
 [#10-7-0-cl-oauth]
 [discrete]
