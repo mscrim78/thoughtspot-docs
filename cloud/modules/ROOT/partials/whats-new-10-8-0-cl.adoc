@@ -140,6 +140,16 @@ You can now add a parameter as a variable to the table header, column names, and
 // PM: Vaibhav
 
 
+[#10-8-0-cl-measure-names-and-values]
+[discrete]
+=== Blended axes in pivot table charts
+
+In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined field called Measure Names. This field acts like an attribute, with the different measures as its unique values. This makes it possible to have more combinations and configurations of charts, including the ability to slice the color for different measures, compare multiple measures together, and have more customizable pivot configurations.
+
+// Mark – jira: SCAL-239213. docs jira: SCAL-248223
+// PM: Manan
+
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-7-0-cl-feature-tag]
@@ -241,7 +251,7 @@ ifdef::pendo-links[]
 === Column name localization and aliasing [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-This feature provides the ability to define a column name alias based upon a language variable, the user's system language (or locale). This can be extended to support aliasing based on other variable keys such as: OrgID, ThoughtSpot group membership or user defined properties. Based on the system language selected in a user's profile, the appropriate column name is displayed in the search data and Answer interface. To enable this feature, contact {support-url}.
+This feature provides the ability to define a column name alias based upon a language variable, the user's system language. This can be extended to support aliasing based on other variable keys such as: OrgID, ThoughtSpot group membership or user defined properties. Based on the system language selected in a user's profile, the appropriate column name is displayed in the search data and Answer interface. To enable this feature, contact {support-url}.
 
 // Naomi. jira: SCAL-227169. docs jira: SCAL-?
 // PM: Damian
@@ -413,9 +423,9 @@ Org-specific URLs are now available to all users and on by default. URLs in emai
 
 [#10-8-0-early-access-features-revamp]
 [discrete]
-=== Admin > Early access features page update
+=== Admin > All Orgs > Early access features page update
 
-The Admin > Early access features page has been redesigned to allow an administrator to select multiple early access features and enable them all at the same time.
+The early access features page for administrators has been redesigned to allow an administrator to select multiple early access features and enable them all at the same time.
 
 // Mark. jira: SCAL-230258. docs jira: SCAL-242844
 // PM: Saurabh Pandey.
