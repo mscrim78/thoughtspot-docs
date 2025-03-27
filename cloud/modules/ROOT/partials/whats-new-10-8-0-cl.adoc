@@ -494,16 +494,6 @@ Org-specific URLs are now available to all users and on by default. URLs in emai
 // PM: Alok. none needed. Gartner feature.
 ////
 
-[#10-8-0-early-access-features-revamp]
-[discrete]
-=== Updated Early access features page for administrators
-
-The early access features page for administrators has been redesigned to allow an administrator to select multiple early access features and enable them all at the same time.
-
-// Mark. jira: SCAL-230258. docs jira: SCAL-242844
-// PM: Saurabh Pandey.
-// add to release notes only
-
 ifndef::free-trial-feature[]
 [discrete]
 === For the Developer
