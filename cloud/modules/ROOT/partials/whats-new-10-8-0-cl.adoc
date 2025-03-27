@@ -229,29 +229,30 @@ With the introduction of multifactor authentication (MFA) in ThoughtSpot, custom
 // PM: Aashica - Confirmed needs documentation for 10.7.0.cl. Awaiting doc JIRA and confirmation of release status for 10.7.0.cl. from Reshma. Hyphenate end-user? - confirmed that it is hyphenated for EULA.
 
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-8-0-cl-data-modeling]
+[discrete]
+=== Column name localization and aliasing [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-7-0-cl-data-modeling]
+[discrete]
+=== Column name localization and aliasing [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+This feature provides the ability to define a column name alias based upon a language variable, the user's system language (or locale). This can be extended to support aliasing based on other variable keys such as: OrgID, ThoughtSpot group membership or user defined properties. Based on the system language selected in a user's profile, the appropriate column name is displayed in the search data and Answer interface. To enable this feature, contact {support-url}.
+
+// Naomi. jira: SCAL-227169. docs jira: SCAL-?
+// PM: Damian
+
+
 '''
 [#secondary-10-7-0-cl]
 [discrete]
 === _Other features and enhancements_
 
 // Data Engineer
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-8-0-cl-connections-ux]
-[discrete]
-=== Redesigned Connections UI [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-8-0-cl-connections-ux]
-[discrete]
-=== Redesigned Connections UI [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-In this release, the connection creation experience has been redesigned to create a simpler and more streamlined when selecting data sources, databases, tables, and columns.
-
-// Naomi – jira: SCAL-233716. docs jira: ?
-// PM: Prayansh
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -410,7 +411,14 @@ Org-specific URLs are now available to all users and on by default. URLs in emai
 // PM: Alok. none needed. Gartner feature.
 ////
 
+[#10-8-0-early-access-features-revamp]
+[discrete]
+=== Admin > Early access features page update
 
+The Admin > Early access features page has been redesigned to allow an administrator to select multiple early access features and enable them all at the same time.
+
+// Mark. jira: SCAL-230258. docs jira: SCAL-242844
+// PM: Saurabh Pandey.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
