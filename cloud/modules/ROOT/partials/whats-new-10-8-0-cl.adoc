@@ -236,6 +236,22 @@ With the introduction of multifactor authentication (MFA) in ThoughtSpot, custom
 
 // Data Engineer
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-8-0-cl-connections-ux]
+[discrete]
+=== Redesigned Connections UI [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-8-0-cl-connections-ux]
+[discrete]
+=== Redesigned Connections UI [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+In this release, the connection creation experience has been redesigned to create a simpler and more streamlined when selecting data sources, databases, tables, and columns.
+
+// Naomi – jira: SCAL-233716. docs jira: ?
+// PM: Prayansh
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
