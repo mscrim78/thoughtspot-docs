@@ -57,6 +57,25 @@ NOTE: If you currently have your in-product support feature disabled, the *Conta
 // Mark – docs jira: SCAL-248448
 // PM: Jordan
 
+[#primary-10-7-0-cl]
+
+// Business User
+
+[#10-8-0-cl-locales]
+[discrete]
+=== New languages support
+
+In this release ThoughtSpot supports the following new system languages:
+
+- English (New Zealand)
+- German (Switzerland)
+- Spanish (Mexico)
+
+To set your system language to one of these languages, click the user icon in the upper-right corner of ThoughtSpot, select *Profile*, and then select the system language under Preferences.
+
+// Naomi. jiras: SCAL-231100, SCAL-231009, SCAL-215985 . docs jira: ?
+// PM: Aashna. waiting on info.
+
 
 [#primary-10-7-0-cl]
 
