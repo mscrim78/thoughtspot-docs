@@ -215,6 +215,48 @@ ThoughtSpot introduces enhanced number formatting controls for measures that are
 // PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
 endif::free-trial-feature[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-8-0-cl-lb-style-group]
+[discrete]
+=== Liveboard styling and grouping [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-8-0-cl-lb-style-group]
+[discrete]
+=== Liveboard styling and grouping [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+ThoughtSpot introduces new styling and grouping options for Liveboards. Styles can be applied to a Liveboard, a tile, or a group of tiles to improve readability, differentiate specific content, or apply organizational branding guidelines.
+//For more information, see Liveboard grouping and Liveboard styling.
+To enable this feature, contact {support-url}.
+// Mary. jira: SCAL-231927. docs jira:?
+// PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
+endif::free-trial-feature[]
+
+[#10-8-0-cl-sql-chart-type]
+[discrete]
+=== Chart type displayed in SQL
+ThoughtSpot now displays the chart type when you view the SQL query used to generate the chart.
+//For more information, see xref:charts.adoc[Query SQL].
+//Mary. JIRA: SCAL-217624. docs JIRA: ?
+//PM: Damian - no previous WN entry for this (Beta or EA) - no maked as Beta or EA in the current docs.
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-8-0-cl-PDF-page-incl]
+[discrete]
+=== Include or exclude cover and filter pages from a Liveboard PDF [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-8-0-cl-PDF-page-incl]
+[discrete]
+=== Include or exclude cover and filter pages from a Liveboard PDF [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ThoughtSpot Liveboard PDFs include a cover page and filter pages that contain information about the filters applied. You can now use the *PDF Options* checkboxes to choose to include or exclude these page when downloading or scheduling a Liveboard PDF. To enable this feature, contact {support-URL}.
+
+// Mary. jira: SCAL-240782. docs jira: SCAL-247610
+// PM: Siddhant Rohela - EA confirmed
+endif::free-trial-feature[]
 
 
 // Analyst
