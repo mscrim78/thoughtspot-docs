@@ -485,7 +485,25 @@ ThoughtSpot now distinguishes between regular query consumption and Spotter quer
 // Developer
 
 // IT/Ops Engineer
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-8-0-cl-scim-support]
+[discrete]
+=== System Cross Domain Identity management support [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-8-0-cl-scim-support]
+[discrete]
+=== System Cross Domain Identity management support [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+ThoughtSpot introduces system cross domain identity management (SCIM) support to automate identity management and user provisioning across different identity management systems. Customers who use identity providers like Okta, or Active Directory for identity management can now sync their user-management functions between their IdP and ThoughtSpot Cloud. Users are provisioned with their corresponding group and org attributes when they authenticate via SSO (SAML). Users that are deactivated in their IDP are removed from ThoughtSpot as well.
 
+To enable this feature, contact {support-url}.
+
+// Mary – jira: SCAL-84792. docs jira:?.
+// PM: Reshma?
+
+endif::free-trial-feature[]
 
 ////
 [#10-7-0-cl-org]
