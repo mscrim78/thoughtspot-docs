@@ -89,11 +89,6 @@ ThoughtSpot introduces a brand new pivot table chart. The new pivot table charts
 +
 To enable this feature, contact your administrator. For more information, see xref:chart-pivot-table.adoc#pivot-table-2-0[Pivot table charts].
 
-//Mary. JIRA: SCAL-217624. docs JIRA: ?
-Chart type displayed in SQL::
-ThoughtSpot now displays the chart type when you view the SQL query used to generate the chart.
-For more information, see xref:charts.adoc[Query SQL].
-
 [#10-6-0-cl-business-user]
 === For the Business User
 
@@ -136,25 +131,6 @@ In this release, we provide new options for sorting and filtering Answers and Li
 To confirm you are using the new navigation and homepage, go to your user profile and make sure Navigation and Homepage is set to *New experience*. For more information, see
 xref:thoughtspot-one-homepage.adoc[Home page].
 
-Iterative change analysis enhancements::
-
-The following new features are available in iterative change analysis:
-
-- Undo, redo and reset functionality.
-- Header information now displays the source and Answer name for easy reference.
-- Answer description and layout have been redesigned to improve readability and engagement.
-- Attribute value suggestions to encourage more effective iterative analysis.
-- Updates to the visual design to improve usability.
-
-// Mark. jiras: SCAL-221862. docs jira: SCAL-248276
-// PM: Rahul PJP.
-
-// Mary. jira: SCAL-240782. docs jira: SCAL-247610
-Include or exclude cover and filter pages from a Liveboard PDF [.badge.badge-early-access-relnotes]#Early Access#::
-ThoughtSpot Liveboard PDFs include a cover page and filter pages that contain information about the filters applied. You can now use the *PDF Options* checkboxes to choose to include or exclude these page when downloading or scheduling a Liveboard PDF. To enable this feature, contact {support-URL}.
-
-endif::free-trial-feature[]
-
 [#10-6-0-cl-data-engineer]
 === For the Data Engineer
 
@@ -182,10 +158,6 @@ Optimize data model for Spotter:: You can now optimize your data model for Spott
 User-defined ID in TML [.badge.badge-beta-relnotes]#Beta#:: Rather than using a system-generated GUID to identify individual objects in TML files, you can now manually set an object property (`obj_id`) with a uniqueness constraint on the Org level. This allows you to manage content across multiple Orgs without having to manually change the GUID of an object each time you move it between Orgs. To enable this feature, contact {support-url}.
 +
 For more information, see xref:tml.adoc#user-defined-id[User-defined ID in TML].
-
-// Mary. jira: SCAL-231977. docs jira: SCAL-243142
-Support cookieless authentication flow for OAuth::
-Authenticating your cloud data warehouse (CDW) with cookies disabled is now available for all users and enabled by default. Previously, you would encounter a 404 error and be unable to connect if cookies were disabled.
 
 [#10-6-0-cl-it-ops]
 === For the IT/Ops Engineer
@@ -228,14 +200,6 @@ Import and export users, groups, roles, and privileges programmatically, using T
 To enable this feature, contact your administrator.
 +
 For more information, see xref:admin-portal-users.adoc[Managing users], xref:admin-portal-groups.adoc[Managing groups], xref:rbac.adoc[Understand RBAC and privileges].
-
-// Mary. jira: SCAL-227896. docs jira: SCAL-?
-Security update to end-user license agreement::
-With the introduction of multifactor authentication (MFA) in ThoughtSpot, customers are prompted to review and acknowledge a new end-user license agreement (EULA). This EULA includes information about the risks associated with disabling MFA. You are prompted to review this EULA when ThoughtSpot introduces MFA support to your cluster. You are also prompted to review this EULA if you disable MFA on an existing cluster.
-
-// PM: Aashica - Confirmed needs documentation for 10.7.0.cl. Awaiting doc JIRA and confirmation of release status for 10.7.0.cl. from Reshma. Hyphenate end-user? - confirmed that it is hyphenated for EULA. Announcement vs. new feature?
-
-
 
 [#10-6-0-cl-developer]
 === For the Developer
