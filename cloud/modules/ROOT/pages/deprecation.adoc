@@ -29,7 +29,7 @@ NOTE: This feature is now deprecated. You may not use it starting with release 7
 
 == Removed in 10.10.0.cl
 
-The 10.10.0.cl release of ThoughtSpot Cloud, targeted for the second half of 2025, removes the following feature from the *Data workspace*:
+The 10.10.0.cl release of ThoughtSpot Cloud, targeted for the June 2025, removes the following feature from the *Data workspace*:
 
 - *Create new* > *Worksheet*
 +
@@ -37,7 +37,7 @@ All existing Worksheets will be migrated automatically to Models in this release
 
 == Removed in 10.9.0.cl
 
-The 10.9.0.cl release of ThoughtSpot Cloud, targeted for Fall 2025, removes the following features:
+The 10.9.0.cl release of ThoughtSpot Cloud, targeted for May 2025, removes the following features:
 
 - Sage
 - Ask Sage
@@ -46,7 +46,7 @@ Spotter replaces the previous Sage and Ask Sage features. For more information, 
 
 == Deprecated in 10.8.0.cl
 
-The 10.8.0.cl release of ThoughtSpot Cloud, targeted for May 2025, deprecates the following features:
+The 10.8.0.cl release of ThoughtSpot Cloud, targeted for April 2025, deprecates the following features:
 
 - Sage
 - Ask Sage
