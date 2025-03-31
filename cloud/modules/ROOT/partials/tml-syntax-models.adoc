@@ -148,11 +148,11 @@ NOTE: If you edit the joins in the Model TML file, you are only editing the join
       <<range_max,range_max>>: <parameter_n_range_maximum>
       <<include_min,include_min>>: [true | false]
       <<include_max,include_max>>: [true | false]
- <<column_groups,column_groups>>:
- - <<type,type>>: DATA_PANEL
-   <<properties,properties>>:
-     <<status,status>>: ENABLE
-     <<default_sort,default_sort>>: ENABLE
+  <<column_groups,column_groups>>:
+  - <<type,type>>: DATA_PANEL
+    <<properties,properties>>:
+      <<status,status>>: ENABLE
+      <<default_sort,default_sort>>: ENABLE
     <<column_group_info,column_group_info>>:
     - <<name,name>>: Name_1
       <<include_ungrouped_columns,include_ungrouped_columns>>: false
