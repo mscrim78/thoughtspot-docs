@@ -78,7 +78,7 @@ endif::free-trial-feature[]
 [discrete]
 === New languages support
 
-In this release ThoughtSpot supports the following new system languages:
+In this release, ThoughtSpot supports the following new system languages:
 
 - English (New Zealand)
 - German (Switzerland)
@@ -148,7 +148,7 @@ endif::[]
 
 // Naomi – jira: SCAL-215657. docs jira: SCAL-243597
 // PM: Rahul PJP
-// Simplify/shorten. intended brands = attributes plural or singular?
+// Simplify/shorten. intended brands = attributes plural or singular? Singular.
 
 You can now set KPI alerts to trigger when a selected attribute changes. This can include changes in the value of the attribute, such as an increase in sales by percentage by state, or a scheduled alert to trigger on a weekly basis.
 
