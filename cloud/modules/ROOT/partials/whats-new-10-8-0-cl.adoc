@@ -114,9 +114,9 @@ endif::free-trial-feature[]
 
 [#10-7-0-cl-parameter]
 [discrete]
-=== Parameters in column names of charts and tables
+=== Dynamic parameters in Answers
 
-You can now add a parameter as a variable to the table header, column names, and axis names of a chart. Any references to the parameter in a Liveboard or Answer automatically update to show the current value of the parameter.
+You can now add a parameter as a variable to a measure or attribute in an Answer. When you select a different parameter value for the measure or attribute, the data in the Answer changes to reflect the current data for that parameter value. Any reference to that parameter in Liveboards or Answers automatically displays the current data corresponding to the value of the parameter. For example, if you have a parameter which contains three possible values (*Price*, *Shipping Cost*, and *Quantity*), when you select *Price*, the data shows information about the price of an item. When you select *Shipping Cost*, it shows the cost of shipping the item, and when you select *Quantity*, it shows the quantity of the item purchased.
 
 // Provide a simple example, once I get hands on with the feature. clarify that it's both for table view and chart view. change title to mention dynamic parameters in answers, not charts.
 
