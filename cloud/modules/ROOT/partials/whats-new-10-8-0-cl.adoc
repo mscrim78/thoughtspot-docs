@@ -343,15 +343,15 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-8-0-cl-data-modeling]
 [discrete]
-=== Column name and description localization and aliasing [.badge.badge-beta]#Beta#
+=== Column name aliasing for localization [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-7-0-cl-data-modeling]
 [discrete]
-=== Column name and description localization and aliasing [.badge.badge-beta-whats-new]#Beta#
+=== Column name aliasing for localization [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-This feature provides the ability to define a column name or description alias based upon a language variable, the user's system language. Based on the system language selected in a user's profile, the appropriate localized column name or description is displayed in the search data and Answer interface. To enable this feature, contact {support-url}.
+This feature provides the ability to define a column name alias in a Worksheet or Model which allows column names to be displayed in a supported system language. When enabled, column names in the search data and Answer interface display in the system language selected by the user in their ThoughtSpot user profile. To enable this feature, contact {support-url}.
 
 // Naomi. jira: SCAL-227169. docs jira: SCAL-?
 // PM: Damian
