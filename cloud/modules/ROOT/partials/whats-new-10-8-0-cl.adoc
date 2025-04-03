@@ -45,7 +45,7 @@ NOTE: If you currently have your in-product support feature disabled, the *Conta
 
 [#10-6-0-cl-learnability]
 [discrete]
-=== Learnability in conversation: feedback generation in follow-up questions
+=== Spotter feedback in conversation
 
 // Naomi. jira: SCAL-218237. docs jira: SCAL-239699
 // PM: Alok. waiting on info.
@@ -315,7 +315,16 @@ endif::free-trial-feature[]
 [discrete]
 === Model knowledge cards
 
-Model knowledge cards is now available to all users and on by default. With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column. For more information, see xref:models.adoc#knowledge-cards[Knowledge cards].
+Model knowledge cards is now available to all users and on by default. With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column.
+////
+For more information, see
+ifndef::pendo-links[]
+xref:models.adoc#knowledge-cards[Knowledge cards].
+endif::[]
+ifdef::pendo-links[]
+xref:models.adoc#knowledge-cards[Knowledge cards,window=_blank].
+endif::[]
+////
 
 // Mark. jira: SCAL-224609. docs jira: SCAL-248456
 // PM: Samridh
