@@ -116,7 +116,7 @@ endif::free-trial-feature[]
 [discrete]
 === Dynamic parameters in Answers
 
-You can now add a parameter as a variable to a measure or attribute in an Answer. When you select a different parameter value for the measure or attribute, the data in the Answer changes to reflect the current data for that parameter value. Any reference to that parameter in Liveboards or Answers automatically displays the current data corresponding to the value of the parameter. For example, if you have a parameter which contains three possible values (*Price*, *Shipping Cost*, and *Quantity*), when you select *Price*, the data shows information about the price of an item. When you select *Shipping Cost*, it shows the cost of shipping the item, and when you select *Quantity*, it shows the quantity of the item purchased.
+You can now add a parameter as a variable to a measure or attribute in an Answer. In your Answer, you create a formula which displays data from a different column depending on the parameter value selected. When you select a different parameter value, the data and the contextual information in the Answer changes to reflect the column associated with that parameter value. Any place a parameter is used in Liveboards or Answers automatically displays the current data associated with the parameter value.
 
 // Provide a simple example, once I get hands on with the feature. clarify that it's both for table view and chart view. change title to mention dynamic parameters in answers, not charts.
 
