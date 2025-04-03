@@ -70,7 +70,7 @@ ThoughtSpot introduces Spotter shortcuts that allow you to select from existing 
 //For more information, see xref:spotter-getting-started.adoc#spotter-shortcuts[Spotter shortcuts].
 // Mary – jira: SCAL-233271. docs jira:SCAL-245110
 // PM: Sam Weick
-// Add gif
+// Add gif - waiting on Sam for an appropriate indexed worksheet to use for the gif.
 
 endif::free-trial-feature[]
 
@@ -200,7 +200,7 @@ endif::[]
 ThoughtSpot introduces enhanced number formatting controls for measures that are marked as attributes in the data source. Use this enhanced formatting to ensure that measures marked as attributes are formatted with the appropriate number format. To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-237236. docs jira: SCAL-246082
 // PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
-// add an example
+// Manan is lookin at the example - will add when approved.
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
@@ -219,11 +219,12 @@ ThoughtSpot introduces new styling and grouping options for Liveboards. Styles c
 To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-231927. docs jira:?
 // PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
-// add a gif
+// need to add a gif - troubleshooting mp4 creation
 endif::free-trial-feature[]
 
 // Analyst
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-8-0-cl-pivot-table-2]
@@ -258,7 +259,9 @@ To enable this feature, contact your administrator.
 // Enabled in Early Access page.
 // Remove this and not in release notes
 
+
 endif::free-trial-feature[]
+////
 
 '''
 [#secondary-10-7-0-cl]
@@ -453,20 +456,19 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-8-0-cl-scim-support]
 [discrete]
-=== System Cross Domain Identity management support [.badge.badge-beta]#Beta#
+=== System cross-domain identity management support [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-8-0-cl-scim-support]
 [discrete]
-=== System Cross Domain Identity management support [.badge.badge-beta-whats-new]#Beta#
+=== System cross-domain identity management support [.badge.badge-beta-whats-new]#Beta#
 endif::[]
-ThoughtSpot introduces system cross domain identity management (SCIM) support to automate identity management and user provisioning across different identity management systems. Customers who use identity providers like Okta, or Active Directory for identity management can now sync their user-management functions between their IdP and ThoughtSpot Cloud. Users are provisioned with their corresponding group and org attributes when they authenticate via SSO (SAML). Users that are deactivated in their IDP are removed from ThoughtSpot as well.
+ThoughtSpot introduces system cross-domain identity management (SCIM) support to automate identity management and user provisioning across different identity management systems. Customers who use identity providers like Okta, or Active Directory for identity management can now sync their user-management functions between their IdP and ThoughtSpot Cloud. Users are provisioned with their corresponding group and org attributes when they authenticate via SSO (SAML). Users that are deactivated in their IDP are removed from ThoughtSpot as well.
 
 To enable this feature, contact {support-url}.
 
 // Mary – jira: SCAL-84792. docs jira:?.
-// PM: Reshma?
-// cross domain hyphenated?
+// PM: Reshma
 
 endif::free-trial-feature[]
 
