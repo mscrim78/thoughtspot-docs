@@ -128,7 +128,7 @@ You can now add a parameter as a variable to a measure or attribute in an Answer
 [discrete]
 === Blended axes in pivot table charts
 
-In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called *Values* in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. This makes it possible to have more combinations and configurations of charts, including slicing the color for different measures, comparing multiple measures together, and having more customizable pivot configurations.
+In this release, we introduce a new way of adding multiple measures to _Pivot table classic_ and _Pivot table NEW_ charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called *Values* in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. This makes it possible to have more combinations and configurations of charts, including slicing the color for different measures, comparing multiple measures together, and more customizable pivot configurations.
 
 [.bordered]
 image::blended-axes-pt.png[]
