@@ -152,7 +152,7 @@ You can now add a parameter name directly in chart components like axis labels a
 [discrete]
 === Blended axes in pivot table charts
 
-In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called *Values* in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. This makes it possible to have more combinations and configurations of charts, including slicing the color for different measures, comparing multiple measures together, and more customizable pivot configurations.
+In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called *Values* in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. You can place measures anywhere across rows and columns in your pivot table. This makes it possible to have more combinations and configurations of charts, and compare multiple measures together.
 
 +++
 <video autoplay loop muted controls width="100%" controlsList="nodownload">
@@ -349,25 +349,6 @@ image::muze-studio-code-editor.png[]
 
 endif::free-trial-feature[]
 
-[#10-8-0-cl-model-knowledge-cards]
-[discrete]
-=== Model knowledge cards
-
-Model knowledge cards are now available to all users and on by default. With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column.
-////
-For more information, see
-ifndef::pendo-links[]
-xref:models.adoc#knowledge-cards[Knowledge cards].
-endif::[]
-ifdef::pendo-links[]
-xref:models.adoc#knowledge-cards[Knowledge cards,window=_blank].
-endif::[]
-////
-
-// Mark. jira: SCAL-224609. docs jira: SCAL-248456
-// PM: Samridh
-// Below the fold
-
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-7-0-cl-tml]
@@ -455,6 +436,25 @@ We redesigned and streamlined the process to create a Connection. Set up your Co
 
 
 endif::free-trial-feature[]
+
+[#10-8-0-cl-model-knowledge-cards]
+[discrete]
+=== Model knowledge cards
+
+Model knowledge cards are now available to all users and on by default. With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column.
+////
+For more information, see
+ifndef::pendo-links[]
+xref:models.adoc#knowledge-cards[Knowledge cards].
+endif::[]
+ifdef::pendo-links[]
+xref:models.adoc#knowledge-cards[Knowledge cards,window=_blank].
+endif::[]
+////
+
+// Mark. jira: SCAL-224609. docs jira: SCAL-248456
+// PM: Samridh
+// Below the fold
 
 [#10-7-0-cl-bridge]
 [discrete]
