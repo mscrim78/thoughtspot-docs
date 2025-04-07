@@ -77,7 +77,7 @@ ThoughtSpot introduces Spotter shortcuts that allow you to select from existing 
 //For more information, see xref:spotter-getting-started.adoc#spotter-shortcuts[Spotter shortcuts].
 // Mary – jira: SCAL-233271. docs jira:SCAL-245110
 // PM: Sam Weick
-// Add gif - waiting on Sam for an appropriate indexed worksheet to use for the gif.
+// Add gif
 
 endif::free-trial-feature[]
 
@@ -97,7 +97,7 @@ ThoughtSpot introduces new styling and grouping options for Liveboards. Styles c
 To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-231927. docs jira:?
 // PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
-// need to add a gif - troubleshooting mp4 creation
+
 endif::free-trial-feature[]
 
 [#primary-10-8-0-cl]
@@ -235,7 +235,7 @@ endif::[]
 ThoughtSpot introduces enhanced number formatting controls for measures that are marked as attributes in the data source. Use this enhanced formatting to ensure that measures marked as attributes are formatted with the appropriate number format. To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-237236. docs jira: SCAL-246082
 // PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
-// Manan is lookin at the example - will add when approved.
+// .gif required
 endif::free-trial-feature[]
 
 
@@ -490,12 +490,14 @@ ifdef::pendo-links[]
 [discrete]
 === System cross-domain identity management support [.badge.badge-beta-whats-new]#Beta#
 endif::[]
-ThoughtSpot introduces system cross-domain identity management (SCIM) support to automate identity management and user provisioning across different identity management systems. Customers who use identity providers like Okta, or Active Directory for identity management can now sync their user-management functions between their IdP and ThoughtSpot Cloud. Users are provisioned with their corresponding group and org attributes when they authenticate via SSO (SAML). Users that are deactivated in their IDP are removed from ThoughtSpot as well.
+ThoughtSpot introduces system cross-domain identity management (SCIM) support to automate identity management and user provisioning across different identity management systems.
+//Customers who use identity providers like Okta, or Active Directory for identity management can now sync their user-management functions between their IdP and ThoughtSpot Cloud.
+Users are provisioned with their corresponding group and org attributes when they authenticate via SSO (SAML). Users that are deactivated in their IDP are removed from ThoughtSpot as well.
 
 To enable this feature, contact {support-url}.
 
 // Mary – jira: SCAL-84792. docs jira:?.
-// PM: Reshma. simplify and shorten. Is this a sync between IdPs and ThoughtSpot? Shorten first sentence and keep last two sentences.
+// PM: Reshma.
 
 endif::free-trial-feature[]
 
