@@ -73,10 +73,10 @@ endif::[]
 ifdef::pendo-links[]
 xref:spotter-getting-started.adoc#learnability[Coach Spotter within a conversation,window=_blank].
 endif::[]
-////
+
 
 endif::free-trial-feature[]
-
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
