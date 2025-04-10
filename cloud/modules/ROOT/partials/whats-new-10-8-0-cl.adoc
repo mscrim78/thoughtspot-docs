@@ -87,6 +87,7 @@ ThoughtSpot introduces Spotter shortcuts that allow you to select from existing 
 
 endif::free-trial-feature[]
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-8-0-cl-lb-style-group]
@@ -105,7 +106,7 @@ To enable this feature, contact {support-url}.
 // PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
 
 endif::free-trial-feature[]
-
+////
 [#primary-10-8-0-cl]
 
 // Business User
@@ -499,6 +500,7 @@ Bridge provides options to securely connect your data source with ThoughtSpot Cl
 // Developer
 
 // IT/Ops Engineer
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-8-0-cl-scim-support]
@@ -520,7 +522,7 @@ To enable this feature, contact {support-url}.
 // PM: Reshma.
 
 endif::free-trial-feature[]
-
+////
 ////
 [#10-7-0-cl-org]
 [discrete]
